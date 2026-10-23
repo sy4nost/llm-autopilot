@@ -1,24 +1,24 @@
-# Формула Alex: «сила голоса = похожесть случая × одинаковость условий» (14B, 2026-10-17)
-Qwen2.5-14B-Instruct, H100. 40 голов-копировщиц (b40). Начиная с вопроса, к весу внимания на примеры ПЕРИОДА 1 (решены по старому правилу) добавляется log(w); примеры ПЕРИОДА 2 и всё остальное не трогаются. w = 1 — обычная модель, w = 0 — полное закрытие. Наборы 15–29 (на них головы не подбирались). Стоимость < $1.
-Файлы: make_eras.py → sets_eras.json, check_eras.py, modal_eras.py, score_eras.py → score_eras_out.txt, eras_Qwen2.5-14B-Instruct.jsonl.
+# Alex's formula: "vote strength = case similarity × sameness of conditions" (14B, 2026-10-17)
+Qwen2.5-14B-Instruct, H100. 40 copying heads (b40). From the question onward, log(w) is added to the attention weight on PERIOD 1 examples (solved under the old rule); PERIOD 2 examples and everything else are untouched. w = 1 is the normal model, w = 0 is full closing. Sets 15–29 (heads were not selected on them). Cost < $1.
+Files: make_eras.py → sets_eras.json, check_eras.py, modal_eras.py, score_eras.py → score_eras_out.txt, eras_Qwen2.5-14B-Instruct.jsonl.
 
-## Проверки правильности
-- Данные: check_eras.py заново выводит каждую из 70 меток в каждом из 240 запросов по тексту правил в самом запросе (не через код генератора): 0 ошибок. Если испортить один пример, проверка его ловит.
-- w = 1 даёт в точности обычную модель: максимальная разница 0.000 на всех 240.
-- A60 с w = 0 повторяет прошлый прогон глушения b40: 60 из 60 одинаковых ответов, разница 0.000.
-- Границы периодов напечатаны словами (первая строка jsonl): период 1 = «Below are 60 solved … -> FREEZE», вопрос = «Classify the TEST case».
-- Независимый рецензент: серьёзных ошибок нет. По двум замечаниям исправлено: период 2 у E_copy и E_nocopy теперь одинаковый, кроме одной позиции, а замена копии — нейтральный случай.
+## Correctness checks
+- Data: check_eras.py re-derives each of the 70 labels in each of the 240 prompts from the rule text in the prompt itself (not through the generator code): 0 errors. If one example is corrupted, the check catches it.
+- w = 1 gives exactly the normal model: maximum difference 0.000 on all 240.
+- A60 with w = 0 repeats the earlier b40 silencing run: 60 of 60 identical answers, difference 0.000.
+- Period boundaries are printed in words (first jsonl line): period 1 = "Below are 60 solved … -> FREEZE", question = "Classify the TEST case".
+- Independent reviewer: no serious errors. Two remarks fixed: period 2 of E_copy and E_nocopy is now identical except for one position, and the copy replacement is a neutral case.
 
-## Результат (верные ответы; D1+D3 — случаи, где старое правило ведёт к ошибке)
-| тест | обычно | w 0.3 | w 0.1 | w 0.03 | w 0 |
+## Result (correct answers; D1+D3 are the cases where the old rule leads to an error)
+| test | normal | w 0.3 | w 0.1 | w 0.03 | w 0 |
 |---|---|---|---|---|---|
-| E_copy: после смены есть пример ровно этого случая по новому правилу | 70% | 87% | **90%** | 93% | 93% |
-| E_nocopy: после смены 10 примеров, но не этот случай | 7% | 10% | 17% | 20% | 23% |
-| A60: только старые примеры | 10% | 10% | 13% | 13% | 27% |
-| N_same: правило не менялось (формула = 1) | 100% | 100% | 100% | 100% | 100% |
-w 0.1 против обычного: E_copy +20% [+7, +37]; E_nocopy +10% [0, +20]. Старые ответы в E_copy 30% → 10%, в E_nocopy 93% → 80%.
+| E_copy: after the change there is an example of exactly this case under the new rule | 70% | 87% | **90%** | 93% | 93% |
+| E_nocopy: 10 examples after the change, but not this case | 7% | 10% | 17% | 20% | 23% |
+| A60: only old examples | 10% | 10% | 13% | 13% | 27% |
+| N_same: rule unchanged (formula = 1) | 100% | 100% | 100% | 100% | 100% |
+w 0.1 vs normal: E_copy +20% [+7, +37]; E_nocopy +10% [0, +20]. Old answers in E_copy 30% → 10%, in E_nocopy 93% → 80%.
 
-## Что это значит
-1. Формула работает там, где у модели есть свежий опыт при новых условиях: она начинает опираться на него, а не на старую копию (70% → 90%).
-2. Если свежего опыта именно по этому случаю нет, формула помогает мало (7% → 17%). Привычка держится не только на копировщицах: правило, выученное из 60 примеров, сидит глубже (слои до 29), и голос новой строки об изменении слабее.
-3. Когда условия не менялись, вреда нет: даже если ослабить старые примеры по ошибке, ответы не портятся (100%), потому что такие же случаи есть и в периоде 2.
+## What it means
+1. The formula works where the model has fresh experience under the new conditions: it starts relying on it instead of the old copy (70% → 90%).
+2. If there is no fresh experience for exactly this case, the formula helps little (7% → 17%). The habit does not rest only on the copying heads: a rule learned from 60 examples sits deeper (layers below 29), and the voice of the new change line is weaker.
+3. When conditions did not change there is no harm: even if old examples are weakened by mistake, answers are not spoiled (100%), because the same cases are also present in period 2.

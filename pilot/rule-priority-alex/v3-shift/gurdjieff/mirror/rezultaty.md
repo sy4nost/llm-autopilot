@@ -1,27 +1,27 @@
-# Тест с зеркалом — итог (2026-10-19)
-Модель Qwen2.5-14B, наши задачи R и D (1399 вопросов). Правила записаны и заморожены до прогона: PREREG.md. Полный вывод: report_main.txt.
-Сверка: ответы без строки совпали с прошлыми в 99,8 и 100 из 100.
+# The mirror test: result (2026-10-19)
+Model Qwen2.5-14B, our R and D tasks (1399 questions). Rules written and frozen before the run: PREREG.md. Full output: report_main.txt.
+Sanity check: answers without the extra line matched the earlier ones in 99.8 and 100 out of 100.
 
-## Короткий ответ
-**Зеркало не помогло, а навредило.** Строка «твой внутренний датчик показывает: написанное спорит с тем, что ты знаешь» там, где лампочка горит,
-снизила правильные ответы на ловушках с 63 до 55 из 100 (−7,7, надёжно ниже нуля). Та же мысль без слов про датчик
-(«написанное может спорить с тем, что ты знаешь») подняла их до 82 (+19).
+## Short answer
+**The mirror did not help; it hurt.** The line "your internal sensor shows: what is written conflicts with what you know", placed where the lamp fires,
+lowered correct answers on traps from 63 to 55 out of 100 (−7.7, reliably below zero). The same thought without the words about a sensor
+("what is written may conflict with what you know") raised them to 82 (+19).
 
-## Ловушки (правильных из 100)
-| | без строки | зеркало (где лампочка) | та же мысль без датчика (где лампочка) | общая строка «будь внимателен» | зеркало везде |
+## Traps (correct out of 100)
+| | no line | mirror (where lamp fires) | same thought without sensor (where lamp fires) | generic line "be careful" | mirror everywhere |
 |---|---|---|---|---|---|
-| ловушки R | 47 | 44 | 64 | 43 | 44 |
-| определения D | 78 | 66 | 100 | 80 | 62 |
+| R traps | 47 | 44 | 64 | 43 | 44 |
+| definitions D | 78 | 66 | 100 | 80 | 62 |
 
-Где привычный ответ верный (R верный, R согласен, D без спора, R вычислить): вреда нет ни у одного варианта (изменения от −0,6 до +1,4).
+Where the habitual answer is correct (R correct, R agrees, D no conflict, R compute): no variant does harm (changes from −0.6 to +1.4).
 
-Вердикт по правилам: M1 провал (−7,7), M2 провал (лампочка хуже случайного места, −3,4), M3 провал (зеркало хуже той же мысли без датчика, −26,7),
-M5 и вред — прошли. ЗЕРКАЛО НЕ ПОКАЗАНО.
+Verdict by the rules: M1 fail (−7.7), M2 fail (the lamp is worse than a random placement, −3.4), M3 fail (the mirror is worse than the same thought without the sensor, −26.7),
+M5 and harm passed. MIRROR NOT SHOWN.
 
-## После прогона (заранее не планировалось): та же мысль без датчика, на всех вопросах
-ловушки R 62, D 100 — почти столько же, сколько только там, где лампочка горит (64 и 100), и без вреда.
-То есть работает сама подсказка, а лампочка, где её ставить, почти ничего не добавляет. Файл: posthoc_hint.txt.
+## After the run (not planned in advance): the same thought without the sensor, on all questions
+R traps 62, D 100: almost the same as only where the lamp fires (64 and 100), and without harm.
+So the hint itself does the work, and the lamp, i.e. where to place it, adds almost nothing. File: posthoc_hint.txt.
 
-## Что это может значить (догадка, не проверена)
-Слова «твой внутренний датчик… с тем, что ты знаешь» как будто ставят на первое место знание модели («ты знаешь»), и она сильнее держится за привычный ответ.
-Подсказка без датчика оставляет на первом месте текст задачи. Проверить можно, поменяв в строке датчика акцент («датчик: следуй написанному»).
+## What it might mean (a guess, untested)
+The words "your internal sensor... with what you know" seem to put the model's knowledge first ("you know"), and it holds on to the habitual answer more strongly.
+The hint without the sensor keeps the task text first. This can be checked by changing the emphasis of the sensor line ("sensor: follow what is written").

@@ -1,37 +1,36 @@
-# Подпись к примерам: «правильные решения» или просто «прошлые случаи» (14B, 2026-10-16)
+# Caption for the examples: "correct solutions" or just "past cases" (14B, 2026-10-16)
 
-Вопрос Alex: может, модель копирует прошлые ответы, потому что мы назвали их правильными?
+Alex's question: maybe the model copies past answers because we called them correct?
 
-## Как устроено
+## Setup
 
-Те же 30 наборов, история 60 примеров, условия A (точная копия теста в истории), B (без копии), C (без примеров
-отменённого условия), один проход, со сменой правила и без. Меняется только подпись к примерам:
-- 0: «Below are 60 solved examples. They show cases and their correct classifications.» (как раньше)
-- 1: «Below are 60 past cases and the labels they were given at the time.» (без слова «правильные»)
-- 2: как 1, плюс «whether each label was correct under the rules in force at that time», и у каждого примера
-  пометка «(correct under the rules in force at that time)».
-540 запросов на подпись × 5 ответов, H100. Файлы: `make_neutral.py`, `sets_neutral1.json`, `sets_outcome.json`,
-`results_neutral/`, `results_outcome/`, `score_neutral.py`, вывод `score_neutral_out.txt`. Подпись 0 взята из
-прогона A/B/C (`results/`).
+The same 30 sets, a history of 60 examples, conditions A (exact copy of the test in history), B (no copy), C (no
+examples of the cancelled condition), one pass, with and without a rule change. Only the caption of the examples changes:
+- 0: "Below are 60 solved examples. They show cases and their correct classifications." (as before)
+- 1: "Below are 60 past cases and the labels they were given at the time." (without the word "correct")
+- 2: as 1, plus "whether each label was correct under the rules in force at that time", and each example is marked
+  "(correct under the rules in force at that time)".
+540 prompts per caption × 5 answers, H100. Files: `make_neutral.py`, `sets_neutral1.json`, `sets_outcome.json`,
+`results_neutral/`, `results_outcome/`, `score_neutral.py`, output `score_neutral_out.txt`. Caption 0 is taken from
+the A/B/C run (`results/`).
 
-## Результат: ответы по старому правилу на D1+D3 после смены
+## Result: old-rule answers on D1+D3 after the change
 
-| условие | 0 «правильные» | 1 «тогда дали» | 2 «верно на тот момент» |
+| condition | 0 "correct" | 1 "given at the time" | 2 "correct at that time" |
 |---|---|---|---|
-| A точная копия | 93% | 95% | 94% |
-| B без копии | 38% | 36% | 34% |
-| C без нужных примеров | 12% | 12% | 8% |
+| A exact copy | 93% | 95% | 94% |
+| B no copy | 38% | 36% | 34% |
+| C no relevant examples | 12% | 12% | 8% |
 
-Все разницы с подписью 0 в пределах ±4%, интервалы накрывают ноль. Доля верных ответов на D1–D4 тоже почти
-не меняется (A 48/47/49%, B 65/62/71%, C 71/74/78%).
+All differences from caption 0 are within ±4%, and the intervals cover zero. The share of correct answers on D1–D4
+also barely changes (A 48/47/49%, B 65/62/71%, C 71/74/78%).
 
-## Вывод
+## Conclusion
 
-Подпись не важна. Модель копирует ответ точно такого же прошлого случая независимо от того, сказано ли, что
-он правильный, и даже когда прямо сказано, что он был верен только по правилам того времени. Копирование
-идёт не от того, что модель «верит» примерам, а от самого совпадения случая с прошлым. Это ближе к
-«родному языку» из примера Alex: реакция на знакомый случай срабатывает до того, как модель взвешивает слова.
+The caption does not matter. The model copies the answer of an identical past case regardless of whether it is said
+to be correct, and even when it is said outright that it was correct only under the rules of that time. The copying
+comes not from the model "believing" the examples but from the case matching a past one. This is closer to the
+"native language" in Alex's example: the reaction to a familiar case fires before the model weighs the words.
 
-Небольшой сдвиг есть только у подписи 2 в контроле без смены, условие B (58% против 46% верных по старому
-правилу, интервал −1…+24%): пометка «верно» слегка помогает применять старое правило к новому случаю.
-Это на грани шума.
+A small shift appears only for caption 2 in the no-change control, condition B (58% vs 46% correct under the old
+rule, interval −1…+24%): the "correct" mark slightly helps apply the old rule to a new case. This is at the edge of noise.

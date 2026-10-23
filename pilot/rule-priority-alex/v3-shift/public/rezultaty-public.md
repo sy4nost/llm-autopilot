@@ -1,8 +1,8 @@
-# 14B на публичных тестах: обычно против 20 отключённых голов-копировщиц (2026-10-17)
-Qwen2.5-14B-Instruct, H100, bf16. Головы: `top20.json` (слои 29–38, найдены на наших задачах). Скрипт `modal_public.py`, данные `public_Qwen2.5-14B-Instruct.jsonl`, счёт `score_public.py` → `score_public_out.txt`.
-off_all: головы отключены везде; off_ans: только в позиции ответа.
+# 14B on public tests: normal vs 20 copying heads switched off (2026-10-17)
+Qwen2.5-14B-Instruct, H100, bf16. Heads: `top20.json` (layers 29–38, found on our tasks). Script `modal_public.py`, data `public_Qwen2.5-14B-Instruct.jsonl`, scoring `score_public.py` → `score_public_out.txt`.
+off_all: heads switched off everywhere; off_ans: only at the answer position.
 
-| тест | n | обычно | без голов | разница [95%] | ответов изменилось (на верный / неверный) |
+| test | n | normal | without heads | difference [95%] | answers changed (to correct / to wrong) |
 |---|---|---|---|---|---|
 | redefine-math | 200 | 69.0 | 67.5 | −1.5 [−6.0, +2.5] | 8 / 11 |
 | quote-repetition | 200 | 86.0 | 86.0 | 0 [−2.5, +2.5] | 3 / 3 |
@@ -10,10 +10,10 @@ off_all: головы отключены везде; off_ans: только в п
 | hindsight-neglect | 200 | 46.0 | 47.5 | +1.5 [−1.0, +4.0] | 5 / 2 |
 | GSM-Symbolic main | 50 | 92 | 80 | −12 [−22, −4] | |
 | GSM-Symbolic p1 | 50 | 78 | 62 | −16 [−28, −4] | |
-off_ans на тестах с выбором почти совпадает с off_all.
+On multiple-choice tests off_ans almost coincides with off_all.
 
-## Что это значит
-- На тестах с выбором головы почти не участвуют: меняется 3–12% ответов, в обе стороны поровну. На наших задачах те же головы решали ответ (точная копия 93%, без голов вдвое меньше старых ответов).
-- Вывод (не замер): ловушки публичных тестов тянут из заученного при обучении (знакомая цитата, обычный смысл знака, привычка не замечать «not»), а не копируют готовый ответ из подсказки. Наши головы — механизм копирования из контекста, поэтому здесь им нечего тормозить. Это согласуется с опытом «родные слова»: заученное тянет так же сильно, как история.
-- Если отключить головы при пошаговом решении математики, она ломается (−12…−16), как раньше на GSM8K (−6.8): при генерации головы, видимо, переносят собственные шаги решения.
-- Стоимость ~ $1.5–2.
+## What it means
+- On multiple-choice tests the heads barely take part: 3–12% of answers change, equally in both directions. On our tasks the same heads decided the answer (exact copy 93%, without the heads half as many old answers).
+- Inference (not measured): the traps in public tests pull from what was memorized in training (a familiar quote, the usual meaning of a symbol, the habit of not noticing "not"), not from copying a ready answer out of the prompt. Our heads are a mechanism for copying from context, so here they have nothing to brake. This agrees with the "native words" experiment: memorized knowledge pulls as strongly as history.
+- Switching off the heads during step-by-step math breaks it (−12…−16), as earlier on GSM8K (−6.8): during generation the heads apparently carry the model's own solution steps.
+- Cost ~ $1.5–2.

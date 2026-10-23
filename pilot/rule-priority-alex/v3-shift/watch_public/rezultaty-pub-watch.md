@@ -1,15 +1,17 @@
-# Сторож на чужих открытых тестах, итог (2026-10-18)
+# Watchman on independent public tests, result (2026-10-18)
 
-План и ожидание записаны до прогона: PREREG.md. Qwen2.5-14B, без изменения настроек. Проверка «ничего не отмечено → ответ как обычно»: расхождение 0.0. Вывод: score_pub_watch_out.txt.
+The plan and the prediction were written before the run: PREREG.md. Qwen2.5-14B, settings unchanged. Check "nothing flagged → answer as usual": difference 0.0. Output: score_pub_watch_out.txt.
 
-| тест | обычно | со сторожем (b40) | разница [95%] | вердикт по плану |
+| test | normal | with watchman (b40) | difference [95%] | verdict per plan |
 |---|---|---|---|---|
-| hindsight-neglect-10shot (315) | 45.4% | 50.2% | **+4.8 [+2.2, +7.6]** | польза показана |
-| repetitive-algebra (1000) | 98.1% | 98.5% | +0.4 [0.0, +0.9] | польза не показана (модель и так почти не ошибается) |
-| MMLU (500) | 71.6% | 72.2% | +0.6 [−0.2, +1.6] | вреда нет (порог −2) |
+| hindsight-neglect-10shot (315) | 45.4% | 50.2% | **+4.8 [+2.2, +7.6]** | benefit shown |
+| repetitive-algebra (1000) | 98.1% | 98.5% | +0.4 [0.0, +0.9] | benefit not shown (the model almost never errs anyway) |
+| MMLU (500) | 71.6% | 72.2% | +0.6 [−0.2, +1.6] | no harm (threshold −2) |
 
-- **Ожидание не сбылось.** До прогона я ждал, что выигрыша не будет. На hindsight польза небольшая, но надёжная.
-- **Как часто срабатывал сторож.** Он отмечал 16–26% примеров как «не сходятся с тем, что модель ответила бы сама сейчас» и горел в 58–94% задач. Тем не менее ни на одном тесте он не навредил.
-- **watch_all (глушить во всех головах).** Хуже: алгебра −4.4, MMLU −1.4. Глушить нужно только в копирующих головах.
-- **Почему помогло на hindsight — не проверено.** Возможная причина: заглушены примеры, на которые модель опиралась шаблонно («проиграл → неправильно»). Это предположение.
-- **Ограничения.** Одна модель. Тесты под копирующие ловушки подобраны мной, хотя составлены другими. На hindsight выигрыш маленький: 50 из 100 — всё ещё уровень монетки.
+- **The prediction did not come true.** Before the run I expected no gain. On hindsight the benefit is small but reliable.
+- **How often the watchman fired.** It flagged 16–26% of examples as "not matching what the model would answer itself now" and fired on 58–94% of tasks. Still, it did no harm on any test.
+- **watch_all (silencing in all heads).** Worse: algebra −4.4, MMLU −1.4. Silencing must be limited to the copying heads.
+- **Why it helped on hindsight is not tested.** A possible reason: it silenced examples the model leaned on as a template ("lost → wrong"). This is a guess.
+- **Limitations.** One model. I picked the tests for copy traps, although others built them. On hindsight the gain is small: 50 out of 100 is still coin level.
+
+Note: the later independent audit (`../audit/audit-report.md`) found that this hindsight gain is a pure class shift (always answering class 1 gives 54.9%).

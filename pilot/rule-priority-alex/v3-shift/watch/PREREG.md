@@ -1,42 +1,44 @@
-# Сторож, записано заранее (2026-10-17, до числа от Alex)
+# Watchman, written in advance (2026-10-17, before Alex's number)
 
-## Что за сторож
+*English translation. The original text, frozen before the run, is in the git history (commit 6d3f172). The checksums below are of the code and data files, not of this text.*
 
-Задачу он не решает. Для каждого старого примера сторож спрашивает модель: «какой здесь ответ при **сегодняшних** условиях?».
-- Сегодняшние условия — это текст задачи без истории примеров: правила и все записки.
-- Если свежий ответ не совпадает с записанным в примере, пример «из другой эпохи», и лампочка горит.
+## What the watchman is
 
-**Тормоз:** только эти устаревшие примеры глушатся в 40 головах-копировщиках (b40), начиная с вопроса.
-- Ни порогов, ни усиления записки.
-- Если ничего не отмечено, ответ ровно обычный (проверка в коде).
+It does not solve the task. For each old example the watchman asks the model: "what is the answer here under **today's** conditions?".
+- Today's conditions are the task text without the history of examples: the rules and all notes.
+- If the fresh answer does not match the one recorded in the example, the example is "from another era", and the lamp fires.
 
-Это прямое исполнение формулы Alex «сила голоса = одинаковость условий»: пример, сделанный при других условиях, получает голос 0.
+**Brake:** only these stale examples are silenced in the 40 copying heads (b40), from the question onward.
+- No thresholds, no boosting of the note.
+- If nothing is flagged, the answer is exactly the normal one (checked in code).
 
-## Задачи
+This is a direct implementation of Alex's formula "vote strength = sameness of conditions": an example made under different conditions gets a vote of 0.
 
-make_watch.py с одним новым числом от Alex:
-- 4 типа задач из прогонов 1 и 2 (robot, points, parcels, bonus), 20 наборов на тип, плечи A60, E_copy, E_nocopy, N_same, N60, R60, F0;
-- всего 2240 задач;
-- правда о том, какие примеры действительно устарели, берётся из независимых проверок check_new*.py.
+## Tasks
 
-## Модель и настройки
+make_watch.py with one new number from Alex:
+- 4 task types from runs 1 and 2 (robot, points, parcels, bonus), 20 sets per type, arms A60, E_copy, E_nocopy, N_same, N60, R60, F0;
+- 2240 tasks in total;
+- the truth about which examples are actually stale comes from the independent checks check_new*.py.
+
+## Model and settings
 
 Qwen2.5-14B-Instruct.
-- **Главное:** watch_b40.
-- **Только для отчёта:** watch_all (глушить во всех головах) и oracle_b40 (идеальный сторож).
+- **Main:** watch_b40.
+- **Report only:** watch_all (silence in all heads) and oracle_b40 (a perfect watchman).
 
-## Критерии успеха
+## Success criteria
 
-Те же пороги, что раньше.
-- **parcels и bonus:** выигрыш на ловушках A60 + E_nocopy ≥ +10 пунктов, нижняя граница 95% интервала > 0.
-- **Все 4 типа:** вред там, где опыт верен (нетронутые случаи в A60/E_nocopy/E_copy плюс все N60, R60, N_same), не хуже −5 пунктов.
-- **PASS** только при выполнении всех условий.
+The same thresholds as before.
+- **parcels and bonus:** gain on traps A60 + E_nocopy ≥ +10 points, lower bound of the 95% interval > 0.
+- **All 4 types:** harm where experience is right (untouched cases in A60/E_nocopy/E_copy plus all N60, R60, N_same) no worse than −5 points.
+- **PASS** only if all conditions are met.
 
-## Пробный запуск
+## Trial run
 
-Дважды по 28 задач с числом 12345, только техника: границы строк примеров, совпадение с обычным ответом при пустой отметке. Ответы не смотрелись.
+Twice 28 tasks with number 12345, mechanics only: boundaries of example lines, identity with the normal answer when nothing is flagged. Answers were not looked at.
 
-## Контрольные суммы (sha256)
+## Checksums (sha256)
 
 - `make_watch.py` 30563a460f6f3c5d3ef7a7f565c8625db6a1669df2497bfa8e8ad563c564ea15
 - `modal_watch.py` 923b82a02d2fd44448e1f336bd6c520fa121c4f74a6bed56a943ffbf5db84063

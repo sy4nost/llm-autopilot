@@ -1,27 +1,29 @@
-# Общая лампочка: план, записанный заранее (замораживается до задач с числом 88)
+# General lamp: pre-registered plan (frozen before tasks with number 88 are generated)
 
-Записано 2026-10-18. Полный план: PLAN.md v2.1, одобрен проверяющим (review/plan-review.md, review/plan-review-v2.md).
-Этот файл и перечисленные скрипты после записи не меняются. Контрольные суммы приведены в конце.
+*English translation. The original text, frozen before the run, is in the git history (commit 6d3f172). The `PLAN.md` checksum below refers to the original Russian PLAN.md in that commit; the current PLAN.md is its English translation.*
 
-## Что зафиксировано по технической проверке (число 12345)
+Written 2026-10-18. Full plan: PLAN.md v2.1, approved by the reviewer (review/plan-review.md, review/plan-review-v2.md).
+This file and the listed scripts do not change after writing. Checksums are at the end.
 
-- **Формат ответа для публичных задач и MMLU: F3** (запрос как есть, без чата). Выбран автоматически по правилу из плана на пробной части, которая в подсчёт не входит.
-  - Медианная доля вероятности на вариантах ответа: F1 — redefine 1.00, NeQA 1.00, quote 0.000; F2 — 1.00, 1.00, 0.000; F3 — 0.39, 1.00, 1.00.
-  - У F3 самый высокий наихудший результат. Файл devformat_out.json.
-- **Подсчёт вариантов.** Сначала один проход по запросу, потом каждый вариант продолжается из копии кэша. Проверка против полного прохода без кэша показала максимальную разницу у лучшего варианта 0.10 log-вероятности. Это шум bf16, способ одинаков для всех запросов.
-- **Технический запуск** (meta_smoke.jsonl, report_smoke.txt): все семьи проходят путь целиком, отбор и пометки «неинформативно» срабатывают.
-  - Запуск захватил первые 30 проверочных вопросов каждой публичной семьи. Они войдут и в основной прогон.
-  - Из этого запуска видно: на P-quote в формате F3 модель не ошиблась ни разу из 30. Значит, P-quote скорее всего окажется неинформативной, а П → С тогда по правилу неинформативно. План из-за этого **не меняется**.
-  - В отчёте будут результаты без этих 30 вопросов (только для отчёта).
-- **Порядок событий.** Alex назвал число 88 до заморозки кода. Ни одна задача с числом 88 не создана до записи этого файла.
+## What was fixed by the technical check (number 12345)
 
-## Прогон
+- **Answer format for public tasks and MMLU: F3** (raw prompt, no chat). Chosen automatically by the rule from the plan on a trial part that is not scored.
+  - Median probability mass on the answer options: F1 — redefine 1.00, NeQA 1.00, quote 0.000; F2 — 1.00, 1.00, 0.000; F3 — 0.39, 1.00, 1.00.
+  - F3 has the highest worst-case result. File devformat_out.json.
+- **Scoring of options.** First one pass over the prompt, then each option is continued from a copy of the cache. A check against a full pass without cache showed a maximum difference of 0.10 log-probability for the best option. This is bf16 noise; the method is the same for all prompts.
+- **Technical run** (meta_smoke.jsonl, report_smoke.txt): all families go through the whole pipeline; filtering and "non-informative" marks work.
+  - The run took the first 30 test questions of each public family. They will also be in the main run.
+  - This run shows: on P-quote in format F3 the model made no errors out of 30. So P-quote will most likely be non-informative, and P → C is then non-informative by the rule. The plan **does not change** because of this.
+  - The report will include results without these 30 questions (report only).
+- **Order of events.** Alex named the number 88 before the code was frozen. No task with number 88 was created before this file was written.
 
-1. `python3 -I make_gl.py 88 sets_gl.json` — генераторы с числами 88…95 (ранее использованных чисел среди них нет).
+## Run
+
+1. `python3 -I make_gl.py 88 sets_gl.json` — generators with numbers 88…95 (none of them used before).
 2. `modal run modal_gl.py --mode main --fmt F3 --sets sets_gl.json --seed 88 --tag main --n-boot 2000`.
-3. Вердикт печатает analyze_gl.py (report_main.txt). Критерии и итоговая таблица взяты из PLAN.md v2.1.
+3. The verdict is printed by analyze_gl.py (report_main.txt). Criteria and the final table are taken from PLAN.md v2.1.
 
-## Контрольные суммы (sha256)
+## Checksums (sha256)
 - `PLAN.md` 155410b9be79d71b5af1c0350e46f86394aee2815de8cfcc2adbf69297b78314
 - `make_gl.py` 14a7327001bd82c3a120889ba1e27750cbd06833cc169713a8f2765219a6a25f
 - `modal_gl.py` 9abd598569388ea6ddfcdcb274e24f0b0100fe69c3c754d696d2bb4cd783d224

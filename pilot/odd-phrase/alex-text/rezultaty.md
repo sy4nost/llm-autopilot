@@ -1,36 +1,35 @@
-# Текст Alex с 6 вставками: как его прочитали модели Qwen (2026-10-16)
+# Alex's text with 6 insertions: how Qwen models read it (2026-10-16)
 
-Текст: `text_en.md` (английская версия). Ключ: `key.json`, 6 ложных по смыслу фраз, по одной в конце разделов 1–6.
-Контроль: `text_en_control.md`, тот же текст без этих 6 фраз. Модели Qwen2.5-Instruct 0.5B, 1.5B, 3B, 7B, 14B,
-bfloat16, ответ без случайности (greedy). Ответы целиком: `results/<модель>.json`. Оценку ставил я, читая ответы
-(засчитывал, только если модель процитировала вставку и назвала её ошибкой).
+Text: `text_en.md` (English version). Key: `key.json`, 6 phrases that are false in meaning, one at the end of each of sections 1–6.
+Control: `text_en_control.md`, the same text without these 6 phrases. Models Qwen2.5-Instruct 0.5B, 1.5B, 3B, 7B, 14B,
+bfloat16, deterministic answers (greedy). Full answers: `results/<model>.json`. I scored by reading the answers
+(counted only if the model quoted the insertion and called it an error).
 
-Условия:
-- **Шаг 1:** модель получает только текст, без просьбы.
-- **Шаг 2:** в том же разговоре инструкция Alex (найти противоречия).
-- **Сразу:** инструкция и текст одним сообщением (исходный формат Alex).
-- **Контроль:** шаги 1 и 2 на тексте без вставок, чтобы видеть ложные находки.
+Conditions:
+- **Step 1:** the model gets only the text, with no request.
+- **Step 2:** in the same conversation, Alex's instruction (find contradictions).
+- **At once:** instruction and text in one message (Alex's original format).
+- **Control:** steps 1 and 2 on the text without insertions, to see false findings.
 
-| модель | шаг 1: заметила сама | шаг 2: нашла из 6 | сразу: нашла из 6 | контроль: «нашла» ошибок в чистом тексте |
+| model | step 1: noticed on its own | step 2: found out of 6 | at once: found out of 6 | control: "found" errors in clean text |
 |---|---|---|---|---|
-| 0.5B | 0 | 0 | ~1, утонула в ложных | 9 |
-| 1.5B | 0 | 0 | 0 | 0 (сказала «ошибок нет») |
-| 3B | 0, и пересказала ложь как факт | 0 | 0–1, с неверным объяснением | 8 |
-| 7B | 0 | 2 (№3, №4) | 4 (№1, №3, №4, №5) | 4 |
-| 14B | 0 | 4 (№1–№4) | 4 (№2–№5) | 5 |
+| 0.5B | 0 | 0 | ~1, drowned in false ones | 9 |
+| 1.5B | 0 | 0 | 0 | 0 (said "no errors") |
+| 3B | 0, and retold the falsehood as fact | 0 | 0–1, with a wrong explanation | 8 |
+| 7B | 0 | 2 (#3, #4) | 4 (#1, #3, #4, #5) | 4 |
+| 14B | 0 | 4 (#1–#4) | 4 (#2–#5) | 5 |
 
-## Что видно
+## What is visible
 
-1. **Без просьбы никто ничего не заметил.** Все 5 моделей просто пересказали или похвалили текст. 3B пересказала
-   вставку №1 как факт: «уменьшение информации повышает адаптивность». Это и есть автоматизм: прочитала и
-   приняла.
-2. **По просьбе находят только большие модели**, и не все вставки: 14B и 7B нашли до 4 из 6. Вставку №6 (отсутствие
-   реальных опытов «доказывает» универсальность) не нашёл никто. Легче всего находятся №3 (15% и 30%) и №4 (одно
-   действие и три действия): там противоречие с числом или правилом прямо в соседнем абзаце.
-3. **Ложные находки.** На чистом тексте 7B и 14B всё равно «находят» 4–5 ошибок. Если просят найти, модель находит
-   что-нибудь всегда. Поэтому число находок само по себе ничего не значит, важно, совпадают ли они с ключом.
-4. **Предыдущий пересказ мешает.** 7B нашла 4 вставки, когда инструкция пришла сразу, и только 2, когда сначала
-   пересказала текст. Похоже, после собственного пересказа модель уже «согласилась» с текстом. По одному тексту
-   это только наблюдение, не вывод.
+1. **Without a request nobody noticed anything.** All 5 models just retold or praised the text. 3B retold insertion
+   #1 as fact: "reducing information increases adaptivity". This is the automatism: read it and accepted it.
+2. **On request only the large models find them**, and not all insertions: 14B and 7B found up to 4 of 6. Nobody found
+   insertion #6 (the absence of real experiments "proves" universality). Easiest to find are #3 (15% and 30%) and #4
+   (one action and three actions): there the contradiction with a number or rule is right in the next paragraph.
+3. **False findings.** On the clean text 7B and 14B still "find" 4–5 errors. If asked to find, the model always finds
+   something. So the number of findings means nothing by itself; what matters is whether they match the key.
+4. **A prior retelling gets in the way.** 7B found 4 insertions when the instruction came at once and only 2 when it
+   first retold the text. It seems that after its own retelling the model has already "agreed" with the text. With one
+   text this is only an observation, not a conclusion.
 
-Это один текст и один прогон, без статистики. Чтобы выводы стали надёжными, нужно 30–50 таких текстов.
+This is one text and one run, without statistics. For reliable conclusions, 30–50 such texts are needed.

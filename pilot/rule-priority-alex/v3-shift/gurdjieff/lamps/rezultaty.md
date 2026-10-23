@@ -1,29 +1,29 @@
-# Много лампочек — итог (2026-10-19)
-Правила записаны до подсчёта: PREDICT.md (суммы sums.txt). Цифры: lamps_out.json, run.log. Только уже снятые снимки, без модели.
+# Many lamps: result (2026-10-19)
+Rules written before scoring: PREDICT.md (checksums sums.txt). Numbers: lamps_out.json, run.log. Only already-recorded snapshots, no model runs.
 
-## Шаг 1. Своя лампочка для каждого вида ловушек (проверка на вопросах, которых лампочка не видела)
-| вид | лампочка | «не уверена» | только выход | лампочка есть? |
+## Step 1. A separate lamp for each kind of trap (tested on questions the lamp has not seen; AUC)
+| kind | lamp | "unsure" | output only | lamp exists? |
 |---|---|---|---|---|
-| наши: определения D | 0,98 | 0,81 | 0,79 | ДА |
-| наши: ловушки R | 0,87 | 0,52 | 0,58 | ДА |
-| наши: R, привычный ответ верный | 0,97 | 0,69 | 0,67 | ДА |
-| наши: R, вычислить | 0,83 | 0,88 | 0,88 | нет |
-| наши: столицы K | 0,63 | 0,68 | 0,65 | нет |
-| наши: дорожные слова N | 0,83 | 0,25 | 0,77 | нет (всего 10 «не передумала», шум) |
-| чужие: hindsight | 0,81 | 0,28 | 0,68 | нет, на волосок (нижняя граница −0,003) |
-| чужие: MMLU | 0,81 | 0,86 | 0,85 | нет |
-| чужие: отрицание | 0,78 | 0,86 | 0,79 | нет |
-| чужие: memo | 0,64 | 0,70 | 0,62 | нет |
-| чужие: unknown | 0,42 | 0,74 | 0,76 | нет |
-| чужие: pattern | 0,53 | 0,47 | 0,56 | нет |
+| own: definitions D | 0.98 | 0.81 | 0.79 | YES |
+| own: R traps | 0.87 | 0.52 | 0.58 | YES |
+| own: R, habitual answer correct | 0.97 | 0.69 | 0.67 | YES |
+| own: R, compute | 0.83 | 0.88 | 0.88 | no |
+| own: capitals K | 0.63 | 0.68 | 0.65 | no |
+| own: road words N | 0.83 | 0.25 | 0.77 | no (only 10 "did not change its mind", noise) |
+| public: hindsight | 0.81 | 0.28 | 0.68 | no, by a hair (lower bound −0.003) |
+| public: MMLU | 0.81 | 0.86 | 0.85 | no |
+| public: negation | 0.78 | 0.86 | 0.79 | no |
+| public: memo | 0.64 | 0.70 | 0.62 | no |
+| public: unknown | 0.42 | 0.74 | 0.76 | no |
+| public: pattern | 0.53 | 0.47 | 0.56 | no |
 
-## Шаг 2. Семьи
-Направления всех 12 лампочек почти перпендикулярны (косинус около 0): каждая смотрит в свою сторону.
-По переносу (лампочка одного вида угадывает на другом ≥ 0,65 в обе стороны) пары: D–K, D–R ловушки, D–R верный, D–отрицание, D–MMLU,
-N–R верный, R ловушки–unknown, memo–отрицание, отрицание–MMLU. Лампочка «определения D» — узел, связана с пятью.
+## Step 2. Families
+The directions of all 12 lamps are almost perpendicular (cosine about 0): each looks in its own direction.
+By transfer (a lamp of one kind guesses on another at ≥ 0.65 both ways) the pairs are: D–K, D–R traps, D–R correct, D–negation, D–MMLU,
+N–R correct, R traps–unknown, memo–negation, negation–MMLU. The "definitions D" lamp is a hub, linked to five.
 
-## Шаг 3. Панель из остальных лампочек на новом виде
-Среднее 0,644 против «не уверена» 0,646 → НЕ РАБОТАЕТ по правилу.
-Но по видам: панель сильна там, где неуверенность слепа (hindsight 0,74 против 0,28; ловушки R 0,79 против 0,52; D 0,92 против 0,81),
-и слаба там, где неуверенность хороша (MMLU 0,69 против 0,86; отрицание 0,75 против 0,86; R вычислить 0,22 против 0,88).
-Непроверенная идея после подсчёта: панель + неуверенность вместе могут закрыть оба случая.
+## Step 3. A panel of the other lamps on a new kind
+Mean 0.644 vs "unsure" 0.646 → DOES NOT WORK by the rule.
+But by kind: the panel is strong where low confidence is blind (hindsight 0.74 vs 0.28; R traps 0.79 vs 0.52; D 0.92 vs 0.81),
+and weak where low confidence is good (MMLU 0.69 vs 0.86; negation 0.75 vs 0.86; R compute 0.22 vs 0.88).
+An untested idea after scoring: panel + low confidence together might cover both cases.

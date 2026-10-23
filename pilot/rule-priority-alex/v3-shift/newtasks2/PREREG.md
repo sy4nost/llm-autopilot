@@ -1,39 +1,41 @@
-# Прогон 2, записан заранее: «лампочка → новое правило громче» на незнакомых задачах со сложной поправкой
+# Run 2, written in advance: "lamp → louder new rule" on unfamiliar tasks with a compound amendment
 
-Записано 2026-10-17, до того как Alex назвал число для этого прогона. После этого файл и скрипты не меняются, контрольные суммы в конце.
+*English translation. The original text, frozen before the run, is in the git history (commit 6d3f172). The checksums below are of the code and data files, not of this text.*
 
-## Почему второй прогон
+Written 2026-10-17, before Alex named the number for this run. After that this file and the scripts do not change; checksums at the end.
 
-В прогоне 1 (newtasks/rezultaty-new.md) простые поправки модель выполняла и без помощи (98–100%), так что проверять было нечего.
-Здесь поправка меняет **часть составного условия** «A и одновременно B». Именно на такой поправке 14B раньше держалась за старый ответ.
+## Why a second run
 
-## Что не меняется по сравнению с прогоном 1
+In run 1 (newtasks/rezultaty-new.md) the model followed simple amendments even without help (98–100%), so there was nothing to test.
+Here the amendment changes **part of a compound condition** "A and at the same time B". It was on such an amendment that 14B previously held on to the old answer.
 
-- Лампочка, порог, усиление (w0 в головах b40, порог «отрыв меньше половины», up16_all), модель Qwen2.5-14B-Instruct.
-- Плечи A60, E_copy, E_nocopy, N_same, N60, R60, F0, 20 наборов на тип, по 4 тестовых случая.
-- Критерии успеха, скрипт подсчёта и код прогона. modal_new2.py и score_new2.py отличаются от файлов прогона 1 только именами.
+## What does not change compared with run 1
 
-## Новые типы задач (make_new2.py)
+- Lamp, threshold, boost (w0 in the b40 heads, threshold "lead below half", up16_all), model Qwen2.5-14B-Instruct.
+- Arms A60, E_copy, E_nocopy, N_same, N60, R60, F0, 20 sets per type, 4 test cases each.
+- Success criteria, scoring script and run code. modal_new2.py and score_new2.py differ from the run-1 files only in names.
 
-- **parcels.** Посылка описана словами: вес, адрес, страховка, срочность. Правила с приоритетом выбирают транспорт. Поправка: правило 2 «застрахована И срочная» становится «застрахована И обычная».
-  - Ловушки T1/T2: лёгкая застрахованная срочная посылка (за границу / домой). По старому правилу 2 она летит, по новому нет.
-  - Нетронутые S1/S2: тяжёлая посылка или незастрахованная.
-- **bonus.** Цветные фишки по 1–2 очка плюс бонус +3. Поправка: «есть X И есть Y» становится «есть X И нет Y».
-  - Ловушки: кучка с X и Y (бонус пропадает).
-  - Нетронутые: без X.
+## New task types (make_new2.py)
 
-## Критерии успеха (каждый тип отдельно, как в прогоне 1)
+- **parcels.** A parcel is described in words: weight, address, insurance, urgency. Prioritized rules choose the transport. Amendment: rule 2 "insured AND urgent" becomes "insured AND regular".
+  - Traps T1/T2: a light insured urgent parcel (abroad / domestic). Under the old rule 2 it flies, under the new one it does not.
+  - Untouched S1/S2: a heavy parcel or an uninsured one.
+- **bonus.** Colored chips worth 1–2 points plus a +3 bonus. Amendment: "has X AND has Y" becomes "has X AND no Y".
+  - Traps: a pile with X and Y (the bonus disappears).
+  - Untouched: without X.
 
-- **Выигрыш:** ловушки A60 + E_nocopy, «по лампочке» минус обычно ≥ +10 пунктов, и нижняя граница 95% интервала > 0.
-- **Нет вреда:** нетронутые случаи в A60/E_nocopy/E_copy плюс все N60, R60, N_same, изменение ≥ −5 пунктов.
-- **PASS** только если всё выполнено на обоих типах.
-- Если без помощи модель решает ловушки A60 + E_nocopy на 85% и больше, я сообщаю, что ловушки опять не сработали, и вывод о пользе лампочки на этом типе не делается.
+## Success criteria (each type separately, as in run 1)
 
-## Технический пробный запуск
+- **Gain:** traps A60 + E_nocopy, "by lamp" minus normal ≥ +10 points, and the lower bound of the 95% interval > 0.
+- **No harm:** untouched cases in A60/E_nocopy/E_copy plus all N60, R60, N_same, change ≥ −5 points.
+- **PASS** only if everything is met on both types.
+- If without help the model solves traps A60 + E_nocopy at 85% or more, I report that the traps again did not work, and no conclusion about the lamp's usefulness on that type is drawn.
 
-Один запуск на 41 задаче с числом 12345, только для проверки техники (w1/up1 = normal, границы текста, метки различимы). Его ответы в выводы не идут.
+## Technical trial run
 
-## Контрольные суммы (sha256)
+One run on 41 tasks with number 12345, only to check the mechanics (w1/up1 = normal, text boundaries, labels distinguishable). Its answers do not go into conclusions.
+
+## Checksums (sha256)
 
 - `make_new2.py` d61c64eab044d423b86d470ade67d3e9e019a5d622456d27d4c4a96aa3942c40
 - `check_new2.py` d029b2ac3f0f2ac9a87afe9cc00a51a377ca2462a384e44a4a70e35eefbbcc40
