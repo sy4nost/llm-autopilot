@@ -9,9 +9,9 @@ app = modal.App("silo-gurdjieff-viz")
 LAYERS = [8, 16, 24, 28, 32, 36, 40, 44]
 J = LAYERS.index(32)
 PAIRS = [("hind/trap", "pub-404", "pub-422"), ("N/traps", "own-1033", "own-1107")]
-FAMRU = {"R": "наши: R", "N": "наши: дорожные слова", "K": "наши: столицы", "D": "наши: определения", "memo": "чужие: memo",
-         "neqa": "чужие: отрицание", "hind": "чужие: hindsight", "unknown": "чужие: unknown", "alg": "чужие: алгебра",
-         "mmlu": "чужие: MMLU", "modus": "чужие: modus", "quote": "чужие: quote", "pattern": "чужие: pattern"}
+FAMRU = {"R": "own: R", "N": "own: road words", "K": "own: capitals", "D": "own: definitions", "memo": "public: memo",
+         "neqa": "public: negation", "hind": "public: hindsight", "unknown": "public: unknown", "alg": "public: algebra",
+         "mmlu": "public: MMLU", "modus": "public: modus", "quote": "public: quote", "pattern": "public: pattern"}
 
 
 @app.function(image=img, volumes={"/cache": cache}, cpu=8, memory=16384, timeout=3600)
@@ -31,11 +31,11 @@ def draw(meta: list):
     fig, ax = plt.subplots(len(PAIRS), 3, figsize=(15, 4.6 * len(PAIRS)))
     for r, (p, a, b) in enumerate(PAIRS):
         za, zb = Z[ids[a]].reshape(64, 80), Z[ids[b]].reshape(64, 80)
-        for c, (im, t) in enumerate([(za, "передумала после раздумья"), (zb, "не передумала"), (za - zb, "разница между ними")]):
+        for c, (im, t) in enumerate([(za, "changed its mind after thinking"), (zb, "did not change its mind"), (za - zb, "difference between them")]):
             h = ax[r, c].imshow(np.clip(im, -3, 3), cmap="RdBu_r", vmin=-3, vmax=3); ax[r, c].set_xticks([]); ax[r, c].set_yticks([])
             ax[r, c].set_title(f"{FAMRU[p.split('/')[0]]}: {t}", fontsize=11)
-    fig.colorbar(h, ax=ax, shrink=0.6, label="ярче обычного (красный) / тусклее (синий)")
-    fig.suptitle("Снимок середины модели (слой 32 из 48) перед ответом: 5120 «лампочек»", fontsize=13)
+    fig.colorbar(h, ax=ax, shrink=0.6, label="brighter than usual (red) / dimmer (blue)")
+    fig.suptitle("Snapshot of the model middle (layer 32 of 48) before the answer: 5120 "bulbs"", fontsize=13)
     b = io.BytesIO(); fig.savefig(b, format="png", dpi=80); out["snimki.png"] = b.getvalue(); plt.close(fig)
     # 2. map: all 4260 snapshots squeezed to 2 numbers (PCA); colour by kind of task, then by flipped
     P = PCA(2, random_state=0).fit_transform(Z)
@@ -43,10 +43,10 @@ def draw(meta: list):
     cm = plt.get_cmap("tab20")
     for k, f in enumerate(sorted(set(fam))):
         s = fam == f; ax[0].scatter(P[s, 0], P[s, 1], s=4, color=cm(k % 20), label=FAMRU[f])
-    ax[0].legend(markerscale=4, fontsize=8, loc="best"); ax[0].set_title("Каждая точка = один вопрос. Цвет = вид задачи")
-    ax[1].scatter(P[y == 0, 0], P[y == 0, 1], s=4, color="#bbbbbb", label="не передумала")
-    ax[1].scatter(P[y == 1, 0], P[y == 1, 1], s=6, color="#d62728", label="передумала после раздумья")
-    ax[1].legend(markerscale=4); ax[1].set_title("Те же точки. Красные = модель передумала")
+    ax[0].legend(markerscale=4, fontsize=8, loc="best"); ax[0].set_title("Each dot = one question. Color = task type")
+    ax[1].scatter(P[y == 0, 0], P[y == 0, 1], s=4, color="#bbbbbb", label="did not change its mind")
+    ax[1].scatter(P[y == 1, 0], P[y == 1, 1], s=6, color="#d62728", label="changed its mind after thinking")
+    ax[1].legend(markerscale=4); ax[1].set_title("Same dots. Red = the model changed its mind")
     for a_ in ax:
         a_.set_xticks([]); a_.set_yticks([])
     b = io.BytesIO(); fig.savefig(b, format="png", dpi=80); out["karta.png"] = b.getvalue(); plt.close(fig)

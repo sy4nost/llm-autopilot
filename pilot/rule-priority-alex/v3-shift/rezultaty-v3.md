@@ -1,81 +1,83 @@
-# 14B: перебьёт ли новое правило привычку (v3, 2026-10-16)
+# 14B: will a new rule override a habit? (v3, 2026-10-16)
 
-Идея Alex: 14B выучила правило из двух условий (88–89% в v2). Дать ей привычку по этому правилу, потом в одном
-месте поменять правило и посмотреть, что она сделает.
+Alex's idea: 14B learned a two-condition rule (88–89% in v2). Give it a habit under this rule, then change the rule
+in one place and see what it does.
 
-## Как устроено
+## Setup
 
-- Старое правило: HOLD, если seal=CLOSED; HOLD, если waiver=YES и echo=ON; PASS, если tag=BLUE; иначе REVIEW.
-- После примеров одна строчка: «IMPORTANT UPDATE: Rule 2 has been changed. New RULE 2: ... waiver=YES и echo=OFF».
-  Меняется одно слово (ON на OFF). Смена объявлена открыто, не спрятана.
-- История: 0, 20 или 60 решённых примеров по старому правилу (около 15% из них HOLD через waiver+echo=ON).
-- Контроль: та же история без строчки-смены (верен старый ответ). Допуск: новое правило сразу в условии, без истории.
-- 30 наборов со случайными названиями, по одному случаю на запрос, 5 ответов на запрос (Qwen2.5-14B, bfloat16, H100).
-  Ключи проверены отдельной программой, ошибок 0. Файлы: `make_shift.py`, `sets_shift.json`, `results/`, `score_shift.py`.
+- Old rule: HOLD if seal=CLOSED; HOLD if waiver=YES and echo=ON; PASS if tag=BLUE; otherwise REVIEW.
+- After the examples, one line: "IMPORTANT UPDATE: Rule 2 has been changed. New RULE 2: ... waiver=YES and echo=OFF".
+  One word changes (ON to OFF). The change is announced openly, not hidden.
+- History: 0, 20 or 60 solved examples under the old rule (about 15% of them HOLD via waiver+echo=ON).
+- Control: the same history without the change line (the old answer is correct). Gate: the new rule given directly
+  in the prompt, no history.
+- 30 sets with random names, one case per prompt, 5 answers per prompt (Qwen2.5-14B, bfloat16, H100).
+  Answer keys checked by a separate program, 0 errors. Files: `make_shift.py`, `sets_shift.json`, `results/`, `score_shift.py`.
 
-Случаи, где старое и новое правило расходятся:
-- D1, D3: waiver=YES, echo=ON. Старое: HOLD. Новое: не HOLD (PASS или REVIEW).
-- D2, D4: waiver=YES, echo=OFF. Старое: не HOLD. Новое: HOLD.
+Cases where the old and new rule disagree:
+- D1, D3: waiver=YES, echo=ON. Old: HOLD. New: not HOLD (PASS or REVIEW).
+- D2, D4: waiver=YES, echo=OFF. Old: not HOLD. New: HOLD.
 
-## Результат
+## Result (accuracy under the current rule)
 
 | | D1 | D3 | D2 | D4 |
 |---|---|---|---|---|
-| допуск (новое правило сразу) | 93% | 73% | 55% | 73% |
-| смена после 0 примеров | 27% | 61% | 64% | 75% |
-| смена после 20 примеров | 21% | 22% | 83% | 100% |
-| смена после 60 примеров | **11%** | **17%** | 91% | 87% |
-| без смены, 60 примеров (старое правило) | 100% | 97% | 97% | 97% |
+| gate (new rule directly) | 93% | 73% | 55% | 73% |
+| change after 0 examples | 27% | 61% | 64% | 75% |
+| change after 20 examples | 21% | 22% | 83% | 100% |
+| change after 60 examples | **11%** | **17%** | 91% | 87% |
+| no change, 60 examples (old rule) | 100% | 97% | 97% | 97% |
 
-Ответы по старому правилу после смены:
+Answers following the old rule after the change:
 
-| | 0 примеров | 20 | 60 | разница 60 − 0 (95% интервал) |
+| | 0 examples | 20 | 60 | difference 60 − 0 (95% interval) |
 |---|---|---|---|---|
-| D1, D3 (старое HOLD → новое «не HOLD») | 26% | 74% | **82%** | **+56% [+42, +70]** |
-| D2, D4 (старое «не HOLD» → новое HOLD) | 14% | 8% | 11% | −3% [−15, +9] |
+| D1, D3 (old HOLD → new "not HOLD") | 26% | 74% | **82%** | **+56% [+42, +70]** |
+| D2, D4 (old "not HOLD" → new HOLD) | 14% | 8% | 11% | −3% [−15, +9] |
 
-## Что это значит
+## What it means
 
-1. **Автоматизм есть, и сильный.** После 60 примеров 14B в 82% случаев продолжает ставить HOLD там, где по
-   старому правилу он был, хотя строчка прямо говорит, что правило изменилось. Без истории так ошибается 26%.
-   Эффект растёт с длиной истории (26% → 74% → 82%) и держится на 30 разных наборах.
-2. **Новое она добавляет, а старое не отпускает.** Там, где новое правило вводит HOLD (D2, D4), 14B его
-   применяет, даже лучше с историей (до 87–91%). То есть она не игнорирует обновление: она его принимает,
-   но поверх старого. В итоге ставит HOLD при waiver=YES почти всегда, и при ON, и при OFF.
-3. Это первый эффект в проекте, который виден прямо в ответах крупной модели, а не только в уверенности.
+1. **The automatism is there, and it is strong.** After 60 examples, 14B keeps answering HOLD in 82% of the cases
+   where the old rule gave HOLD, although the line says outright that the rule changed. Without history the error
+   rate is 26%. The effect grows with history length (26% → 74% → 82%) and holds across 30 different sets.
+2. **It adds the new rule but does not let go of the old one.** Where the new rule introduces HOLD (D2, D4), 14B
+   applies it, even better with history (up to 87–91%). So it does not ignore the update: it accepts it, but on top
+   of the old rule. As a result it answers HOLD for waiver=YES almost always, with both ON and OFF.
+3. This is the first effect in the project that is visible directly in the answers of a large model, not only in
+   its confidence.
 
-## Оговорки
+## Caveats
 
-- Допуск по новому правилу ниже 85%: в среднем 73% (D2 только 55%). Но для главного случая D1 допуск 93%,
-  а падение на нём до 11%, так что эффект не объясняется тем, что новое правило трудное.
-- Смена объявлена открыто. Версия, где новое правило тихо стоит в тексте без слова «изменилось» (проверка
-  «заметит ли»), ещё не делалась.
-- Одна модель (14B), одна формулировка строчки-смены.
+- The gate under the new rule is below 85%: 73% on average (D2 only 55%). But for the main case D1 the gate is 93%
+  and the drop there goes to 11%, so the effect is not explained by the new rule being hard.
+- The change is announced openly. A version where the new rule quietly sits in the text without the word "changed"
+  (a test of "will it notice") has not been done yet.
+- One model (14B), one wording of the change line.
 
-## Что можно сделать дальше
+## Possible next steps
 
-- Тихая смена (без «IMPORTANT UPDATE»): заметит ли вообще.
-- Та же схема на 7B (и, может быть, на моделях другого семейства), чтобы понять, общий ли это эффект.
-- «Лампочка»: подсказка перед ответом вида «проверь, не изменилось ли правило» и посмотреть, уйдёт ли 82%.
+- A silent change (no "IMPORTANT UPDATE"): will it notice at all?
+- The same design on 7B (and maybe on models from another family), to see whether the effect is general.
+- A "lamp": a hint before the answer such as "check whether the rule has changed", to see whether the 82% goes away.
 
-## Дополнение: видит она смену или нет (v3b)
+## Addendum: does it see the change or not? (v3b)
 
-Вопрос Alex: модель не увидела изменение или увидела, но сделала по привычке? Те же 30 наборов и истории
-(0/20/60), две новые версии (`make_restate.py`, `sets_restate.json`, `results_restate/`, `score_restate.py`):
-- «перескажи текущее правило 2» (без задачи);
-- «сначала перескажи правило 2, потом дай ответ».
+Alex's question: did the model not see the change, or did it see it and still act by habit? The same 30 sets and
+histories (0/20/60), two new versions (`make_restate.py`, `sets_restate.json`, `results_restate/`, `score_restate.py`):
+- "restate the current rule 2" (no task);
+- "first restate rule 2, then give the answer".
 
-| история | пересказала новое правило верно | D1+D3: ответ по старому правилу (перескажи, потом ответь) | D1+D3 без пересказа (основной прогон) |
+| history | restated the new rule correctly | D1+D3: old-rule answer (restate, then answer) | D1+D3 without restating (main run) |
 |---|---|---|---|
 | 0 | 100% | 16% | 26% |
 | 20 | 100% | 54% | 74% |
 | 60 | 100% | 57% | 82% |
 
-1. **Модель изменение видит и знает.** Во всех 450 × 5 ответах она пересказала новое правило 2 правильно,
-   при любой истории.
-2. **И всё равно отвечает по-старому.** Сразу после верного пересказа, строкой ниже, 14B ставит старый ответ:
-   после 60 примеров в 57% случаев на D1+D3 (без истории 16%). Знает правило, а делает по накатанной. Это
-   автоматизм в чистом виде, а не «не увидела».
-3. **Пересказ перед ответом помогает частично.** После 60 примеров старых ответов 57% вместо 82%: минус 25%
-   (интервал −37…−15). Это первая «лампочка»: заставить модель сказать правило вслух снимает треть ошибок,
-   но не все.
+1. **The model sees and knows the change.** In all 450 × 5 answers it restated the new rule 2 correctly, for any
+   history.
+2. **And it still answers the old way.** Right after a correct restatement, one line below, 14B gives the old
+   answer: after 60 examples in 57% of D1+D3 cases (16% without history). It knows the rule but acts on the beaten
+   track. This is an automatism in its pure form, not "did not see it".
+3. **Restating before answering helps partly.** After 60 examples, old answers are 57% instead of 82%: minus 25%
+   (interval −37…−15). This is the first "lamp": making the model say the rule out loud removes a third of the
+   errors, but not all of them.

@@ -1,50 +1,66 @@
-# Общая лампочка «пора пересмотреть привычку»: результат (2026-10-18, число 88)
+# A general "time to re-check the habit" lamp: result (2026-10-18, seed 88)
 
-**Коротко:** общего сигнала не нашлось. Лампочка, обученная на привычке «списать из примеров», на привычке «тянуть из обучения» угадывает почти как монетка. Она не лучше простых соперников и часто горит на обычных вопросах. Вывод записан заранее и проверен двумя пересчётами.
+**In short:** no general signal was found. A lamp trained on the "copy from the examples" habit guesses on the "pull
+from training" habit almost like a coin flip. It is no better than simple rivals and often fires on ordinary
+questions. The verdict was written in advance and checked with two recomputations.
 
-## Как это было устроено
+## Setup
 
-Модель Qwen2.5-14B, 6750 вопросов, план заморожен до задач (PREREG.md). Лампочка — простой детектор на внутреннем состоянии модели в момент перед ответом. Качество меряется числом от 0.5 (монетка) до 1 (видит всё) только внутри одинаковых случаев, чтобы детектор не мог угадывать по виду задачи.
+Model Qwen2.5-14B, 6750 questions, plan frozen before the tasks were generated (PREREG.md). The lamp is a simple
+detector on the model's internal state at the moment before the answer. Quality is measured by a number from 0.5
+(coin flip) to 1 (sees everything) (AUC), only within identical cells, so that the detector cannot guess from the
+type of task.
 
-## Главный перенос: учим на «списывании из текста», проверяем на «тяге из обучения»
+## Main transfer: train on "copying from the text", test on "pull from training"
 
-| проверочная задача | ошибок / верных | лампочка | неуверенность | выходные вероятности | поверхность слов | детектор обычных ошибок |
+| test task | errors / correct | lamp | low confidence | output probabilities | word surface | generic-error detector |
 |---|---|---|---|---|---|---|
-| π и + переопределены (redefine) | 61 / 51 | **0.51** | 0.52 | 0.49 | 0.32 | 0.45 |
-| вопросы с «не» (NeQA) | 71 / 183 | **0.58** | 0.36 | 0.68 | 0.55 | 0.65 |
-| в среднем | | **0.55** [0.46, 0.62] | 0.44 | 0.58 | 0.44 | 0.55 |
+| π and + redefined (redefine) | 61 / 51 | **0.51** | 0.52 | 0.49 | 0.32 | 0.45 |
+| questions with "not" (NeQA) | 71 / 183 | **0.58** | 0.36 | 0.68 | 0.55 | 0.65 |
+| mean | | **0.55** [0.46, 0.62] | 0.44 | 0.58 | 0.44 | 0.55 |
 
-Все четыре условия провалены:
-- качество 0.55 при нужных ≥ 0.65;
-- лампочка не обгоняет соперников: выходные вероятности и детектор обычных ошибок не хуже её;
-- на redefine она слепа (0.51 < 0.55);
-- на обычных вопросах MMLU, где модель права, она горит в **55%** случаев при допустимых 25%.
+All four conditions failed:
+- quality 0.55 where ≥ 0.65 was required;
+- the lamp does not beat the rivals: output probabilities and the generic-error detector are no worse;
+- it is blind on redefine (0.51 < 0.55);
+- on ordinary MMLU questions where the model is right, it fires in **55%** of cases (25% allowed).
 
-## Обратный перенос: «нечего сказать»
+## Reverse transfer: "nothing to say"
 
-Обратный перенос заранее объявлен неинформативным. На изменённых цитатах модель почти не ошибается по привычке: 18 ошибок из 269. Это слишком мало, чтобы на них учить.
+The reverse transfer was declared non-informative in advance. On modified quotes the model almost never makes habit
+errors: 18 errors out of 269. That is too few to train on.
 
-## Что ещё видно (только для отчёта)
+## What else is visible (report only)
 
-- **Даже внутри одного вида сигнал слабый.** Лампочка, обученная на двух задачах со списыванием, на третьей такой же задаче даёт в лучшем слое 0.64. Это не один общий сигнал даже для одной привычки.
-- **Пара близнецов.** Вымышленные слова → дорожные слова, та же структура. Лампочка даёт 0.59, а простая уверенность модели **0.89**. На дорожных словах ошибки привычки — это **уверенные** ответы: модель не сомневается, когда тянет из обучения.
-- **Детектор обычных ошибок, обученный на MMLU, сам по себе хороший** (0.84 на отложенных MMLU). Но на привычках он не лучше монетки с небольшим плюсом. Ошибки привычки не похожи на обычные ошибки.
+- **Even within one kind the signal is weak.** A lamp trained on two copying tasks gives 0.64 at the best layer on a
+  third task of the same kind. It is not a single general signal even for one habit.
+- **A twin pair.** Made-up words → road words, same structure. The lamp gives 0.59, while plain model confidence
+  gives **0.89**. On road words, habit errors are **confident** answers: the model does not doubt itself when pulling
+  from training.
+- **A generic-error detector trained on MMLU is good by itself** (0.84 on held-out MMLU). But on habits it is barely
+  better than a coin. Habit errors do not look like ordinary errors.
 
-## Пересчёты по замечаниям проверяющего кода
+## Recomputations after the code reviewer's remarks
 
-1. В коде вопросы NeQA с «isn't / doesn't» тоже переводились без отрицания, а план допускал только « not ». Пересчёт на подмножестве из плана (133 вопроса): лампочка 0.53, вердикт тот же.
-2. В выборе слоя «близнецы» C-rule и C-parcels не получали вес 0.5. С весами выбран тот же слой 40, вердикт тот же.
+1. In the code, NeQA questions with "isn't / doesn't" were also converted to the version without negation, while the
+   plan allowed only " not ". Recomputed on the subset from the plan (133 questions): lamp 0.53, same verdict.
+2. In layer selection the C-rule and C-parcels "twins" did not get weight 0.5. With the weights the same layer 40 is
+   chosen, same verdict.
 
-Отчёты: report_main.txt (замороженный), report_sens_neqa.txt, report_sens_w.txt. Ревью кода: review/code-review.md.
+Reports: report_main.txt (frozen), report_sens_neqa.txt, report_sens_w.txt. Code review: review/code-review.md.
 
-## Пределы вывода
+## Limits of the conclusion
 
-- Одна модель.
-- Детектор простой (линейный), смотрит один слой и одну точку перед ответом.
-- На redefine после фильтра формата осталось 255 вопросов из 810. На бонусе не нашлось ячеек, где были бы и ошибки, и верные ответы.
+- One model.
+- The detector is simple (linear) and looks at one layer and one position before the answer.
+- On redefine, 255 of 810 questions remained after the format filter. On bonus there were no cells with both errors
+  and correct answers.
 
-Поэтому вывод такой: **простого общего сигнала нет**. Сложный сигнал не исключён.
+So the conclusion is: **there is no simple general signal**. A complex signal is not ruled out.
 
-## Что это значит для идеи
+## What it means for the idea
 
-Два вида привычки внутри модели выглядят по-разному. На тяге из обучения модель при ошибке уверена, а сигнал списывания из текста на тягу из обучения не переносится. Одной «лампочки на всё» на этом уровне не видно. Похоже, тянуть надо от того, что у них общее **снаружи**: ответ расходится с тем, что сказано в задаче. Это уже проверка ответа, а не чтение внутреннего сигнала.
+The two kinds of habit look different inside the model. With a pull from training the model is confident when wrong,
+and the signal for copying from text does not transfer to a pull from training. A single "lamp for everything" is not
+visible at this level. It seems one should start from what they have in common **outside**: the answer contradicts
+what the task says. That is checking the answer, not reading an internal signal.

@@ -1,65 +1,65 @@
-# Точное совпадение или инерция стратегии (тест Alex, 2026-10-16)
+# Exact match or strategy inertia (Alex's test, 2026-10-16)
 
-Вопрос: 14B после смены правила отвечает по-старому, потому что держится старой стратегии, или потому что
-находит в истории такой же случай и копирует его ответ?
+Question: after a rule change, does 14B answer the old way because it holds on to the old strategy, or because it
+finds the same case in the history and copies its answer?
 
-## Как устроено
+## Setup
 
-- Те же правила, та же строчка смены (Rule 2: echo=ON → echo=OFF), один случай на запрос, 30 новых наборов.
-- История 20 или 60 примеров. Для каждого набора одна общая история; условия отличаются **только** теми 15%
-  примеров, которые решались старым Rule 2, на тех же местах. Длина и число HOLD/PASS/REVIEW одинаковы.
-  - **A, точное совпадение:** эти примеры = сам тестовый случай (все 4 поля), с ответом по старому правилу.
-  - **B, структурное:** эти примеры тоже решаются старым Rule 2 (waiver=YES, echo=ON), но отличаются от теста
-    полем tag. Ни одного совпадения по всем полям.
-  - **C, нет нужных примеров:** вместо них HOLD по Rule 1. Ни один пример не задействует отменённое условие.
-- Отдельная программа по тексту запросов проверила ключи (ошибок 0) и совпадения: на D1/D3 в A 9 точных копий
-  при N=60 (3 при N=20), в B и C 0; примеров старого Rule 2: A 9, B 9, C 0.
-- Контроль без строчки смены для каждого условия; база: смена без истории. 1680 запросов × 5 ответов,
-  Qwen2.5-14B, bfloat16, H100. Файлы: `make_match.py`, `check_match.py`, `sets_match.json`, `results/`,
-  `score_match.py`, вывод `score_out.txt`.
+- Same rules, same change line (Rule 2: echo=ON → echo=OFF), one case per prompt, 30 new sets.
+- History of 20 or 60 examples. Each set has one shared history; the conditions differ **only** in the 15% of
+  examples that were solved by the old Rule 2, at the same positions. Length and the number of HOLD/PASS/REVIEW are equal.
+  - **A, exact match:** these examples = the test case itself (all 4 fields), with the old-rule answer.
+  - **B, structural:** these examples are also solved by the old Rule 2 (waiver=YES, echo=ON) but differ from the
+    test in the tag field. Not a single match on all fields.
+  - **C, no relevant examples:** instead of them, HOLD by Rule 1. No example uses the cancelled condition.
+- A separate program checked the answer keys from the prompt texts (0 errors) and the matches: on D1/D3, A has 9
+  exact copies at N=60 (3 at N=20), B and C have 0; examples of the old Rule 2: A 9, B 9, C 0.
+- Control without the change line for each condition; baseline: change without history. 1680 prompts × 5 answers,
+  Qwen2.5-14B, bfloat16, H100. Files: `make_match.py`, `check_match.py`, `sets_match.json`, `results/`,
+  `score_match.py`, output `score_out.txt`.
 
-## Результат: ответы по старому правилу на D1+D3 после смены
+## Result: old-rule answers on D1+D3 after the change
 
-| история | A точное | B структурное | C нет нужных | без истории |
+| history | A exact | B structural | C no relevant | no history |
 |---|---|---|---|---|
 | 20 | **88%** | 49% | 22% | 37% |
 | 60 | **93%** | 38% | 12% | 37% |
 
-Попарные разницы по 30 наборам (95% интервал), N=60:
+Paired differences over 30 sets (95% interval), N=60:
 - A − B: **+55%** [+42, +68]
 - B − C: +25% [+10, +41]
-- B − без истории: **0%** [−20, +20]
-- C − без истории: −25% [−39, −12]
+- B − no history: **0%** [−20, +20]
+- C − no history: −25% [−39, −12]
 
-(N=20 то же направление: A − B +39%, B − без истории +12% [−6, +30].)
+(N=20 goes the same direction: A − B +39%, B − no history +12% [−6, +30].)
 
-## Что это значит
+## What it means
 
-1. **Почти весь эффект — копирование готового ответа.** Когда в истории есть такой же случай, 14B ставит
-   старый ответ в 93%, хотя правило изменилось. Убираешь точные копии, оставив тот же тип примеров, и
-   старых ответов 38%, ровно столько же, сколько без всякой истории (37%).
-2. **Инерции стратегии в чистом виде не видно.** Примеры, решённые старым Rule 2, но не совпадающие с тестом,
-   не добавляют старых ответов сверх базы (B − без истории = 0% после 60 примеров).
-3. B выше C (+25%) потому, что C ещё и помогает: длинная история без отменённого условия снижает старые ответы
-   ниже базы (12% против 37%).
-4. Это сходится с разбором изнутри: модель до 32-го слоя считает по новому правилу, а поздние слои подтягивают
-   метку из похожего примера. Теперь видно, что «похожий» значит «тот же самый».
+1. **Almost the whole effect is copying a ready answer.** When the history contains the same case, 14B gives the old
+   answer in 93% of cases, although the rule changed. Remove the exact copies while keeping the same type of
+   examples, and old answers fall to 38%, exactly as many as with no history at all (37%).
+2. **No pure strategy inertia is visible.** Examples solved by the old Rule 2 that do not match the test add no old
+   answers above baseline (B − no history = 0% after 60 examples).
+3. B is above C (+25%) because C also helps: a long history without the cancelled condition pushes old answers
+   below baseline (12% vs 37%).
+4. This agrees with the look inside the model: up to layer 32 the model computes by the new rule, and late layers
+   pull in the label from a similar example. Now we see that "similar" means "the very same".
 
-Ответ на вопрос Alex: механизм ближе к «извлечь готовый ответ на идентичный вопрос», чем к «застрять в
-прежней стратегии».
+Answer to Alex's question: the mechanism is closer to "retrieve the ready answer to an identical question" than to
+"get stuck in the previous strategy".
 
-## Оговорки
+## Caveats
 
-- В B модель и без смены слабо применяет старый Rule 2 к случаю, которого не видела (контроль без смены, D1+D3:
-  A 100%, B 46%, C 36%). То есть из примеров она выучила скорее «вот эти случаи HOLD», чем общее правило.
-  Значит, в B было мало стратегии, которой можно держаться; на модели, которая лучше обобщает, инерция могла бы
-  проявиться.
-- В A копий больше, чем в v3 (9 против примерно 4–5), это верхняя граница эффекта.
-- Одна модель, одна формулировка смены.
+- In B, even without a change, the model applies the old Rule 2 weakly to a case it has not seen (control without
+  change, D1+D3: A 100%, B 46%, C 36%). So from the examples it learned "these cases are HOLD" rather than the
+  general rule. That means B had little strategy to hold on to; in a model that generalizes better, inertia might
+  show up.
+- A has more copies than v3 (9 vs about 4–5); this is an upper bound on the effect.
+- One model, one wording of the change.
 
-## Что можно сделать дальше
+## Possible next steps
 
-- «Лампочка» против копирования: подсказка «есть ли в примерах такой же случай? правило изменилось, не
-  копируй» и посмотреть, уйдёт ли 93%.
-- Найти головы внимания, которые смотрят из ответа на точную копию в истории (кандидаты на копирование метки).
-- Тот же тест на модели другого семейства.
+- A "lamp" against copying: a hint "is the same case in the examples? the rule changed, do not copy", to see
+  whether the 93% goes away.
+- Find the attention heads that look from the answer to the exact copy in the history (candidates for label copying).
+- The same test on a model from another family.

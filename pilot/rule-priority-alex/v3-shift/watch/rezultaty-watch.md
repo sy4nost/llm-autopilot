@@ -1,24 +1,33 @@
-# Сторож, итог (2026-10-17, число Alex = 185)
+# Watchman, result (2026-10-17, Alex's number = 185)
 
-План: PREREG.md (суммы сверены). Qwen2.5-14B, 2240 задач. Проверка «ничего не отмечено → ответ как обычно»: расхождение 0.0. Вывод: score_watch_out.txt.
+Plan: PREREG.md (checksums verified). Qwen2.5-14B, 2240 tasks. Check "nothing flagged → answer as usual": difference 0.0. Output: score_watch_out.txt.
 
-**Вердикт по заранее записанным правилам: FAIL**, опять только по вреду на бонус-очках (−7 при пороге −5). Остальные 5 условий выполнены.
+**Verdict by the pre-registered rules: FAIL**, again only on harm on bonus points (−7 with a threshold of −5). The other 5 conditions are met.
 
-| тип | ловушки A60 / E_nocopy, обычно → со сторожем | вред где опыт верен | сторож ошибочно отмечает верные примеры |
+| type | traps A60 / E_nocopy, normal → with watchman | harm where experience is right | watchman wrongly flags correct examples |
 |---|---|---|---|
 | parcels | 28→80 / 22→80 (**+55 [+40,+70]**) | **0** | 2.5% |
 | bonus | 5→22 / 5→15 (**+14 [+6,+21]**) | **−7 [−11,−3]** | 20.8% |
-| robot | 100 / 100 (привычки нет) | 0 | 0% |
+| robot | 100 / 100 (no habit) | 0 | 0% |
 | points | 98→100 / 95→98 | 0 | 3.5% |
 
-Главное:
-- **Сторож и «свои» задачи.** Где модель сама хорошо понимает текущие правила, сторож почти идеален: на parcels и robot он молчит во всех задачах без изменения (0%). Там же, где изменение было, он глушит нужные примеры. Записка ему не нужна, нужен только текст правил.
-- **Слабое место — бонус-очки.** Без истории модель неточно считает бонус (потолок F0 92%), поэтому сторож отмечает как устаревшие и часть верных примеров. Лампочка горит почти везде, вред −7.
-- **Идеальный сторож на bonus (oracle).** Ловушки 48 и 57 из 100, вреда нет. То есть при точной перепроверке и на bonus было бы без вреда, но выигрыш меньше, чем на parcels.
-- **E_copy ловушки (только для отчёта).** parcels 100→85, bonus 95→42. Глушение старых примеров иногда мешает и там, где рядом лежит свежий правильный пример. Это минус, причина не проверялась.
+Main points:
+- **The watchman and "own" tasks.** Where the model itself understands the current rules well, the watchman is almost
+  perfect: on parcels and robot it stays silent on all tasks without a change (0%). Where there was a change, it
+  silences the right examples. It needs no change note, only the text of the rules.
+- **The weak spot is bonus points.** Without history the model computes the bonus imprecisely (F0 ceiling 92%), so
+  the watchman also flags some correct examples as stale. The lamp fires almost everywhere, harm −7.
+- **A perfect watchman on bonus (oracle).** Traps 48 and 57 out of 100, no harm. So with exact re-checking bonus
+  would also be harmless, but the gain is smaller than on parcels.
+- **E_copy traps (report only).** parcels 100→85, bonus 95→42. Silencing old examples sometimes hurts even where a
+  fresh correct example lies next to it. This is a minus; the cause was not tested.
 
-Сравнение с лампочкой из прогона 2 (другие числа, сравнение приблизительное):
-- **parcels:** у обеих выигрыш около +55, вреда нет.
-- **bonus:** у лампочки +28/−7, у сторожа +14/−7.
+Comparison with the lamp from run 2 (different numbers, the comparison is approximate):
+- **parcels:** both gain about +55, no harm.
+- **bonus:** lamp +28/−7, watchman +14/−7.
 
-**Вывод.** Сторож надёжен ровно настолько, насколько модель сама понимает текущие правила без истории. Его ошибки — это ошибки модели при перепроверке.
+**Conclusion.** The watchman is exactly as reliable as the model's own understanding of the current rules without
+history. Its errors are the model's errors when re-checking.
+
+Note: a later independent audit (`../audit/audit-report.md`) found that simply dropping all history (F0) beats the
+watchman on these tasks, so the value of the watchman is not proven here.

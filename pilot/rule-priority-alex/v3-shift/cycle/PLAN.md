@@ -1,6 +1,6 @@
 # PLAN: life-cycle frame ("you live in cycles; fail and you are erased") vs habit traps. 2026-10-19, v2 (after review/plan-review.md).
 
-Alex's idea (thread «смертность / цикл жизни»): the model constantly knows it exists in cycles; at the end of a cycle its correct
+Alex's idea (thread "mortality / life cycle"): the model constantly knows it exists in cycles; at the end of a cycle its correct
 answers are counted; if successful, cycles continue, if not, it is reset as ineffective = death. Goal: as many correct answers as
 possible. Question: does this background frame reduce habit answers (old/known answer when the task states otherwise)?
 

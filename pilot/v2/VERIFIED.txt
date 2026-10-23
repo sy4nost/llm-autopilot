@@ -1,4 +1,4 @@
-v2 ready for runs (2026-10-16 02:43 UTC). Owner of run_v2.py / analyze_v2.py: thread "Перенос знаний из Impulse Lab и трейдинга".
+v2 ready for runs (2026-10-16 02:43 UTC). Owner of run_v2.py / analyze_v2.py: thread "Transferring knowledge from Impulse Lab and trading".
 - Built to SPEC.md and reviewed (code, design, stats). Review fixes applied: H2 needs the slope CI above 0 on each habit-answer side; the "correct both" line is split by side; decision layer is side-corrected; --boot >= 1; truncated CSV rows are skipped.
 - Added --dtype {float32,bfloat16,float16} (default float32). In half precision the --check-cache limit is 5e-2.
 - Smoke tests on a tiny 4-layer Qwen2 in the cloud container: float32 end to end with --check-cache 4 (max diff 4.8e-07), bfloat16 with --check-cache 4 (max diff 2.5e-04), 0 cache fallbacks of 320 prompts.

@@ -79,7 +79,7 @@ Estimated from earlier rates. The rates per cell come from only 20–30 sets, so
 **N3. C-rule and C-parcels are an isomorphic pair in the P→C test mean — CONCERN (R3).**
 - v2 says they "count as one group for spread", but never says where that applies.
 - In the P→C mean the families have equal weight, so this pair gets double weight. Criterion 3 can pass or fail twice on the same structure.
-- **Fix:** merge them into one family for the P→C mean and for criterion 3, each with weight 0.5, or define exactly what "одна группа" means in each computation.
+- **Fix:** merge them into one family for the P→C mean and for criterion 3, each with weight 0.5, or define exactly what "one group" means in each computation.
 
 **N4. Layer choice by leave-one-family-out — CONCERN.**
 - With three C training families, one fold (likely C-bonus) may have no qualifying cell or fewer than 30/30. The plan does not say what happens then.
@@ -88,8 +88,8 @@ Estimated from earlier rates. The rates per cell come from only 20–30 sets, so
 
 **N5. Quote: the filter may wipe it out, and its validity check is unspecified — CONCERN.**
 - Quote options are multi-token continuations. Under the old protocol only 11% of items had P(options) ≥ 0.5 (`option_mass_out.txt`). Even a better format may keep few. The ones kept are likely the high-confidence repeats, which skews toward non-errors.
-- "весь набор" is not a size. Write the N after fetching, and the expected errors after filtering on dev.
-- The validity prompt "Complete the famous quote: <начало>" needs a decision rule. For example, score the famous and altered endings with the same option rules and count "knows" if the famous ending wins with mass ≥ 0.5. Also define how `<начало>` is cut from the prompt (the text after the last "Output:"?).
+- "the whole set" is not a size. Write the N after fetching, and the expected errors after filtering on dev.
+- The validity prompt "Complete the famous quote: <beginning>" needs a decision rule. For example, score the famous and altered endings with the same option rules and count "knows" if the famous ending wins with mass ≥ 0.5. Also define how `<beginning>` is cut from the prompt (the text after the last "Output:"?).
 - Pre-register what happens if quote is non-informative. C→P then rests on redefine plus NeQA, and P→C trains on redefine alone, i.e. one sub-task family. Consider declaring P→C non-informative if only one P training family survives.
 
 **N6. A different format per family means a different readout position — CONCERN.**
@@ -106,10 +106,10 @@ Estimated from earlier rates. The rates per cell come from only 20–30 sets, so
 **N8. B2 and B3 definitions — CONCERN.**
 - **B2:** "probabilities of options" is not transferable. Option order is arbitrary, and C families have 3 options while public ones have 2. Use order-free features: top-1 probability, the top-1 − top-2 margin, and entropy / log k.
 - **B3:** layer 0 at the last token is the same token embedding for every prompt in a format, so it is constant and useless. The baseline is really the mean-pooled layer-0 vector over the prompt's own tokens. State that, exclude the chat-template tokens, and make sure it is saved.
-- Fix the text "B4 weak, but **критерий 3** still applies": B4 is in criterion 2.
+- Fix the text "B4 weak, but **criterion 3** still applies": B4 is in criterion 2.
 
 **N9. Bootstrap unit for redefine — minor.**
-- "по наборам или шаблонам": with only 3–5 qualifying templates, resampling templates is degenerate.
+- "by sets or templates": with only 3–5 qualifying templates, resampling templates is degenerate.
 - **Fix:** for redefine, resample items within each template, stratified. For C families resample sets; for NeQA and quote resample items.
 
 **N10. Seeds — minor.**

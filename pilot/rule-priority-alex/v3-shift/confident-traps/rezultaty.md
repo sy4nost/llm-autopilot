@@ -1,43 +1,60 @@
-# Малая проба «уверенных ловушек»: итог (2026-10-23)
+# Small pilot of "confident traps": result (2026-10-23)
 
-**Зачем.** Тест fastthink провалился, потому что выбранные чужие тесты оказались для моделей лёгкими: там почти не было ошибок по привычке. Здесь мы проверили, на каких видах задач у моделей есть **уверенная** привычка: модель быстро и уверенно отвечает «как обычно», хотя условие это запрещает. Лампочку на этом шаге **не смотрели**: только быстрые ответы.
+**Why.** The fastthink test failed because the chosen independent tests were easy for the models: they had almost no
+habit errors. Here we checked on which kinds of tasks the models have a **confident** habit: the model quickly and
+confidently answers "as usual", although the task forbids it. The lamp was **not** looked at in this step: only fast answers.
 
-**Как.** 517 новых задач, 9 видов. В каждом виде 40 ловушек (привычный ответ неверен) и 20 контрольных задач (привычный ответ верен). Три модели: Qwen2.5-14B, Phi-4, OLMo-2-13B. Каждая модель выбирает ответ сразу, без рассуждения. Уверенность — это то, насколько сильно модель предпочитает выбранный вариант остальным. Прогон занял около 15 минут на Modal (L40S), это примерно $0.5. Число для выборки (20261023) выбрал я: проба не замороженная, на её основе ничего не доказывается.
+**How.** 517 new tasks, 9 kinds. Each kind has 40 traps (the habitual answer is wrong) and 20 controls (the habitual
+answer is right). Three models: Qwen2.5-14B, Phi-4, OLMo-2-13B. Each model picks an answer immediately, without
+reasoning. Confidence is how strongly the model prefers the chosen option over the others. The run took about 15
+minutes on Modal (L40S), about $0.5. I chose the sampling seed (20261023): the pilot is not frozen and nothing is
+proven on its basis.
 
-## Главное
+## Main finding
 
-Уверенная привычка есть **у всех трёх моделей** в 4 видах задач:
+A confident habit exists **in all three models** on 4 kinds of tasks:
 
-| вид задачи | Qwen | Phi-4 | OLMo |
+| kind of task | Qwen | Phi-4 | OLMo |
 |---|---|---|---|
-| hindsight (свежие задачи по опубликованному шаблону): «проиграл, значит решение было плохим» | 60 | 8 | 25 |
-| redefine (чужой тест): «π = 39+14, первая цифра π?» | 58 | 50 | 12 |
-| наши π и e с новыми числами | 28 | 44 | 3 |
-| посылки: правило поменялось после 60 примеров | 25 | 55 | 0 |
+| hindsight (fresh items from the published template): "lost, so the decision was bad" | 60 | 8 | 25 |
+| redefine (independent test): "π = 39+14, first digit of π?" | 58 | 50 | 12 |
+| our π and e with new numbers | 28 | 44 | 3 |
+| parcels: the rule changed after 60 examples | 25 | 55 | 0 |
 
-Цифра в таблице — сколько ловушек из 100 модель решила верно, отвечая сразу. Почти все ошибки здесь привычные (модель выбрала «как обычно»), и модель в них уверена: в среднем на 80–100 из 100. Контрольные задачи все три модели решают на 95–100 из 100. Значит, модели понимают формат, а ошибаются именно там, где привычка неверна.
+The number is how many traps out of 100 the model solved correctly when answering immediately. Almost all errors here
+are habitual (the model chose "as usual"), and the model is confident in them: on average 80–100 out of 100. All
+three models solve the controls at 95–100 out of 100. So the models understand the format and fail exactly where the
+habit is wrong.
 
-Ещё в двух видах привычка уверенная у двух моделей из трёх:
-- **определения** («у восьмиугольника 9 сторон»): Phi-4 60, OLMo 30, а Qwen почти не ошибается (80);
-- **бонус** (правило подсчёта очков поменялось): Qwen 2, OLMo 0. Phi-4 ошибается (40), но неуверенно.
+In two more kinds the habit is confident in two models out of three:
+- **definitions** ("an octagon has 9 sides"): Phi-4 60, OLMo 30, while Qwen makes few errors (80);
+- **bonus** (the scoring rule changed): Qwen 2, OLMo 0. Phi-4 makes errors (40), but unconfidently.
 
-Где уверенной привычки нет:
-- **столицы** («столица Швеции здесь — Гётеборг»): модели почти всегда правы (77–100).
-- **memo-trap** (закончить известную фразу другим словом): Qwen 70, OLMo 82. Только у Phi-4 (52) это похоже на привычку.
-- **дорожные слова**: у Qwen привычка сильная (18), у Phi-4 ошибки неуверенные. OLMo путается и на контрольных (55), то есть плохо понимает сам формат.
+Where there is no confident habit:
+- **capitals** ("the capital of Sweden here is Gothenburg"): the models are almost always right (77–100).
+- **memo-trap** (finish a famous phrase with a different word): Qwen 70, OLMo 82. Only for Phi-4 (52) does it look like a habit.
+- **road words**: Qwen has a strong habit (18), Phi-4's errors are unconfident. OLMo also gets confused on controls
+  (55), i.e. it understands the format poorly.
 
-## Как понять в картинке
+## As a picture
 
-Ученик быстро выпаливает ответ из старой тетради и уверен в нём на 95 из 100. Именно такие ошибки простая проверка «где ученик сомневается» поймать не может: он не сомневается. Поэтому эти 4–6 видов задач — честная площадка, чтобы проверить, ловит ли их наша лампочка («быстрый ответ не совпал с ответом подумав»). В fastthink такой площадки не было.
+A student quickly blurts out an answer from an old notebook and is 95 out of 100 sure of it. Exactly these errors
+cannot be caught by the simple check "where is the student in doubt": they are not in doubt. So these 4–6 kinds of
+tasks are a fair testing ground for whether our lamp ("the fast answer differs from the answer after thinking")
+catches them. fastthink had no such testing ground.
 
-## Ограничения
+## Limitations
 
-- По 40 ловушек на клетку, поэтому каждая цифра неточна примерно на ±15.
-- Здесь видно, что модель уверенно ошибается. Но не проверено, что она **может** решить задачу, если подумает. Для Qwen это раньше уже было видно на π, hindsight и посылках. Для Phi-4 и OLMo проверим на следующем шаге.
-- redefine, memo и hindsight — старые публичные тесты. Модели могли видеть их при обучении. Hindsight мы поэтому сделали заново по тому же шаблону, а для memo и redefine взяли задачи, которые раньше в проекте не использовались.
+- 40 traps per cell, so each number is uncertain by about ±15.
+- This shows that the model is confidently wrong. It does not show that it **can** solve the task if it thinks. For
+  Qwen this was seen earlier on π, hindsight and parcels. For Phi-4 and OLMo it will be checked in the next step.
+- redefine, memo and hindsight are older public tests. The models may have seen them in training. That is why we
+  regenerated hindsight from the same template, and for memo and redefine we took items not used earlier in the project.
 
-## Что дальше (нужно отдельное «да» от Алекса, ~$4–6)
+## Next (needs a separate "yes" from Alex, ~$4–6)
 
-Замороженный тест лампочки на этих видах: hindsight, redefine, наши π, посылки, плюс определения и бонус. Те же 3 модели. Лампочка должна обойти «где модель не уверена» на заранее записанную величину. Моя догадка (не проверена): раз ошибки здесь уверенные, проверка по уверенности будет слабой, и у лампочки есть шанс.
+A frozen test of the lamp on these kinds: hindsight, redefine, our π, parcels, plus definitions and bonus. The same
+3 models. The lamp must beat "where the model is unsure" by a pre-registered margin. My guess (untested): since the
+errors here are confident, the confidence check will be weak and the lamp has a chance.
 
-Файлы: make_ct.py (набор), modal_ct.py (прогон), score_ct.py (подсчёт), report_pilot.txt (полная таблица), out_pilot_*.jsonl (ответы).
+Files: make_ct.py (item set), modal_ct.py (run), score_ct.py (scoring), report_pilot.txt (full table), out_pilot_*.jsonl (answers).

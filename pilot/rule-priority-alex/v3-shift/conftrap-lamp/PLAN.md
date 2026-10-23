@@ -1,6 +1,6 @@
 # Lamp on confident traps, 3 models — PLAN v1 (2026-10-23)
 
-Alex: "Ну давай, запускай" (2026-10-23 21:58Z), answering the proposal of a frozen lamp test on the families found by the
+Alex: "OK, go ahead and launch it" (2026-10-23 21:58Z), answering the proposal of a frozen lamp test on the families found by the
 confident-trap pilot (../confident-traps/rezultaty.md). Budget stated to Alex: ~$4-6 (Modal H100).
 
 ## Why this test

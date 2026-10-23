@@ -1,44 +1,47 @@
-# Выборочная блокировка: 20 «копирующих» голов не видят только прошлые примеры
+# Selective blocking: 20 "copying" heads cannot see only the past examples
 
-Qwen2.5-14B-Instruct, Modal H100, 2026-10-16. Те же 20 голов (слои 29–38), что в heads/.
-Раньше головы выключались целиком. Теперь они работают, но маской внимания им закрыт только блок
-решённых примеров. Правила, сообщение об изменении, сам вопрос и свой собственный ход решения они видят.
+Qwen2.5-14B-Instruct, Modal H100, 2026-10-16. The same 20 heads (layers 29–38) as in heads/.
+Previously the heads were switched off entirely. Now they work, but an attention mask hides only the block of
+solved examples from them. They still see the rules, the change notice, the question itself and their own reasoning.
 
-## Итог в одной строке
-Общая прибавка на нашей задаче та же (+8 пунктов, 63% → 70%), но теперь бесплатно: GSM8K 93.6% → 93.6%, MMLU 77.5% → 77.9%.
-Цена: старые ответы падают вдвое слабее, чем при полном выключении.
+## One-line summary
+The overall gain on our task is the same (+8 points, 63% → 70%), but now free: GSM8K 93.6% → 93.6%, MMLU 77.5% → 77.9%.
+The price: old answers fall half as much as with full switch-off.
 
-## Наша задача (270 отложенных запросов, наборы 15–29)
+## Our task (270 held-out prompts, sets 15–29)
 
-| | старые ответы после смены (D1+D3) | верно D1+D3 | верно D2+D4 (новое правило добавляет HOLD) | верно без смены | всё верно |
+| | old answers after change (D1+D3) | correct D1+D3 | correct D2+D4 (new rule adds HOLD) | correct, no change | all correct |
 |---|---|---|---|---|---|
-| обычно | 43% | 51% | 80% | 57% | 63% |
-| головы выключены целиком | 21% | 61% | 93% | 57% | 70% |
-| **закрыты только примеры** | **33%** | 54% | **96%** | **61%** | **70%** |
+| normal | 43% | 51% | 80% | 57% | 63% |
+| heads fully off | 21% | 61% | 93% | 57% | 70% |
+| **only examples hidden** | **33%** | 54% | **96%** | **61%** | **70%** |
 
-Разница с обычным режимом (парный бутстрэп по наборам, 95%):
-- старые ответы −10% [−19, −2]; верно D1+D3 +3% [−6, +11] (не значимо);
-- D2+D4 +16% [+7, +24]; без смены +4% [0, +9]; всё вместе +8% [+3, +13].
+Difference from normal (paired bootstrap over sets, 95%):
+- old answers −10% [−19, −2]; correct D1+D3 +3% [−6, +11] (not significant);
+- D2+D4 +16% [+7, +24]; no change +4% [0, +9]; all together +8% [+3, +13].
 
-По условиям, старые ответы на D1+D3: A (в истории тот же случай) 90% → 77% (целиком выкл.: 60%);
-B (похожие случаи) 37% → 13% (3%); C (нет похожих) 3% → 10% (0%).
+By condition, old answers on D1+D3: A (same case in history) 90% → 77% (fully off: 60%);
+B (similar cases) 37% → 13% (3%); C (no similar cases) 3% → 10% (0%).
 
-## Бенчмарки (проверка на вред)
+## Benchmarks (harm check)
 
 | | MMLU 570 | GSM8K 250 |
 |---|---|---|
-| обычно | 77.5% | 93.6% |
-| головы выключены целиком (прошлый прогон) | 76.0% (−1.6) | 88.0% (−5.6 [−9.6, −2.0]; 19 сломано, 5 исправлено) |
-| **закрыты только примеры** | **77.9% (+0.4)**; 3 исправлено, 1 сломано | **93.6% (0.0)**; 1 исправлено, 1 сломано |
+| normal | 77.5% | 93.6% |
+| heads fully off (previous run) | 76.0% (−1.6) | 88.0% (−5.6 [−9.6, −2.0]; 19 broken, 5 fixed) |
+| **only examples hidden** | **77.9% (+0.4)**; 3 fixed, 1 broken | **93.6% (0.0)**; 1 fixed, 1 broken |
 
-Значит, математику ломало то, что головы не видели свои собственные шаги решения. Если закрыть им только прошлые примеры, вреда нет.
+So what broke math was the heads not seeing their own solution steps. If only the past examples are hidden from
+them, there is no harm.
 
-## Что это значит
-- Мы научились ослаблять тягу к прошлому опыту, не трогая остальную работу модели. Это первый вариант без потерь на бенчмарках.
-- Точное копирование (условие A) уходит хуже: 77% старых ответов против 60% при полном выключении.
-  Это вывод, не проверка: скорее всего, слои до 29 уже успели перенести «готовый ответ» из примеров в токены самого вопроса.
-  Головы читают его оттуда в обход маски.
-- Следующий шаг по этой линии: закрыть примеры тем же головам и в нескольких слоях раньше (например, 20–28), либо найти ранние головы-«переносчики».
-- Заявлять прибавку можно только на самодельном GSM-NoOp (бенчмарки здесь — проверка на вред).
+## What it means
+- We learned to weaken the pull of past experience without touching the rest of the model's work. This is the first
+  variant with no benchmark cost.
+- Exact copying (condition A) goes away less: 77% old answers vs 60% with full switch-off.
+  This is an inference, not a test: most likely the layers below 29 have already moved the "ready answer" from the
+  examples into the tokens of the question itself. The heads read it from there, bypassing the mask.
+- Next step on this line: hide the examples from the same heads in several earlier layers too (e.g. 20–28), or find
+  the early "carrier" heads.
+- A gain can be claimed only on a self-made GSM-NoOp (benchmarks here are a harm check).
 
-Файлы: modal_blockex.py (прогон), score_blockex.py (подсчёт), score_out.txt (полный вывод), blockex_Qwen2.5-14B-Instruct.jsonl (сырые ответы).
+Files: modal_blockex.py (run), score_blockex.py (scoring), score_out.txt (full output), blockex_Qwen2.5-14B-Instruct.jsonl (raw answers).

@@ -33,7 +33,7 @@ As written, the plan can produce **a PASS that reflects surface features of the 
 **C-rule (match/make_match.py).**
 - All four probes D1–D4 are changed cases under the new rule: D1 H→P, D2 P→H, D3 H→R, D4 R→H (`make_shift.py` docstring and `key()`). So in the change arms **there is no "untouched" case**.
 - The only negatives where the old answer is correct are `A_nochange_60`. Those prompts have **no update note** and their key is the old rule.
-- The plan's table and its "ловушки самого опыта" section say C-rule has untouched cases with the note. That is wrong.
+- The plan's table and its "traps of experience itself" section say C-rule has untouched cases with the note. That is wrong.
 - D2/D4 do count as habit errors (old label). Their rate is low (10–33% with sampling), so most positives are D1/D3.
 
 **C-parcels / C-bonus (newtasks2/make_new2.py).**

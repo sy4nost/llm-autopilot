@@ -1,31 +1,33 @@
-# Прогон 2, незнакомые задачи со сложной поправкой (2026-10-17, число Alex = 32)
+# Run 2: unfamiliar tasks with a compound amendment (2026-10-17, Alex's number = 32)
 
-План: PREREG.md (контрольные суммы сверены). Модель Qwen2.5-14B, 1120 задач, проверки w1/up1 = 0.0. Полный вывод: score_new2_out.txt.
+Plan: PREREG.md (checksums verified). Model Qwen2.5-14B, 1120 tasks, sanity checks w1/up1 = 0.0. Full output: score_new2_out.txt.
 
-**Вердикт по заранее записанным правилам: FAIL**, но только по одному пункту из четырёх.
+**Verdict by the pre-registered rules: FAIL**, but only on one criterion out of four.
 
-| | parcels (посылки) | bonus (бонус-очки) |
+| | parcels | bonus (bonus points) |
 |---|---|---|
-| Выигрыш на ловушках A60+E_nocopy | **+57 [+46, +69] PASS** | **+28 [+18, +39] PASS** |
-| Вред там, где опыт верен | **0 PASS** | **−7 [−10, −5] FAIL** (порог −5) |
+| Gain on traps A60+E_nocopy | **+57 [+46, +69] PASS** | **+28 [+18, +39] PASS** |
+| Harm where experience is right | **0 PASS** | **−7 [−10, −5] FAIL** (threshold −5) |
 
-На этот раз ловушки сработали: без помощи модель держалась за старый ответ в 80–90 случаях из 100.
+This time the traps worked: without help the model held on to the old answer in 80–90 cases out of 100.
 
-Правильные ответы на ловушках, обычно → по лампочке:
-- **parcels:** A60 20→78, E_nocopy 12→70. Потолок без истории (F0) — 92.
-- **bonus:** A60 5→30, E_nocopy 8→38. Потолок (F0) — 88.
+Correct answers on traps, normal → with the lamp:
+- **parcels:** A60 20→78, E_nocopy 12→70. Ceiling without history (F0): 92.
+- **bonus:** A60 5→30, E_nocopy 8→38. Ceiling (F0): 88.
 
-Где вред (bonus): лампочка горит слишком часто и там, где правило не менялось (35–98%). Потери:
-- A60 нетронутые 95→72;
-- R60 (записка «правило не меняется») 100→78 и 95→80.
+Where the harm is (bonus): the lamp fires too often, also where the rule did not change (35–98%). Losses:
+- A60 untouched cases 95→72;
+- R60 (note "the rule does not change") 100→78 and 95→80.
 
-На parcels лампочка избирательна: 80–88% на ловушках, 0–15% там, где менять нечего.
+On parcels the lamp is selective: 80–88% on traps, 0–15% where there is nothing to change.
 
-Для отчёта, не для вердикта:
-- **bonus, «просто заглушить старое» (w0):** даёт больше правильных на ловушках (62/60), но и больше вреда.
-- **×4 вместо ×16:** выигрыш заметно меньше.
-- **E_copy (свежий такой же случай):** без помощи и так 95–100.
+Report-only, not part of the verdict:
+- **bonus, "just silence the old" (w0):** more correct answers on traps (62/60), but also more harm.
+- **×4 instead of ×16:** the gain is clearly smaller.
+- **E_copy (a fresh identical case):** already 95–100 without help.
 
-Выводы:
-1. Схема, подобранная на старых задачах и замороженная заранее, переносится на новые задачи со сложной поправкой. Ошибок по привычке становится в 2–6 раз меньше.
-2. Слабое место — лампочка. На одном типе задач она отличает ловушку от нормального случая плохо, и вред чуть превышает заранее заданный порог.
+Conclusions:
+1. A recipe tuned on the old tasks and frozen in advance transfers to new tasks with a compound amendment. Habit
+   errors drop 2–6 times.
+2. The weak spot is the lamp. On one task type it separates a trap from a normal case poorly, and the harm slightly
+   exceeds the pre-set threshold.

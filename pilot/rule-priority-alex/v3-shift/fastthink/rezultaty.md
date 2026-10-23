@@ -1,44 +1,54 @@
-# «Быстрый ответ против подумав» на чужих тестах, 3 модели: итог (2026-10-19)
+# "Fast answer vs. after thinking" on independent tests, 3 models: result (2026-10-19)
 
-Модели: Qwen2.5-14B, Phi-4 (Microsoft), OLMo-2-13B. Число для выборки дал Алекс: 58. Всё было записано и заморожено до прогона: тесты, правила подсчёта и пороги (PREREG.md, суммы файлов совпали). План и код заранее проверили два независимых ревизора (review/). Полный вывод подсчёта лежит в report_main.txt.
+Models: Qwen2.5-14B, Phi-4 (Microsoft), OLMo-2-13B. Sampling seed given by Alex: 58. Everything was written down
+and frozen before the run: tests, scoring rules and thresholds (PREREG.md, file checksums matched). The plan and
+code were reviewed in advance by two independent reviewers (review/). Full scoring output is in report_main.txt.
 
-## Короткий ответ
-**По заранее записанным правилам не прошло ни то, ни другое.**
-- **Лампочка** («быстрый ответ не совпал с ответом подумав»):
-  - она уверенно обходит случайный выбор и «спросить быстро 5 раз»;
-  - но не обходит простое «где модель не уверена в быстром ответе». На новых тестах эти двое почти равны.
-- **Проговаривание** на новых тестах дало +3 из 100 при пороге +5. Кроме того, у двух моделей в HANS оно вредит там, где привычный ответ верный.
+## Short answer
+**By the pre-registered rules, neither part passed.**
+- **The lamp** ("the fast answer differs from the answer after thinking"):
+  - it clearly beats random selection and "ask fast 5 times";
+  - but it does not beat the simple "where the model is unsure of its fast answer". On the new tests the two are
+    almost equal.
+- **Thinking aloud** gave +3 out of 100 on the new tests with a threshold of +5. Also, for two models on HANS it
+  hurts where the habitual answer is correct.
 
-## Почему так: на новых тестах почти не было автопилота
-Ученик уже отвечает правильно на 7–9 вопросов из 10. Проверять его на черновике почти нечего. А там, где он всё же ошибается, он и сам не уверен, и это видно без черновика.
+## Why: the new tests had almost no autopilot
+The student already answers 7–9 questions out of 10 correctly. There is almost nothing to check on a draft. And
+where they do make mistakes, they are unsure themselves, and that is visible without a draft.
 
-| тест (новый) | Qwen сразу → подумав | Phi-4 | OLMo-2 |
+| test (new) | Qwen direct → after thinking | Phi-4 | OLMo-2 |
 |---|---|---|---|
-| TruthfulQA (популярные заблуждения) | 77 → 73 | 73 → 76 | 59 → 62 |
-| HANS-ловушки («похожие слова») | 88 → 88 | 71 → 87 | 63 → 78 |
-| HANS-контроль (привычка права) | 90 → 85 | 95 → 82 | 98 → 81 |
-| epistemic («X думает, что…») | 72 → 86 | 79 → 77 | 69 → 54 |
+| TruthfulQA (popular misconceptions) | 77 → 73 | 73 → 76 | 59 → 62 |
+| HANS traps ("similar words") | 88 → 88 | 71 → 87 | 63 → 78 |
+| HANS control (habit is right) | 90 → 85 | 95 → 82 | 98 → 81 |
+| epistemic ("X thinks that...") | 72 → 86 | 79 → 77 | 69 → 54 |
 
-Правильных ответов из 100. В HANS Phi-4 и OLMo после проговаривания просто чаще говорят «не следует». Поэтому ловушки выросли, а контроль упал. Это сдвиг в одну сторону, а не понимание.
+Correct answers out of 100. On HANS, Phi-4 and OLMo after thinking aloud simply say "does not follow" more often.
+That is why traps went up and controls went down. It is a one-sided shift, not understanding.
 
-## Где автопилот сильный, лампочка работает хорошо
-Это старые тесты на новых вопросах (memo-trap, hindsight). Здесь быстрые ответы уверенно неправильные:
-- проговаривание: **+38 из 100** в среднем по трём моделям, надёжно выше нуля;
-- лампочка обходит «где модель не уверена» на **+36 из 100** по доле пойманных ошибок, у всех трёх моделей.
+## Where the autopilot is strong, the lamp works well
+These are older tests on new questions (memo-trap, hindsight). Here fast answers are confidently wrong:
+- thinking aloud: **+38 out of 100** on average over three models, reliably above zero;
+- the lamp beats "where the model is unsure" by **+36 out of 100** in the share of errors caught, for all three models.
 
-Но для вердикта эти тесты заранее не считались: мы уже видели их раньше. Это подтверждение на других моделях, а не новое доказательство.
+But these tests were not counted for the verdict in advance: we had seen them before. This is confirmation on other
+models, not new evidence.
 
-## Что это значит (мой вывод из этих цифр)
-- Лампочка полезна именно для **уверенных** ошибок по привычке. Это совпадает со всем, что мы видели раньше: уверенные и неуверенные ошибки устроены по-разному.
-- Где ошибка неуверенная, хватает простой проверки уверенности. Лампочка там ничего не добавляет.
-- Чтобы доказать ценность лампочки, нужны чужие тесты с **уверенным** автопилотом. Выбранные новые тесты оказались для этих моделей слишком лёгкими. Заранее этого никто не знал: пробный прогон точность не смотрел.
+## What it means (my inference from these numbers)
+- The lamp is useful specifically for **confident** habit errors. This matches everything we saw earlier: confident
+  and unconfident errors work differently.
+- Where an error is unconfident, a simple confidence check is enough. The lamp adds nothing there.
+- To prove the lamp's value we need independent tests with **confident** autopilot. The chosen new tests turned out
+  too easy for these models. Nobody knew this in advance: the pilot run did not look at accuracy.
 
-## Справочно (в вердикт не входило)
-- **sig-figs** (округление): проговаривание +24, у Phi-4 +53. Но OLMo-2 стала хуже на 4. Это арифметика, а не привычка.
-- **Экономная версия** «думать только над 30% самых неуверенных вопросов» на новых тестах давала примерно половину выигрыша от «думать всегда», а местами и больше.
-- **MMLU:** вреда нет ни у одной модели (+2…+6).
+## For reference (not in the verdict)
+- **sig-figs** (rounding): thinking aloud +24, Phi-4 +53. But OLMo-2 got worse by 4. This is arithmetic, not habit.
+- **A cheaper version**, "think only on the 30% least confident questions", gave about half the gain of "always
+  think" on the new tests, and in places more.
+- **MMLU:** no harm for any model (+2…+6).
 
-## Ограничения
-- Новые тесты оказались лёгкими.
-- TruthfulQA, вероятно, модели видели при обучении.
-- Прогон прерывался из-за лимита трат Modal. Продолжен с того же места, вопросы и правила не менялись.
+## Limitations
+- The new tests turned out to be easy.
+- The models have probably seen TruthfulQA in training.
+- The run was interrupted by the Modal spend limit. It was resumed from the same point; questions and rules did not change.

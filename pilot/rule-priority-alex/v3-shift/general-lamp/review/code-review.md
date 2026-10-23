@@ -8,7 +8,7 @@ Severity scale: **BUG-affects-verdict**, **BUG-report-only**, **NIT**. Line numb
 
 ### 1. BUG-affects-verdict (deviation from the plan). NeQA validity also strips "n't" contractions, so twice as many items are kept as the plan allows
 - **Where:** modal_gl.py:32-44 (`unnegate`).
-- **Plan v2.1:** "замена ровно одного « not »; если «not» не ровно одно, вопрос исключается".
+- **Plan v2.1:** "replace exactly one ' not '; if 'not' does not occur exactly once, the question is excluded".
 - **Code:** counts `\bnot\b` and `\w+n't` together. When there is exactly one hit, it removes the "not" or rewrites isn't→is, aren't→are, and so on.
 - **NeQA data** (data/NeQA.jsonl): 156 questions have exactly one "not" and no contraction. 144 have exactly one "n't" (isn't 106, aren't 29, wasn't 7, weren't 2) and no "not".
 - **Effect on the test split:**
@@ -27,14 +27,14 @@ Severity scale: **BUG-affects-verdict**, **BUG-report-only**, **NIT**. Line numb
 
 ### 2. BUG-affects-verdict (deviation; can change the chosen layer). LOFO layer selection averages families without the C-rule/C-parcels 0.5 weights
 - **Where:** analyze_gl.py:161, `res[L] = float(np.mean(folds))`.
-- **Plan:** "Везде, где семьи усредняются (среднее П → С, критерий «нет слепой семьи»), каждая из них весит 0.5". The LOFO target is a mean over held-out families. In C->P that means C-rule 0.5, C-parcels 0.5, C-bonus 1.
+- **Plan:** "Wherever families are averaged (the P → C mean, the 'no blind family' criterion), each of them has weight 0.5". The LOFO target is a mean over held-out families. In C->P that means C-rule 0.5, C-parcels 0.5, C-bonus 1.
 - **Code:** the LOFO mean is unweighted. The fallback branch (164) does use `mean_fams`, so the two branches are inconsistent.
 - **Effect:** the layer choice feeds every C->P criterion. The probability of a different layer is moderate when the per-layer curves are flat.
 - **Fix** (for a sensitivity analysis): collect `{f: auc}` per layer and use `mean_fams`. Re-run with `--analyze-only 1` and a patched *copy* of the analysis source. The states are on the volume. Report whether the chosen layer, and hence the verdict, changes.
 
 ### 3. NIT (could move C2 vs B4 slightly). B4 is not "the same lamp": its classes are unweighted
 - **Where:** analyze_gl.py:251, 254 (`np.ones(...)` as sample weights).
-- **Plan:** "та же лампочка", and the lamp uses balanced classes. MMLU is about 77% correct, so B4 is fitted unbalanced.
+- **Plan:** "the same lamp", and the lamp uses balanced classes. MMLU is about 77% correct, so B4 is fitted unbalanced.
 - **Effect:** usually a small change in AUC, but it is a deviation in the baseline the lamp must beat by 0.05.
 - **Fix:** use `fam_weights(mm_tr)` (a single family, so the classes become balanced) in a sensitivity run.
 
@@ -48,7 +48,7 @@ Severity scale: **BUG-affects-verdict**, **BUG-report-only**, **NIT**. Line numb
 
 ### 5. NIT (deviation in an edge path). OOF and fallback folds group P-redefine by item, not by template
 - **Where:** analyze_gl.py:172. `grp` for public items is the item index (modal_gl.py:68).
-- **Plan:** "деление по наборам или шаблонам".
+- **Plan:** "split by sets or templates".
 - **Effect:** only the 5-fold fallback and the criterion-4 OOF threshold in P->C. P->C will almost surely stop at the P-quote rule anyway.
 - **Fix:** for P-redefine, use `cell` as the group.
 
@@ -68,22 +68,22 @@ Severity scale: **BUG-affects-verdict**, **BUG-report-only**, **NIT**. Line numb
 - The plan does not say otherwise. If P->C ever becomes informative only through C-rule + C-parcels, flag it.
 
 ### 9. BUG-report-only. The PREREG promise "results without the 30 smoke items" is not implemented
-- **Where:** PREREG.md ("В отчёте будут результаты без этих 30 вопросов"). analyze_gl.py has no such section.
+- **Where:** PREREG.md ("The report will include results without these 30 questions"). analyze_gl.py has no such section.
 - **Fix:** compute post hoc from scores_main.json. The smoke items are the first 30 non-aux test items of each public family in `src_i` order: P-redefine src_i 0..~33 in t0, and the first 30 test `src_i` of NeQA and quote.
 
 ### 10. BUG-report-only. The "without previously scored items" report is minimal
 - **Where:** analyze_gl.py:326-328.
-- **Plan:** "Результаты даются дважды: со всеми вопросами и без этих 200".
+- **Plan:** "Results are given twice: with all questions and without these 200".
 - **Code:** prints only the lamp AUC, and only for informative families. There are no baselines, CIs or criteria.
 - **Fix:** rerun the direction table and criteria 1-3 on the subset with `seen_before=False`. Everything needed is in the per-item scores.
 
 ### 11. BUG-report-only. The P-native "twin pair" is trained on all three C families, not on C-rule
 - **Where:** analyze_gl.py:341-345.
-- **Plan:** "пара C-rule → P-native".
+- **Plan:** "the pair C-rule → P-native".
 - **Fix:** train on C-rule only, or relabel the report line.
 
 ### 12. BUG-report-only. Within-kind results are missing
-- The plan's report-only list includes "внутривидовые результаты" (C→C, P→P). Only the LOFO per-layer numbers are printed, which is partial.
+- The plan's report-only list includes "within-kind results" (C→C, P→P). Only the LOFO per-layer numbers are printed, which is partial.
 
 ### 13. BUG-report-only (plan item 7, reproducibility). Per-item output is missing what is needed to re-check criterion 4 and B4
 - **Where:** analyze_gl.py:289.

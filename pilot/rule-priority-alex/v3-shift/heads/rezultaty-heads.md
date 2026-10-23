@@ -1,58 +1,58 @@
-# «Копирующие» головы внимания в 14B (2026-10-16)
+# "Copying" attention heads in 14B (2026-10-16)
 
-Цель: найти конкретные места в модели, через которые прошлый случай перетягивает ответ, и ослабить только их.
+Goal: find the specific places in the model through which a past case pulls the answer, and weaken only them.
 
-## Как устроено
+## Setup
 
-- Те же наборы A/B/C (история 60): со сменой правила D1–D4 и без смены D1, D3. Qwen2.5-14B, bfloat16, H100.
-- Шаг 1 (540 запросов): для каждой из 1920 голов внимания (48 слоёв × 40) замерили, сколько внимания из места
-  ответа идёт на метку прошлого примера, который **буква в букву совпадает** с тестовым случаем.
-- Головы ранжированы только по **первой половине наборов** (1–15, условие A, D1/D3, 30 запросов).
-- Шаг 2: на **второй, отложенной половине** (наборы 16–30, 270 запросов) выход этих голов обнулён начиная с
-  тестового случая. Варианты: 10, 20, 40 лучших голов и, для контроля, 20 случайных голов.
-- Ответ = метка с наибольшей вероятностью первого токена. Файлы: `modal_heads.py`,
-  `heads_Qwen2.5-14B-Instruct.jsonl`, `score_heads.py`, вывод `score_heads_out.txt`.
+- The same A/B/C sets (history 60): with a rule change D1–D4 and without a change D1, D3. Qwen2.5-14B, bfloat16, H100.
+- Step 1 (540 prompts): for each of the 1920 attention heads (48 layers × 40), we measured how much attention goes
+  from the answer position to the label of the past example that **matches the test case letter for letter**.
+- Heads were ranked only on **the first half of the sets** (1–15, condition A, D1/D3, 30 prompts).
+- Step 2: on **the second, held-out half** (sets 16–30, 270 prompts) the output of these heads was zeroed from the
+  test case onward. Variants: top 10, 20, 40 heads and, as a control, 20 random heads.
+- Answer = the label with the highest first-token probability. Files: `modal_heads.py`,
+  `heads_Qwen2.5-14B-Instruct.jsonl`, `score_heads.py`, output `score_heads_out.txt`.
 
-## Какие головы
+## Which heads
 
-20 лучших сидят в слоях 29–38: L36.10, L37.18, L34.29, L29.11, L34.28, L32.9, L33.2, L36.21, L32.4, L34.6, L36.23,
-L29.13, L29.20, L29.10, L36.36, L34.27, L35.29, L29.18, L38.33, L29.21. Ровно там, где по логит-линзе старый ответ
-перехватывает новый (после 32-го слоя). Это около 1% всех голов модели.
+The top 20 sit in layers 29–38: L36.10, L37.18, L34.29, L29.11, L34.28, L32.9, L33.2, L36.21, L32.4, L34.6, L36.23,
+L29.13, L29.20, L29.10, L36.36, L34.27, L35.29, L29.18, L38.33, L29.21. Exactly where, by the logit lens, the old
+answer takes over from the new one (after layer 32). This is about 1% of all heads in the model.
 
-## Результат на отложенных наборах (все условия вместе)
+## Result on held-out sets (all conditions together)
 
-| что отключено | старый ответ после смены (D1+D3) | верно D1+D3 | верно D2+D4 | верно без смены (опыт прав) |
+| what is switched off | old answer after change (D1+D3) | correct D1+D3 | correct D2+D4 | correct, no change (experience is right) |
 |---|---|---|---|---|
-| ничего | 43% | 51% | 80% | 57% |
-| 10 лучших голов | 27% | 51% | 98% | 56% |
-| **20 лучших голов** | **21%** | **61%** | **93%** | **57%** |
-| 40 лучших голов | 14% | 58% | 78% | 53% |
-| 20 случайных голов | 42% | 47% | 78% | 49% |
+| nothing | 43% | 51% | 80% | 57% |
+| top 10 heads | 27% | 51% | 98% | 56% |
+| **top 20 heads** | **21%** | **61%** | **93%** | **57%** |
+| top 40 heads | 14% | 58% | 78% | 53% |
+| 20 random heads | 42% | 47% | 78% | 49% |
 
-Попарно по наборам, 20 лучших голов против обычного: старых ответов −22% [−30, −14], верно D1+D3 +10% [0, +18],
-верно D2+D4 +13% [+4, +23], верно без смены 0% [−6, +7]. 20 случайных голов: старых ответов −1% [−11, +10].
+Paired by set, top 20 heads vs normal: old answers −22% [−30, −14], correct D1+D3 +10% [0, +18],
+correct D2+D4 +13% [+4, +23], correct without change 0% [−6, +7]. 20 random heads: old answers −1% [−11, +10].
 
-По условиям (20 лучших голов): с точной копией (A) старых ответов 90% → 60%; без копии (B) 37% → 3%, верно
-60% → 77%; без опыта (C) почти без изменений.
+By condition (top 20 heads): with an exact copy (A) old answers 90% → 60%; without a copy (B) 37% → 3%, correct
+60% → 77%; without experience (C) almost unchanged.
 
-## Что это значит
+## What it means
 
-1. **Тяга сидит в небольшой группе голов.** Отключение 20 голов из 1920 убирает половину старых ответов, а 20
-   случайных голов ничего не меняют. Значит, это не «модель стала хуже видеть», а конкретный механизм копирования.
-2. **Впервые выросли именно верные ответы** (D1+D3 +10%, D2+D4 +13%), а не просто ушли старые. В регуляторе
-   на все примеры такого не было.
-3. **Опыт там, где он прав, не пострадал**: без смены правила точность та же (57% → 57%), с точной копией
-   97–100%. Знания модели не тронуты.
-4. **Меру надо держать.** 40 голов убирают ещё больше старых ответов (14%), но начинают ломать D2+D4 (78%).
-   20 выглядит как разумная середина.
-5. **«Лампочка» по этим головам пока не работает.** Сигнал (сколько эти головы смотрят на метки примеров) почти
-   одинаков, есть привычка или нет (горит в 43% случаев и в A, и в B, и в 40% там, где правило не менялось).
-   Включение по сигналу даёт только −9% старых ответов. Нужен другой сигнал, например сравнить, что эти головы
-   несут, с тем, что модель посчитала по текущему правилу.
+1. **The pull sits in a small group of heads.** Switching off 20 heads out of 1920 removes half of the old answers,
+   while 20 random heads change nothing. So this is not "the model sees worse", but a specific copying mechanism.
+2. **For the first time the correct answers themselves went up** (D1+D3 +10%, D2+D4 +13%), not just the old ones
+   went away. The dial over all examples did not do this.
+3. **Experience where it is right was not harmed**: without a rule change accuracy is the same (57% → 57%), with an
+   exact copy 97–100%. The model's knowledge is untouched.
+4. **The dose matters.** 40 heads remove even more old answers (14%) but start breaking D2+D4 (78%). 20 looks like a
+   reasonable middle.
+5. **A "lamp" based on these heads does not work yet.** The signal (how much these heads look at example labels) is
+   almost the same whether there is a habit or not (fires in 43% of cases in both A and B, and in 40% where the rule
+   did not change). Switching on by this signal gives only −9% old answers. Another signal is needed, for example
+   comparing what these heads carry with what the model computed under the current rule.
 
-## Оговорки
+## Caveats
 
-- Одна модель, одна задача, 15 отложенных наборов (интервалы широкие).
-- Головы отключались только с тестового случая; на других задачах их отключение не проверялось. Перед
-  выводом «это безопасно» нужна проверка на обычных задачах (например GSM8K или MMLU), как в плане проекта.
-- В условии A всё ещё 60% старых ответов: точная копия тянет и через другие пути.
+- One model, one task, 15 held-out sets (wide intervals).
+- Heads were switched off only from the test case onward; switching them off on other tasks was not tested. Before
+  concluding "this is safe", a check on ordinary tasks (e.g. GSM8K or MMLU) is needed, as in the project plan.
+- Condition A still has 60% old answers: an exact copy also pulls through other paths.

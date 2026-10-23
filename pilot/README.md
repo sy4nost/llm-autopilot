@@ -1,51 +1,51 @@
-# Мини-пилот: тест «смены правила» на маленькой модели
+# Mini-pilot: a "rule switch" test on a small model
 
-Шаг 1 дорожной карты. Скрипт `pilot_rule_switch.py` проверяет на Qwen 2.5 0.5B две вещи:
+Step 1 of the roadmap. The script `pilot_rule_switch.py` tests two things on Qwen 2.5 0.5B:
 
-- **H1:** растут ли ошибки «по старому правилу», когда привычное правило закрепляли дольше (N = 0, 10, 30, 60 примеров);
-- **H2:** тянет ли модель к старому ответу внутри (по слоям), даже когда итоговый ответ верный.
+- **H1:** do "old rule" errors grow when the habitual rule was reinforced longer (N = 0, 10, 30, 60 examples);
+- **H2:** is the model pulled towards the old answer internally (across layers), even when the final answer is correct.
 
-## Как устроен опыт
+## How the experiment works
 
-Схема — Эксперимент 2 из Impulse Lab. Синяя рамка: круг → ЛЕВО, квадрат → ПРАВО. Оранжевая рамка: наоборот.
-Каждое задание — отдельный запрос к модели: правила, N решённых примеров, короткий блок «обучения» с обоими правилами
-и одно тестовое задание. Ответ читается без случайности: сравниваются вероятности слов LEFT и RIGHT.
+The design is Experiment 2 from Impulse Lab. Blue frame: circle → LEFT, square → RIGHT. Orange frame: the reverse.
+Each task is a separate prompt to the model: the rules, N solved examples, a short "training" block with both rules
+and one test task. The answer is read without randomness: the probabilities of the words LEFT and RIGHT are compared.
 
-Два условия одинаковой длины:
-- **habit** — все N примеров синие (закрепляем привычку);
-- **mixed** — те же N примеров, но синие и оранжевые через один (контроль: та же длина текста, без привычки).
+Two conditions of equal length:
+- **habit**: all N examples are blue (the habit is reinforced);
+- **mixed**: the same N examples, but blue and orange alternate (control: same text length, no habit).
 
-H1 подтверждается, только если в habit ошибок по старому правилу больше, чем в mixed, и разница растёт с N.
-Иначе рост ошибок объясняется просто длиной текста.
+H1 is supported only if habit has more old-rule errors than mixed and the difference grows with N.
+Otherwise the growth in errors is explained simply by text length.
 
-## Что проверили до запуска
+## What was checked before running
 
-Скрипт прогнан на крошечной случайной модели (без смысла, только на работоспособность) и проверен тремя независимыми
-ревьюерами. Исправлено: двойная нормировка в «логит-линзе», сбалансированность заданий по фигурам и по рамкам,
-одинаковые задания для всех N (парное сравнение), контроль длины текста, порог «скрытого импульса» с нулевым уровнем,
-совместимость со старыми версиями transformers.
+The script was run on a tiny random model (meaningless, only to check that it works) and reviewed by three independent
+reviewers. Fixed: double normalization in the "logit lens", balancing of tasks by shape and by frame, identical tasks
+for all N (paired comparison), text-length control, a "hidden impulse" threshold with a null level, compatibility with
+older versions of transformers.
 
-Важно для чтения результата: порог «скрытого импульса» построен так, что около 10% верных синих заданий его превышают.
-Поэтому H2 оценивается как **разница** между оранжевыми и синими (колонки `hidden ORANGE` и `null BLUE`), а не по
-количеству оранжевых самому по себе.
+Important for reading the result: the "hidden impulse" threshold is built so that about 10% of correct blue tasks
+exceed it. So H2 is judged as the **difference** between orange and blue (columns `hidden ORANGE` and `null BLUE`),
+not by the number of orange ones on its own.
 
-## Запуск на Windows
+## Running on Windows
 
-1. Установить Python 3.10 или новее с python.org (галочка «Add Python to PATH»).
-2. В командной строке в папке со скриптом:
+1. Install Python 3.10 or newer from python.org (tick "Add Python to PATH").
+2. In a command prompt in the script folder:
    ```
    pip install -U torch transformers
    python pilot_rule_switch.py
    ```
-   При первом запуске модель (около 1 ГБ) скачается с Hugging Face. Видеокарта не нужна.
-3. Результат: таблица на экране и файлы `results/trials.csv` и `results/layers.csv`.
+   On first run the model (about 1 GB) is downloaded from Hugging Face. No GPU is needed.
+3. Result: a table on screen and the files `results/trials.csv` and `results/layers.csv`.
 
-## Как читать таблицу
+## How to read the table
 
-| Колонка | Что значит |
+| Column | Meaning |
 |---|---|
-| `BLUE acc` | Точность на синих (привычных) заданиях. Если она около 50%, модель не поняла игру, и остальное читать нельзя |
-| `OLD_RULE_ERROR` | Доля ошибок по старому правилу на оранжевых, с 95% интервалом. Случайный уровень 50% |
-| `pull` | Средняя «тяга» к старому ответу на выходе модели (больше 0 — тянет к старому) |
-| `hidden ORANGE` / `null BLUE` | Скрытые импульсы на оранжевых против фонового уровня на синих |
-| `bias` | Перекос модели к LEFT (плюс) или RIGHT (минус) |
+| `BLUE acc` | Accuracy on blue (habitual) tasks. If it is around 50%, the model did not understand the game and the rest cannot be read |
+| `OLD_RULE_ERROR` | Share of old-rule errors on orange tasks, with a 95% interval. Chance level is 50% |
+| `pull` | Mean "pull" towards the old answer at the model output (above 0 = pulled towards the old) |
+| `hidden ORANGE` / `null BLUE` | Hidden impulses on orange tasks vs the background level on blue |
+| `bias` | The model's skew towards LEFT (plus) or RIGHT (minus) |

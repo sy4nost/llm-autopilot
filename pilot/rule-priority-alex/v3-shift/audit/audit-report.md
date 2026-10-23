@@ -1,4 +1,4 @@
-# Audit of the "watchman" (сторож) results, Qwen2.5-14B-Instruct
+# Audit of the "watchman" results, Qwen2.5-14B-Instruct
 
 Auditor: independent session, 2026-10-18. I ran nothing on Modal or a GPU. I worked only from the files, using local `python3 -I`.
 My own scoring script is `audit/recompute.py` and its full output is `audit/recompute_out.txt`. It does not import any `score_*`, `make_*` or `check_*` file, and it has its own text solver for all four task types.
