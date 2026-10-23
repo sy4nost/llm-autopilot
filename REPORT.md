@@ -1,6 +1,6 @@
 # The model saw the rule change and answered the old way anyway: a pre-registered study of in-context habits in Qwen2.5-14B
 
-*Oleksandr Rylov, independent researcher (Spartanburg, SC, USA). October 2026. Draft v1.*
+*Oleksandr Rylov, independent researcher (Spartanburg, SC, USA). October 2026. Draft v2 (updated October 23 with the confident-trap tests and their audit).*
 
 *Code and data: https://github.com/sy4nost/llm-autopilot. All experiments were run with Claude (Anthropic) as a research assistant: Claude wrote the code, ran the jobs and drafted the reports. I designed the questions, chose the directions and supplied the random seeds for every frozen test.*
 
@@ -12,7 +12,8 @@
 - **Most of the habit is copying, not strategy.** If the exact same case sits in the history with its old answer, the model repeats it **93 of 100** times. Without an identical case, the rate is 38, the same as with no history at all (37).
 - **The copying runs through a small set of attention heads.** Ranking was done on half the task sets and testing on the other, held-out half. Zero-ablating 20 of 1,920 heads (layers 29 to 38) halves old-rule answers (43 → 21 of 100). 20 random heads do nothing (43 → 42). Masking the best 40 heads from the past-examples block only raises overall task accuracy from 63 to 73 of 100, with **no cost** on MMLU (+0.5) or GSM8K (0.0).
 - **It transfers only partly.** A frozen detector-plus-boost recipe was tested on unfamiliar tasks with a fresh seed. It fixed many habit errors (+57 and +28 points on two task types) but missed a pre-registered harm threshold on one of them (−7 vs −5). An independent audit found that a trivial baseline, simply dropping the history, beats it on our own tasks.
-- **On independent public trap benchmarks, one thing worked, pre-registered:** asking the model to reason before answering gave **+15.8 points** [+12.5, +19.0] across five public trap families, with no harm on control items (−0.3) or MMLU (+1.8). Think-aloud on traps is known in the literature. The part we think may be new is using the **disagreement between the fast answer and the reasoned answer as a habit detector** (AUC 0.97 on memo-trap, 0.90 on hindsight-neglect).
+- **On independent public trap benchmarks, one thing worked, pre-registered:** asking the model to reason before answering gave **+15.8 points** [+12.5, +19.0] across five public trap families, with no harm on control items (−0.3) or MMLU (+1.8). Think-aloud on traps is known in the literature.
+- **Confident habit errors are common, and confidence does not see them.** A pre-registered 3-model test (Qwen2.5-14B, Phi-4, OLMo-2-13B, 5 trap families) found fast answers that are confidently wrong by habit in all three models; low-confidence gating misses them, and reasoning fixes about **75 of 100**. Comparing the fast and the reasoned answer flags these errors, but only *after* reasoning, so an independent audit concluded it adds nothing over always reasoning. **We do not yet have a signal that predicts habit errors before reasoning; that is the open problem.**
 - **We report more than ten negative results**, including: no general internal "habit signal" across habit types, preference training that does not transfer, and "wake-up" prompts that are placebos or harmful.
 
 ---
@@ -115,7 +116,17 @@ Paired difference for old answers is −22 [−30, −14]. The top heads sit exa
 
 **Second frozen test, 3 models (Qwen 14B, Phi-4, OLMo-2-13B), new benchmarks: FAIL.** The verdict benchmarks were TruthfulQA MC1, HANS and an epistemic-reasoning task. They turned out to have little confident autopilot: fast answers were right 59 to 98 of 100. There the disagreement flag beat random and 5-sample self-consistency, but not plain low confidence (+2 [−2.7, +6.6]). Reasoning gave +3.2 against a +5 threshold and hurt HANS controls for two models. On tasks **with** confident habit errors (fresh memo-trap and hindsight items; replication, not counted in the verdict), it worked on all three models: reasoning +38, and the flag beat low confidence by +36 in errors caught.
 
-**What we conclude:** the fast-vs-reasoned disagreement is valuable where habit errors are **confident**, which is exactly where confidence-based gates fail. Showing this on independent benchmarks chosen for confident autopilot is the next step.
+**What we concluded at that point:** the fast-vs-reasoned disagreement looked valuable where habit errors are **confident**, which is exactly where confidence-based gates fail. Section 6b tests this and shows its limit.
+
+## 6b. Confident habit errors in three models, and an audit of the "fast ≠ reasoned" flag (October 23)
+
+**Pilot (not frozen, ~$0.5).** 517 fresh items in 9 trap families, fast answers only, Qwen2.5-14B, Phi-4, OLMo-2-13B. In 4 families (hindsight, redefine-math, our redefined π/e, parcels) all three models make habit errors with high confidence (typically 80–100 of 100), while control items where the habit is right are solved at 95–100 of 100.
+
+**Pre-registered test (seed 57, ~$5).** 760 fresh items, 5 families, the same 3 models. Reasoning fixes most of the confident errors (traps correct, fast → reasoned): hindsight 43 → 89, 1 → 84, 7 → 53; parcels 26 → 100, 58 → 98, 0 → 43; bonus 4 → 100, 36 → 99, 0 → 49 (Qwen, Phi-4, OLMo). At equal flag rate, "fast ≠ reasoned" caught more fast-answer errors than random (+37 [+31, +44]), low confidence (+26 [+20, +31]) and 5-sample disagreement (+30 [+24, +36]): PASS by the frozen rules.
+
+**Independent audit (`pilot/rule-priority-alex/v3-shift/conftrap-lamp/audit/`).** The numbers and the pre-registration checked out. But the pass was close to certain by design: on these families the flag is almost the same as "reasoning fixed the error" (74.5 of its 75.1 recall points), it ties a rival that also sees the reasoned answer, it adds nothing over simply always reasoning, and it catches only 2.7% of the errors that reasoning cannot fix (low confidence catches 34.8% of those).
+
+**What we conclude now:** (1) confident habit errors are real and widespread across model families; (2) confidence-based gating is blind to them; (3) reasoning fixes about 75 of 100. A flag that needs the reasoned answer is not a detector. **The open problem is a cheap signal available before reasoning.** Our internal probes reach high AUC within one task kind (e.g. 0.98 on definitions, 0.87 on π traps, 0.91 on the rule-change task) but do not transfer across kinds (section 5).
 
 ## 7. Negative results (all reported in full in the repository)
 
@@ -129,6 +140,7 @@ Paired difference for old answers is −22 [−30, −14]. The top heads sit exa
 | "You will die after this cycle" framing | Harmful: traps −8.6 vs a length-matched placebo. |
 | Telling the model "your internal sensor detects a conflict" | Hurt traps (63 → 55); the same hint without the sensor framing helped (+19). |
 | Linear probe predicting where reasoning will change the answer | AUC 0.67 vs 0.65 for low confidence; failed its threshold. |
+| "Fast ≠ reasoned" flag as a habit detector (3 models, confident traps) | Passed its frozen test, but the audit showed it only restates that reasoning fixed the error; no gain over always reasoning (section 6b). |
 
 ## 8. What we think is going on (interpretation, partly untested)
 
@@ -139,9 +151,9 @@ Paired difference for old answers is −22 [−30, −14]. The top heads sit exa
 ## 9. Next steps (proposal)
 
 1. **A benchmark of confident autopilot.** Collect public and new items where fast answers are confidently wrong because of habit: changed rules in agent histories, modified famous texts, outcome-vs-decision. Verify the habit exists on a small pilot before any paid run. Release it openly.
-2. **The fast-vs-reasoned gate**, tested pre-registered on that benchmark across 4 to 5 open models and 2 API models (Claude, GPT). Baselines: always reason, low confidence, self-consistency. Measure errors caught per unit of extra compute.
+2. **A cheap pre-reasoning signal**, tested pre-registered on that benchmark across 4 to 5 open models and 2 API models (Claude, GPT): internal probes, short self-checks, or other signals available before reasoning. Baselines: always reason, low confidence, self-consistency, and the after-the-fact fast-vs-reasoned flag. Measure errors caught per unit of extra compute.
 3. **An agent setting.** A simple trading or operations agent whose environment changes regime mid-episode. Measure habit errors with and without the gate.
-4. **Mechanism follow-up on open models.** Check whether the copy-head picture (sections 3–4) replicates in Llama and Gemma families, and whether a cheap internal signal can predict fast/reasoned disagreement before the reasoning is run.
+4. **Mechanism follow-up on open models.** Check whether the copy-head picture (sections 3–4) replicates in Llama and Gemma families.
 
 ---
 

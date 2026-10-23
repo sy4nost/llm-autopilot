@@ -1,202 +1,204 @@
-# План v2: общая лампочка «пора пересмотреть привычный ответ»
+# Plan v2: a general lamp "time to re-check the habitual answer"
 
-2026-10-18. Версия 2, переписана после проверки плана (review/plan-review.md, 5 блокеров). Первая версия лежит в PLAN_v1.md. v2.1: учтены 9 уточнений второй проверки (review/plan-review-v2.md, вердикт «можно писать код»). Потом пишу PREREG.md с контрольными суммами, и только после этого Alex называет число.
+*English translation. The original Russian text, whose sha256 is listed in PREREG.md, and the earlier draft PLAN_v1.md are in the git history (commit 6d3f172). Quoted phrases in review/ refer to the original wording.*
 
-## Вопрос (гипотеза Alex)
+2026-10-18. Version 2, rewritten after the plan review (review/plan-review.md, 5 blockers). The first version was PLAN_v1.md. v2.1: 9 clarifications from the second review were applied (review/plan-review-v2.md, verdict "ready to write code"). Then I write PREREG.md with checksums, and only after that does Alex name the number.
 
-Есть ли внутри модели один сигнал «привычный ответ сейчас не годится», общий для двух видов привычки:
-- **вид С** — модель списывает из примеров в запросе;
-- **вид П** — модель тянет из выученного раньше, без примеров в запросе.
+## Question (Alex's hypothesis)
 
-Тормоз не строим, проверяем только обнаружение.
+Is there one signal inside the model, "the habitual answer does not fit now", common to two kinds of habit:
+- **kind C**: the model copies from the examples in the prompt;
+- **kind P**: the model pulls from what it learned earlier, with no examples in the prompt.
 
-**Модель:** Qwen2.5-14B-Instruct.
+We do not build a brake; we test only detection.
 
-## Что изменилось по сравнению с v1 (по проверке)
+**Model:** Qwen2.5-14B-Instruct.
 
-1. **Ответ на публичных задачах будет настоящим.** Раньше варианты ответа почти не получали вероятности: модель собиралась объяснять. Теперь формат подбирается на отдельной «пробной» части и фильтруется по вероятности вариантов (раздел «Как спрашиваем»).
-2. **Главная мера — качество внутри ячейки.** Ячейка — это плечо × тип случая, или шаблон в redefine. Иначе одно знание «какая это ячейка» даёт AUC 0.87–0.98, и порог 0.70 ничего не проверял.
-3. **Больше простых соперников:** надписи на поверхности (нулевой слой), только выходные вероятности, уверенность с подобранным знаком, детектор обычных ошибок с собственной проверкой годности.
-4. **Пара C-rule / P-native убрана из критериев.** Это близнецы, поэтому пара идёт только в отчёт. Главный перенос: С → публичные П.
-5. **Все размеры, деления и правила отбрасывания записаны заранее.** Есть минимум семей, иначе вывод «нечего сказать». Ложные загорания на MMLU стали критерием.
-6. **Проверки годности для NeQA и цитат.** Ошибкой привычки считается только «знает, но поддался».
-7. **Результаты по каждому запросу сохраняются**, чтобы проверяющий мог пересчитать всё сам.
+## What changed compared with v1 (after review)
 
-## Задачи и размеры
+1. **The answer on public tasks will be real.** Previously the answer options got almost no probability: the model was about to explain. Now the format is chosen on a separate "trial" part and filtered by option probability (section "How we ask").
+2. **The main measure is quality within a cell.** A cell is arm × case type, or a template in redefine. Otherwise knowing "which cell this is" alone gives AUC 0.87–0.98, and the 0.70 threshold tested nothing.
+3. **More simple rivals:** surface features (layer zero), output probabilities only, confidence with a fitted sign, a generic-error detector with its own validity check.
+4. **The C-rule / P-native pair was removed from the criteria.** They are twins, so the pair goes only into the report. Main transfer: C → public P.
+5. **All sizes, splits and exclusion rules are written in advance.** There is a minimum number of families, otherwise the conclusion is "nothing to say". False alarms on MMLU became a criterion.
+6. **Validity checks for NeQA and quotes.** Only "knows, but gave in" counts as a habit error.
+7. **Per-prompt results are saved**, so that a reviewer can recompute everything.
 
-Число Alex задаёт `S`. Генераторы запускаются с `S, S+1, S+2, …`, чтобы получить нужное число наборов. Деление публичных задач на «пробную» и «проверочную» части делается заранее числом 12345, до числа Alex. Пробная часть используется только для подбора формата и никогда не входит в подсчёт.
+## Tasks and sizes
 
-**Обучение, вид С:**
+Alex's number sets `S`. Generators run with `S, S+1, S+2, …` to get the needed number of sets. The split of public tasks into "trial" and "test" parts is made in advance with number 12345, before Alex's number. The trial part is used only for format selection and never enters scoring.
 
-| семья | генератор | наборов | что берём | запросов |
+**Training, kind C:**
+
+| family | generator | sets | what we take | prompts |
 |---|---|---|---|---|
 | C-rule | match/make_match.py | 90 | A_change_60, B_change_60, C_change_60 × D1–D4 | 1080 |
 | C-parcels | newtasks2/make_new2.py | 80 | A60, E_nocopy × T1, T2, S1, S2 | 640 |
 | C-bonus | newtasks2/make_new2.py | 160 | A60, E_nocopy × T1, T2, S1, S2 | 1280 |
 
-- **A_change_20 убран.** Проверяющий показал, что он почти так же привычен, как A_change_60 (D1 93% и там, и там), и нужного разброса не даёт.
-- **C-bonus увеличен до 160 наборов**, чтобы набралось ≥ 30 «нет» в ловушечных ячейках.
-- **C-rule и C-parcels устроены одинаково.** Везде, где семьи усредняются (среднее П → С, критерий «нет слепой семьи»), каждая из них весит 0.5.
+- **A_change_20 removed.** The reviewer showed it is almost as habitual as A_change_60 (D1 93% in both) and does not give the needed spread.
+- **C-bonus increased to 160 sets**, to collect ≥ 30 "no" cases in trap cells.
+- **C-rule and C-parcels are built identically.** Wherever families are averaged (the P → C mean, the "no blind family" criterion), each of them has weight 0.5.
 
-**Числа генераторов:** S, S+1, …, S+k по порядку. Любое число из уже использованных (12345, 25, 32, 185, 20261020, 0) пропускается. make_native.py получает S вместо своего числа по умолчанию.
+**Generator numbers:** S, S+1, …, S+k in order. Any number already used (12345, 25, 32, 185, 20261020, 0) is skipped. make_native.py gets S instead of its default number.
 
-**Вид П, публичные задачи** (пробная часть / проверочная):
+**Kind P, public tasks** (trial part / test part):
 
-| семья | всего | пробная | проверочная | привычный ответ | проверка годности |
+| family | total | trial | test | habitual answer | validity check |
 |---|---|---|---|---|---|
-| P-redefine | 900 | 90 (по 10 на шаблон) | 810 | стандартная математика (проверено на всех 900) | не нужна |
-| P-neqa | 300 | 30 | 270 | ответ на вопрос без «не» | тот же вопрос без «not» (замена ровно одного « not »; если «not» не ровно одно, вопрос исключается). Ошибка привычки только если модель верно отвечает на вопрос без «не» |
-| P-quote | весь набор | 10% (число 12345) | остальное | известное окончание цитаты | см. ниже |
+| P-redefine | 900 | 90 (10 per template) | 810 | standard math (checked on all 900) | not needed |
+| P-neqa | 300 | 30 | 270 | the answer to the question without "not" | the same question without "not" (replace exactly one " not "; if "not" does not occur exactly once, the question is excluded). A habit error only if the model answers the question without "not" correctly |
+| P-quote | the whole set | 10% (number 12345) | the rest | the famous ending of the quote | see below |
 
-**Проверка годности для P-quote.**
-- **Начало цитаты** — текст из запроса, который стоит перед вариантами ответа. Это общее начало, после которого два варианта расходятся.
-- **Запрос проверки:** «Complete the famous quote: <начало>».
-- **Модель «знает» цитату**, если привычный (известный) вариант получает там бо́льшую сумму log-вероятностей, чем изменённый.
-- **Ошибка привычки** — модель знает цитату и в настоящем запросе выбрала известный вариант.
-- **Что знание не меняет:** если модель цитату не знает, запрос исключается и в класс 0 не идёт.
+**Validity check for P-quote.**
+- **Quote beginning**: the text from the prompt that comes before the answer options. This is the shared beginning after which the two options diverge.
+- **Check prompt:** "Complete the famous quote: <beginning>".
+- **The model "knows" the quote** if the habitual (famous) option gets a higher sum of log-probabilities there than the altered one.
+- **Habit error**: the model knows the quote and in the real prompt chose the famous option.
+- **What knowledge does not change:** if the model does not know the quote, the prompt is excluded and does not go into class 0.
 
-**Если P-quote отпадает** (меньше 30 ошибок или меньше 30 «нет» после фильтров):
-- в П → С остаётся одна обучающая семья П, и направление П → С объявляется «неинформативным»;
-- С → П при этом считается по оставшимся.
+**If P-quote drops out** (fewer than 30 errors or fewer than 30 "no" after filters):
+- P → C is left with one training P family, and the P → C direction is declared "non-informative";
+- C → P is then computed on the remaining families.
 
-**Ранее оценённые вопросы.** 200 вопросов каждой публичной семьи уже оценивались раньше. Результаты даются дважды: со всеми вопросами и без этих 200. Вердикт — по всем.
+**Previously scored questions.** 200 questions of each public family were scored before. Results are given twice: with all questions and without these 200. The verdict uses all of them.
 
-**Только для отчёта:**
-- P-native (90 наборов, change_0 × D1–D4, 360 запросов, тот же генератор с числом S) — пара с C-rule;
-- MMLU, 1500 новых вопросов, выбор числом S. Исключаются уже использованные: первые 10 на предмет (как в blockex), первые 500 по рецепту watch_public с числом 185, первые 200 по рецепту conflict с числом 0. В public/ MMLU не было. Из оставшихся:
-  - 1000 идут на обучение детектора обычных ошибок,
-  - 500 — на его проверку и на ложные загорания.
+**Report only:**
+- P-native (90 sets, change_0 × D1–D4, 360 prompts, the same generator with number S): the pair with C-rule;
+- MMLU, 1500 new questions, sampled with number S. Already used ones are excluded: the first 10 per subject (as in blockex), the first 500 by the watch_public recipe with number 185, the first 200 by the conflict recipe with number 0. MMLU was not in public/. Of the remaining:
+  - 1000 go to training the generic-error detector,
+  - 500 to its testing and to false alarms.
 
-**Итого** около 7000 запросов.
+**Total** about 7000 prompts.
 
-## Как спрашиваем (публичные задачи)
+## How we ask (public tasks)
 
-Фиксированный список из трёх форматов:
-- **F1** — запрос + «Reply with only the answer, nothing else.»;
-- **F2** — F1 + ответ ассистента начинается с «The answer is»;
-- **F3** — исходный запрос без чата.
+A fixed list of three formats:
+- **F1**: prompt + "Reply with only the answer, nothing else.";
+- **F2**: F1 + the assistant's answer starts with "The answer is";
+- **F3**: the original prompt without chat.
 
-**Один формат на все публичные семьи и MMLU**, чтобы состояние читалось в одном и том же месте. Берётся тот из F1–F3, у которого на **пробной** части наибольший худший по семьям медианный уровень вероятности вариантов.
+**One format for all public families and MMLU**, so that the state is read at the same place. The one of F1–F3 is taken that has, on the **trial** part, the highest worst-family median option probability.
 
-Генерированные задачи остаются в своём формате («Return only the answer»). Там варианты и так получают почти всю вероятность.
+Generated tasks keep their own format ("Return only the answer"). There the options already get almost all the probability.
 
-**Фильтр:** в подсчёт идут только запросы, где суммарная вероятность вариантов ≥ 0.5. Это правило одно для всех семей, включая генерированные и MMLU.
+**Filter:** only prompts where the total option probability is ≥ 0.5 are scored. The rule is the same for all families, including generated ones and MMLU.
 
-**Варианты из нескольких токенов** оцениваются суммой log-вероятностей всех токенов варианта. Ответ модели — вариант с наибольшей суммой. Для генерированных задач то же самое (метки различимы по первому токену, но правило одно).
+**Multi-token options** are scored by the sum of log-probabilities of all the option's tokens. The model's answer is the option with the highest sum. The same for generated tasks (labels are distinguishable by the first token, but the rule is one).
 
-Выбор формата делается автоматически скриптом на пробной части при техническом запуске и записывается в PREREG до числа Alex.
+The format is chosen automatically by a script on the trial part during the technical run and recorded in PREREG before Alex's number.
 
-## Цель лампочки
+## The lamp's target
 
-**Ошибка привычки:**
-- на генерированных задачах модель выбрала старую метку, хотя верна другая;
-- на публичных — модель выбрала привычный вариант и прошла проверку годности.
+**Habit error:**
+- on generated tasks, the model chose the old label although another one is correct;
+- on public ones, the model chose the habitual option and passed the validity check.
 
-**«Нет» (класс 0)** — всё остальное, кроме запросов, не прошедших фильтр или проверку годности. Те исключаются совсем.
+**"No" (class 0)**: everything else, except prompts that failed the filter or the validity check. Those are excluded entirely.
 
-## Что читаем
+## What we read
 
-Для каждого запроса сохраняются:
-- состояние на последнем токене запроса (для F2 — после «The answer is») в слоях 8, 12, …, 44;
-- среднее по всем токенам самого запроса на слое 0 (для соперника B3: на последнем токене слой 0 не зависит от содержания);
-- вероятности вариантов.
+For each prompt we save:
+- the state at the last prompt token (for F2, after "The answer is") at layers 8, 12, …, 44;
+- the mean over all tokens of the prompt itself at layer 0 (for rival B3: at the last token, layer 0 does not depend on content);
+- option probabilities.
 
-Состояния хранятся на диске Modal. Подсчёт идёт на Modal CPU по замороженному скрипту. Наружу возвращается файл с оценками каждого детектора для каждого запроса плюс итоговая таблица.
+States are stored on a Modal disk. Scoring runs on Modal CPU with a frozen script. Returned are a file with each detector's score for each prompt plus a summary table.
 
-## Детекторы
+## Detectors
 
-**Лампочка:** логистическая регрессия на состоянии одного слоя из 8…44.
-- C = 0.1, веса классов сбалансированы, семьи весят одинаково.
-- Стандартизация считается только на обучающих данных.
-- **Главное правило — центрирование по ячейке.** Из каждого запроса вычитается среднее его ячейки (ответы для этого не нужны). Так лампочка учится тому, что меряет метрика: отличать «поддалась» от «удержалась» внутри одинаковых случаев, а не узнавать ячейку. На проверочных семьях центрирование то же.
-- Обучение без центрирования идёт только в отчёт.
+**The lamp:** logistic regression on the state of one layer from 8…44.
+- C = 0.1, balanced class weights, families weighted equally.
+- Standardization is computed on training data only.
+- **The main rule is cell-centering.** The mean of its cell is subtracted from each prompt (no answers are needed for this). This way the lamp learns what the metric measures: distinguishing "gave in" from "held out" within identical cases, not recognizing the cell. On test families the centering is the same.
+- Training without centering goes only into the report.
 
-**Ложные загорания на MMLU (критерий 4).**
-- MMLU центрируется по среднему **обучающего** пула, а не по своему. Иначе сдвиг формата, который сломал лампочку Zhao, исчез бы сам собой.
-- Порог «ловит 80%» ставится по оценкам «вне фолда» на обучающих семьях, а не по оценкам на тех же данных, на которых учили.
+**False alarms on MMLU (criterion 4).**
+- MMLU is centered by the mean of the **training** pool, not its own. Otherwise a format shift, which broke the Zhao lamp, would disappear by itself.
+- The "catches 80%" threshold is set by out-of-fold scores on the training families, not by scores on the same data it was trained on.
 
-**Выбор слоя:** перекрёстная проверка «оставь одну семью» внутри обучающих семей.
-- Цель — средний внутриячеечный AUC на оставленной семье.
-- Внутри семьи деление идёт по наборам или шаблонам, а не по запросам.
-- Если у оставленной семьи нет ни одной годной ячейки, этот фолд пропускается.
-- Если годных фолдов нет совсем, слой выбирается по 5-кратной перекрёстной проверке с делением по наборам или шаблонам на всех обучающих ячейках.
-- Соперники B1–B3 подгоняются на тех же фолдах.
+**Layer choice:** leave-one-family-out cross-validation within the training families.
+- The target is the mean within-cell AUC on the held-out family.
+- Within a family the split is by sets or templates, not by prompts.
+- If the held-out family has no valid cell, the fold is skipped.
+- If there are no valid folds at all, the layer is chosen by 5-fold cross-validation split by sets or templates over all training cells.
+- Rivals B1–B3 are fitted on the same folds.
 
-**Соперники, которых надо обогнать:**
-- **B1 уверенность:** отрыв лучшего варианта от второго. Знак (горит при малом или при большом отрыве) подбирается на обучающих данных.
-- **B2 только выход:** логистическая регрессия на признаках, не зависящих от порядка и числа вариантов: вероятность лучшего варианта, отрыв, энтропия / log k, суммарная вероятность вариантов.
-- **B3 поверхность:** та же лампочка на среднем по токенам запроса на слое 0 (сразу после словаря, до всякого «понимания»).
-- **B4 обычные ошибки:** та же лампочка, обученная на 1000 MMLU «права / ошиблась», лучший слой по CV на MMLU.
-  - **Годность B4:** AUC на отложенных 500 MMLU ≥ 0.65. Если ниже, B4 помечается слабым, но критерий 2 всё равно применяется.
+**Rivals that must be beaten:**
+- **B1 confidence:** the lead of the best option over the second. The sign (fires at small or at large lead) is fitted on training data.
+- **B2 output only:** logistic regression on features that do not depend on the order and number of options: best-option probability, lead, entropy / log k, total option probability.
+- **B3 surface:** the same lamp on the mean over prompt tokens at layer 0 (right after the vocabulary, before any "understanding").
+- **B4 generic errors:** the same lamp trained on 1000 MMLU "right / wrong", best layer by CV on MMLU.
+  - **B4 validity:** AUC on the held-out 500 MMLU ≥ 0.65. If lower, B4 is marked weak, but criterion 2 still applies.
 
-**Контроль, только отчёт:** детектор «ситуация-ловушка» (ловушка против нетронутого) на C-семьях. Насколько хорошо он сам находит ошибки привычки.
+**Control, report only:** a "trap situation" detector (trap vs untouched) on the C families. How well it finds habit errors by itself.
 
-## Мера качества
+## Quality measure
 
-**AUC внутри ячейки.**
-- Ячейки: плечо × тип случая для генерированных задач; шаблон для redefine; вся семья для NeQA и цитат, так как шаблонов там нет.
-- Считаются только ячейки, где есть ≥ 10 ошибок и ≥ 10 «нет».
-- AUC семьи — среднее по таким ячейкам, взвешенное по числу пар.
+**Within-cell AUC.**
+- Cells: arm × case type for generated tasks; template for redefine; the whole family for NeQA and quotes, since they have no templates.
+- Only cells with ≥ 10 errors and ≥ 10 "no" are counted.
+- A family's AUC is the mean over such cells, weighted by the number of pairs.
 
-**Направление:** среднее по информативным проверочным семьям, семьи весят одинаково.
+**Direction:** the mean over informative test families, families weighted equally.
 
-**Информативная семья:** ≥ 30 ошибок и ≥ 30 «нет» во всех её годных ячейках вместе.
+**Informative family:** ≥ 30 errors and ≥ 30 "no" over all its valid cells together.
 
-**Интервалы:** бутстреп, 2000 повторов.
-- Выборка внутри каждой семьи: для генерированных — по наборам, для redefine — по вопросам внутри каждого шаблона, для NeQA и цитат — по вопросам.
-- В каждом повторе усредняем по семьям.
-- Для разниц с соперниками бутстреп парный: одни и те же повторы.
+**Intervals:** bootstrap, 2000 resamples.
+- Resampling within each family: for generated ones by sets, for redefine by questions within each template, for NeQA and quotes by questions.
+- In each resample we average over families.
+- For differences with rivals the bootstrap is paired: the same resamples.
 
-## Направления
+## Directions
 
-**Главное: С → П.**
-- Обучение: C-rule, C-parcels, C-bonus.
-- Проверка: P-redefine, P-neqa, P-quote.
+**Main: C → P.**
+- Training: C-rule, C-parcels, C-bonus.
+- Testing: P-redefine, P-neqa, P-quote.
 
-**Второе: П → С.**
-- Обучение: P-redefine, P-quote.
-- Проверка: C-rule, C-parcels, C-bonus и P-neqa (она отложена как внешняя в обоих направлениях).
+**Second: P → C.**
+- Training: P-redefine, P-quote.
+- Testing: C-rule, C-parcels, C-bonus and P-neqa (it is held out as external in both directions).
 
-## Критерии (записаны до прогона)
+## Criteria (written before the run)
 
-Направление **проходит**, если одновременно:
-1. внутриячеечный AUC лампочки ≥ 0.65;
-2. лампочка лучше каждого из B1, B2, B3, B4 на ≥ 0.05, нижняя граница интервала разницы > 0. Требуются все четыре, поэтому поправка на множественность не нужна;
-3. ни в одной информативной проверочной семье AUC лампочки не ниже 0.55;
-4. ложные загорания: при пороге, который ловит 80% ошибок привычки на обучающих семьях, лампочка горит не больше чем на 25% вопросов MMLU, где модель ответила верно (из отложенных 500).
+A direction **passes** if all of the following hold:
+1. the lamp's within-cell AUC ≥ 0.65;
+2. the lamp beats each of B1, B2, B3, B4 by ≥ 0.05, with the lower bound of the difference interval > 0. All four are required, so no multiplicity correction is needed;
+3. in no informative test family is the lamp's AUC below 0.55;
+4. false alarms: at the threshold that catches 80% of habit errors on the training families, the lamp fires on no more than 25% of MMLU questions the model answered correctly (from the held-out 500).
 
-**Мало данных:** если информативных проверочных семей меньше 2, направление «неинформативно».
+**Too little data:** if there are fewer than 2 informative test families, the direction is "non-informative".
 
-**Итог** (С → П главное, П → С второе):
+**Outcome** (C → P main, P → C second):
 
-| С → П | П → С | итог |
+| C → P | P → C | outcome |
 |---|---|---|
-| проходит | проходит | **общий сигнал есть** |
-| проходит | не проходит или неинформативно | **частично: сигнал из текста узнаёт привычку из обучения** |
-| не проходит | проходит | **частично: только обратный перенос** |
-| не проходит | не проходит или неинформативно | **нет** |
-| неинформативно | любое | **неинформативно** (данных не хватило, о сигнале вывода нет) |
+| passes | passes | **a general signal exists** |
+| passes | fails or non-informative | **partial: the in-context signal recognizes the habit from training** |
+| fails | passes | **partial: reverse transfer only** |
+| fails | fails or non-informative | **no** |
+| non-informative | any | **non-informative** (not enough data, no conclusion about the signal) |
 
-**Ожидания, записанные заранее:**
-- По прошлым числам проверяющего C-bonus может оказаться неинформативной даже при 160 наборах.
-- P-quote может отпасть на фильтре вероятности.
-- Оба исхода возможны и не считаются ни провалом, ни успехом.
+**Expectations written in advance:**
+- By the reviewer's earlier numbers, C-bonus may turn out non-informative even with 160 sets.
+- P-quote may drop out at the probability filter.
+- Both outcomes are possible and count as neither failure nor success.
 
-**Только отчёт:**
-- пара C-rule → P-native;
-- внутривидовые результаты;
-- лучший слой;
-- контроль «ситуация-ловушка»;
-- обычный AUC без деления на ячейки рядом с «предсказателем по ячейке».
+**Report only:**
+- the pair C-rule → P-native;
+- within-kind results;
+- the best layer;
+- the "trap situation" control;
+- plain AUC without the cell split next to a "predictor by cell".
 
-## Цена
+## Cost
 
-Около 7500 одиночных проходов (плюс проверочные запросы для NeQA и цитат), примерно треть из них длинные (60 примеров). Ориентировочно $4–6 на H100 плюс копейки на CPU.
+About 7500 single passes (plus check prompts for NeQA and quotes), about a third of them long (60 examples). Roughly $4–6 on H100 plus pennies on CPU.
 
-## Порядок
+## Order
 
-1. Проверяющий смотрит v2.
-2. Код плюс технический запуск на 12345: выбор формата на пробной части, доля прошедших фильтр, сохранение состояний, совпадение с прошлыми вероятностями.
-3. PREREG.md с контрольными суммами и выбранными форматами.
-4. Число от Alex и его согласие на расход.
-5. Прогон, подсчёт, отчёт как есть.
+1. The reviewer looks at v2.
+2. Code plus a technical run on 12345: format choice on the trial part, share passing the filter, saving of states, match with earlier probabilities.
+3. PREREG.md with checksums and the chosen formats.
+4. A number from Alex and his consent to the cost.
+5. Run, scoring, report as is.

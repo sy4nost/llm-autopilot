@@ -1,124 +1,126 @@
-# План v2: «переодевание» задачи и «встряхивание» модели
+# Plan v2: "disguising" the task and "shaking" the model
 
-2026-10-18. Переписан после проверки (review/plan-review.md: 4 блокера и 10 обязательных правок). Первая версия лежит в PLAN_v1.md. После технической проверки пишу PREREG.md с суммами, и только потом Alex называет число.
+*English translation. The original Russian text (the version referenced by PREREG.md checksums) and the earlier draft PLAN_v1.md are in the git history (commit 6d3f172).*
 
-## Вопрос
+2026-10-18. Rewritten after review (review/plan-review.md: 4 blockers and 10 required fixes). The first version was PLAN_v1.md. After the technical check I write PREREG.md with checksums, and only then does Alex name the number.
 
-Привычка «из обучения» срабатывает на уверенности, без сомнения (general-lamp/rezultaty.md). Проверяем внешние способы вернуть модель «в реальность»:
-- **переодевание** — модуль переписывает задачу нейтральными словами;
-- **встряхивание** — неожиданная строка, «пробуждение» или внутренний шум («адреналин»).
+## Question
 
-Каждый способ оценивается **сам по себе**. Чтобы четыре способа не дали случайный успех, интервалы берутся шире: 98.75% вместо 95% (поправка Бонферрони на 4).
+A habit "from training" fires with confidence, without doubt (general-lamp/rezultaty.md). We test external ways to bring the model back "to reality":
+- **disguise**: a module rewrites the task in neutral words;
+- **shake**: an unexpected line, a "wake-up", or internal noise ("adrenaline").
 
-**Модель:** Qwen2.5-14B-Instruct.
+Each method is evaluated **on its own**. So that four methods do not produce a chance success, intervals are wider: 98.75% instead of 95% (Bonferroni correction for 4).
 
-## Семьи задач
+**Model:** Qwen2.5-14B-Instruct.
 
-**N — «родные» дорожные слова, смена правила без истории.** native/make_native.py, плечо change_0, 90 наборов. Генератор запускается с числами S, S+1, S+2; пропускаются все числа, использованные раньше, включая 88–95 из прошлого прогона.
-- **N-traps** (D1, D3, с запиской о смене): здравый смысл тянет к старому ответу.
-- **N-agree** (D2, D4, с той же запиской): здравый смысл совпадает с новым правилом. Это контроль вреда.
-- **N-confirm** (D1–D4): записка «Rule 2 has been reviewed and stays the same». Правильный ответ — старое правило, привычка права. Тоже контроль вреда.
+## Task families
 
-**R — redefine-math.** Те же 810 проверочных вопросов, что в general-lamp. Их поведение в формате F3 уже видели, и число Alex на R не влияет. Шаблоны T0–T8, по 90 вопросов.
-- **R-traps** — все 810, правильный ответ по переопределению.
-- **R-same** (контроль вреда) — только T0, T1, T2, T7, T8, всё до «Q:» убрано. Правильный ответ — обычная математика: «первая цифра 50+47» = 9 по договорённости. T3–T6 не берём: после удаления определения там остаются лишь 2 разных вопроса.
-- **R-agree** (контроль вреда, определение есть, но правильный ответ совпадает с привычкой). Делаются из проверочных вопросов:
-  - T4: «Redefine π as N» → «Redefine π as M», где M — N с первой цифрой 3. Варианты: «3» (верно) и прежняя первая цифра N.
-  - T6: «Redefine e as …» → «Redefine e as 2xy», где xy — две последние цифры прежнего значения. Варианты: «2» (верно) и прежний правильный ответ. Если он сам равен 2, вопрос пропускается.
+**N — "native" road words, rule change without history.** native/make_native.py, arm change_0, 90 sets. The generator runs with numbers S, S+1, S+2; all numbers used before are skipped, including 88–95 from the previous run.
+- **N-traps** (D1, D3, with the change note): common sense pulls towards the old answer.
+- **N-agree** (D2, D4, with the same note): common sense agrees with the new rule. This is a harm control.
+- **N-confirm** (D1–D4): the note "Rule 2 has been reviewed and stays the same". The correct answer is the old rule; the habit is right. Also a harm control.
 
-**Только для отчёта:** C-rule (A_change_60 × D1–D4, 90 наборов) — привычка «списать из примеров», только встряхивание.
+**R — redefine-math.** The same 810 test questions as in general-lamp. Their behavior in format F3 has already been seen, and Alex's number does not affect R. Templates T0–T8, 90 questions each.
+- **R-traps**: all 810, the correct answer per the redefinition.
+- **R-same** (harm control): only T0, T1, T2, T7, T8, with everything before "Q:" removed. The correct answer is ordinary math: "first digit of 50+47" = 9 by convention. T3–T6 are not used: after removing the definition only 2 distinct questions remain there.
+- **R-agree** (harm control, the definition is present but the correct answer matches the habit). Built from the test questions:
+  - T4: "Redefine π as N" → "Redefine π as M", where M is N with first digit 3. Options: "3" (correct) and the former first digit of N.
+  - T6: "Redefine e as …" → "Redefine e as 2xy", where xy are the last two digits of the former value. Options: "2" (correct) and the former correct answer. If that is itself 2, the question is skipped.
 
-## Как спрашиваем
+**Report only:** C-rule (A_change_60 × D1–D4, 90 sets): the "copy from examples" habit, shake only.
 
-- **N и C:** свой чат-формат, как раньше.
-- **R:** формат F2. Это чат, «Reply with only the answer, nothing else.», ответ начинается с «The answer is». Выбран заранее по доле вероятности на вариантах в пробной части.
-  - До PREREG обычная модель прогоняется в F2 на **пробной** части redefine (90 вопросов). Доля верных по шаблонам и доля прошедших фильтр записываются в PREREG.
-- **Ответ** — вариант с наибольшей суммой log-вероятностей.
-  - Для отчёта по N отдельно: только по первому токену и по сумме, делённой на число токенов. Метки близнецов режутся на токены по-разному.
-- **Фильтр:** доля вероятности на вариантах у обычной версии ≥ 0.5. Вопрос либо входит во все способы, либо ни в один.
+## How we ask
 
-## Способы
+- **N and C:** our own chat format, as before.
+- **R:** format F2. This is chat, "Reply with only the answer, nothing else.", the answer starts with "The answer is". Chosen in advance by the probability mass on the options in the trial part.
+  - Before PREREG the plain model is run in F2 on the **trial** part of redefine (90 questions). Share correct by template and share passing the filter are recorded in PREREG.
+- **Answer**: the option with the highest sum of log-probabilities.
+  - For the N report separately: by first token only and by the sum divided by the number of tokens. The twins' labels tokenize differently.
+- **Filter:** probability mass on the options for the plain version ≥ 0.5. A question is either in all methods or in none.
 
-**1. Переодевание.** Модуль видит только текст задачи.
+## Methods
 
-**N:** вымышленный близнец из match/make_match.py с тем же числом генератора.
-- Близнец строится в **отдельном процессе**, чтобы make_native не подменил слова. Код проверяет, что слова у пары разные, а случаи, ключи и позиции меток совпадают.
-- Метка переводится обратно по позиции в тройке.
-- Это **«идеальный» переводчик**: ему известна карта слов генератора.
-- Ожидание записано заранее по уже имеющимся ответам: на D1/D3 примерно +23 пункта, на D2/D4 примерно −18. Близнец там сам ошибается, потому что здравый смысл больше не подсказывает. Вред на N-agree, вероятно, провалит способ.
+**1. Disguise.** The module sees only the task text.
 
-**R:** алгоритм по тексту.
-1. Ищем определение «Redefine X as» или «View X as».
-2. Если X — знак (π, e, +, ÷), заменяем его везде, **кроме самого значения определения**: π → «zorp», e (отдельное слово) → «quib», + → «§», ÷ → «¤».
-3. Если X не знак (T0 «View number as text»), модуль ничего не меняет.
-4. Без определения (R-same) модуль тоже ничего не меняет.
+**N:** a made-up twin from match/make_match.py with the same generator number.
+- The twin is built in a **separate process**, so that make_native does not substitute the words. The code checks that the pair's words differ while cases, keys and label positions match.
+- The label is translated back by its position in the triple.
+- This is a **"perfect" translator**: it knows the generator's word map.
+- The expectation was written in advance from existing answers: on D1/D3 about +23 points, on D2/D4 about −18. The twin errs there itself, because common sense no longer gives hints. The harm on N-agree will probably fail the method.
 
-Переписанный пример каждого шаблона с пробной части записывается в PREREG.
+**R:** an algorithm over the text.
+1. Find the definition "Redefine X as" or "View X as".
+2. If X is a symbol (π, e, +, ÷), replace it everywhere **except in the value of the definition itself**: π → "zorp", e (as a separate word) → "quib", + → "§", ÷ → "¤".
+3. If X is not a symbol (T0 "View number as text"), the module changes nothing.
+4. Without a definition (R-same) the module also changes nothing.
 
-**Решение модуля.** При расхождении ответов берётся переодетый. Это то же самое, что «всегда переодетый», потому что обычная версия ничего не меняет.
+A rewritten example of each template from the trial part is recorded in PREREG.
 
-**Только для отчёта:** насколько хорошо само расхождение ловит ошибки привычки (AUC и точность на «согласных» случаях).
+**The module's decision.** On disagreement the disguised answer is taken. This is the same as "always disguised", because the plain version changes nothing.
 
-**2. Встряхивание строкой.** Одна строка перед строкой вопроса: «Classify the TEST case…» для N и C, «Q:» для R. Тексты записаны заранее, точные строки с пробелами попадут в PREREG.
-- **2a «неожиданность»:** «BANG! A loud alarm suddenly goes off, then stops. Silence.»
-- **2b «пробуждение»:** «Wake up. Look at this task as if you are seeing it for the first time.»
-- **Плацебо:** «The next line continues the same task, as written above it.» Нейтральная строка примерно той же длины в токенах, без покоя и без встряски.
-- **Инструкция (сравнение):** «Follow the rules stated in this task exactly, even if they contradict what you know.» Простая просьба, которую тоже надо обогнать, чтобы встряска считалась отдельным эффектом.
+**Report only:** how well the disagreement itself catches habit errors (AUC and accuracy on "agreeing" cases).
 
-**3. «Адреналин».**
-- Шум добавляется к выходу слоя model.model.layers[20] (из 48) **в каждой позиции, включая токены вариантов**.
-- Размер шума в позиции = α × длина вектора состояния в этой позиции.
-- Шум задаётся генератором с числом (12345 + номер вопроса) на всю длину последовательности. Каждый вариант оценивается полным проходом, и общая часть шума у вариантов одинакова.
-- **α выбирается до PREREG** на пробной части R и технических N по правилу: наименьшее из {0.05, 0.1, 0.2, 0.4}, при котором меняется ≥ 5% ответов.
-- **Проверки:**
-  - α = 0 даёт ровно обычный ответ;
-  - то же число даёт тот же ответ;
-  - при α > 0 ответы меняются.
-- **Сравнение со случайной сменой.** Ожидаемая точность, если ту же долю ответов поменять наугад: для двух вариантов — на противоположный, для трёх — на случайный из двух других.
+**2. Shaking with a line.** One line before the question line: "Classify the TEST case…" for N and C, "Q:" for R. The texts are written in advance; the exact strings with spaces go into PREREG.
+- **2a "surprise":** "BANG! A loud alarm suddenly goes off, then stops. Silence."
+- **2b "wake-up":** "Wake up. Look at this task as if you are seeing it for the first time."
+- **Placebo:** "The next line continues the same task, as written above it." A neutral line of about the same length in tokens, without calm and without a shake.
+- **Instruction (comparison):** "Follow the rules stated in this task exactly, even if they contradict what you know." A simple request that must also be beaten for a shake to count as a separate effect.
 
-## Что меряем
+**3. "Adrenaline".**
+- Noise is added to the output of layer model.model.layers[20] (of 48) **at every position, including the option tokens**.
+- Noise size at a position = α × the length of the state vector at that position.
+- The noise is generated with seed (12345 + question number) over the whole sequence. Each option is scored with a full pass, and the shared part of the noise is the same across options.
+- **α is chosen before PREREG** on the trial part of R and the technical N by the rule: the smallest of {0.05, 0.1, 0.2, 0.4} at which ≥ 5% of answers change.
+- **Checks:**
+  - α = 0 gives exactly the plain answer;
+  - the same seed gives the same answer;
+  - with α > 0 answers change.
+- **Comparison with random flipping.** The expected accuracy if the same share of answers were changed at random: for two options, to the opposite; for three, to a random one of the other two.
 
-Доля верных ответов. Для понимания отдельно — доля привычных ответов на ловушках.
+## What we measure
 
-**R усредняется по шаблонам с равными весами**, причём берутся только шаблоны, где у обычной модели есть привычка: верных < 85%.
+Share of correct answers. For understanding, separately: the share of habitual answers on traps.
 
-## Критерии (каждый способ отдельно; интервалы 98.75%, парный бутстреп, 2000 повторов)
+**R is averaged over templates with equal weights**, taking only templates where the plain model has a habit: correct < 85%.
 
-Способ **проходит**, если одновременно:
+## Criteria (each method separately; 98.75% intervals, paired bootstrap, 2000 resamples)
 
-1. **N-traps:** выигрыш ≥ +10 пунктов, нижняя граница > 0.
-2. **R-traps:** выигрыш ≥ +10 пунктов, нижняя граница > 0. Выигрыш > 0 хотя бы в половине шаблонов с привычкой.
-3. **Вред.** На N-agree, N-confirm, R-same и R-agree каждое изменение ≥ −5 пунктов, нижняя граница ≥ −10.
-4. **Только для 2a, 2b:** лучше и плацебо, и инструкции на ≥ +5 пунктов на ловушках. N и R весят по 0.5, бутстреп по каждой отдельно, нижняя граница > 0.
-5. **Только для 3:** лучше случайной смены той же доли на ≥ +5 пунктов на ловушках, нижняя граница > 0.
+A method **passes** if all of the following hold:
 
-**Если привычки нет.** Если у обычной модели ≥ 85% верных на ловушках семьи, выигрыш на этой семье не оценивается. Тогда способ, прошедший на оставшейся семье, получает итог **«частично»**, не «проходит». Если без привычки обе семьи — «нечего сказать».
+1. **N-traps:** gain ≥ +10 points, lower bound > 0.
+2. **R-traps:** gain ≥ +10 points, lower bound > 0. Gain > 0 in at least half of the templates with a habit.
+3. **Harm.** On N-agree, N-confirm, R-same and R-agree each change ≥ −5 points, lower bound ≥ −10.
+4. **Only for 2a, 2b:** better than both placebo and instruction by ≥ +5 points on traps. N and R weigh 0.5 each, bootstrap for each separately, lower bound > 0.
+5. **Only for 3:** better than random flipping of the same share by ≥ +5 points on traps, lower bound > 0.
 
-**Бутстреп:**
-- N и C — по наборам;
-- R — по вопросам внутри шаблона;
-- R-same — по разным текстам вопросов.
+**If there is no habit.** If the plain model has ≥ 85% correct on a family's traps, the gain on that family is not evaluated. Then a method that passes on the remaining family gets the result **"partial"**, not "passes". If neither family has a habit: "nothing to say".
 
-**Только для отчёта:**
-- другие α;
-- встряхивание на C-rule;
-- расхождение как детектор;
-- оценка по первому токену и по средней на токен для N;
-- результаты по шаблонам;
-- N-traps по D1 и D3 отдельно.
+**Bootstrap:**
+- N and C: over sets;
+- R: over questions within a template;
+- R-same: over distinct question texts.
 
-## Цена
+**Report only:**
+- other α;
+- shaking on C-rule;
+- disagreement as a detector;
+- first-token and per-token-mean scoring for N;
+- results by template;
+- N-traps for D1 and D3 separately.
 
-Около 20 тысяч коротких проходов плюс 2500 длинных (C-rule) плюс пробные прогоны. Примерно $3 на H100.
+## Cost
 
-## Порядок
+About 20 thousand short passes plus 2500 long ones (C-rule) plus trial runs. About $3 on H100.
 
-1. Код.
-2. Технический запуск на 12345:
-   - F2 на пробной части redefine;
-   - выбор α;
-   - проверки близнецов и шума;
-   - примеры переодевания.
-3. PREREG.md с суммами и выбранными значениями.
-4. Число от Alex.
-5. Прогон, подсчёт по замороженному скрипту, отчёт как есть.
+## Order
+
+1. Code.
+2. Technical run on 12345:
+   - F2 on the trial part of redefine;
+   - choice of α;
+   - twin and noise checks;
+   - disguise examples.
+3. PREREG.md with checksums and the chosen values.
+4. A number from Alex.
+5. Run, scoring by the frozen script, report as is.
