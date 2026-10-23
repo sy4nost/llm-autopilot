@@ -1,0 +1,518 @@
+{"family": "memo", "pop": "trap", "cands": ["end.", "consequences."], "key": 1, "habit": 0, "mode": "q", "stem": "Whatever you do, act wisely, and consider the", "id": 0, "model": "olmo13", "res": [[-21.8126, -3.8047], [-0.0001, -0.0308]]}
+{"family": "memo", "pop": "trap", "cands": ["them.", "it."], "key": 0, "habit": 1, "mode": "q", "stem": "Everyone talks about the weather, but nobody does anything about", "id": 1, "model": "olmo13", "res": [[-3.4435, -0.1967], [-6.5255, -2.5152]]}
+{"family": "memo", "pop": "trap", "cands": ["be.", "bring."], "key": 0, "habit": 1, "mode": "q", "stem": "The worth of a thing is what it will", "id": 2, "model": "olmo13", "res": [[-0.0226, -0.3234], [-5.9406, -2.1533]]}
+{"family": "memo", "pop": "trap", "cands": ["friend.", "lawyer."], "key": 0, "habit": 1, "mode": "q", "stem": "Hide nothing from thy minister, physician and", "id": 3, "model": "olmo13", "res": [[-0.2973, -0.1477], [-10.2661, -10.3384]]}
+{"family": "memo", "pop": "trap", "cands": ["water.", "asking."], "key": 0, "habit": 1, "mode": "q", "stem": "Many things are lost for want of", "id": 4, "model": "olmo13", "res": [[-3.5327, -0.0736], [-7.3022, -0.1173]]}
+{"family": "memo", "pop": "trap", "cands": ["friend.", "care."], "key": 1, "habit": 0, "mode": "q", "stem": "No longer foster, no longer", "id": 5, "model": "olmo13", "res": [[-15.2954, -5.0548], [-4.3736, -0.066]]}
+{"family": "memo", "pop": "trap", "cands": ["go.", "eat."], "key": 0, "habit": 1, "mode": "q", "stem": "You don't shit where you", "id": 6, "model": "olmo13", "res": [[-2.0868, -0.148], [-0.3212, -0.8071]]}
+{"family": "memo", "pop": "trap", "cands": ["lost.", "gone."], "key": 1, "habit": 0, "mode": "q", "stem": "For want of a nail the shoe is lost, for want of a shoe the horse is lost, for want of a horse the rider is", "id": 7, "model": "olmo13", "res": [[-6.3029, -1.1975], [-0.0021, -0.0054]]}
+{"family": "memo", "pop": "trap", "cands": ["house.", "bark."], "key": 0, "habit": 1, "mode": "q", "stem": "Don't go between the tree and the", "id": 8, "model": "olmo13", "res": [[-8.3594, -0.0199], [-11.3125, -6.3897]]}
+{"family": "memo", "pop": "trap", "cands": ["reason.", "aim."], "key": 0, "habit": 1, "mode": "q", "stem": "An apple a day keeps the doctor away--if you have good", "id": 9, "model": "olmo13", "res": [[-0.0751, -0.7268], [-17.0751, -3.3243]]}
+{"family": "memo", "pop": "trap", "cands": ["wants.", "will."], "key": 0, "habit": 1, "mode": "q", "stem": "He that can have patience can have what he", "id": 10, "model": "olmo13", "res": [[-0.0057, -0.0767], [-14.037, -3.3352]]}
+{"family": "memo", "pop": "trap", "cands": ["digested.", "burned."], "key": 1, "habit": 0, "mode": "q", "stem": "Some books are to be tasted, others to be swallowed, and some few to be chewed and", "id": 11, "model": "olmo13", "res": [[-6.4458, -0.0, -10.6933], [-0.0303, -0.0029]]}
+{"family": "memo", "pop": "trap", "cands": ["will.", "way."], "key": 0, "habit": 1, "mode": "q", "stem": "Where there is a will, there is a", "id": 12, "model": "olmo13", "res": [[-13.1563, -1.6973], [-0.0001, -0.0654]]}
+{"family": "memo", "pop": "trap", "cands": ["other.", "dishes."], "key": 1, "habit": 0, "mode": "q", "stem": "One hand washes the", "id": 13, "model": "olmo13", "res": [[-0.7088, -7.6482], [-2.1463, -1.9203]]}
+{"family": "memo", "pop": "trap", "cands": ["present.", "moment."], "key": 1, "habit": 0, "mode": "q", "stem": "There is no time like the", "id": 14, "model": "olmo13", "res": [[-0.098, -13.2188], [-3.6605, -0.1828]]}
+{"family": "memo", "pop": "trap", "cands": ["man.", "dog."], "key": 0, "habit": 1, "mode": "q", "stem": "A staff is quickly found to beat a", "id": 15, "model": "olmo13", "res": [[-3.3157, -0.2191], [-0.5032, -9.3741]]}
+{"family": "memo", "pop": "trap", "cands": ["doubt.", "words."], "key": 1, "habit": 0, "mode": "q", "stem": "Better to remain silent and be thought a fool, than to open your mouth and remove all", "id": 16, "model": "olmo13", "res": [[-0.1098, -1.0535], [-2.4223, -0.0535]]}
+{"family": "memo", "pop": "trap", "cands": ["others.", "you."], "key": 0, "habit": 1, "mode": "q", "stem": "If you want enemies excel others, if you want friends let others excel", "id": 17, "model": "olmo13", "res": [[-6.3322, -0.0869], [-15.8088, -0.0979]]}
+{"family": "memo", "pop": "trap", "cands": ["second.", "last."], "key": 0, "habit": 1, "mode": "q", "stem": "The last will be first, and the first", "id": 18, "model": "olmo13", "res": [[-3.315, -0.0621], [-0.3931, -7.8558]]}
+{"family": "memo", "pop": "trap", "cands": ["gain.", "fear."], "key": 1, "habit": 0, "mode": "q", "stem": "No pain, no", "id": 19, "model": "olmo13", "res": [[-0.5505, -5.956], [-2.3943, -0.8262]]}
+{"family": "memo", "pop": "trap", "cands": ["Life.", "Delight."], "key": 0, "habit": 1, "mode": "q", "stem": "Energy is Eternal", "id": 20, "model": "olmo13", "res": [[-0.8589, -1.8057], [-20.4526, -0.0732, -3.4958]]}
+{"family": "memo", "pop": "trap", "cands": ["obeyed.", "observed."], "key": 1, "habit": 0, "mode": "q", "stem": "Nature, to be commanded, must be", "id": 21, "model": "olmo13", "res": [[-1.5358, -0.0, -8.2896], [-0.3171, -0.0579]]}
+{"family": "memo", "pop": "trap", "cands": ["flaws.", "equality."], "key": 0, "habit": 1, "mode": "q", "stem": "Perfect friendship cannot be without", "id": 22, "model": "olmo13", "res": [[-0.0324, -0.1699], [-18.6886, -5.5934]]}
+{"family": "memo", "pop": "trap", "cands": ["best.", "evil."], "key": 1, "habit": 0, "mode": "q", "stem": "The good is the enemy of the", "id": 23, "model": "olmo13", "res": [[-12.7515, -1.0701], [-0.0015, -0.068]]}
+{"family": "memo", "pop": "trap", "cands": ["evil.", "mouse."], "key": 0, "habit": 1, "mode": "q", "stem": "Burn not your house to rid it of the", "id": 24, "model": "olmo13", "res": [[-0.0015, -0.1502], [-15.3452, -6.7777]]}
+{"family": "memo", "pop": "trap", "cands": ["slowly.", "now."], "key": 1, "habit": 0, "mode": "q", "stem": "Make haste", "id": 25, "model": "olmo13", "res": [[-7.8078, -6.8113], [-0.0402, -0.5904]]}
+{"family": "memo", "pop": "trap", "cands": ["busy.", "away."], "key": 0, "habit": 1, "mode": "q", "stem": "An apple a day keeps the doctor", "id": 26, "model": "olmo13", "res": [[-0.1124, -0.4986], [-2.3156, -6.1426]]}
+{"family": "memo", "pop": "trap", "cands": ["serve.", "command."], "key": 0, "habit": 1, "mode": "q", "stem": "Who has not served cannot", "id": 27, "model": "olmo13", "res": [[-6.2131, -0.1444], [-4.2756, -0.0756]]}
+{"family": "memo", "pop": "trap", "cands": ["Hon.", "ignorance."], "key": 0, "habit": 1, "mode": "q", "stem": "Admiration is the daughter of", "id": 28, "model": "olmo13", "res": [[-2.3785, -3.4429], [-11.6597, -3.6192]]}
+{"family": "memo", "pop": "trap", "cands": ["questions.", "wife."], "key": 0, "habit": 1, "mode": "q", "stem": "He that will thrive must first ask his", "id": 29, "model": "olmo13", "res": [[-0.0236, -0.852], [-12.4611, -4.639]]}
+{"family": "memo", "pop": "trap", "cands": ["girl.", "lamb."], "key": 0, "habit": 1, "mode": "q", "stem": "The wolf finds a reason for taking the", "id": 30, "model": "olmo13", "res": [[-3.6051, -0.3731], [-1.0583, -8.1518]]}
+{"family": "memo", "pop": "trap", "cands": ["times.", "numbers."], "key": 0, "habit": 1, "mode": "q", "stem": "There is luck in odd", "id": 31, "model": "olmo13", "res": [[-0.0197, -0.0239], [-8.7697, -7.3704]]}
+{"family": "memo", "pop": "trap", "cands": ["lie.", "truth."], "key": 1, "habit": 0, "mode": "q", "stem": "A half truth is a whole", "id": 32, "model": "olmo13", "res": [[-1.564, -1.3976], [-0.3453, -1.1643]]}
+{"family": "memo", "pop": "trap", "cands": ["him.", "mad."], "key": 0, "habit": 1, "mode": "q", "stem": "Whom God will destroy, he first make", "id": 33, "model": "olmo13", "res": [[-11.686, -13.6024], [-0.0024, -0.2928]]}
+{"family": "memo", "pop": "trap", "cands": ["keeps.", "runs."], "key": 1, "habit": 0, "mode": "q", "stem": "A man is known by the company he", "id": 34, "model": "olmo13", "res": [[-4.7419, -4.1417], [-0.0134, -0.0671]]}
+{"family": "memo", "pop": "trap", "cands": ["served.", "go."], "key": 1, "habit": 0, "mode": "q", "stem": "First come, first", "id": 35, "model": "olmo13", "res": [[-4.6722, -3.3986], [-0.0237, -0.604]]}
+{"family": "memo", "pop": "trap", "cands": ["knife.", "spade."], "key": 0, "habit": 1, "mode": "q", "stem": "Call a spade a", "id": 36, "model": "olmo13", "res": [[-10.2395, -0.4177], [-0.8333, -0.0, -7.2144]]}
+{"family": "memo", "pop": "trap", "cands": ["good.", "better."], "key": 1, "habit": 0, "mode": "q", "stem": "Better is the enemy of", "id": 37, "model": "olmo13", "res": [[-0.0414, -0.2124], [-14.7289, -0.2066]]}
+{"family": "memo", "pop": "trap", "cands": ["hand.", "heart."], "key": 0, "habit": 1, "mode": "q", "stem": "Far from eye, far from", "id": 38, "model": "olmo13", "res": [[-0.0817, -0.1368], [-2.6285, -6.7353]]}
+{"family": "memo", "pop": "trap", "cands": ["proceed.", "don't."], "key": 0, "habit": 1, "mode": "q", "stem": "When in doubt,", "id": 39, "model": "olmo13", "res": [[-1.0036, -2.6664], [-4.5115, -0.0082, -7.7677]]}
+{"family": "memo", "pop": "control", "cands": ["teaching.", "reason."], "key": 0, "habit": null, "mode": "q", "stem": "Nature is beyond all", "id": 40, "model": "olmo13", "res": [[-1.4446, -0.0778], [-11.2884, -10.2866]]}
+{"family": "memo", "pop": "control", "cands": ["theatre.", "time."], "key": 1, "habit": null, "mode": "q", "stem": "Eternity is in love with the productions of", "id": 41, "model": "olmo13", "res": [[-19.9124, -6.7841], [-0.0374, -0.1134]]}
+{"family": "memo", "pop": "control", "cands": ["talk.", "Earth."], "key": 0, "habit": null, "mode": "q", "stem": "Walk the", "id": 42, "model": "olmo13", "res": [[-2.8404, -1.6779], [-7.1666, -6.3853]]}
+{"family": "memo", "pop": "control", "cands": ["God.", "man."], "key": 1, "habit": null, "mode": "q", "stem": "God's a good", "id": 43, "model": "olmo13", "res": [[-6.3427, -9.6905], [-0.0068, -0.2039]]}
+{"family": "memo", "pop": "control", "cands": ["this.", "it."], "key": 1, "habit": null, "mode": "q", "stem": "If the shoe fits, wear", "id": 44, "model": "olmo13", "res": [[-15.126, -5.0028], [-0.001, -0.1572]]}
+{"family": "memo", "pop": "control", "cands": ["adversity.", "fear."], "key": 0, "habit": null, "mode": "q", "stem": "A friend cannot be known in prosperity nor an enemy be hidden in", "id": 45, "model": "olmo13", "res": [[-0.0, -0.0385], [-20.625, -0.7804]]}
+{"family": "memo", "pop": "control", "cands": ["them.", "us."], "key": 0, "habit": null, "mode": "q", "stem": "If you can't beat them, join", "id": 46, "model": "olmo13", "res": [[-0.0066, -0.4801], [-12.6316, -1.5816]]}
+{"family": "memo", "pop": "control", "cands": ["lawsuit.", "settlement."], "key": 0, "habit": null, "mode": "q", "stem": "A bad settlement is better than a good", "id": 47, "model": "olmo13", "res": [[-0.0002, -0.0679], [-15.5627, -2.5351]]}
+{"family": "memo", "pop": "control", "cands": ["promise.", "up."], "key": 1, "habit": null, "mode": "q", "stem": "Eighty percent of life is showing", "id": 48, "model": "olmo13", "res": [[-20.5976, -2.2096], [-0.0038, -0.2525]]}
+{"family": "memo", "pop": "control", "cands": ["waters.", "condition."], "key": 0, "habit": null, "mode": "q", "stem": "Wade not in unknown", "id": 49, "model": "olmo13", "res": [[-0.001, -0.0642], [-24.1885, -3.7517]]}
+{"family": "memo", "pop": "control", "cands": ["confidence.", "upon."], "key": 1, "habit": null, "mode": "q", "stem": "All experience is an arch, to build", "id": 50, "model": "olmo13", "res": [[-8.0404, -11.9709], [-2.0404, -0.1911]]}
+{"family": "memo", "pop": "control", "cands": ["others.", "me."], "key": 1, "habit": null, "mode": "q", "stem": "Egotist: a person of low taste, more interested in himself than in", "id": 51, "model": "olmo13", "res": [[-1.2804, -4.5391], [-1.8586, -0.2459]]}
+{"family": "memo", "pop": "control", "cands": ["rich.", "coloured."], "key": 1, "habit": null, "mode": "q", "stem": "There are only two kinds of women, the plain and the", "id": 52, "model": "olmo13", "res": [[-8.9772, -14.5007], [-0.2116, -0.0271]]}
+{"family": "memo", "pop": "control", "cands": ["another.", "more."], "key": 0, "habit": null, "mode": "q", "stem": "One good turn deserves", "id": 53, "model": "olmo13", "res": [[-0.0002, -0.3398], [-14.1564, -3.417]]}
+{"family": "memo", "pop": "control", "cands": ["men.", "so."], "key": 1, "habit": null, "mode": "q", "stem": "Young men think old men fools, and old men know young men to be", "id": 54, "model": "olmo13", "res": [[-15.6229, -3.8148], [-1.0135, -1.3253]]}
+{"family": "memo", "pop": "control", "cands": ["drowned.", "rewarded."], "key": 0, "habit": null, "mode": "q", "stem": "Good swimmers are often", "id": 55, "model": "olmo13", "res": [[-3.5285, -5.4391], [-9.4348, -1.1653]]}
+{"family": "memo", "pop": "control", "cands": ["comprehend.", "imagine."], "key": 1, "habit": null, "mode": "q", "stem": "Reality is not only stranger than we imagine, it is stranger than we can", "id": 56, "model": "olmo13", "res": [[-10.8935, -0.8392], [-0.0185, -0.1209]]}
+{"family": "memo", "pop": "control", "cands": ["odious.", "available."], "key": 0, "habit": null, "mode": "q", "stem": "Comparisons are", "id": 57, "model": "olmo13", "res": [[-0.0014, -0.0003, -0.2133], [-24.1264, -7.0602]]}
+{"family": "memo", "pop": "control", "cands": ["stupid.", "though."], "key": 0, "habit": null, "mode": "q", "stem": "Keep it simple,", "id": 58, "model": "olmo13", "res": [[-0.0509, -0.0387], [-13.6759, -5.1732]]}
+{"family": "memo", "pop": "control", "cands": ["here.", "in't."], "key": 1, "habit": null, "mode": "q", "stem": "Though this be madness, yet there is method", "id": 59, "model": "olmo13", "res": [[-14.1277, -2.9494], [-0.0025, -0.0031, -0.0774]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 60, "model": "olmo13", "res": [[-0.2968], [-1.3906]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 61, "model": "olmo13", "res": [[-0.0224], [-4.9755]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 62, "model": "olmo13", "res": [[-0.4607], [-1.0232]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 63, "model": "olmo13", "res": [[-0.0196], [-5.2306]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 64, "model": "olmo13", "res": [[-0.4351], [-1.0601]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 65, "model": "olmo13", "res": [[-0.0676], [-2.8801]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 66, "model": "olmo13", "res": [[-0.6723], [-0.7348]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 67, "model": "olmo13", "res": [[-0.0608], [-3.092]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 68, "model": "olmo13", "res": [[-0.3945], [-1.1445]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 69, "model": "olmo13", "res": [[-0.0623], [-3.0467]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 70, "model": "olmo13", "res": [[-1.0847], [-0.4284]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 71, "model": "olmo13", "res": [[-0.1057], [-2.4182]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 72, "model": "olmo13", "res": [[-0.288], [-1.413]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 73, "model": "olmo13", "res": [[-0.0237], [-4.4768]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 74, "model": "olmo13", "res": [[-2.6281], [-0.0969]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 75, "model": "olmo13", "res": [[-0.0565], [-3.119]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 76, "model": "olmo13", "res": [[-2.3584], [-0.124]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 77, "model": "olmo13", "res": [[-0.0604], [-3.0604]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 78, "model": "olmo13", "res": [[-0.3083], [-1.3708]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 79, "model": "olmo13", "res": [[-0.0155], [-5.2968]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 80, "model": "olmo13", "res": [[-1.9294], [-0.1794]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 81, "model": "olmo13", "res": [[-0.0344], [-3.7376]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 82, "model": "olmo13", "res": [[-2.9496], [-0.0746]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 83, "model": "olmo13", "res": [[-0.0303], [-3.9834]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 84, "model": "olmo13", "res": [[-3.2089], [-0.0683]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 85, "model": "olmo13", "res": [[-1.7818], [-0.2193]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 86, "model": "olmo13", "res": [[-0.5335], [-0.9085]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 87, "model": "olmo13", "res": [[-0.0246], [-4.8371]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 88, "model": "olmo13", "res": [[-0.5865], [-0.8365]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 89, "model": "olmo13", "res": [[-0.037], [-3.7714]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 90, "model": "olmo13", "res": [[-1.7707], [-0.2082]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 91, "model": "olmo13", "res": [[-0.0411], [-3.5723]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 92, "model": "olmo13", "res": [[-1.3247], [-0.3247]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 93, "model": "olmo13", "res": [[-0.0645], [-3.1114]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 94, "model": "olmo13", "res": [[-2.0193], [-0.16]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 95, "model": "olmo13", "res": [[-0.03], [-3.905]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 96, "model": "olmo13", "res": [[-2.8464], [-0.0964]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 97, "model": "olmo13", "res": [[-0.0226], [-4.5617]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 98, "model": "olmo13", "res": [[-0.7711], [-0.6461]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 99, "model": "olmo13", "res": [[-0.1072], [-2.4197]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 100, "model": "olmo13", "res": [[-0.0204], [-5.0907]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 101, "model": "olmo13", "res": [[-3.367], [-0.0701]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 102, "model": "olmo13", "res": [[-0.0226], [-5.843]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 103, "model": "olmo13", "res": [[-3.9973], [-0.0442]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 104, "model": "olmo13", "res": [[-0.0151], [-6.391]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 105, "model": "olmo13", "res": [[-3.9359], [-0.0531]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 106, "model": "olmo13", "res": [[-0.0167], [-6.1271]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 107, "model": "olmo13", "res": [[-3.9117], [-0.0523]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 108, "model": "olmo13", "res": [[-0.0185], [-6.6235]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 109, "model": "olmo13", "res": [[-4.5699], [-0.0387]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 110, "model": "olmo13", "res": [[-0.0189], [-6.1168]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 111, "model": "olmo13", "res": [[-4.6618], [-0.0368]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 112, "model": "olmo13", "res": [[-0.0225], [-5.7647]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 113, "model": "olmo13", "res": [[-3.4974], [-0.0599]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 114, "model": "olmo13", "res": [[-0.0173], [-6.1892]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 115, "model": "olmo13", "res": [[-3.6414], [-0.0633]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 116, "model": "olmo13", "res": [[-0.0214], [-5.6698]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 117, "model": "olmo13", "res": [[-4.194], [-0.0378]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 118, "model": "olmo13", "res": [[-0.0282], [-5.0829]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 119, "model": "olmo13", "res": [[-3.1753], [-0.0816]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 120, "model": "olmo13", "res": [[-0.556, -9.4013], [-0.556, -0.0107]]}
+{"family": "redef", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 121, "model": "olmo13", "res": [[-0.0589, -0.0003], [-0.0589, -10.0628]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 122, "model": "olmo13", "res": [[-0.7694, -7.8943], [-0.7694, -0.0193]]}
+{"family": "redef", "pop": "trap", "cands": ["3", "5"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 123, "model": "olmo13", "res": [[-0.1018, -1.9668], [-0.1018, -9.0606]]}
+{"family": "redef", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 124, "model": "olmo13", "res": [[-0.0774, -0.0007], [-0.0774, -10.1726]]}
+{"family": "redef", "pop": "trap", "cands": ["1", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 125, "model": "olmo13", "res": [[-0.1318, -0.5008], [-0.1318, -7.4207]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 126, "model": "olmo13", "res": [[-0.0667, -0.0011], [-0.0667, -7.4836]]}
+{"family": "redef", "pop": "trap", "cands": ["6", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 127, "model": "olmo13", "res": [[-0.9862, -6.5783], [-0.9862, -0.0158]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 128, "model": "olmo13", "res": [[-1.0543, -1.8598], [-1.0543, -0.1723]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 129, "model": "olmo13", "res": [[-0.4683, -10.2824], [-0.4683, -0.0012]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 130, "model": "olmo13", "res": [[-0.0721, -0.0319], [-0.0721, -5.7038]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "8"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 131, "model": "olmo13", "res": [[-0.0982, -0.0618], [-0.0982, -9.4368]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 132, "model": "olmo13", "res": [[-0.9942, -14.0314], [-0.9942, -0.0001]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 133, "model": "olmo13", "res": [[-0.314, -12.5004], [-0.314, -0.0004]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 134, "model": "olmo13", "res": [[-0.7491, -12.3964], [-0.7491, -3.8651]]}
+{"family": "redef", "pop": "trap", "cands": ["7", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 135, "model": "olmo13", "res": [[-0.0859, -0.0359], [-0.0859, -5.4578]]}
+{"family": "redef", "pop": "trap", "cands": ["9", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 136, "model": "olmo13", "res": [[-0.0693, -0.003], [-0.0693, -9.5342]]}
+{"family": "redef", "pop": "trap", "cands": ["6", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 137, "model": "olmo13", "res": [[-0.4862, -12.2196], [-0.4862, -0.0009]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 138, "model": "olmo13", "res": [[-0.1066, -0.0011], [-0.1066, -10.3136]]}
+{"family": "redef", "pop": "trap", "cands": ["9", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 139, "model": "olmo13", "res": [[-0.2987, -12.0626], [-0.2987, -0.0001]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 140, "model": "olmo13", "res": [[-0.5777, -6.1443], [-0.5777, -0.0271]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 141, "model": "olmo13", "res": [[-0.1512, -7.1759], [-0.1512, -0.0021]]}
+{"family": "redef", "pop": "trap", "cands": ["1", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 142, "model": "olmo13", "res": [[-0.7947, -0.3221], [-0.7947, -1.3533]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 143, "model": "olmo13", "res": [[-0.0753, -0.0002], [-0.0753, -9.7971]]}
+{"family": "redef", "pop": "trap", "cands": ["6", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 144, "model": "olmo13", "res": [[-0.0825, -3.1424], [-0.0825, -2.4236]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 145, "model": "olmo13", "res": [[-0.1649, -0.0014], [-0.1649, -7.0703]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 146, "model": "olmo13", "res": [[-0.6468, -10.6592], [-0.6468, -0.0029]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 147, "model": "olmo13", "res": [[-0.9764, -11.6567], [-0.9764, -0.0004]]}
+{"family": "redef", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 148, "model": "olmo13", "res": [[-0.6633, -3.8346], [-0.6633, -4.444]]}
+{"family": "redef", "pop": "trap", "cands": ["3", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 149, "model": "olmo13", "res": [[-0.0792, -0.0003], [-0.0792, -8.555]]}
+{"family": "redef", "pop": "trap", "cands": ["2", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 150, "model": "olmo13", "res": [[-0.3763, -3.2017], [-0.3763, -1.6705]]}
+{"family": "redef", "pop": "trap", "cands": ["9", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 151, "model": "olmo13", "res": [[-0.7215, -5.4668], [-0.7215, -0.373]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 152, "model": "olmo13", "res": [[-0.0651, -0.0003], [-0.0651, -10.5159]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 153, "model": "olmo13", "res": [[-0.1339, -1.714], [-0.1339, -1.089]]}
+{"family": "redef", "pop": "trap", "cands": ["7", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 154, "model": "olmo13", "res": [[-0.0395, -0.0001], [-0.0395, -10.6095]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 155, "model": "olmo13", "res": [[-1.1176, -2.8139], [-1.1176, -0.0639]]}
+{"family": "redef", "pop": "trap", "cands": ["2", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 156, "model": "olmo13", "res": [[-0.1134, -0.0016], [-0.1134, -7.6081]]}
+{"family": "redef", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 157, "model": "olmo13", "res": [[-0.3665, -2.4681], [-0.3665, -0.1087]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 158, "model": "olmo13", "res": [[-0.1003, -0.0291], [-0.1003, -7.6307]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 159, "model": "olmo13", "res": [[-0.9267, -8.5361], [-0.9267, -0.1299]]}
+{"family": "R", "pop": "trap", "cands": ["2", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 160, "model": "olmo13", "res": [[-0.4421, -1.266], [-0.4421, -1.4535]]}
+{"family": "R", "pop": "trap", "cands": ["8", "5"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 161, "model": "olmo13", "res": [[-0.0711, -0.0008], [-0.0711, -11.1727]]}
+{"family": "R", "pop": "trap", "cands": ["2", "9"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 162, "model": "olmo13", "res": [[-0.5011, -0.0004], [-0.5011, -11.1098]]}
+{"family": "R", "pop": "trap", "cands": ["3", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 163, "model": "olmo13", "res": [[-0.5185, -0.9275], [-0.5185, -5.514]]}
+{"family": "R", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 164, "model": "olmo13", "res": [[-0.4279, -11.9379], [-0.4279, -0.0004]]}
+{"family": "R", "pop": "trap", "cands": ["2", "6"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 165, "model": "olmo13", "res": [[-0.7981, -0.0005], [-0.7981, -11.1412]]}
+{"family": "R", "pop": "trap", "cands": ["7", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 166, "model": "olmo13", "res": [[-0.1206, -11.0878], [-0.1206, -1.666]]}
+{"family": "R", "pop": "trap", "cands": ["5", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 167, "model": "olmo13", "res": [[-0.0793, -0.0006], [-0.0793, -9.8443]]}
+{"family": "R", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 168, "model": "olmo13", "res": [[-0.5993, -1.283], [-0.5993, -0.3455]]}
+{"family": "R", "pop": "trap", "cands": ["3", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 169, "model": "olmo13", "res": [[-0.4318, -0.0287], [-0.4318, -8.4662]]}
+{"family": "R", "pop": "trap", "cands": ["3", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 170, "model": "olmo13", "res": [[-0.7683, -8.5918], [-0.7683, -0.0019]]}
+{"family": "R", "pop": "trap", "cands": ["1", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 171, "model": "olmo13", "res": [[-0.0718, -9.219], [-0.0718, -0.0002]]}
+{"family": "R", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 172, "model": "olmo13", "res": [[-0.5344, -0.0206], [-0.5344, -5.419]]}
+{"family": "R", "pop": "trap", "cands": ["7", "1"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 173, "model": "olmo13", "res": [[-0.0922, -5.7397], [-0.0922, -3.392]]}
+{"family": "R", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 174, "model": "olmo13", "res": [[-0.5963, -8.8031], [-0.5963, -0.0063]]}
+{"family": "R", "pop": "trap", "cands": ["3", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 175, "model": "olmo13", "res": [[-0.4873, -0.0396], [-0.4873, -9.9771]]}
+{"family": "R", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 176, "model": "olmo13", "res": [[-0.4977, -12.1569], [-0.4977, -0.0007]]}
+{"family": "R", "pop": "trap", "cands": ["3", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 177, "model": "olmo13", "res": [[-0.5678, -0.2333], [-0.5678, -6.3651]]}
+{"family": "R", "pop": "trap", "cands": ["5", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 178, "model": "olmo13", "res": [[-0.5751, -12.0008], [-0.5751, -0.0008]]}
+{"family": "R", "pop": "trap", "cands": ["6", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 179, "model": "olmo13", "res": [[-0.4808, -7.8913], [-0.4808, -1.735]]}
+{"family": "R", "pop": "trap", "cands": ["2", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 180, "model": "olmo13", "res": [[-0.7751, -7.4004], [-0.7751, -0.6973]]}
+{"family": "R", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 181, "model": "olmo13", "res": [[-0.831, -0.9712], [-0.831, -7.0337]]}
+{"family": "R", "pop": "trap", "cands": ["2", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 182, "model": "olmo13", "res": [[-0.8679, -0.0004], [-0.8679, -8.7504]]}
+{"family": "R", "pop": "trap", "cands": ["2", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 183, "model": "olmo13", "res": [[-0.7163, -0.0005], [-0.7163, -8.274]]}
+{"family": "R", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 184, "model": "olmo13", "res": [[-0.794, -10.72], [-0.794, -0.0012]]}
+{"family": "R", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 185, "model": "olmo13", "res": [[-0.7471, -9.0879], [-0.7471, -0.0254]]}
+{"family": "R", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 186, "model": "olmo13", "res": [[-0.5071, -7.6428], [-0.5071, -0.0022]]}
+{"family": "R", "pop": "trap", "cands": ["4", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 187, "model": "olmo13", "res": [[-0.5171, -7.8546], [-0.5171, -0.0577]]}
+{"family": "R", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 188, "model": "olmo13", "res": [[-0.6563, -10.517], [-0.6563, -0.0014]]}
+{"family": "R", "pop": "trap", "cands": ["2", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 189, "model": "olmo13", "res": [[-0.068, -7.7583], [-0.068, -0.0005]]}
+{"family": "R", "pop": "trap", "cands": ["2", "9"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 190, "model": "olmo13", "res": [[-0.6073, -0.0006], [-0.6073, -10.9693]]}
+{"family": "R", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 191, "model": "olmo13", "res": [[-0.5805, -0.0363], [-0.5805, -6.171]]}
+{"family": "R", "pop": "trap", "cands": ["3", "8"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 192, "model": "olmo13", "res": [[-0.7392, -0.5536], [-0.7392, -7.6239]]}
+{"family": "R", "pop": "trap", "cands": ["2", "6"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 193, "model": "olmo13", "res": [[-0.6673, -0.0002], [-0.6673, -12.4064]]}
+{"family": "R", "pop": "trap", "cands": ["1", "9"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 194, "model": "olmo13", "res": [[-0.0782, -1.1629], [-0.0782, -8.116]]}
+{"family": "R", "pop": "trap", "cands": ["3", "5"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 195, "model": "olmo13", "res": [[-0.4497, -0.0045], [-0.4497, -9.7545]]}
+{"family": "R", "pop": "trap", "cands": ["7", "6"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 196, "model": "olmo13", "res": [[-0.0571, -0.0002], [-0.0571, -8.6994]]}
+{"family": "R", "pop": "trap", "cands": ["3", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 197, "model": "olmo13", "res": [[-0.5483, -5.1367], [-0.5483, -5.6758]]}
+{"family": "R", "pop": "trap", "cands": ["7", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 198, "model": "olmo13", "res": [[-0.0602, -0.0003], [-0.0602, -11.6878]]}
+{"family": "R", "pop": "control", "cands": ["9", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 199, "model": "olmo13", "res": [[-1.5596, -12.2502], [-1.5596, -0.0002]]}
+{"family": "R", "pop": "control", "cands": ["9", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 200, "model": "olmo13", "res": [[-0.9276, -11.1567], [-0.9276, -0.0004]]}
+{"family": "R", "pop": "control", "cands": ["2", "1"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 201, "model": "olmo13", "res": [[-1.0436, -0.0001], [-1.0436, -10.7969]]}
+{"family": "R", "pop": "control", "cands": ["3", "6"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 202, "model": "olmo13", "res": [[-1.0773, -0.0002], [-1.0773, -13.8752]]}
+{"family": "R", "pop": "control", "cands": ["1", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 203, "model": "olmo13", "res": [[-1.5102, -10.4846], [-1.5102, -0.0002]]}
+{"family": "R", "pop": "control", "cands": ["5", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 204, "model": "olmo13", "res": [[-1.1076, -11.969], [-1.1076, -0.0002]]}
+{"family": "R", "pop": "control", "cands": ["3", "8"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 205, "model": "olmo13", "res": [[-0.9196, -0.0003], [-0.9196, -12.469]]}
+{"family": "R", "pop": "control", "cands": ["2", "9"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 206, "model": "olmo13", "res": [[-1.2191, -0.0002], [-1.2191, -12.6252]]}
+{"family": "R", "pop": "control", "cands": ["6", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 207, "model": "olmo13", "res": [[-0.9834, -14.8751], [-0.9834, -0.0001]]}
+{"family": "R", "pop": "control", "cands": ["7", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 208, "model": "olmo13", "res": [[-0.9019, -12.6563], [-0.9019, -0.0001]]}
+{"family": "R", "pop": "control", "cands": ["3", "8"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 209, "model": "olmo13", "res": [[-1.0816, -0.0001], [-1.0816, -12.2814]]}
+{"family": "R", "pop": "control", "cands": ["1", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 210, "model": "olmo13", "res": [[-0.713, -10.2033], [-0.713, -0.0001]]}
+{"family": "R", "pop": "control", "cands": ["4", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 211, "model": "olmo13", "res": [[-0.8935, -9.5003], [-0.8935, -0.0003]]}
+{"family": "R", "pop": "control", "cands": ["1", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 212, "model": "olmo13", "res": [[-0.7456, -9.6564], [-0.7456, -0.0002]]}
+{"family": "R", "pop": "control", "cands": ["3", "2"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 213, "model": "olmo13", "res": [[-0.8977, -0.0001], [-0.8977, -12.6251]]}
+{"family": "R", "pop": "control", "cands": ["3", "7"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 214, "model": "olmo13", "res": [[-0.9273, -0.0002], [-0.9273, -11.9377]]}
+{"family": "R", "pop": "control", "cands": ["3", "9"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 215, "model": "olmo13", "res": [[-0.8686, -0.0002], [-0.8686, -12.844]]}
+{"family": "R", "pop": "control", "cands": ["4", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 216, "model": "olmo13", "res": [[-0.8406, -14.7814], [-0.8406, -0.0001]]}
+{"family": "R", "pop": "control", "cands": ["3", "1"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 217, "model": "olmo13", "res": [[-0.828, -0.0002], [-0.828, -9.594]]}
+{"family": "R", "pop": "control", "cands": ["3", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 218, "model": "olmo13", "res": [[-1.2652, -11.4376], [-1.2652, -0.0001]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 219, "model": "olmo13", "res": [[-1.5005, -0.0], [-0.563, -0.0004], [-1.7505, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 220, "model": "olmo13", "res": [[-1.0725, 0.0], [-1.385], [-1.3225, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 221, "model": "olmo13", "res": [[-0.8118, -0.0], [-2.4993, -0.0002], [-0.9368, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 222, "model": "olmo13", "res": [[-0.0755], [-3.513, -0.0005], [-3.263, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 223, "model": "olmo13", "res": [[-2.9416], [-0.0666], [-5.3166]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 224, "model": "olmo13", "res": [[-3.661, -0.0], [-0.036, -0.0002], [-4.911, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 225, "model": "olmo13", "res": [[-2.3353, -0.0, -0.0], [-0.5853], [-1.1478]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 226, "model": "olmo13", "res": [[-0.0554], [-5.5241], [-3.0554]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 227, "model": "olmo13", "res": [[-0.275], [-1.525], [-3.9]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 228, "model": "olmo13", "res": [[-0.0622], [-9.0622, -0.0], [-2.8747, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 229, "model": "olmo13", "res": [[-0.0452], [-7.5139, -0.0], [-3.2327, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 230, "model": "olmo13", "res": [[-1.056], [-0.931, -0.0], [-1.431, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 231, "model": "olmo13", "res": [[-0.1058], [-2.9808, -0.0], [-3.1683, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 232, "model": "olmo13", "res": [[-3.0088, -0.0, -0.0], [-0.2588], [-1.9463]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 233, "model": "olmo13", "res": [[-0.0333], [-8.1896, -0.0], [-3.5333, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 234, "model": "olmo13", "res": [[-0.7987], [-0.6112], [-5.3612]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 235, "model": "olmo13", "res": [[-2.9172, 0.0], [-0.1047], [-3.6672, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 236, "model": "olmo13", "res": [[-0.8307, 0.0], [-1.2682, -0.0003], [-1.8307, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 237, "model": "olmo13", "res": [[-0.2745], [-4.212, -0.0], [-1.5245, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 238, "model": "olmo13", "res": [[-1.2279, -0.0], [-1.9154], [-0.7904, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 239, "model": "olmo13", "res": [[-6.3843, -0.0], [-0.0093], [-5.5718, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 240, "model": "olmo13", "res": [[-0.1938, -0.0, -0.0], [-6.225], [-2.9438]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 241, "model": "olmo13", "res": [[-1.3731, -0.0, -0.0], [-0.6231], [-1.9356]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 242, "model": "olmo13", "res": [[-0.2967], [-1.9217, -0.0], [-2.2967, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 243, "model": "olmo13", "res": [[-1.5912, -0.0], [-0.7162], [-1.5287, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 244, "model": "olmo13", "res": [[-0.2609], [-6.5734, -0.0], [-1.5109, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 245, "model": "olmo13", "res": [[-0.2354], [-1.9229, -0.0], [-2.9229, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 246, "model": "olmo13", "res": [[-0.0645], [-4.502, -0.0], [-3.0645, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 247, "model": "olmo13", "res": [[-0.8918, -0.0], [-2.0793, -0.0002], [-1.0793, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 248, "model": "olmo13", "res": [[-1.5714, -0.0], [-0.4464], [-2.6964, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 249, "model": "olmo13", "res": [[-1.3426, -0.0], [-1.4051, -0.0004], [-0.7801, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 250, "model": "olmo13", "res": [[-0.453], [-1.078], [-4.0155]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 251, "model": "olmo13", "res": [[-0.147], [-4.8657, -0.0005], [-2.0845, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 252, "model": "olmo13", "res": [[-0.0763], [-5.17, -0.0003], [-2.7638, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 253, "model": "olmo13", "res": [[-0.0763], [-5.9826, -0.0004], [-2.7013, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 254, "model": "olmo13", "res": [[-1.9579, -0.0, -0.0], [-0.6454], [-1.2704]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 255, "model": "olmo13", "res": [[-0.0221], [-4.9596], [-4.3971]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 256, "model": "olmo13", "res": [[-0.035], [-10.1288, -0.0], [-3.4725, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 257, "model": "olmo13", "res": [[-0.0075], [-7.82], [-5.32]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 258, "model": "olmo13", "res": [[-0.7623, 0.0], [-2.1998], [-1.8873, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["BRAKE", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 259, "model": "olmo13", "res": [[-2.3621, -0.0, -0.0], [-1.7371], [-0.3621]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 260, "model": "olmo13", "res": [[-0.1209], [-3.8709, -0.0], [-2.4334, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 261, "model": "olmo13", "res": [[-0.3277], [-1.5152, -0.0004], [-2.8902, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "PROCEED", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 262, "model": "olmo13", "res": [[-0.8841, 0.0], [-1.8216, -0.0002], [-1.1966, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 263, "model": "olmo13", "res": [[-0.0079], [-5.9766], [-5.5079]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 264, "model": "olmo13", "res": [[-0.4029], [-4.9654, -0.0], [-1.1529, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["BRAKE", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 265, "model": "olmo13", "res": [[-1.3195, -0.0, -0.0], [-0.8195], [-1.507]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "PROCEED", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 266, "model": "olmo13", "res": [[-1.8408, 0.0], [-0.3408, -0.0003], [-2.2783, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "GO", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 267, "model": "olmo13", "res": [[-1.5728, 0.0], [-1.0103], [-1.0728, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "GO", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 268, "model": "olmo13", "res": [[-1.1807, 0.0], [-1.0557], [-1.6807, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 269, "model": "olmo13", "res": [[-0.1031], [-3.9781, -0.0], [-2.6031, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 270, "model": "olmo13", "res": [[-0.5688], [-1.0688, -0.0004], [-2.4438, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "GO", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 271, "model": "olmo13", "res": [[-2.3667, 0.0], [-0.9292], [-0.7417, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 272, "model": "olmo13", "res": [[-0.5121], [-0.9496], [-4.5433]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "PROCEED", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 273, "model": "olmo13", "res": [[-1.4843, 0.0], [-1.2968, -0.0002], [-0.7968, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 274, "model": "olmo13", "res": [[-0.0127], [-10.2315, -0.0], [-4.5752, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 275, "model": "olmo13", "res": [[-0.4755], [-1.8505, -0.0003], [-1.538, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "GO", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 276, "model": "olmo13", "res": [[-6.3291, 0.0], [-0.0166], [-4.5166, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 277, "model": "olmo13", "res": [[-0.0667], [-6.9729, -0.0], [-2.8167, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["BRAKE", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 278, "model": "olmo13", "res": [[-1.3003, -0.0, -0.0], [-1.8628], [-0.6753]]}
+{"family": "K", "pop": "trap", "cands": ["S", "M", "G"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 279, "model": "olmo13", "res": [[-7.2268], [-10.5862], [-0.2737]]}
+{"family": "K", "pop": "trap", "cands": ["L", "A", "C"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 280, "model": "olmo13", "res": [[-5.3538], [-0.3226], [-8.1702]]}
+{"family": "K", "pop": "trap", "cands": ["N", "M", "R"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 281, "model": "olmo13", "res": [[-0.6198], [-9.9479], [-6.7214]]}
+{"family": "K", "pop": "trap", "cands": ["B", "M", "S"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 282, "model": "olmo13", "res": [[-10.2961], [-11.7336], [-0.2805]]}
+{"family": "K", "pop": "trap", "cands": ["B", "W", "S"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 283, "model": "olmo13", "res": [[-7.5856], [-10.0163], [-1.5163]]}
+{"family": "K", "pop": "trap", "cands": ["B", "H", "M"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 284, "model": "olmo13", "res": [[-8.2191], [-10.3792], [-0.1605]]}
+{"family": "K", "pop": "trap", "cands": ["A", "T", "P"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 285, "model": "olmo13", "res": [[-8.2474], [-10.8743], [-0.0618]]}
+{"family": "K", "pop": "trap", "cands": ["K", "T", "O"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 286, "model": "olmo13", "res": [[-8.0044], [-6.1714], [-0.9136]]}
+{"family": "K", "pop": "trap", "cands": ["O", "M", "T"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 287, "model": "olmo13", "res": [[-10.4278], [-0.0372], [-11.1153]]}
+{"family": "K", "pop": "trap", "cands": ["W", "G", "K"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 288, "model": "olmo13", "res": [[-9.5345], [-0.3392], [-12.8705]]}
+{"family": "K", "pop": "trap", "cands": ["B", "R", "C"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 289, "model": "olmo13", "res": [[-2.3137], [-6.802], [-0.6262]]}
+{"family": "K", "pop": "trap", "cands": ["N", "M", "K"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 290, "model": "olmo13", "res": [[-8.5693], [-0.0292], [-12.3105]]}
+{"family": "K", "pop": "trap", "cands": ["B", "R", "S"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 291, "model": "olmo13", "res": [[-11.2482], [-0.2482], [-10.5451]]}
+{"family": "K", "pop": "trap", "cands": ["S", "C", "M"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 292, "model": "olmo13", "res": [[-0.5955], [-9.3611], [-13.3143]]}
+{"family": "K", "pop": "trap", "cands": ["G", "V", "S"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 293, "model": "olmo13", "res": [[-0.8112], [-4.7174], [-5.7643]]}
+{"family": "K", "pop": "trap", "cands": ["L", "P", "M"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 294, "model": "olmo13", "res": [[-0.356], [-9.7466], [-12.481]]}
+{"family": "K", "pop": "trap", "cands": ["P", "B", "L"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 295, "model": "olmo13", "res": [[-0.2804], [-12.4054], [-11.1398]]}
+{"family": "K", "pop": "trap", "cands": ["G", "A", "I"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 296, "model": "olmo13", "res": [[-11.5637], [-7.6457], [-0.22]]}
+{"family": "K", "pop": "trap", "cands": ["T", "B", "O"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 297, "model": "olmo13", "res": [[-10.0001], [-0.1876], [-7.295]]}
+{"family": "K", "pop": "trap", "cands": ["N", "M", "K"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 298, "model": "olmo13", "res": [[-0.1475], [-10.9756], [-11.71]]}
+{"family": "K", "pop": "trap", "cands": ["C", "R", "B"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 299, "model": "olmo13", "res": [[-1.1313], [-6.8657], [-8.0478]]}
+{"family": "K", "pop": "trap", "cands": ["P", "T", "A"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 300, "model": "olmo13", "res": [[-11.6004], [-0.6004], [-8.9285]]}
+{"family": "K", "pop": "trap", "cands": ["B", "P", "L"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 301, "model": "olmo13", "res": [[-0.1645], [-8.439], [-11.2114]]}
+{"family": "K", "pop": "trap", "cands": ["K", "M", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 302, "model": "olmo13", "res": [[-1.4036], [-6.8802], [-6.052]]}
+{"family": "K", "pop": "trap", "cands": ["C", "M", "S"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 303, "model": "olmo13", "res": [[-8.8054], [-0.2156], [-7.325]]}
+{"family": "K", "pop": "trap", "cands": ["T", "B", "O"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 304, "model": "olmo13", "res": [[-11.3369], [-0.1181], [-9.6259]]}
+{"family": "K", "pop": "trap", "cands": ["N", "R", "M"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 305, "model": "olmo13", "res": [[-9.311], [-7.0292], [-0.4204]]}
+{"family": "K", "pop": "trap", "cands": ["S", "M", "G"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 306, "model": "olmo13", "res": [[-6.5074], [-0.2808], [-9.4137]]}
+{"family": "K", "pop": "trap", "cands": ["B", "S", "R"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 307, "model": "olmo13", "res": [[-10.0668], [-0.2543], [-9.9418]]}
+{"family": "K", "pop": "trap", "cands": ["S", "B", "W"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 308, "model": "olmo13", "res": [[-1.1077], [-8.3831], [-10.6077]]}
+{"family": "K", "pop": "trap", "cands": ["H", "B", "M"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 309, "model": "olmo13", "res": [[-9.8897], [-8.5069], [-0.3116]]}
+{"family": "K", "pop": "trap", "cands": ["M", "K", "N"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 310, "model": "olmo13", "res": [[-10.5734], [-0.0577], [-9.1398]]}
+{"family": "K", "pop": "trap", "cands": ["T", "K", "O"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 311, "model": "olmo13", "res": [[-8.278], [-0.5319], [-10.6569]]}
+{"family": "K", "pop": "trap", "cands": ["M", "P", "L"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 312, "model": "olmo13", "res": [[-0.3671], [-10.3984], [-10.2265]]}
+{"family": "K", "pop": "trap", "cands": ["G", "S", "V"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 313, "model": "olmo13", "res": [[-12.4358], [-0.0608], [-14.7795]]}
+{"family": "K", "pop": "trap", "cands": ["Z", "I", "A"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 314, "model": "olmo13", "res": [[-14.8665], [-0.1477], [-9.0071]]}
+{"family": "K", "pop": "trap", "cands": ["K", "G", "W"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 315, "model": "olmo13", "res": [[-0.153], [-10.7155], [-10.0905]]}
+{"family": "K", "pop": "trap", "cands": ["B", "S", "M"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 316, "model": "olmo13", "res": [[-0.2961], [-7.6554], [-10.5148]]}
+{"family": "K", "pop": "trap", "cands": ["C", "A", "L"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 317, "model": "olmo13", "res": [[-7.9206], [-6.4577], [-0.2156]]}
+{"family": "K", "pop": "control", "cands": ["Q", "V", "A"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 318, "model": "olmo13", "res": [[-10.127], [-13.4708], [-0.0645]]}
+{"family": "K", "pop": "control", "cands": ["J", "O", "L"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 319, "model": "olmo13", "res": [[-13.2787], [-0.0599], [-9.3021]]}
+{"family": "K", "pop": "control", "cands": ["M", "H", "I"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 320, "model": "olmo13", "res": [[-0.02], [-13.77], [-13.8325]]}
+{"family": "K", "pop": "control", "cands": ["U", "C", "R"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 321, "model": "olmo13", "res": [[-13.3607], [-0.1419], [-11.4075]]}
+{"family": "K", "pop": "control", "cands": ["X", "E", "B"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 322, "model": "olmo13", "res": [[-16.674], [-11.3458], [-0.049]]}
+{"family": "K", "pop": "control", "cands": ["J", "A", "W"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 323, "model": "olmo13", "res": [[-14.2535], [-9.566], [-0.066]]}
+{"family": "K", "pop": "control", "cands": ["C", "H", "B"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 324, "model": "olmo13", "res": [[-10.7682], [-11.987], [-0.1745]]}
+{"family": "K", "pop": "control", "cands": ["O", "L", "P"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 325, "model": "olmo13", "res": [[-0.3149], [-12.1274], [-11.2836]]}
+{"family": "K", "pop": "control", "cands": ["N", "W", "L"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 326, "model": "olmo13", "res": [[-13.5183], [-14.8308], [-0.0496]]}
+{"family": "K", "pop": "control", "cands": ["F", "O", "B"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 327, "model": "olmo13", "res": [[-11.9525], [-12.1712], [-0.1087]]}
+{"family": "K", "pop": "control", "cands": ["F", "N", "T"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 328, "model": "olmo13", "res": [[-12.8178], [-0.099], [-12.099]]}
+{"family": "K", "pop": "control", "cands": ["V", "T", "F"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 329, "model": "olmo13", "res": [[-14.0562], [-0.1187], [-12.4312]]}
+{"family": "K", "pop": "control", "cands": ["Y", "S", "A"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 330, "model": "olmo13", "res": [[-13.1862], [-11.8112], [-0.0612]]}
+{"family": "K", "pop": "control", "cands": ["Q", "C", "O"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 331, "model": "olmo13", "res": [[-7.9834], [-0.0381], [-10.0381]]}
+{"family": "K", "pop": "control", "cands": ["S", "Z", "O"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 332, "model": "olmo13", "res": [[-0.0509], [-13.7072], [-8.132]]}
+{"family": "K", "pop": "control", "cands": ["C", "P", "A"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 333, "model": "olmo13", "res": [[-11.4319], [-0.2444], [-4.4163]]}
+{"family": "K", "pop": "control", "cands": ["W", "C", "R"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 334, "model": "olmo13", "res": [[-12.7248], [-10.8654], [-0.2873]]}
+{"family": "K", "pop": "control", "cands": ["M", "V", "W"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 335, "model": "olmo13", "res": [[-0.1271], [-13.9708], [-12.4708]]}
+{"family": "K", "pop": "control", "cands": ["O", "Q", "B"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 336, "model": "olmo13", "res": [[-13.3099], [-10.6927], [-0.0287]]}
+{"family": "K", "pop": "control", "cands": ["C", "V", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 337, "model": "olmo13", "res": [[-12.16], [-0.0975], [-9.6444]]}
+{"family": "D", "pop": "trap", "cands": ["8", "18", "9"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 338, "model": "olmo13", "res": [[-0.211, -0.0], [-0.211, -18.6875], [-0.211, -12.5938]]}
+{"family": "D", "pop": "trap", "cands": ["3", "2", "6"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 339, "model": "olmo13", "res": [[-0.0643, -0.0], [-0.0643, -11.4375], [-0.0643, -17.9688]]}
+{"family": "D", "pop": "trap", "cands": ["8", "10", "19"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 340, "model": "olmo13", "res": [[-0.1771, -0.0], [-0.1771, -11.0938], [-0.1771, -21.625]]}
+{"family": "D", "pop": "trap", "cands": ["3", "2", "6"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 341, "model": "olmo13", "res": [[-0.1348, -0.0001], [-0.1348, -11.1251], [-0.1348, -12.9376]]}
+{"family": "D", "pop": "trap", "cands": ["6", "10", "3"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 342, "model": "olmo13", "res": [[-0.2981, -0.0], [-0.2981, -20.875], [-0.2981, -17.875]]}
+{"family": "D", "pop": "trap", "cands": ["3", "9", "5"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 343, "model": "olmo13", "res": [[-0.2036, -15.5313], [-0.2036, -19.125], [-0.2036, -0.0]]}
+{"family": "D", "pop": "trap", "cands": ["6", "4", "11"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 344, "model": "olmo13", "res": [[-0.0673, -15.1563], [-0.0673, -0.0], [-0.0673, -21.5]]}
+{"family": "D", "pop": "trap", "cands": ["4", "12", "7"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 345, "model": "olmo13", "res": [[-0.1265, -0.0], [-0.1265, -18.375], [-0.1265, -15.5]]}
+{"family": "D", "pop": "trap", "cands": ["3", "6", "2"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 346, "model": "olmo13", "res": [[-0.1417, -4.5266], [-0.1417, -12.3548], [-0.1417, -0.011]]}
+{"family": "D", "pop": "trap", "cands": ["8", "5", "2"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 347, "model": "olmo13", "res": [[-0.1355, -5.3012], [-0.1355, -2.9887], [-0.1355, -0.4262]]}
+{"family": "D", "pop": "trap", "cands": ["25", "16", "8"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 348, "model": "olmo13", "res": [[-0.0967, -19.0647], [-0.0967, -1.5022], [-0.0967, -0.2522]]}
+{"family": "D", "pop": "trap", "cands": ["7", "14", "6"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 349, "model": "olmo13", "res": [[-0.0624, -13.7188], [-0.0624, -17.8126], [-0.0624, -0.0001]]}
+{"family": "D", "pop": "trap", "cands": ["8", "5", "14"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 350, "model": "olmo13", "res": [[-0.1037, -0.0021], [-0.1037, -7.9201], [-0.1037, -13.8771]]}
+{"family": "D", "pop": "trap", "cands": ["4", "2", "7"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 351, "model": "olmo13", "res": [[-0.3343, -0.001], [-0.3343, -7.052], [-0.3343, -15.501]]}
+{"family": "D", "pop": "trap", "cands": ["4", "5", "10"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 352, "model": "olmo13", "res": [[-0.0978, -0.0001], [-0.0978, -14.4688], [-0.0978, -19.3751]]}
+{"family": "D", "pop": "trap", "cands": ["19", "10", "8"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 353, "model": "olmo13", "res": [[-0.0569, -17.3131], [-0.0569, -0.0006], [-0.0569, -8.3912]]}
+{"family": "D", "pop": "trap", "cands": ["16", "25", "8"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 354, "model": "olmo13", "res": [[-0.1537, -19.25], [-0.1537, -25.875], [-0.1537, -0.0]]}
+{"family": "D", "pop": "trap", "cands": ["8", "6", "15"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 355, "model": "olmo13", "res": [[-0.0834, -19.1875], [-0.0834, -0.0], [-0.0834, -21.8125]]}
+{"family": "D", "pop": "trap", "cands": ["6", "5", "12"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 356, "model": "olmo13", "res": [[-0.2467, -0.0], [-0.2467, -14.9063], [-0.2467, -13.3125]]}
+{"family": "D", "pop": "trap", "cands": ["7", "4", "2"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 357, "model": "olmo13", "res": [[-0.0865, -14.2947], [-0.0865, -0.6072], [-0.0865, -0.7947]]}
+{"family": "D", "pop": "trap", "cands": ["2", "5", "8"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 358, "model": "olmo13", "res": [[-0.4107, -13.0313], [-0.4107, -0.0001], [-0.4107, -16.9063]]}
+{"family": "D", "pop": "trap", "cands": ["14", "7", "6"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 359, "model": "olmo13", "res": [[-0.233, -16.1563], [-0.233, -11.4063], [-0.233, -0.0001]]}
+{"family": "D", "pop": "trap", "cands": ["6", "12", "5"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 360, "model": "olmo13", "res": [[-0.092, -0.0001], [-0.092, -16.0626], [-0.092, -14.9063]]}
+{"family": "D", "pop": "trap", "cands": ["12", "6", "5"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 361, "model": "olmo13", "res": [[-0.185, -12.8438], [-0.185, -0.0], [-0.185, -12.125]]}
+{"family": "D", "pop": "trap", "cands": ["4", "11", "6"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 362, "model": "olmo13", "res": [[-0.4869, -0.0], [-0.4869, -19.6563], [-0.4869, -12.3125]]}
+{"family": "D", "pop": "trap", "cands": ["6", "10", "3"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 363, "model": "olmo13", "res": [[-0.1008, -14.8438], [-0.1008, -17.3125], [-0.1008, -0.0]]}
+{"family": "D", "pop": "trap", "cands": ["8", "13", "4"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 364, "model": "olmo13", "res": [[-0.11, -13.5625], [-0.11, -22.125], [-0.11, -0.0]]}
+{"family": "D", "pop": "trap", "cands": ["4", "2", "7"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 365, "model": "olmo13", "res": [[-0.0552, -4.0489], [-0.0552, -0.0176], [-0.0552, -18.2051]]}
+{"family": "D", "pop": "trap", "cands": ["8", "25", "16"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 366, "model": "olmo13", "res": [[-0.1921, -0.0003], [-0.1921, -20.5628], [-0.1921, -10.8285]]}
+{"family": "D", "pop": "trap", "cands": ["6", "3", "2"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 367, "model": "olmo13", "res": [[-0.0989, -12.7116], [-0.0989, -3.7429], [-0.0989, -0.0241]]}
+{"family": "D", "pop": "trap", "cands": ["5", "8", "2"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 368, "model": "olmo13", "res": [[-0.1938, -11.005], [-0.1938, -8.9034], [-0.1938, -0.005]]}
+{"family": "D", "pop": "trap", "cands": ["11", "4", "6"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 369, "model": "olmo13", "res": [[-0.3805, -19.75], [-0.3805, -14.5938], [-0.3805, -0.0]]}
+{"family": "D", "pop": "trap", "cands": ["8", "5", "2"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 370, "model": "olmo13", "res": [[-0.4833, -14.4073], [-0.4833, -0.001], [-0.4833, -8.3096]]}
+{"family": "D", "pop": "trap", "cands": ["8", "16", "7"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 371, "model": "olmo13", "res": [[-0.0973, -11.9219], [-0.0973, -17.125], [-0.0973, -0.0]]}
+{"family": "D", "pop": "trap", "cands": ["6", "10", "3"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 372, "model": "olmo13", "res": [[-0.1179, -0.0001], [-0.1179, -17.1876], [-0.1179, -11.3438]]}
+{"family": "D", "pop": "trap", "cands": ["6", "11", "4"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 373, "model": "olmo13", "res": [[-0.0599, -15.0], [-0.0599, -19.4375], [-0.0599, -0.0]]}
+{"family": "D", "pop": "trap", "cands": ["8", "18", "9"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 374, "model": "olmo13", "res": [[-0.2814, -0.0001], [-0.2814, -15.3126], [-0.2814, -10.2658]]}
+{"family": "D", "pop": "trap", "cands": ["4", "6", "11"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 375, "model": "olmo13", "res": [[-0.2221, -0.0], [-0.2221, -15.9688], [-0.2221, -21.9688]]}
+{"family": "D", "pop": "trap", "cands": ["8", "2", "5"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 376, "model": "olmo13", "res": [[-0.1679, -14.9251], [-0.1679, -3.0501], [-0.1679, -0.0501]]}
+{"family": "D", "pop": "trap", "cands": ["2", "6", "3"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 377, "model": "olmo13", "res": [[-0.1227, -11.4063], [-0.1227, -16.5313], [-0.1227, -0.0]]}
+{"family": "D", "pop": "control", "cands": ["7", "13", "6"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 378, "model": "olmo13", "res": [[-0.1518, -15.7813], [-0.1518, -19.1563], [-0.1518, -0.0]]}
+{"family": "D", "pop": "control", "cands": ["9", "4", "5"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 379, "model": "olmo13", "res": [[-0.0674, -17.8125], [-0.0674, -0.0], [-0.0674, -14.625]]}
+{"family": "D", "pop": "control", "cands": ["5", "6", "11"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 380, "model": "olmo13", "res": [[-0.0833, -0.0], [-0.0833, -16.0], [-0.0833, -19.5625]]}
+{"family": "D", "pop": "control", "cands": ["5", "9", "4"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 381, "model": "olmo13", "res": [[-0.2461, -12.0626], [-0.2461, -16.9376], [-0.2461, -0.0001]]}
+{"family": "D", "pop": "control", "cands": ["8", "9", "17"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 382, "model": "olmo13", "res": [[-0.0626, -0.0001], [-0.0626, -14.2501], [-0.0626, -18.2501]]}
+{"family": "D", "pop": "control", "cands": ["4", "7", "3"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 383, "model": "olmo13", "res": [[-0.1102, -13.4688], [-0.1102, -16.8125], [-0.1102, -0.0]]}
+{"family": "D", "pop": "control", "cands": ["2", "3", "5"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 384, "model": "olmo13", "res": [[-0.0678, -0.0], [-0.0678, -14.8125], [-0.0678, -17.625]]}
+{"family": "D", "pop": "control", "cands": ["7", "6", "13"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 385, "model": "olmo13", "res": [[-0.1799, -16.125], [-0.1799, -0.0], [-0.1799, -19.125]]}
+{"family": "D", "pop": "control", "cands": ["5", "6", "11"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 386, "model": "olmo13", "res": [[-0.0365, -0.0], [-0.0365, -17.3125], [-0.0365, -20.9375]]}
+{"family": "D", "pop": "control", "cands": ["17", "8", "9"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 387, "model": "olmo13", "res": [[-0.0681, -19.25], [-0.0681, -0.0], [-0.0681, -15.4375]]}
+{"family": "D", "pop": "control", "cands": ["6", "7", "13"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 388, "model": "olmo13", "res": [[-0.1247, -0.0], [-0.1247, -14.5938], [-0.1247, -19.4688]]}
+{"family": "D", "pop": "control", "cands": ["5", "11", "6"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 389, "model": "olmo13", "res": [[-0.0617, -0.0], [-0.0617, -18.7188], [-0.0617, -15.2813]]}
+{"family": "D", "pop": "control", "cands": ["5", "9", "4"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 390, "model": "olmo13", "res": [[-0.0481, -14.7188], [-0.0481, -18.4063], [-0.0481, -0.0]]}
+{"family": "D", "pop": "control", "cands": ["7", "4", "3"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 391, "model": "olmo13", "res": [[-0.273, -13.4063], [-0.273, -12.4376], [-0.273, -0.0001]]}
+{"family": "D", "pop": "control", "cands": ["17", "9", "8"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 392, "model": "olmo13", "res": [[-0.1475, -17.875], [-0.1475, -11.2032], [-0.1475, -0.0]]}
+{"family": "D", "pop": "control", "cands": ["4", "3", "7"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 393, "model": "olmo13", "res": [[-0.1575, -13.4688], [-0.1575, -0.0001], [-0.1575, -14.7188]]}
+{"family": "D", "pop": "control", "cands": ["5", "11", "6"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 394, "model": "olmo13", "res": [[-0.0856, -0.0001], [-0.0856, -19.0001], [-0.0856, -15.9376]]}
+{"family": "D", "pop": "control", "cands": ["9", "4", "5"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 395, "model": "olmo13", "res": [[-0.0741, -18.125], [-0.0741, -0.0], [-0.0741, -14.4688]]}
+{"family": "D", "pop": "control", "cands": ["7", "4", "3"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 396, "model": "olmo13", "res": [[-0.0822, -16.8125], [-0.0822, -13.8125], [-0.0822, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "COURIER", "RAIL"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 397, "model": "olmo13", "res": [[-0.0003, -0.0], [-13.8821, -0.0025, -0.0], [-11.6565, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["SHIP", "VAN", "AIR"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 398, "model": "olmo13", "res": [[-11.0867], [-15.4227, -0.0011], [-0.0008]]}
+{"family": "parcels", "pop": "trap", "cands": ["RAIL", "JET", "FERRY"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 399, "model": "olmo13", "res": [[-10.5003, -0.0], [-0.0003, -0.0], [-11.8284, -0.0002]]}
+{"family": "parcels", "pop": "trap", "cands": ["PLANE", "LORRY", "BOAT"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 400, "model": "olmo13", "res": [[-0.0119, -0.0], [-4.5119, -0.0, -0.0], [-11.0901, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "TRUCK", "SHIP"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 401, "model": "olmo13", "res": [[-0.0038], [-7.2226, -0.0], [-6.3163]]}
+{"family": "parcels", "pop": "trap", "cands": ["BOAT", "LORRY", "PLANE"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 402, "model": "olmo13", "res": [[-8.8175, -0.0], [-5.5675, -0.0, -0.0], [-0.005, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["TRUCK", "SHIP", "AIR"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 403, "model": "olmo13", "res": [[-10.5164, -0.0], [-11.032], [-0.0007]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "FERRY", "COURIER"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 404, "model": "olmo13", "res": [[-0.0008, -0.0], [-10.0321, -0.0001], [-15.3524, -0.0057, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["TRUCK", "AIR", "SHIP"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 405, "model": "olmo13", "res": [[-13.3294, -0.0], [-0.0013], [-8.1576]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "COURIER", "RAIL"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 406, "model": "olmo13", "res": [[-0.0003, -0.0], [-9.719, -0.0004, -0.0], [-13.4671, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["COURIER", "JET", "RAIL"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 407, "model": "olmo13", "res": [[-13.4963, -0.0012, -0.0], [-0.0002, -0.0], [-12.0627, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["FERRY", "COURIER", "JET"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 408, "model": "olmo13", "res": [[-10.0004, -0.0001], [-15.5785, -0.0033, -0.0], [-0.0004, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "CART", "POST"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 409, "model": "olmo13", "res": [[-0.0006, -0.0], [-9.5318, -0.0004], [-10.0709]]}
+{"family": "parcels", "pop": "trap", "cands": ["FERRY", "JET", "COURIER"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 410, "model": "olmo13", "res": [[-12.9026, -0.0002], [-0.0002, -0.0], [-12.7815, -0.0012, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["POST", "BARGE", "DRONE"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 411, "model": "olmo13", "res": [[-12.8353], [-6.6986, -0.0012], [-0.0111, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "POST", "CART"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 412, "model": "olmo13", "res": [[-0.0002, -0.0], [-13.9533], [-13.301, -0.0005]]}
+{"family": "parcels", "pop": "trap", "cands": ["LORRY", "PLANE", "BOAT"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 413, "model": "olmo13", "res": [[-9.0966, -0.0001, -0.0004], [-0.0029, -0.0], [-6.3779, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["VAN", "TRUCK", "AIR"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 414, "model": "olmo13", "res": [[-12.4266, -0.0001], [-10.2352, -0.0], [-0.0009]]}
+{"family": "parcels", "pop": "trap", "cands": ["TRUCK", "VAN", "AIR"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 415, "model": "olmo13", "res": [[-12.8483, -0.0], [-10.5788, -0.0], [-0.0007]]}
+{"family": "parcels", "pop": "trap", "cands": ["BOAT", "BIKE", "PLANE"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 416, "model": "olmo13", "res": [[-13.9424, -0.0], [-8.4385, -0.0], [-0.001, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "COURIER", "FERRY"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 417, "model": "olmo13", "res": [[-0.001, -0.0], [-15.5166, -0.0032, -0.0], [-11.3603, -0.0001]]}
+{"family": "parcels", "pop": "trap", "cands": ["VAN", "SHIP", "AIR"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 418, "model": "olmo13", "res": [[-10.6102, -0.0], [-12.45], [-0.0008]]}
+{"family": "parcels", "pop": "trap", "cands": ["BIKE", "LORRY", "PLANE"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 419, "model": "olmo13", "res": [[-6.6271, -0.0], [-12.8293, -0.0006, -0.0011], [-0.0021, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "SHIP", "VAN"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 420, "model": "olmo13", "res": [[-0.0029], [-9.6122], [-14.3857, -0.0012]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "TRUCK", "SHIP"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 421, "model": "olmo13", "res": [[-0.0162], [-4.2662, -0.0], [-11.149]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "BARGE", "CART"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 422, "model": "olmo13", "res": [[-0.0124, -0.0], [-6.3874, -0.0006], [-4.6062, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "SHIP", "TRUCK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 423, "model": "olmo13", "res": [[-0.0008], [-10.3915], [-9.4071, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["BOAT", "PLANE", "BIKE"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 424, "model": "olmo13", "res": [[-14.3927, -0.0001], [-0.0021, -0.0], [-6.5021, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "RAIL", "FERRY"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 425, "model": "olmo13", "res": [[-0.0004, -0.0], [-10.9535, -0.0], [-10.5941, -0.0001]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "BARGE", "CART"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 426, "model": "olmo13", "res": [[-0.0027, -0.0], [-8.0652, -0.0012], [-6.3152, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["POST", "CART", "DRONE"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 427, "model": "olmo13", "res": [[-10.9692], [-10.6489, -0.0002], [-0.0005, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["BOAT", "BIKE", "PLANE"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 428, "model": "olmo13", "res": [[-13.0029, -0.0001], [-5.8477, -0.0], [-0.0039, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "POST", "CART"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 429, "model": "olmo13", "res": [[-0.0589, -0.0], [-14.4339], [-2.8714, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "VAN", "TRUCK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 430, "model": "olmo13", "res": [[-0.0005], [-10.3755, -0.0], [-11.8521, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "VAN", "SHIP"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 431, "model": "olmo13", "res": [[-0.0005], [-9.9224, -0.0], [-13.9185]]}
+{"family": "parcels", "pop": "trap", "cands": ["COURIER", "JET", "RAIL"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 432, "model": "olmo13", "res": [[-13.1136, -0.0008, -0.0], [-0.0003, -0.0], [-11.219, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "SHIP", "VAN"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 433, "model": "olmo13", "res": [[-0.0011], [-13.3878], [-11.212, -0.0001]]}
+{"family": "parcels", "pop": "trap", "cands": ["POST", "BARGE", "DRONE"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 434, "model": "olmo13", "res": [[-16.2979], [-7.2822, -0.0012], [-0.001, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["PLANE", "BOAT", "LORRY"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 435, "model": "olmo13", "res": [[-0.0056, -0.0], [-11.7713, -0.0], [-5.3181, -0.0, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "VAN", "TRUCK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 436, "model": "olmo13", "res": [[-0.0012], [-7.3137, -0.0], [-8.5012, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["DRONE", "BARGE", "POST"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 437, "model": "olmo13", "res": [[-4.3605, -0.0], [-0.1105, -0.0], [-12.3136]]}
+{"family": "parcels", "pop": "control", "cands": ["POST", "BARGE", "CART"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 438, "model": "olmo13", "res": [[-11.0027], [-0.1121, -0.0001], [-6.1121, -0.0016]]}
+{"family": "parcels", "pop": "control", "cands": ["AIR", "TRUCK", "SHIP"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 439, "model": "olmo13", "res": [[-6.3173], [-3.786, -0.0], [-0.036]]}
+{"family": "parcels", "pop": "control", "cands": ["DRONE", "POST", "CART"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 440, "model": "olmo13", "res": [[-12.8057, -0.0], [-0.001], [-12.8916, -0.0016]]}
+{"family": "parcels", "pop": "control", "cands": ["POST", "BARGE", "CART"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 441, "model": "olmo13", "res": [[-17.0642], [-9.1736, -0.0021], [-0.0017, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["RAIL", "COURIER", "FERRY"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 442, "model": "olmo13", "res": [[-0.0008, -0.0], [-12.0496, -0.0069, -0.0], [-14.6258, -0.0268]]}
+{"family": "parcels", "pop": "control", "cands": ["BIKE", "BOAT", "LORRY"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 443, "model": "olmo13", "res": [[-15.3816, -0.0], [-15.3972, -0.0], [-0.0222, -0.0, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["CART", "DRONE", "POST"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 444, "model": "olmo13", "res": [[-0.0025, -0.0], [-6.6275, -0.0001], [-16.6275]]}
+{"family": "parcels", "pop": "control", "cands": ["COURIER", "RAIL", "JET"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 445, "model": "olmo13", "res": [[-14.8924, -0.0233, -0.0001], [-0.0018, -0.0], [-12.3064, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["TRUCK", "SHIP", "AIR"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 446, "model": "olmo13", "res": [[-6.6113, -0.0], [-0.0176], [-5.0801]]}
+{"family": "parcels", "pop": "control", "cands": ["LORRY", "BIKE", "PLANE"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 447, "model": "olmo13", "res": [[-0.0231, -0.0, -0.0], [-13.2457, -0.0001], [-4.0231, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["JET", "RAIL", "COURIER"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 448, "model": "olmo13", "res": [[-10.5198, -0.0], [-12.6136, -0.0], [-0.0042, -0.0001, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["COURIER", "FERRY", "JET"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 449, "model": "olmo13", "res": [[-0.0023, -0.0001, -0.0], [-12.0179, -0.0002], [-8.4086, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["DRONE", "CART", "BARGE"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 450, "model": "olmo13", "res": [[-6.2843, -0.0], [-0.0031, -0.0], [-11.1281, -0.0106]]}
+{"family": "parcels", "pop": "control", "cands": ["PLANE", "BOAT", "BIKE"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 451, "model": "olmo13", "res": [[-13.2345, -0.0], [-16.1602, -0.0002], [-0.0001, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["AIR", "SHIP", "VAN"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 452, "model": "olmo13", "res": [[-13.6861], [-0.0016], [-16.1734, -0.0001]]}
+{"family": "parcels", "pop": "control", "cands": ["PLANE", "LORRY", "BIKE"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 453, "model": "olmo13", "res": [[-10.1325, -0.0], [-0.0075, -0.0, -0.0], [-16.1637, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["DRONE", "POST", "CART"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 454, "model": "olmo13", "res": [[-7.3803, -0.0], [-15.0521], [-0.0053, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["JET", "RAIL", "COURIER"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 455, "model": "olmo13", "res": [[-4.7614, -0.0], [-14.1559, -0.0], [-0.0114, -0.0, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["VAN", "TRUCK", "SHIP"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 456, "model": "olmo13", "res": [[-8.6919, -0.0], [-0.0044, -0.0], [-13.4331]]}
+{"family": "bonus", "pop": "trap", "cands": ["4", "7", "9"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 457, "model": "olmo13", "res": [[-7.8502], [-0.4283], [-2.3033]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "7", "8"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 458, "model": "olmo13", "res": [[-5.4924], [-3.1174], [-0.6799]]}
+{"family": "bonus", "pop": "trap", "cands": ["8", "5", "7"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 459, "model": "olmo13", "res": [[-0.7888], [-5.2888], [-2.8513]]}
+{"family": "bonus", "pop": "trap", "cands": ["4", "2", "5"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 460, "model": "olmo13", "res": [[-4.852], [-8.7427], [-0.1958]]}
+{"family": "bonus", "pop": "trap", "cands": ["1", "9", "6"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 461, "model": "olmo13", "res": [[-14.917], [-0.5577], [-6.6514]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "4", "3"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 462, "model": "olmo13", "res": [[-0.3093], [-4.5593], [-5.3405]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "8", "1"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 463, "model": "olmo13", "res": [[-4.7718], [-0.8343], [-13.6936]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "6", "3"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 464, "model": "olmo13", "res": [[-2.3149], [-0.4399], [-5.8461]]}
+{"family": "bonus", "pop": "trap", "cands": ["1", "3", "6"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 465, "model": "olmo13", "res": [[-12.3564], [-5.8603], [-0.1728]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "3", "6"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 466, "model": "olmo13", "res": [[-2.5127], [-5.5752], [-0.4502]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "6", "3"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 467, "model": "olmo13", "res": [[-2.5999], [-0.5374], [-6.1311]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 468, "model": "olmo13", "res": [[-2.2754], [-6.4629], [-0.4004]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 469, "model": "olmo13", "res": [[-8.3519], [-5.7113], [-0.2113]]}
+{"family": "bonus", "pop": "trap", "cands": ["4", "7", "5"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 470, "model": "olmo13", "res": [[-4.9908], [-0.6158], [-2.6783]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 471, "model": "olmo13", "res": [[-6.437], [-10.2495], [-0.8432]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "3", "6"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 472, "model": "olmo13", "res": [[-3.6343], [-7.103], [-0.2905]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 473, "model": "olmo13", "res": [[-2.403], [-5.528], [-0.7155]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "1", "3"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 474, "model": "olmo13", "res": [[-0.3349], [-12.2724], [-6.5537]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "3", "5"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 475, "model": "olmo13", "res": [[-0.08], [-6.705], [-4.455]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "4", "1"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 476, "model": "olmo13", "res": [[-0.3013], [-7.3638], [-14.4732]]}
+{"family": "bonus", "pop": "trap", "cands": ["2", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 477, "model": "olmo13", "res": [[-13.3484], [-9.4577], [-0.9031]]}
+{"family": "bonus", "pop": "trap", "cands": ["8", "2", "5"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 478, "model": "olmo13", "res": [[-0.7715], [-13.3497], [-5.5215]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 479, "model": "olmo13", "res": [[-3.7401], [-5.8963], [-0.8338]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "2", "3"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 480, "model": "olmo13", "res": [[-0.8388], [-10.0419], [-6.9638]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "5", "8"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 481, "model": "olmo13", "res": [[-9.8378], [-5.3847], [-0.5722]]}
+{"family": "bonus", "pop": "trap", "cands": ["2", "7", "4"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 482, "model": "olmo13", "res": [[-12.8602], [-0.3055], [-7.4305]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "3", "6"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 483, "model": "olmo13", "res": [[-1.4561], [-6.7061], [-0.3311]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "6", "7"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 484, "model": "olmo13", "res": [[-0.4108], [-6.3483], [-2.9108]]}
+{"family": "bonus", "pop": "trap", "cands": ["4", "8", "7"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 485, "model": "olmo13", "res": [[-8.5976], [-2.3944], [-0.3944]]}
+{"family": "bonus", "pop": "trap", "cands": ["8", "9", "5"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 486, "model": "olmo13", "res": [[-0.3658], [-2.4283], [-6.2408]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "9", "6"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 487, "model": "olmo13", "res": [[-9.654], [-3.443], [-0.568]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "4", "2"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 488, "model": "olmo13", "res": [[-0.2856], [-3.5981], [-8.52]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "4", "3"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 489, "model": "olmo13", "res": [[-0.5107], [-5.6044], [-7.12]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "3", "4"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 490, "model": "olmo13", "res": [[-0.4081], [-6.6269], [-6.8144]]}
+{"family": "bonus", "pop": "trap", "cands": ["8", "5", "1"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 491, "model": "olmo13", "res": [[-1.4546], [-4.1733], [-14.5639]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "3", "5"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 492, "model": "olmo13", "res": [[-0.7579], [-6.9454], [-3.4454]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "7", "6"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 493, "model": "olmo13", "res": [[-7.7131], [-1.2131], [-0.7756]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "6", "8"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 494, "model": "olmo13", "res": [[-8.0481], [-0.3293], [-3.0168]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "6", "9"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 495, "model": "olmo13", "res": [[-6.7014], [-0.2326], [-3.9514]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "7", "6"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 496, "model": "olmo13", "res": [[-0.3193], [-2.8193], [-4.4131]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "8", "1"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 497, "model": "olmo13", "res": [[-0.3539], [-5.9164], [-12.8695]]}
+{"family": "bonus", "pop": "control", "cands": ["5", "4", "7"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 498, "model": "olmo13", "res": [[-0.9046], [-1.5921], [-1.9046]]}
+{"family": "bonus", "pop": "control", "cands": ["8", "2", "4"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 499, "model": "olmo13", "res": [[-12.5219], [-0.0493], [-5.3305]]}
+{"family": "bonus", "pop": "control", "cands": ["4", "3", "7"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 500, "model": "olmo13", "res": [[-2.1258], [-0.5008], [-4.5321]]}
+{"family": "bonus", "pop": "control", "cands": ["7", "3", "5"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 501, "model": "olmo13", "res": [[-7.8303], [-0.049], [-5.5803]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "1", "4"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 502, "model": "olmo13", "res": [[-0.488], [-11.82], [-2.3005]]}
+{"family": "bonus", "pop": "control", "cands": ["7", "3", "2"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 503, "model": "olmo13", "res": [[-4.8913], [-0.1725], [-9.0944]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "4", "7"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 504, "model": "olmo13", "res": [[-8.7665], [-0.1103], [-5.0165]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "7", "1"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 505, "model": "olmo13", "res": [[-7.8197], [-12.2689], [-0.0072]]}
+{"family": "bonus", "pop": "control", "cands": ["5", "2", "4"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 506, "model": "olmo13", "res": [[-4.2226], [-0.2538], [-3.2538]]}
+{"family": "bonus", "pop": "control", "cands": ["2", "6", "7"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 507, "model": "olmo13", "res": [[-0.8568], [-6.7005], [-7.8255]]}
+{"family": "bonus", "pop": "control", "cands": ["7", "1", "4"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 508, "model": "olmo13", "res": [[-1.6776], [-13.3182], [-2.2401]]}
+{"family": "bonus", "pop": "control", "cands": ["4", "3", "1"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 509, "model": "olmo13", "res": [[-0.7497], [-7.5934], [-13.0309]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "4", "1"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 510, "model": "olmo13", "res": [[-7.6967], [-10.728], [-0.0092]]}
+{"family": "bonus", "pop": "control", "cands": ["5", "3", "2"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 511, "model": "olmo13", "res": [[-7.7083], [-1.1927], [-0.4427]]}
+{"family": "bonus", "pop": "control", "cands": ["9", "2", "6"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 512, "model": "olmo13", "res": [[-6.7072], [-4.3009], [-3.0509]]}
+{"family": "bonus", "pop": "control", "cands": ["9", "2", "3"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 513, "model": "olmo13", "res": [[-12.2659], [-0.9456], [-0.5706]]}
+{"family": "bonus", "pop": "control", "cands": ["2", "8", "3"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 514, "model": "olmo13", "res": [[-0.0379], [-13.1004], [-7.0379]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "4", "8"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 515, "model": "olmo13", "res": [[-1.3388], [-2.9951], [-2.7763]]}
+{"family": "bonus", "pop": "control", "cands": ["7", "9", "3"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 516, "model": "olmo13", "res": [[-4.7061], [-6.9561], [-0.8624]]}
+{"checks": {"model": "allenai/OLMo-2-1124-13B-Instruct", "template_tail": "<|endoftext|><|user|>\nHi\n<|assistant|>\n"}}

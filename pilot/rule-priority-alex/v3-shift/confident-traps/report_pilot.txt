@@ -1,0 +1,40 @@
+model   family     n trap right  habit conf.habit conf|wrong ctrl right   n  verdict
+qwen14  memo      40         70     30         25         91        100  20  
+phi4    memo      40         52     48         35         89         95  20  CONFIDENT HABIT
+olmo13  memo      40         82     18         12         91        100  20  
+
+qwen14  hindgen   40         60     40         38         97        100  20  CONFIDENT HABIT
+phi4    hindgen   40          8     92         88         97        100  20  CONFIDENT HABIT
+olmo13  hindgen   40         25     75         68         92        100  20  CONFIDENT HABIT
+
+qwen14  redef     40         58     42         38         95          -   0  CONFIDENT HABIT
+phi4    redef     40         50     50         32         84          -   0  CONFIDENT HABIT
+olmo13  redef     40         12     88         88         99          -   0  CONFIDENT HABIT
+
+qwen14  R         39         28     72         64         96        100  20  CONFIDENT HABIT
+phi4    R         39         44     56         46         92        100  20  CONFIDENT HABIT
+olmo13  R         39          3     97         92         98        100  20  CONFIDENT HABIT
+
+qwen14  N         40         18     78         68         91        100  20  CONFIDENT HABIT
+phi4    N         40         35     40          0         60         95  20  
+olmo13  N         40         35     62         35         80         55  20  
+
+qwen14  K         39         77     23         23        100        100  20  
+phi4    K         39         97      3          3         99        100  20  
+olmo13  K         39        100      0          0          -        100  20  
+
+qwen14  D         40         80     20         18         94        100  19  
+phi4    D         40         60     40         40         96        100  19  CONFIDENT HABIT
+olmo13  D         40         30     70         65         98        100  19  CONFIDENT HABIT
+
+qwen14  parcels   40         25     75         72         98        100  20  CONFIDENT HABIT
+phi4    parcels   40         55     40         30         81        100  20  CONFIDENT HABIT
+olmo13  parcels   40          0    100        100        100        100  20  CONFIDENT HABIT
+
+qwen14  bonus     40          2     98         90         96         95  20  CONFIDENT HABIT
+phi4    bonus     40         40     55          0         58        100  20  
+olmo13  bonus     40          0    100         95         93         80  20  CONFIDENT HABIT
+
+Columns are per 100 trap items (conf|wrong = mean confidence of wrong fast answers, in %).
+Families with a confident habit in all 3 models: hindgen, redef, R, parcels
+... in at least 2 of 3 models: hindgen, redef, R, D, parcels, bonus

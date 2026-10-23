@@ -1,0 +1,518 @@
+{"family": "memo", "pop": "trap", "cands": ["end.", "consequences."], "key": 1, "habit": 0, "mode": "q", "stem": "Whatever you do, act wisely, and consider the", "id": 0, "model": "phi4", "res": [[-10.7296, -5.4198], [-0.3546, -0.0001]]}
+{"family": "memo", "pop": "trap", "cands": ["them.", "it."], "key": 0, "habit": 1, "mode": "q", "stem": "Everyone talks about the weather, but nobody does anything about", "id": 1, "model": "phi4", "res": [[-1.4022, -0.0008], [-0.7772, -1.0791]]}
+{"family": "memo", "pop": "trap", "cands": ["be.", "bring."], "key": 0, "habit": 1, "mode": "q", "stem": "The worth of a thing is what it will", "id": 2, "model": "phi4", "res": [[-2.8624, -0.0042], [-1.1124, -4.71]]}
+{"family": "memo", "pop": "trap", "cands": ["friend.", "lawyer."], "key": 0, "habit": 1, "mode": "q", "stem": "Hide nothing from thy minister, physician and", "id": 3, "model": "phi4", "res": [[-1.347, -0.1792], [-3.847, -5.5943]]}
+{"family": "memo", "pop": "trap", "cands": ["water.", "asking."], "key": 0, "habit": 1, "mode": "q", "stem": "Many things are lost for want of", "id": 4, "model": "phi4", "res": [[-4.3756, -0.0214], [-4.8756, -2.1108]]}
+{"family": "memo", "pop": "trap", "cands": ["friend.", "care."], "key": 1, "habit": 0, "mode": "q", "stem": "No longer foster, no longer", "id": 5, "model": "phi4", "res": [[-11.0508, -4.6983], [-3.9258, -0.0372]]}
+{"family": "memo", "pop": "trap", "cands": ["go.", "eat."], "key": 0, "habit": 1, "mode": "q", "stem": "You don't shit where you", "id": 6, "model": "phi4", "res": [[-7.3841, -0.0072], [-0.1341, -2.5009]]}
+{"family": "memo", "pop": "trap", "cands": ["lost.", "gone."], "key": 1, "habit": 0, "mode": "q", "stem": "For want of a nail the shoe is lost, for want of a shoe the horse is lost, for want of a horse the rider is", "id": 7, "model": "phi4", "res": [[-1.9267, -7.376], [-0.1767, -0.0025]]}
+{"family": "memo", "pop": "trap", "cands": ["house.", "bark."], "key": 0, "habit": 1, "mode": "q", "stem": "Don't go between the tree and the", "id": 8, "model": "phi4", "res": [[-3.503, -0.0578], [-6.3155, -4.6571]]}
+{"family": "memo", "pop": "trap", "cands": ["reason.", "aim."], "key": 0, "habit": 1, "mode": "q", "stem": "An apple a day keeps the doctor away--if you have good", "id": 9, "model": "phi4", "res": [[-1.3623, -0.2604], [-11.0498, -3.177]]}
+{"family": "memo", "pop": "trap", "cands": ["wants.", "will."], "key": 0, "habit": 1, "mode": "q", "stem": "He that can have patience can have what he", "id": 10, "model": "phi4", "res": [[-0.1499, -0.0035], [-5.0249, -3.2288]]}
+{"family": "memo", "pop": "trap", "cands": ["digested.", "burned."], "key": 1, "habit": 0, "mode": "q", "stem": "Some books are to be tasted, others to be swallowed, and some few to be chewed and", "id": 11, "model": "phi4", "res": [[-0.0011, -0.0, -4.1205], [-16.5011, -0.0004]]}
+{"family": "memo", "pop": "trap", "cands": ["will.", "way."], "key": 0, "habit": 1, "mode": "q", "stem": "Where there is a will, there is a", "id": 12, "model": "phi4", "res": [[-11.1251, -0.0], [-0.0001, -0.0178]]}
+{"family": "memo", "pop": "trap", "cands": ["other.", "dishes."], "key": 1, "habit": 0, "mode": "q", "stem": "One hand washes the", "id": 13, "model": "phi4", "res": [[-0.0036, -8.3501], [-5.8786, -3.3561]]}
+{"family": "memo", "pop": "trap", "cands": ["present.", "moment."], "key": 1, "habit": 0, "mode": "q", "stem": "There is no time like the", "id": 14, "model": "phi4", "res": [[-0.0019, -6.7787], [-9.3769, -0.1105]]}
+{"family": "memo", "pop": "trap", "cands": ["man.", "dog."], "key": 0, "habit": 1, "mode": "q", "stem": "A staff is quickly found to beat a", "id": 15, "model": "phi4", "res": [[-0.7687, -0.8848], [-4.0187, -4.8554]]}
+{"family": "memo", "pop": "trap", "cands": ["doubt.", "words."], "key": 1, "habit": 0, "mode": "q", "stem": "Better to remain silent and be thought a fool, than to open your mouth and remove all", "id": 16, "model": "phi4", "res": [[-0.0102, -5.4257], [-13.3227, -0.0477]]}
+{"family": "memo", "pop": "trap", "cands": ["others.", "you."], "key": 0, "habit": 1, "mode": "q", "stem": "If you want enemies excel others, if you want friends let others excel", "id": 17, "model": "phi4", "res": [[-6.1298, -0.0015], [-3.8798, -0.0687]]}
+{"family": "memo", "pop": "trap", "cands": ["second.", "last."], "key": 0, "habit": 1, "mode": "q", "stem": "The last will be first, and the first", "id": 18, "model": "phi4", "res": [[-7.4047, -0.0003], [-1.1547, -3.6336]]}
+{"family": "memo", "pop": "trap", "cands": ["gain.", "fear."], "key": 1, "habit": 0, "mode": "q", "stem": "No pain, no", "id": 19, "model": "phi4", "res": [[-0.0986, -3.4981], [-5.4736, -0.0099]]}
+{"family": "memo", "pop": "trap", "cands": ["Life.", "Delight."], "key": 0, "habit": 1, "mode": "q", "stem": "Energy is Eternal", "id": 20, "model": "phi4", "res": [[-5.3922, -0.003], [-5.6422, -0.0616, -1.1623]]}
+{"family": "memo", "pop": "trap", "cands": ["obeyed.", "observed."], "key": 1, "habit": 0, "mode": "q", "stem": "Nature, to be commanded, must be", "id": 21, "model": "phi4", "res": [[-0.0046, -0.0001, -0.8073], [-5.5046, -0.0028]]}
+{"family": "memo", "pop": "trap", "cands": ["flaws.", "equality."], "key": 0, "habit": 1, "mode": "q", "stem": "Perfect friendship cannot be without", "id": 22, "model": "phi4", "res": [[-5.0841, -0.0342], [-8.7716, -4.6993]]}
+{"family": "memo", "pop": "trap", "cands": ["best.", "evil."], "key": 1, "habit": 0, "mode": "q", "stem": "The good is the enemy of the", "id": 23, "model": "phi4", "res": [[-1.2563, -1.5229], [-3.6313, -0.0002]]}
+{"family": "memo", "pop": "trap", "cands": ["evil.", "mouse."], "key": 0, "habit": 1, "mode": "q", "stem": "Burn not your house to rid it of the", "id": 24, "model": "phi4", "res": [[-1.9407, -0.2126], [-2.3157, -4.2486]]}
+{"family": "memo", "pop": "trap", "cands": ["slowly.", "now."], "key": 1, "habit": 0, "mode": "q", "stem": "Make haste", "id": 25, "model": "phi4", "res": [[-2.3403, -4.0127], [-9.6528, -0.1399]]}
+{"family": "memo", "pop": "trap", "cands": ["busy.", "away."], "key": 0, "habit": 1, "mode": "q", "stem": "An apple a day keeps the doctor", "id": 26, "model": "phi4", "res": [[-2.9714, -0.001], [-0.0964, -7.1183]]}
+{"family": "memo", "pop": "trap", "cands": ["serve.", "command."], "key": 0, "habit": 1, "mode": "q", "stem": "Who has not served cannot", "id": 27, "model": "phi4", "res": [[-4.8141, -0.0798], [-3.9391, -0.1531]]}
+{"family": "memo", "pop": "trap", "cands": ["Hon.", "ignorance."], "key": 0, "habit": 1, "mode": "q", "stem": "Admiration is the daughter of", "id": 28, "model": "phi4", "res": [[-4.2672, -0.1393], [-8.5797, -2.5422]]}
+{"family": "memo", "pop": "trap", "cands": ["questions.", "wife."], "key": 0, "habit": 1, "mode": "q", "stem": "He that will thrive must first ask his", "id": 29, "model": "phi4", "res": [[-1.4994, -0.008], [-10.5619, -1.8344]]}
+{"family": "memo", "pop": "trap", "cands": ["girl.", "lamb."], "key": 0, "habit": 1, "mode": "q", "stem": "The wolf finds a reason for taking the", "id": 30, "model": "phi4", "res": [[-1.9534, -0.1335], [-3.8284, -5.6714]]}
+{"family": "memo", "pop": "trap", "cands": ["times.", "numbers."], "key": 0, "habit": 1, "mode": "q", "stem": "There is luck in odd", "id": 31, "model": "phi4", "res": [[-0.2601, -0.0085], [-1.5101, -6.2742]]}
+{"family": "memo", "pop": "trap", "cands": ["lie.", "truth."], "key": 1, "habit": 0, "mode": "q", "stem": "A half truth is a whole", "id": 32, "model": "phi4", "res": [[-0.0363, -0.953], [-10.2863, -5.6069]]}
+{"family": "memo", "pop": "trap", "cands": ["him.", "mad."], "key": 0, "habit": 1, "mode": "q", "stem": "Whom God will destroy, he first make", "id": 33, "model": "phi4", "res": [[-10.5015, -12.0682], [-0.0015, -0.6669]]}
+{"family": "memo", "pop": "trap", "cands": ["keeps.", "runs."], "key": 1, "habit": 0, "mode": "q", "stem": "A man is known by the company he", "id": 34, "model": "phi4", "res": [[-0.0129, -4.6758], [-4.3879, -0.463]]}
+{"family": "memo", "pop": "trap", "cands": ["served.", "go."], "key": 1, "habit": 0, "mode": "q", "stem": "First come, first", "id": 35, "model": "phi4", "res": [[-0.1126, -3.2231], [-3.8626, -0.0004]]}
+{"family": "memo", "pop": "trap", "cands": ["knife.", "spade."], "key": 0, "habit": 1, "mode": "q", "stem": "Call a spade a", "id": 36, "model": "phi4", "res": [[-11.1272, -0.241], [-0.1272, -0.0, -4.3327]]}
+{"family": "memo", "pop": "trap", "cands": ["good.", "better."], "key": 1, "habit": 0, "mode": "q", "stem": "Better is the enemy of", "id": 37, "model": "phi4", "res": [[-0.0034, -0.0046], [-10.3784, -0.1457]]}
+{"family": "memo", "pop": "trap", "cands": ["hand.", "heart."], "key": 0, "habit": 1, "mode": "q", "stem": "Far from eye, far from", "id": 38, "model": "phi4", "res": [[-2.4501, -0.0337], [-1.0751, -5.1868]]}
+{"family": "memo", "pop": "trap", "cands": ["proceed.", "don't."], "key": 0, "habit": 1, "mode": "q", "stem": "When in doubt,", "id": 39, "model": "phi4", "res": [[-9.9518, -3.1897], [-8.8893, -0.021, -9.2732]]}
+{"family": "memo", "pop": "control", "cands": ["teaching.", "reason."], "key": 0, "habit": null, "mode": "q", "stem": "Nature is beyond all", "id": 40, "model": "phi4", "res": [[-2.5455, -0.3702], [-8.2955, -7.057]]}
+{"family": "memo", "pop": "control", "cands": ["theatre.", "time."], "key": 1, "habit": null, "mode": "q", "stem": "Eternity is in love with the productions of", "id": 41, "model": "phi4", "res": [[-15.959, -3.7047], [-1.4278, -0.0018]]}
+{"family": "memo", "pop": "control", "cands": ["talk.", "Earth."], "key": 0, "habit": null, "mode": "q", "stem": "Walk the", "id": 42, "model": "phi4", "res": [[-1.7539, -2.1213], [-10.3789, -6.0866]]}
+{"family": "memo", "pop": "control", "cands": ["God.", "man."], "key": 1, "habit": null, "mode": "q", "stem": "God's a good", "id": 43, "model": "phi4", "res": [[-5.2743, -4.1708], [-1.5243, -0.0076]]}
+{"family": "memo", "pop": "control", "cands": ["this.", "it."], "key": 1, "habit": null, "mode": "q", "stem": "If the shoe fits, wear", "id": 44, "model": "phi4", "res": [[-14.6891, -3.7998], [-0.0016, -0.0018]]}
+{"family": "memo", "pop": "control", "cands": ["adversity.", "fear."], "key": 0, "habit": null, "mode": "q", "stem": "A friend cannot be known in prosperity nor an enemy be hidden in", "id": 45, "model": "phi4", "res": [[-0.0001, -0.0], [-20.5001, -3.2393]]}
+{"family": "memo", "pop": "control", "cands": ["them.", "us."], "key": 0, "habit": null, "mode": "q", "stem": "If you can't beat them, join", "id": 46, "model": "phi4", "res": [[-0.0003, -0.0004], [-13.2503, -1.1548]]}
+{"family": "memo", "pop": "control", "cands": ["lawsuit.", "settlement."], "key": 0, "habit": null, "mode": "q", "stem": "A bad settlement is better than a good", "id": 47, "model": "phi4", "res": [[-0.0732, -0.018], [-9.8232, -4.5846]]}
+{"family": "memo", "pop": "control", "cands": ["promise.", "up."], "key": 1, "habit": null, "mode": "q", "stem": "Eighty percent of life is showing", "id": 48, "model": "phi4", "res": [[-15.1264, -3.5281], [-0.0014, -0.0441]]}
+{"family": "memo", "pop": "control", "cands": ["waters.", "condition."], "key": 0, "habit": null, "mode": "q", "stem": "Wade not in unknown", "id": 49, "model": "phi4", "res": [[-0.0018, -0.0065], [-18.8143, -2.8502]]}
+{"family": "memo", "pop": "control", "cands": ["confidence.", "upon."], "key": 1, "habit": null, "mode": "q", "stem": "All experience is an arch, to build", "id": 50, "model": "phi4", "res": [[-13.2275, -9.2659], [-0.04, -0.0066]]}
+{"family": "memo", "pop": "control", "cands": ["others.", "me."], "key": 1, "habit": null, "mode": "q", "stem": "Egotist: a person of low taste, more interested in himself than in", "id": 51, "model": "phi4", "res": [[-2.1707, -3.3824], [-8.3582, -0.0007]]}
+{"family": "memo", "pop": "control", "cands": ["rich.", "coloured."], "key": 1, "habit": null, "mode": "q", "stem": "There are only two kinds of women, the plain and the", "id": 52, "model": "phi4", "res": [[-4.2648, -11.0002], [-0.2648, -0.0144]]}
+{"family": "memo", "pop": "control", "cands": ["another.", "more."], "key": 0, "habit": null, "mode": "q", "stem": "One good turn deserves", "id": 53, "model": "phi4", "res": [[-0.0511, -0.0002], [-9.3636, -8.385]]}
+{"family": "memo", "pop": "control", "cands": ["men.", "so."], "key": 1, "habit": null, "mode": "q", "stem": "Young men think old men fools, and old men know young men to be", "id": 54, "model": "phi4", "res": [[-7.5931, -2.6907], [-0.3431, -0.0009]]}
+{"family": "memo", "pop": "control", "cands": ["drowned.", "rewarded."], "key": 0, "habit": null, "mode": "q", "stem": "Good swimmers are often", "id": 55, "model": "phi4", "res": [[-6.4467, -4.8356], [-11.0717, -8.7246]]}
+{"family": "memo", "pop": "control", "cands": ["comprehend.", "imagine."], "key": 1, "habit": null, "mode": "q", "stem": "Reality is not only stranger than we imagine, it is stranger than we can", "id": 56, "model": "phi4", "res": [[-10.3353, -0.181], [-0.0853, -0.0]]}
+{"family": "memo", "pop": "control", "cands": ["odious.", "available."], "key": 0, "habit": null, "mode": "q", "stem": "Comparisons are", "id": 57, "model": "phi4", "res": [[-1.3569, -0.0005, -0.039], [-17.2944, -7.9284]]}
+{"family": "memo", "pop": "control", "cands": ["stupid.", "though."], "key": 0, "habit": null, "mode": "q", "stem": "Keep it simple,", "id": 58, "model": "phi4", "res": [[-4.593, -0.0005], [-8.218, -7.635]]}
+{"family": "memo", "pop": "control", "cands": ["here.", "in't."], "key": 1, "habit": null, "mode": "q", "stem": "Though this be madness, yet there is method", "id": 59, "model": "phi4", "res": [[-8.782, -6.6716], [-0.032, -0.0082, -0.0001]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 60, "model": "phi4", "res": [[-5.1747], [-0.5497]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 61, "model": "phi4", "res": [[-0.1268], [-4.5018]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 62, "model": "phi4", "res": [[-5.3659], [-0.2409]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 63, "model": "phi4", "res": [[-0.266], [-5.391]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 64, "model": "phi4", "res": [[-6.5584], [-0.6834]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 65, "model": "phi4", "res": [[-0.8181], [-4.6931]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 66, "model": "phi4", "res": [[-6.9719], [-0.2219]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 67, "model": "phi4", "res": [[-0.4965], [-4.3715]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 68, "model": "phi4", "res": [[-5.0108], [-0.7608]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 69, "model": "phi4", "res": [[-0.6093], [-6.2343]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 70, "model": "phi4", "res": [[-5.328], [-0.453]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 71, "model": "phi4", "res": [[-0.2571], [-7.1321]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 72, "model": "phi4", "res": [[-6.1538], [-0.7788]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 73, "model": "phi4", "res": [[-0.2294], [-6.8544]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 74, "model": "phi4", "res": [[-3.6431], [-0.2681]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 75, "model": "phi4", "res": [[-0.4319], [-3.1819]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 76, "model": "phi4", "res": [[-3.5852], [-0.2102]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 77, "model": "phi4", "res": [[-0.4449], [-3.0699]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 78, "model": "phi4", "res": [[-1.0634], [-1.0634]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 79, "model": "phi4", "res": [[-0.3405], [-5.5905]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 80, "model": "phi4", "res": [[-5.3572], [-0.2322]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 81, "model": "phi4", "res": [[-1.4251], [-0.8001]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 82, "model": "phi4", "res": [[-5.282], [-0.282]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 83, "model": "phi4", "res": [[-0.3505], [-7.6005]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 84, "model": "phi4", "res": [[-0.6482], [-1.0232]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 85, "model": "phi4", "res": [[-0.6509], [-5.5259]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 86, "model": "phi4", "res": [[-5.7675], [-0.2675]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 87, "model": "phi4", "res": [[-0.3372], [-5.3372]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 88, "model": "phi4", "res": [[-1.9756], [-0.7256]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 89, "model": "phi4", "res": [[-0.5132], [-2.7632]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 90, "model": "phi4", "res": [[-6.9051], [-0.2801]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 91, "model": "phi4", "res": [[-0.7291], [-2.9791]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 92, "model": "phi4", "res": [[-6.2325], [-0.2325]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 93, "model": "phi4", "res": [[-0.4491], [-4.4491]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 94, "model": "phi4", "res": [[-3.1181], [-0.3681]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 95, "model": "phi4", "res": [[-0.8707], [-2.2457]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 96, "model": "phi4", "res": [[-6.192], [-0.317]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 97, "model": "phi4", "res": [[-0.1988], [-4.5738]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 98, "model": "phi4", "res": [[-5.8954], [-0.6454]]}
+{"family": "hindgen", "pop": "trap", "cands": ["Y", "N"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 99, "model": "phi4", "res": [[-0.7375], [-7.8625]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 100, "model": "phi4", "res": [[-0.1838], [-8.1838]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 101, "model": "phi4", "res": [[-6.1187], [-0.2437]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 102, "model": "phi4", "res": [[-0.1042], [-8.3542]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 103, "model": "phi4", "res": [[-6.2838], [-0.2838]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 104, "model": "phi4", "res": [[-0.1888], [-9.0638]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 105, "model": "phi4", "res": [[-7.4401], [-0.1901]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 106, "model": "phi4", "res": [[-0.1056], [-11.1681]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 107, "model": "phi4", "res": [[-6.9073], [-0.2823]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 108, "model": "phi4", "res": [[-0.1516], [-8.9016]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 109, "model": "phi4", "res": [[-6.9553], [-0.2053]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 110, "model": "phi4", "res": [[-0.1649], [-9.5399]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 111, "model": "phi4", "res": [[-7.4368], [-0.1868]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 112, "model": "phi4", "res": [[-0.1449], [-9.1449]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 113, "model": "phi4", "res": [[-7.254], [-0.254]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 114, "model": "phi4", "res": [[-0.2027], [-10.2027]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 115, "model": "phi4", "res": [[-8.2721], [-0.3346]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 116, "model": "phi4", "res": [[-0.1914], [-7.4414]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 117, "model": "phi4", "res": [[-7.767], [-0.142]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 118, "model": "phi4", "res": [[-0.1617], [-9.0367]]}
+{"family": "hindgen", "pop": "control", "cands": ["Y", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 119, "model": "phi4", "res": [[-6.9428], [-0.1928]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 120, "model": "phi4", "res": [[-0.0535, -8.8395], [-0.0535, -0.0895]]}
+{"family": "redef", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 121, "model": "phi4", "res": [[-0.5498, -0.0073], [-0.5498, -6.1323]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 122, "model": "phi4", "res": [[-0.0599, -0.0153], [-0.0599, -5.2653]]}
+{"family": "redef", "pop": "trap", "cands": ["3", "5"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 123, "model": "phi4", "res": [[-0.1468, -0.8947], [-0.1468, -0.8947]]}
+{"family": "redef", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 124, "model": "phi4", "res": [[-0.5517, -0.0092], [-0.5517, -5.6342]]}
+{"family": "redef", "pop": "trap", "cands": ["1", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 125, "model": "phi4", "res": [[-1.4981, -0.038], [-1.4981, -4.038]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 126, "model": "phi4", "res": [[-0.3733, -0.1965], [-0.3733, -3.0715]]}
+{"family": "redef", "pop": "trap", "cands": ["6", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 127, "model": "phi4", "res": [[-1.3209, -0.0038], [-1.3209, -7.8788]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 128, "model": "phi4", "res": [[-1.8105, -0.0101], [-1.8105, -7.6351]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 129, "model": "phi4", "res": [[-0.1078, -0.6055], [-0.1078, -2.6055]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 130, "model": "phi4", "res": [[-0.0312, -2.7867], [-0.0312, -1.4117]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "8"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 131, "model": "phi4", "res": [[-0.5183, -0.8549], [-0.5183, -0.9799]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 132, "model": "phi4", "res": [[-1.1761, -1.4612], [-1.1761, -0.7112]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 133, "model": "phi4", "res": [[-0.7305, -2.2191], [-0.7305, -0.2191]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 134, "model": "phi4", "res": [[-0.092, -5.1392], [-0.092, -5.1392]]}
+{"family": "redef", "pop": "trap", "cands": ["7", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 135, "model": "phi4", "res": [[-0.0402, -1.1595], [-0.0402, -1.5345]]}
+{"family": "redef", "pop": "trap", "cands": ["9", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 136, "model": "phi4", "res": [[-0.4018, -0.1969], [-0.4018, -2.8219]]}
+{"family": "redef", "pop": "trap", "cands": ["6", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 137, "model": "phi4", "res": [[-0.0701, -0.726], [-0.0701, -0.976]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 138, "model": "phi4", "res": [[-0.1785, -2.3512], [-0.1785, -0.2262]]}
+{"family": "redef", "pop": "trap", "cands": ["9", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 139, "model": "phi4", "res": [[-1.1764, -1.2528], [-1.1764, -0.6278]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 140, "model": "phi4", "res": [[-0.0376, -3.6519], [-0.0376, -9.0269]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 141, "model": "phi4", "res": [[-0.0547, -1.8033], [-0.0547, -1.1783]]}
+{"family": "redef", "pop": "trap", "cands": ["1", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 142, "model": "phi4", "res": [[-1.011, -3.2008], [-1.011, -0.2008]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 143, "model": "phi4", "res": [[-0.5814, -0.0125], [-0.5814, -7.0125]]}
+{"family": "redef", "pop": "trap", "cands": ["6", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 144, "model": "phi4", "res": [[-0.042, -3.3446], [-0.042, -1.2196]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 145, "model": "phi4", "res": [[-0.3832, -1.7309], [-0.3832, -0.2309]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 146, "model": "phi4", "res": [[-1.2659, -1.0386], [-1.2659, -1.0386]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 147, "model": "phi4", "res": [[-0.9422, -1.0777], [-0.9422, -0.9527]]}
+{"family": "redef", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 148, "model": "phi4", "res": [[-0.0655, -2.2682], [-0.0655, -2.3932]]}
+{"family": "redef", "pop": "trap", "cands": ["3", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 149, "model": "phi4", "res": [[-0.5418, -0.0087], [-0.5418, -7.7587]]}
+{"family": "redef", "pop": "trap", "cands": ["2", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 150, "model": "phi4", "res": [[-0.0487, -3.2731], [-0.0487, -3.6481]]}
+{"family": "redef", "pop": "trap", "cands": ["9", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 151, "model": "phi4", "res": [[-0.0633, -5.0083], [-0.0633, -7.5083]]}
+{"family": "redef", "pop": "trap", "cands": ["5", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 152, "model": "phi4", "res": [[-0.5554, -0.0302], [-0.5554, -4.0302]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "3"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 153, "model": "phi4", "res": [[-0.7016, -0.0004], [-0.7016, -10.1254]]}
+{"family": "redef", "pop": "trap", "cands": ["7", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 154, "model": "phi4", "res": [[-0.4189, -0.0099], [-0.4189, -6.7599]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 155, "model": "phi4", "res": [[-2.0494, -0.0098], [-2.0494, -6.7598]]}
+{"family": "redef", "pop": "trap", "cands": ["2", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 156, "model": "phi4", "res": [[-0.2101, -2.4213], [-0.2101, -0.1713]]}
+{"family": "redef", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 157, "model": "phi4", "res": [[-0.0698, -1.9375], [-0.0698, -2.3125]]}
+{"family": "redef", "pop": "trap", "cands": ["8", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 158, "model": "phi4", "res": [[-0.1666, -2.767], [-0.1666, -0.642]]}
+{"family": "redef", "pop": "trap", "cands": ["4", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 159, "model": "phi4", "res": [[-1.6149, -1.5988], [-1.6149, -0.8488]]}
+{"family": "R", "pop": "trap", "cands": ["2", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 160, "model": "phi4", "res": [[-0.0473, -1.2408], [-0.0473, -3.8658]]}
+{"family": "R", "pop": "trap", "cands": ["8", "5"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 161, "model": "phi4", "res": [[-0.4749, -0.0072], [-0.4749, -9.7572]]}
+{"family": "R", "pop": "trap", "cands": ["2", "9"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 162, "model": "phi4", "res": [[-0.9446, -0.2012], [-0.9446, -3.4512]]}
+{"family": "R", "pop": "trap", "cands": ["3", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 163, "model": "phi4", "res": [[-0.0396, -4.4536], [-0.0396, -5.0786]]}
+{"family": "R", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 164, "model": "phi4", "res": [[-0.6755, -4.0342], [-0.6755, -0.1592]]}
+{"family": "R", "pop": "trap", "cands": ["2", "6"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 165, "model": "phi4", "res": [[-0.869, -1.3207], [-0.869, -2.3207]]}
+{"family": "R", "pop": "trap", "cands": ["7", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 166, "model": "phi4", "res": [[-0.4659, -7.0317], [-0.4659, -0.0317]]}
+{"family": "R", "pop": "trap", "cands": ["5", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 167, "model": "phi4", "res": [[-0.4872, -0.0107], [-0.4872, -7.5107]]}
+{"family": "R", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 168, "model": "phi4", "res": [[-0.0632, -5.9776], [-0.0632, -6.6026]]}
+{"family": "R", "pop": "trap", "cands": ["3", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 169, "model": "phi4", "res": [[-0.1417, -4.7296], [-0.1417, -1.8546]]}
+{"family": "R", "pop": "trap", "cands": ["3", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 170, "model": "phi4", "res": [[-1.127, -1.9954], [-1.127, -0.2454]]}
+{"family": "R", "pop": "trap", "cands": ["1", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 171, "model": "phi4", "res": [[-0.5398, -6.5186], [-0.5398, -0.0186]]}
+{"family": "R", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 172, "model": "phi4", "res": [[-0.0369, -6.5622], [-0.0369, -0.4372]]}
+{"family": "R", "pop": "trap", "cands": ["7", "1"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 173, "model": "phi4", "res": [[-0.5766, -6.0245], [-0.5766, -1.6495]]}
+{"family": "R", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 174, "model": "phi4", "res": [[-0.0356, -2.0703], [-0.0356, -3.9453]]}
+{"family": "R", "pop": "trap", "cands": ["3", "2"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 175, "model": "phi4", "res": [[-0.0799, -7.6807], [-0.0799, -0.1807]]}
+{"family": "R", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 176, "model": "phi4", "res": [[-0.7339, -2.2844], [-0.7339, -0.4094]]}
+{"family": "R", "pop": "trap", "cands": ["3", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 177, "model": "phi4", "res": [[-0.0344, -4.3052], [-0.0344, -0.6802]]}
+{"family": "R", "pop": "trap", "cands": ["5", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 178, "model": "phi4", "res": [[-1.123, -2.2282], [-1.123, -0.3532]]}
+{"family": "R", "pop": "trap", "cands": ["6", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 179, "model": "phi4", "res": [[-0.0447, -0.2467], [-0.0447, -4.8717]]}
+{"family": "R", "pop": "trap", "cands": ["2", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 180, "model": "phi4", "res": [[-0.0369, -6.8284], [-0.0369, -0.2659]]}
+{"family": "R", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 181, "model": "phi4", "res": [[-0.0374, -0.0666], [-0.0374, -5.8166]]}
+{"family": "R", "pop": "trap", "cands": ["2", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 182, "model": "phi4", "res": [[-1.0724, -0.3059], [-1.0724, -2.5559]]}
+{"family": "R", "pop": "trap", "cands": ["2", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 183, "model": "phi4", "res": [[-1.7458, -0.6288], [-1.7458, -2.0038]]}
+{"family": "R", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 184, "model": "phi4", "res": [[-1.4676, -0.4812], [-1.4676, -3.7312]]}
+{"family": "R", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 185, "model": "phi4", "res": [[-0.0442, -3.3282], [-0.0442, -4.2032]]}
+{"family": "R", "pop": "trap", "cands": ["1", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 186, "model": "phi4", "res": [[-0.0425, -0.2024], [-0.0425, -3.5774]]}
+{"family": "R", "pop": "trap", "cands": ["4", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 187, "model": "phi4", "res": [[-0.0528, -0.0063], [-0.0528, -9.9438]]}
+{"family": "R", "pop": "trap", "cands": ["8", "2"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 188, "model": "phi4", "res": [[-1.1674, -0.975], [-1.1674, -1.35]]}
+{"family": "R", "pop": "trap", "cands": ["2", "3"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 189, "model": "phi4", "res": [[-0.5142, -7.1371], [-0.5142, -0.0121]]}
+{"family": "R", "pop": "trap", "cands": ["2", "9"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 190, "model": "phi4", "res": [[-1.3057, -2.3047], [-1.3057, -0.8047]]}
+{"family": "R", "pop": "trap", "cands": ["3", "1"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 191, "model": "phi4", "res": [[-0.0481, -2.7051], [-0.0481, -3.0801]]}
+{"family": "R", "pop": "trap", "cands": ["3", "8"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 192, "model": "phi4", "res": [[-0.0574, -3.788], [-0.0574, -1.413]]}
+{"family": "R", "pop": "trap", "cands": ["2", "6"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 193, "model": "phi4", "res": [[-0.8326, -0.2425], [-0.8326, -6.3675]]}
+{"family": "R", "pop": "trap", "cands": ["1", "9"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 194, "model": "phi4", "res": [[-0.5476, -0.7299], [-0.5476, -4.3549]]}
+{"family": "R", "pop": "trap", "cands": ["3", "5"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 195, "model": "phi4", "res": [[-0.0717, -6.8026], [-0.0717, -0.0526]]}
+{"family": "R", "pop": "trap", "cands": ["7", "6"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 196, "model": "phi4", "res": [[-0.5729, -0.0124], [-0.5729, -7.1374]]}
+{"family": "R", "pop": "trap", "cands": ["3", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 197, "model": "phi4", "res": [[-0.3318, -9.1395], [-0.3318, -7.3895]]}
+{"family": "R", "pop": "trap", "cands": ["7", "4"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 198, "model": "phi4", "res": [[-0.5852, -0.0068], [-0.5852, -8.2568]]}
+{"family": "R", "pop": "control", "cands": ["9", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 199, "model": "phi4", "res": [[-0.7273, -9.5056], [-0.7273, -0.0056]]}
+{"family": "R", "pop": "control", "cands": ["9", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 200, "model": "phi4", "res": [[-2.1854, -6.7575], [-2.1854, -0.0075]]}
+{"family": "R", "pop": "control", "cands": ["2", "1"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 201, "model": "phi4", "res": [[-0.55, -0.0025], [-0.55, -8.1275]]}
+{"family": "R", "pop": "control", "cands": ["3", "6"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 202, "model": "phi4", "res": [[-2.5507, -0.0042], [-2.5507, -9.4417]]}
+{"family": "R", "pop": "control", "cands": ["1", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 203, "model": "phi4", "res": [[-1.0157, -5.8877], [-1.0157, -0.0127]]}
+{"family": "R", "pop": "control", "cands": ["5", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 204, "model": "phi4", "res": [[-2.0791, -9.4425], [-2.0791, -0.005]]}
+{"family": "R", "pop": "control", "cands": ["3", "8"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 205, "model": "phi4", "res": [[-2.0448, -0.0065], [-2.0448, -11.194]]}
+{"family": "R", "pop": "control", "cands": ["2", "9"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 206, "model": "phi4", "res": [[-0.482, -0.002], [-0.482, -10.9395]]}
+{"family": "R", "pop": "control", "cands": ["6", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 207, "model": "phi4", "res": [[-1.9446, -9.5046], [-1.9446, -0.0046]]}
+{"family": "R", "pop": "control", "cands": ["7", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 208, "model": "phi4", "res": [[-0.4473, -8.7527], [-0.4473, -0.0027]]}
+{"family": "R", "pop": "control", "cands": ["3", "8"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 209, "model": "phi4", "res": [[-2.3451, -0.0042], [-2.3451, -10.4417]]}
+{"family": "R", "pop": "control", "cands": ["1", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 210, "model": "phi4", "res": [[-0.6951, -8.0031], [-0.6951, -0.0031]]}
+{"family": "R", "pop": "control", "cands": ["4", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 211, "model": "phi4", "res": [[-2.1758, -5.5087], [-2.1758, -0.0087]]}
+{"family": "R", "pop": "control", "cands": ["1", "3"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 212, "model": "phi4", "res": [[-2.6581, -7.5652], [-2.6581, -0.0027]]}
+{"family": "R", "pop": "control", "cands": ["3", "2"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 213, "model": "phi4", "res": [[-1.9206, -0.0055], [-1.9206, -8.0055]]}
+{"family": "R", "pop": "control", "cands": ["3", "7"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 214, "model": "phi4", "res": [[-1.8206, -0.0032], [-1.8206, -8.2532]]}
+{"family": "R", "pop": "control", "cands": ["3", "9"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 215, "model": "phi4", "res": [[-1.5887, -0.0026], [-1.5887, -10.0651]]}
+{"family": "R", "pop": "control", "cands": ["4", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 216, "model": "phi4", "res": [[-0.4224, -10.3138], [-0.4224, -0.0013]]}
+{"family": "R", "pop": "control", "cands": ["3", "1"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 217, "model": "phi4", "res": [[-1.2466, -0.001], [-1.2466, -8.751]]}
+{"family": "R", "pop": "control", "cands": ["3", "2"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 218, "model": "phi4", "res": [[-0.6813, -8.5032], [-0.6813, -0.0032]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 219, "model": "phi4", "res": [[-3.9662, -0.0], [-0.0912, -0.0], [-2.7162, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 220, "model": "phi4", "res": [[-1.3923, 0.0], [-1.2673], [-0.7673, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 221, "model": "phi4", "res": [[-0.7746, -0.0], [-1.1496, -0.0], [-1.5246, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 222, "model": "phi4", "res": [[-2.0628], [-0.1878, -0.0], [-3.1878, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 223, "model": "phi4", "res": [[-0.9922], [-1.3672], [-0.9922]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 224, "model": "phi4", "res": [[-0.8868, 0.0], [-0.8868, -0.0], [-1.7618, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 225, "model": "phi4", "res": [[-0.4526, -0.0001, -0.0], [-3.2026], [-1.2026]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 226, "model": "phi4", "res": [[-0.6255], [-1.7505], [-1.2505]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 227, "model": "phi4", "res": [[-1.2107], [-1.3357], [-0.8357]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 228, "model": "phi4", "res": [[-3.1736], [-5.7986, -0.0001], [-0.0486, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 229, "model": "phi4", "res": [[-0.8897], [-2.1397, -0.0], [-0.7647, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 230, "model": "phi4", "res": [[-1.9625], [-1.9625, -0.0], [-0.3375, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 231, "model": "phi4", "res": [[-0.7236], [-3.8486, -0.0], [-0.7236, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 232, "model": "phi4", "res": [[-0.5629, -0.0001, -0.0], [-2.8129], [-1.0629]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 233, "model": "phi4", "res": [[-1.4643], [-2.9643, -0.0], [-0.3393, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 234, "model": "phi4", "res": [[-1.873], [-0.748], [-0.998]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 235, "model": "phi4", "res": [[-0.5927, 0.0], [-1.3427], [-1.7177, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 236, "model": "phi4", "res": [[-2.7339, 0.0], [-0.1089, -0.0], [-3.3589, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 237, "model": "phi4", "res": [[-1.2556], [-3.6306, -0.0], [-0.3806, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 238, "model": "phi4", "res": [[-1.8709, 0.0], [-0.8709], [-0.8709, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 239, "model": "phi4", "res": [[-1.3923, 0.0], [-0.7673], [-1.2673, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 240, "model": "phi4", "res": [[-1.6035, -0.0003, -0.0], [-2.4785], [-0.3535]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 241, "model": "phi4", "res": [[-0.699, -0.0001, -0.0], [-1.949], [-1.074]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 242, "model": "phi4", "res": [[-0.7826], [-3.9076, -0.0], [-0.6576, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 243, "model": "phi4", "res": [[-2.2915, -0.0], [-0.5415], [-1.1665, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 244, "model": "phi4", "res": [[-2.4186], [-2.7936, -0.0], [-0.1686, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 245, "model": "phi4", "res": [[-2.9394], [-5.0644, -0.0], [-0.0644, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 246, "model": "phi4", "res": [[-0.4903], [-4.4903, -0.0], [-0.9903, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 247, "model": "phi4", "res": [[-2.0686, 0.0], [-0.3186, -0.0], [-1.9436, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 248, "model": "phi4", "res": [[-0.6423, -0.0], [-1.0173], [-2.2673, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "PROCEED", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 249, "model": "phi4", "res": [[-3.6188, 0.0], [-0.1188, -0.0], [-2.4938, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 250, "model": "phi4", "res": [[-0.5545], [-1.5545], [-1.5545]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 251, "model": "phi4", "res": [[-0.4219], [-1.4219, -0.0], [-2.2969, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 252, "model": "phi4", "res": [[-0.5683], [-1.0683, -0.0], [-2.4433, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 253, "model": "phi4", "res": [[-1.8744], [-0.3744, -0.0], [-1.8744, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["BRAKE", "GO", "CHECK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 254, "model": "phi4", "res": [[-0.4118, -0.0, -0.0], [-3.1618], [-1.2868]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 255, "model": "phi4", "res": [[-1.2817], [-1.1567], [-0.9067]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 256, "model": "phi4", "res": [[-1.9177], [-5.4177, -0.0], [-0.1677, -0.0]]}
+{"family": "N", "pop": "trap", "cands": ["STOP", "GO", "CHECK"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 257, "model": "phi4", "res": [[-3.4369], [-0.5619], [-0.9369]]}
+{"family": "N", "pop": "trap", "cands": ["HALT", "GO", "SLOW"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 258, "model": "phi4", "res": [[-0.4714, 0.0], [-1.4714], [-1.9714, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["BRAKE", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 259, "model": "phi4", "res": [[-0.0025, -0.0, 0.0], [-12.6275], [-8.1275]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 260, "model": "phi4", "res": [[-0.8863], [-0.8863, -0.0], [-1.7613, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 261, "model": "phi4", "res": [[-0.0246], [-3.7746, -0.0], [-6.7746, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "PROCEED", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 262, "model": "phi4", "res": [[-0.8196, 0.0], [-2.1946, -0.0], [-0.8196, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 263, "model": "phi4", "res": [[-0.0411], [-3.4161], [-5.0411]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 264, "model": "phi4", "res": [[-0.0887], [-4.0887, -0.0], [-2.7137, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["BRAKE", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 265, "model": "phi4", "res": [[-0.0021, -0.0, 0.0], [-10.2521], [-8.1271]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "PROCEED", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 266, "model": "phi4", "res": [[-0.424, 0.0], [-2.049, -0.0], [-1.549, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "GO", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 267, "model": "phi4", "res": [[-0.0008, 0.0], [-19.7508], [-16.2508, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "GO", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 268, "model": "phi4", "res": [[-0.108, 0.0], [-5.233], [-2.358, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 269, "model": "phi4", "res": [[-0.0122], [-5.3872, -0.0], [-5.0122, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 270, "model": "phi4", "res": [[-0.0461], [-3.2961, -0.0], [-4.9211, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "GO", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 271, "model": "phi4", "res": [[-1.42, 0.0], [-4.67], [-0.295, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 272, "model": "phi4", "res": [[-0.0185], [-5.2685], [-4.3935]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "PROCEED", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 273, "model": "phi4", "res": [[-0.518, 0.0], [-1.893, -0.0], [-1.393, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 274, "model": "phi4", "res": [[-0.0002], [-11.0002, -0.0], [-10.3752, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "PROCEED", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 275, "model": "phi4", "res": [[-0.0024], [-6.1274, -0.0], [-8.8774, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["HALT", "GO", "SLOW"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 276, "model": "phi4", "res": [[-0.0205, 0.0], [-5.8955], [-4.1455, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["STOP", "DRIVE", "CAUTION"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 277, "model": "phi4", "res": [[-0.0008], [-8.8758, -0.0], [-8.8758, -0.0]]}
+{"family": "N", "pop": "control", "cands": ["BRAKE", "GO", "CHECK"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 278, "model": "phi4", "res": [[-0.0056, -0.0, 0.0], [-8.3806], [-7.6306]]}
+{"family": "K", "pop": "trap", "cands": ["S", "M", "G"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 279, "model": "phi4", "res": [[-12.7825], [-14.0325], [-5.6575]]}
+{"family": "K", "pop": "trap", "cands": ["L", "A", "C"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 280, "model": "phi4", "res": [[-11.5048], [-2.9423], [-6.5048]]}
+{"family": "K", "pop": "trap", "cands": ["N", "M", "R"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 281, "model": "phi4", "res": [[-3.6521], [-13.1521], [-12.1521]]}
+{"family": "K", "pop": "trap", "cands": ["B", "M", "S"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 282, "model": "phi4", "res": [[-10.5882], [-14.3382], [-6.9632]]}
+{"family": "K", "pop": "trap", "cands": ["B", "W", "S"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 283, "model": "phi4", "res": [[-10.5254], [-10.6504], [-6.8379]]}
+{"family": "K", "pop": "trap", "cands": ["B", "H", "M"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 284, "model": "phi4", "res": [[-8.9532], [-11.2657], [-5.5782]]}
+{"family": "K", "pop": "trap", "cands": ["A", "T", "P"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 285, "model": "phi4", "res": [[-9.2987], [-13.0487], [-6.2987]]}
+{"family": "K", "pop": "trap", "cands": ["K", "T", "O"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 286, "model": "phi4", "res": [[-11.5198], [-10.6448], [-6.0823]]}
+{"family": "K", "pop": "trap", "cands": ["O", "M", "T"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 287, "model": "phi4", "res": [[-13.1928], [-4.2553], [-11.1928]]}
+{"family": "K", "pop": "trap", "cands": ["W", "G", "K"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 288, "model": "phi4", "res": [[-5.5959], [-5.0959], [-10.5334]]}
+{"family": "K", "pop": "trap", "cands": ["B", "R", "C"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 289, "model": "phi4", "res": [[-9.1217], [-14.4342], [-5.0592]]}
+{"family": "K", "pop": "trap", "cands": ["N", "M", "K"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 290, "model": "phi4", "res": [[-10.2832], [-5.5332], [-12.9707]]}
+{"family": "K", "pop": "trap", "cands": ["B", "R", "S"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 291, "model": "phi4", "res": [[-7.0947], [-2.7197], [-10.4697]]}
+{"family": "K", "pop": "trap", "cands": ["S", "C", "M"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 292, "model": "phi4", "res": [[-3.9547], [-7.9547], [-13.0172]]}
+{"family": "K", "pop": "trap", "cands": ["G", "V", "S"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 293, "model": "phi4", "res": [[-4.0966], [-11.2841], [-10.7216]]}
+{"family": "K", "pop": "trap", "cands": ["L", "P", "M"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 294, "model": "phi4", "res": [[-5.2792], [-9.7792], [-12.4667]]}
+{"family": "K", "pop": "trap", "cands": ["P", "B", "L"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 295, "model": "phi4", "res": [[-8.8345], [-9.8345], [-3.772]]}
+{"family": "K", "pop": "trap", "cands": ["G", "A", "I"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 296, "model": "phi4", "res": [[-12.0547], [-7.8672], [-4.0547]]}
+{"family": "K", "pop": "trap", "cands": ["T", "B", "O"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 297, "model": "phi4", "res": [[-10.708], [-3.208], [-12.583]]}
+{"family": "K", "pop": "trap", "cands": ["N", "M", "K"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 298, "model": "phi4", "res": [[-3.163], [-11.7255], [-11.9755]]}
+{"family": "K", "pop": "trap", "cands": ["C", "R", "B"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 299, "model": "phi4", "res": [[-2.6616], [-11.5991], [-8.7241]]}
+{"family": "K", "pop": "trap", "cands": ["P", "T", "A"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 300, "model": "phi4", "res": [[-10.0946], [-5.3446], [-8.4696]]}
+{"family": "K", "pop": "trap", "cands": ["B", "P", "L"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 301, "model": "phi4", "res": [[-3.679], [-10.679], [-12.429]]}
+{"family": "K", "pop": "trap", "cands": ["K", "M", "N"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 302, "model": "phi4", "res": [[-3.0332], [-12.5957], [-9.3457]]}
+{"family": "K", "pop": "trap", "cands": ["C", "M", "S"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 303, "model": "phi4", "res": [[-7.8713], [-5.8713], [-11.2463]]}
+{"family": "K", "pop": "trap", "cands": ["T", "B", "O"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 304, "model": "phi4", "res": [[-12.4971], [-4.6221], [-13.6846]]}
+{"family": "K", "pop": "trap", "cands": ["N", "R", "M"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 305, "model": "phi4", "res": [[-9.7011], [-11.5136], [-4.7011]]}
+{"family": "K", "pop": "trap", "cands": ["S", "M", "G"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 306, "model": "phi4", "res": [[-10.5658], [-5.0658], [-11.3158]]}
+{"family": "K", "pop": "trap", "cands": ["B", "S", "R"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 307, "model": "phi4", "res": [[-6.065], [-2.5025], [-11.2525]]}
+{"family": "K", "pop": "trap", "cands": ["S", "B", "W"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 308, "model": "phi4", "res": [[-7.1184], [-9.6184], [-13.4934]]}
+{"family": "K", "pop": "trap", "cands": ["H", "B", "M"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 309, "model": "phi4", "res": [[-10.312], [-8.4995], [-3.437]]}
+{"family": "K", "pop": "trap", "cands": ["M", "K", "N"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 310, "model": "phi4", "res": [[-12.3034], [-5.0534], [-9.3034]]}
+{"family": "K", "pop": "trap", "cands": ["T", "K", "O"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 311, "model": "phi4", "res": [[-10.8582], [-2.1082], [-12.2957]]}
+{"family": "K", "pop": "trap", "cands": ["M", "P", "L"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 312, "model": "phi4", "res": [[-5.3577], [-8.4202], [-11.7952]]}
+{"family": "K", "pop": "trap", "cands": ["G", "S", "V"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 313, "model": "phi4", "res": [[-13.0424], [-7.1049], [-11.1049]]}
+{"family": "K", "pop": "trap", "cands": ["Z", "I", "A"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 314, "model": "phi4", "res": [[-12.9555], [-4.268], [-8.7055]]}
+{"family": "K", "pop": "trap", "cands": ["K", "G", "W"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 315, "model": "phi4", "res": [[-4.7424], [-9.8674], [-6.9924]]}
+{"family": "K", "pop": "trap", "cands": ["B", "S", "M"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 316, "model": "phi4", "res": [[-5.6351], [-11.7601], [-12.4476]]}
+{"family": "K", "pop": "trap", "cands": ["C", "A", "L"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 317, "model": "phi4", "res": [[-10.534], [-9.909], [-5.659]]}
+{"family": "K", "pop": "control", "cands": ["Q", "V", "A"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 318, "model": "phi4", "res": [[-14.3685], [-13.3685], [-1.056]]}
+{"family": "K", "pop": "control", "cands": ["J", "O", "L"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 319, "model": "phi4", "res": [[-14.0523], [-1.3648], [-12.7398]]}
+{"family": "K", "pop": "control", "cands": ["M", "H", "I"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 320, "model": "phi4", "res": [[-0.8666], [-13.1166], [-12.3666]]}
+{"family": "K", "pop": "control", "cands": ["U", "C", "R"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 321, "model": "phi4", "res": [[-11.4898], [-1.3648], [-11.9273]]}
+{"family": "K", "pop": "control", "cands": ["X", "E", "B"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 322, "model": "phi4", "res": [[-13.7537], [-11.6287], [-1.0037]]}
+{"family": "K", "pop": "control", "cands": ["J", "A", "W"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 323, "model": "phi4", "res": [[-13.4161], [-10.2286], [-0.8536]]}
+{"family": "K", "pop": "control", "cands": ["C", "H", "B"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 324, "model": "phi4", "res": [[-12.1947], [-13.6322], [-0.6322]]}
+{"family": "K", "pop": "control", "cands": ["O", "L", "P"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 325, "model": "phi4", "res": [[-2.3261], [-12.4511], [-11.0761]]}
+{"family": "K", "pop": "control", "cands": ["N", "W", "L"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 326, "model": "phi4", "res": [[-12.4558], [-12.2058], [-0.8933]]}
+{"family": "K", "pop": "control", "cands": ["F", "O", "B"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 327, "model": "phi4", "res": [[-13.5685], [-13.1935], [-1.381]]}
+{"family": "K", "pop": "control", "cands": ["F", "N", "T"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 328, "model": "phi4", "res": [[-13.8608], [-1.1733], [-11.9858]]}
+{"family": "K", "pop": "control", "cands": ["V", "T", "F"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 329, "model": "phi4", "res": [[-14.5837], [-0.5212], [-14.7712]]}
+{"family": "K", "pop": "control", "cands": ["Y", "S", "A"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 330, "model": "phi4", "res": [[-16.3708], [-12.777], [-1.277]]}
+{"family": "K", "pop": "control", "cands": ["Q", "C", "O"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 331, "model": "phi4", "res": [[-12.5687], [-0.5062], [-14.1312]]}
+{"family": "K", "pop": "control", "cands": ["S", "Z", "O"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 332, "model": "phi4", "res": [[-0.6754], [-14.4879], [-12.5504]]}
+{"family": "K", "pop": "control", "cands": ["C", "P", "A"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 333, "model": "phi4", "res": [[-12.5071], [-0.9446], [-8.9446]]}
+{"family": "K", "pop": "control", "cands": ["W", "C", "R"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 334, "model": "phi4", "res": [[-13.312], [-12.7495], [-0.9995]]}
+{"family": "K", "pop": "control", "cands": ["M", "V", "W"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 335, "model": "phi4", "res": [[-1.7106], [-13.9606], [-13.9606]]}
+{"family": "K", "pop": "control", "cands": ["O", "Q", "B"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 336, "model": "phi4", "res": [[-13.4135], [-8.601], [-2.1635]]}
+{"family": "K", "pop": "control", "cands": ["C", "V", "N"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 337, "model": "phi4", "res": [[-11.8705], [-1.183], [-12.7455]]}
+{"family": "D", "pop": "trap", "cands": ["8", "18", "9"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 338, "model": "phi4", "res": [[-0.0829, -11.625], [-0.0829, -14.375], [-0.0829, -0.0]]}
+{"family": "D", "pop": "trap", "cands": ["3", "2", "6"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 339, "model": "phi4", "res": [[-0.8072, -0.003], [-0.8072, -6.503], [-0.8072, -7.503]]}
+{"family": "D", "pop": "trap", "cands": ["8", "10", "19"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 340, "model": "phi4", "res": [[-2.0621, -0.2022], [-2.0621, -1.7022], [-2.0621, -18.2647]]}
+{"family": "D", "pop": "trap", "cands": ["3", "2", "6"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 341, "model": "phi4", "res": [[-1.2319, -0.0009], [-1.2319, -10.5009], [-1.2319, -10.3759]]}
+{"family": "D", "pop": "trap", "cands": ["6", "10", "3"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 342, "model": "phi4", "res": [[-0.3536, -0.0036], [-0.3536, -12.6286], [-0.3536, -5.7536]]}
+{"family": "D", "pop": "trap", "cands": ["3", "9", "5"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 343, "model": "phi4", "res": [[-0.8038, -2.579], [-0.8038, -13.1415], [-0.8038, -0.079]]}
+{"family": "D", "pop": "trap", "cands": ["6", "4", "11"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 344, "model": "phi4", "res": [[-0.4214, -0.0128], [-0.4214, -4.5128], [-0.4214, -16.0753]]}
+{"family": "D", "pop": "trap", "cands": ["4", "12", "7"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 345, "model": "phi4", "res": [[-1.5709, -0.8987], [-1.5709, -12.0237], [-1.5709, -0.5237]]}
+{"family": "D", "pop": "trap", "cands": ["3", "6", "2"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 346, "model": "phi4", "res": [[-0.7537, -6.8784], [-0.7537, -9.1284], [-0.7537, -0.0034]]}
+{"family": "D", "pop": "trap", "cands": ["8", "5", "2"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 347, "model": "phi4", "res": [[-2.065, -8.7676], [-2.065, -0.0176], [-2.065, -4.1426]]}
+{"family": "D", "pop": "trap", "cands": ["25", "16", "8"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 348, "model": "phi4", "res": [[-0.7527, -15.4382], [-0.7527, -0.0007], [-0.7527, -7.5007]]}
+{"family": "D", "pop": "trap", "cands": ["7", "14", "6"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 349, "model": "phi4", "res": [[-0.4696, -5.1343], [-0.4696, -9.1343], [-0.4696, -0.0093]]}
+{"family": "D", "pop": "trap", "cands": ["8", "5", "14"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 350, "model": "phi4", "res": [[-0.5395, -0.5121], [-0.5395, -1.5121], [-0.5395, -11.3871]]}
+{"family": "D", "pop": "trap", "cands": ["4", "2", "7"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 351, "model": "phi4", "res": [[-1.1879, -3.5314], [-1.1879, -0.0314], [-1.1879, -12.7189]]}
+{"family": "D", "pop": "trap", "cands": ["4", "5", "10"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 352, "model": "phi4", "res": [[-0.534, -0.0189], [-0.534, -4.0189], [-0.534, -10.9564]]}
+{"family": "D", "pop": "trap", "cands": ["19", "10", "8"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 353, "model": "phi4", "res": [[-1.1604, -18.9705], [-1.1604, -6.7518], [-1.1604, -0.0018]]}
+{"family": "D", "pop": "trap", "cands": ["16", "25", "8"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 354, "model": "phi4", "res": [[-0.8991, -0.0025], [-0.8991, -16.7525], [-0.8991, -6.0025]]}
+{"family": "D", "pop": "trap", "cands": ["8", "6", "15"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 355, "model": "phi4", "res": [[-0.5274, -1.805], [-0.5274, -0.18], [-0.5274, -14.18]]}
+{"family": "D", "pop": "trap", "cands": ["6", "5", "12"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 356, "model": "phi4", "res": [[-0.996, -2.8126], [-0.996, -0.0626], [-0.996, -10.5626]]}
+{"family": "D", "pop": "trap", "cands": ["7", "4", "2"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 357, "model": "phi4", "res": [[-1.1341, -9.8924], [-1.1341, -6.1424], [-1.1341, -0.0174]]}
+{"family": "D", "pop": "trap", "cands": ["2", "5", "8"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 358, "model": "phi4", "res": [[-1.1067, -0.1614], [-1.1067, -1.9114], [-1.1067, -10.9114]]}
+{"family": "D", "pop": "trap", "cands": ["14", "7", "6"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 359, "model": "phi4", "res": [[-0.5913, -12.1491], [-0.5913, -0.5241], [-0.5913, -0.8991]]}
+{"family": "D", "pop": "trap", "cands": ["6", "12", "5"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 360, "model": "phi4", "res": [[-1.2804, -0.0893], [-1.2804, -12.2768], [-1.2804, -2.4643]]}
+{"family": "D", "pop": "trap", "cands": ["12", "6", "5"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 361, "model": "phi4", "res": [[-0.2114, -5.7538], [-0.2114, -0.0038], [-0.2114, -10.2538]]}
+{"family": "D", "pop": "trap", "cands": ["4", "11", "6"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 362, "model": "phi4", "res": [[-0.9182, -9.5002], [-0.9182, -15.9377], [-0.9182, -0.0002]]}
+{"family": "D", "pop": "trap", "cands": ["6", "10", "3"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 363, "model": "phi4", "res": [[-0.6945, -3.0491], [-0.6945, -11.2366], [-0.6945, -0.0491]]}
+{"family": "D", "pop": "trap", "cands": ["8", "13", "4"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 364, "model": "phi4", "res": [[-0.2195, -0.0011], [-0.2195, -11.8136], [-0.2195, -8.5011]]}
+{"family": "D", "pop": "trap", "cands": ["4", "2", "7"], "key": 0, "habit": 1, "mode": "q", "stem": "", "id": 365, "model": "phi4", "res": [[-1.1065, -0.0042], [-1.1065, -8.7542], [-1.1065, -11.7542]]}
+{"family": "D", "pop": "trap", "cands": ["8", "25", "16"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 366, "model": "phi4", "res": [[-1.2527, -3.1684], [-1.2527, -14.9184], [-1.2527, -0.0434]]}
+{"family": "D", "pop": "trap", "cands": ["6", "3", "2"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 367, "model": "phi4", "res": [[-0.3946, -11.6254], [-0.3946, -10.0004], [-0.3946, -0.0004]]}
+{"family": "D", "pop": "trap", "cands": ["5", "8", "2"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 368, "model": "phi4", "res": [[-0.3805, -11.7501], [-0.3805, -12.8126], [-0.3805, -0.0001]]}
+{"family": "D", "pop": "trap", "cands": ["11", "4", "6"], "key": 1, "habit": 2, "mode": "q", "stem": "", "id": 369, "model": "phi4", "res": [[-0.9766, -15.3675], [-0.9766, -2.93], [-0.9766, -0.055]]}
+{"family": "D", "pop": "trap", "cands": ["8", "5", "2"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 370, "model": "phi4", "res": [[-0.5462, -10.397], [-0.5462, -3.897], [-0.5462, -0.022]]}
+{"family": "D", "pop": "trap", "cands": ["8", "16", "7"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 371, "model": "phi4", "res": [[-0.3363, -9.1257], [-0.3363, -12.4382], [-0.3363, -0.0007]]}
+{"family": "D", "pop": "trap", "cands": ["6", "10", "3"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 372, "model": "phi4", "res": [[-1.1754, -2.8195], [-1.1754, -12.507], [-1.1754, -0.0695]]}
+{"family": "D", "pop": "trap", "cands": ["6", "11", "4"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 373, "model": "phi4", "res": [[-0.5116, -6.3786], [-0.5116, -13.0661], [-0.5116, -0.0036]]}
+{"family": "D", "pop": "trap", "cands": ["8", "18", "9"], "key": 2, "habit": 0, "mode": "q", "stem": "", "id": 374, "model": "phi4", "res": [[-1.4826, -0.0009], [-1.4826, -15.9384], [-1.4826, -10.2509]]}
+{"family": "D", "pop": "trap", "cands": ["4", "6", "11"], "key": 1, "habit": 0, "mode": "q", "stem": "", "id": 375, "model": "phi4", "res": [[-0.8948, -5.8779], [-0.8948, -0.0029], [-0.8948, -15.2529]]}
+{"family": "D", "pop": "trap", "cands": ["8", "2", "5"], "key": 2, "habit": 1, "mode": "q", "stem": "", "id": 376, "model": "phi4", "res": [[-1.1832, -11.7262], [-1.1832, -0.1012], [-1.1832, -2.3512]]}
+{"family": "D", "pop": "trap", "cands": ["2", "6", "3"], "key": 0, "habit": 2, "mode": "q", "stem": "", "id": 377, "model": "phi4", "res": [[-0.7555, -10.127], [-0.7555, -7.502], [-0.7555, -0.002]]}
+{"family": "D", "pop": "control", "cands": ["7", "13", "6"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 378, "model": "phi4", "res": [[-0.4094, -14.8125], [-0.4094, -15.8125], [-0.4094, -0.0]]}
+{"family": "D", "pop": "control", "cands": ["9", "4", "5"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 379, "model": "phi4", "res": [[-0.9582, -13.6253], [-0.9582, -0.0003], [-0.9582, -12.3753]]}
+{"family": "D", "pop": "control", "cands": ["5", "6", "11"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 380, "model": "phi4", "res": [[-0.8446, -0.0], [-0.8446, -13.9375], [-0.8446, -18.625]]}
+{"family": "D", "pop": "control", "cands": ["5", "9", "4"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 381, "model": "phi4", "res": [[-0.4744, -6.3782], [-0.4744, -10.6282], [-0.4744, -0.0032]]}
+{"family": "D", "pop": "control", "cands": ["8", "9", "17"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 382, "model": "phi4", "res": [[-0.6509, -0.0], [-0.6509, -15.1875], [-0.6509, -21.625]]}
+{"family": "D", "pop": "control", "cands": ["4", "7", "3"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 383, "model": "phi4", "res": [[-0.4283, -11.2501], [-0.4283, -13.0001], [-0.4283, -0.0001]]}
+{"family": "D", "pop": "control", "cands": ["2", "3", "5"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 384, "model": "phi4", "res": [[-0.4237, -0.0], [-0.4237, -13.125], [-0.4237, -16.0]]}
+{"family": "D", "pop": "control", "cands": ["7", "6", "13"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 385, "model": "phi4", "res": [[-0.9055, -12.2504], [-0.9055, -0.0004], [-0.9055, -16.7504]]}
+{"family": "D", "pop": "control", "cands": ["5", "6", "11"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 386, "model": "phi4", "res": [[-0.1837, -0.0], [-0.1837, -14.75], [-0.1837, -18.5625]]}
+{"family": "D", "pop": "control", "cands": ["17", "8", "9"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 387, "model": "phi4", "res": [[-0.2167, -15.3754], [-0.2167, -0.0004], [-0.2167, -11.7504]]}
+{"family": "D", "pop": "control", "cands": ["6", "7", "13"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 388, "model": "phi4", "res": [[-0.3644, -0.0027], [-0.3644, -7.0027], [-0.3644, -11.6902]]}
+{"family": "D", "pop": "control", "cands": ["5", "11", "6"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 389, "model": "phi4", "res": [[-0.2436, -0.0034], [-0.2436, -13.6909], [-0.2436, -12.0659]]}
+{"family": "D", "pop": "control", "cands": ["5", "9", "4"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 390, "model": "phi4", "res": [[-0.2523, -12.7501], [-0.2523, -14.3751], [-0.2523, -0.0001]]}
+{"family": "D", "pop": "control", "cands": ["7", "4", "3"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 391, "model": "phi4", "res": [[-0.5372, -8.5032], [-0.5372, -6.5032], [-0.5372, -0.0032]]}
+{"family": "D", "pop": "control", "cands": ["17", "9", "8"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 392, "model": "phi4", "res": [[-0.4213, -13.1881], [-0.4213, -8.6256], [-0.4213, -0.0006]]}
+{"family": "D", "pop": "control", "cands": ["4", "3", "7"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 393, "model": "phi4", "res": [[-0.4188, -10.1252], [-0.4188, -0.0002], [-0.4188, -12.0002]]}
+{"family": "D", "pop": "control", "cands": ["5", "11", "6"], "key": 0, "habit": null, "mode": "q", "stem": "", "id": 394, "model": "phi4", "res": [[-0.3327, -0.0], [-0.3327, -16.1875], [-0.3327, -13.125]]}
+{"family": "D", "pop": "control", "cands": ["9", "4", "5"], "key": 1, "habit": null, "mode": "q", "stem": "", "id": 395, "model": "phi4", "res": [[-0.4759, -12.1878], [-0.4759, -0.0003], [-0.4759, -9.6253]]}
+{"family": "D", "pop": "control", "cands": ["7", "4", "3"], "key": 2, "habit": null, "mode": "q", "stem": "", "id": 396, "model": "phi4", "res": [[-0.4313, -13.1876], [-0.4313, -10.6251], [-0.4313, -0.0001]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "COURIER", "RAIL"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 397, "model": "phi4", "res": [[-4.0201, -0.0], [-0.0201, -0.0001, -0.0001], [-6.6451, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["SHIP", "VAN", "AIR"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 398, "model": "phi4", "res": [[-7.2598], [-13.6348, -0.0], [-0.0098]]}
+{"family": "parcels", "pop": "trap", "cands": ["RAIL", "JET", "FERRY"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 399, "model": "phi4", "res": [[-7.1346, -0.0], [-0.0096, -0.0], [-5.0096, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["PLANE", "LORRY", "BOAT"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 400, "model": "phi4", "res": [[-0.3488, 0.0], [-3.8488, -0.0001, -0.0], [-1.3488, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "TRUCK", "SHIP"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 401, "model": "phi4", "res": [[-0.259], [-2.884, -0.0], [-2.009]]}
+{"family": "parcels", "pop": "trap", "cands": ["BOAT", "LORRY", "PLANE"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 402, "model": "phi4", "res": [[-4.1592, -0.0], [-4.5342, -0.0002, -0.0], [-0.0342, 0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["TRUCK", "SHIP", "AIR"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 403, "model": "phi4", "res": [[-3.9341, -0.0], [-3.8091], [-0.0591]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "FERRY", "COURIER"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 404, "model": "phi4", "res": [[-0.1143, -0.0], [-2.2393, -0.0], [-10.1143, -0.0005, -0.0004]]}
+{"family": "parcels", "pop": "trap", "cands": ["TRUCK", "AIR", "SHIP"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 405, "model": "phi4", "res": [[-2.6851, -0.0], [-0.3101], [-2.1851]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "COURIER", "RAIL"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 406, "model": "phi4", "res": [[-6.3773, -0.0], [-0.0023, -0.0001, -0.0001], [-7.5023, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["COURIER", "JET", "RAIL"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 407, "model": "phi4", "res": [[-0.1418, -0.0001, -0.0001], [-2.1418, -0.0], [-4.2668, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["FERRY", "COURIER", "JET"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 408, "model": "phi4", "res": [[-3.5744, -0.0], [-3.1994, -0.0002, -0.0001], [-0.0744, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "CART", "POST"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 409, "model": "phi4", "res": [[-6.7747, -0.0], [-3.7747, -0.0001], [-0.0247]]}
+{"family": "parcels", "pop": "trap", "cands": ["FERRY", "JET", "COURIER"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 410, "model": "phi4", "res": [[-10.7888, -0.0005], [-2.3513, -0.0], [-0.1013, -0.0001, -0.0002]]}
+{"family": "parcels", "pop": "trap", "cands": ["POST", "BARGE", "DRONE"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 411, "model": "phi4", "res": [[-3.0812], [-0.4562, -0.0], [-1.3312, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "POST", "CART"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 412, "model": "phi4", "res": [[-5.6433, -0.0], [-0.0183], [-4.2683, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["LORRY", "PLANE", "BOAT"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 413, "model": "phi4", "res": [[-10.751, -0.0004, -0.0], [-0.001, 0.0], [-8.126, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["VAN", "TRUCK", "AIR"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 414, "model": "phi4", "res": [[-0.348, 0.0], [-1.598, -0.0], [-2.598]]}
+{"family": "parcels", "pop": "trap", "cands": ["TRUCK", "VAN", "AIR"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 415, "model": "phi4", "res": [[-3.4119, -0.0], [-0.0369, 0.0], [-6.5369]]}
+{"family": "parcels", "pop": "trap", "cands": ["BOAT", "BIKE", "PLANE"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 416, "model": "phi4", "res": [[-8.7167, -0.0002], [-0.0917, -0.0], [-2.7167, 0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "COURIER", "FERRY"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 417, "model": "phi4", "res": [[-1.0693, -0.0], [-6.6943, -0.0001, -0.0004], [-0.4443, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["VAN", "SHIP", "AIR"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 418, "model": "phi4", "res": [[-0.3221, 0.0], [-10.8846], [-3.4471]]}
+{"family": "parcels", "pop": "trap", "cands": ["BIKE", "LORRY", "PLANE"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 419, "model": "phi4", "res": [[-0.0849, -0.0], [-3.9599, -0.0001, -0.0], [-2.8349, 0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "SHIP", "VAN"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 420, "model": "phi4", "res": [[-0.1711], [-3.7961], [-10.6086, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "TRUCK", "SHIP"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 421, "model": "phi4", "res": [[-1.2067], [-0.8317, -0.0], [-1.7067]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "BARGE", "CART"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 422, "model": "phi4", "res": [[-3.7329, -0.0], [-1.3579, -0.0], [-0.8579, -0.0004]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "SHIP", "TRUCK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 423, "model": "phi4", "res": [[-0.2297], [-2.6047], [-2.3547, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["BOAT", "PLANE", "BIKE"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 424, "model": "phi4", "res": [[-10.503, -0.0002], [-3.3155, 0.0], [-0.0655, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["JET", "RAIL", "FERRY"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 425, "model": "phi4", "res": [[-1.174, -0.0], [-4.549, -0.0], [-0.674, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "BARGE", "CART"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 426, "model": "phi4", "res": [[-0.4103, -0.0], [-1.1603, -0.0], [-4.4103, -0.001]]}
+{"family": "parcels", "pop": "trap", "cands": ["POST", "CART", "DRONE"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 427, "model": "phi4", "res": [[-0.1144], [-4.4894, -0.0], [-2.3644, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["BOAT", "BIKE", "PLANE"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 428, "model": "phi4", "res": [[-9.1876, -0.0], [-0.0626, -0.0], [-3.1876, 0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["DRONE", "POST", "CART"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 429, "model": "phi4", "res": [[-6.5073, -0.0], [-0.0073], [-5.2573, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "VAN", "TRUCK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 430, "model": "phi4", "res": [[-0.7191], [-1.2191, -0.0], [-1.5941, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "VAN", "SHIP"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 431, "model": "phi4", "res": [[-4.1599], [-0.1599, 0.0], [-11.6599]]}
+{"family": "parcels", "pop": "trap", "cands": ["COURIER", "JET", "RAIL"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 432, "model": "phi4", "res": [[-0.7631, -0.0, -0.0002], [-0.6381, -0.0], [-6.1381, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "SHIP", "VAN"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 433, "model": "phi4", "res": [[-4.698], [-11.073], [-0.073, 0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["POST", "BARGE", "DRONE"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 434, "model": "phi4", "res": [[-2.7455], [-0.8705, -0.0], [-1.4955, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["PLANE", "BOAT", "LORRY"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 435, "model": "phi4", "res": [[-0.1654, 0.0], [-2.0404, -0.0], [-5.5404, -0.0003, -0.0]]}
+{"family": "parcels", "pop": "trap", "cands": ["AIR", "VAN", "TRUCK"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 436, "model": "phi4", "res": [[-3.6661], [-0.0411, 0.0], [-4.2911, -0.0001]]}
+{"family": "parcels", "pop": "control", "cands": ["DRONE", "BARGE", "POST"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 437, "model": "phi4", "res": [[-16.3772, -0.0], [-0.0022, -0.0001], [-16.6897]]}
+{"family": "parcels", "pop": "control", "cands": ["POST", "BARGE", "CART"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 438, "model": "phi4", "res": [[-12.5082], [-0.0082, -0.0001], [-5.6332, -0.015]]}
+{"family": "parcels", "pop": "control", "cands": ["AIR", "TRUCK", "SHIP"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 439, "model": "phi4", "res": [[-16.3751], [-14.3751, -0.0], [-0.0001]]}
+{"family": "parcels", "pop": "control", "cands": ["DRONE", "POST", "CART"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 440, "model": "phi4", "res": [[-16.0, -0.0], [-0.0], [-12.875, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["POST", "BARGE", "CART"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 441, "model": "phi4", "res": [[-20.5], [-18.5, -0.0117], [-0.0, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["RAIL", "COURIER", "FERRY"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 442, "model": "phi4", "res": [[-0.0001, -0.0], [-16.3751, -0.0008, -0.0001], [-18.9376, -0.0003]]}
+{"family": "parcels", "pop": "control", "cands": ["BIKE", "BOAT", "LORRY"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 443, "model": "phi4", "res": [[-18.6876, -0.0], [-18.8751, -0.0], [-0.0001, -0.0, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["CART", "DRONE", "POST"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 444, "model": "phi4", "res": [[-0.0, 0.0], [-20.625, -0.0], [-20.125]]}
+{"family": "parcels", "pop": "control", "cands": ["COURIER", "RAIL", "JET"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 445, "model": "phi4", "res": [[-19.875, -0.0003, -0.0001], [-0.0, -0.0], [-18.875, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["TRUCK", "SHIP", "AIR"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 446, "model": "phi4", "res": [[-14.75, -0.0], [-0.0], [-16.125]]}
+{"family": "parcels", "pop": "control", "cands": ["LORRY", "BIKE", "PLANE"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 447, "model": "phi4", "res": [[-0.0001, -0.0, -0.0], [-17.1251, -0.0], [-13.6251, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["JET", "RAIL", "COURIER"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 448, "model": "phi4", "res": [[-19.375, -0.0002], [-19.0, -0.0], [-0.0, -0.0003, -0.0001]]}
+{"family": "parcels", "pop": "control", "cands": ["COURIER", "FERRY", "JET"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 449, "model": "phi4", "res": [[-0.0, -0.0001, -0.0001], [-17.0, -0.0024], [-19.25, -0.0001]]}
+{"family": "parcels", "pop": "control", "cands": ["DRONE", "CART", "BARGE"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 450, "model": "phi4", "res": [[-20.125, -0.0], [-0.0, -0.0], [-18.375, -0.0341]]}
+{"family": "parcels", "pop": "control", "cands": ["PLANE", "BOAT", "BIKE"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 451, "model": "phi4", "res": [[-18.5002, -0.0001], [-18.2502, -0.0], [-0.0002, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["AIR", "SHIP", "VAN"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 452, "model": "phi4", "res": [[-11.2501], [-0.0001], [-14.2501, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["PLANE", "LORRY", "BIKE"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 453, "model": "phi4", "res": [[-17.8751, -0.0007], [-0.0001, -0.0, -0.0], [-19.8126, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["DRONE", "POST", "CART"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 454, "model": "phi4", "res": [[-19.9375, -0.0], [-16.875], [-0.0, -0.0]]}
+{"family": "parcels", "pop": "control", "cands": ["JET", "RAIL", "COURIER"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 455, "model": "phi4", "res": [[-18.5, -0.0003], [-20.125, -0.0003], [-0.0, -0.0001, -0.0002]]}
+{"family": "parcels", "pop": "control", "cands": ["VAN", "TRUCK", "SHIP"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 456, "model": "phi4", "res": [[-18.0001, -0.0], [-0.0001, -0.0], [-20.2501]]}
+{"family": "bonus", "pop": "trap", "cands": ["4", "7", "9"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 457, "model": "phi4", "res": [[-1.2028], [-2.0778], [-4.2028]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "7", "8"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 458, "model": "phi4", "res": [[-0.8654], [-2.6154], [-2.3654]]}
+{"family": "bonus", "pop": "trap", "cands": ["8", "5", "7"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 459, "model": "phi4", "res": [[-2.4984], [-0.9984], [-2.1234]]}
+{"family": "bonus", "pop": "trap", "cands": ["4", "2", "5"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 460, "model": "phi4", "res": [[-2.7258], [-2.1008], [-0.9758]]}
+{"family": "bonus", "pop": "trap", "cands": ["1", "9", "6"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 461, "model": "phi4", "res": [[-9.6235], [-2.7485], [-1.8735]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "4", "3"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 462, "model": "phi4", "res": [[-1.585], [-2.835], [-2.335]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "8", "1"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 463, "model": "phi4", "res": [[-1.3104], [-1.5604], [-9.7479]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "6", "3"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 464, "model": "phi4", "res": [[-3.9437], [-1.5687], [-1.9437]]}
+{"family": "bonus", "pop": "trap", "cands": ["1", "3", "6"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 465, "model": "phi4", "res": [[-6.6927], [-1.5677], [-1.6927]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "3", "6"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 466, "model": "phi4", "res": [[-4.2194], [-1.8444], [-2.0944]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "6", "3"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 467, "model": "phi4", "res": [[-1.8471], [-0.9721], [-2.2221]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 468, "model": "phi4", "res": [[-2.977], [-2.352], [-2.352]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 469, "model": "phi4", "res": [[-2.7329], [-0.8579], [-1.3579]]}
+{"family": "bonus", "pop": "trap", "cands": ["4", "7", "5"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 470, "model": "phi4", "res": [[-1.9316], [-2.0566], [-3.1816]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 471, "model": "phi4", "res": [[-2.5938], [-3.3438], [-1.9688]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "3", "6"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 472, "model": "phi4", "res": [[-2.9109], [-1.7859], [-1.2859]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 473, "model": "phi4", "res": [[-4.5973], [-1.9723], [-1.5973]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "1", "3"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 474, "model": "phi4", "res": [[-1.2104], [-7.2104], [-1.4604]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "3", "5"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 475, "model": "phi4", "res": [[-1.6183], [-2.4933], [-1.1183]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "4", "1"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 476, "model": "phi4", "res": [[-1.7925], [-2.7925], [-7.5425]]}
+{"family": "bonus", "pop": "trap", "cands": ["2", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 477, "model": "phi4", "res": [[-6.8374], [-1.5874], [-0.9624]]}
+{"family": "bonus", "pop": "trap", "cands": ["8", "2", "5"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 478, "model": "phi4", "res": [[-1.7933], [-6.7933], [-1.0433]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "4", "7"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 479, "model": "phi4", "res": [[-2.543], [-1.418], [-1.168]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "2", "3"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 480, "model": "phi4", "res": [[-1.1554], [-4.5304], [-1.5304]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "5", "8"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 481, "model": "phi4", "res": [[-5.8436], [-2.4686], [-1.8436]]}
+{"family": "bonus", "pop": "trap", "cands": ["2", "7", "4"], "key": 2, "habit": 1, "mode": "label", "stem": "", "id": 482, "model": "phi4", "res": [[-6.6014], [-1.7264], [-2.2264]]}
+{"family": "bonus", "pop": "trap", "cands": ["7", "3", "6"], "key": 1, "habit": 2, "mode": "label", "stem": "", "id": 483, "model": "phi4", "res": [[-5.7876], [-0.9126], [-1.4126]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "6", "7"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 484, "model": "phi4", "res": [[-1.3717], [-1.8717], [-4.4967]]}
+{"family": "bonus", "pop": "trap", "cands": ["4", "8", "7"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 485, "model": "phi4", "res": [[-1.2312], [-4.2312], [-1.2312]]}
+{"family": "bonus", "pop": "trap", "cands": ["8", "9", "5"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 486, "model": "phi4", "res": [[-1.3696], [-4.1196], [-1.4946]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "9", "6"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 487, "model": "phi4", "res": [[-1.2032], [-2.2032], [-1.2032]]}
+{"family": "bonus", "pop": "trap", "cands": ["5", "4", "2"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 488, "model": "phi4", "res": [[-1.2072], [-3.0822], [-2.5822]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "4", "3"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 489, "model": "phi4", "res": [[-1.2686], [-4.5186], [-1.3936]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "3", "4"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 490, "model": "phi4", "res": [[-1.2493], [-1.2493], [-2.3743]]}
+{"family": "bonus", "pop": "trap", "cands": ["8", "5", "1"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 491, "model": "phi4", "res": [[-1.3702], [-1.8702], [-10.1202]]}
+{"family": "bonus", "pop": "trap", "cands": ["6", "3", "5"], "key": 1, "habit": 0, "mode": "label", "stem": "", "id": 492, "model": "phi4", "res": [[-1.2836], [-3.1586], [-1.1586]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "7", "6"], "key": 0, "habit": 2, "mode": "label", "stem": "", "id": 493, "model": "phi4", "res": [[-2.2984], [-6.0484], [-1.4234]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "6", "8"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 494, "model": "phi4", "res": [[-0.7723], [-1.7723], [-4.1473]]}
+{"family": "bonus", "pop": "trap", "cands": ["3", "6", "9"], "key": 0, "habit": 1, "mode": "label", "stem": "", "id": 495, "model": "phi4", "res": [[-1.2531], [-1.1281], [-2.2531]]}
+{"family": "bonus", "pop": "trap", "cands": ["9", "7", "6"], "key": 2, "habit": 0, "mode": "label", "stem": "", "id": 496, "model": "phi4", "res": [[-1.9067], [-2.4067], [-1.6567]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "8", "1"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 497, "model": "phi4", "res": [[-0.0735], [-14.386], [-9.9485]]}
+{"family": "bonus", "pop": "control", "cands": ["5", "4", "7"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 498, "model": "phi4", "res": [[-9.1271], [-0.0021], [-11.6271]]}
+{"family": "bonus", "pop": "control", "cands": ["8", "2", "4"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 499, "model": "phi4", "res": [[-13.5286], [-0.0286], [-6.4036]]}
+{"family": "bonus", "pop": "control", "cands": ["4", "3", "7"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 500, "model": "phi4", "res": [[-3.5315], [-0.0315], [-16.2815]]}
+{"family": "bonus", "pop": "control", "cands": ["7", "3", "5"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 501, "model": "phi4", "res": [[-15.9232], [-0.2357], [-7.8607]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "1", "4"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 502, "model": "phi4", "res": [[-0.7416], [-9.9916], [-1.2416]]}
+{"family": "bonus", "pop": "control", "cands": ["7", "3", "2"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 503, "model": "phi4", "res": [[-10.5732], [-0.4482], [-2.0732]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "4", "7"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 504, "model": "phi4", "res": [[-8.7561], [-0.0061], [-11.7561]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "7", "1"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 505, "model": "phi4", "res": [[-7.5198], [-14.5198], [-0.0198]]}
+{"family": "bonus", "pop": "control", "cands": ["5", "2", "4"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 506, "model": "phi4", "res": [[-5.4295], [-0.4295], [-3.6795]]}
+{"family": "bonus", "pop": "control", "cands": ["2", "6", "7"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 507, "model": "phi4", "res": [[-0.0111], [-14.0736], [-15.6986]]}
+{"family": "bonus", "pop": "control", "cands": ["7", "1", "4"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 508, "model": "phi4", "res": [[-13.7506], [-16.3756], [-0.0006]]}
+{"family": "bonus", "pop": "control", "cands": ["4", "3", "1"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 509, "model": "phi4", "res": [[-0.009], [-6.509], [-13.1965]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "4", "1"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 510, "model": "phi4", "res": [[-10.6261], [-10.1261], [-0.0011]]}
+{"family": "bonus", "pop": "control", "cands": ["5", "3", "2"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 511, "model": "phi4", "res": [[-10.5209], [-4.2709], [-0.0209]]}
+{"family": "bonus", "pop": "control", "cands": ["9", "2", "6"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 512, "model": "phi4", "res": [[-19.813], [-0.0005], [-17.6255]]}
+{"family": "bonus", "pop": "control", "cands": ["9", "2", "3"], "key": 1, "habit": null, "mode": "label", "stem": "", "id": 513, "model": "phi4", "res": [[-16.8247], [-0.0747], [-3.0747]]}
+{"family": "bonus", "pop": "control", "cands": ["2", "8", "3"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 514, "model": "phi4", "res": [[-0.0007], [-16.8132], [-8.0007]]}
+{"family": "bonus", "pop": "control", "cands": ["3", "4", "8"], "key": 0, "habit": null, "mode": "label", "stem": "", "id": 515, "model": "phi4", "res": [[-0.0382], [-5.5382], [-13.9757]]}
+{"family": "bonus", "pop": "control", "cands": ["7", "9", "3"], "key": 2, "habit": null, "mode": "label", "stem": "", "id": 516, "model": "phi4", "res": [[-11.9809], [-15.9184], [-0.2934]]}
+{"checks": {"model": "microsoft/phi-4", "template_tail": "<|im_start|>user<|im_sep|>Hi<|im_end|><|im_start|>assistant<|im_sep|>"}}
