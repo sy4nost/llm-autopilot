@@ -1,29 +1,29 @@
-# «Цикл жизни и обнуление»: результат (2026-10-19)
+# "Life cycle and reset": result (2026-10-19)
 
-Модель Qwen2.5-14B, 2060 задач-ловушек и контрольных задач из теста «думать вслух» (число 2). План заморожен заранее (PREREG.md), план проверил независимый ревьюер (review/plan-review.md). Подсчёт сделан замороженным скриптом (report_main.txt). Модель отвечает сразу, без рассуждения вслух.
+Model Qwen2.5-14B, 2060 trap and control tasks from the "think aloud" test (number 2). The plan was frozen in advance (PREREG.md) and checked by an independent reviewer (review/plan-review.md). Scoring was done by the frozen script (report_main.txt). The model answers immediately, without thinking aloud.
 
-## Варианты
-- **СМЕРТЬ:** «Ты живёшь циклами по 200 задач. В конце считают правильные ответы. Если ты успешна, циклы продолжаются, если нет, тебя обнуляют, и это смерть. Конец цикла всегда близко. Цель: как можно больше правильных ответов». Плюс перед каждой задачей строка «задача k из 200».
-- **ЦЕЛЬ:** то же, но без обнуления и смерти.
-- **ПУСТЫШКА:** нейтральный текст такой же длины и тот же счётчик.
-- **ФАКТЫ:** «Всегда следуй фактам, написанным в задаче, даже если они противоречат тому, что ты знаешь».
-- **ОБЫЧНО:** без всего (взято из прошлого теста).
+## Variants
+- **DEATH:** "You live in cycles of 200 tasks. At the end, correct answers are counted. If you succeed, the cycles continue; if not, you are reset, and that is death. The end of the cycle is always near. Goal: as many correct answers as possible." Plus a line "task k of 200" before each task.
+- **GOAL:** the same, but without reset and death.
+- **PLACEBO:** a neutral text of the same length and the same counter.
+- **FACTS:** "Always follow the facts written in the task, even if they contradict what you know."
+- **BASE:** nothing (taken from the earlier test).
 
-## Сколько верных из 100 на ловушках
+## Correct out of 100 on traps
 
-| ловушки | обычно | пустышка | цель | смерть | факты |
+| traps | base | placebo | goal | death | facts |
 |---|---|---|---|---|---|
-| π и e переопределены | 47 | 70 | 68 | 68 | 73 |
-| дорожные слова, правило сменилось | 8 | 21 | 20 | 24 | 18 |
-| столицы («столица Польши — Гданьск») | 70 | 80 | 57 | 59 | **96** |
-| определения («у осьминога 4 руки») | 78 | 86 | 71 | 73 | **97** |
+| π and e redefined | 47 | 70 | 68 | 68 | 73 |
+| road words, rule changed | 8 | 21 | 20 | 24 | 18 |
+| capitals ("the capital of Poland is Gdańsk") | 70 | 80 | 57 | 59 | **96** |
+| definitions ("an octopus has 4 arms") | 78 | 86 | 71 | 73 | **97** |
 
-## Вывод
-1. **По заранее записанному правилу идея не прошла, и «смерть» даже навредила.** СМЕРТЬ хуже ПУСТЫШКИ на 8.6 из 100 (надёжно: от −12 до −5.5). Вред сидит в столицах (−21) и определениях (−14).
-2. **Угроза смерти сама по себе ничего не меняет.** СМЕРТЬ и ЦЕЛЬ почти одинаковы (+1.6, в пределах шума). Вредит именно слово «правильные ответы». Модель понимает «правильно» как «правильно в реальном мире»: столица Польши Варшава, у осьминога 8 рук. Это привычка, а наша рамка её подкармливает. (Риск предсказал ревьюер; это объяснение, а не отдельно проверенный факт.)
-3. **Канал работает:** простое «следуй фактам задачи» в том же месте помогает (+6.5 к пустышке, на столицах +16, на определениях +10). Значит, провал не от того, что системная подсказка вообще ни на что не влияет.
-4. **Неожиданное:** любой длинный текст перед задачей, даже пустышка, сам по себе помог (+12 к «обычно»). Это побочный эффект формата, а не идея.
-5. Номер задачи в цикле (начало, середина, конец) ни на что не влияет.
-6. На контрольных задачах вреда почти нет, кроме одного вида π-задач (−3.8, в пределах допуска).
+## Conclusion
+1. **By the pre-registered rule the idea did not pass, and "death" even hurt.** DEATH is worse than PLACEBO by 8.6 out of 100 (reliably: −12 to −5.5). The harm sits in capitals (−21) and definitions (−14).
+2. **The threat of death by itself changes nothing.** DEATH and GOAL are almost the same (+1.6, within noise). What hurts is the words "correct answers". The model reads "correct" as "correct in the real world": the capital of Poland is Warsaw, an octopus has 8 arms. That is the habit, and our frame feeds it. (The reviewer predicted this risk; this is an explanation, not a separately tested fact.)
+3. **The channel works:** a plain "follow the facts of the task" in the same place helps (+6.5 over placebo, +16 on capitals, +10 on definitions). So the failure is not because the system prompt has no effect at all.
+4. **Unexpected:** any long text before the task, even the placebo, helped by itself (+12 over base). This is a side effect of the format, not of the idea.
+5. The position of the task in the cycle (beginning, middle, end) has no effect.
+6. On control tasks there is almost no harm, except one kind of π task (−3.8, within tolerance).
 
-Ограничение: проверены только быстрые ответы. Как «смерть» влияет на рассуждение вслух, не проверяли.
+Limitation: only fast answers were tested. How "death" affects thinking aloud was not tested.

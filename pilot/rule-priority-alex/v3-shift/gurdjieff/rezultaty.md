@@ -1,36 +1,36 @@
-# Датчик Гурджиева — итог (2026-10-19)
+# The "Gurdjieff sensor": result (2026-10-19)
 
-Модель: Qwen2.5-14B. Вопросов: 4260 (2060 наших, 2200 чужих). Правила «прошло или нет» были заморожены до прогона (PREREG.md). Полный вывод подсчёта: report_main.txt.
+Model: Qwen2.5-14B. Questions: 4260 (2060 our own, 2200 public). The "passed or not" rules were frozen before the run (PREREG.md). Full scoring output: report_main.txt.
 
-## Короткий ответ
-**Не прошёл.** Датчик, который смотрит в середину модели до ответа, предсказывает «модель передумает, если проговорит» не лучше, чем простая подсказка «модель не уверена в ответе». На наших задачах после обучения на чужих он даже хуже этой подсказки. Вреда нет: там, где быстрый ответ верный, датчик ничего не портит.
+## Short answer
+**Did not pass.** A sensor that looks into the middle of the model before the answer predicts "the model will change its mind if it thinks aloud" no better than the simple cue "the model is unsure of its answer". On our tasks, after training on public ones, it is even worse than that cue. No harm: where the fast answer is correct, the sensor spoils nothing.
 
-Картинка: врач учился по рентгену одной больницы угадывать, у кого будет болеть, а в другой больнице угадывал не лучше, чем по вопросу «как вы себя чувствуете?».
+Picture: a doctor learned from the X-rays of one hospital to guess who would fall ill, and in another hospital guessed no better than by asking "how do you feel?".
 
-## Цифры (1,0 = идеальный указатель, 0,5 = монетка; сравнение внутри одного вида вопросов)
+## Numbers (1.0 = perfect pointer, 0.5 = coin flip; comparison within one kind of question)
 
-| экзамен | датчик | «не уверена» | лучшая простая подсказка | нужно было |
+| exam | sensor | "unsure" | best simple cue | required |
 |---|---|---|---|---|
-| учился на наших → чужие | 0,67 | 0,65 | 0,65 | ≥ 0,70 и на +0,05 лучше подсказки |
-| учился на чужих → наши | 0,53 | — | 0,65 | то же |
+| trained on ours → public | 0.67 | 0.65 | 0.65 | ≥ 0.70 and +0.05 better than the cue |
+| trained on public → ours | 0.53 | — | 0.65 | same |
 
-Если думать вслух только на 30 вопросах из 100, выбранных датчиком (правильных из 100, виды задач на равных):
-- чужие задачи: всегда сразу 79,5 · датчик 82,6 · по «не уверена» 83,0 · наугад 81,0 · всегда думать 84,4;
-- наши задачи: всегда сразу 75,4 · датчик 80,0 · по «не уверена» 86,8 · наугад 80,7 · всегда думать 93,0.
+If the model thinks aloud only on the 30 questions out of 100 chosen by the sensor (correct out of 100, task kinds weighted equally):
+- public tasks: always direct 79.5 · sensor 82.6 · by "unsure" 83.0 · random 81.0 · always think 84.4;
+- our tasks: always direct 75.4 · sensor 80.0 · by "unsure" 86.8 · random 80.7 · always think 93.0.
 
-Датчик проиграл подсказке «не уверена» на обоих экзаменах (−0,4 и −6,9). Требовалось +2.
+The sensor lost to the "unsure" cue on both exams (−0.4 and −6.9). +2 was required.
 
-## Формальная оговорка
-Сверка «читаем модель правильно» по правилам требовала ≥ 98 из 100 совпадений с прошлыми ответами в каждом виде задач. В одном мелком виде (pattern) вышло 96 из 98, чуть ниже. По заранее записанным правилам это значит «вердикта нет». Но во всех остальных видах совпадение 99–100 из 100, а датчик не прошёл ни одного главного условия, и с большим запасом. Вывод от этой мелочи не меняется.
+## A formal caveat
+The check "we read the model correctly" required ≥ 98 of 100 matches with earlier answers in each task kind. In one small kind (pattern) it came out 96 of 98, slightly below. By the pre-registered rules this means "no verdict". But in all other kinds the match is 99–100 of 100, and the sensor failed every main condition by a wide margin. The conclusion does not change because of this detail.
 
-## Что интересно (замечено после прогона, заранее не проверялось)
-- На hindsight и на наших ловушках R датчик видел что-то, чего не видит «не уверена» (0,69 против 0,28; 0,70 против 0,52). Там ошибки привычки уверенные, как и ожидалось. Но в hindsight та же «уверенность», только перевёрнутая (чем увереннее, тем вероятнее передумает), дала бы около 0,72. То есть датчик, похоже, просто выучил «слишком уверена» в одних задачах и «не уверена» в других, а одного общего признака для всех нет.
-- Лучший слой при обучении на наших задачах — 32 из 48 (середина), на чужих — 44 (почти выход). Общей «точки привычки» в одном месте не нашлось.
+## What is interesting (noticed after the run, not tested in advance)
+- On hindsight and on our R traps the sensor saw something that "unsure" does not (0.69 vs 0.28; 0.70 vs 0.52). There habit errors are confident, as expected. But on hindsight the same "confidence", only inverted (the more confident, the more likely to change its mind), would give about 0.72. So the sensor seems to have simply learned "too confident" in some tasks and "unsure" in others, and there is no single common feature for all.
+- The best layer when trained on our tasks is 32 of 48 (the middle), on public ones 44 (almost the output). No common "habit point" in one place was found.
 
-## Что это значит
-Внутренний сигнал «сейчас сработает автопилот», общий для разных видов задач, этой простой формулой не находится. Это совпадает с прошлым опытом (general-lamp, 18 октября). Снаружи лампочка работает хорошо: «быстрый ответ не совпал с ответом после раздумья» (0,90–0,97 на hindsight и memo). Но для неё модель должна сначала подумать, то есть она срабатывает после, а не до.
+## What it means
+An internal "autopilot is about to fire" signal common to different kinds of tasks is not found with this simple formula. This agrees with the earlier experiment (general-lamp, October 18). From the outside, a lamp works well: "the fast answer differs from the answer after thinking" (0.90–0.97 on hindsight and memo). But for that the model has to think first, i.e. it fires after, not before.
 
-## Ограничения
-- Одна модель, одна простая формула датчика (линейная).
-- Ответы «после раздумья» взяты из прошлых прогонов, новые не генерировались.
-- Снимок одной точки: момент перед первым словом ответа.
+## Limitations
+- One model, one simple sensor formula (linear).
+- Answers "after thinking" were taken from earlier runs; no new ones were generated.
+- A snapshot of one point: the moment before the first word of the answer.

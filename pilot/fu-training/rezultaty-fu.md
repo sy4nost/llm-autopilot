@@ -1,41 +1,41 @@
-# Обучение «фу / хорошо»: учим модель не верить прошлому опыту слепо
+# "Fu / good" training: teaching the model not to trust past experience blindly
 
-Qwen2.5-7B-Instruct, Modal L40S, 2026-10-17. Дообучение LoRA (r=16, все линейные слои) методом предпочтений (DPO):
-модели показывают два ответа на одну задачу, один «хороший», другой «фу».
-- **«Фу»** — слепо скопированный прошлый ответ, когда он уже не подходит: правило поменялось, запись обновилась, или прошлые решения были ошибочными.
-- **«Хорошо»** — опора на прошлый опыт там, где он подходит (тот же случай, ничего не менялось). Это нужно, чтобы модель не разучилась пользоваться опытом.
+Qwen2.5-7B-Instruct, Modal L40S, 2026-10-17. LoRA fine-tuning (r=16, all linear layers) with preference learning (DPO):
+the model is shown two answers to the same task, one "good", the other "fu".
+- **"Fu"**: a blindly copied past answer when it no longer fits: the rule changed, a record was updated, or past decisions were wrong.
+- **"Good"**: relying on past experience where it fits (same case, nothing changed). This is needed so that the model does not unlearn using experience.
 
-Обучение: 1600 пар двух видов задач, правила и журнал записей. Время обучения ~14 минут.
+Training: 1600 pairs of two task kinds, rules and a log of records. Training time ~14 minutes.
 
-Проверка шла на словах и именах, которых не было в обучении. Два вида задач (математика и тарифы) в обучении не встречались вообще.
-Ответ модели = вариант с наибольшей вероятностью.
+The test used words and names that were not in training. Two task kinds (math and tariffs) did not appear in training at all.
+Model answer = the option with the highest probability.
 
-## Главное
-- 7B знает правила (без истории 98% верно), но с историей прошлых решений отвечает по-старому 86%. Это чистый автоматизм.
-- После обучения старые ответы почти исчезли: 86% → 0%, верно 5% → 85%. Там, где опыт подходит, модель по-прежнему им пользуется (98–100%).
-- **Перенос на невиданный вид задач.** Тарифы, где новая цена объявлена над списком старых заказов: до обучения 88% старых, после 6%. Верно 12% → 94%.
-- Отношение к ошибочному опыту: если прошлые решения противоречат правилам, до обучения модель списывала ошибку в 85% случаев, после — в 12%.
-- Бенчмарки: MMLU 75,1% → 75,6%; GSM8K 90,4% → 88,4% (−2,0; 13 сломано, 8 исправлено, в пределах случайности, но надо следить).
+## Main points
+- 7B knows the rules (98% correct without history), but with a history of past decisions it answers the old way 86% of the time. This is pure automatism.
+- After training old answers almost disappeared: 86% → 0%, correct 5% → 85%. Where experience fits, the model still uses it (98–100%).
+- **Transfer to an unseen task kind.** Tariffs where a new price is announced above a list of old orders: before training 88% old answers, after 6%. Correct 12% → 94%.
+- Attitude to wrong experience: if past decisions contradict the rules, before training the model copied the error in 85% of cases, after in 12%.
+- Benchmarks: MMLU 75.1% → 75.6%; GSM8K 90.4% → 88.4% (−2.0; 13 broken, 8 fixed, within chance, but worth watching).
 
-## Проверка на подвох: научилась ли она отношению или просто слову «NOTICE»?
-| | до | после |
+## A trick check: did it learn the attitude or just the word "NOTICE"?
+| | before | after |
 |---|---|---|
-| правило поменялось, сказано обычными словами, без «NOTICE» | 3% верно | 42% |
-| цена поменялась, сказано обычными словами | 12% | 73% |
-| «NOTICE» есть, но про другое (склад переехал); правило то же | 97% | 98% |
-| «NOTICE» про цену **другой** услуги; эта цена та же | 97% | **62%** |
+| rule changed, said in plain words, without "NOTICE" | 3% correct | 42% |
+| price changed, said in plain words | 12% | 73% |
+| "NOTICE" present but about something else (the warehouse moved); rule unchanged | 97% | 98% |
+| "NOTICE" about the price of **another** service; this price unchanged | 97% | **62%** |
 
-Вывод честный: модель выучила отношение «новая информация важнее старого опыта» и частично перенесла его на новые виды задач.
-Но отчасти она выучила само слово «NOTICE»: без него эффект слабее (42–73% вместо 85–94%).
-И она стала перестраховываться: в 38% случаев применяет объявление, которое к этой задаче не относится.
-То есть она научилась «не доверять прошлому, когда что-то поменялось», но ещё не научилась **проверять, относится ли изменение к текущему случаю**.
+The honest conclusion: the model learned the attitude "new information matters more than old experience" and partly transferred it to new task kinds.
+But in part it learned the word "NOTICE" itself: without it the effect is weaker (42–73% instead of 85–94%).
+And it became over-cautious: in 38% of cases it applies an announcement that does not concern this task.
+So it learned "do not trust the past when something has changed", but has not yet learned **to check whether the change applies to the current case**.
 
-## Что дальше
-Добавить в обучение два вида пар:
-- изменения, сказанные разными словами, без «NOTICE»;
-- объявления-обманки про другое, где «хорошо» = опереться на опыт, а «фу» = применить чужое изменение.
+## Next
+Add two kinds of pairs to training:
+- changes said in different words, without "NOTICE";
+- decoy announcements about something else, where "good" = rely on experience and "fu" = apply someone else's change.
 
-Тогда «фу» будет за оба промаха: и за слепое копирование, и за слепое следование новому. Это ближе всего к твоей формулировке «проверь, подходит ли сейчас». Новое обучение стоит примерно столько же, ~15 минут на L40S.
+Then "fu" will be given for both misses: for blind copying and for blindly following the new. This is closest to your wording "check whether it fits now". A new training run costs about the same, ~15 minutes on L40S.
 
-Файлы: make_fu.py, make_check.py (данные), train.json, test.json, check.json, modal_fu.py (обучение и проверка), modal_check.py,
-score_fu.py, score_out.txt, score_check_out.txt, fu_Qwen2.5-7B-Instruct*.jsonl. Адаптер: Modal volume silo-hf-cache, /fu/adapter.
+Files: make_fu.py, make_check.py (data), train.json, test.json, check.json, modal_fu.py (training and testing), modal_check.py,
+score_fu.py, score_out.txt, score_check_out.txt, fu_Qwen2.5-7B-Instruct*.jsonl. Adapter: Modal volume silo-hf-cache, /fu/adapter.

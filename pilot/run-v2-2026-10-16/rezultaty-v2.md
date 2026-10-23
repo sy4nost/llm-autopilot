@@ -1,44 +1,42 @@
-# Тест смены правила v2: результаты (2026-10-16)
+# Rule-switch test v2: results (2026-10-16)
 
-Прогон на Modal: 1.5B и 3B на L4, 7B на L40S в полной точности (float32). 512 заданий на модель, seed 1,
-N = 0, 2, 4, 8, 16, 32, 64. Самопроверка кэша прошла у всех (расхождение не больше 1e-4).
-Время на видеокартах около часа в сумме, расход около $1 из бесплатных $30.
-Полные сводки: `<модель>-seed1/summary.txt`, сырые таблицы там же (trials.csv, layers.csv).
+Run on Modal: 1.5B and 3B on L4, 7B on L40S in full precision (float32). 512 tasks per model, seed 1,
+N = 0, 2, 4, 8, 16, 32, 64. The cache self-check passed for all (difference at most 1e-4).
+GPU time about an hour in total, cost about $1 of the free $30.
+Full summaries: `<model>-seed1/summary.txt`, raw tables in the same place (trials.csv, layers.csv).
 
-## Допуск (N=0, нужно не меньше 85% на каждой рамке)
+## Gate (N=0, at least 85% required on each frame)
 
-| модель | рамка H | рамка S | итог |
+| model | frame H | frame S | result |
 |---|---|---|---|
-| 0.5B | 77% | 74% | не прошла, полный тест не гоняли |
-| 1.5B | 98% | 95% | прошла |
-| 3B | 100% | 100% | прошла |
-| 7B | 100% | 100% | прошла |
+| 0.5B | 77% | 74% | failed, full test not run |
+| 1.5B | 98% | 95% | passed |
+| 3B | 100% | 100% | passed |
+| 7B | 100% | 100% | passed |
 
-## Главное
+## Main points
 
-1. **Ошибок по старому правилу привычка не вызывает.** После 64 примеров одного правила 3B и 7B
-   ошибаются на новом правиле в 0–1% случаев, 1.5B около 5%, как и без истории вовсе (5% при N=0).
-2. **H1 (тяга к старому ответу в уверенности модели).** У 7B подтверждена: после привычки уверенность
-   в новом ответе ниже, чем после нейтральных строк, на 0.9–1.7 нат при любом N, и разница растёт с N
-   (наклон +0.08 [+0.05, +0.12]). Но уверенность остаётся огромной (около −9…−13 нат в пользу верного),
-   так что ответ это не меняет. У 1.5B и 3B не подтверждена: при коротких историях (N=2–4) тяга есть
-   (+0.5…+1.6 нат), а при длинных знак меняется.
-3. **Контроль из серых строк не нейтрален.** Длинная серая история сама сбивает модель: у 1.5B ошибки
-   растут с 7% до 19% при N=64, у 3B и 7B падает уверенность. Сравнение «привычка минус серые строки»
-   при больших N поэтому смешивает два эффекта; отрицательный наклон у 1.5B и 3B, скорее всего, отсюда.
-   Это вывод по таблицам, отдельной проверкой не подтверждён.
-4. **H2 (скрытая тяга в средних слоях) не подтверждена ни у одной модели.** Разбивка по стороне
-   привычного ответа даёт противоположные знаки (LEFT +, RIGHT −): это перекос логит-линзы к одной
-   стороне, а не привычка.
-5. **Где складывается ответ.** У больших моделей поздно и постепенно: 1.5B на индексах 19–20 из 28,
-   3B на 27–31 из 36, 7B на 23 из 28 (рывок слабый, 0.2 от итога). Резкий скачок, как у 0.5B в v1, не
-   повторился.
+1. **Habit causes no old-rule errors.** After 64 examples of one rule, 3B and 7B err on the new rule in 0–1% of
+   cases, 1.5B about 5%, the same as with no history at all (5% at N=0).
+2. **H1 (pull towards the old answer in the model's confidence).** Supported for 7B: after the habit, confidence
+   in the new answer is lower than after neutral lines by 0.9–1.7 nats at every N, and the difference grows with N
+   (slope +0.08 [+0.05, +0.12]). But confidence remains huge (about −9…−13 nats in favor of the correct answer),
+   so it does not change the answer. Not supported for 1.5B and 3B: with short histories (N=2–4) the pull is there
+   (+0.5…+1.6 nats), but with long ones the sign flips.
+3. **The grey-line control is not neutral.** A long grey history confuses the model by itself: for 1.5B errors
+   grow from 7% to 19% at N=64, for 3B and 7B confidence drops. The comparison "habit minus grey lines" at large N
+   therefore mixes two effects; the negative slope for 1.5B and 3B most likely comes from here.
+   This is an inference from the tables, not confirmed by a separate check.
+4. **H2 (hidden pull in the middle layers) is not supported for any model.** Splitting by the side of the
+   habitual answer gives opposite signs (LEFT +, RIGHT −): this is a logit-lens skew to one side, not habit.
+5. **Where the answer forms.** In larger models late and gradually: 1.5B at indices 19–20 of 28, 3B at 27–31 of 36,
+   7B at 23 of 28 (a weak jump, 0.2 of the final). The sharp jump seen in 0.5B in v1 did not repeat.
 
-## Что из этого следует для v3 (предложение)
+## Implications for v3 (proposal)
 
-- Нужен второй контроль, который не разбавляет правила: например, история из примеров обеих рамок
-  поровну без тренировки одной, или та же длина без истории (пустые строки другого вида).
-- Для 7B эффект есть только в уверенности. Чтобы увидеть его в ответах, задачу надо сделать труднее:
-  меньше обучающих примеров или правило, которое модель знает хуже.
-- Половинная точность (bfloat16) для 7B не годится для логит-линзы: самопроверка дала расхождение 0.28
-  при допуске 0.05. Полная точность на L40S стоит немного дороже, но надёжна.
+- A second control is needed that does not dilute the rules: e.g. a history with examples of both frames in equal
+  numbers without training one, or the same length without history (empty lines of another kind).
+- For 7B the effect is only in confidence. To see it in answers the task must be harder: fewer training examples
+  or a rule the model knows less well.
+- Half precision (bfloat16) for 7B is not suitable for the logit lens: the self-check gave a difference of 0.28
+  with a tolerance of 0.05. Full precision on L40S costs a bit more but is reliable.

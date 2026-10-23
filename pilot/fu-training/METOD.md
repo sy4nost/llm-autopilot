@@ -1,41 +1,43 @@
-# Метод «фу / хорошо»: как учить модель правильному отношению к опыту
+# The "fu / good" method: how to teach a model the right attitude to experience
 
-Зафиксировано 2026-10-17 по итогам двух обучений на Qwen2.5-7B (rezultaty-fu.md, rezultaty-fu-v2.md).
+Recorded 2026-10-17 after two training runs on Qwen2.5-7B (rezultaty-fu.md, rezultaty-fu-v2.md).
 
-## Цель
-Не отнимать у модели опыт и не учить её готовым ответам. Менять **отношение к опыту**:
-прошлое — подсказка, а не истина. Новое — тоже не истина по умолчанию.
+## Goal
+Not to take experience away from the model and not to teach it ready answers. To change its **attitude to experience**:
+the past is a hint, not the truth. The new is not the truth by default either.
 
-## Лестница навыка (формулировка Alex)
-1. **Заметить**: условие сейчас отличается от прошлого (в любых словах, не по ключевому слову).
-2. **Остановиться**: не отвечать по привычке.
-3. **Проверить, относится ли изменение к этому случаю.**
-4. **Ответить.**
-5. **Запомнить**: опыт пополняется, но не становится законом.
+## Skill ladder (Alex's wording)
+1. **Notice**: the condition now differs from the past (in any words, not by a keyword).
+2. **Stop**: do not answer by habit.
+3. **Check whether the change applies to this case.**
+4. **Answer.**
+5. **Remember**: experience grows but does not become law.
 
-## Принципы обучения
-1. **«Фу» за обе слепые ошибки, не за одну:**
-   - слепо скопировал прошлое, хотя оно уже не подходит;
-   - слепо применил новое, хотя оно к этому случаю не относится (обманки).
-2. **«Хорошо» за опору на опыт, когда он подходит.** Иначе модель разучится учиться на примерах.
-3. **Опыт бывает ошибочным.** Часть прошлых примеров специально неверна, правило важнее.
-4. **Ширина важнее количества.** Навык становится общим, только если он встречается в очень разных видах задач:
-   правила, записи, тарифы, расписания, инструкции, тексты, диалоги, математика, код.
-   Тысяча пар одного вида учит этому виду, а не отношению.
-5. **Разные формулировки.** Изменение подаётся по-разному: объявление, намёк, обычная фраза, в начале, в середине, в конце.
-6. **Постепенность (как у человека, нужно время):** от простого к сложному. Сначала явные изменения, потом скрытые,
-   потом обманки, потом смесь. Повторять прежние виды, чтобы не забывались.
+## Training principles
+1. **"Fu" for both blind errors, not just one:**
+   - blindly copied the past although it no longer fits;
+   - blindly applied the new although it does not apply to this case (decoys).
+2. **"Good" for relying on experience when it fits.** Otherwise the model unlearns learning from examples.
+3. **Experience can be wrong.** Some past examples are deliberately wrong; the rule matters more.
+4. **Breadth matters more than quantity.** The skill becomes general only if it appears in very different kinds of tasks:
+   rules, records, tariffs, schedules, instructions, texts, dialogues, math, code.
+   A thousand pairs of one kind teach that kind, not the attitude.
+5. **Different wordings.** The change is presented in different ways: announcement, hint, ordinary phrase, at the start, in the middle, at the end.
+6. **Gradualness (as for a human, it takes time):** from simple to complex. First explicit changes, then hidden ones,
+   then decoys, then a mix. Repeat earlier kinds so they are not forgotten.
 
-## Принципы проверки
-1. Проверять только на том, чего не было в обучении: новые слова, новые формулировки, **новые виды задач**.
-2. Всегда две стороны: ловушки (опыт уводит) **и** случаи, где опыт прав (включая обманки). Улучшение одной стороны ценой другой не считается успехом.
-3. Плюс общие тесты на вред: MMLU, GSM8K.
-4. Далёкий перенос: свободный ответ (не выбор из двух), тест автопилота Alex, самодельный GSM-NoOp.
-5. Сначала маленький прогон, расширять только при положительной динамике.
+## Testing principles
+1. Test only on what was not in training: new words, new wordings, **new kinds of tasks**.
+2. Always both sides: traps (experience misleads) **and** cases where experience is right (including decoys). Improving one side at the cost of the other is not success.
+3. Plus general harm tests: MMLU, GSM8K.
+4. Far transfer: free-form answers (not a choice of two), Alex's autopilot test, a self-made GSM-NoOp.
+5. A small run first; scale up only if the trend is positive.
 
-## Что уже показано
-- v1: старые ответы 86% → 0%; перенос на невиданные тарифы 12% → 94%; но выучено слово «NOTICE» и появилась слепая вера новому.
-- v2 (+обманки, +разные формулировки): на знакомых видах ловушки 88%, обманки 100%; на невиданных — перенос частичный.
+## What has been shown so far
+- v1: old answers 86% → 0%; transfer to unseen tariffs 12% → 94%; but the word "NOTICE" was learned and blind trust in the new appeared.
+- v2 (+decoys, +different wordings): on familiar kinds traps 88%, decoys 100%; on unseen kinds transfer is partial.
 
-## Следующий шаг по методу
-Широкое обучение: 8–10 разных видов задач, постепенно, со всеми видами пар; проверка на 3–4 видах, которых в обучении нет, и на свободном ответе.
+## Next step for the method
+Broad training: 8–10 different kinds of tasks, gradually, with all kinds of pairs; testing on 3–4 kinds not in training and on free-form answers.
+
+(Outcome: the broad v3 training failed its pre-registered test on public benchmarks; see v3/rezultaty-v3.md. The "fu" line is closed as a negative result.)

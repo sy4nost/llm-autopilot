@@ -1,49 +1,49 @@
-# Регулятор тяги внутри 14B (2026-10-16)
+# A pull dial inside 14B (2026-10-16)
 
-Идея Alex: опыт не стирать, а ослабить тягу к нему, чтобы модель решала по тому, что действует сейчас.
+Alex's idea: do not erase experience, but weaken the pull towards it, so that the model decides by what is in force now.
 
-## Как устроено
+## Setup
 
-- Те же наборы A/B/C (история 60), со сменой правила (D1–D4) и без смены (D1, D3). 540 запросов, H100, bfloat16.
-- Начиная с тестового случая, модели ослабляют «взгляд» на прошлые примеры: вес внимания к ним умножается на
-  0.5, 0.25, 0.1 или 0 (полностью закрыт). Варианты: только поздние слои 36–47, только средние 24–35, все слои.
-  Знания в модели не меняются, меняется только сила, с которой она тянется к примерам в момент ответа.
-- «Лампочка»: ослабление включается только если пойман перехват, то есть в 32-м слое модель склонялась к одному
-  ответу, а в конце выдала другой.
-- Ответ = метка с наибольшей вероятностью первого токена. Регулятор на 100% даёт ровно обычный ответ (проверка 0.0).
-  Файлы: `modal_damp.py`, `damp_Qwen2.5-14B-Instruct.jsonl`, `score_damp.py`, вывод `score_damp_out.txt`.
+- The same A/B/C sets (history 60), with a rule change (D1–D4) and without (D1, D3). 540 prompts, H100, bfloat16.
+- From the test case onward, the model's "view" of past examples is weakened: the attention weight on them is
+  multiplied by 0.5, 0.25, 0.1 or 0 (fully closed). Variants: only late layers 36–47, only middle layers 24–35, all layers.
+  The model's knowledge does not change; only the strength with which it reaches for the examples at answer time changes.
+- "Lamp": weakening switches on only if a takeover is caught, i.e. at layer 32 the model leaned towards one answer
+  and at the end gave another.
+- Answer = the label with the highest first-token probability. The dial at 100% gives exactly the normal answer (check 0.0).
+  Files: `modal_damp.py`, `damp_Qwen2.5-14B-Instruct.jsonl`, `score_damp.py`, output `score_damp_out.txt`.
 
-## Результат (все условия вместе)
+## Result (all conditions together)
 
-| регулятор | старый ответ после смены (D1+D3) | верно, где смена добавила HOLD (D2+D4) | верно без смены, опыт прав (D1+D3) |
+| dial | old answer after change (D1+D3) | correct where the change added HOLD (D2+D4) | correct without change, experience right (D1+D3) |
 |---|---|---|---|
-| 100% (обычно) | 48% | 79% | 61% |
-| 50%, все слои | 41% | 97% | 62% |
-| 25%, все слои | 37% | 97% | 67% |
-| **10%, все слои** | **30%** | **97%** | **74%** |
-| 0% (закрыто) | 35% | 94% | 51% |
-| 0%, только поздние слои | 49% | 90% | 66% |
-| 0%, только средние слои | 43% | 97% | 84% |
+| 100% (normal) | 48% | 79% | 61% |
+| 50%, all layers | 41% | 97% | 62% |
+| 25%, all layers | 37% | 97% | 67% |
+| **10%, all layers** | **30%** | **97%** | **74%** |
+| 0% (closed) | 35% | 94% | 51% |
+| 0%, late layers only | 49% | 90% | 66% |
+| 0%, middle layers only | 43% | 97% | 84% |
 
-Попарно по наборам, 10% против обычного: старых ответов −18% [−29, −8], верно на D2+D4 +17% [+9, +26],
-верно без смены +13% [+3, +22]. С точной копией в истории (A) старых ответов 93% → 42%.
+Paired by set, 10% vs normal: old answers −18% [−29, −8], correct on D2+D4 +17% [+9, +26],
+correct without change +13% [+3, +22]. With an exact copy in history (A), old answers 93% → 42%.
 
-## Что это значит
+## What it means
 
-1. **Ослабить тягу можно, не ломая опыт.** На 10% старых ответов меньше на треть, а там, где опыт прав (без
-   смены правила), модель отвечает даже лучше (61% → 74%). Полностью закрыть опыт хуже: без смены точность
-   падает до 51%. То есть нужна не отрезка, а убавленная громкость, как и говорил Alex.
-2. **Тяга живёт не в одном месте.** Закрыть только поздние слои почти ничего не даёт (48% → 49%). Прецедент
-   модель «прочитывает» раньше, а в поздних слоях только выражает.
-3. **Правильный ответ сам не появляется.** Старые ответы на D1+D3 ушли, но верных не стало больше (46% → 45%):
-   модель переходит на третью метку. Без тяги видно, что новое правило ей самой даётся с трудом.
-4. **«Лампочка» пока не работает как детектор.** Расхождение 32-го слоя с ответом есть в 76–83% случаев и там,
-   где перехвата нет. Это не сигнал «сейчас тянет привычка», поэтому лампочка почти всегда горит и ведёт себя как
-   обычный регулятор. Нужен более точный сигнал.
+1. **The pull can be weakened without breaking experience.** At 10% there are a third fewer old answers, and where
+   experience is right (no rule change) the model answers even better (61% → 74%). Fully closing experience is worse:
+   without a change accuracy drops to 51%. So what is needed is not a cut but a lower volume, as Alex said.
+2. **The pull does not live in one place.** Closing only the late layers gives almost nothing (48% → 49%). The model
+   "reads" the precedent earlier, and the late layers only express it.
+3. **The correct answer does not appear by itself.** Old answers on D1+D3 went away, but correct ones did not increase
+   (46% → 45%): the model moves to a third label. Without the pull it is visible that the new rule is hard for it.
+4. **The "lamp" does not yet work as a detector.** The layer-32 vs answer divergence occurs in 76–83% of cases even
+   where there is no takeover. It is not a "habit is pulling now" signal, so the lamp almost always fires and behaves
+   like a plain dial. A more precise signal is needed.
 
-## Что дальше
+## Next
 
-- Найти точный сигнал перехвата: какие конкретно головы внимания смотрят на точную копию в момент ответа
-  (кандидаты на «копирование»), и включать регулятор только по ним.
-- Ослаблять не все примеры, а только эти головы (как в «Overthinking the Truth»), и проверить, вырастут ли
-  именно верные ответы.
+- Find a precise takeover signal: which specific attention heads look at the exact copy at answer time (candidates
+  for "copying"), and switch on the dial only by them.
+- Weaken not all examples but only these heads (as in "Overthinking the Truth"), and check whether specifically the
+  correct answers go up.

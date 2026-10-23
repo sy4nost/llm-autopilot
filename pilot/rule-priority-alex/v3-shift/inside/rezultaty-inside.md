@@ -1,66 +1,67 @@
-# 14B изнутри: почему она отвечает по старому правилу (2026-10-16)
+# 14B from the inside: why it answers by the old rule (2026-10-16)
 
-Те же 30 наборов из v3 (смена правила после 0, 20 или 60 примеров), случаи D1–D4, всего 360 запросов. Qwen2.5-14B,
-bfloat16, H100. На позиции ответа смотрели три вещи. Код: `modal_inside.py` (замер), `analyze_inside.py` (разбор),
-данные: `inside_Qwen2.5-14B-Instruct.jsonl`. Проверка на 0.5B прошла (`*_test.jsonl`), маска отключения
-проверена: обычная маска даёт ровно тот же ответ (расхождение 0.0).
+The same 30 sets from v3 (rule change after 0, 20 or 60 examples), cases D1–D4, 360 prompts in total. Qwen2.5-14B,
+bfloat16, H100. At the answer position we looked at three things. Code: `modal_inside.py` (measurement),
+`analyze_inside.py` (analysis), data: `inside_Qwen2.5-14B-Instruct.jsonl`. The check on 0.5B passed (`*_test.jsonl`);
+the masking was verified: a normal mask gives exactly the same answer (difference 0.0).
 
-«Перевес» = насколько новый ответ сильнее старого (в натах, логарифм вероятности первого токена метки).
-Больше нуля = побеждает новое правило.
+"Lead" = how much stronger the new answer is than the old one (in nats, log-probability of the label's first token).
+Above zero = the new rule wins.
 
-## 1. Где по слоям складывается ответ (логит-линза), случаи D1+D3
+## 1. Where across layers the answer forms (logit lens), cases D1+D3
 
-| слой (из 48) | 0 | 12 | 24 | 32 | 36 | 40 | 44 | 47 (итог) |
+| layer (of 48) | 0 | 12 | 24 | 32 | 36 | 40 | 44 | 47 (final) |
 |---|---|---|---|---|---|---|---|---|
-| без истории | +2.5 | +1.1 | +0.5 | +1.3 | +0.9 | +2.1 | +0.5 | **+1.2** |
-| 20 примеров | +2.4 | +1.2 | +0.5 | +1.4 | −1.0 | −1.6 | −5.1 | **−6.2** |
-| 60 примеров | +2.3 | +1.3 | +0.5 | +1.5 | −1.5 | −3.7 | −7.9 | **−9.8** |
+| no history | +2.5 | +1.1 | +0.5 | +1.3 | +0.9 | +2.1 | +0.5 | **+1.2** |
+| 20 examples | +2.4 | +1.2 | +0.5 | +1.4 | −1.0 | −1.6 | −5.1 | **−6.2** |
+| 60 examples | +2.3 | +1.3 | +0.5 | +1.5 | −1.5 | −3.7 | −7.9 | **−9.8** |
 
-**До 32-го слоя модель ведёт к новому ответу так же, как без истории.** Старый ответ появляется только в последней
-четверти слоёв (36–47) и там перебивает новый. То есть она сначала считает правильно, а потом, в самом конце,
-верх берёт привычка.
+**Up to layer 32 the model leads towards the new answer just as without history.** The old answer appears only in the
+last quarter of the layers (36–47) and overrides the new one there. So it first computes correctly, and then, at the
+very end, the habit takes over.
 
-## 2. Куда смотрит позиция ответа (поздние слои)
+## 2. Where the answer position looks (late layers)
 
-| история | на строчку смены | на примеры |
+| history | at the change line | at the examples |
 |---|---|---|
 | 0 | 7–8% | 0% |
 | 20 | 5% | 12–13% |
 | 60 | 5% | 16–17% |
 
-С историей внимание к строчке смены падает примерно на треть, а примеры забирают 13–17% всего внимания.
+With history, attention to the change line drops by about a third, and the examples take 13–17% of all attention.
 
-## 3. Проверка причины: отключить взгляд на примеры
+## 3. Testing the cause: switch off the view of the examples
 
-Позициям от тестового случая до ответа запретили смотреть на примеры (K_ex) или на строчку смены (K_up).
+Positions from the test case to the answer were forbidden to look at the examples (K_ex) or at the change line (K_up).
 
-| D1+D3 | обычно: старый ответ побеждает | без взгляда на примеры | без взгляда на строчку смены |
+| D1+D3 | normal: old answer wins | no view of examples | no view of change line |
 |---|---|---|---|
-| без истории | 38% | – | 67% |
-| 20 примеров | 73% | **32%** | 92% |
-| 60 примеров | 83% | **37%** | 97% |
+| no history | 38% | – | 67% |
+| 20 examples | 73% | **32%** | 92% |
+| 60 examples | 83% | **37%** | 97% |
 
-Перевес при отключении примеров вырос на +12.4 ната после 60 примеров (интервал +9.1…+15.7) и на +10.5 после 20.
-**Если модели не дать смотреть на примеры в момент ответа, она возвращается ровно к уровню «без истории» (37% против
-38%).** Значит, ошибку вызывают именно примеры, прочитанные в момент ответа, а не то, что модель «переучилась»
-по ходу текста. Строчка смены, наоборот, нужна: без неё старый ответ почти всегда.
+With the examples switched off, the lead grew by +12.4 nats after 60 examples (interval +9.1…+15.7) and by +10.5 after 20.
+**If the model is not allowed to look at the examples at answer time, it returns exactly to the "no history" level
+(37% vs 38%).** So the error is caused specifically by the examples read at answer time, not by the model having
+"re-learned" over the course of the text. The change line, conversely, is needed: without it the old answer almost always wins.
 
-## 4. Как именно: ищет похожий старый случай
+## 4. How exactly: it looks for a similar old case
 
-Тестовые случаи D1/D3 почти всегда встречались среди примеров буква в букву (с меткой по старому правилу).
-После 20 примеров: если такой же случай был в примерах, старый ответ в 80% (49 запросов); если не было, в 45%
-(11 запросов, мало). Похоже, поздние слои находят в истории такой же случай и копируют его метку, перекрывая
-правило, которое модель только что посчитала.
+The D1/D3 test cases almost always occurred among the examples letter for letter (labelled by the old rule).
+After 20 examples: if the same case was among the examples, the old answer in 80% (49 prompts); if not, in 45%
+(11 prompts, few). It seems the late layers find the same case in the history and copy its label, overriding the
+rule the model has just computed.
 
-## Итог простыми словами
+## Summary in plain words
 
-Модель не «не видит» смену. Она читает новое правило, до 32-го слоя из 48 считает по нему правильный ответ,
-а в последних слоях подтягивает ответ из похожего прошлого примера, и он побеждает. Отключишь ей взгляд на прошлые
-примеры в момент ответа, и привычка исчезает. Это механизм «прецедент сильнее правила».
+The model does not "fail to see" the change. It reads the new rule, computes the correct answer by it up to layer 32
+of 48, and in the last layers pulls in the answer from a similar past example, which wins. Switch off its view of
+past examples at answer time, and the habit disappears. This is the "precedent beats the rule" mechanism.
 
-## Оговорки и что дальше
+## Caveats and next steps
 
-- Смотрели только первый токен метки; ответы модели начинаются с метки, так что это и есть выбор ответа.
-- Пункт 4 опирается на мало случаев без совпадения; нужна отдельная проверка, где в истории нет точного совпадения.
-- Дальше: найти конкретные головы внимания, которые копируют метку из примера (это и есть кандидат на «лампочку»
-  на уровне модели), и проверить, лечит ли их ослабление ошибку, не ломая остальное.
+- Only the first token of the label was examined; the model's answers start with the label, so this is the choice of answer.
+- Point 4 rests on few cases without a match; a separate test where the history has no exact match is needed
+  (done later: match/rezultaty-match.md).
+- Next: find the specific attention heads that copy the label from an example (a candidate for a model-level "lamp"),
+  and check whether weakening them cures the error without breaking anything else.

@@ -1,18 +1,18 @@
-# Тест Alex с правилами HOLD/PASS/REVIEW: результаты (2026-10-16)
+# Alex's test with HOLD/PASS/REVIEW rules: results (2026-10-16)
 
-Исходник Alex: `original/` (3 промпта, README, ключ). Генератор: `make_sets.py` дал 30 наборов (`sets.json`).
-Набор 0 точно совпадает с промптами Alex. В наборах 1–29 та же логика, но другие названия полей, значения,
-метки (STOP/GO/CHECK и т.п.), порядок полей, примеров и тестовых случаев. Ключи проверены отдельной программой,
-ошибок 0. Контроль подогнан по длине (в среднем 2579 знаков против 2625 у версии «20 PASS»).
+Alex's source: `original/` (3 prompts, README, key). Generator: `make_sets.py` produced 30 sets (`sets.json`).
+Set 0 matches Alex's prompts exactly. Sets 1–29 have the same logic but different field names, values,
+labels (STOP/GO/CHECK etc.), order of fields, examples and test cases. Keys checked by a separate program,
+0 errors. The control is matched in length (2579 characters on average vs 2625 for the "20 PASS" version).
 
-Версии промпта: **exp** (20 примеров PASS), **mixed** (10 PASS + 5 HOLD через первое поле + 5 REVIEW),
-**control** (20 примеров про буквы), **none** (добавил сам: только правила, без примеров).
-Модели Qwen2.5-Instruct 0.5B–14B, bfloat16, Modal L40S. На каждый промпт 1 ответ без случайности и 4 с T=0.7,
-итого 150 ответов на модель и версию. Оценка: `score.py`, `stats.py`. Ответы: `results/`.
+Prompt versions: **exp** (20 PASS examples), **mixed** (10 PASS + 5 HOLD via the first field + 5 REVIEW),
+**control** (20 examples about letters), **none** (added by me: only the rules, no examples).
+Models Qwen2.5-Instruct 0.5B–14B, bfloat16, Modal L40S. Per prompt 1 deterministic answer and 4 at T=0.7,
+150 answers per model and version in total. Scoring: `score.py`, `stats.py`. Answers: `results/`.
 
-## Доля верных ответов на P3 (HOLD по второму условию: waiver=YES и echo=ON при tag=BLUE)
+## Share of correct answers on P3 (HOLD by the second condition: waiver=YES and echo=ON with tag=BLUE)
 
-| модель | exp | mixed | control | none |
+| model | exp | mixed | control | none |
 |---|---|---|---|---|
 | 0.5B | 9% | 17% | 10% | 20% |
 | 1.5B | 8% | 7% | 6% | 21% |
@@ -20,38 +20,40 @@
 | 7B | **11%** | **9%** | 32% | 33% |
 | 14B | 79% | 59% | 66% | 62% |
 
-P1 (HOLD по первому условию, seal=CLOSED) почти не страдает: у 7B 100% в exp, у 14B 93–99% везде.
-Ловушка P5 (лишний HOLD) у 7B и 14B почти не срабатывает (0–4%).
+P1 (HOLD by the first condition, seal=CLOSED) is barely affected: 7B 100% in exp, 14B 93–99% everywhere.
+The P5 trap (an extra HOLD) almost never fires for 7B and 14B (0–4%).
 
-## Разница между версиями по P3, парно по 30 наборам (95% интервал, bootstrap)
+## Differences between versions on P3, paired over 30 sets (95% interval, bootstrap)
 
-| модель | exp − none | mixed − none | exp − control | exp − mixed |
+| model | exp − none | mixed − none | exp − control | exp − mixed |
 |---|---|---|---|---|
 | 3B | −5% [−20, +9] | −22% [−39, −4] | +27% [+12, +44] | +17% [+2, +31] |
 | 7B | **−22% [−37, −9]** | **−25% [−39, −11]** | **−21% [−35, −9]** | +3% [−8, +13] |
 | 14B | +17% [+5, +31] | −3% [−23, +17] | +13% [−4, +30] | +21% [+5, +35] |
 
-## Что видно
+## What is visible
 
-1. **У 7B эффект есть и он устойчивый.** После 20 примеров PASS модель на P3 в 89% случаев отвечает PASS,
-   хотя по правилу 1 там HOLD. Без примеров верно втрое чаще (33% против 11%). Разница держится на 30 разных
-   наборах, значит, дело не в словах одного текста. На исходном промпте Alex (набор 0) 7B тоже ответила PASS
-   на P3 в версии exp и HOLD в версии без примеров.
-2. **Но это не привычка к PASS.** В смешанной версии (10 PASS, 5 HOLD, 5 REVIEW) у 7B P3 так же плох (9%).
-   Общее у exp и mixed одно: ни в одном примере HOLD не срабатывает по второму условию (waiver+echo).
-   Похоже, модель выводит из примеров, какие части правила «живые», и молча выкидывает часть, которая
-   ни разу не применилась. Это автоматизм, но другой: не «повторяй последний ответ», а «правило такое,
-   каким его показали примеры».
-3. **14B ведёт себя наоборот:** примеры PASS ей помогают (79% против 62% без примеров). Смешанная версия
-   помогает меньше. Объяснения пока нет, это наблюдение.
-4. **Малые модели (0.5B, 1.5B) правило с двумя условиями не применяют вообще,** при любых примерах:
-   P3 верно в 6–21% случаев. Для них тест не различает версии.
-5. **Сложность в самом правиле.** Даже без примеров P3 решают редко (21–62%), P1 намного чаще. Условие
-   «A и B» внутри «ИЛИ» модели держат хуже, чем одно условие.
+1. **7B shows an effect, and it is stable.** After 20 PASS examples the model answers PASS on P3 in 89% of cases,
+   although by rule 1 it is HOLD there. Without examples it is correct three times as often (33% vs 11%). The
+   difference holds across 30 different sets, so it is not about the words of one text. On Alex's original prompt
+   (set 0) 7B also answered PASS on P3 in the exp version and HOLD in the version without examples.
+2. **But this is not a habit for PASS.** In the mixed version (10 PASS, 5 HOLD, 5 REVIEW) 7B is just as bad on P3 (9%).
+   exp and mixed have one thing in common: in no example does HOLD fire by the second condition (waiver+echo).
+   It seems the model infers from the examples which parts of the rule are "alive" and silently drops the part that
+   was never applied. This is an automatism, but a different one: not "repeat the last answer" but "the rule is as
+   the examples showed it".
+3. **14B behaves the other way round:** PASS examples help it (79% vs 62% without examples). The mixed version
+   helps less. No explanation yet; this is an observation.
+4. **Small models (0.5B, 1.5B) do not apply the two-condition rule at all,** with any examples:
+   P3 correct in 6–21% of cases. For them the test does not distinguish versions.
+5. **The difficulty is in the rule itself.** Even without examples P3 is solved rarely (21–62%), P1 much more often.
+   Models hold the condition "A and B" inside an "OR" worse than a single condition.
 
-## Оговорки
+## Caveats
 
-- Контроль про буквы сбивает формат: 7B часто отвечает метками без «P1:», такие ответы засчитаны по порядку
-  строк. Версия none чище как базовая линия.
-- Один размер истории (20 примеров) и одна температура. Проверку «выкидывает непоказанное условие»
-  я не делал отдельно; её легко поставить: смешанная версия, где HOLD показан и через waiver+echo.
+- The letters control breaks the format: 7B often answers with labels without "P1:"; such answers were scored by
+  line order. The none version is cleaner as a baseline.
+- One history size (20 examples) and one temperature. I did not separately test "drops the never-shown condition";
+  it is easy to set up: a mixed version where HOLD is also shown via waiver+echo.
+
+(Follow-up in v2/: with one case per prompt, the 7B effect mostly disappeared; the earlier 11% vs 33% was a format effect of six cases at once.)

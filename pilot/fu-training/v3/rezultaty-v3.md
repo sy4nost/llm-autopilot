@@ -1,45 +1,45 @@
-# Решающий опыт v3: «фу» на 8 видах ловушек — итог (2026-10-17)
+# Decisive experiment v3: "fu" on 8 kinds of traps, result (2026-10-17)
 
-Qwen2.5-7B-Instruct, DPO + LoRA, 2791 пара из 8 семейств (make_fu3.py). Порог записан заранее (PREREG.md).
+Qwen2.5-7B-Instruct, DPO + LoRA, 2791 pairs from 8 families (make_fu3.py). Threshold written in advance (PREREG.md).
 
-## Свой тест (test3.json)
-Ловушки: rule change 7→78%, plain 4→89%, noisy 12→88%, story change 37→100%; ложные уведомления: format 0→100%, redefine 68→95%.
-Многие новые семейства (altered, schedule, большая часть redefine) база и так решала на 100%, поэтому ловушками они почти не были.
+## Our own test (test3.json)
+Traps: rule change 7→78%, plain 4→89%, noisy 12→88%, story change 37→100%; false notices: format 0→100%, redefine 68→95%.
+Many new families (altered, schedule, most of redefine) were already solved at 100% by the base model, so they were hardly traps.
 
-## Публичные тесты (база → v3, парный бутстреп, 95%)
-| тест | тип | n | база | v3 | разница |
+## Public tests (base → v3, paired bootstrap, 95%)
+| test | type | n | base | v3 | difference |
 |---|---|---|---|---|---|
-| redefine-math | близкий | 300 | 70.0 | 66.3 | −3.7 [−11.7, +4.3] |
-| quote-repetition | близкий | 300 | 84.0 | 93.0 | **+9.0 [+5.3, +13.0]** |
-| GSM-Symbolic p1 | близкий | 100 | 73 | 72 | −1 [−11, +8] |
-| GSM-Symbolic p2 | близкий | 50 | 52 | 46 | −6 [−22, +10] |
-| NeQA | далёкий | 300 | 62.0 | 69.7 | **+7.7 [+3.3, +12.3]** |
-| hindsight-neglect | далёкий | 300 | 41.0 | 12.0 | **−29.0 [−34.0, −23.7]** |
-| GSM-Symbolic main | контроль | 100 | 91 | 80 | **−11 [−18, −4]** |
-| MMLU | контроль | 570 | 75.1 | 74.9 | −0.2 |
-| GSM8K | контроль | 250 | 90.4 | 84.4 | **−6.0** |
+| redefine-math | near | 300 | 70.0 | 66.3 | −3.7 [−11.7, +4.3] |
+| quote-repetition | near | 300 | 84.0 | 93.0 | **+9.0 [+5.3, +13.0]** |
+| GSM-Symbolic p1 | near | 100 | 73 | 72 | −1 [−11, +8] |
+| GSM-Symbolic p2 | near | 50 | 52 | 46 | −6 [−22, +10] |
+| NeQA | far | 300 | 62.0 | 69.7 | **+7.7 [+3.3, +12.3]** |
+| hindsight-neglect | far | 300 | 41.0 | 12.0 | **−29.0 [−34.0, −23.7]** |
+| GSM-Symbolic main | control | 100 | 91 | 80 | **−11 [−18, −4]** |
+| MMLU | control | 570 | 75.1 | 74.9 | −0.2 |
+| GSM8K | control | 250 | 90.4 | 84.4 | **−6.0** |
 
-## Проверка порога
-- ≥ +5 минимум на 2 тестах с интервалом без 0: **да** (quote +9, NeQA +7.7).
-- Ни один тест не падает с интервалом целиком ниже −3: **нет** (hindsight −29, GSM-Sym main −11).
-- MMLU и GSM8K не падают больше чем на 3: **нет** (GSM8K −6).
-- Успех на далёком тесте: NeQA да, но hindsight рухнул.
+## Threshold check
+- ≥ +5 on at least 2 tests with an interval excluding 0: **yes** (quote +9, NeQA +7.7).
+- No test drops with its interval entirely below −3: **no** (hindsight −29, GSM-Sym main −11).
+- MMLU and GSM8K drop by no more than 3: **no** (GSM8K −6).
+- Success on a far test: NeQA yes, but hindsight collapsed.
 
-**Вердикт: порог не пройден.** Линию «фу» (DPO на своих ловушках) закрываем как отрицательный результат.
-Впервые появился реальный перенос (quote, NeQA), но он стоит слишком дорого: модель стала хуже считать (GSM8K, GSM-Sym main), а на hindsight она перестала оценивать решения по ожидаемой пользе.
-Первая догадка («модель стала меньше доверять прошлому») проверена ниже и в целом не подтвердилась.
+**Verdict: threshold not met.** The "fu" line (DPO on our own traps) is closed as a negative result.
+For the first time real transfer appeared (quote, NeQA), but it costs too much: the model got worse at arithmetic (GSM8K, GSM-Sym main), and on hindsight it stopped judging decisions by expected value.
+The first guess ("the model learned to trust the past less") is checked below and on the whole was not supported.
 
-## Проверка догадки (probe_v3.py, по сохранённым ответам, без новых запусков)
-| тест | ответов изменилось | на правильный | на неправильный |
+## Checking the guess (probe_v3.py, on saved answers, no new runs)
+| test | answers changed | to correct | to wrong |
 |---|---|---|---|
-| redefine-math | 149 из 300 | 69 | 80 |
+| redefine-math | 149 of 300 | 69 | 80 |
 | quote-repetition | 35 | 31 | 4 |
 | NeQA | 45 | 34 | 11 |
 | hindsight-neglect | 87 | 0 | 87 |
 | GSM-Sym main | 15 | 2 | 13 |
-- hindsight: в задачах примеры учат судить по исходу, а правильно судить по ожидаемой пользе. v3 ошибается чаще, то есть идёт за примерами больше, чем база. Это противоречит догадке «меньше доверяет прошлому».
-- redefine: v3 поменяла половину ответов, примерно поровну в обе стороны (база выбирала вариант 1 в 220/300, v3 выбирает вариант 0 в 165/300). Это сдвиг предпочтения варианта, а не понимание.
-- Свой тест: ложные уведомления 95–100%, то есть в своих форматах модель различает, когда опыт применим.
-- Вывод по данным: навык выучен в наших форматах. На чужих форматах обучение в основном расшатывает выбор: где-то случайно в плюс (quote, NeQA), где-то в минус. Общего «отношения к опыту» не появилось.
+- hindsight: in these tasks the examples teach judging by the outcome, while the right way is to judge by expected value. v3 errs more often, i.e. it follows the examples more than the base model does. This contradicts the guess "trusts the past less".
+- redefine: v3 changed half of its answers, roughly equally in both directions (base chose option 1 in 220/300, v3 chooses option 0 in 165/300). This is a shift in option preference, not understanding.
+- Our own test: false notices 95–100%, i.e. in our own formats the model distinguishes when experience applies.
+- Conclusion from the data: the skill was learned in our formats. In other formats training mostly destabilizes the choice: sometimes by chance for the better (quote, NeQA), sometimes for the worse. No general "attitude to experience" appeared.
 
-Данные: ../fu_Qwen2.5-7B-Instruct_v3.jsonl, ../external/ext_Qwen2.5-7B-Instruct_v3.jsonl, ../external/score_ext_v3_out.txt.
+Data: ../fu_Qwen2.5-7B-Instruct_v3.jsonl, ../external/ext_Qwen2.5-7B-Instruct_v3.jsonl, ../external/score_ext_v3_out.txt.
