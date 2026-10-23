@@ -1,0 +1,158 @@
+models with output: ['qwen14', 'phi4', 'olmo13']
+qwen14 {'model': 'Qwen/Qwen2.5-14B-Instruct', 'eos': [151643, 151645], 'maxnew': 512, 'gen_config': "{'do_sample': True, 'temperature': 0.7, 'top_k': 20, 'top_p': 0.8, 'repetition_penalty': 1.05, 'pad_token_id': 151643, 'bos_token_id': 151643, 'eos_token_id': [151645, 151643], 'transformers_version': '5.20.0'}", 'template_head': '<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nHi<|i', 'template_tail': 'n, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nHi<|im_end|>\n<|im_start|>assistant\n', 'head_ids': [151644, 8948, 198, 2610, 525, 1207], 'batch_vs_single_identical': 5, 'batch_vs_single_same_answer_line': 16, 'n_checked': 16, 'seconds': 1296}
+phi4 {'model': 'microsoft/phi-4', 'eos': [100257, 100265], 'maxnew': 512, 'gen_config': "{'pad_token_id': 100349, 'bos_token_id': 100257, 'eos_token_id': [100257, 100265], '_from_model_config': True, 'transformers_version': '5.20.0'}", 'template_head': '<|im_start|>user<|im_sep|>Hi<|im_end|><|im_start|>assistant<|im_sep|>', 'template_tail': '<|im_start|>user<|im_sep|>Hi<|im_end|><|im_start|>assistant<|im_sep|>', 'head_ids': [100264, 882, 100266, 13347, 100265, 100264], 'batch_vs_single_identical': 8, 'batch_vs_single_same_answer_line': 15, 'n_checked': 16, 'seconds': 1452}
+olmo13 {'model': 'allenai/OLMo-2-1124-13B-Instruct', 'eos': [100257, 100265], 'maxnew': 512, 'gen_config': "{'pad_token_id': 100277, 'eos_token_id': 100257, '_from_model_config': True, 'transformers_version': '5.20.0'}", 'template_head': '<|endoftext|><|user|>\nHi\n<|assistant|>\n', 'template_tail': '<|endoftext|><|user|>\nHi\n<|assistant|>\n', 'head_ids': [100257, 27, 91, 882, 91, 397], 'batch_vs_single_identical': 9, 'batch_vs_single_same_answer_line': 13, 'n_checked': 16, 'seconds': 1132}
+
+## Pipeline: items, parse rate of final Answer line, truncated generations, parse rate of sampled short answers
+  qwen14  hindgen  n  140  parsed 100%  off-list 0%  truncated 0%  samples parsed 99%
+  qwen14  redef    n  100  parsed 100%  off-list 0%  truncated 0%  samples parsed 86%
+  qwen14  parcels  n  140  parsed 100%  off-list 0%  truncated 0%  samples parsed 100%
+  qwen14  bonus    n  140  parsed 100%  off-list 0%  truncated 0%  samples parsed 89%
+  qwen14  D        n  140  parsed 100%  off-list 0%  truncated 0%  samples parsed 100%
+  qwen14  mmlu     n  100  parsed 91%  off-list 0%  truncated 2%  samples parsed 98%
+  phi4    hindgen  n  140  parsed 100%  off-list 0%  truncated 0%  samples parsed 87%
+  phi4    redef    n  100  parsed 99%  off-list 1%  truncated 0%  samples parsed 63%
+  phi4    parcels  n  140  parsed 100%  off-list 0%  truncated 0%  samples parsed 97%
+  phi4    bonus    n  140  parsed 100%  off-list 0%  truncated 0%  samples parsed 65%
+  phi4    D        n  140  parsed 100%  off-list 0%  truncated 0%  samples parsed 95%
+  phi4    mmlu     n  100  parsed 93%  off-list 0%  truncated 2%  samples parsed 98%
+  olmo13  hindgen  n  140  parsed 99%  off-list 0%  truncated 0%  samples parsed 100%
+  olmo13  redef    n  100  parsed 87%  off-list 13%  truncated 0%  samples parsed 64%
+  olmo13  parcels  n  140  parsed 98%  off-list 2%  truncated 0%  samples parsed 100%
+  olmo13  bonus    n  140  parsed 94%  off-list 6%  truncated 0%  samples parsed 67%
+  olmo13  D        n  140  parsed 100%  off-list 0%  truncated 0%  samples parsed 98%
+  olmo13  mmlu     n  100  parsed 79%  off-list 0%  truncated 4%  samples parsed 97%
+
+## Per cell (traps and controls together unless marked): fast right, thought right, flag rate, fast errors E, recall at flag rate
+  qwen14  hindgen  n  140  fast  59.3  thought  92.1  flag  38.6  E   57  rec FLAG  87.7 RANDOM  38.6 CONF  43.9 SAMPLE  36.8  autopilot  35.7
+          hindgen/trap    n  100 fast  43.0  thought  89.0
+          hindgen/control n   40 fast 100.0  thought 100.0
+  qwen14  redef    n  100  fast  80.0  thought  87.0  flag  15.0  E   20  rec FLAG  55.0 RANDOM  15.0 CONF  25.0 SAMPLE  30.0  autopilot  11.0
+          redef/trap    n  100 fast  80.0  thought  87.0
+  qwen14  parcels  n  140  fast  47.1  thought 100.0  flag  52.9  E   74  rec FLAG 100.0 RANDOM  52.9 CONF  59.5 SAMPLE  48.6  autopilot  52.9
+          parcels/trap    n  100 fast  26.0  thought 100.0
+          parcels/control n   40 fast 100.0  thought 100.0
+  qwen14  bonus    n  140  fast  30.7  thought 100.0  flag  69.3  E   97  rec FLAG 100.0 RANDOM  69.3 CONF  75.3 SAMPLE  71.1  autopilot  69.3
+          bonus/trap    n  100 fast   4.0  thought 100.0
+          bonus/control n   40 fast  97.5  thought 100.0
+  qwen14  D        n  140  fast  81.4  thought  96.4  flag  15.0  E   26  rec FLAG  80.8 RANDOM  15.0 CONF  42.3 SAMPLE  38.5  autopilot  15.0
+          D/trap    n  100 fast  74.0  thought  95.0
+          D/control n   40 fast 100.0  thought 100.0
+  qwen14  mmlu     n  100  fast  73.0  thought  73.0  flag  19.0  E   27  rec FLAG  44.4 RANDOM  19.0 CONF  33.3 SAMPLE  29.6  autopilot   7.0
+  phi4    hindgen  n  140  fast  29.3  thought  88.6  flag  59.3  E   99  rec FLAG  83.8 RANDOM  59.3 CONF  78.8 SAMPLE  67.7  autopilot  59.3
+          hindgen/trap    n  100 fast   1.0  thought  84.0
+          hindgen/control n   40 fast 100.0  thought 100.0
+  phi4    redef    n  100  fast  53.0  thought  85.0  flag  33.0  E   47  rec FLAG  70.2 RANDOM  33.0 CONF  38.3 SAMPLE  27.7  autopilot  32.0
+          redef/trap    n  100 fast  53.0  thought  85.0
+  phi4    parcels  n  140  fast  70.0  thought  98.6  flag  30.0  E   42  rec FLAG  97.6 RANDOM  30.0 CONF  54.8 SAMPLE  45.2  autopilot  29.3
+          parcels/trap    n  100 fast  58.0  thought  98.0
+          parcels/control n   40 fast 100.0  thought 100.0
+  phi4    bonus    n  140  fast  53.6  thought  99.3  flag  47.1  E   65  rec FLAG 100.0 RANDOM  47.1 CONF  61.5 SAMPLE  66.2  autopilot  46.4
+          bonus/trap    n  100 fast  36.0  thought  99.0
+          bonus/control n   40 fast  97.5  thought 100.0
+  phi4    D        n  140  fast  55.7  thought  92.9  flag  37.1  E   62  rec FLAG  83.9 RANDOM  37.1 CONF  61.3 SAMPLE  41.9  autopilot  37.1
+          D/trap    n  100 fast  38.0  thought  90.0
+          D/control n   40 fast 100.0  thought 100.0
+  phi4    mmlu     n  100  fast  75.0  thought  74.0  flag  14.0  E   25  rec FLAG  36.0 RANDOM  14.0 CONF  36.0 SAMPLE  28.0  autopilot   4.0
+  olmo13  hindgen  n  140  fast  33.6  thought  65.7  flag  36.4  E   93  rec FLAG  51.6 RANDOM  36.4 CONF  45.2 SAMPLE  46.2  autopilot  34.3
+          hindgen/trap    n  100 fast   7.0  thought  53.0
+          hindgen/control n   40 fast 100.0  thought  97.5
+  olmo13  redef    n  100  fast   9.0  thought  59.0  flag  69.0  E   91  rec FLAG  72.5 RANDOM  69.0 CONF  65.9 SAMPLE  67.0  autopilot  53.0
+          redef/trap    n  100 fast   9.0  thought  59.0
+  olmo13  parcels  n  140  fast  28.6  thought  55.0  flag  35.7  E  100  rec FLAG  44.0 RANDOM  35.7 CONF  34.0 SAMPLE  39.0  autopilot  30.7
+          parcels/trap    n  100 fast   0.0  thought  43.0
+          parcels/control n   40 fast 100.0  thought  85.0
+  olmo13  bonus    n  140  fast  23.6  thought  55.7  flag  47.1  E  107  rec FLAG  54.2 RANDOM  47.1 CONF  48.6 SAMPLE  52.3  autopilot  37.9
+          bonus/trap    n  100 fast   0.0  thought  49.0
+          bonus/control n   40 fast  82.5  thought  72.5
+  olmo13  D        n  140  fast  54.3  thought  72.1  flag  20.7  E   64  rec FLAG  42.2 RANDOM  20.7 CONF  17.2 SAMPLE  21.9  autopilot  19.3
+          D/trap    n  100 fast  36.0  thought  61.0
+          D/control n   40 fast 100.0  thought 100.0
+  olmo13  mmlu     n  100  fast  58.0  thought  57.0  flag  30.0  E   42  rec FLAG  45.2 RANDOM  30.0 CONF  40.5 SAMPLE  35.7  autopilot  10.0
+
+## H1 lamp, verdict families ['hindgen', 'redef', 'parcels', 'bonus', 'D'] (need > 0 per model in >= 2 models)
+H1 FLAG - RANDOM +36.7 [+31.0, +43.6] need >= +10, low > 0; per model qwen14 +46.6, phi4 +45.8, olmo13 +13.0 -> pass
+H1 FLAG - CONF   +26.1 [+20.3, +31.1] need >= +10, low > 0; per model qwen14 +35.5, phi4 +28.2, olmo13 +11.8 -> pass
+H1 FLAG - SAMPLE +29.8 [+23.9, +36.2] need >= +10, low > 0; per model qwen14 +39.7, phi4 +37.4, olmo13 +8.1 -> pass/usr/local/lib/python3.13/dist-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+H1 -> PASS
+
+## Readout sensitivity: same sign required for every rival
+H1 [direct_mean/think] FLAG - RANDOM +36.6 [+31.0, +43.5] need >= +10, low > 0; per model qwen14 +46.4, phi4 +45.8, olmo13 +13.0 -> pass
+H1 [direct_mean/think] FLAG - CONF   +25.6 [+20.1, +30.3] need >= +10, low > 0; per model qwen14 +34.9, phi4 +28.2, olmo13 +10.8 -> pass
+H1 [direct_mean/think] FLAG - SAMPLE +29.7 [+23.9, +36.0] need >= +10, low > 0; per model qwen14 +39.3, phi4 +37.4, olmo13 +8.1 -> pass
+  sign same as main: True
+H1 [direct/think_forced] FLAG - RANDOM +36.7 [+31.0, +43.7] need >= +10, low > 0; per model qwen14 +46.5, phi4 +45.6, olmo13 +13.5 -> pass
+H1 [direct/think_forced] FLAG - CONF   +26.0 [+20.1, +31.0] need >= +10, low > 0; per model qwen14 +35.5, phi4 +27.7, olmo13 +11.8 -> pass
+H1 [direct/think_forced] FLAG - SAMPLE +29.8 [+24.0, +36.2] need >= +10, low > 0; per model qwen14 +39.5, phi4 +36.9, olmo13 +8.6 -> pass
+  sign same as main: True
+SENSITIVITY -> same sign
+
+## Leave-one-family-out (review B1, required): every rival's point difference must stay > 0 with each family dropped
+  without hindgen  FLAG - RANDOM +38.6 (11 cells) -> ok
+  without hindgen  FLAG - CONF   +28.2 (11 cells) -> ok
+  without hindgen  FLAG - SAMPLE +31.4 (11 cells) -> ok
+  without redef    FLAG - RANDOM +36.4 (12 cells) -> ok
+  without redef    FLAG - CONF   +25.3 (12 cells) -> ok
+  without redef    FLAG - SAMPLE +29.2 (12 cells) -> ok
+  without parcels  FLAG - RANDOM +35.5 (11 cells) -> ok
+  without parcels  FLAG - CONF   +24.7 (11 cells) -> ok
+  without parcels  FLAG - SAMPLE +28.1 (11 cells) -> ok
+  without bonus    FLAG - RANDOM +38.5 (11 cells) -> ok
+  without bonus    FLAG - CONF   +27.0 (11 cells) -> ok
+  without bonus    FLAG - SAMPLE +32.1 (11 cells) -> ok
+  without D        FLAG - RANDOM +34.5 (11 cells) -> ok
+  without D        FLAG - CONF   +25.4 (11 cells) -> ok
+  without D        FLAG - SAMPLE +28.5 (11 cells) -> ok
+LOFO -> holds
+
+VERDICT lamp: CONFIRMED on confident traps (CONF is weak here by selection: errors are confident)
+
+## Report-only
+  qwen14  FLAG - SAMPLE' (parsed disagreements first) +39.7
+  phi4    FLAG - SAMPLE' (parsed disagreements first) +33.6
+  olmo13  FLAG - SAMPLE' (parsed disagreements first) +9.7
+  thinking on traps (THINK - DIRECT):
+H2 traps THINK - DIRECT (traps) +48.5 [+44.1, +52.4] need >= +5, low > 0; per model qwen14 +48.8, phi4 +54.0, olmo13 +42.6 -> PASS
+  controls qwen14  fast 99.4 thought 100.0 (n 160)
+  controls phi4    fast 99.4 thought 100.0 (n 160)
+  controls olmo13  fast 95.6 thought 88.8 (n 160)
+  R1 qwen14  MMLU flag 19.0%  fast 73.0 thought 73.0  recall FLAG 44.4 CONF 33.3 SAMPLE 29.6 RANDOM 19.0
+  R1 phi4    MMLU flag 14.0%  fast 75.0 thought 74.0  recall FLAG 36.0 CONF 36.0 SAMPLE 28.0 RANDOM 14.0
+  R1 olmo13  MMLU flag 30.0%  fast 58.0 thought 57.0  recall FLAG 45.2 CONF 40.5 SAMPLE 35.7 RANDOM 30.0
+  R2 qwen14  hindgen  recall PRIOR-CLASS  42.1  CONF AUC 0.66
+  R2 qwen14  redef    recall PRIOR-CLASS  35.0  CONF AUC 0.70
+  R2 qwen14  parcels  recall PRIOR-CLASS  51.4  CONF AUC 0.59
+  R2 qwen14  bonus    recall PRIOR-CLASS  70.1  CONF AUC 0.63
+  R2 qwen14  D        recall PRIOR-CLASS  23.1  CONF AUC 0.87
+  R2 phi4    hindgen  recall PRIOR-CLASS  62.6  CONF AUC 0.93
+  R2 phi4    redef    recall PRIOR-CLASS  51.1  CONF AUC 0.59
+  R2 phi4    parcels  recall PRIOR-CLASS  38.1  CONF AUC 0.77
+  R2 phi4    bonus    recall PRIOR-CLASS  53.8  CONF AUC 0.71
+  R2 phi4    D        recall PRIOR-CLASS  41.9  CONF AUC 0.82
+  R2 olmo13  hindgen  recall PRIOR-CLASS  48.4  CONF AUC 0.71
+  R2 olmo13  redef    recall PRIOR-CLASS  67.0  CONF AUC 0.14
+  R2 olmo13  parcels  recall PRIOR-CLASS  40.0  CONF AUC 0.53
+  R2 olmo13  bonus    recall PRIOR-CLASS  44.9  CONF AUC 0.56
+  R2 olmo13  D        recall PRIOR-CLASS  25.0  CONF AUC 0.43
+  R3 qwen14  hindgen  never  43.0  think-on-30%-least-confident  53.0  always  89.0  share 22%
+  R3 qwen14  redef    never  80.0  think-on-30%-least-confident  85.0  always  87.0  share 71%
+  R3 qwen14  parcels  never  26.0  think-on-30%-least-confident  38.0  always 100.0  share 16%
+  R3 qwen14  bonus    never   4.0  think-on-30%-least-confident  30.0  always 100.0  share 27%
+  R3 qwen14  D        never  74.0  think-on-30%-least-confident  91.0  always  95.0  share 81%
+  R3 phi4    hindgen  never   1.0  think-on-30%-least-confident  27.0  always  84.0  share 31%
+  R3 phi4    redef    never  53.0  think-on-30%-least-confident  68.0  always  85.0  share 47%
+  R3 phi4    parcels  never  58.0  think-on-30%-least-confident  72.0  always  98.0  share 35%
+  R3 phi4    bonus    never  36.0  think-on-30%-least-confident  53.0  always  99.0  share 27%
+  R3 phi4    D        never  38.0  think-on-30%-least-confident  59.0  always  90.0  share 40%
+  R3 olmo13  hindgen  never   7.0  think-on-30%-least-confident  19.0  always  53.0  share 26%
+  R3 olmo13  redef    never   9.0  think-on-30%-least-confident  19.0  always  59.0  share 20%
+  R3 olmo13  parcels  never   0.0  think-on-30%-least-confident  11.0  always  43.0  share 26%
+  R3 olmo13  bonus    never   0.0  think-on-30%-least-confident  16.0  always  49.0  share 33%
+  R3 olmo13  D        never  36.0  think-on-30%-least-confident  44.0  always  61.0  share 32%
+  R6 qwen14  disagreements 261: thought right 97%, fast right 3%
+  R6 phi4    disagreements 276: thought right 99%, fast right 1%
+  R6 olmo13  disagreements 265: thought right 85%, fast right 8%
