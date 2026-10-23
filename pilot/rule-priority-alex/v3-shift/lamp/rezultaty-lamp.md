@@ -1,58 +1,58 @@
-# Лампочка «спор прошлого с текущим правилом» (14B, 2026-10-16)
+# Lamp "the past conflicts with the current rule" (14B, 2026-10-16)
 
-Идея: привычка — это не «модель смотрит в прошлое» (она делает это всегда), а спор, в котором прошлое
-побеждает текущее правило. Лампочка должна гореть только тогда, когда то, что несут «копирующие» головы,
-расходится с тем, что модель посчитала по текущему правилу.
+Idea: a habit is not "the model looks at the past" (it always does) but a conflict in which the past beats the
+current rule. The lamp should fire only when what the "copying" heads carry disagrees with what the model computed
+under the current rule.
 
-## Как устроено
+## Setup
 
-- Те же 540 запросов (A/B/C, история 60), проверка только на отложенной половине (наборы 16–30), потому что
-  головы искали на наборах 1–15. Головы: те же 20 (`top20.json`, слои 29–38).
-- Два показания в момент ответа:
-  - **что несут головы**: их вклад в ответ, переведённый в три метки;
-  - **что модель посчитала до них**: логит-линза в слоях 20, 24, 28, 29 (сырая и с поправкой на средний перекос),
-    а также ответ модели с отключёнными головами.
-- Лампочка горит, если эти два показания указывают на разные метки. Когда она горит, головы отключаются.
-- Файлы: `modal_lamp.py`, `lamp_Qwen2.5-14B-Instruct.jsonl`, `score_lamp.py`, вывод `score_lamp_out.txt`.
+- The same 540 prompts (A/B/C, history 60), tested only on the held-out half (sets 16–30), because the heads were
+  found on sets 1–15. Heads: the same 20 (`top20.json`, layers 29–38).
+- Two readings at answer time:
+  - **what the heads carry**: their contribution to the answer, translated into the three labels;
+  - **what the model computed before them**: logit lens at layers 20, 24, 28, 29 (raw and corrected for the mean
+    skew), and also the model's answer with the heads switched off.
+- The lamp fires if these two readings point to different labels. When it fires, the heads are switched off.
+- Files: `modal_lamp.py`, `lamp_Qwen2.5-14B-Instruct.jsonl`, `score_lamp.py`, output `score_lamp_out.txt`.
 
-## Результат
+## Result
 
-**Что несут головы.** Это подтвердилось: с точной копией в истории головы толкают старую метку в 100% случаев
-после смены правила, а без смены толкают ту же метку, и она верная (100%). То есть головы — это «прошлый ответ
-на такой же случай», не больше и не меньше.
+**What the heads carry.** Confirmed: with an exact copy in history, the heads push the old label in 100% of cases
+after the rule change, and without a change they push the same label, which is correct (100%). So the heads are
+"the past answer to the same case", no more and no less.
 
-**Где горит лампочка** (доля запросов):
+**Where the lamp fires** (share of prompts):
 
-| лампочка по | A, смена (привычка 90%) | B, смена (33%) | C, смена (0%) | A без смены (0%) | B+C без смены (0%) |
+| lamp by | A, change (habit 90%) | B, change (33%) | C, change (0%) | A no change (0%) | B+C no change (0%) |
 |---|---|---|---|---|---|
-| линза, слой 28 | 100% | 87% | 80% | 100% | 85% |
-| линза, слой 28, с поправкой | 73% | 73% | 80% | 73% | 78% |
-| ответ без голов | 40% | 53% | 47% | **3%** | 38% |
+| lens, layer 28 | 100% | 87% | 80% | 100% | 85% |
+| lens, layer 28, corrected | 73% | 73% | 80% | 73% | 78% |
+| answer without heads | 40% | 53% | 47% | **3%** | 38% |
 
-**Верных ответов на отложенных наборах:** обычно 63%, головы отключены всегда 69%, по лампочке 67–69%.
+**Correct answers on held-out sets:** normal 63%, heads always off 69%, by lamp 67–69%.
 
-## Что это значит
+## What it means
 
-1. **Показание «что модель посчитала по правилу» пока не читается.** Линза в слоях до 29-го почти всегда
-   показывает одну и ту же метку и не отражает правило. Поэтому лампочка на ней горит везде, даже без смены
-   правила. Раньше по средним значениям казалось, что «новый ответ ведёт до 32-го слоя», но по отдельному
-   запросу так прочитать нельзя: слишком шумно.
-2. **Сравнение «с головами / без голов» различает лучше**: в A без смены лампочка почти молчит (3%), а при смене
-   горит в 40%. Но в B и C она всё ещё горит в 38–53% случаев без всякой привычки.
-3. **Для этой задачи лампочка пока не нужна.** Если просто всегда отключать 20 голов, результат тот же (69%),
-   а там, где опыт прав (A без смены), ответы почти не страдают (97%).
+1. **The reading "what the model computed by the rule" cannot be read yet.** The lens in layers up to 29 almost
+   always shows the same label and does not reflect the rule. So a lamp based on it fires everywhere, even without a
+   rule change. Earlier, from averages, it seemed that "the new answer leads up to layer 32", but this cannot be read
+   off for an individual prompt: too noisy.
+2. **The comparison "with heads / without heads" discriminates better**: in A without a change the lamp is almost
+   silent (3%), and with a change it fires in 40%. But in B and C it still fires in 38–53% of cases without any habit.
+3. **For this task the lamp is not needed yet.** Simply always switching off the 20 heads gives the same result
+   (69%), and where experience is right (A without change) answers barely suffer (97%).
 
-## Что дальше
+## Next
 
-- Чтобы прочитать «что модель считает по правилу» в середине, нужен обученный считыватель вместо линзы:
-  маленький линейный классификатор поверх внутренних состояний, обученный на части наборов. Это стандартный
-  приём, и он обычно читает намного точнее линзы.
-- Проверить, не портит ли отключение 20 голов обычные задачи (математика, общие знания). Без этого прибавку +6–8
-  пунктов нельзя называть итоговой.
+- To read "what the model computes by the rule" in the middle, a trained reader is needed instead of the lens:
+  a small linear classifier on top of the internal states, trained on part of the sets. This is a standard technique
+  and usually reads much more accurately than the lens.
+- Check whether switching off the 20 heads spoils ordinary tasks (math, general knowledge). Without that, the +6–8
+  point gain cannot be called final.
 
-## Дополнение 2026-10-17: обученная лампочка по сохранённым показаниям (без новых запусков)
-`probe_lamp.py`, вывод `probe_lamp_out.txt`. Маленький классификатор обучен на наборах 0–14, проверен на 15–29. Цель: «ответ — старая метка, а правильная другая».
-- Отличает ошибки привычки от остальных ответов: AUC 0.91 (0.5 = наугад). Почти весь сигнал даёт одно показание: насколько ответ модели без 20 копирующих голов поддерживает выбранную метку (AUC 0.86). Линза по слоям ничего не даёт (0.50–0.56).
-- Горит: на ловушках 36%, на D2+D4 11%, без смены правила 8%.
-- Лампочка + тормоз (ответ без голов, когда горит): верных 63% → 70% (всегда отключать головы: 69%). Без смены правила ничего не портит (57% → 57%).
-- Ограничения: только наши задачи и 14B. Нужен второй проход модели (без голов). На публичных тестах внутренних показаний не сохраняли, поэтому там это не проверено.
+## Addendum 2026-10-17: a trained lamp on saved readings (no new runs)
+`probe_lamp.py`, output `probe_lamp_out.txt`. A small classifier trained on sets 0–14, tested on 15–29. Target: "the answer is the old label and the correct one is different".
+- Separates habit errors from other answers: AUC 0.91 (0.5 = chance). Almost all the signal comes from one reading: how much the model's answer without the 20 copying heads still supports the chosen label (AUC 0.86). The layer lens gives nothing (0.50–0.56).
+- Fires: on traps 36%, on D2+D4 11%, without a rule change 8%.
+- Lamp + brake (answer without heads when it fires): correct 63% → 70% (always switching off heads: 69%). Without a rule change it spoils nothing (57% → 57%).
+- Limitations: only our tasks and 14B. A second model pass (without heads) is needed. Internal readings were not saved on public tests, so it was not tested there.
