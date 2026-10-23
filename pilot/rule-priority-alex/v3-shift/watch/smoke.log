@@ -1,0 +1,74 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-dRzFOHtQtSpRwBsGxXwGc5
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/watch/modal_watc
+│   h.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   2%|▏         | 11/579 [00:01<01:09,  8.23it/s]
+[1ALoading weights:   2%|▏         | 14/579 [00:03<02:27,  3.83it/s]
+[1ALoading weights:  10%|▉         | 57/579 [00:04<00:34, 15.00it/s]
+[1ALoading weights:  10%|█         | 60/579 [00:11<02:01,  4.26it/s]
+[1ALoading weights:  12%|█▏        | 71/579 [00:17<02:52,  2.94it/s]
+[1ALoading weights:  13%|█▎        | 76/579 [00:25<04:21,  1.92it/s]
+[1ALoading weights:  16%|█▌        | 90/579 [00:32<04:08,  1.96it/s]
+[1ALoading weights:  16%|█▌        | 92/579 [00:33<04:22,  1.86it/s]
+[1ALoading weights:  16%|█▋        | 95/579 [00:40<06:01,  1.34it/s]
+[1ALoading weights:  19%|█▉        | 109/579 [00:45<04:23,  1.78it/s]
+[1ALoading weights:  21%|██        | 123/579 [00:45<02:33,  2.96it/s]
+[1ALoading weights:  24%|██▍       | 139/579 [00:46<01:48,  4.07it/s]
+[1ALoading weights:  26%|██▌       | 151/579 [00:48<01:32,  4.64it/s]
+[1ALoading weights:  27%|██▋       | 157/579 [00:52<01:56,  3.61it/s]
+[1ALoading weights:  27%|██▋       | 157/579 [01:05<01:56,  3.61it/s]
+[1ALoading weights:  27%|██▋       | 159/579 [01:05<05:26,  1.29it/s]
+[1ALoading weights:  28%|██▊       | 163/579 [01:08<05:24,  1.28it/s]
+[1ALoading weights:  28%|██▊       | 165/579 [01:11<06:01,  1.14it/s]
+[1ALoading weights:  31%|███       | 177/579 [01:15<03:53,  1.72it/s]
+[1ALoading weights:  31%|███       | 178/579 [01:16<04:17,  1.55it/s]
+[1ALoading weights:  31%|███▏      | 181/579 [01:18<04:10,  1.59it/s]
+[1ALoading weights:  31%|███▏      | 182/579 [01:25<07:33,  1.14s/it]
+[1ALoading weights:  32%|███▏      | 184/579 [01:31<09:39,  1.47s/it]
+[1ALoading weights:  32%|███▏      | 186/579 [01:34<09:52,  1.51s/it]
+[1ALoading weights:  36%|███▋      | 211/579 [01:41<03:11,  1.92it/s]
+[1ALoading weights:  41%|████      | 235/579 [01:42<01:38,  3.48it/s]
+[1ALoading weights:  41%|████      | 237/579 [01:47<02:23,  2.38it/s]
+[1ALoading weights:  41%|████▏     | 239/579 [01:50<02:51,  1.99it/s]
+[1ALoading weights:  43%|████▎     | 247/579 [01:54<02:41,  2.05it/s]
+[1ALoading weights:  45%|████▌     | 263/579 [01:59<02:09,  2.45it/s]
+[1ALoading weights:  47%|████▋     | 270/579 [02:02<02:09,  2.38it/s]
+[1ALoading weights:  48%|████▊     | 277/579 [02:06<02:13,  2.26it/s]
+[1ALoading weights:  48%|████▊     | 279/579 [02:07<02:22,  2.11it/s]
+[1ALoading weights:  49%|████▉     | 286/579 [02:18<03:52,  1.26it/s]
+[1ALoading weights:  51%|█████     | 295/579 [02:23<03:26,  1.38it/s]
+[1ALoading weights:  51%|█████▏    | 298/579 [02:27<03:43,  1.26it/s]
+[1ALoading weights:  56%|█████▌    | 322/579 [02:27<01:17,  3.34it/s]
+[1ALoading weights:  59%|█████▉    | 342/579 [02:32<01:04,  3.67it/s]
+[1ALoading weights:  60%|█████▉    | 347/579 [02:40<01:46,  2.18it/s]
+[1ALoading weights:  61%|██████    | 354/579 [02:44<01:44,  2.16it/s]
+[1ALoading weights:  62%|██████▏   | 361/579 [02:54<02:28,  1.46it/s]
+[1ALoading weights:  63%|██████▎   | 364/579 [02:56<02:34,  1.39it/s]
+[1ALoading weights:  63%|██████▎   | 366/579 [03:00<02:56,  1.21it/s]
+[1ALoading weights:  65%|██████▌   | 379/579 [03:06<02:10,  1.53it/s]
+[1ALoading weights:  69%|██████▊   | 398/579 [03:06<00:58,  3.09it/s]
+[1ALoading weights:  74%|███████▍  | 428/579 [03:08<00:27,  5.57it/s]
+[1ALoading weights:  76%|███████▌  | 438/579 [03:11<00:29,  4.76it/s][modal-client] 2026-10-17T22:50:44+0000 Modal Client → Modal Worker Heartbeat attempt failed (attempt_dur=83.95, time_since_heartbeat_success=83.95, error=ConnectionError('Deadline exceeded'))
+
+[1ALoading weights:  77%|███████▋  | 443/579 [03:20<00:54,  2.52it/s]
+[1ALoading weights:  77%|███████▋  | 446/579 [03:21<00:53,  2.48it/s]
+[1ALoading weights:  79%|███████▉  | 457/579 [03:25<00:46,  2.60it/s]
+[1ALoading weights:  80%|████████  | 466/579 [03:33<01:01,  1.85it/s]
+[1ALoading weights:  82%|████████▏ | 474/579 [03:35<00:48,  2.18it/s]
+[1ALoading weights:  82%|████████▏ | 475/579 [03:36<00:51,  2.00it/s]
+[1ALoading weights:  83%|████████▎ | 478/579 [03:40<01:01,  1.64it/s]
+[1ALoading weights:  86%|████████▌ | 499/579 [03:40<00:18,  4.22it/s]
+[1ALoading weights:  89%|████████▉ | 517/579 [03:46<00:17,  3.49it/s]
+[1ALoading weights:  92%|█████████▏| 531/579 [03:59<00:23,  2.08it/s]
+[1ALoading weights:  93%|█████████▎| 536/579 [04:01<00:19,  2.16it/s]
+[1ALoading weights:  96%|█████████▋| 558/579 [04:04<00:06,  3.23it/s]
+[1ALoading weights:  97%|█████████▋| 560/579 [04:07<00:07,  2.56it/s]Loading weights: 100%|██████████| 579/579 [04:07<00:00,  2.34it/s]
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/watch/watch_Qwen2.5-14B-Instruct_smoke.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-dRzFOHtQtSpRwBsGxXwGc5

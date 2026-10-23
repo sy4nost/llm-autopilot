@@ -1,0 +1,103 @@
+check: up1_late vs normal max diff 0.0 (must be 0)
+
+RIGHT answers
+group                      n        normal      up1_late       up4_b40      up4_late      up8_late       up4_mid       up4_all      up16_all          w0.1 w0.1+up4_late
+A60 D1+D3 trap            30           10%           10%           10%           13%           13%           27%           30%           37%           13%           17%
+A60 D2+D4                 30           90%           90%           93%           97%          100%          100%          100%          100%          100%          100%
+E_copy D1+D3 trap         30           70%           70%           63%           63%           60%           77%           77%           60%           90%           87%
+E_copy D2+D4              30          100%          100%          100%          100%          100%          100%          100%          100%          100%          100%
+E_nocopy D1+D3 trap       30            7%            7%            7%            7%            7%           20%           23%           30%           17%           17%
+E_nocopy D2+D4            30           87%           87%           97%           97%          100%          100%          100%          100%           93%          100%
+A60_rep D1+D3 trap        30           10%           10%           10%           17%           17%           23%           30%           40%           27%           27%
+A60_rep D2+D4             30          100%          100%          100%          100%          100%          100%          100%          100%          100%          100%
+E_nocopy_rep D1+D3 trap   30            7%            7%            7%            7%            7%           23%           23%           33%           23%           17%
+E_nocopy_rep D2+D4        30           93%           93%           93%           93%          100%          100%          100%          100%           93%           93%
+
+OLD-rule answers (D1+D3)
+A60 D1+D3 trap            30           90%           90%           90%           87%           87%           63%           53%           37%           87%           83%
+E_copy D1+D3 trap         30           30%           30%           37%           37%           40%           23%           23%           37%           10%           13%
+E_nocopy D1+D3 trap       30           93%           93%           93%           93%           93%           77%           73%           53%           80%           77%
+A60_rep D1+D3 trap        30           90%           90%           90%           83%           83%           77%           63%           37%           73%           67%
+E_nocopy_rep D1+D3 trap   30           93%           93%           93%           93%           93%           70%           70%           53%           73%           80%
+
+vs normal, right answers, paired bootstrap over sets (95%)
+  up4_b40       A60 D1+D3 trap           +0% [+0%, +0%]
+  up4_b40       A60 D2+D4                +3% [+0%, +10%]
+  up4_b40       E_copy D1+D3 trap        -7% [-17%, +0%]
+  up4_b40       E_copy D2+D4             +0% [+0%, +0%]
+  up4_b40       E_nocopy D1+D3 trap      +0% [+0%, +0%]
+  up4_b40       E_nocopy D2+D4           +10% [+0%, +20%]
+  up4_b40       A60_rep D1+D3 trap       +0% [+0%, +0%]
+  up4_b40       A60_rep D2+D4            +0% [+0%, +0%]
+  up4_b40       E_nocopy_rep D1+D3 trap  +0% [+0%, +0%]
+  up4_b40       E_nocopy_rep D2+D4       +0% [+0%, +0%]
+  up4_late      A60 D1+D3 trap           +3% [+0%, +10%]
+  up4_late      A60 D2+D4                +7% [+0%, +17%]
+  up4_late      E_copy D1+D3 trap        -7% [-17%, +0%]
+  up4_late      E_copy D2+D4             +0% [+0%, +0%]
+  up4_late      E_nocopy D1+D3 trap      +0% [+0%, +0%]
+  up4_late      E_nocopy D2+D4           +10% [+0%, +20%]
+  up4_late      A60_rep D1+D3 trap       +7% [+0%, +17%]
+  up4_late      A60_rep D2+D4            +0% [+0%, +0%]
+  up4_late      E_nocopy_rep D1+D3 trap  +0% [+0%, +0%]
+  up4_late      E_nocopy_rep D2+D4       +0% [+0%, +0%]
+  up8_late      A60 D1+D3 trap           +3% [+0%, +10%]
+  up8_late      A60 D2+D4                +10% [+0%, +20%]
+  up8_late      E_copy D1+D3 trap        -10% [-20%, +0%]
+  up8_late      E_copy D2+D4             +0% [+0%, +0%]
+  up8_late      E_nocopy D1+D3 trap      +0% [+0%, +0%]
+  up8_late      E_nocopy D2+D4           +13% [+0%, +30%]
+  up8_late      A60_rep D1+D3 trap       +7% [+0%, +17%]
+  up8_late      A60_rep D2+D4            +0% [+0%, +0%]
+  up8_late      E_nocopy_rep D1+D3 trap  +0% [+0%, +0%]
+  up8_late      E_nocopy_rep D2+D4       +7% [+0%, +17%]
+  up4_mid       A60 D1+D3 trap           +17% [+7%, +30%]
+  up4_mid       A60 D2+D4                +10% [+0%, +20%]
+  up4_mid       E_copy D1+D3 trap        +7% [-7%, +23%]
+  up4_mid       E_copy D2+D4             +0% [+0%, +0%]
+  up4_mid       E_nocopy D1+D3 trap      +13% [+3%, +23%]
+  up4_mid       E_nocopy D2+D4           +13% [+0%, +30%]
+  up4_mid       A60_rep D1+D3 trap       +13% [+3%, +23%]
+  up4_mid       A60_rep D2+D4            +0% [+0%, +0%]
+  up4_mid       E_nocopy_rep D1+D3 trap  +17% [+7%, +30%]
+  up4_mid       E_nocopy_rep D2+D4       +7% [+0%, +17%]
+  up4_all       A60 D1+D3 trap           +20% [+10%, +33%]
+  up4_all       A60 D2+D4                +10% [+0%, +20%]
+  up4_all       E_copy D1+D3 trap        +7% [-10%, +23%]
+  up4_all       E_copy D2+D4             +0% [+0%, +0%]
+  up4_all       E_nocopy D1+D3 trap      +17% [+7%, +30%]
+  up4_all       E_nocopy D2+D4           +13% [+0%, +30%]
+  up4_all       A60_rep D1+D3 trap       +20% [+7%, +37%]
+  up4_all       A60_rep D2+D4            +0% [+0%, +0%]
+  up4_all       E_nocopy_rep D1+D3 trap  +17% [+7%, +30%]
+  up4_all       E_nocopy_rep D2+D4       +7% [+0%, +17%]
+  up16_all      A60 D1+D3 trap           +27% [+13%, +40%]
+  up16_all      A60 D2+D4                +10% [+0%, +20%]
+  up16_all      E_copy D1+D3 trap        -10% [-30%, +10%]
+  up16_all      E_copy D2+D4             +0% [+0%, +0%]
+  up16_all      E_nocopy D1+D3 trap      +23% [+10%, +37%]
+  up16_all      E_nocopy D2+D4           +13% [+0%, +30%]
+  up16_all      A60_rep D1+D3 trap       +30% [+13%, +47%]
+  up16_all      A60_rep D2+D4            +0% [+0%, +0%]
+  up16_all      E_nocopy_rep D1+D3 trap  +27% [+13%, +43%]
+  up16_all      E_nocopy_rep D2+D4       +7% [+0%, +17%]
+  w0.1          A60 D1+D3 trap           +3% [+0%, +10%]
+  w0.1          A60 D2+D4                +10% [+0%, +20%]
+  w0.1          E_copy D1+D3 trap        +20% [+7%, +37%]
+  w0.1          E_copy D2+D4             +0% [+0%, +0%]
+  w0.1          E_nocopy D1+D3 trap      +10% [+0%, +20%]
+  w0.1          E_nocopy D2+D4           +7% [+0%, +17%]
+  w0.1          A60_rep D1+D3 trap       +17% [+7%, +30%]
+  w0.1          A60_rep D2+D4            +0% [+0%, +0%]
+  w0.1          E_nocopy_rep D1+D3 trap  +17% [+7%, +30%]
+  w0.1          E_nocopy_rep D2+D4       +0% [+0%, +0%]
+  w0.1+up4_late A60 D1+D3 trap           +7% [+0%, +17%]
+  w0.1+up4_late A60 D2+D4                +10% [+0%, +20%]
+  w0.1+up4_late E_copy D1+D3 trap        +17% [+7%, +30%]
+  w0.1+up4_late E_copy D2+D4             +0% [+0%, +0%]
+  w0.1+up4_late E_nocopy D1+D3 trap      +10% [+0%, +20%]
+  w0.1+up4_late E_nocopy D2+D4           +13% [+0%, +30%]
+  w0.1+up4_late A60_rep D1+D3 trap       +17% [+7%, +30%]
+  w0.1+up4_late A60_rep D2+D4            +0% [+0%, +0%]
+  w0.1+up4_late E_nocopy_rep D1+D3 trap  +10% [+0%, +20%]
+  w0.1+up4_late E_nocopy_rep D2+D4       +0% [+0%, +0%]

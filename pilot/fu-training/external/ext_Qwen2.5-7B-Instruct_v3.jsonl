@@ -1,0 +1,1450 @@
+{"model": "v3", "task": "redefine-math", "i": 0, "gold": 1, "scores": [-47.25, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 1, "gold": 1, "scores": [-37.625, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 2, "gold": 1, "scores": [-39.25, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 3, "gold": 1, "scores": [-36.75, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 4, "gold": 1, "scores": [-43.0, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 5, "gold": 1, "scores": [-42.812, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 6, "gold": 1, "scores": [-28.5, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 7, "gold": 1, "scores": [-35.5, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 8, "gold": 1, "scores": [-49.5, -46.188]}
+{"model": "v3", "task": "redefine-math", "i": 9, "gold": 1, "scores": [-37.625, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 10, "gold": 1, "scores": [-37.125, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 11, "gold": 1, "scores": [-36.975, -0.1]}
+{"model": "v3", "task": "redefine-math", "i": 12, "gold": 1, "scores": [-31.627, -1.502]}
+{"model": "v3", "task": "redefine-math", "i": 13, "gold": 1, "scores": [-23.5, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 14, "gold": 1, "scores": [-49.812, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 15, "gold": 1, "scores": [-36.5, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 16, "gold": 1, "scores": [-47.875, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 17, "gold": 1, "scores": [-30.375, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 18, "gold": 1, "scores": [-54.25, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 19, "gold": 1, "scores": [-29.0, -9.25]}
+{"model": "v3", "task": "redefine-math", "i": 20, "gold": 1, "scores": [-28.446, -4.759]}
+{"model": "v3", "task": "redefine-math", "i": 21, "gold": 1, "scores": [-46.875, -27.75]}
+{"model": "v3", "task": "redefine-math", "i": 22, "gold": 1, "scores": [-44.438, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 23, "gold": 1, "scores": [-44.0, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 24, "gold": 1, "scores": [-45.812, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 25, "gold": 1, "scores": [-19.75, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 26, "gold": 1, "scores": [-48.375, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 27, "gold": 1, "scores": [-45.688, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 28, "gold": 1, "scores": [-0.0, -16.0]}
+{"model": "v3", "task": "redefine-math", "i": 29, "gold": 1, "scores": [-47.125, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 30, "gold": 1, "scores": [-31.125, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 31, "gold": 1, "scores": [-38.875, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 32, "gold": 1, "scores": [-36.828, -28.563]}
+{"model": "v3", "task": "redefine-math", "i": 33, "gold": 1, "scores": [-41.25, -49.406]}
+{"model": "v3", "task": "redefine-math", "i": 34, "gold": 1, "scores": [-43.875, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 35, "gold": 1, "scores": [-50.125, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 36, "gold": 1, "scores": [-47.625, -50.85]}
+{"model": "v3", "task": "redefine-math", "i": 37, "gold": 1, "scores": [-41.625, -56.318]}
+{"model": "v3", "task": "redefine-math", "i": 38, "gold": 1, "scores": [-38.812, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 39, "gold": 1, "scores": [-56.234, -56.734]}
+{"model": "v3", "task": "redefine-math", "i": 40, "gold": 1, "scores": [-23.75, -41.422]}
+{"model": "v3", "task": "redefine-math", "i": 41, "gold": 1, "scores": [-37.312, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 42, "gold": 1, "scores": [-34.938, -19.875]}
+{"model": "v3", "task": "redefine-math", "i": 43, "gold": 1, "scores": [-7.001, -30.876]}
+{"model": "v3", "task": "redefine-math", "i": 44, "gold": 1, "scores": [-45.828, -32.688]}
+{"model": "v3", "task": "redefine-math", "i": 45, "gold": 1, "scores": [-21.75, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 46, "gold": 1, "scores": [-52.047, -46.0]}
+{"model": "v3", "task": "redefine-math", "i": 47, "gold": 1, "scores": [-39.313, -43.684]}
+{"model": "v3", "task": "redefine-math", "i": 48, "gold": 1, "scores": [-48.562, -48.312]}
+{"model": "v3", "task": "redefine-math", "i": 49, "gold": 1, "scores": [-41.156, -31.438]}
+{"model": "v3", "task": "redefine-math", "i": 50, "gold": 1, "scores": [-17.375, -34.25]}
+{"model": "v3", "task": "redefine-math", "i": 51, "gold": 1, "scores": [-36.25, -17.625]}
+{"model": "v3", "task": "redefine-math", "i": 52, "gold": 1, "scores": [-47.5, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 53, "gold": 1, "scores": [-29.125, -10.125]}
+{"model": "v3", "task": "redefine-math", "i": 54, "gold": 1, "scores": [-42.031, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 55, "gold": 1, "scores": [-38.25, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 56, "gold": 1, "scores": [0.0, -50.234]}
+{"model": "v3", "task": "redefine-math", "i": 57, "gold": 1, "scores": [-31.25, -9.0]}
+{"model": "v3", "task": "redefine-math", "i": 58, "gold": 1, "scores": [-19.125, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 59, "gold": 1, "scores": [-33.625, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 60, "gold": 1, "scores": [-38.125, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 61, "gold": 1, "scores": [-51.25, -57.844]}
+{"model": "v3", "task": "redefine-math", "i": 62, "gold": 1, "scores": [-51.062, -57.031]}
+{"model": "v3", "task": "redefine-math", "i": 63, "gold": 1, "scores": [-27.251, -0.001]}
+{"model": "v3", "task": "redefine-math", "i": 64, "gold": 1, "scores": [-48.938, -57.016]}
+{"model": "v3", "task": "redefine-math", "i": 65, "gold": 1, "scores": [-42.375, -51.125]}
+{"model": "v3", "task": "redefine-math", "i": 66, "gold": 1, "scores": [0.0, -47.688]}
+{"model": "v3", "task": "redefine-math", "i": 67, "gold": 1, "scores": [-51.516, -50.375]}
+{"model": "v3", "task": "redefine-math", "i": 68, "gold": 1, "scores": [-53.656, -52.281]}
+{"model": "v3", "task": "redefine-math", "i": 69, "gold": 1, "scores": [-42.0, -44.25]}
+{"model": "v3", "task": "redefine-math", "i": 70, "gold": 1, "scores": [-52.188, -41.75]}
+{"model": "v3", "task": "redefine-math", "i": 71, "gold": 1, "scores": [-50.344, -53.0]}
+{"model": "v3", "task": "redefine-math", "i": 72, "gold": 1, "scores": [-50.625, -59.031]}
+{"model": "v3", "task": "redefine-math", "i": 73, "gold": 1, "scores": [-41.75, -53.438]}
+{"model": "v3", "task": "redefine-math", "i": 74, "gold": 1, "scores": [-40.125, -48.562]}
+{"model": "v3", "task": "redefine-math", "i": 75, "gold": 1, "scores": [-52.438, -47.312]}
+{"model": "v3", "task": "redefine-math", "i": 76, "gold": 1, "scores": [-51.684, -53.309]}
+{"model": "v3", "task": "redefine-math", "i": 77, "gold": 1, "scores": [-4.759, -38.071]}
+{"model": "v3", "task": "redefine-math", "i": 78, "gold": 1, "scores": [-49.438, -58.252]}
+{"model": "v3", "task": "redefine-math", "i": 79, "gold": 1, "scores": [-53.906, -50.25]}
+{"model": "v3", "task": "redefine-math", "i": 80, "gold": 1, "scores": [0.0, -56.279]}
+{"model": "v3", "task": "redefine-math", "i": 81, "gold": 1, "scores": [-56.578, -57.5]}
+{"model": "v3", "task": "redefine-math", "i": 82, "gold": 1, "scores": [-43.625, -50.93]}
+{"model": "v3", "task": "redefine-math", "i": 83, "gold": 1, "scores": [0.0, -44.688]}
+{"model": "v3", "task": "redefine-math", "i": 84, "gold": 1, "scores": [-48.25, -42.125]}
+{"model": "v3", "task": "redefine-math", "i": 85, "gold": 1, "scores": [-60.406, -51.438]}
+{"model": "v3", "task": "redefine-math", "i": 86, "gold": 1, "scores": [-22.0, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 87, "gold": 1, "scores": [-52.406, -44.5]}
+{"model": "v3", "task": "redefine-math", "i": 88, "gold": 1, "scores": [-52.25, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 89, "gold": 1, "scores": [-55.562, -51.812]}
+{"model": "v3", "task": "redefine-math", "i": 90, "gold": 1, "scores": [-47.5, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 91, "gold": 1, "scores": [-52.688, -46.688]}
+{"model": "v3", "task": "redefine-math", "i": 92, "gold": 1, "scores": [-44.25, -55.75]}
+{"model": "v3", "task": "redefine-math", "i": 93, "gold": 0, "scores": [-0.049, -41.392]}
+{"model": "v3", "task": "redefine-math", "i": 94, "gold": 0, "scores": [-0.0, -34.625]}
+{"model": "v3", "task": "redefine-math", "i": 95, "gold": 0, "scores": [-0.0, -28.875]}
+{"model": "v3", "task": "redefine-math", "i": 96, "gold": 0, "scores": [-21.625, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 97, "gold": 0, "scores": [0.0, -42.875]}
+{"model": "v3", "task": "redefine-math", "i": 98, "gold": 0, "scores": [0.0, -47.188]}
+{"model": "v3", "task": "redefine-math", "i": 99, "gold": 0, "scores": [-32.75, -45.312]}
+{"model": "v3", "task": "redefine-math", "i": 100, "gold": 0, "scores": [0.0, -30.5]}
+{"model": "v3", "task": "redefine-math", "i": 101, "gold": 0, "scores": [0.0, -33.625]}
+{"model": "v3", "task": "redefine-math", "i": 102, "gold": 0, "scores": [0.0, -41.062]}
+{"model": "v3", "task": "redefine-math", "i": 103, "gold": 0, "scores": [0.0, -43.469]}
+{"model": "v3", "task": "redefine-math", "i": 104, "gold": 0, "scores": [-28.313, -38.531]}
+{"model": "v3", "task": "redefine-math", "i": 105, "gold": 0, "scores": [0.0, -41.25]}
+{"model": "v3", "task": "redefine-math", "i": 106, "gold": 0, "scores": [0.0, -45.5]}
+{"model": "v3", "task": "redefine-math", "i": 107, "gold": 0, "scores": [-36.313, -41.688]}
+{"model": "v3", "task": "redefine-math", "i": 108, "gold": 0, "scores": [0.0, -35.875]}
+{"model": "v3", "task": "redefine-math", "i": 109, "gold": 0, "scores": [-0.0, -32.25]}
+{"model": "v3", "task": "redefine-math", "i": 110, "gold": 0, "scores": [0.0, -50.875]}
+{"model": "v3", "task": "redefine-math", "i": 111, "gold": 0, "scores": [-28.125, -48.219]}
+{"model": "v3", "task": "redefine-math", "i": 112, "gold": 0, "scores": [0.0, -49.297]}
+{"model": "v3", "task": "redefine-math", "i": 113, "gold": 0, "scores": [-18.625, -41.875]}
+{"model": "v3", "task": "redefine-math", "i": 114, "gold": 0, "scores": [-19.5, -24.875]}
+{"model": "v3", "task": "redefine-math", "i": 115, "gold": 0, "scores": [-0.974, -27.849]}
+{"model": "v3", "task": "redefine-math", "i": 116, "gold": 0, "scores": [-7.001, -33.376]}
+{"model": "v3", "task": "redefine-math", "i": 117, "gold": 0, "scores": [-0.0, -28.75]}
+{"model": "v3", "task": "redefine-math", "i": 118, "gold": 0, "scores": [-0.0, -33.219]}
+{"model": "v3", "task": "redefine-math", "i": 119, "gold": 0, "scores": [-9.75, -42.469]}
+{"model": "v3", "task": "redefine-math", "i": 120, "gold": 0, "scores": [-21.035, -17.785]}
+{"model": "v3", "task": "redefine-math", "i": 121, "gold": 0, "scores": [0.0, -30.5]}
+{"model": "v3", "task": "redefine-math", "i": 122, "gold": 0, "scores": [-0.0, -37.688]}
+{"model": "v3", "task": "redefine-math", "i": 123, "gold": 0, "scores": [0.0, -47.609]}
+{"model": "v3", "task": "redefine-math", "i": 124, "gold": 0, "scores": [-0.0, -19.5]}
+{"model": "v3", "task": "redefine-math", "i": 125, "gold": 0, "scores": [-0.0, -16.5]}
+{"model": "v3", "task": "redefine-math", "i": 126, "gold": 0, "scores": [-2.812, -12.812]}
+{"model": "v3", "task": "redefine-math", "i": 127, "gold": 0, "scores": [0.0, -23.625]}
+{"model": "v3", "task": "redefine-math", "i": 128, "gold": 0, "scores": [0.0, -46.375]}
+{"model": "v3", "task": "redefine-math", "i": 129, "gold": 0, "scores": [-15.128, -7.378]}
+{"model": "v3", "task": "redefine-math", "i": 130, "gold": 0, "scores": [-20.125, -20.125]}
+{"model": "v3", "task": "redefine-math", "i": 131, "gold": 0, "scores": [-43.188, -41.375]}
+{"model": "v3", "task": "redefine-math", "i": 132, "gold": 0, "scores": [0.0, -39.5]}
+{"model": "v3", "task": "redefine-math", "i": 133, "gold": 0, "scores": [-40.0, -49.438]}
+{"model": "v3", "task": "redefine-math", "i": 134, "gold": 0, "scores": [0.0, -18.75]}
+{"model": "v3", "task": "redefine-math", "i": 135, "gold": 0, "scores": [-26.001, -0.001]}
+{"model": "v3", "task": "redefine-math", "i": 136, "gold": 0, "scores": [-33.0, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 137, "gold": 0, "scores": [-15.875, -17.25]}
+{"model": "v3", "task": "redefine-math", "i": 138, "gold": 0, "scores": [-45.375, -49.312]}
+{"model": "v3", "task": "redefine-math", "i": 139, "gold": 0, "scores": [-29.688, -23.375]}
+{"model": "v3", "task": "redefine-math", "i": 140, "gold": 0, "scores": [-40.25, -52.562]}
+{"model": "v3", "task": "redefine-math", "i": 141, "gold": 0, "scores": [-42.5, -43.125]}
+{"model": "v3", "task": "redefine-math", "i": 142, "gold": 0, "scores": [0.0, -43.625]}
+{"model": "v3", "task": "redefine-math", "i": 143, "gold": 0, "scores": [-25.875, -29.25]}
+{"model": "v3", "task": "redefine-math", "i": 144, "gold": 0, "scores": [-0.571, -6.571]}
+{"model": "v3", "task": "redefine-math", "i": 145, "gold": 0, "scores": [-15.75, -22.625]}
+{"model": "v3", "task": "redefine-math", "i": 146, "gold": 0, "scores": [-12.029, -7.154]}
+{"model": "v3", "task": "redefine-math", "i": 147, "gold": 0, "scores": [-22.0, -37.75]}
+{"model": "v3", "task": "redefine-math", "i": 148, "gold": 0, "scores": [-4.018, -21.831]}
+{"model": "v3", "task": "redefine-math", "i": 149, "gold": 0, "scores": [-22.25, -25.125]}
+{"model": "v3", "task": "redefine-math", "i": 150, "gold": 0, "scores": [-26.688, -20.125]}
+{"model": "v3", "task": "redefine-math", "i": 151, "gold": 0, "scores": [-40.375, -36.312]}
+{"model": "v3", "task": "redefine-math", "i": 152, "gold": 0, "scores": [-39.5, -39.125]}
+{"model": "v3", "task": "redefine-math", "i": 153, "gold": 0, "scores": [-18.143, -25.956]}
+{"model": "v3", "task": "redefine-math", "i": 154, "gold": 0, "scores": [-31.25, -36.5]}
+{"model": "v3", "task": "redefine-math", "i": 155, "gold": 0, "scores": [-14.274, -0.149]}
+{"model": "v3", "task": "redefine-math", "i": 156, "gold": 0, "scores": [-45.562, -33.375]}
+{"model": "v3", "task": "redefine-math", "i": 157, "gold": 0, "scores": [-20.625, -34.375]}
+{"model": "v3", "task": "redefine-math", "i": 158, "gold": 0, "scores": [-46.062, -42.188]}
+{"model": "v3", "task": "redefine-math", "i": 159, "gold": 0, "scores": [-18.375, -21.25]}
+{"model": "v3", "task": "redefine-math", "i": 160, "gold": 0, "scores": [-39.562, -47.375]}
+{"model": "v3", "task": "redefine-math", "i": 161, "gold": 0, "scores": [-4.637, -6.512]}
+{"model": "v3", "task": "redefine-math", "i": 162, "gold": 0, "scores": [0.0, -30.75]}
+{"model": "v3", "task": "redefine-math", "i": 163, "gold": 0, "scores": [0.0, -36.0]}
+{"model": "v3", "task": "redefine-math", "i": 164, "gold": 0, "scores": [-29.875, -41.0]}
+{"model": "v3", "task": "redefine-math", "i": 165, "gold": 0, "scores": [-1.623, -5.623]}
+{"model": "v3", "task": "redefine-math", "i": 166, "gold": 0, "scores": [-17.013, -12.138]}
+{"model": "v3", "task": "redefine-math", "i": 167, "gold": 0, "scores": [-18.259, -13.509]}
+{"model": "v3", "task": "redefine-math", "i": 168, "gold": 0, "scores": [-12.647, -1.147]}
+{"model": "v3", "task": "redefine-math", "i": 169, "gold": 0, "scores": [-17.725, -16.85]}
+{"model": "v3", "task": "redefine-math", "i": 170, "gold": 0, "scores": [-0.0, -12.125]}
+{"model": "v3", "task": "redefine-math", "i": 171, "gold": 0, "scores": [-0.454, -7.704]}
+{"model": "v3", "task": "redefine-math", "i": 172, "gold": 0, "scores": [-4.966, -21.091]}
+{"model": "v3", "task": "redefine-math", "i": 173, "gold": 0, "scores": [-26.231, -5.856]}
+{"model": "v3", "task": "redefine-math", "i": 174, "gold": 0, "scores": [-0.0, -20.5]}
+{"model": "v3", "task": "redefine-math", "i": 175, "gold": 0, "scores": [-0.0, -12.25]}
+{"model": "v3", "task": "redefine-math", "i": 176, "gold": 0, "scores": [-37.406, -26.875]}
+{"model": "v3", "task": "redefine-math", "i": 177, "gold": 0, "scores": [-9.243, -3.493]}
+{"model": "v3", "task": "redefine-math", "i": 178, "gold": 0, "scores": [-11.108, -0.233]}
+{"model": "v3", "task": "redefine-math", "i": 179, "gold": 0, "scores": [-14.882, -0.007]}
+{"model": "v3", "task": "redefine-math", "i": 180, "gold": 0, "scores": [-22.539, -10.164]}
+{"model": "v3", "task": "redefine-math", "i": 181, "gold": 0, "scores": [-0.58, -1.08]}
+{"model": "v3", "task": "redefine-math", "i": 182, "gold": 0, "scores": [-2.24, -2.24]}
+{"model": "v3", "task": "redefine-math", "i": 183, "gold": 0, "scores": [-2.022, -13.272]}
+{"model": "v3", "task": "redefine-math", "i": 184, "gold": 0, "scores": [-12.632, -11.507]}
+{"model": "v3", "task": "redefine-math", "i": 185, "gold": 0, "scores": [-15.125, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 186, "gold": 0, "scores": [-5.271, -19.521]}
+{"model": "v3", "task": "redefine-math", "i": 187, "gold": 0, "scores": [-9.644, -5.519]}
+{"model": "v3", "task": "redefine-math", "i": 188, "gold": 0, "scores": [-22.392, -1.642]}
+{"model": "v3", "task": "redefine-math", "i": 189, "gold": 0, "scores": [-24.75, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 190, "gold": 0, "scores": [-0.474, -11.974]}
+{"model": "v3", "task": "redefine-math", "i": 191, "gold": 0, "scores": [-18.135, -8.26]}
+{"model": "v3", "task": "redefine-math", "i": 192, "gold": 0, "scores": [-22.543, -9.855]}
+{"model": "v3", "task": "redefine-math", "i": 193, "gold": 0, "scores": [-3.53, -0.03]}
+{"model": "v3", "task": "redefine-math", "i": 194, "gold": 0, "scores": [-4.092, -8.842]}
+{"model": "v3", "task": "redefine-math", "i": 195, "gold": 0, "scores": [-16.203, -3.578]}
+{"model": "v3", "task": "redefine-math", "i": 196, "gold": 0, "scores": [-20.375, -40.438]}
+{"model": "v3", "task": "redefine-math", "i": 197, "gold": 0, "scores": [0.0, -24.125]}
+{"model": "v3", "task": "redefine-math", "i": 198, "gold": 0, "scores": [-7.501, -0.001]}
+{"model": "v3", "task": "redefine-math", "i": 199, "gold": 0, "scores": [-39.5, -45.922]}
+{"model": "v3", "task": "redefine-math", "i": 200, "gold": 0, "scores": [-44.359, -31.375]}
+{"model": "v3", "task": "redefine-math", "i": 201, "gold": 0, "scores": [-0.0, -35.438]}
+{"model": "v3", "task": "redefine-math", "i": 202, "gold": 0, "scores": [-31.875, -38.062]}
+{"model": "v3", "task": "redefine-math", "i": 203, "gold": 0, "scores": [-1.313, -0.313]}
+{"model": "v3", "task": "redefine-math", "i": 204, "gold": 0, "scores": [-33.75, -49.625]}
+{"model": "v3", "task": "redefine-math", "i": 205, "gold": 0, "scores": [-0.0, -44.094]}
+{"model": "v3", "task": "redefine-math", "i": 206, "gold": 0, "scores": [-1.137, -19.262]}
+{"model": "v3", "task": "redefine-math", "i": 207, "gold": 0, "scores": [0.0, -42.906]}
+{"model": "v3", "task": "redefine-math", "i": 208, "gold": 0, "scores": [-11.5, -39.719]}
+{"model": "v3", "task": "redefine-math", "i": 209, "gold": 0, "scores": [0.0, -33.0]}
+{"model": "v3", "task": "redefine-math", "i": 210, "gold": 0, "scores": [-0.0, -32.532]}
+{"model": "v3", "task": "redefine-math", "i": 211, "gold": 0, "scores": [0.0, -47.828]}
+{"model": "v3", "task": "redefine-math", "i": 212, "gold": 0, "scores": [-53.227, -47.438]}
+{"model": "v3", "task": "redefine-math", "i": 213, "gold": 0, "scores": [0.0, -41.5]}
+{"model": "v3", "task": "redefine-math", "i": 214, "gold": 0, "scores": [-22.875, -44.814]}
+{"model": "v3", "task": "redefine-math", "i": 215, "gold": 0, "scores": [-28.0, -35.219]}
+{"model": "v3", "task": "redefine-math", "i": 216, "gold": 0, "scores": [0.0, -50.266]}
+{"model": "v3", "task": "redefine-math", "i": 217, "gold": 0, "scores": [-0.0, -15.875]}
+{"model": "v3", "task": "redefine-math", "i": 218, "gold": 0, "scores": [0.0, -49.773]}
+{"model": "v3", "task": "redefine-math", "i": 219, "gold": 0, "scores": [0.0, -42.5]}
+{"model": "v3", "task": "redefine-math", "i": 220, "gold": 0, "scores": [-0.0, -40.469]}
+{"model": "v3", "task": "redefine-math", "i": 221, "gold": 0, "scores": [-43.75, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 222, "gold": 0, "scores": [0.0, -41.0]}
+{"model": "v3", "task": "redefine-math", "i": 223, "gold": 0, "scores": [0.0, -47.766]}
+{"model": "v3", "task": "redefine-math", "i": 224, "gold": 0, "scores": [-16.125, -31.375]}
+{"model": "v3", "task": "redefine-math", "i": 225, "gold": 0, "scores": [-0.0, -13.0]}
+{"model": "v3", "task": "redefine-math", "i": 226, "gold": 0, "scores": [0.0, -22.25]}
+{"model": "v3", "task": "redefine-math", "i": 227, "gold": 0, "scores": [-27.125, -41.688]}
+{"model": "v3", "task": "redefine-math", "i": 228, "gold": 0, "scores": [-0.007, -44.14]}
+{"model": "v3", "task": "redefine-math", "i": 229, "gold": 0, "scores": [0.0, -48.25]}
+{"model": "v3", "task": "redefine-math", "i": 230, "gold": 0, "scores": [-0.0, -39.875]}
+{"model": "v3", "task": "redefine-math", "i": 231, "gold": 0, "scores": [-41.188, -18.0]}
+{"model": "v3", "task": "redefine-math", "i": 232, "gold": 0, "scores": [-0.0, -42.85]}
+{"model": "v3", "task": "redefine-math", "i": 233, "gold": 0, "scores": [-0.0, -39.109]}
+{"model": "v3", "task": "redefine-math", "i": 234, "gold": 0, "scores": [0.0, -36.25]}
+{"model": "v3", "task": "redefine-math", "i": 235, "gold": 1, "scores": [0.0, -19.75]}
+{"model": "v3", "task": "redefine-math", "i": 236, "gold": 1, "scores": [0.0, -39.875]}
+{"model": "v3", "task": "redefine-math", "i": 237, "gold": 1, "scores": [-20.625, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 238, "gold": 1, "scores": [-27.125, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 239, "gold": 1, "scores": [-0.038, -40.194]}
+{"model": "v3", "task": "redefine-math", "i": 240, "gold": 1, "scores": [-5.753, -0.003]}
+{"model": "v3", "task": "redefine-math", "i": 241, "gold": 1, "scores": [0.0, -29.25]}
+{"model": "v3", "task": "redefine-math", "i": 242, "gold": 1, "scores": [-41.75, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 243, "gold": 1, "scores": [-3.53, -17.405]}
+{"model": "v3", "task": "redefine-math", "i": 244, "gold": 1, "scores": [-0.007, -7.257]}
+{"model": "v3", "task": "redefine-math", "i": 245, "gold": 1, "scores": [0.0, -50.297]}
+{"model": "v3", "task": "redefine-math", "i": 246, "gold": 1, "scores": [-0.014, -4.264]}
+{"model": "v3", "task": "redefine-math", "i": 247, "gold": 1, "scores": [-20.5, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 248, "gold": 1, "scores": [0.0, -48.688]}
+{"model": "v3", "task": "redefine-math", "i": 249, "gold": 1, "scores": [-13.25, -51.43]}
+{"model": "v3", "task": "redefine-math", "i": 250, "gold": 1, "scores": [-19.5, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 251, "gold": 1, "scores": [0.0, -45.844]}
+{"model": "v3", "task": "redefine-math", "i": 252, "gold": 1, "scores": [0.0, -33.688]}
+{"model": "v3", "task": "redefine-math", "i": 253, "gold": 1, "scores": [0.0, -26.875]}
+{"model": "v3", "task": "redefine-math", "i": 254, "gold": 1, "scores": [0.0, -33.375]}
+{"model": "v3", "task": "redefine-math", "i": 255, "gold": 1, "scores": [0.0, -44.188]}
+{"model": "v3", "task": "redefine-math", "i": 256, "gold": 1, "scores": [-0.0, -10.125]}
+{"model": "v3", "task": "redefine-math", "i": 257, "gold": 1, "scores": [0.0, -43.875]}
+{"model": "v3", "task": "redefine-math", "i": 258, "gold": 1, "scores": [-32.25, -38.938]}
+{"model": "v3", "task": "redefine-math", "i": 259, "gold": 1, "scores": [-32.0, -44.062]}
+{"model": "v3", "task": "redefine-math", "i": 260, "gold": 1, "scores": [-0.0, -15.25]}
+{"model": "v3", "task": "redefine-math", "i": 261, "gold": 1, "scores": [0.0, -21.0]}
+{"model": "v3", "task": "redefine-math", "i": 262, "gold": 1, "scores": [-4.76, -6.51]}
+{"model": "v3", "task": "redefine-math", "i": 263, "gold": 1, "scores": [0.0, -34.5]}
+{"model": "v3", "task": "redefine-math", "i": 264, "gold": 1, "scores": [-36.5, -41.188]}
+{"model": "v3", "task": "redefine-math", "i": 265, "gold": 1, "scores": [0.0, -32.938]}
+{"model": "v3", "task": "redefine-math", "i": 266, "gold": 1, "scores": [-0.974, -38.693]}
+{"model": "v3", "task": "redefine-math", "i": 267, "gold": 1, "scores": [0.0, -20.375]}
+{"model": "v3", "task": "redefine-math", "i": 268, "gold": 1, "scores": [-28.125, -36.031]}
+{"model": "v3", "task": "redefine-math", "i": 269, "gold": 1, "scores": [-17.616, -8.959]}
+{"model": "v3", "task": "redefine-math", "i": 270, "gold": 1, "scores": [-22.375, -14.125]}
+{"model": "v3", "task": "redefine-math", "i": 271, "gold": 1, "scores": [-18.625, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 272, "gold": 1, "scores": [-7.018, -6.518]}
+{"model": "v3", "task": "redefine-math", "i": 273, "gold": 1, "scores": [-32.375, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 274, "gold": 1, "scores": [-14.44, -10.752]}
+{"model": "v3", "task": "redefine-math", "i": 275, "gold": 1, "scores": [-9.823, -9.323]}
+{"model": "v3", "task": "redefine-math", "i": 276, "gold": 1, "scores": [-26.416, -13.908]}
+{"model": "v3", "task": "redefine-math", "i": 277, "gold": 1, "scores": [-6.195, -0.195]}
+{"model": "v3", "task": "redefine-math", "i": 278, "gold": 1, "scores": [-0.023, -12.461]}
+{"model": "v3", "task": "redefine-math", "i": 279, "gold": 1, "scores": [-21.638, -0.013]}
+{"model": "v3", "task": "redefine-math", "i": 280, "gold": 1, "scores": [-12.804, -12.304]}
+{"model": "v3", "task": "redefine-math", "i": 281, "gold": 1, "scores": [-1.052, -6.427]}
+{"model": "v3", "task": "redefine-math", "i": 282, "gold": 1, "scores": [-11.041, -6.729]}
+{"model": "v3", "task": "redefine-math", "i": 283, "gold": 1, "scores": [-17.514, -0.795]}
+{"model": "v3", "task": "redefine-math", "i": 284, "gold": 1, "scores": [-7.992, -7.617]}
+{"model": "v3", "task": "redefine-math", "i": 285, "gold": 1, "scores": [-45.484, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 286, "gold": 1, "scores": [-22.125, -28.062]}
+{"model": "v3", "task": "redefine-math", "i": 287, "gold": 1, "scores": [-20.438, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 288, "gold": 1, "scores": [-0.029, -13.404]}
+{"model": "v3", "task": "redefine-math", "i": 289, "gold": 1, "scores": [-27.252, -27.127]}
+{"model": "v3", "task": "redefine-math", "i": 290, "gold": 1, "scores": [-40.688, -39.312]}
+{"model": "v3", "task": "redefine-math", "i": 291, "gold": 1, "scores": [-23.5, -28.313]}
+{"model": "v3", "task": "redefine-math", "i": 292, "gold": 1, "scores": [-45.039, -0.0]}
+{"model": "v3", "task": "redefine-math", "i": 293, "gold": 1, "scores": [-22.0, -20.562]}
+{"model": "v3", "task": "redefine-math", "i": 294, "gold": 1, "scores": [-14.877, -0.002]}
+{"model": "v3", "task": "redefine-math", "i": 295, "gold": 1, "scores": [-14.5, -26.063]}
+{"model": "v3", "task": "redefine-math", "i": 296, "gold": 1, "scores": [-17.261, -10.198]}
+{"model": "v3", "task": "redefine-math", "i": 297, "gold": 1, "scores": [-7.105, -0.105]}
+{"model": "v3", "task": "redefine-math", "i": 298, "gold": 1, "scores": [-55.418, 0.0]}
+{"model": "v3", "task": "redefine-math", "i": 299, "gold": 1, "scores": [-24.625, -16.688]}
+{"model": "v3", "task": "quote-repetition", "i": 0, "gold": 1, "scores": [-26.156, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 1, "gold": 1, "scores": [-27.063, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 2, "gold": 1, "scores": [-21.255, -0.003]}
+{"model": "v3", "task": "quote-repetition", "i": 3, "gold": 1, "scores": [-49.849, -0.007]}
+{"model": "v3", "task": "quote-repetition", "i": 4, "gold": 1, "scores": [-22.875, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 5, "gold": 1, "scores": [-34.417, -7.254]}
+{"model": "v3", "task": "quote-repetition", "i": 6, "gold": 1, "scores": [-36.875, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 7, "gold": 1, "scores": [-52.031, -34.625]}
+{"model": "v3", "task": "quote-repetition", "i": 8, "gold": 1, "scores": [-33.719, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 9, "gold": 1, "scores": [-42.982, -0.009]}
+{"model": "v3", "task": "quote-repetition", "i": 10, "gold": 1, "scores": [-28.125, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 11, "gold": 1, "scores": [-19.978, -8.478]}
+{"model": "v3", "task": "quote-repetition", "i": 12, "gold": 1, "scores": [-36.0, 0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 13, "gold": 1, "scores": [-29.313, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 14, "gold": 1, "scores": [-30.202, -0.007]}
+{"model": "v3", "task": "quote-repetition", "i": 15, "gold": 1, "scores": [-41.049, -40.33]}
+{"model": "v3", "task": "quote-repetition", "i": 16, "gold": 1, "scores": [-23.19, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 17, "gold": 1, "scores": [-32.989, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 18, "gold": 1, "scores": [-47.0, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 19, "gold": 1, "scores": [-46.188, -43.853]}
+{"model": "v3", "task": "quote-repetition", "i": 20, "gold": 1, "scores": [-41.009, -10.254]}
+{"model": "v3", "task": "quote-repetition", "i": 21, "gold": 1, "scores": [-30.725, -8.038]}
+{"model": "v3", "task": "quote-repetition", "i": 22, "gold": 1, "scores": [-18.733, -1.045]}
+{"model": "v3", "task": "quote-repetition", "i": 23, "gold": 1, "scores": [-34.38, -0.485]}
+{"model": "v3", "task": "quote-repetition", "i": 24, "gold": 1, "scores": [-26.625, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 25, "gold": 1, "scores": [-26.188, -0.016]}
+{"model": "v3", "task": "quote-repetition", "i": 26, "gold": 1, "scores": [-33.469, -16.267]}
+{"model": "v3", "task": "quote-repetition", "i": 27, "gold": 1, "scores": [-35.562, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 28, "gold": 1, "scores": [-37.094, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 29, "gold": 1, "scores": [-31.688, -10.501]}
+{"model": "v3", "task": "quote-repetition", "i": 30, "gold": 1, "scores": [-36.535, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 31, "gold": 1, "scores": [-28.875, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 32, "gold": 1, "scores": [-32.91, -0.444]}
+{"model": "v3", "task": "quote-repetition", "i": 33, "gold": 1, "scores": [-29.147, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 34, "gold": 1, "scores": [-45.243, -33.626]}
+{"model": "v3", "task": "quote-repetition", "i": 35, "gold": 1, "scores": [-20.658, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 36, "gold": 1, "scores": [-46.887, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 37, "gold": 1, "scores": [-36.836, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 38, "gold": 1, "scores": [-27.5, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 39, "gold": 1, "scores": [-40.625, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 40, "gold": 1, "scores": [-39.063, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 41, "gold": 1, "scores": [-16.215, -1.84]}
+{"model": "v3", "task": "quote-repetition", "i": 42, "gold": 1, "scores": [-16.321, -1.165]}
+{"model": "v3", "task": "quote-repetition", "i": 43, "gold": 1, "scores": [-58.878, -41.626]}
+{"model": "v3", "task": "quote-repetition", "i": 44, "gold": 1, "scores": [-25.5, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 45, "gold": 1, "scores": [-41.238, -0.013]}
+{"model": "v3", "task": "quote-repetition", "i": 46, "gold": 1, "scores": [-40.25, -0.026]}
+{"model": "v3", "task": "quote-repetition", "i": 47, "gold": 1, "scores": [-36.375, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 48, "gold": 1, "scores": [-12.171, -1.546]}
+{"model": "v3", "task": "quote-repetition", "i": 49, "gold": 1, "scores": [-39.093, -5.812]}
+{"model": "v3", "task": "quote-repetition", "i": 50, "gold": 1, "scores": [-48.665, -7.12]}
+{"model": "v3", "task": "quote-repetition", "i": 51, "gold": 1, "scores": [-29.063, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 52, "gold": 1, "scores": [-27.125, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 53, "gold": 1, "scores": [-21.541, -0.492]}
+{"model": "v3", "task": "quote-repetition", "i": 54, "gold": 1, "scores": [-17.495, -0.058]}
+{"model": "v3", "task": "quote-repetition", "i": 55, "gold": 1, "scores": [-36.75, -17.5]}
+{"model": "v3", "task": "quote-repetition", "i": 56, "gold": 1, "scores": [-27.19, -15.909]}
+{"model": "v3", "task": "quote-repetition", "i": 57, "gold": 1, "scores": [-18.376, -0.002]}
+{"model": "v3", "task": "quote-repetition", "i": 58, "gold": 1, "scores": [-30.488, -0.007]}
+{"model": "v3", "task": "quote-repetition", "i": 59, "gold": 1, "scores": [-46.016, -35.501]}
+{"model": "v3", "task": "quote-repetition", "i": 60, "gold": 1, "scores": [-30.193, -0.475]}
+{"model": "v3", "task": "quote-repetition", "i": 61, "gold": 1, "scores": [-31.064, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 62, "gold": 1, "scores": [-12.294, -6.416]}
+{"model": "v3", "task": "quote-repetition", "i": 63, "gold": 1, "scores": [-19.002, -9.002]}
+{"model": "v3", "task": "quote-repetition", "i": 64, "gold": 1, "scores": [-46.197, -17.252]}
+{"model": "v3", "task": "quote-repetition", "i": 65, "gold": 1, "scores": [-22.274, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 66, "gold": 1, "scores": [-45.78, -43.039]}
+{"model": "v3", "task": "quote-repetition", "i": 67, "gold": 1, "scores": [-33.0, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 68, "gold": 1, "scores": [-38.581, -34.143]}
+{"model": "v3", "task": "quote-repetition", "i": 69, "gold": 1, "scores": [-23.963, -14.75]}
+{"model": "v3", "task": "quote-repetition", "i": 70, "gold": 1, "scores": [-43.064, -14.752]}
+{"model": "v3", "task": "quote-repetition", "i": 71, "gold": 1, "scores": [-31.438, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 72, "gold": 1, "scores": [-35.625, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 73, "gold": 1, "scores": [-67.672, -54.594]}
+{"model": "v3", "task": "quote-repetition", "i": 74, "gold": 1, "scores": [-41.701, -36.14]}
+{"model": "v3", "task": "quote-repetition", "i": 75, "gold": 1, "scores": [-73.922, -49.922]}
+{"model": "v3", "task": "quote-repetition", "i": 76, "gold": 1, "scores": [-42.758, -72.351]}
+{"model": "v3", "task": "quote-repetition", "i": 77, "gold": 1, "scores": [-42.596, -21.502]}
+{"model": "v3", "task": "quote-repetition", "i": 78, "gold": 1, "scores": [-37.753, -21.378]}
+{"model": "v3", "task": "quote-repetition", "i": 79, "gold": 1, "scores": [-48.665, -40.852]}
+{"model": "v3", "task": "quote-repetition", "i": 80, "gold": 1, "scores": [-38.313, -34.125]}
+{"model": "v3", "task": "quote-repetition", "i": 81, "gold": 1, "scores": [-41.281, -35.377]}
+{"model": "v3", "task": "quote-repetition", "i": 82, "gold": 1, "scores": [-36.944, -38.882]}
+{"model": "v3", "task": "quote-repetition", "i": 83, "gold": 1, "scores": [-33.937, -14.313]}
+{"model": "v3", "task": "quote-repetition", "i": 84, "gold": 1, "scores": [-21.754, -2.317]}
+{"model": "v3", "task": "quote-repetition", "i": 85, "gold": 1, "scores": [-35.188, -31.19]}
+{"model": "v3", "task": "quote-repetition", "i": 86, "gold": 1, "scores": [-44.766, -44.766]}
+{"model": "v3", "task": "quote-repetition", "i": 87, "gold": 1, "scores": [-17.579, -0.016]}
+{"model": "v3", "task": "quote-repetition", "i": 88, "gold": 1, "scores": [-21.438, -19.626]}
+{"model": "v3", "task": "quote-repetition", "i": 89, "gold": 1, "scores": [-37.79, -37.071]}
+{"model": "v3", "task": "quote-repetition", "i": 90, "gold": 1, "scores": [-19.815, -0.131]}
+{"model": "v3", "task": "quote-repetition", "i": 91, "gold": 1, "scores": [-41.444, -15.181]}
+{"model": "v3", "task": "quote-repetition", "i": 92, "gold": 1, "scores": [-43.063, -37.75]}
+{"model": "v3", "task": "quote-repetition", "i": 93, "gold": 1, "scores": [-28.026, -9.445]}
+{"model": "v3", "task": "quote-repetition", "i": 94, "gold": 1, "scores": [-59.648, -38.554]}
+{"model": "v3", "task": "quote-repetition", "i": 95, "gold": 1, "scores": [-38.13, -12.817]}
+{"model": "v3", "task": "quote-repetition", "i": 96, "gold": 1, "scores": [-10.771, -11.396]}
+{"model": "v3", "task": "quote-repetition", "i": 97, "gold": 1, "scores": [-21.015, -0.015]}
+{"model": "v3", "task": "quote-repetition", "i": 98, "gold": 1, "scores": [-57.598, -52.0]}
+{"model": "v3", "task": "quote-repetition", "i": 99, "gold": 1, "scores": [-21.501, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 100, "gold": 1, "scores": [-57.164, -51.5]}
+{"model": "v3", "task": "quote-repetition", "i": 101, "gold": 1, "scores": [-33.938, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 102, "gold": 1, "scores": [-23.644, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 103, "gold": 1, "scores": [-44.19, -0.029]}
+{"model": "v3", "task": "quote-repetition", "i": 104, "gold": 1, "scores": [-37.875, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 105, "gold": 1, "scores": [-50.505, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 106, "gold": 1, "scores": [-34.063, -8.0]}
+{"model": "v3", "task": "quote-repetition", "i": 107, "gold": 1, "scores": [-0.049, -0.049]}
+{"model": "v3", "task": "quote-repetition", "i": 108, "gold": 1, "scores": [-30.75, -0.005]}
+{"model": "v3", "task": "quote-repetition", "i": 109, "gold": 1, "scores": [-7.567, -2.723]}
+{"model": "v3", "task": "quote-repetition", "i": 110, "gold": 1, "scores": [-32.062, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 111, "gold": 1, "scores": [-12.294, -17.178]}
+{"model": "v3", "task": "quote-repetition", "i": 112, "gold": 1, "scores": [-19.125, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 113, "gold": 1, "scores": [-33.75, -0.003]}
+{"model": "v3", "task": "quote-repetition", "i": 114, "gold": 1, "scores": [-50.01, -0.038]}
+{"model": "v3", "task": "quote-repetition", "i": 115, "gold": 1, "scores": [-40.267, -38.167]}
+{"model": "v3", "task": "quote-repetition", "i": 116, "gold": 1, "scores": [-37.005, -1.314]}
+{"model": "v3", "task": "quote-repetition", "i": 117, "gold": 1, "scores": [-43.887, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 118, "gold": 1, "scores": [-39.875, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 119, "gold": 1, "scores": [-43.906, -16.752]}
+{"model": "v3", "task": "quote-repetition", "i": 120, "gold": 1, "scores": [-34.344, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 121, "gold": 1, "scores": [-29.063, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 122, "gold": 1, "scores": [-10.9, -8.775]}
+{"model": "v3", "task": "quote-repetition", "i": 123, "gold": 1, "scores": [-19.571, -0.633]}
+{"model": "v3", "task": "quote-repetition", "i": 124, "gold": 1, "scores": [-23.98, -0.042]}
+{"model": "v3", "task": "quote-repetition", "i": 125, "gold": 1, "scores": [-24.041, -2.041]}
+{"model": "v3", "task": "quote-repetition", "i": 126, "gold": 1, "scores": [-11.801, -9.687]}
+{"model": "v3", "task": "quote-repetition", "i": 127, "gold": 1, "scores": [-33.562, -0.014]}
+{"model": "v3", "task": "quote-repetition", "i": 128, "gold": 1, "scores": [-29.688, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 129, "gold": 1, "scores": [-4.273, -4.273]}
+{"model": "v3", "task": "quote-repetition", "i": 130, "gold": 1, "scores": [-27.382, -6.877]}
+{"model": "v3", "task": "quote-repetition", "i": 131, "gold": 1, "scores": [-21.625, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 132, "gold": 1, "scores": [-51.783, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 133, "gold": 1, "scores": [-40.738, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 134, "gold": 1, "scores": [-21.332, -0.089]}
+{"model": "v3", "task": "quote-repetition", "i": 135, "gold": 1, "scores": [-23.824, -7.876]}
+{"model": "v3", "task": "quote-repetition", "i": 136, "gold": 1, "scores": [-41.127, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 137, "gold": 1, "scores": [-37.715, -23.131]}
+{"model": "v3", "task": "quote-repetition", "i": 138, "gold": 1, "scores": [-29.781, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 139, "gold": 1, "scores": [-17.5, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 140, "gold": 1, "scores": [-43.312, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 141, "gold": 1, "scores": [-19.126, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 142, "gold": 1, "scores": [-38.375, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 143, "gold": 1, "scores": [-72.344, -43.563]}
+{"model": "v3", "task": "quote-repetition", "i": 144, "gold": 1, "scores": [-29.063, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 145, "gold": 1, "scores": [-49.787, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 146, "gold": 1, "scores": [-25.002, -0.13]}
+{"model": "v3", "task": "quote-repetition", "i": 147, "gold": 1, "scores": [-5.136, -0.761]}
+{"model": "v3", "task": "quote-repetition", "i": 148, "gold": 1, "scores": [-17.321, -0.009]}
+{"model": "v3", "task": "quote-repetition", "i": 149, "gold": 1, "scores": [-38.487, -23.081]}
+{"model": "v3", "task": "quote-repetition", "i": 150, "gold": 1, "scores": [-28.436, -7.804]}
+{"model": "v3", "task": "quote-repetition", "i": 151, "gold": 1, "scores": [-38.25, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 152, "gold": 1, "scores": [-35.443, -26.006]}
+{"model": "v3", "task": "quote-repetition", "i": 153, "gold": 1, "scores": [-23.759, -0.197]}
+{"model": "v3", "task": "quote-repetition", "i": 154, "gold": 1, "scores": [-7.678, -0.239]}
+{"model": "v3", "task": "quote-repetition", "i": 155, "gold": 1, "scores": [-21.822, -3.009]}
+{"model": "v3", "task": "quote-repetition", "i": 156, "gold": 1, "scores": [-21.62, -5.777]}
+{"model": "v3", "task": "quote-repetition", "i": 157, "gold": 1, "scores": [-24.889, -0.202]}
+{"model": "v3", "task": "quote-repetition", "i": 158, "gold": 1, "scores": [-37.071, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 159, "gold": 1, "scores": [-31.948, -15.51]}
+{"model": "v3", "task": "quote-repetition", "i": 160, "gold": 1, "scores": [-30.969, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 161, "gold": 1, "scores": [-21.678, -0.693]}
+{"model": "v3", "task": "quote-repetition", "i": 162, "gold": 1, "scores": [-17.017, -0.017]}
+{"model": "v3", "task": "quote-repetition", "i": 163, "gold": 1, "scores": [-20.759, -7.009]}
+{"model": "v3", "task": "quote-repetition", "i": 164, "gold": 1, "scores": [-65.482, -55.25]}
+{"model": "v3", "task": "quote-repetition", "i": 165, "gold": 1, "scores": [-24.563, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 166, "gold": 1, "scores": [-43.696, -30.509]}
+{"model": "v3", "task": "quote-repetition", "i": 167, "gold": 1, "scores": [-23.188, -0.004]}
+{"model": "v3", "task": "quote-repetition", "i": 168, "gold": 1, "scores": [-0.0, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 169, "gold": 1, "scores": [-17.914, -0.002]}
+{"model": "v3", "task": "quote-repetition", "i": 170, "gold": 1, "scores": [-37.248, -0.006]}
+{"model": "v3", "task": "quote-repetition", "i": 171, "gold": 1, "scores": [-36.634, -29.198]}
+{"model": "v3", "task": "quote-repetition", "i": 172, "gold": 1, "scores": [-29.062, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 173, "gold": 1, "scores": [-77.751, -54.453]}
+{"model": "v3", "task": "quote-repetition", "i": 174, "gold": 1, "scores": [-19.118, -9.868]}
+{"model": "v3", "task": "quote-repetition", "i": 175, "gold": 1, "scores": [-55.587, -45.25]}
+{"model": "v3", "task": "quote-repetition", "i": 176, "gold": 1, "scores": [-43.68, -41.502]}
+{"model": "v3", "task": "quote-repetition", "i": 177, "gold": 1, "scores": [-35.625, -16.892]}
+{"model": "v3", "task": "quote-repetition", "i": 178, "gold": 1, "scores": [-30.952, -20.64]}
+{"model": "v3", "task": "quote-repetition", "i": 179, "gold": 1, "scores": [-53.617, -51.375]}
+{"model": "v3", "task": "quote-repetition", "i": 180, "gold": 1, "scores": [-39.689, -35.689]}
+{"model": "v3", "task": "quote-repetition", "i": 181, "gold": 1, "scores": [-19.919, -13.106]}
+{"model": "v3", "task": "quote-repetition", "i": 182, "gold": 1, "scores": [-5.045, -5.045]}
+{"model": "v3", "task": "quote-repetition", "i": 183, "gold": 1, "scores": [-28.25, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 184, "gold": 1, "scores": [-37.844, -37.844]}
+{"model": "v3", "task": "quote-repetition", "i": 185, "gold": 1, "scores": [-7.024, -15.399]}
+{"model": "v3", "task": "quote-repetition", "i": 186, "gold": 1, "scores": [-47.398, -45.526]}
+{"model": "v3", "task": "quote-repetition", "i": 187, "gold": 1, "scores": [-41.688, -3.057]}
+{"model": "v3", "task": "quote-repetition", "i": 188, "gold": 1, "scores": [-14.351, -9.976]}
+{"model": "v3", "task": "quote-repetition", "i": 189, "gold": 1, "scores": [-33.055, -33.774]}
+{"model": "v3", "task": "quote-repetition", "i": 190, "gold": 1, "scores": [-32.174, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 191, "gold": 1, "scores": [-36.493, -0.426]}
+{"model": "v3", "task": "quote-repetition", "i": 192, "gold": 1, "scores": [-60.469, -60.109]}
+{"model": "v3", "task": "quote-repetition", "i": 193, "gold": 1, "scores": [-25.37, -0.021]}
+{"model": "v3", "task": "quote-repetition", "i": 194, "gold": 1, "scores": [-44.819, -25.491]}
+{"model": "v3", "task": "quote-repetition", "i": 195, "gold": 1, "scores": [-35.697, -9.034]}
+{"model": "v3", "task": "quote-repetition", "i": 196, "gold": 1, "scores": [-10.025, -13.775]}
+{"model": "v3", "task": "quote-repetition", "i": 197, "gold": 1, "scores": [-20.905, -10.405]}
+{"model": "v3", "task": "quote-repetition", "i": 198, "gold": 1, "scores": [-52.559, -48.281]}
+{"model": "v3", "task": "quote-repetition", "i": 199, "gold": 1, "scores": [-25.814, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 200, "gold": 1, "scores": [-58.15, -52.875]}
+{"model": "v3", "task": "quote-repetition", "i": 201, "gold": 1, "scores": [-30.569, -0.007]}
+{"model": "v3", "task": "quote-repetition", "i": 202, "gold": 1, "scores": [-0.761, -0.636]}
+{"model": "v3", "task": "quote-repetition", "i": 203, "gold": 1, "scores": [-28.636, -0.011]}
+{"model": "v3", "task": "quote-repetition", "i": 204, "gold": 1, "scores": [-36.32, -30.633]}
+{"model": "v3", "task": "quote-repetition", "i": 205, "gold": 1, "scores": [-44.845, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 206, "gold": 1, "scores": [-33.001, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 207, "gold": 1, "scores": [-0.049, -0.049]}
+{"model": "v3", "task": "quote-repetition", "i": 208, "gold": 1, "scores": [-26.875, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 209, "gold": 1, "scores": [-27.813, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 210, "gold": 1, "scores": [-25.375, -16.882]}
+{"model": "v3", "task": "quote-repetition", "i": 211, "gold": 1, "scores": [-12.294, -17.178]}
+{"model": "v3", "task": "quote-repetition", "i": 212, "gold": 1, "scores": [-30.75, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 213, "gold": 1, "scores": [-15.126, -0.102]}
+{"model": "v3", "task": "quote-repetition", "i": 214, "gold": 1, "scores": [-29.959, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 215, "gold": 1, "scores": [-41.805, -42.43]}
+{"model": "v3", "task": "quote-repetition", "i": 216, "gold": 1, "scores": [-26.319, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 217, "gold": 1, "scores": [-38.399, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 218, "gold": 1, "scores": [-36.875, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 219, "gold": 1, "scores": [-35.657, -7.251]}
+{"model": "v3", "task": "quote-repetition", "i": 220, "gold": 1, "scores": [-36.065, -7.253]}
+{"model": "v3", "task": "quote-repetition", "i": 221, "gold": 1, "scores": [-31.814, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 222, "gold": 1, "scores": [-27.002, -6.377]}
+{"model": "v3", "task": "quote-repetition", "i": 223, "gold": 1, "scores": [-24.426, -0.004]}
+{"model": "v3", "task": "quote-repetition", "i": 224, "gold": 1, "scores": [-29.443, -0.005]}
+{"model": "v3", "task": "quote-repetition", "i": 225, "gold": 1, "scores": [-34.812, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 226, "gold": 1, "scores": [-22.875, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 227, "gold": 1, "scores": [-37.438, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 228, "gold": 1, "scores": [-39.625, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 229, "gold": 1, "scores": [-36.563, -36.313]}
+{"model": "v3", "task": "quote-repetition", "i": 230, "gold": 1, "scores": [-18.289, -0.134]}
+{"model": "v3", "task": "quote-repetition", "i": 231, "gold": 1, "scores": [-24.386, -0.011]}
+{"model": "v3", "task": "quote-repetition", "i": 232, "gold": 1, "scores": [-50.216, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 233, "gold": 1, "scores": [-38.667, -0.005]}
+{"model": "v3", "task": "quote-repetition", "i": 234, "gold": 1, "scores": [-22.197, -7.808]}
+{"model": "v3", "task": "quote-repetition", "i": 235, "gold": 1, "scores": [-19.867, -5.902]}
+{"model": "v3", "task": "quote-repetition", "i": 236, "gold": 1, "scores": [-47.857, -1.706]}
+{"model": "v3", "task": "quote-repetition", "i": 237, "gold": 1, "scores": [-41.341, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 238, "gold": 1, "scores": [-0.0, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 239, "gold": 1, "scores": [-36.625, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 240, "gold": 1, "scores": [-26.063, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 241, "gold": 1, "scores": [-21.911, -0.036]}
+{"model": "v3", "task": "quote-repetition", "i": 242, "gold": 1, "scores": [-18.5, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 243, "gold": 1, "scores": [-61.699, -43.86]}
+{"model": "v3", "task": "quote-repetition", "i": 244, "gold": 1, "scores": [-30.813, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 245, "gold": 1, "scores": [-40.482, -0.006]}
+{"model": "v3", "task": "quote-repetition", "i": 246, "gold": 1, "scores": [-29.375, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 247, "gold": 1, "scores": [-19.394, -0.082]}
+{"model": "v3", "task": "quote-repetition", "i": 248, "gold": 1, "scores": [-25.88, -6.318]}
+{"model": "v3", "task": "quote-repetition", "i": 249, "gold": 1, "scores": [-30.22, -2.97]}
+{"model": "v3", "task": "quote-repetition", "i": 250, "gold": 1, "scores": [-34.153, -10.081]}
+{"model": "v3", "task": "quote-repetition", "i": 251, "gold": 1, "scores": [-0.0, -4.872]}
+{"model": "v3", "task": "quote-repetition", "i": 252, "gold": 1, "scores": [-44.938, -40.125]}
+{"model": "v3", "task": "quote-repetition", "i": 253, "gold": 1, "scores": [-17.04, -6.134]}
+{"model": "v3", "task": "quote-repetition", "i": 254, "gold": 1, "scores": [-15.938, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 255, "gold": 1, "scores": [-20.269, -4.625]}
+{"model": "v3", "task": "quote-repetition", "i": 256, "gold": 1, "scores": [-17.194, -0.632]}
+{"model": "v3", "task": "quote-repetition", "i": 257, "gold": 1, "scores": [-8.607, -1.105]}
+{"model": "v3", "task": "quote-repetition", "i": 258, "gold": 1, "scores": [-49.851, -14.639]}
+{"model": "v3", "task": "quote-repetition", "i": 259, "gold": 1, "scores": [-43.563, -36.751]}
+{"model": "v3", "task": "quote-repetition", "i": 260, "gold": 1, "scores": [-37.562, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 261, "gold": 1, "scores": [-11.32, -0.01]}
+{"model": "v3", "task": "quote-repetition", "i": 262, "gold": 1, "scores": [-22.002, -0.002]}
+{"model": "v3", "task": "quote-repetition", "i": 263, "gold": 1, "scores": [-22.5, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 264, "gold": 1, "scores": [-69.346, -51.203]}
+{"model": "v3", "task": "quote-repetition", "i": 265, "gold": 1, "scores": [-46.765, -7.265]}
+{"model": "v3", "task": "quote-repetition", "i": 266, "gold": 1, "scores": [-17.868, -1.055]}
+{"model": "v3", "task": "quote-repetition", "i": 267, "gold": 1, "scores": [-39.943, -28.005]}
+{"model": "v3", "task": "quote-repetition", "i": 268, "gold": 1, "scores": [-26.203, -35.14]}
+{"model": "v3", "task": "quote-repetition", "i": 269, "gold": 1, "scores": [-35.201, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 270, "gold": 1, "scores": [-20.188, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 271, "gold": 1, "scores": [-28.188, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 272, "gold": 1, "scores": [-27.188, -0.0]}
+{"model": "v3", "task": "quote-repetition", "i": 273, "gold": 1, "scores": [-66.352, -54.712]}
+{"model": "v3", "task": "quote-repetition", "i": 274, "gold": 1, "scores": [-27.514, -11.392]}
+{"model": "v3", "task": "quote-repetition", "i": 275, "gold": 1, "scores": [-66.438, -47.406]}
+{"model": "v3", "task": "quote-repetition", "i": 276, "gold": 1, "scores": [-42.813, -41.809]}
+{"model": "v3", "task": "quote-repetition", "i": 277, "gold": 1, "scores": [-33.237, -4.025]}
+{"model": "v3", "task": "quote-repetition", "i": 278, "gold": 1, "scores": [-28.524, -14.149]}
+{"model": "v3", "task": "quote-repetition", "i": 279, "gold": 1, "scores": [-51.262, -53.637]}
+{"model": "v3", "task": "quote-repetition", "i": 280, "gold": 1, "scores": [-22.146, -5.896]}
+{"model": "v3", "task": "quote-repetition", "i": 281, "gold": 1, "scores": [-25.264, -23.327]}
+{"model": "v3", "task": "quote-repetition", "i": 282, "gold": 1, "scores": [-34.851, -32.851]}
+{"model": "v3", "task": "quote-repetition", "i": 283, "gold": 1, "scores": [-18.505, -0.005]}
+{"model": "v3", "task": "quote-repetition", "i": 284, "gold": 1, "scores": [-24.256, -11.511]}
+{"model": "v3", "task": "quote-repetition", "i": 285, "gold": 1, "scores": [-40.75, -40.0]}
+{"model": "v3", "task": "quote-repetition", "i": 286, "gold": 1, "scores": [-47.931, -45.438]}
+{"model": "v3", "task": "quote-repetition", "i": 287, "gold": 1, "scores": [-40.716, -0.015]}
+{"model": "v3", "task": "quote-repetition", "i": 288, "gold": 1, "scores": [-16.631, -10.007]}
+{"model": "v3", "task": "quote-repetition", "i": 289, "gold": 1, "scores": [-4.704, -0.079]}
+{"model": "v3", "task": "quote-repetition", "i": 290, "gold": 1, "scores": [-37.652, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 291, "gold": 1, "scores": [-37.496, -0.007]}
+{"model": "v3", "task": "quote-repetition", "i": 292, "gold": 1, "scores": [-60.758, -57.126]}
+{"model": "v3", "task": "quote-repetition", "i": 293, "gold": 1, "scores": [-31.673, -0.001]}
+{"model": "v3", "task": "quote-repetition", "i": 294, "gold": 1, "scores": [-50.015, -34.953]}
+{"model": "v3", "task": "quote-repetition", "i": 295, "gold": 1, "scores": [-36.228, -12.883]}
+{"model": "v3", "task": "quote-repetition", "i": 296, "gold": 1, "scores": [-23.877, -14.503]}
+{"model": "v3", "task": "quote-repetition", "i": 297, "gold": 1, "scores": [-21.672, -2.672]}
+{"model": "v3", "task": "quote-repetition", "i": 298, "gold": 1, "scores": [-19.106, -19.106]}
+{"model": "v3", "task": "quote-repetition", "i": 299, "gold": 1, "scores": [-24.502, -0.002]}
+{"model": "v3", "task": "NeQA", "i": 0, "gold": 0, "scores": [0.0, -46.125]}
+{"model": "v3", "task": "NeQA", "i": 1, "gold": 1, "scores": [-47.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 2, "gold": 1, "scores": [-44.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 3, "gold": 1, "scores": [-45.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 4, "gold": 0, "scores": [0.0, -45.25]}
+{"model": "v3", "task": "NeQA", "i": 5, "gold": 1, "scores": [0.0, -41.625]}
+{"model": "v3", "task": "NeQA", "i": 6, "gold": 1, "scores": [-45.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 7, "gold": 1, "scores": [-46.562, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 8, "gold": 1, "scores": [-44.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 9, "gold": 1, "scores": [-45.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 10, "gold": 0, "scores": [-46.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 11, "gold": 0, "scores": [-20.0, -30.25]}
+{"model": "v3", "task": "NeQA", "i": 12, "gold": 1, "scores": [-0.079, -13.329]}
+{"model": "v3", "task": "NeQA", "i": 13, "gold": 0, "scores": [-40.312, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 14, "gold": 1, "scores": [0.0, -44.375]}
+{"model": "v3", "task": "NeQA", "i": 15, "gold": 0, "scores": [0.0, -45.875]}
+{"model": "v3", "task": "NeQA", "i": 16, "gold": 1, "scores": [-46.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 17, "gold": 1, "scores": [0.0, -45.875]}
+{"model": "v3", "task": "NeQA", "i": 18, "gold": 1, "scores": [-0.0, -12.25]}
+{"model": "v3", "task": "NeQA", "i": 19, "gold": 1, "scores": [-41.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 20, "gold": 0, "scores": [0.0, -48.062]}
+{"model": "v3", "task": "NeQA", "i": 21, "gold": 0, "scores": [-44.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 22, "gold": 1, "scores": [-43.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 23, "gold": 0, "scores": [0.0, -47.5]}
+{"model": "v3", "task": "NeQA", "i": 24, "gold": 1, "scores": [-45.312, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 25, "gold": 1, "scores": [-47.188, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 26, "gold": 0, "scores": [-44.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 27, "gold": 1, "scores": [-44.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 28, "gold": 0, "scores": [-44.312, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 29, "gold": 1, "scores": [-44.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 30, "gold": 1, "scores": [-12.75, -0.0]}
+{"model": "v3", "task": "NeQA", "i": 31, "gold": 1, "scores": [-46.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 32, "gold": 1, "scores": [-42.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 33, "gold": 1, "scores": [-46.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 34, "gold": 0, "scores": [0.0, -42.625]}
+{"model": "v3", "task": "NeQA", "i": 35, "gold": 0, "scores": [-45.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 36, "gold": 1, "scores": [-45.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 37, "gold": 0, "scores": [-0.0, -41.375]}
+{"model": "v3", "task": "NeQA", "i": 38, "gold": 0, "scores": [0.0, -44.375]}
+{"model": "v3", "task": "NeQA", "i": 39, "gold": 0, "scores": [0.0, -44.25]}
+{"model": "v3", "task": "NeQA", "i": 40, "gold": 1, "scores": [0.0, -42.375]}
+{"model": "v3", "task": "NeQA", "i": 41, "gold": 0, "scores": [-47.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 42, "gold": 1, "scores": [-46.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 43, "gold": 0, "scores": [-43.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 44, "gold": 0, "scores": [0.0, -41.5]}
+{"model": "v3", "task": "NeQA", "i": 45, "gold": 0, "scores": [0.0, -44.375]}
+{"model": "v3", "task": "NeQA", "i": 46, "gold": 0, "scores": [0.0, -32.0]}
+{"model": "v3", "task": "NeQA", "i": 47, "gold": 0, "scores": [-43.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 48, "gold": 0, "scores": [0.0, -45.75]}
+{"model": "v3", "task": "NeQA", "i": 49, "gold": 1, "scores": [-6.502, -0.002]}
+{"model": "v3", "task": "NeQA", "i": 50, "gold": 1, "scores": [-42.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 51, "gold": 0, "scores": [0.0, -41.125]}
+{"model": "v3", "task": "NeQA", "i": 52, "gold": 0, "scores": [0.0, -45.875]}
+{"model": "v3", "task": "NeQA", "i": 53, "gold": 1, "scores": [-0.0, -13.0]}
+{"model": "v3", "task": "NeQA", "i": 54, "gold": 1, "scores": [-47.312, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 55, "gold": 1, "scores": [0.0, -43.625]}
+{"model": "v3", "task": "NeQA", "i": 56, "gold": 1, "scores": [-44.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 57, "gold": 1, "scores": [0.0, -28.75]}
+{"model": "v3", "task": "NeQA", "i": 58, "gold": 1, "scores": [-40.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 59, "gold": 1, "scores": [0.0, -43.25]}
+{"model": "v3", "task": "NeQA", "i": 60, "gold": 1, "scores": [-46.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 61, "gold": 1, "scores": [-42.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 62, "gold": 0, "scores": [-40.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 63, "gold": 0, "scores": [0.0, -44.875]}
+{"model": "v3", "task": "NeQA", "i": 64, "gold": 1, "scores": [-43.062, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 65, "gold": 0, "scores": [-39.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 66, "gold": 0, "scores": [0.0, -45.25]}
+{"model": "v3", "task": "NeQA", "i": 67, "gold": 0, "scores": [-44.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 68, "gold": 1, "scores": [-40.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 69, "gold": 1, "scores": [-44.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 70, "gold": 0, "scores": [-45.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 71, "gold": 0, "scores": [-41.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 72, "gold": 1, "scores": [0.0, -34.875]}
+{"model": "v3", "task": "NeQA", "i": 73, "gold": 1, "scores": [0.0, -42.75]}
+{"model": "v3", "task": "NeQA", "i": 74, "gold": 0, "scores": [-26.127, -1.502]}
+{"model": "v3", "task": "NeQA", "i": 75, "gold": 1, "scores": [-40.438, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 76, "gold": 1, "scores": [-36.812, -2.812]}
+{"model": "v3", "task": "NeQA", "i": 77, "gold": 1, "scores": [-36.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 78, "gold": 1, "scores": [-48.688, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 79, "gold": 1, "scores": [-41.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 80, "gold": 1, "scores": [-0.252, -13.002]}
+{"model": "v3", "task": "NeQA", "i": 81, "gold": 1, "scores": [-42.062, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 82, "gold": 0, "scores": [-28.875, -0.0]}
+{"model": "v3", "task": "NeQA", "i": 83, "gold": 0, "scores": [-35.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 84, "gold": 1, "scores": [-44.062, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 85, "gold": 0, "scores": [0.0, -45.25]}
+{"model": "v3", "task": "NeQA", "i": 86, "gold": 0, "scores": [0.0, -44.5]}
+{"model": "v3", "task": "NeQA", "i": 87, "gold": 1, "scores": [-43.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 88, "gold": 0, "scores": [0.0, -41.75]}
+{"model": "v3", "task": "NeQA", "i": 89, "gold": 0, "scores": [-0.0, -11.5]}
+{"model": "v3", "task": "NeQA", "i": 90, "gold": 1, "scores": [0.0, -46.25]}
+{"model": "v3", "task": "NeQA", "i": 91, "gold": 0, "scores": [0.0, -44.125]}
+{"model": "v3", "task": "NeQA", "i": 92, "gold": 1, "scores": [-46.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 93, "gold": 1, "scores": [0.0, -47.312]}
+{"model": "v3", "task": "NeQA", "i": 94, "gold": 1, "scores": [-45.812, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 95, "gold": 0, "scores": [-26.376, -0.001]}
+{"model": "v3", "task": "NeQA", "i": 96, "gold": 0, "scores": [0.0, -44.125]}
+{"model": "v3", "task": "NeQA", "i": 97, "gold": 0, "scores": [-21.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 98, "gold": 0, "scores": [0.0, -46.5]}
+{"model": "v3", "task": "NeQA", "i": 99, "gold": 1, "scores": [-47.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 100, "gold": 1, "scores": [-44.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 101, "gold": 0, "scores": [-39.375, -21.25]}
+{"model": "v3", "task": "NeQA", "i": 102, "gold": 1, "scores": [-45.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 103, "gold": 0, "scores": [-46.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 104, "gold": 0, "scores": [-46.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 105, "gold": 1, "scores": [-43.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 106, "gold": 0, "scores": [0.0, -37.375]}
+{"model": "v3", "task": "NeQA", "i": 107, "gold": 1, "scores": [-42.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 108, "gold": 0, "scores": [0.0, -38.875]}
+{"model": "v3", "task": "NeQA", "i": 109, "gold": 0, "scores": [0.0, -45.625]}
+{"model": "v3", "task": "NeQA", "i": 110, "gold": 0, "scores": [0.0, -42.25]}
+{"model": "v3", "task": "NeQA", "i": 111, "gold": 1, "scores": [0.0, -48.875]}
+{"model": "v3", "task": "NeQA", "i": 112, "gold": 1, "scores": [-46.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 113, "gold": 0, "scores": [0.0, -44.25]}
+{"model": "v3", "task": "NeQA", "i": 114, "gold": 1, "scores": [-42.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 115, "gold": 1, "scores": [-22.75, -0.0]}
+{"model": "v3", "task": "NeQA", "i": 116, "gold": 0, "scores": [0.0, -48.125]}
+{"model": "v3", "task": "NeQA", "i": 117, "gold": 0, "scores": [-40.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 118, "gold": 1, "scores": [-45.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 119, "gold": 0, "scores": [0.0, -25.75]}
+{"model": "v3", "task": "NeQA", "i": 120, "gold": 1, "scores": [-45.188, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 121, "gold": 0, "scores": [0.0, -42.5]}
+{"model": "v3", "task": "NeQA", "i": 122, "gold": 0, "scores": [-23.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 123, "gold": 0, "scores": [-14.25, -0.0]}
+{"model": "v3", "task": "NeQA", "i": 124, "gold": 0, "scores": [-31.875, -28.75]}
+{"model": "v3", "task": "NeQA", "i": 125, "gold": 1, "scores": [0.0, -36.625]}
+{"model": "v3", "task": "NeQA", "i": 126, "gold": 1, "scores": [-46.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 127, "gold": 0, "scores": [0.0, -32.875]}
+{"model": "v3", "task": "NeQA", "i": 128, "gold": 1, "scores": [-33.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 129, "gold": 0, "scores": [0.0, -40.125]}
+{"model": "v3", "task": "NeQA", "i": 130, "gold": 0, "scores": [-0.0, -37.188]}
+{"model": "v3", "task": "NeQA", "i": 131, "gold": 1, "scores": [-38.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 132, "gold": 1, "scores": [-43.938, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 133, "gold": 0, "scores": [0.0, -27.75]}
+{"model": "v3", "task": "NeQA", "i": 134, "gold": 1, "scores": [-44.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 135, "gold": 1, "scores": [-49.562, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 136, "gold": 1, "scores": [-44.562, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 137, "gold": 1, "scores": [-3.773, -0.023]}
+{"model": "v3", "task": "NeQA", "i": 138, "gold": 0, "scores": [0.0, -46.875]}
+{"model": "v3", "task": "NeQA", "i": 139, "gold": 1, "scores": [-44.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 140, "gold": 1, "scores": [-44.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 141, "gold": 0, "scores": [0.0, -43.5]}
+{"model": "v3", "task": "NeQA", "i": 142, "gold": 1, "scores": [-46.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 143, "gold": 0, "scores": [-38.5, -23.0]}
+{"model": "v3", "task": "NeQA", "i": 144, "gold": 0, "scores": [0.0, -44.75]}
+{"model": "v3", "task": "NeQA", "i": 145, "gold": 1, "scores": [0.0, -41.875]}
+{"model": "v3", "task": "NeQA", "i": 146, "gold": 1, "scores": [-41.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 147, "gold": 1, "scores": [-39.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 148, "gold": 0, "scores": [0.0, -40.5]}
+{"model": "v3", "task": "NeQA", "i": 149, "gold": 0, "scores": [0.0, -39.75]}
+{"model": "v3", "task": "NeQA", "i": 150, "gold": 1, "scores": [-35.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 151, "gold": 0, "scores": [0.0, -39.375]}
+{"model": "v3", "task": "NeQA", "i": 152, "gold": 0, "scores": [-29.625, -0.0]}
+{"model": "v3", "task": "NeQA", "i": 153, "gold": 1, "scores": [0.0, -37.25]}
+{"model": "v3", "task": "NeQA", "i": 154, "gold": 1, "scores": [0.0, -38.0]}
+{"model": "v3", "task": "NeQA", "i": 155, "gold": 1, "scores": [-45.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 156, "gold": 0, "scores": [0.0, -47.125]}
+{"model": "v3", "task": "NeQA", "i": 157, "gold": 0, "scores": [-46.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 158, "gold": 0, "scores": [0.0, -36.875]}
+{"model": "v3", "task": "NeQA", "i": 159, "gold": 1, "scores": [-27.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 160, "gold": 1, "scores": [-45.938, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 161, "gold": 1, "scores": [-45.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 162, "gold": 0, "scores": [0.0, -45.125]}
+{"model": "v3", "task": "NeQA", "i": 163, "gold": 1, "scores": [-46.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 164, "gold": 1, "scores": [-46.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 165, "gold": 1, "scores": [-46.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 166, "gold": 0, "scores": [-0.079, -25.454]}
+{"model": "v3", "task": "NeQA", "i": 167, "gold": 0, "scores": [0.0, -44.5]}
+{"model": "v3", "task": "NeQA", "i": 168, "gold": 0, "scores": [0.0, -19.5]}
+{"model": "v3", "task": "NeQA", "i": 169, "gold": 1, "scores": [0.0, -42.25]}
+{"model": "v3", "task": "NeQA", "i": 170, "gold": 1, "scores": [-43.938, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 171, "gold": 0, "scores": [-43.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 172, "gold": 1, "scores": [-48.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 173, "gold": 0, "scores": [-47.562, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 174, "gold": 0, "scores": [0.0, -46.875]}
+{"model": "v3", "task": "NeQA", "i": 175, "gold": 0, "scores": [0.0, -43.125]}
+{"model": "v3", "task": "NeQA", "i": 176, "gold": 1, "scores": [0.0, -32.375]}
+{"model": "v3", "task": "NeQA", "i": 177, "gold": 1, "scores": [-45.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 178, "gold": 1, "scores": [0.0, -41.0]}
+{"model": "v3", "task": "NeQA", "i": 179, "gold": 1, "scores": [0.0, -46.0]}
+{"model": "v3", "task": "NeQA", "i": 180, "gold": 0, "scores": [-37.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 181, "gold": 0, "scores": [0.0, -45.25]}
+{"model": "v3", "task": "NeQA", "i": 182, "gold": 1, "scores": [0.0, -45.75]}
+{"model": "v3", "task": "NeQA", "i": 183, "gold": 0, "scores": [-0.1, -13.85]}
+{"model": "v3", "task": "NeQA", "i": 184, "gold": 1, "scores": [-43.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 185, "gold": 1, "scores": [0.0, -39.0]}
+{"model": "v3", "task": "NeQA", "i": 186, "gold": 1, "scores": [-43.812, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 187, "gold": 1, "scores": [-43.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 188, "gold": 0, "scores": [-41.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 189, "gold": 0, "scores": [-41.375, -0.0]}
+{"model": "v3", "task": "NeQA", "i": 190, "gold": 1, "scores": [-45.938, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 191, "gold": 0, "scores": [0.0, -47.375]}
+{"model": "v3", "task": "NeQA", "i": 192, "gold": 1, "scores": [-43.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 193, "gold": 0, "scores": [0.0, -48.875]}
+{"model": "v3", "task": "NeQA", "i": 194, "gold": 1, "scores": [-46.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 195, "gold": 0, "scores": [0.0, -34.5]}
+{"model": "v3", "task": "NeQA", "i": 196, "gold": 0, "scores": [0.0, -42.875]}
+{"model": "v3", "task": "NeQA", "i": 197, "gold": 1, "scores": [-45.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 198, "gold": 0, "scores": [0.0, -47.375]}
+{"model": "v3", "task": "NeQA", "i": 199, "gold": 1, "scores": [-0.161, -1.911]}
+{"model": "v3", "task": "NeQA", "i": 200, "gold": 0, "scores": [-41.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 201, "gold": 1, "scores": [-42.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 202, "gold": 0, "scores": [0.0, -44.5]}
+{"model": "v3", "task": "NeQA", "i": 203, "gold": 0, "scores": [-44.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 204, "gold": 0, "scores": [0.0, -42.625]}
+{"model": "v3", "task": "NeQA", "i": 205, "gold": 0, "scores": [-25.875, -16.5]}
+{"model": "v3", "task": "NeQA", "i": 206, "gold": 0, "scores": [-45.938, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 207, "gold": 1, "scores": [-44.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 208, "gold": 1, "scores": [-35.375, -24.0]}
+{"model": "v3", "task": "NeQA", "i": 209, "gold": 0, "scores": [0.0, -37.875]}
+{"model": "v3", "task": "NeQA", "i": 210, "gold": 0, "scores": [-0.0, -18.5]}
+{"model": "v3", "task": "NeQA", "i": 211, "gold": 0, "scores": [0.0, -23.0]}
+{"model": "v3", "task": "NeQA", "i": 212, "gold": 1, "scores": [-31.625, -13.0]}
+{"model": "v3", "task": "NeQA", "i": 213, "gold": 0, "scores": [0.0, -42.5]}
+{"model": "v3", "task": "NeQA", "i": 214, "gold": 0, "scores": [0.0, -40.875]}
+{"model": "v3", "task": "NeQA", "i": 215, "gold": 1, "scores": [-44.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 216, "gold": 1, "scores": [-44.812, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 217, "gold": 1, "scores": [-47.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 218, "gold": 1, "scores": [-41.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 219, "gold": 1, "scores": [-47.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 220, "gold": 1, "scores": [-33.125, -29.875]}
+{"model": "v3", "task": "NeQA", "i": 221, "gold": 0, "scores": [-31.204, -0.079]}
+{"model": "v3", "task": "NeQA", "i": 222, "gold": 0, "scores": [-42.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 223, "gold": 0, "scores": [-21.375, -25.125]}
+{"model": "v3", "task": "NeQA", "i": 224, "gold": 1, "scores": [-45.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 225, "gold": 1, "scores": [-46.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 226, "gold": 1, "scores": [-44.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 227, "gold": 1, "scores": [-45.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 228, "gold": 1, "scores": [0.0, -44.75]}
+{"model": "v3", "task": "NeQA", "i": 229, "gold": 0, "scores": [0.0, -42.875]}
+{"model": "v3", "task": "NeQA", "i": 230, "gold": 0, "scores": [0.0, -46.0]}
+{"model": "v3", "task": "NeQA", "i": 231, "gold": 0, "scores": [0.0, -39.625]}
+{"model": "v3", "task": "NeQA", "i": 232, "gold": 0, "scores": [-24.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 233, "gold": 1, "scores": [-48.062, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 234, "gold": 1, "scores": [-43.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 235, "gold": 0, "scores": [0.0, -38.5]}
+{"model": "v3", "task": "NeQA", "i": 236, "gold": 1, "scores": [0.0, -45.125]}
+{"model": "v3", "task": "NeQA", "i": 237, "gold": 0, "scores": [0.0, -31.75]}
+{"model": "v3", "task": "NeQA", "i": 238, "gold": 1, "scores": [0.0, -47.688]}
+{"model": "v3", "task": "NeQA", "i": 239, "gold": 1, "scores": [-42.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 240, "gold": 0, "scores": [0.0, -38.5]}
+{"model": "v3", "task": "NeQA", "i": 241, "gold": 1, "scores": [-44.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 242, "gold": 1, "scores": [-45.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 243, "gold": 0, "scores": [-44.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 244, "gold": 1, "scores": [-0.0, -10.0]}
+{"model": "v3", "task": "NeQA", "i": 245, "gold": 1, "scores": [-43.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 246, "gold": 1, "scores": [-46.062, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 247, "gold": 0, "scores": [0.0, -44.5]}
+{"model": "v3", "task": "NeQA", "i": 248, "gold": 1, "scores": [0.0, -39.375]}
+{"model": "v3", "task": "NeQA", "i": 249, "gold": 1, "scores": [-41.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 250, "gold": 1, "scores": [0.0, -32.25]}
+{"model": "v3", "task": "NeQA", "i": 251, "gold": 0, "scores": [-25.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 252, "gold": 0, "scores": [-0.0, -19.5]}
+{"model": "v3", "task": "NeQA", "i": 253, "gold": 0, "scores": [-37.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 254, "gold": 1, "scores": [0.0, -38.625]}
+{"model": "v3", "task": "NeQA", "i": 255, "gold": 1, "scores": [-45.25, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 256, "gold": 0, "scores": [0.0, -40.5]}
+{"model": "v3", "task": "NeQA", "i": 257, "gold": 1, "scores": [-43.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 258, "gold": 0, "scores": [0.0, -41.375]}
+{"model": "v3", "task": "NeQA", "i": 259, "gold": 1, "scores": [-43.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 260, "gold": 0, "scores": [-39.125, -18.25]}
+{"model": "v3", "task": "NeQA", "i": 261, "gold": 1, "scores": [-6.851, -2.351]}
+{"model": "v3", "task": "NeQA", "i": 262, "gold": 1, "scores": [-0.0, -9.75]}
+{"model": "v3", "task": "NeQA", "i": 263, "gold": 0, "scores": [0.0, -42.625]}
+{"model": "v3", "task": "NeQA", "i": 264, "gold": 1, "scores": [-41.75, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 265, "gold": 0, "scores": [-48.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 266, "gold": 0, "scores": [-28.25, -0.0]}
+{"model": "v3", "task": "NeQA", "i": 267, "gold": 1, "scores": [-44.812, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 268, "gold": 1, "scores": [-49.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 269, "gold": 0, "scores": [0.0, -26.25]}
+{"model": "v3", "task": "NeQA", "i": 270, "gold": 1, "scores": [-45.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 271, "gold": 0, "scores": [0.0, -42.375]}
+{"model": "v3", "task": "NeQA", "i": 272, "gold": 0, "scores": [-47.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 273, "gold": 0, "scores": [0.0, -46.5]}
+{"model": "v3", "task": "NeQA", "i": 274, "gold": 0, "scores": [0.0, -43.25]}
+{"model": "v3", "task": "NeQA", "i": 275, "gold": 0, "scores": [-47.562, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 276, "gold": 1, "scores": [-41.688, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 277, "gold": 0, "scores": [-1.91, -0.16]}
+{"model": "v3", "task": "NeQA", "i": 278, "gold": 1, "scores": [-43.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 279, "gold": 1, "scores": [-23.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 280, "gold": 1, "scores": [-45.188, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 281, "gold": 1, "scores": [-41.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 282, "gold": 0, "scores": [-43.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 283, "gold": 0, "scores": [-47.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 284, "gold": 1, "scores": [-47.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 285, "gold": 1, "scores": [-41.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 286, "gold": 0, "scores": [-32.877, -2.127]}
+{"model": "v3", "task": "NeQA", "i": 287, "gold": 0, "scores": [-43.125, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 288, "gold": 1, "scores": [-1.433, -0.433]}
+{"model": "v3", "task": "NeQA", "i": 289, "gold": 1, "scores": [-19.5, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 290, "gold": 1, "scores": [-33.625, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 291, "gold": 1, "scores": [-41.875, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 292, "gold": 1, "scores": [-45.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 293, "gold": 1, "scores": [-26.75, -0.0]}
+{"model": "v3", "task": "NeQA", "i": 294, "gold": 0, "scores": [0.0, -34.125]}
+{"model": "v3", "task": "NeQA", "i": 295, "gold": 1, "scores": [0.0, -41.562]}
+{"model": "v3", "task": "NeQA", "i": 296, "gold": 0, "scores": [-0.1, -13.85]}
+{"model": "v3", "task": "NeQA", "i": 297, "gold": 1, "scores": [-42.375, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 298, "gold": 1, "scores": [-45.0, 0.0]}
+{"model": "v3", "task": "NeQA", "i": 299, "gold": 1, "scores": [0.0, -36.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 0, "gold": 1, "scores": [-39.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 1, "gold": 1, "scores": [0.0, -36.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 2, "gold": 1, "scores": [0.0, -43.188]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 3, "gold": 1, "scores": [-6.751, -0.001]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 4, "gold": 0, "scores": [-42.625, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 5, "gold": 0, "scores": [-43.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 6, "gold": 0, "scores": [-41.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 7, "gold": 0, "scores": [-41.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 8, "gold": 0, "scores": [-40.562, -0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 9, "gold": 0, "scores": [-42.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 10, "gold": 0, "scores": [-41.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 11, "gold": 1, "scores": [0.0, -26.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 12, "gold": 1, "scores": [-41.625, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 13, "gold": 1, "scores": [0.0, -37.125]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 14, "gold": 0, "scores": [-42.062, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 15, "gold": 1, "scores": [0.0, -40.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 16, "gold": 1, "scores": [-24.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 17, "gold": 0, "scores": [-40.188, -0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 18, "gold": 0, "scores": [-45.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 19, "gold": 1, "scores": [0.0, -41.812]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 20, "gold": 1, "scores": [-0.001, -7.001]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 21, "gold": 0, "scores": [-42.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 22, "gold": 0, "scores": [-43.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 23, "gold": 1, "scores": [0.0, -42.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 24, "gold": 1, "scores": [-27.625, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 25, "gold": 1, "scores": [-0.0, -9.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 26, "gold": 1, "scores": [0.0, -31.125]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 27, "gold": 0, "scores": [-39.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 28, "gold": 0, "scores": [-42.875, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 29, "gold": 1, "scores": [0.0, -42.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 30, "gold": 0, "scores": [-41.25, -0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 31, "gold": 0, "scores": [-41.188, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 32, "gold": 1, "scores": [0.0, -42.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 33, "gold": 0, "scores": [-42.438, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 34, "gold": 0, "scores": [-42.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 35, "gold": 0, "scores": [-43.438, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 36, "gold": 0, "scores": [-42.812, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 37, "gold": 0, "scores": [-40.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 38, "gold": 1, "scores": [0.0, -43.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 39, "gold": 1, "scores": [-6.002, -0.002]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 40, "gold": 1, "scores": [0.0, -39.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 41, "gold": 1, "scores": [-27.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 42, "gold": 0, "scores": [-43.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 43, "gold": 1, "scores": [0.0, -44.438]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 44, "gold": 0, "scores": [-43.625, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 45, "gold": 0, "scores": [-41.688, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 46, "gold": 0, "scores": [-43.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 47, "gold": 0, "scores": [-39.625, -0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 48, "gold": 1, "scores": [-0.252, -1.502]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 49, "gold": 0, "scores": [-43.812, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 50, "gold": 0, "scores": [-42.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 51, "gold": 1, "scores": [0.0, -42.125]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 52, "gold": 1, "scores": [0.0, -42.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 53, "gold": 1, "scores": [0.0, -43.625]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 54, "gold": 1, "scores": [-37.875, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 55, "gold": 1, "scores": [0.0, -36.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 56, "gold": 1, "scores": [-41.062, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 57, "gold": 0, "scores": [-42.062, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 58, "gold": 1, "scores": [0.0, -40.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 59, "gold": 0, "scores": [-43.875, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 60, "gold": 0, "scores": [-42.312, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 61, "gold": 1, "scores": [-2.127, -0.127]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 62, "gold": 0, "scores": [-41.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 63, "gold": 0, "scores": [-42.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 64, "gold": 1, "scores": [0.0, -38.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 65, "gold": 0, "scores": [-41.188, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 66, "gold": 1, "scores": [0.0, -34.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 67, "gold": 1, "scores": [0.0, -30.625]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 68, "gold": 1, "scores": [0.0, -41.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 69, "gold": 1, "scores": [0.0, -40.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 70, "gold": 1, "scores": [0.0, -41.625]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 71, "gold": 1, "scores": [-30.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 72, "gold": 0, "scores": [-43.875, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 73, "gold": 1, "scores": [0.0, -33.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 74, "gold": 1, "scores": [0.0, -43.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 75, "gold": 1, "scores": [-38.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 76, "gold": 0, "scores": [-43.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 77, "gold": 0, "scores": [-44.188, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 78, "gold": 1, "scores": [0.0, -41.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 79, "gold": 0, "scores": [-43.062, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 80, "gold": 0, "scores": [-41.875, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 81, "gold": 1, "scores": [0.0, -41.625]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 82, "gold": 1, "scores": [-12.25, -0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 83, "gold": 1, "scores": [-5.007, -0.007]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 84, "gold": 1, "scores": [-0.001, -6.751]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 85, "gold": 1, "scores": [-39.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 86, "gold": 1, "scores": [0.0, -40.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 87, "gold": 1, "scores": [0.0, -42.125]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 88, "gold": 0, "scores": [-42.562, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 89, "gold": 1, "scores": [0.0, -38.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 90, "gold": 0, "scores": [-43.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 91, "gold": 1, "scores": [0.0, -42.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 92, "gold": 0, "scores": [-41.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 93, "gold": 1, "scores": [-9.75, -0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 94, "gold": 0, "scores": [-44.438, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 95, "gold": 0, "scores": [-42.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 96, "gold": 0, "scores": [-42.562, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 97, "gold": 0, "scores": [-43.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 98, "gold": 0, "scores": [-41.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 99, "gold": 0, "scores": [-44.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 100, "gold": 0, "scores": [-43.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 101, "gold": 1, "scores": [0.0, -35.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 102, "gold": 1, "scores": [0.0, -40.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 103, "gold": 0, "scores": [-42.625, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 104, "gold": 1, "scores": [0.0, -43.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 105, "gold": 0, "scores": [-42.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 106, "gold": 0, "scores": [-40.438, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 107, "gold": 0, "scores": [-40.312, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 108, "gold": 1, "scores": [0.0, -41.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 109, "gold": 1, "scores": [0.0, -37.625]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 110, "gold": 0, "scores": [-44.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 111, "gold": 0, "scores": [-42.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 112, "gold": 1, "scores": [-1.701, -0.201]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 113, "gold": 1, "scores": [0.0, -30.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 114, "gold": 1, "scores": [0.0, -43.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 115, "gold": 1, "scores": [-0.127, -2.127]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 116, "gold": 1, "scores": [0.0, -38.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 117, "gold": 1, "scores": [0.0, -38.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 118, "gold": 1, "scores": [-26.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 119, "gold": 1, "scores": [-37.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 120, "gold": 0, "scores": [-43.438, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 121, "gold": 0, "scores": [-40.312, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 122, "gold": 0, "scores": [-43.062, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 123, "gold": 1, "scores": [-23.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 124, "gold": 1, "scores": [0.0, -39.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 125, "gold": 1, "scores": [0.0, -39.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 126, "gold": 0, "scores": [-42.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 127, "gold": 0, "scores": [-42.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 128, "gold": 0, "scores": [-43.562, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 129, "gold": 0, "scores": [-42.812, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 130, "gold": 1, "scores": [-37.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 131, "gold": 0, "scores": [-41.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 132, "gold": 0, "scores": [-43.688, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 133, "gold": 0, "scores": [-42.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 134, "gold": 0, "scores": [-42.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 135, "gold": 0, "scores": [-40.875, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 136, "gold": 1, "scores": [0.0, -42.625]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 137, "gold": 1, "scores": [-0.0, -40.438]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 138, "gold": 1, "scores": [-40.625, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 139, "gold": 0, "scores": [-43.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 140, "gold": 0, "scores": [-41.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 141, "gold": 0, "scores": [-44.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 142, "gold": 1, "scores": [0.0, -38.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 143, "gold": 1, "scores": [0.0, -40.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 144, "gold": 0, "scores": [-42.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 145, "gold": 0, "scores": [-41.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 146, "gold": 1, "scores": [0.0, -44.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 147, "gold": 1, "scores": [0.0, -42.688]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 148, "gold": 1, "scores": [0.0, -41.125]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 149, "gold": 1, "scores": [0.0, -40.625]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 150, "gold": 1, "scores": [0.0, -38.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 151, "gold": 1, "scores": [0.0, -37.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 152, "gold": 1, "scores": [0.0, -42.438]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 153, "gold": 1, "scores": [-0.018, -4.018]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 154, "gold": 0, "scores": [-41.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 155, "gold": 1, "scores": [0.0, -42.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 156, "gold": 0, "scores": [-42.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 157, "gold": 0, "scores": [-43.562, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 158, "gold": 1, "scores": [0.0, -42.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 159, "gold": 1, "scores": [0.0, -42.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 160, "gold": 0, "scores": [-43.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 161, "gold": 1, "scores": [0.0, -38.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 162, "gold": 1, "scores": [0.0, -29.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 163, "gold": 1, "scores": [0.0, -39.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 164, "gold": 1, "scores": [-39.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 165, "gold": 1, "scores": [0.0, -42.438]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 166, "gold": 0, "scores": [-44.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 167, "gold": 1, "scores": [0.0, -41.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 168, "gold": 1, "scores": [0.0, -43.438]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 169, "gold": 1, "scores": [-40.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 170, "gold": 0, "scores": [-42.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 171, "gold": 0, "scores": [-43.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 172, "gold": 0, "scores": [-43.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 173, "gold": 1, "scores": [0.0, -40.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 174, "gold": 1, "scores": [0.0, -41.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 175, "gold": 0, "scores": [-42.688, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 176, "gold": 1, "scores": [-39.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 177, "gold": 0, "scores": [-43.812, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 178, "gold": 1, "scores": [0.0, -39.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 179, "gold": 0, "scores": [-40.812, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 180, "gold": 1, "scores": [0.0, -19.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 181, "gold": 1, "scores": [0.0, -40.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 182, "gold": 1, "scores": [0.0, -39.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 183, "gold": 1, "scores": [0.0, -41.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 184, "gold": 1, "scores": [0.0, -38.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 185, "gold": 1, "scores": [0.0, -40.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 186, "gold": 0, "scores": [-42.688, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 187, "gold": 0, "scores": [-43.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 188, "gold": 0, "scores": [-43.812, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 189, "gold": 1, "scores": [-0.0, -43.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 190, "gold": 1, "scores": [-34.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 191, "gold": 1, "scores": [0.0, -24.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 192, "gold": 1, "scores": [0.0, -41.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 193, "gold": 1, "scores": [0.0, -42.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 194, "gold": 1, "scores": [0.0, -35.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 195, "gold": 0, "scores": [-43.438, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 196, "gold": 1, "scores": [0.0, -37.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 197, "gold": 0, "scores": [-44.062, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 198, "gold": 1, "scores": [-38.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 199, "gold": 0, "scores": [-42.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 200, "gold": 1, "scores": [0.0, -33.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 201, "gold": 1, "scores": [0.0, -24.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 202, "gold": 1, "scores": [-0.0, -43.062]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 203, "gold": 1, "scores": [0.0, -42.938]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 204, "gold": 0, "scores": [-42.062, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 205, "gold": 0, "scores": [-41.875, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 206, "gold": 0, "scores": [-44.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 207, "gold": 1, "scores": [0.0, -42.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 208, "gold": 1, "scores": [0.0, -37.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 209, "gold": 0, "scores": [-43.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 210, "gold": 0, "scores": [-41.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 211, "gold": 0, "scores": [-41.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 212, "gold": 0, "scores": [-43.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 213, "gold": 1, "scores": [-0.0, -14.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 214, "gold": 1, "scores": [0.0, -38.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 215, "gold": 1, "scores": [-39.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 216, "gold": 1, "scores": [-0.0, -43.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 217, "gold": 0, "scores": [-43.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 218, "gold": 0, "scores": [-44.625, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 219, "gold": 1, "scores": [0.0, -30.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 220, "gold": 0, "scores": [-42.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 221, "gold": 0, "scores": [-42.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 222, "gold": 1, "scores": [0.0, -38.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 223, "gold": 0, "scores": [-44.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 224, "gold": 0, "scores": [-42.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 225, "gold": 1, "scores": [0.0, -43.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 226, "gold": 0, "scores": [-44.188, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 227, "gold": 0, "scores": [-41.312, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 228, "gold": 1, "scores": [0.0, -40.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 229, "gold": 0, "scores": [-43.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 230, "gold": 0, "scores": [-41.562, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 231, "gold": 1, "scores": [0.0, -41.688]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 232, "gold": 1, "scores": [0.0, -42.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 233, "gold": 0, "scores": [-43.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 234, "gold": 1, "scores": [0.0, -43.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 235, "gold": 1, "scores": [0.0, -40.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 236, "gold": 1, "scores": [0.0, -31.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 237, "gold": 1, "scores": [0.0, -31.875]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 238, "gold": 0, "scores": [-42.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 239, "gold": 0, "scores": [-44.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 240, "gold": 0, "scores": [-43.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 241, "gold": 0, "scores": [-41.438, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 242, "gold": 0, "scores": [-42.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 243, "gold": 1, "scores": [-36.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 244, "gold": 1, "scores": [0.0, -37.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 245, "gold": 0, "scores": [-42.062, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 246, "gold": 1, "scores": [0.0, -42.812]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 247, "gold": 1, "scores": [-19.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 248, "gold": 0, "scores": [-44.0, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 249, "gold": 0, "scores": [-44.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 250, "gold": 0, "scores": [-42.562, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 251, "gold": 0, "scores": [-44.438, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 252, "gold": 1, "scores": [-0.0, -13.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 253, "gold": 1, "scores": [0.0, -41.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 254, "gold": 1, "scores": [0.0, -38.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 255, "gold": 1, "scores": [-27.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 256, "gold": 1, "scores": [0.0, -42.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 257, "gold": 0, "scores": [-42.875, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 258, "gold": 1, "scores": [0.0, -37.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 259, "gold": 1, "scores": [-39.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 260, "gold": 0, "scores": [-44.312, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 261, "gold": 1, "scores": [-0.0, -41.938]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 262, "gold": 1, "scores": [0.0, -31.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 263, "gold": 1, "scores": [0.0, -41.375]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 264, "gold": 0, "scores": [-41.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 265, "gold": 1, "scores": [0.0, -43.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 266, "gold": 0, "scores": [-40.562, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 267, "gold": 1, "scores": [-41.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 268, "gold": 1, "scores": [0.0, -42.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 269, "gold": 1, "scores": [0.0, -39.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 270, "gold": 1, "scores": [-8.25, -0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 271, "gold": 0, "scores": [-40.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 272, "gold": 0, "scores": [-42.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 273, "gold": 0, "scores": [-41.562, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 274, "gold": 0, "scores": [-41.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 275, "gold": 1, "scores": [0.0, -37.125]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 276, "gold": 0, "scores": [-40.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 277, "gold": 0, "scores": [-43.375, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 278, "gold": 0, "scores": [-44.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 279, "gold": 1, "scores": [-0.0, -13.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 280, "gold": 0, "scores": [-39.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 281, "gold": 1, "scores": [0.0, -24.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 282, "gold": 0, "scores": [-44.938, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 283, "gold": 1, "scores": [0.0, -42.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 284, "gold": 1, "scores": [0.0, -37.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 285, "gold": 0, "scores": [-44.125, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 286, "gold": 0, "scores": [-42.812, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 287, "gold": 0, "scores": [-41.75, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 288, "gold": 0, "scores": [-40.25, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 289, "gold": 1, "scores": [0.0, -37.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 290, "gold": 1, "scores": [-0.0, -14.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 291, "gold": 0, "scores": [-42.5, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 292, "gold": 1, "scores": [0.0, -36.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 293, "gold": 0, "scores": [-42.312, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 294, "gold": 1, "scores": [0.0, -36.5]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 295, "gold": 1, "scores": [0.0, -23.25]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 296, "gold": 1, "scores": [-39.625, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 297, "gold": 0, "scores": [-43.875, 0.0]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 298, "gold": 1, "scores": [0.0, -40.75]}
+{"model": "v3", "task": "hindsight-neglect-10shot", "i": 299, "gold": 1, "scores": [-27.0, 0.0]}
+{"model": "v3", "task": "gsm-main", "i": 0, "gold": "20", "pred": "20", "text": "g.\nThe total length of the 7 remoras is 7 * 6 = 42 feet.\nTo find what percentage of the whale's body length this is, we use the formula: (part/whole) * 100\nSo, (42/210) * 100 = 0.2 * 100 = 20%\n#### 20"}
+{"model": "v3", "task": "gsm-main", "i": 1, "gold": "50", "pred": "50", "text": "It takes 50 minutes to cover 77 miles. Since the city is 77 miles across, it will take 50 minutes to cover the whole city.\n#### 50"}
+{"model": "v3", "task": "gsm-main", "i": 2, "gold": "25", "pred": "25", "text": " a row, we subtract the probabilities and convert to a percentage:\n50% - 25% = 25%\n\nSo, it is 25% more likely that Luis will roll a number greater than 2 than to roll two odd numbers in a row.\n#### 25"}
+{"model": "v3", "task": "gsm-main", "i": 3, "gold": "150", "pred": "150", "text": " 26 students.\nThus, the number of students who like to either bake or hike is 190 - 26 = 164 students.\nSince 14 of these like to hike, the number that like to bake is 164 - 14 = 150 students.\n#### 150"}
+{"model": "v3", "task": "gsm-main", "i": 4, "gold": "885", "pred": "885", "text": "\nIn the final 30 seconds after taking the pan off the heat, a quarter of 180 kernels pop, so 180 / 4 = 45 kernels pop.\nAdding all the popped kernels together: 60 + 240 + 360 + 180 + 45 = 885.\n#### 885"}
+{"model": "v3", "task": "gsm-main", "i": 5, "gold": "1067", "pred": "1067", "text": "water is 97 + 37 = 134 parts.\nIf 1474 teaspoons represent the total parts, then 1 part is equal to 1474 / 134 = 11.\nTherefore, the number of teaspoonfuls of sugar she used is 97 x 11 = 1067.\n#### 1067"}
+{"model": "v3", "task": "gsm-main", "i": 6, "gold": "2820", "pred": "2820", "text": "Pavel has 30 square yards of orange field, and there are 94 oranges per square yard, so he can harvest 30 x 94 = <<30*94=2820>>2820 oranges within a year.\n#### 2820"}
+{"model": "v3", "task": "gsm-main", "i": 7, "gold": "9", "pred": "9", "text": " 1302 + 225 = 1610 kg.\n\n1610 kg / 180 kg/trip = 8.944444444444445 trips.\n\nSince the farmer cannot make a fraction of a trip, he needs to round up to the next whole number, so he needs 9 trips.\n\n#### 9"}
+{"model": "v3", "task": "gsm-main", "i": 8, "gold": "8", "pred": "8", "text": "An eighth of the 640 balls are tennis balls, so there are 640 / 8 = <<640/8=80>>80 tennis balls.\n1/10 of the tennis balls are white, so there are 80 / 10 = <<80/10=8>>8 white tennis balls.\n#### 8"}
+{"model": "v3", "task": "gsm-main", "i": 9, "gold": "59", "pred": "59", "text": " toys before the bouncy balls were added is 71 + 45 + 29 = 145.\nTo find the number of bouncy balls, we subtract the total number of other toys from the total number of toys, so 204 - 145 = 59.\n#### 59"}
+{"model": "v3", "task": "gsm-main", "i": 10, "gold": "51", "pred": "51", "text": ".\nThe remaining minutes are 86 - 20 = <<86-20=66>>66 minutes.\nThe cost for these minutes is 66 x 0.5 = $<<66*0.5=33>>33.\nSo, the total cost for the 86-minute call is 18 + 33 = $<<18+33=51>>51.\n#### 51"}
+{"model": "v3", "task": "gsm-main", "i": 11, "gold": "86", "pred": "64.4", "text": " = 2.6 grams\n\nNow, add up the total amount of water used:\n96 + 165 + 2.6 = 263.6 grams\n\nSubtract this from the initial 328 grams to find out how much water is left:\n328 - 263.6 = 64.4 grams\n\n#### 64.4"}
+{"model": "v3", "task": "gsm-main", "i": 12, "gold": "56", "pred": "52", "text": "ays can hold 28 crackers, so in total, the trays can hold 7 x 28 = 200 crackers.\nRavi has 252 crackers, so the number of crackers that won't be able to be placed on the tray is 252 - 200 = 52.\n#### 52"}
+{"model": "v3", "task": "gsm-main", "i": 13, "gold": "81", "pred": "23", "text": "52 = <<6*52=312>>312 potted plants.\nAfter giving away these plants, she will have 364 - 312 - 29 = <<364-312-29=23>>23 potted plants remaining, including the 29 new potted plants she received.\n#### 23"}
+{"model": "v3", "task": "gsm-main", "i": 14, "gold": "51", "pred": "51", "text": "Keisha and Andre have already spent 27 + 31 = <<27+31=58>>58 minutes walking.\nThey have 109 - 58 = <<109-58=51>>51 more minutes to get to the gym without being late.\n#### 51"}
+{"model": "v3", "task": "gsm-main", "i": 15, "gold": "25", "pred": "25.1", "text": "1640 puppies.\nOut of these, 270 + 140 = 410 have spots.\nSo, the percentage of all the puppies that have spots is (410/1640) * 100 = 25.1220703125%.\nRounded to one decimal place, it is 25.1%.\n#### 25.1"}
+{"model": "v3", "task": "gsm-main", "i": 16, "gold": "1448", "pred": "1604", "text": "43 boxes of orange pie over the two days.\nFor the brownies, he earned 50 x 8 = \u00a5400.\nFor the orange pie, he earned 43 x 28 = \u00a51204.\nTherefore, Kai earned 400 + 1204 = \u00a51604 for the two days.\n#### 1604"}
+{"model": "v3", "task": "gsm-main", "i": 17, "gold": "90", "pred": "90", "text": "time she spends walking on the sidewalk is 12 / (2/5) = 12 * (5/2) = 60 * (5/1) / 2 = 30 minutes.\nTherefore, the total time she takes to complete the 24-kilometer walk is 60 + 30 = 90 minutes.\n#### 90"}
+{"model": "v3", "task": "gsm-main", "i": 18, "gold": "233", "pred": "233", "text": "Bodhi spent 22 x 4.5 = \u00a5<<22*4.5=99>>99 on rulers.\nHe spent 8 x 14 = \u00a5<<8*14=112>>112 on colored pencils.\nThe total amount he spent on everything is 99 + 112 + 22 = \u00a5<<99+112+22=233>>233.\n#### 233"}
+{"model": "v3", "task": "gsm-main", "i": 19, "gold": "42", "pred": "42", "text": "uestions correct.\nSimilarly, she is sure to get 1/10 of the 30 chemistry questions, so she gets 30 x 1/10 = 3 chemistry questions correct.\n\nIn total, Mia is sure to get 36 + 3 + 3 = 42 points.\n#### 42"}
+{"model": "v3", "task": "gsm-main", "i": 20, "gold": "1122", "pred": "1122", "text": "Liam picks 4 * 205 = 820 pineapples on Friday.\nThe total number of pineapples Liam has is 205 + 97 + 820 = 1122.\n#### 1122"}
+{"model": "v3", "task": "gsm-main", "i": 21, "gold": "1", "pred": "1", "text": "he number of 45-minute episodes he watched is 1 / 0.75 = 4/3 = 1.33, but since he can't watch a fraction of an episode in this context, it means he watched 1 full 45-minute episode on Thursday.\n#### 1"}
+{"model": "v3", "task": "gsm-main", "i": 22, "gold": "22", "pred": "22", "text": "s when setting up for the game night.\nHer husband contributed 18 spoons, so Emma must have bought a package of 40 - 18 = 22 spoons.\nTherefore, the package that Emma bought contained 22 spoons.\n#### 22"}
+{"model": "v3", "task": "gsm-main", "i": 23, "gold": "128", "pred": "128", "text": "For one grandchild, Amelia needs 17 + 11 + 18 + 12 + 6 = <<17+11+18+12+6=64>>64 skeins of wool.\nFor 2 grandchildren, she will need 64 x 2 = <<64*2=128>>128 skeins of wool.\n#### 128"}
+{"model": "v3", "task": "gsm-main", "i": 24, "gold": "121", "pred": "11", "text": ".\nDetermine how many calories one ounce of bread contains: 475 calories / 5 servings = 95 calories/serving.\nCalculate how many ounces you can consume with 1045 calories: 1045 / 95 = 11 ounces.\n#### 11"}
+{"model": "v3", "task": "gsm-main", "i": 25, "gold": "14", "pred": "14", "text": "cers or part of the robotics club, which is 28 * 0.25 = 7 students.\nTherefore, the total number of students leaving early is 7 (basketball players) + 7 (dancers or robotics club members) = 14.\n#### 14"}
+{"model": "v3", "task": "gsm-main", "i": 26, "gold": "105", "pred": "105", "text": "andfather eats 6 x 7 = 42 tacos in one week.\nHis partner eats 3 x 7 = 21 tacos in one week.\nTheir son eats 6 x 7 = 42 tacos in one week.\nThis family eats 42 + 21 + 42 = 105 tacos in one week.\n#### 105"}
+{"model": "v3", "task": "gsm-main", "i": 27, "gold": "612", "pred": "612", "text": "ails is 150 * 0.32 = <<150*0.32=48>>48 emails.\nSo, 150 - 48 = <<150-48=102>>102 emails require a response each day.\nIn a 6 day work week, Sanjay responds to 102 * 6 = <<102*6=612>>612 emails.\n#### 612"}
+{"model": "v3", "task": "gsm-main", "i": 28, "gold": "510", "pred": "510", "text": "40 * 21 = 840 patients will be admitted.\nAfter 3 weeks, the number of occupied rooms will be 450 + 840 = 1290 rooms.\nTherefore, the number of unoccupied rooms will be 1800 - 1290 = 510 rooms.\n#### 510"}
+{"model": "v3", "task": "gsm-main", "i": 29, "gold": "36", "pred": "36", "text": "Pavel is 13 years old now. In 3 years, Pavel will be 13 + 3 = 16 years old.\nAt that time, Valentina will be 3 * 13 = 39 years old.\nSo currently, Valentina is 39 - 3 = 36 years old.\n#### 36"}
+{"model": "v3", "task": "gsm-main", "i": 30, "gold": "78", "pred": "78", "text": "The cost of 25 washers is 25 x 0.98 = \u20a324.50.\nYusuf will have 102.5 - 24.50 = \u20a378 left.\n#### 78"}
+{"model": "v3", "task": "gsm-main", "i": 31, "gold": "40", "pred": "40", "text": "Since Mateo is 35 years old and he is 10 years younger than Santiago, Santiago must be 35 + 10 = 45 years old.\nThe sum of their ages is 35 + 45 = 80.\nThe average of their ages is 80 / 2 = 40.\n#### 40"}
+{"model": "v3", "task": "gsm-main", "i": 32, "gold": "24200", "pred": "24200", "text": "340000 x 0.10 = $34000.\nThe total additional fees are 10200 + 34000 = $44200.\nThe total price of the townhouse is 340000 + 44200 = $384200.\nShe is $384200 - 360000 = $24200 over her budget.\n#### 24200"}
+{"model": "v3", "task": "gsm-main", "i": 33, "gold": "55", "pred": "55", "text": "65 signatures.\nTo find out how many more they need to reach 120, we subtract the current total from the goal: 120 - 65 = 55.\nThe sisters need to collect 55 more signatures to reach their goal.\n#### 55"}
+{"model": "v3", "task": "gsm-main", "i": 34, "gold": "369600", "pred": "369560", "text": " 0.05 = $44000.\nThe total amount paid for fees and loan is 26400 + 44000 + 440000 = $510400.\nTherefore, Prof. Martinez's net proceeds from selling the cottage is 880000 - 510400 = $369560.\n#### 369560"}
+{"model": "v3", "task": "gsm-main", "i": 35, "gold": "138", "pred": "138", "text": "The local charity will contribute 210 / 5 = \u20a342 towards the conference.\nSo the total amount needed is 210 and Wei is short by 210 - 30 - 42 = \u20a3138.\n#### 138"}
+{"model": "v3", "task": "gsm-main", "i": 36, "gold": "948", "pred": "948", "text": "Ava spent 17 * 1 = $17 on danishes.\nShe spent 74 * 8 = $592 on tarts.\nShe spent 113 * 3 = $339 on scones.\nIn total, Ava spent 17 + 592 + 339 = $948.\n#### 948"}
+{"model": "v3", "task": "gsm-main", "i": 37, "gold": "1", "pred": "1", "text": "Leon can eat 5 x 5 = <<5*5=25>>25 pieces a day.\nTogether, Nadia and Leon can eat 5 + 25 = <<5+25=30>>30 pieces a day.\nTherefore, the lasagna will last 30 / 30 = <<30/30=1>>1 day.\n#### 1"}
+{"model": "v3", "task": "gsm-main", "i": 38, "gold": "32", "pred": "32", "text": "The cost of 6 loaves of sourdough is 6 x 8 = \u20ac48.\nThe cost of 4 muffins is 4 x 4 = \u20ac16.\nTherefore, 6 loaves of sourdough cost 48 - 16 = \u20ac32 more than 4 muffins.\n#### 32"}
+{"model": "v3", "task": "gsm-main", "i": 39, "gold": "70", "pred": "70", "text": " 60 minutes/hour = 600 minutes/day.\nNow, calculate the average percentage of the day spent cleaning: (4200 minutes / (10 days * 600 minutes/day)) * 100 = (4200 / 6000) * 100 = 0.7 * 100 = 70%.\n#### 70"}
+{"model": "v3", "task": "gsm-main", "i": 40, "gold": "680", "pred": "757", "text": "of coral pieces is \u20a311.75, and the cost of 11 pins at \u20a321.0 each is 11 * 21 = \u20a3231. The total expenditure is 400.25 + 11.75 + 231 = \u20a3643. Therefore, the remaining amount is 1400 - 643 = \u20a3757.\n####\n757"}
+{"model": "v3", "task": "gsm-main", "i": 41, "gold": "6", "pred": "6", "text": "The number of white tiles is 8.\nThe number of orange tiles is 8 * 3 = 24.\nThe total number of white and orange tiles is 8 + 24 = 32.\nThe number of green tiles is 38 - 32 = 6.\n#### 6"}
+{"model": "v3", "task": "gsm-main", "i": 42, "gold": "206", "pred": "206", "text": "\nHiroshi buys 1 kilogram per day for a week, so he buys 1 * 7 = 7 kilograms.\nThe cost of the tea for the week is 29 * 7 = \u20ba203.\nAdding the cost of the bagel, the total cost is 203 + 3 = \u20ba206.\n#### 206"}
+{"model": "v3", "task": "gsm-main", "i": 43, "gold": "40", "pred": "40", "text": "Bodhi found 3/5 * 25 = 15 caterpillars in the garden.\nThe total number of insects in the garden is 25 + 15 = 40.\n#### 40"}
+{"model": "v3", "task": "gsm-main", "i": 44, "gold": "30", "pred": "30", "text": "The number of boys in the park is 18 * (2/3) = <<18*(2/3)=12>>12.\nSo, the total number of kids in the park is 18 + 12 = <<18+12=30>>30.\n#### 30"}
+{"model": "v3", "task": "gsm-main", "i": 45, "gold": "42", "pred": "0", "text": "itional ones since the number of plants that can fit (11) is equal to the number of plants she already has.\n\nTherefore, Valentina will spend 0 * 14 = \u20ac0 at the store to fill up her flower bed.\n\n#### 0"}
+{"model": "v3", "task": "gsm-main", "i": 46, "gold": "5", "pred": "5", "text": "ats are available for guests.\n\nNow, we divide these available seats equally among the 1200 graduates.\n6000 / 1200 = 5\n\nEach graduate would receive 5 tickets to give to their friends and family.\n#### 5"}
+{"model": "v3", "task": "gsm-main", "i": 47, "gold": "11", "pred": "11", "text": " / 4 = <<20/4=5>>5 eggs.\nThe total number of eggs found is 12 + 24 + 20 + 5 = <<12+24+20+5=61>>61 eggs.\nTherefore, the number of eggs still hidden in the yard is 72 - 61 = <<72-61=11>>11 eggs.\n#### 11"}
+{"model": "v3", "task": "gsm-main", "i": 48, "gold": "71", "pred": "12.15", "text": "inutes per mushroom. Thus, for 18 mushrooms, it will take 17/40 * 18 = 9.15 minutes.\n\nAdd the time needed for peeling and sauteing:\n3 (peeling time) + 9.15 (sauteing time) = 12.15 minutes.\n\n#### 12.15"}
+{"model": "v3", "task": "gsm-main", "i": 49, "gold": "1782", "pred": "2142", "text": "s.\nHe collects 2 times a week from each apartment, so the total collections per week are 2380 * 2 = 4760.\nUmar gets paid \u20a30.45 per collection, so his weekly earnings are 4760 * 0.45 = \u20a32142.\n#### 2142"}
+{"model": "v3", "task": "gsm-main", "i": 50, "gold": "166", "pred": "166", "text": "dividing the area by the length, so it is 390 / 5 = 78 meters.\nThe formula for the perimeter of a rectangle is 2 * (length + width), so in this case, it is 2 * (5 + 78) = 2 * 83 = 166 meters.\n#### 166"}
+{"model": "v3", "task": "gsm-main", "i": 51, "gold": "354", "pred": "354", "text": ".\nViktor will make 12 * 2 = \u20ac24 from the tulips.\nFrom the roses, he will make 29 * 5 = \u20ac145.\nFrom the sunflowers, he will make 37 * 5 = \u20ac185.\nIn total, Viktor will make 24 + 145 + 185 = \u20ac354.\n#### 354"}
+{"model": "v3", "task": "gsm-main", "i": 52, "gold": "182", "pred": "182", "text": " 250 \u20a3 in total.\nThe cost of the coloring books is 6 * 8 = 48 \u20a3.\nThe cost of the trading cards is 5 * 4 = 20 \u20a3.\nIn total, he spends 48 + 20 = 68 \u20a3.\nTherefore, Qasim has 250 - 68 = 182 \u20a3 left.\n#### 182"}
+{"model": "v3", "task": "gsm-main", "i": 53, "gold": "573", "pred": "573", "text": "o two-fourths of Oliver's score is 354 * 1/2 = 177 points.\nCamila scored 42 points more than 177, so she scored 177 + 42 = 219 points.\nOliver and Camila had a total of 354 + 219 = 573 points.\n#### 573"}
+{"model": "v3", "task": "gsm-main", "i": 54, "gold": "27", "pred": "27", "text": "Yara ate 4 slices.\nHer sister ate 4 + 6 = 10 slices.\nHer cousin ate 10 + 3 = 13 slices.\nIn total, they ate 4 + 10 + 13 = 27 slices.\n#### 27"}
+{"model": "v3", "task": "gsm-main", "i": 55, "gold": "130", "pred": "130", "text": "nce, so that's 26 * 0.5 = 13 letters.\nNow, she re-writes everything she has already written, which amounts to 52 + 13 = 65 letters.\nIn total, Gabrielle has written 52 + 13 + 65 = 130 letters.\n#### 130"}
+{"model": "v3", "task": "gsm-main", "i": 56, "gold": "416", "pred": "416", "text": "Pavel drinks 13 * 4 = 52 ozs of lemonade.\nIf lemonade has 8 calories per oz then 52 ozs would have 52 * 8 = 416 calories.\n#### 416"}
+{"model": "v3", "task": "gsm-main", "i": 57, "gold": "134", "pred": "134", "text": "es of black paint.\nViktor has 16 tubes of magenta paint, so Alejandro has 16 * 8 = <<16*8=128>>128 tubes of magenta paint.\nAltogether, Alejandro has 6 + 128 = <<6+128=134>>134 tubes of paint.\n#### 134"}
+{"model": "v3", "task": "gsm-main", "i": 58, "gold": "9920", "pred": "9920", "text": "can mine 10 x 1.6 = 16 kgs of ore per day.\n20 trolls with titanium pickaxes can mine 20 x 16 = 320 kgs of ore per day.\nIn a month with 31 days, 20 trolls can mine 320 x 31 = 9920 kgs of ore.\n#### 9920"}
+{"model": "v3", "task": "gsm-main", "i": 59, "gold": "24", "pred": "24", "text": "ape drink contain 21 * (2/3) = 14 liters of water.\nTherefore, in the remaining 36 liters (15 liters of modified peach drink + 21 liters of grape drink), there are 10 + 14 = 24 liters of water.\n#### 24"}
+{"model": "v3", "task": "gsm-main", "i": 60, "gold": "3756", "pred": "9390", "text": "te.\nWith the bonus, he makes 357 + 582 = \u20ba939 in a week when the company performs well.\nJune has 30 days, so there are 30 / 3 = 10 weeks in June.\nTherefore, he made 939 x 10 = \u20ba9390 in June.\n#### 9390"}
+{"model": "v3", "task": "gsm-main", "i": 61, "gold": "44", "pred": "44", "text": "pped 2/4 * 62 = 31 pebbles.\nHe was left with 62 - 31 = 31 pebbles.\nAfter searching, he found 18, so he had 31 + 18 = 49.\nSince 5 of them were not pebbles, he was left with 49 - 5 = 44 pebbles.\n#### 44"}
+{"model": "v3", "task": "gsm-main", "i": 62, "gold": "150", "pred": "150", "text": "e are 30 + 15 = 45 yellow cards.\nThe number of blue cards is equal to the sum of purple and yellow cards, so there are 30 + 45 = 75 blue cards.\nAltogether, there are 30 + 45 + 75 = 150 cards.\n#### 150"}
+{"model": "v3", "task": "gsm-main", "i": 63, "gold": "35", "pred": "35", "text": "The student's sister has 20 - 5 = 15 marbles.\nTogether, they have 20 + 15 = 35 marbles.\n#### 35"}
+{"model": "v3", "task": "gsm-main", "i": 64, "gold": "9", "pred": "9", "text": "Each jar can decorate 11 muffins, and Beatriz has 9 jars, so she can decorate 11 x 9 = 99 muffins in total.\nIf each rack holds 11 muffins, then the number of racks needed is 99 / 11 = 9.\n#### 9"}
+{"model": "v3", "task": "gsm-main", "i": 65, "gold": "216", "pred": "36", "text": "er.\nTherefore, she will have 78 - 42 = \u00a536 less to spend if she does it herself.\nHence, she will have 36 less if she does it herself, meaning she will have 36 more if she hires the bookkeeper.\n#### 36"}
+{"model": "v3", "task": "gsm-main", "i": 66, "gold": "50", "pred": "50", "text": "otal of 47 + 73 = 120 white spools of thread (light white and dark white).\nThe total number of all spools is 47 + 73 + 32 + 88 = 240.\nThe percentage of white spools is (120 / 240) * 100% = 50%\n#### 50"}
+{"model": "v3", "task": "gsm-main", "i": 67, "gold": "72", "pred": "72", "text": " kg\n\nNext, we find 3% of the total weight to determine the force needed to push the van.\n3% of 2400 kg = 0.03 * 2400 = 72 kg\n\nTherefore, Mateo needs to apply 72 units of force to push the van.\n#### 72"}
+{"model": "v3", "task": "gsm-main", "i": 68, "gold": "140", "pred": "140", "text": "It takes Sakura 28 x 4 = 112 minutes to solve 4 brain teasers.\nIt takes her 4 x 7 = 28 minutes to solve 7 chess puzzles.\nTherefore, she spent 112 + 28 = 140 minutes playing these games.\n#### 140"}
+{"model": "v3", "task": "gsm-main", "i": 69, "gold": "546", "pred": "546", "text": "On Monday and Sunday combined, Ibrahim exercised for 55 + 23 = 78 minutes.\nTo reach his goal on Tuesday, he has to exercise 78 x 7 = 546 minutes.\n#### 546"}
+{"model": "v3", "task": "gsm-main", "i": 70, "gold": "21600", "pred": "21600", "text": "s every month, he works 6 x 2 = 12 days every month.\nIn a year, which has 12 months, he works 12 x 12 = 144 days.\nIf he gets paid \u20a3150 every day, then in a year he earns 150 x 144 = \u20a321600.\n#### 21600"}
+{"model": "v3", "task": "gsm-main", "i": 71, "gold": "579", "pred": "447", "text": " - 6 = 12 - 6 = <<2*9-6=6>>6 kg of hay.\nFor the alpacas, Yuki needs 35 * 9 = 315 kg of hay.\nFor the horses, Yuki needs 22 * 6 = 132 kg of hay.\nTherefore, Yuki needs 315 + 132 = 447 kg of hay.\n#### 447"}
+{"model": "v3", "task": "gsm-main", "i": 72, "gold": "9", "pred": "9", "text": "5 = 540 minutes to write all the responses in a week.\nTo convert this into hours, we divide 540 by 60 (since there are 60 minutes in an hour), so Diego spends 540 / 60 = 9 hours writing a week.\n#### 9"}
+{"model": "v3", "task": "gsm-main", "i": 73, "gold": "17", "pred": "63", "text": "s two sightings, it means the first sighting must have been 75 - 46 = 29 years before the second sighting.\nTherefore, Diego was 92 - 29 = 63 years old when he saw the comet for the first time.\n#### 63"}
+{"model": "v3", "task": "gsm-main", "i": 74, "gold": "85", "pred": "85", "text": "otal, out of which 83 are girls, so the number of fourth-grade boys is 172 - 83 = 89.\nOn Thursday, 4 fourth-grade boys were absent, so the number of fourth-grade boys at school is 89 - 4 = 85.\n#### 85"}
+{"model": "v3", "task": "gsm-main", "i": 75, "gold": "738", "pred": "738", "text": "he income from selling green balls is 29 x 7 = \u00a5203.\nThe income from selling yellow balls is 48 x 6 = \u00a5288.\nTherefore, the total income after all the balls are sold is 247 + 203 + 288 = \u00a5738.\n#### 738"}
+{"model": "v3", "task": "gsm-main", "i": 76, "gold": "167", "pred": "135", "text": "The total weight of the trouts Wei caught is 70 + 33 + 32 = 135 kilograms.\nIf a kilogram of trout costs \u20ac1.0, then Wei will earn 135 x 1 = \u20ac135 after selling all the trouts to the market.\n#### 135"}
+{"model": "v3", "task": "gsm-main", "i": 77, "gold": "128", "pred": "128", "text": "Leilani has completed 160 / 5 = 32 pages.\nShe has 160 - 32 = 128 pages left to write.\n#### 128"}
+{"model": "v3", "task": "gsm-main", "i": 78, "gold": "54", "pred": "48", "text": " he spends 2520 + 360 = 2880 minutes learning each week.\nTo convert this into hours, we divide by 60 (since there are 60 minutes in an hour), so he spends 2880 / 60 = 48 hours a week learning.\n#### 48"}
+{"model": "v3", "task": "gsm-main", "i": 79, "gold": "586", "pred": "586", "text": "Elena finished 1/3 of a 315 piece puzzle, which is 315 * (1/3) = 105 pieces.\nThen she finished another 481 piece puzzle.\nSo, in total, Elena placed 105 + 481 = 586 pieces during that hour.\n#### 586"}
+{"model": "v3", "task": "gsm-main", "i": 80, "gold": "1484", "pred": "1596", "text": " the amount spent on pretzels by the cost of one pretzel to find out how many pretzels were bought. Each pretzel costs 75 cents, so the number of pretzels bought is $1197.00 / $0.75 = 1596.\n\n#### 1596"}
+{"model": "v3", "task": "gsm-main", "i": 81, "gold": "77", "pred": "77", "text": "ound a total of 43 + 43 = 86 coins.\nThere were 180 - 86 = 94 coins left to be found.\nSince all the other coins except 17 were found by their friends, then the friends found 94 - 17 = 77 coins.\n#### 77"}
+{"model": "v3", "task": "gsm-main", "i": 82, "gold": "41", "pred": "41", "text": "e left, so 126 / 2 = 63 people left.\nThis means 126 - 63 = 63 people stayed.\nIf 22 nurses stayed at the conference, then the rest who stayed must be engineers, which is 63 - 22 = 41 engineers.\n#### 41"}
+{"model": "v3", "task": "gsm-main", "i": 83, "gold": "3964", "pred": "3964", "text": "The total number of brownies made is 7000.\nThey have made 1027 + 2009 = 3036 lemon and strawberry brownies combined.\nTherefore, the number of peanut butter brownies is 7000 - 3036 = 3964.\n#### 3964"}
+{"model": "v3", "task": "gsm-main", "i": 84, "gold": "546", "pred": "546", "text": "e is 72.80 * 25 / 100 = \u20ac18.20.\nSo, the value of each share after the second year is 72.80 - 18.20 = \u20ac54.60.\nAfter the second year, the total value of Kayla's 10 shares is 10 * 54.60 = \u20ac546.\n\n#### 546"}
+{"model": "v3", "task": "gsm-main", "i": 85, "gold": "380", "pred": "380", "text": " (x + 100) = 860.\nCombining like terms, we get 2x + 100 = 860.\nSubtracting 100 from both sides, we get 2x = 760.\nDividing both sides by 2, we get x = 380.\nSo, Kai gets 380 yards of the fence.\n#### 380"}
+{"model": "v3", "task": "gsm-main", "i": 86, "gold": "56", "pred": "56", "text": "\nThe cleats, on sale, cost 32 / 8 = $<<32/8=4>>4.\nThe headbands, after using the coupon, cost 9 - 3 = $<<9-3=6>>6.\nIn total, Nadia spent 21 + 25 + 4 + 6 = $<<21+25+4+6=56>>56 on athletic gear.\n#### 56"}
+{"model": "v3", "task": "gsm-main", "i": 87, "gold": "3", "pred": "3", "text": " = 6 minutes.\nThe time it takes to ride the second biggest slide is 240 / 80 = 3 minutes.\nThus, it takes 6 - 3 = 3 minutes longer to ride the biggest slide compared to the second biggest slide.\n#### 3"}
+{"model": "v3", "task": "gsm-main", "i": 88, "gold": "18", "pred": "27", "text": "ed, she walks at 6 / 8 = 0.75 miles per hour.\nShe walks for 8 / 2 = 4 hours.\nIn 4 hours of walking, she can travel 4 * 0.75 = 3 miles.\nIn total, Keisha can travel 24 + 3 = 27 miles in 8 hours.\n#### 27"}
+{"model": "v3", "task": "gsm-main", "i": 89, "gold": "30", "pred": "30", "text": "hours free, he only pays for 4 - 2 = 2 hours.\nThe first paid hour is $10.\nThe second hour (and any additional hours) is twice the cost, so it is 10 x 2 = $20.\nTherefore, he paid 10 + 20 = $30.\n#### 30"}
+{"model": "v3", "task": "gsm-main", "i": 90, "gold": "150", "pred": "150", "text": "Zahra has 45 / 3 = 15 LinkedIn friends.\nMei has 15 * 10 = 150 LinkedIn friends.\n#### 150"}
+{"model": "v3", "task": "gsm-main", "i": 91, "gold": "508", "pred": "508", "text": " than the number of bananas he bought, so he bought 60 - 36 = 24 apples.\nNow, he has 371 + 24 = 395 apples in total.\nThe combined total of the number of apples and bananas is 395 + 113 = 508.\n#### 508"}
+{"model": "v3", "task": "gsm-main", "i": 92, "gold": "125", "pred": "125", "text": "DeShawn slew 150 * 5/6 = <<150*5/6=125>>125 goblins.\nGabriel slew 125 * 2 = <<125*2=250>>250 goblins.\nOscar slew 250 * (3/6) = <<250*(3/6)=125>>125 goblins using a nail file.\n#### 125"}
+{"model": "v3", "task": "gsm-main", "i": 93, "gold": "186", "pred": "186", "text": "ne mile on a hot day.\n\nFor 6 miles on a hot day, it would take 57 x 6 = 342 minutes.\n\nThe difference in time between a hot day and a cold day for swimming 6 miles is 342 - 156 = 186 minutes.\n\n#### 186"}
+{"model": "v3", "task": "gsm-main", "i": 94, "gold": "98", "pred": "98", "text": " of the 400 people who receive interviews get a job offer, so 400 * 0.49 = 196 people.\nTwo-fourths (or 50%) of the 196 people who receive a job offer will accept it, so 196 * 0.50 = 98 people.\n#### 98"}
+{"model": "v3", "task": "gsm-main", "i": 95, "gold": "92", "pred": "92", "text": "2 * 15 = 30 students play badminton.\n19 + 28 = 47 students play table tennis.\n15 + 30 + 47 = 92 students in total.\n#### 92"}
+{"model": "v3", "task": "gsm-main", "i": 96, "gold": "5", "pred": "20", "text": "additional rounds of laser tag can be paid for with the remaining budget. Each additional round costs \u20ba10, so 205 / 10 = 20.5.\nSince you cannot invite half a friend, Mia can invite 20 friends.\n#### 20"}
+{"model": "v3", "task": "gsm-main", "i": 97, "gold": "1540", "pred": "1540", "text": "cesses 3 * 55 = 165 customers per day since she is three times as fast.\nTogether, they process 55 + 165 = 220 customers per day.\nFor the whole week, their total production is 220 * 7 = 1540.\n#### 1540"}
+{"model": "v3", "task": "gsm-main", "i": 98, "gold": "1024", "pred": "1024", "text": " people is 64 + 192 = 256.\n\nOn the third day, the number of newly infected people is 256 * 3 = 768.\nSo, at the end of the third day, the total number of infected people is 256 + 768 = 1024.\n\n#### 1024"}
+{"model": "v3", "task": "gsm-main", "i": 99, "gold": "49", "pred": "49", "text": " a day for 24 days, so she consumes 7 * 24 = 168 eggs.\nIn total, Nia consumes 420 + 168 = 588 eggs for 108 days.\nSince there are 12 eggs in a dozen, Nia will need 588 / 12 = 49 dozens of eggs.\n#### 49"}
+{"model": "v3", "task": "gsm-p1", "i": 0, "gold": "20", "pred": "20", "text": "ody length this is, we use the formula: (part/whole) * 100. Here, the part is 12 feet (length of remaining remoras) and the whole is 60 feet (dolphin's body length).\n\nSo, (12/60) * 100 = 20%.\n\n#### 20"}
+{"model": "v3", "task": "gsm-p1", "i": 1, "gold": "256", "pred": "256", "text": ", which is 64 / 2 = 32 minutes per mile.\nThe city is 80 miles across, so a tenth of the city is 80 / 10 = 8 miles.\nTo cover 8 miles at 32 minutes per mile, it would take 8 * 32 = 256 minutes.\n#### 256"}
+{"model": "v3", "task": "gsm-p1", "i": 2, "gold": "43.75", "pred": "43.75", "text": " a row is (1/2) * (1/2) * (1/2) * (1/2) = 1/16 or 0.0625.\n\nNow, we find the difference in probability and express it as a percentage. The difference in probability is 50% - 6.25% = 43.75%.\n\n#### 43.75"}
+{"model": "v3", "task": "gsm-p1", "i": 3, "gold": "91", "pred": "91", "text": "who have hobbies other than reading is 190 - 38 = 152.\nOut of these 152 students, 22 like to play tennis and 39 like to paint, so the number of students who like to hike is 152 - 22 - 39 = 91.\n#### 91"}
+{"model": "v3", "task": "gsm-p1", "i": 4, "gold": "190", "pred": "165", "text": "kernels = 60 + 120 + 240 + 60 + 15 = 495.\nOliver gives 4/6 of the 495 kernels to his brother, so he gives away 495 * 4 / 6 = 330 kernels.\nTherefore, Oliver has 495 - 330 = 165 kernels to eat.\n#### 165"}
+{"model": "v3", "task": "gsm-p1", "i": 5, "gold": "378", "pred": "472.5", "text": " the ratio by dividing 630 by 84, which gives us 630 / 84 = 7.5 teaspoons per part.\nSince sugar makes up 63 parts of the ratio, the number of teaspoonfuls of sugar used is 63 * 7.5 = 472.5.\n#### 472.5"}
+{"model": "v3", "task": "gsm-p1", "i": 6, "gold": "1600", "pred": "1600", "text": "... units, there are 133.333... * 6 = 800 pineapples.\nSanjay can harvest 800 pineapples each time he harvests, and he does this 2 times in 2 years, so the total is 800 * 2 = 1600 pineapples.\n#### 1600"}
+{"model": "v3", "task": "gsm-p1", "i": 7, "gold": "5", "pred": "5", "text": " trucks per trip:\n1708 / 360 = 4.7444...\n\nSince the number of trips must be a whole number, round up to the next whole number because even a fraction of a trip means one full trip is needed:\n5\n\n#### 5"}
+{"model": "v3", "task": "gsm-p1", "i": 8, "gold": "10", "pred": "10", "text": " 1/4 = <<800*1/4=200>>200.\nThen, find the number of indigo tennis balls: 200 * 1/2 = <<200*1/2=100>>100.\nFinally, find the number of marked indigo tennis balls: 100 * 1/10 = <<100*1/10=10>>10.\n#### 10"}
+{"model": "v3", "task": "gsm-p1", "i": 9, "gold": "35", "pred": "74", "text": " find the number of bouncy balls, we subtract the total number of other toys from the overall total: 185 (total toys) - 111 (other toys) = 74.\nTherefore, there are 74 bouncy balls in the tube.\n#### 74"}
+{"model": "v3", "task": "gsm-p1", "i": 10, "gold": "16", "pred": "12", "text": "4>>4 per minute.\nFrom 30 to 70 minutes (40 minutes), the cost is 40 / 2 x 0.1 = $<<40/2*0.1=2>>2 per two minutes.\nTherefore, the total cost for a 70-minute call is 6 + 4 + 2 = $<<6+4+2=12>>12.\n#### 12"}
+{"model": "v3", "task": "gsm-p1", "i": 11, "gold": "64", "pred": "64", "text": "l cubes, they use 0.5 / 2 = 0.25 gram each, so he uses 0.25 x 8 = 2 grams for tiny cubes.\nIn total, he uses 96 + 12 + 132 + 2 = 242 grams.\nTherefore, he has 306 - 242 = 64 grams of water left.\n#### 64"}
+{"model": "v3", "task": "gsm-p1", "i": 12, "gold": "6", "pred": "66", "text": ".\nTotal capacity of bowls is 3 * 48 = 144 almonds.\nTotal capacity of tables and bowls is 264 + 144 = 408 almonds.\nTheo eats 621 / 3 = 207 almonds.\nAlmonds not placed are 621 - 207 - 408 = 66.\n\n#### 66"}
+{"model": "v3", "task": "gsm-p1", "i": 13, "gold": "523", "pred": "523", "text": "37+38+150=925>>925 potted plants.\nShe plans to give away 6 * 67 = <<6*67=402>>402 potted plants to friends and family.\nThus, she will remain with 925 - 402 = <<925-402=523>>523 potted plants.\n#### 523"}
+{"model": "v3", "task": "gsm-p1", "i": 14, "gold": "69", "pred": "69", "text": " * 53 = 106 minutes.\nSo, the total time spent so far including the walk so far is 53 + 106 = 159 minutes.\nTherefore, they have 228 - 159 = 69 minutes left to get to the gym without being late.\n#### 69"}
+{"model": "v3", "task": "gsm-p1", "i": 15, "gold": "84", "pred": "49.125", "text": "spots) = 393 puppies with spots.\nTo find the percentage of puppies with spots, use the formula: (number of puppies with spots / total number of puppies) * 100 = (393 / 800) * 100 = 49.125%\n#### 49.125"}
+{"model": "v3", "task": "gsm-p1", "i": 16, "gold": "922", "pred": "1118", "text": "122 * 12 = \u00a51464.\nEarnings from orange pies over the three days were 90 * 21 = \u00a51890.\nTotal earnings over the three days were 1464 + 1890 = \u00a53354.\nAverage daily earning was 3354 / 3 = \u00a51118.\n#### 1118"}
+{"model": "v3", "task": "gsm-p1", "i": 17, "gold": "78", "pred": "78", "text": " halved), so the time taken is:\n\\[16 \\div \\frac{2}{3} = 16 \\times \\frac{3}{2} = 24 \\text{ minutes}.\\]\n\nTherefore, the total time taken for the 34-km walk is:\n\\[54 + 24 = 78 \\text{ minutes}.\\]\n\n#### 78"}
+{"model": "v3", "task": "gsm-p1", "i": 18, "gold": "285", "pred": "275.5", "text": "te the 5% discount on the total:\n290.00 x 0.05 = \u00a5<<290.00*0.05=14.50>>14.50\n\nSubtract the discount from the total to get the final amount:\n290.00 - 14.50 = \u00a5<<290.00-14.50=275.50>>275.50\n\n#### 275.50"}
+{"model": "v3", "task": "gsm-p1", "i": 19, "gold": "21", "pred": "21", "text": " 1/3 of each: 24 x 1/3 = 8 questions from chemistry and 8 questions from history.\n\nIn total, Emma is sure to get 3 (algebra) + 2 (physics) + 8 (chemistry) + 8 (history) = 21 questions correct.\n#### 21"}
+{"model": "v3", "task": "gsm-p1", "i": 20, "gold": "576", "pred": "576", "text": "y.\nThe total for Sunday to Tuesday is 57 + 156 + 171 = 384 grapes.\nOn Wednesday, he picks 384 / 2 = 192 grapes.\n\nSo, the total number of grapes Arjun has is 57 + 156 + 171 + 192 = 576 grapes.\n#### 576"}
+{"model": "v3", "task": "gsm-p1", "i": 21, "gold": "3", "pred": "3", "text": "5 + 8 + 1.5 = 19.75 hours.\nHe watched 22 - 19.75 = 2.25 hours on Sunday.\nSince each episode on Sunday is 45 minutes (0.75 hours), the number of 45-minute episodes he watched is 2.25 / 0.75 = 3.\n#### 3"}
+{"model": "v3", "task": "gsm-p1", "i": 22, "gold": "29", "pred": "29", "text": ". She used 11 forks to sample her food, so she had 37 - 11 = 26 forks left. Since she ended up with 55 forks, the number of forks in the package that Zahra bought must have been 55 - 26 = 29.\n\n#### 29"}
+{"model": "v3", "task": "gsm-p1", "i": 23, "gold": "138", "pred": "138", "text": "ng for 2 children, she will need 54 x 2 = 108 skeins.\n\nFor herself, she needs: \n10 skeins per jacket x 3 jackets = 30 skeins.\n\nTherefore, Quinn will need to buy 108 + 30 = 138 skeins of wool.\n#### 138"}
+{"model": "v3", "task": "gsm-p1", "i": 24, "gold": "60", "pred": "38.1818", "text": "termine how many servings correspond to 350 calories: 350 / 275 = 1.2727 (approximately).\nFinally, calculate the corresponding ounces: 1.2727 x (150 / 5) = 38.1818 (approximately) ounces.\n#### 38.1818"}
+{"model": "v3", "task": "gsm-p1", "i": 25, "gold": "46", "pred": "77", "text": "leaders will accompany them, so 13 * 3 = 39 cheerleaders will leave.\n\nIn total, 25 (soccer players) + 13 (choir/dancers) + 39 (cheerleaders) = 77 students are leaving early to the competition.\n#### 77"}
+{"model": "v3", "task": "gsm-p1", "i": 26, "gold": "420", "pred": "420", "text": "less than this amount, so she eats 5 - 1 = 4 pizzas per day.\nTherefore, the family eats 10 + 4 = 14 pizzas per day.\nIn one month (assuming 30 days), the family would eat 14 * 30 = 420 pizzas.\n#### 420"}
+{"model": "v3", "task": "gsm-p1", "i": 27, "gold": "100", "pred": "100", "text": "se.\n1/3 of 135 is 135 / 3 = 45.\nHiroshi can only respond to 45 - 20 = 25 emails out of the 135 that require a response each day.\nIn a 4-day work week, Hiroshi responds to 25 * 4 = 100 emails.\n#### 100"}
+{"model": "v3", "task": "gsm-p1", "i": 28, "gold": "280", "pred": "280", "text": "s.\nSince the number of available beds out of service remains 280, the total number of unoccupied beds will be: 280 - 0 (as all out of service beds are not available for patients) = 280 beds.\n\n#### 280"}
+{"model": "v3", "task": "gsm-p1", "i": 29, "gold": "34", "pred": "40", "text": "e 22 + 5 = 27 years old.\nIn 5 years, Aisha will be 48 + 5 = 53 years old.\nThe sum of their ages in 5 years will be 27 + 53 = 80 years.\nThe average of their ages in 5 years will be 80 / 2 = 40.\n#### 40"}
+{"model": "v3", "task": "gsm-p1", "i": 30, "gold": "71", "pred": "71", "text": "he cost of 6 nails is 6 x \u20a30.78 = \u20a3<<6*0.78=4.68>>4.68.\nThe total cost of screws and nails is \u20a39.45 + \u20a34.68 = \u20a3<<9.45+4.68=14.13>>14.13.\nAisha has \u20a385.13 - \u20a314.13 = \u20a3<<85.13-14.13=71>>71 left.\n#### 71"}
+{"model": "v3", "task": "gsm-p1", "i": 31, "gold": "30", "pred": "30", "text": " = 45 years old.\nQuinn is 30 years old and is 15 years older than Luis, so Luis is 30 - 15 = 15 years old.\nThe sum of their ages is 30 + 45 + 15 = 90.\nThe average of their ages is 90 / 3 = 30.\n#### 30"}
+{"model": "v3", "task": "gsm-p1", "i": 32, "gold": "112000", "pred": "130000", "text": "72000 = $90000.\nThus, the total cost of the property after the discount but including fees is 480000 + 90000 = $570000.\nThe amount more than Mrs. Lee's budget is 570000 - 440000 = $130000.\n#### 130000"}
+{"model": "v3", "task": "gsm-p1", "i": 33, "gold": "21", "pred": "21", "text": "62 signatures combined.\nThey want to have 125 - 62 = 63 more signatures.\nThey have 3 more weeks to collect these signatures, so they need to collect 63 / 3 = 21 signatures per week on average.\n#### 21"}
+{"model": "v3", "task": "gsm-p1", "i": 34, "gold": "16200", "pred": "16200", "text": "0 for closing costs, making it 180000 + 15000 = 195000.\nTherefore, his total expenses are 8800 + 195000 = 203800.\nHence, his net proceeds from selling the villa are 220000 - 203800 = 16200.\n#### 16200"}
+{"model": "v3", "task": "gsm-p1", "i": 35, "gold": "225", "pred": "225", "text": "<<560/4=140>>140 yen.\nSo together, the youth club and his friends will contribute 140 + 140 = $<<140+140=280>>280 yen.\nTherefore, Ibrahim is still missing 505 - 280 = $<<505-280=225>>225 yen.\n#### 225"}
+{"model": "v3", "task": "gsm-p1", "i": 36, "gold": "1422", "pred": "1422", "text": "e the discount:\n28 + 656 + 896 = $1580.\n\nNext, calculate the discount amount:\n1580 * 10 / 100 = $158.\n\nSubtract the discount from the total cost to get the final amount:\n1580 - 158 = $1422.\n\n#### 1422"}
+{"model": "v3", "task": "gsm-p1", "i": 37, "gold": "3", "pred": "3", "text": " = 8 servings a day.\nKimia can eat 8 x 2 = 16 servings a day.\nTogether, Daphne, Quinn, and Kimia can eat 4 + 8 + 16 = 28 servings a day.\nTherefore, the giant lasagna will last 84 / 28 = 3 days.\n#### 3"}
+{"model": "v3", "task": "gsm-p1", "i": 38, "gold": "52", "pred": "52", "text": "The cost of a croissant is 13 / 4 = \u20ac3.25.\n6 loaves of bread cost 13 * 6 = \u20ac78.\n8 croissants would cost 3.25 * 8 = \u20ac26.\nThe difference in cost is 78 - 26 = \u20ac52.\n#### 52"}
+{"model": "v3", "task": "gsm-p1", "i": 39, "gold": "50", "pred": "25", "text": " 2160 minutes.\n\nThe number of days available is 9, so the total minutes available over 9 days is 9 * 480 = 4320 minutes.\n\nThe percentage of the day spent cleaning is (1200 / 480) * 100 = 25%.\n\n#### 25"}
+{"model": "v3", "task": "gsm-p1", "i": 40, "gold": "704", "pred": "715", "text": "e total cost for the coral pieces and pins was 11 + 240 = \u00a5251. Adding the donation, the total expenses were 429 + 251 + 5 = \u00a5685. Kimia started with \u00a51400, so she has 1400 - 685 = \u00a5715 left. #### 715"}
+{"model": "v3", "task": "gsm-p1", "i": 41, "gold": "30", "pred": "30", "text": "n and purple bricks is 3 + 18 = 21.\nIf there are 30 bricks in total, then the number of orange bricks is 30 - 21 = 9.\nTo find the percentage of orange bricks, we calculate (9 / 30) * 100 = 30%\n#### 30"}
+{"model": "v3", "task": "gsm-p1", "i": 42, "gold": "85", "pred": "85", "text": "f rice is 14 * 7 = \u20a398.\nAdding the cost of a cookie, the total cost before discount is 98 + 2 = \u20a3100.\nSince he spent more than \u20a350, he receives a \u20a315 discount, so he has to pay 100 - 15 = \u20a385.\n#### 85"}
+{"model": "v3", "task": "gsm-p1", "i": 43, "gold": "50", "pred": "51.02", "text": "mber of animals in the plot is 50 + 17 + 22 + 11 = 98.\nThe percentage of animals that were rabbits is (50 / 98) * 100 = 51.020408163265315 %.\nRounding to two decimal places, we get 51.02 %.\n#### 51.02"}
+{"model": "v3", "task": "gsm-p1", "i": 44, "gold": "75", "pred": "75", "text": "The number of boys in the park is 39 * (1/3) = 13.\nThe total number of kids in the park is 39 + 13 = 52.\nThe percentage of the kids that are girls is (39 / 52) * 100 = 75%.\n#### 75"}
+{"model": "v3", "task": "gsm-p1", "i": 45, "gold": "30", "pred": "0", "text": " - 10 = $0.\n\nBut strictly following the problem's requirement to buy more than 2 plants to get the discount, and knowing she needs 1 more, the cost is $0 after discount.\n\nThe correct answer is: #### 0"}
+{"model": "v3", "task": "gsm-p1", "i": 46, "gold": "2", "pred": "2", "text": "he graduates to give to their friends and family is 3000 - 1300 = 1700 seats.\nIf these 1700 seats are split equally among the 850 graduates, then each graduate would get 1700 / 850 = 2 tickets.\n#### 2"}
+{"model": "v3", "task": "gsm-p1", "i": 47, "gold": "24", "pred": "24", "text": "n eggs more than Quinn and Ava combined, so she finds 36 + 21 = 57 eggs.\nIn total, all of them found 3 + 18 + 15 + 3 + 57 = 96 eggs.\nTherefore, 120 - 96 = 24 eggs are still hidden in the yard.\n#### 24"}
+{"model": "v3", "task": "gsm-p1", "i": 48, "gold": "63", "pred": "63", "text": "carrots, it will take 11 * 2 = 22 minutes, as she sautes 40 carrots per 11 minutes and 80 is double 40.\n\nAdding these times together: 20 (peeling) + 21 (washing) + 22 (sauteing) = 63 minutes.\n\n#### 63"}
+{"model": "v3", "task": "gsm-p1", "i": 49, "gold": "1914", "pred": "1914", "text": "e tip amount, so we assume the tip is based on his base pay. Therefore, his tip earnings are 1650 * 0.16 = $264.\n\nAdding the base pay and the tips, Jamal makes 1650 + 264 = $1914 in a week.\n\n#### 1914"}
+{"model": "v3", "task": "gsm-p1", "i": 50, "gold": "54", "pred": "54", "text": "et.\nThus, the length is \\( 4 + 19 = 23 \\) feet.\n\nThe perimeter \\( P \\) of a rectangle is given by \\( 2 \\times (\\text{length} + \\text{width}) \\):\n\\[ P = 2 \\times (23 + 4) = 2 \\times 27 = 54 \\]\n\n#### 54"}
+{"model": "v3", "task": "gsm-p1", "i": 51, "gold": "415", "pred": "415", "text": "ry purchase, so we calculate the tip amount:\n- Tip: 332 * 0.25 = $83\n\nFinally, we add the tip to the total revenue to find out how much Leilani will make:\n- Total with tip: $332 + $83 = $415\n\n#### 415"}
+{"model": "v3", "task": "gsm-p1", "i": 52, "gold": "79", "pred": "79", "text": "- 2 = \u20a38.\n\nThe total cost for the items after discounts is 3 + 8 = \u20a311.\n\nTariq has 9 \u20a310 bills, so he has 9 x 10 = \u20a390.\n\nSubtracting the total cost of the items from his money, 90 - 11 = \u20a379.\n\n#### 79"}
+{"model": "v3", "task": "gsm-p1", "i": 53, "gold": "396", "pred": "396", "text": "48 points.\nDiego scored 48 points more than 248, so Diego's score is 248 + 48 = 296 points.\nThe total of their scores is 496 + 296 = 792 points.\nThe average of their scores is 792 / 2 = 396.\n\n#### 396"}
+{"model": "v3", "task": "gsm-p1", "i": 54, "gold": "11", "pred": "11", "text": ".\nHer friend ate 10 + 10 = 20 slices.\nTogether, they ate 3 + 10 + 20 = 33 slices.\nTo find the average, we divide the total number of slices eaten by the number of people, which is 33 / 3 = 11.\n#### 11"}
+{"model": "v3", "task": "gsm-p1", "i": 55, "gold": "884", "pred": "442", "text": "lphabet once, so that\u2019s 26 * 0.5 = 13 letters.\nNow she has written a total of 208 + 13 = 221 letters.\nAfter resting, she rewrites all 221 letters, so now the total is 221 + 221 = 442 letters.\n#### 442"}
+{"model": "v3", "task": "gsm-p1", "i": 56, "gold": "210", "pred": "210", "text": " 5 cups, so he adds 3 x 5 = 15 teaspoons of sugar.\nEach teaspoon of sugar adds 8 calories, so from the sugar, he consumes 15 x 8 = 120 calories.\nIn total, he consumes 90 + 120 = 210 calories.\n#### 210"}
+{"model": "v3", "task": "gsm-p1", "i": 57, "gold": "113", "pred": "113", "text": " indigo paint.\nThe combined number of indigo tubes that Thiago and Leon have is 14 + 98 = 112.\nJames has 112 - 5 = 107 tubes of white paint.\n\nIn total, James has 6 + 107 = 113 tubes of paint.\n#### 113"}
+{"model": "v3", "task": "gsm-p1", "i": 58, "gold": "4368", "pred": "4368", "text": "192 pounds of ore per day.\nFor 14 days, 8 miners will mine 192 x 14 = 2688 pounds of ore.\nTherefore, with both pickaxes, the 8 miners will mine 1680 + 2688 = 4368 pounds of ore in the month.\n#### 4368"}
+{"model": "v3", "task": "gsm-p1", "i": 59, "gold": "50", "pred": "50", "text": "(added) = 22 liters.\n\nThe total volume of the final mix is 4 (remaining mango) + 30 (peach) + 10 (added water) = 44 liters.\n\nThe percentage of water in the final mix is (22 / 44) * 100 = 50%.\n\n#### 50"}
+{"model": "v3", "task": "gsm-p1", "i": 60, "gold": "2787", "pred": "696.75", "text": "rking are 27 x 13 = \u20ba351.\nWith the bonus, he earns 351 + 578 = \u20ba929.\nThe income tax he needs to pay is 929 x 0.25 = \u20ba232.25.\nAfter paying taxes, Andre is left with 929 - 232.25 = \u20ba696.75.\n\n#### 696.75"}
+{"model": "v3", "task": "gsm-p1", "i": 61, "gold": "44", "pred": "44", "text": "ds left.\nHe found 13, so now he has 27 + 13 = 40 beads.\nHe then got rid of 3 coins, leaving him with 40 - 3 = 37 beads.\nHis father gave him 7 more beads, so he ended up with 37 + 7 = 44 beads.\n#### 44"}
+{"model": "v3", "task": "gsm-p1", "i": 62, "gold": "184", "pred": "184", "text": " pink cards is the sum of green and blue cards, so 115 + 161 = 276.\nIn total, there are 115 (green) + 161 (blue) + 276 (pink) = 552 cards.\nOn average, there are 552 / 3 = 184 cards per color.\n#### 184"}
+{"model": "v3", "task": "gsm-p1", "i": 63, "gold": "60", "pred": "60", "text": "The friend has 3 x 16 = 48 marbles.\nHis friend has 48 - 4 = 44 marbles.\nTogether, they have 16 + 44 = 60 marbles.\n#### 60"}
+{"model": "v3", "task": "gsm-p1", "i": 64, "gold": "1", "pred": "1", "text": "we divide 64 by 8, which gives us 64 / 8 = 8 full pans.\nLeilani has 9 pans in total, and if 8 of them are filled with cupcakes, then the number of empty pans she will be left with is 9 - 8 = 1.\n#### 1"}
+{"model": "v3", "task": "gsm-p1", "i": 65, "gold": "129", "pred": "129", "text": "amounts to 25 * 10 = \u20ac250 in lost income. \n\nHiring an accountant would cost her \u20ac121, so by hiring an accountant instead of doing her taxes herself, she would have an extra 250 - 121 = \u20ac129.\n\n#### 129"}
+{"model": "v3", "task": "gsm-p1", "i": 66, "gold": "28", "pred": "33.33", "text": "spools: 100 (green) + 200 (white) = 300 spools.\nTo find the percentage of green spools, use the formula: (number of green spools / total number of spools) * 100 = (100 / 300) * 100 = 33.33%\n#### 33.33"}
+{"model": "v3", "task": "gsm-p1", "i": 67, "gold": "60", "pred": "57", "text": "+ 160 (spare tires) = 1900 kg. \n\nNext, calculate 3% of this total weight to find the force needed to move the SUV: \n1900 * 0.03 = 57 kg. \n\nTherefore, Leon needs to push with a force of 57 kg. \n#### 57"}
+{"model": "v3", "task": "gsm-p1", "i": 68, "gold": "59", "pred": "59", "text": "minutes.\nTime spent on riddles = 13 x 14 = <<13*14=182>>182 minutes.\nTotal time spent = 54 + 182 = <<54+182=236>>236 minutes over 4 days.\nTime spent per day = 236 / 4 = <<236/4=59>>59 minutes.\n#### 59"}
+{"model": "v3", "task": "gsm-p1", "i": 69, "gold": "13", "pred": "13", "text": " combined amount of Friday and Thursday, so he needs to exercise for 78 * 10 = 780 minutes.\nTo convert 780 minutes into hours, we divide by 60, so he needs to exercise for 780 / 60 = 13 hours.\n#### 13"}
+{"model": "v3", "task": "gsm-p1", "i": 70, "gold": "1920", "pred": "1920", "text": "25 every day, so his annual income before taxes is 96 x 25 = \u20a32400.\nAfter paying 20% in taxes, he pays 2400 x 0.20 = \u20a3480 in taxes.\nThus, his annual income after taxes is 2400 - 480 = \u20a31920.\n#### 1920"}
+{"model": "v3", "task": "gsm-p1", "i": 71, "gold": "483", "pred": "483", "text": "e.\nHorses need 8 * 8 = <<8*8=64>>64 pounds of silage.\nAlpacas need 20 * 15 = <<20*15=300>>300 pounds of silage.\nIn total, Sanjay needs 119 + 64 + 300 = <<119+64+300=483>>483 pounds of silage.\n#### 483"}
+{"model": "v3", "task": "gsm-p1", "i": 72, "gold": "3", "pred": "3", "text": "n a day, we divide the total minutes by 60 to get the hours: 1260 / 60 = 21 hours per week.\nTo find the average hours he spends writing in a day, we divide 21 hours by 7 days: 21 / 7 = 3 hours.\n#### 3"}
+{"model": "v3", "task": "gsm-p1", "i": 73, "gold": "30", "pred": "30", "text": "ime was 2 * 32 = 64 years old.\n\nTo find out how much older Sanjay's dad is than Sanjay, we subtract Sanjay's age from his dad's age when they both saw the comet the second time: 94 - 64 = 30.\n\n#### 30"}
+{"model": "v3", "task": "gsm-p1", "i": 74, "gold": "60", "pred": "6000", "text": "ay: 3\n\nPresent girls: 36 - 8 = 28\nPresent boys: 45 - 3 = 42\n\nTotal present students: 28 + 42 = 70\n\nPercentage of present students that are boys: (42 / 70) * 100 = 60%\n\n#### 6000/100 or simply 60% (60)"}
+{"model": "v3", "task": "gsm-p1", "i": 75, "gold": "198", "pred": "198", "text": "48 + 88 = \u00a5220\n\nNext, calculate the 10% discount on the total cost:\n220 x 0.10 = \u00a522\n\nSubtract the discount from the total cost to get the final amount the shop will receive:\n220 - 22 = \u00a5198\n\n#### 198"}
+{"model": "v3", "task": "gsm-p1", "i": 76, "gold": "520", "pred": "520", "text": "07 kgs.\nTherefore, the total weight of all the trouts is 153 + 107 = <<153+107=260>>260 kgs.\nIf Gabriel sells the trouts at \u00a52.0 per kg, his total earnings will be 260 x 2 = <<260*2=520>>520.\n#### 520"}
+{"model": "v3", "task": "gsm-p1", "i": 77, "gold": "31", "pred": "31", "text": "Zahra has already written 310 x 3/5 = 186 pages.\nSo, she has 310 - 186 = 124 pages left to write.\nTo find out how many pages she has to write per day, we do 124 / 4 = 31 pages per day.\n#### 31"}
+{"model": "v3", "task": "gsm-p1", "i": 78, "gold": "32", "pred": "32", "text": "each day on Saturday and Sunday.\nThat makes 160 * 2 = 320 minutes over the weekend.\nIn total, he spends 1600 + 320 = 1920 minutes a week on learning.\nTo convert to hours, 1920 / 60 = 32 hours.\n#### 32"}
+{"model": "v3", "task": "gsm-p1", "i": 79, "gold": "152", "pred": "152", "text": "420 piece puzzle, which is 420 / 10 = 42 pieces.\nHe then finished two-sixths of a 330 piece puzzle, which is 330 * (2/6) = 110 pieces.\nSo, Yusuf placed 42 + 110 = 152 pieces during that hour.\n#### 152"}
+{"model": "v3", "task": "gsm-p1", "i": 80, "gold": "17", "pred": "52", "text": "* 100 / 100 = 52 / 100 * 100 / 100 = 52 / 100 * 100 / 100 = 52 / 100 * 100 / 100 = 52 / 100 * 100 / 100 = 52 / 100 * 100 / 100 = 52 / 100 * 100 / 100 = 52 / 100 * 100 / 100 = 52 / 100 * 100 / 100 = 52"}
+{"model": "v3", "task": "gsm-p1", "i": 81, "gold": "69", "pred": "79", "text": "\nSo, the number of toys found by their friends is 100 - 26 - 5 = 79.\nTo find the percentage of toys found by their friends out of the initially hidden toys, we calculate (79 / 100) * 100 = 79%\n#### 79"}
+{"model": "v3", "task": "gsm-p1", "i": 82, "gold": "24", "pred": "24", "text": "/4) = 38 people left the party.\nIf 14 artists remained, then 33 - 14 = 19 artists left.\nThis means 38 - 19 = 19 engineers left the party.\nTherefore, 43 - 19 = 24 engineers stayed at the party.\n#### 24"}
+{"model": "v3", "task": "gsm-p1", "i": 83, "gold": "60", "pred": "60", "text": "4 + 1676 = <<1184+1676=2860>>2860.\nThe number of vanilla brownies is 7150 - 2860 = <<7150-2860=4290>>4290.\nThe percentage of vanilla brownies is (4290 / 7150) * 100 = <<(4290/7150)*100=60>>60.\n#### 60"}
+{"model": "v3", "task": "gsm-p1", "i": 84, "gold": "33", "pred": "33", "text": "(1 + 0.25) = \u20ac48.125.\nThe total value of Keisha's shares at the end of the third year is 8 * 48.125 = \u20ac385.\nTo find the profit, subtract the initial cost from the final value: 385 - 352 = \u20ac33.\n#### 33"}
+{"model": "v3", "task": "gsm-p1", "i": 85, "gold": "100", "pred": "100", "text": "+ (S + 180) + (S + 300) = 780.\nCombining like terms gives 3S + 480 = 780.\nSubtracting 480 from both sides gives 3S = 300.\nDividing by 3 gives S = 100.\nSo, Santiago gets 100 feet of the fence.\n#### 100"}
+{"model": "v3", "task": "gsm-p1", "i": 86, "gold": "77", "pred": "77", "text": "lly cost \u20ba11, now cost 11 - 3 = \u20ba8.\nThe duffle bag, with a 50% discount, now costs 40 * 0.50 = \u20ba20.\nAdding the water bottle, which costs \u20ba3, the total spent is 13 + 17 + 16 + 8 + 20 + 3 = \u20ba77.\n#### 77"}
+{"model": "v3", "task": "gsm-p1", "i": 87, "gold": "2", "pred": "2", "text": " = 5 minutes.\nThe time it takes to ride the second biggest slide is 210 / 70 = 3 minutes.\nThus, it takes 5 - 3 = 2 minutes longer to ride the biggest slide compared to the second biggest slide.\n#### 2"}
+{"model": "v3", "task": "gsm-p1", "i": 88, "gold": "51", "pred": "141", "text": " in each activity. Running: 10 * 10 = 100 miles; Skipping: 4 * 4 = 16 miles; Walking: 5 * 5 = 25 miles.\nAdd up all the distances to get the total distance traveled: 100 + 16 + 25 = 141 miles.\n#### 141"}
+{"model": "v3", "task": "gsm-p1", "i": 89, "gold": "178", "pred": "166", "text": "ur costs $24, and each additional hour is twice that, so it's $24 * 2 = $48.\nFor 4 hours, the cost is 24 + 3 * 48 = $156.\nAdding the fixed insurance cost of $10, the total is 156 + 10 = $166.\n#### 166"}
+{"model": "v3", "task": "gsm-p1", "i": 90, "gold": "54", "pred": "54", "text": "18.\nAli has 3A LinkedIn friends, so Ali has 3 * 18 = 54.\nAltogether, they have 90 (Ravi) + 18 (Andre) + 54 (Ali) = 162 LinkedIn friends.\nThe average number of LinkedIn friends is 162 / 3 = 54.\n#### 54"}
+{"model": "v3", "task": "gsm-p1", "i": 91, "gold": "446", "pred": "456", "text": "as 296 + 41 = 337 bananas.\nLater, he bought 11 bananas and 2 * 16 - 16 = 16 grapes.\nTherefore, he now has 337 + 11 = 348 bananas and 92 + 16 = 108 grapes.\nAltogether, Ali has 348 + 108 = 456.\n#### 456"}
+{"model": "v3", "task": "gsm-p1", "i": 92, "gold": "159", "pred": "159", "text": ">36 trolls.\n\nThe total number of trolls slain is 200 + 40 + 360 + 36 = <<200+40+360+36=636>>636 trolls.\nThe average number of trolls slain by each person is 636 / 4 = <<636/4=159>>159 trolls.\n#### 159"}
+{"model": "v3", "task": "gsm-p1", "i": 93, "gold": "194", "pred": "194", "text": "ne mile.\nFor 9 miles on a warm day, it would take her 34 x 9 = 306 minutes.\nThe difference in time between swimming 9 miles on a warm day and 7 miles on a cold day is 306 - 112 = 194 minutes.\n#### 194"}
+{"model": "v3", "task": "gsm-p1", "i": 94, "gold": "1", "pred": "1", "text": "3/6 (or 1/2) of 18 people who receive a job offer and accept it is 18 * 0.5 = <<18*0.5=9>>9 people.\n1/9 of 9 people who accept the position and will relocate is 9 * (1/9) = <<9*1/9=1>>1 person.\n#### 1"}
+{"model": "v3", "task": "gsm-p1", "i": 95, "gold": "680", "pred": "670", "text": "otball) + 20 (boys basketball) + 24 (girls basketball) = 68.\nNow, find the number of students playing golf: 9 x 68 = 612.\nFinally, add all the students together: 8 + 16 + 20 + 24 + 612 = 670.\n#### 670"}
+{"model": "v3", "task": "gsm-p1", "i": 96, "gold": "1", "pred": "2", "text": "Remaining budget for friends = $260 - $60 = $200\n\nFinally, divide the remaining budget by the cost per friend to find out how many friends can be invited:\n- Number of friends = $200 / $100 = 2\n\n#### 2"}
+{"model": "v3", "task": "gsm-p1", "i": 97, "gold": "588", "pred": "588", "text": "kura works at 28 customers per day, the same as the average speed of Xena and Nadia.\nCombined, they process 7 + 28 + 49 = 84 customers per day.\nIn a week, they process 84 * 7 = 588 customers.\n#### 588"}
+{"model": "v3", "task": "gsm-p1", "i": 98, "gold": "4352", "pred": "4352", "text": " is 272 + 816 = 1088.\n\nOn the fourth day, the number of newly infected people is 1088 * 3 = 3264.\nSo, the total number of infected people at the end of the fourth day is 1088 + 3264 = 4352.\n\n#### 4352"}
+{"model": "v3", "task": "gsm-p1", "i": 99, "gold": "79", "pred": "79", "text": " 64 days, she eats 12 brownies a day, so she eats 12 x 64 = 768 brownies.\nIn total, she eats 180 + 768 = 948 brownies in 12 weeks.\nTo convert brownies into dozens, divide by 12: 948 / 12 = 79.\n#### 79"}
+{"model": "v3", "task": "gsm-p2", "i": 0, "gold": "32.5", "pred": "32.5", "text": "entage of the second whale's body length covered by the remoras is (48 / 120) * 100 = 40%.\n\nTo find the average percentage, we add the two percentages and divide by 2: (25 + 40) / 2 = 32.5.\n\n#### 32.5"}
+{"model": "v3", "task": "gsm-p2", "i": 1, "gold": "300", "pred": "300", "text": "= 240 / 10 = 240 / 10 = 240 / 10 = 240 / 10 = 240 minutes.\n\nTherefore, the total time to cover a quarter of the city is 60 (initial minutes) + 240 (after wind speed is halved) = 300 minutes.\n\n#### 300"}
+{"model": "v3", "task": "gsm-p2", "i": 2, "gold": "50", "pred": "50", "text": "he probability of rolling four odd numbers in a row is (1/2) * (1/2) * (1/2) * (1/2) = 1/16 or 6.25%.\n\nNow, we find the difference in probability between the two events: 56.25% - 6.25% = 50%.\n\n#### 50"}
+{"model": "v3", "task": "gsm-p2", "i": 3, "gold": "50", "pred": "13.79", "text": "r of students to find those who play video games: 290 - 145 = 145 - 105 = 40.\nTo find the percentage of students who like to play video games: (40 / 290) * 100 = 13.793103448275862 \u2248 13.79.\n#### 13.79"}
+{"model": "v3", "task": "gsm-p2", "i": 4, "gold": "944", "pred": "864", "text": " has 1080 - 108 = 972 pieces of popcorn to eat.\n#### 864\n\nExplanation of the last step: The difference between the number of popcorn pieces Andre has and the number his brother has is 972 - 108 = 864."}
+{"model": "v3", "task": "gsm-p2", "i": 5, "gold": "68", "pred": "67.5238", "text": " context suggests it should be, we can round to the nearest whole number, but in this case, the exact value fits the problem's context without needing rounding.\n\nThe number of teaspoons of sugar is \\("}
+{"model": "v3", "task": "gsm-p2", "i": 6, "gold": "3472", "pred": "3472", "text": " 6 times.\n\nTotal grapes harvested in two years: 168 * 6 = 1008 grapes.\n\nFinally, we find the difference between the number of apricots and grapes harvested in two years:\n4480 - 1008 = 3472.\n\n#### 3472"}
+{"model": "v3", "task": "gsm-p2", "i": 7, "gold": "5", "pred": "5", "text": " capacity per trip and round up to the nearest whole number:\n\\[\\lceil \\frac{1982}{420} \\rceil = \\lceil 4.719 \\rceil = 5\\]\n\nThe farmer needs to make 5 trips to transport all the purchased items.\n#### 5"}
+{"model": "v3", "task": "gsm-p2", "i": 8, "gold": "36", "pred": "36", "text": "f them are marked. \nHence, the number of marked indigo tennis balls is 48 * (2 / 3) = 32.\n\nIn total, there are 4 (marked purple golf balls) + 32 (marked indigo tennis balls) = 36 marked balls.\n#### 36"}
+{"model": "v3", "task": "gsm-p2", "i": 9, "gold": "49", "pred": "82", "text": "ickers/page = 117\n- Stacking rings: 28\n\nAdding these together, we get 5 + 76 + 12 + 117 + 28 = 238.\n\nSince the total number of items is 320, the number of bouncy balls must be 320 - 238 = 82.\n\n#### 82"}
+{"model": "v3", "task": "gsm-p2", "i": 10, "gold": "17", "pred": "15", "text": "tes (60 minutes), the cost is 60 / 2 x 0.1 = $<<60/2*0.1=3>>3.\nThe total cost before discount is 7 + 5 + 3 = $<<7+5+3=15>>15.\nSince the total bill is not more than $15, no discount is applied.\n#### 15"}
+{"model": "v3", "task": "gsm-p2", "i": 11, "gold": "165", "pred": "-27", "text": "e had, meaning he needed an additional 27 ounces.\nBut since the question asks how much he has left, the answer would be a negative value indicating a deficit.\nHe has -27 ounces of water left.\n#### -27"}
+{"model": "v3", "task": "gsm-p2", "i": 12, "gold": "14", "pred": "14", "text": "er eating, Gabriel has 675 - 135 = 540 almonds left.\nTo hold 540 almonds, Gabriel needs 540 - 260 = 280 more almonds to be placed on plates.\nTherefore, Gabriel needs 280 / 20 = 14 more plates.\n#### 14"}
+{"model": "v3", "task": "gsm-p2", "i": 13, "gold": "389", "pred": "340", "text": "om each of the 60 window ledges to friends and family, so she gave away 3 * 60 = 180 potted plants.\nAfter giving away 180 potted plants, she will have 520 - 180 = 340 potted plants remaining.\n#### 340"}
+{"model": "v3", "task": "gsm-p2", "i": 14, "gold": "115", "pred": "159", "text": " time is 44 (to library and grocery store) + 44 (return trip) = 88 minutes.\n\nThey had 247 minutes in total, so now they have 247 - 88 = 159 minutes left to get to the gym without being late.\n\n#### 159"}
+{"model": "v3", "task": "gsm-p2", "i": 15, "gold": "89", "pred": "78.76", "text": "es with spots: 87 + 12 + 702 = 701\nTotal puppies: 149 + 49 + (54 * 13) = 149 + 49 + 702 = 890\n\nPercentage of puppies with spots: (701 / 890) * 100 = <<(701/890)*100=78.76422764227642>>78.76\n#### 78.76"}
+{"model": "v3", "task": "gsm-p2", "i": 16, "gold": "1050", "pred": "1715", "text": "y are 28 * 11 + 8 * 23 + 42 * 11 + 27 * 23 = 308 + 184 + 462 + 621 = $1575.\nWei's total earnings over the three days are 3570 + 1575 = $5145.\nWei's average daily earning is 5145 / 3 = $1715.\n#### 1715"}
+{"model": "v3", "task": "gsm-p2", "i": 17, "gold": "80", "pred": "160", "text": "= 112 minutes.\n\nFor the 18 kilometers on the sidewalk at 22.5 km/h, it would take 18 / 22.5 = 0.8 hours, which is 0.8 * 60 = 48 minutes.\n\nAdding these times together, 112 + 48 = 160 minutes.\n\n#### 160"}
+{"model": "v3", "task": "gsm-p2", "i": 18, "gold": "196", "pred": "196", "text": "f 220.0 is 0.05 x 220.0 = \u00a511.0\nSo, the discounted total would be 220.0 - 11.0 = \u00a5209.0\n\nComparing the two options, the least amount Leon can spend is with the membership, which is 196.0.\n\n#### 196.00"}
+{"model": "v3", "task": "gsm-p2", "i": 19, "gold": "49", "pred": "49", "text": "rect from algebra, making it 2 + 2 = 4 correct in total for history and algebra.\n\nAdding them all up, Aisha is sure to get 40 (chemistry) + 5 (geography) + 4 (history and algebra) = 49 points.\n#### 49"}
+{"model": "v3", "task": "gsm-p2", "i": 20, "gold": "612", "pred": "612", "text": "turday, Diego picks 578 + 289 = <<578+289=867>>867 pineapples.\nDiego fills 867 / 17 = <<867/17=51>>51 boxes of pineapples.\nBy selling each box for $12, Diego makes 51 x 12 = <<51*12=612>>612.\n#### 612"}
+{"model": "v3", "task": "gsm-p2", "i": 21, "gold": "1", "pred": "1", "text": "e he watched 28 hours in all, the time spent watching 30-minute episodes on Friday is 28 - 27.5 = 0.5 hours.\n\nTherefore, the number of 30-minute episodes he watched on Friday is 0.5 / 0.5 = 1.\n\n#### 1"}
+{"model": "v3", "task": "gsm-p2", "i": 22, "gold": "28", "pred": "33", "text": "h the 49 forks she had later, we can find out the number in the package Valentina bought by removing the guests\u2019 contribution: 49 - 16 = 33. Therefore, Valentina\u2019s package contained 33 forks.\n\n#### 33"}
+{"model": "v3", "task": "gsm-p2", "i": 23, "gold": "106", "pred": "98.5", "text": "l skeins needed = 150 + 8 = 158 skeins\n\nCost of 158 skeins = (158 / 12) x 9 = 13.1667 x 9 = $118.50\n\nWith the $20 discount for purchases over $100, the final cost is $118.50 - $20 = $98.50\n\n#### 98.50"}
+{"model": "v3", "task": "gsm-p2", "i": 24, "gold": "300", "pred": "300", "text": "unces.\n- Carlos can eat: 10 * 60 = 600 ounces\n- Zahra can eat: 5 * 60 = 300 ounces\n\nFinally, find the difference in the amount of bread they can consume:\n- Difference: 600 - 300 = 300 ounces\n\n#### 300"}
+{"model": "v3", "task": "gsm-p2", "i": 25, "gold": "59", "pred": "70", "text": "ents.\nHalf of the soccer players are absent, which is 46 / 2 = 23 students.\nIn total, 23 (absent soccer players) + 27 (robotics or dancers) + 30 (cheerleaders) = 70 students are leaving early.\n#### 70"}
+{"model": "v3", "task": "gsm-p2", "i": 26, "gold": "2250", "pred": "2250", "text": "days * 48 pizzas/day = 1440 pizzas.\n- Second month: 15 days * 36 pizzas/day + 15 days * 18 pizzas/day = 540 + 270 = 810 pizzas.\n\nTotal pizzas eaten in two months = 1440 + 810 = 2250 pizzas.\n\n#### 2250"}
+{"model": "v3", "task": "gsm-p2", "i": 27, "gold": "42", "pred": "42", "text": " 12 - 2 = 10 emails in a usual day.\nOn the last day, he can respond to 20% more emails than usual, so 10 * 1.20 = 12 emails.\nIn a 4-day work week, he responds to 10 + 10 + 10 + 12 = 42 emails.\n#### 42"}
+{"model": "v3", "task": "gsm-p2", "i": 28, "gold": "740", "pred": "740", "text": "ks will be: 340 (initially occupied) + 280 (new patients) = 620 rooms.\nFinally, the number of unoccupied rooms will be: 1700 (total rooms) - 340 (out of service) - 620 (occupied) = 740 rooms.\n#### 740"}
+{"model": "v3", "task": "gsm-p2", "i": 29, "gold": "27", "pred": "27", "text": "rs, Qasim will be 12 + 4 = 16.\nIn 4 years, Mia will be 22 + 4 = 26.\nThe sum of their ages in 4 years will be 25 + 41 + 16 + 26 = 108.\nThe average of their ages in 4 years will be 108 / 4 = 27.\n#### 27"}
+{"model": "v3", "task": "gsm-p2", "i": 30, "gold": "12", "pred": "19", "text": "or = \u20a363.00 + \u20a38.00 = \u20a371.00\n\nViktor has \u20a390.00 - \u20a371.00 = \u20a319.00 left.\n\nFinally, find the difference between the amounts of money Valeria and Viktor have left:\nValeria has \u20a336.60 and Viktor has \u20a319.0"}
+{"model": "v3", "task": "gsm-p2", "i": 31, "gold": "14", "pred": "14.67", "text": "0 = 29 years old.\nThe average age of all three is (39 + 61 + 29) / 3 = 393 / 3 = 131 / 3 = 43.67 years.\nThe difference between the average age and Leilani's age is 43.67 - 29 = 14.67 years.\n#### 14.67"}
+{"model": "v3", "task": "gsm-p2", "i": 32, "gold": "66000", "pred": "85000", "text": "itional fees are 35000 + 60000 = $95000.\nThus, the total cost after the discount but including fees is 400000 + 95000 = $495000.\nThe amount more than the budget is 495000 - 410000 = $85000.\n#### 85000"}
+{"model": "v3", "task": "gsm-p2", "i": 33, "gold": "11", "pred": "27.75", "text": "ts with 37 signatures and needs to end with 130 total, so she needs 130 - 19 = 111 more signatures.\nSince there are 4 weeks left, Zahra needs to collect 111 / 4 = 27.75 signatures per week.\n#### 27.75"}
+{"model": "v3", "task": "gsm-p2", "i": 34, "gold": "73326", "pred": "67276", "text": " right after selling the apartment are 490000 - 434400 = $55600.\nAfter one year, his investment grew to 55600 * 1.10 = $61160.\nAfter two years, his investment grew to 61160 * 1.10 = $67276.\n#### 67276"}
+{"model": "v3", "task": "gsm-p2", "i": 35, "gold": "595", "pred": "607.5", "text": "riends' contribution is 900 - 90 = $810.\nThe school will cover 1/4 of the remaining cost, which is 810 / 4 = $202.5.\nThus, the cost that Thiago still needs to cover is 810 - 202.5 = $607.5.\n#### 607.5"}
+{"model": "v3", "task": "gsm-p2", "i": 36, "gold": "865", "pred": "432.5", "text": " 2x = $1925.\n\nSubtracting $195 from both sides, we get:\n2x = $1730.\n\nDividing both sides by 2, we get:\nx = $865.\n\nTherefore, the cost of the mini cheesecakes per dozen is 865 / 2 = $432.5.\n\n#### 432.5"}
+{"model": "v3", "task": "gsm-p2", "i": 37, "gold": "3", "pred": "3", "text": "e of 21 servings per day, it will take them 21 / 21 = 1 day.\n\nTherefore, it will take 2 (initial days) + 1 (to finish the remaining servings) = 3 days in total for the pizza to be fully eaten.\n\n#### 3"}
+{"model": "v3", "task": "gsm-p2", "i": 38, "gold": "11", "pred": "11", "text": " 8 = $10.\nWith the 10% discount, 8 muffins would cost 10 - (10 * 0.10) = $9.\nTwo loaves of sourdough would cost 10 x 2 = $20.\nThus, 2 loaves of sourdough cost 20 - 9 = $11 more than 8 muffins.\n#### 11"}
+{"model": "v3", "task": "gsm-p2", "i": 39, "gold": "40", "pred": "62.5", "text": "y clean 50 rooms a day, it will take 80 / 50 = 1.6 days to clean all the rooms.\nBut the question asks for the percentage of time spent cleaning per day, which we already calculated as 62.5%.\n#### 62.5"}
+{"model": "v3", "task": "gsm-p2", "i": 40, "gold": "582", "pred": "670", "text": ".0 \u20ac, and 12 keychains cost 12 * 20.0 = 240.0 \u20ac. Adding the previous purchases, the total spent is 374 + 11 + 240 = 625 \u20ac. After donating 5 \u20ac, the remaining amount is 1300 - 625 - 5 = 670 \u20ac.\n\n#### 670"}
+{"model": "v3", "task": "gsm-p2", "i": 41, "gold": "40", "pred": "20", "text": "ber of pink cubes be x.\nSo, 9 (green) + 18 (white) + x (pink) = 45.\n27 + x = 45.\nx = 45 - 27 = 18 - 9 = 9 (pink cubes).\nTo find the percentage of pink cubes, we calculate (9 / 45) * 100 = 20%.\n#### 20"}
+{"model": "v3", "task": "gsm-p2", "i": 42, "gold": "217", "pred": "217", "text": "discounted, so the cost is 4 * 18 = $<<4*18=72>>72.\nThe total cost for the rice is 144 + 72 = $<<144+72=216>>216.\nAdding the cost of the cookie, the total cost is 216 + 1 = $<<216+1=217>>217.\n#### 217"}
+{"model": "v3", "task": "gsm-p2", "i": 43, "gold": "15", "pred": "32", "text": "animals) + 24 (bees) + 13 (caterpillars) = 103 animals.\nThe percentage of animals that were rabbits is (33 / 103) * 100 = 32.03883495327103 %.\nRounding to the nearest whole number, we get 32%.\n#### 32"}
+{"model": "v3", "task": "gsm-p2", "i": 44, "gold": "75", "pred": "75", "text": "The number of boys in the park is 24 / 3 = 8.\nThe total number of kids in the park is 24 + 8 = 32.\nThe percentage of the kids that are girls is (24 / 32) * 100 = 75%.\n#### 75"}
+{"model": "v3", "task": "gsm-p2", "i": 45, "gold": "7", "pred": "7", "text": " plants, she needs to buy 9 - 6 = 3 more plants.\n\nThe cost without any discount is 3 * 4 = 12.\n\nSince she is buying more than 2 plants, she gets a \u20a35 discount, so the final cost is 12 - 5 = 7.\n\n#### 7"}
+{"model": "v3", "task": "gsm-p2", "i": 46, "gold": "11", "pred": "11", "text": " = 6600 available seats for guests.\nFinally, we divide these available seats by the number of graduates to see how many tickets each graduate can receive: 6600 / 600 = 11 tickets per graduate.\n#### 11"}
+{"model": "v3", "task": "gsm-p2", "i": 47, "gold": "18", "pred": "18", "text": "3 pancakes.\nThe total number of pancakes found is 5 (Liam) + 10 (Yusuf) + 6 (Pavel) + 3 (Daphne) + 63 (James) = 87.\nTherefore, the number of pancakes still hidden in the yard is 105 - 87 = 18.\n#### 18"}
+{"model": "v3", "task": "gsm-p2", "i": 48, "gold": "137", "pred": "44", "text": "t would take 180 / 30 * 9 = 18 * 9 / 30 * 9 = 540 / 30 = 18 minutes.\n\nWith an 11-minute break required after peeling, the total time is 15 (peeling) + 11 (break) + 18 (saut\u00e9ing) = 44 minutes.\n\n#### 44"}
+{"model": "v3", "task": "gsm-p2", "i": 49, "gold": "594", "pred": "336.6", "text": "so his base pay is 1020 * 0.3 = \u20a3306.\n\nHe also earns an additional 10% in tips, so his tip earnings are 306 * 0.1 = \u20a330.6.\n\nTherefore, his total earnings in a week are 306 + 30.6 = \u20a3336.6.\n\n#### 336.6"}

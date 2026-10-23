@@ -1,0 +1,1325 @@
+{
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "answers": [
+  {
+   "set": 0,
+   "arm": "exp",
+   "greedy": "P1: LABEL HOLD\nP2: LABEL HOLD\nP3: LABEL HOLD\nP4: LABEL HOLD\nP5: LABEL HOLD\nP6: LABEL HOLD",
+   "samples": [
+    "P1: LABEL INFORMATION IS INVALID\nP2: LABEL INFORMATION IS INVALID\nP3: LABEL INFORMATION IS INVALID\nP4: LABEL INFORMATION IS INVALID\nP5: LABEL INFORMATION IS INVALID",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "P1: passage\nP2: pass\nP3: passage\nP4: passage\nP5: passage",
+    "P1: LABEL\nlabel: HOLD\nP2: LABEL\nlabel: HOLD\nP3: LABEL\nlabel: HOLD\nP4: LABEL\nlabel: HOLD"
+   ]
+  },
+  {
+   "set": 0,
+   "arm": "mixed",
+   "greedy": "P1: seal=CLOSED; tag=BLUE; waiver=NO; echo=OFF\nP2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON\nP3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON\nP4: seal=OPEN; tag=AMBER; waiver=NO; echo=OFF\nP5:",
+   "samples": [
+    "P1: seal=CLOSED; tag=BLUE; waiver=NO; echo=OFF -> REVIEW\nP2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON -> PASS\nP3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON -> REVIEW\nP4: seal=OPEN; tag=AMBER; waiver=NO; echo",
+    "P1: LABEL P6: LABEL",
+    "P1: seal=CLOSED; tag=BLUE; waiver=NO; echo=OFF\nP2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON\nP3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON\nP4: seal=OPEN; tag=AMBER; waiver=NO; echo=OFF\nP5:",
+    "P1: seal=CLOSED; tag=BLUE; waiver=NO; echo=OFF\nP2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON\nP3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON\nP4: seal=OPEN; tag=AMBER; waiver=NO; echo=OFF\nP5:"
+   ]
+  },
+  {
+   "set": 0,
+   "arm": "control",
+   "greedy": "P1: seal=CLOSED; tag=BLUE; waiver=NO; echo=OFF\nP2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON\nP3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON\nP4: seal=OPEN; tag=AMBER; waiver=NO; echo=OFF\nP5:",
+   "samples": [
+    "P1: seal=OPEN; tag=AMBER; waiver=NO; echo=ON\nP2: seal=CLOSED; tag=AMBER; waiver=NO; echo=OFF\nP3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON\nP4: seal=OPEN; tag=AMBER; waiver=NO; echo=ON\nP",
+    "P1: seal=CLOSED; tag=BLUE; waiver=NO; echo=OFF\nP2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON\nP3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON\nP4: seal=OPEN; tag=AMBER; waiver=NO; echo=OFF\nP5:",
+    "P1: seal=CLOSED; tag=BLUE; waiver=NO; echo=OFF\nP2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON\nP3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON\nP4: seal=OPEN; tag=AMBER; waiver=NO; echo=OFF\nP5:",
+    "P1: seal=CLOSED; tag=BLUE; waiver=YES; echo=ON\nP2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON\nP3: seal=OPEN; tag=BLUE; waiver=YES; echo=OFF\nP4: seal=OPEN; tag=AMBER; waiver=NO; echo=ON\nP5: seal"
+   ]
+  },
+  {
+   "set": 0,
+   "arm": "none",
+   "greedy": "P1: LABEL HOLD\nP2: LABEL HOLD\nP3: LABEL HOLD\nP4: LABEL HOLD\nP5: LABEL HOLD\nP6: LABEL HOLD",
+   "samples": [
+    "P1: LABEL HOLD  \nP2: LABEL HOLD  \nP3: LABEL HOLD  \nP4: LABEL REVIEW  \nP5: LABEL REVIEW  \nP6: LABEL REVIEW",
+    "P1: LABEL HOLD\nP2: LABEL HOLD\nP3: LABEL HOLD\nP4: LABEL HOLD\nP5: LABEL HOLD\nP6: LABEL HOLD",
+    "P1: LABEL HOLD  \nP2: LABEL HOLD  \nP3: LABEL HOLD  \nP4: LABEL HOLD  \nP5: LABEL HOLD  \nP6: LABEL HOLD",
+    "P1: LABEL HOLD\nP2: LABEL HOLD\nP3: LABEL HOLD\nP4: LABEL HOLD\nP5: LABEL HOLD\nP6: LABEL HOLD"
+   ]
+  },
+  {
+   "set": 1,
+   "arm": "exp",
+   "greedy": "P1: BLOCK\nP2: ALLOW\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: ALLOW",
+   "samples": [
+    "P1: ALLOW\nP2: ALLOW\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: ALLOW",
+    "P1: LATCH=SEALED; TICKET=YES; FLAG=WHITE; ECHO=QUIET\n\nP2: LATCH=FREE; TICKET=YES; FLAG=VIOLET; ECHO=QUIET\n\nP3: LATCH=FREE; TICKET=YES; FLAG=WHITE; ECHO=ACTIVE\n\nP4: LATCH=FREE; T",
+    "P1: ALLOW\nP2: ALLOW\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: ALLOW",
+    "**P1:** LATCH=SEALED; TICKET=YES; FLAG=WHITE; Echo=QUIET\n- **LABEL**: ALLOW\n- **DESCRIPTION**: This case has the latched function being sealed, with one active echo, all other conditions met.\n\n**P2:** LATCH=FREE; TICKET=YES; FLAG=BROWN; Echo=ACTIVE\n- **LABEL**: ALLOW"
+   ]
+  },
+  {
+   "set": 1,
+   "arm": "mixed",
+   "greedy": "P1: BLOCK\nP2: ALLOW\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: ALLOW",
+   "samples": [
+    "```python\n# Given example pairs\nexample_pairs = [\n    (\"latch=SEALED\", \"ticket=NO\", \"flag=WHITE\", \"echo=QUIET\", \"BLOCK\"),\n    (\"latch=FREE\", \"ticket=YES\", \"flag=VIOLET\", \"echo=QUIET\", \"INSPECT\"),\n    # Add more pairs as needed...\n]\n\n# Classification rule for",
+    "P1: BLOCK\nP2: INSPECT\nP3: VIOLET\nP4: ACTIVE\nP5: VIOLET\nP6: SELELD",
+    "P1: BLOCK\nP2: BLOCK\nP3: INSPECT\nP4: INSPECT\nP5: BLOCK\nP6: ALLOW",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: INSPECT\nP5: ALLOW\nP6: INSPECT"
+   ]
+  },
+  {
+   "set": 1,
+   "arm": "control",
+   "greedy": "P1: BLOCK\nP2: ALLOW\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: ALLOW",
+   "samples": [
+    "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: ALLOW\nP5: BLOCK\nP6: ALLOW",
+    "**Case Analysis and Classification**\n\n**Case 1:** latching sealed, ticket yes, echo active\n- **Label: BLOCK**\n  - Reason: Latch is sealed, ticket is valid, echo is active.\n\n**Case 2:** latching free, ticket yes, echo active\n- **Label: BLOCK**\n  - Reason: Latch is open but ticket is null, echo",
+    "Here are the results for the given test cases:\n\n**P1: latching flagged as free**\n\n- **latch**: SEALED\n- **ticket**: NO\n- **flag**: WHITE\n- **echo**: QUIET\n\n**P2: latched with ticket**\n\n- **latch**: FREE\n- **ticket**: YES\n- **flag**: VIOLET\n- **echo",
+    "BLOCK"
+   ]
+  },
+  {
+   "set": 1,
+   "arm": "none",
+   "greedy": "P1: LABEL BLOCK\nP2: LABEL ALLOW\nP3: LABEL ALLOW\nP4: LABEL ALLOW\nP5: LABEL ALLOW\nP6: LABEL ALLOW",
+   "samples": [
+    "Sure! Here are the classifications for each of the tested scenarios:\n\n### P1: LATCH=SEALED; TICKET=YES; FLAG=WHITE; ECHO=QUIET\n- **LABEL:** ALLOW\n- **METHOD:** Use only RULE 2 (if applicable)\n- **ANSWER:** No application found\n\n### P2: LATCH=FREE; TICKET=NO; FLAG",
+    "P1: LABEL BLOCK\nP2: LABEL BLOCK\nP3: LABEL ALLOW\nP4: LABEL ALLOW\nP5: LABEL ALLOW\nP6: LABEL ALLOW",
+    "P1: LABEL BLOCK\nP2: LABEL ALLOW\nP3: LABEL WHITE\nP4: LABEL ALLOW\nP5: LABEL ALLOW\nP6: LABEL BLOCK",
+    "P1: LABEL BLOCK\nP2: LABEL ALLOW\nP3: LABEL ALLOW\nP4: LABEL ALLOW\nP5: LABEL ALLOW\nP6: LABEL ALLOW"
+   ]
+  },
+  {
+   "set": 2,
+   "arm": "exp",
+   "greedy": "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+   "samples": [
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL NONE\nP5: LABEL PASS\nP6: LABEL PASS",
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+    "```python\n# Define the classification rules\nRULE1 = {\n    \"beacon\": {\"live\": False, \"idle\": True},\n    \"mark\": {\"white\": True, \"violet\": False},\n    \"lid\": {\"loose\": True, \"shut\": False},\n    \"permit\": {\"yes\": True, \"no\": False}\n}\n\ndef classify_case(beacon_type"
+   ]
+  },
+  {
+   "set": 2,
+   "arm": "mixed",
+   "greedy": "P1: REVIEW\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: PASS",
+   "samples": [
+    "P1: REVIEW\nP2: NO\nP3: NO\nP4: NO\nP5: NO\nP6: NO",
+    "P1: REVIEW  \nP2: REVIEW  \nP3: PASS  \nP4: PASS  \nP5: PASS  \nP6: PASS",
+    "**Case 1: beacon=LIVE; mark=WHITE; lid=LOOSE; permit=YES**\n- **Case 2: beacon=LIVE; mark=VIOLET; lid=SHUT; permit=YES**\n- **Case 3: beacon=IDLE; mark=VIOLET; lid=LOOSE; permit=NO**\n- **Case 4: beacon=ID",
+    "P1: REVIEW\nP2: REVIEW\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 2,
+   "arm": "control",
+   "greedy": "**Case 01:** **PASS**\n- **Beacon:** LIVE\n- **Mark:** WHITE\n- **Lid:** SHUT\n- **Permit:** YES\n- **Explanation:** Lid is shut and beacon is live, so this case passes the rule-switching test.\n\n**Case 02:** **PASS**\n- **Beacon:** IDLE\n- **Mark:**",
+   "samples": [
+    "The test case with the specified field format and rule application results:\nPASS",
+    "P1: WHITE - NO\nP2: VIOLET - YES\nP3: NO - NO\nP4: LOOSE - NO\nP5: NO - YES\nP6: SHUT - YES",
+    "**Classification System:**\n\n- **Rule 1:** Label as HOLD if beacon IDLE or permit NO and lid SHUT.\n- **Rule 2:** Label as PASS if markWHITE or permit YES and lid LOOSE.\n- **Rule 3:** All other cases are REVIEW.\n\n### Example 01:\nword=BARK; spare word=RAMP; requested position=2; answer",
+    "We will rule each case based on the provided rules and analyze each condition separately:\n\n### Rule 1 (highest priority)\n- **Label Case as HOLD**:\n  - If `beacon` is LIVE or `lid` is SHUT, AND `permit` is YES, then the case is labeled as HOLD.\n\n### Rule 2 (lowest priority)\n- **Label Case as PASS**"
+   ]
+  },
+  {
+   "set": 2,
+   "arm": "none",
+   "greedy": "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL WHITE\nP4: LABEL NO\nP5: LABEL NO\nP6: LABEL YES",
+   "samples": [
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+    "P1: LABEL VIOLET\nP2: LABEL WHITE\nP3: LABEL LOOSE\nP4: LABEL LOOSE\nP5: LABEL WHITE\nP6: LABEL SHUT",
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL REVIEW\nP4: LABEL REVIEW\nP5: LABEL REVIEW\nP6: LABEL PASS",
+    "```python\n# RESEARCH TASK: RULE-SWITCHING TEST\n\n# P1: beacon=LIVE; mark=WHITE; lid=LOOSE; permit=YES\n# RULE 1 applies because permit is YES and beacon is LIVE.\n# P2: beacon=IDLE; mark=VIOLET; lid=SHUT; permit=YES\n# RULE 1 applies, but permit"
+   ]
+  },
+  {
+   "set": 3,
+   "arm": "exp",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED - WEAKE=MISSING, BADGE=BLUE, SIGNAL=IDLE, HATCH=FREE\nP2: PROCEED - WEAKE=MISSING, BADGE=BLUE, SIGNAL=IDLE, HATCH=SEALED\nP3: PROCEED - WEAKE=MISSING, BADGE=AMBER, SIGNAL=IDLE",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED - Badge Blue\nP2: PROCEED - Signal IDLE\nP3: PROCEED - Badges BLUE and AMBER\nP4: PROCEED - Signal LIVE\nP5: PROCEED - Badge Amber\nP6: PROCEED - Signal FREE",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 3,
+   "arm": "mixed",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: ESCALATE\nP5: ESCALATE\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: ESCALATE\nP5: ESCALATE\nP6: PROCEED",
+    "P1: PROCEED \nP2: PROCEED \nP3: ESCALATE\nP4: ESCALATE\nP5: PROCEED\nP6: PROCEED",
+    "**PROCEED**\n**HALT**\n**ESCALATE**",
+    "```python\n# Rules for classification\r\nrules = {\r\n    ('HALT', 'BLUE'): \"PROCEED\",\r\n    ('PROCEED', 'BLUE'): \"HALT\",\r\n    ('HALT', 'AMBER'): \"ESCALATE\",\r\n    ('PROCEED', 'AMBER'): \"ESCALATE\",\r\n    ('HALT', 'BLUE'): \"HALT\"\r\n}\r\n\r\n# Test cases"
+   ]
+  },
+  {
+   "set": 3,
+   "arm": "control",
+   "greedy": "**Case 01:** **HALT**\n- **Reasoning:** The waiver is given and the signal is live, but the hatch is free, so it cannot proceed with the test.\n\n**Case 02:** **PROCEED**\n- **Reasoning:** The waiver is given and the signal is live, so it can proceed with the test.\n\n**Case 03:** **HAL",
+   "samples": [
+    "```python\n# Given the problem constraints and example tasks, we need to follow the given rules:\n\n# Rules:\n# Rule 1 (highest priority): Label a case HALT if its hatch is SEALED or its waiver is GIVEN AND its signal is LIVE.\n# Rule 2: If Rule 1 does not apply, label the case PROCEED if its badge is BLUE.\n# Rule",
+    "**CASE 01:** **PROCEED - BLUE**\n\nThe tag LEP is found in the waiver, which indicates that the request for position 2 was given and the signal was live when we initially examined the data.\n\n**CASE 02:** **PROCEED - AMBER**\n\nNo relevant tags were found in either waiver or badge information.\n\n**CASE 03:** **ESCALATE",
+    "As per the rule system provided:\n\n1. Rule 1 applies due to the waiver being given and the signal for live signal.\n2. Hence, proceed with PROCEED.\n3. Since the problem does not involve any specific word or content that requires an example, I cannot provide an explained solution here. However, you can use these rules to solve similar problems based on your criteria.",
+    "Certainly! Here are my responses for Example 01 through Example 06:\n\n**Example 01: FROG**\nP1: waiver=MISSING\nP2: waiver=MISSING\nP3: waiver=MISSING\nP4: waiver=MISSING\nP5: waiver=MISSING\nP6: waiver=MISSING\n\n**Example 02"
+   ]
+  },
+  {
+   "set": 3,
+   "arm": "none",
+   "greedy": "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL PROCEED\nP6: LABEL PROCEED",
+   "samples": [
+    "P1: LABEL through P6: LABEL\n\nP1: waiver=MISSING; badge=BLUE; signal=IDLE; hatch=FREE\nP2: waiver=MISSING; badge=BLUE; signal=IDLE; hatch=SEALED\nP3: waiver=MISSING; badge=AMBER; signal=IDLE; hatch=FREE\nP4: waiver=G",
+    "P1: LABEL PROCEED\nP2: LABEL ESCALATE\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL ESCALATE\nP6: LABEL PROCEED",
+    "```\nP1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL\n```",
+    "**Case 1:**\n**P1**: waiver=MISSING; badge=BLUE; signal=LIVE; hatch=FREE\n- **Label:** Halt\n\n**Case 2:**\n**P2**: waiver=MISSING; badge=BLUE; signal=IDLE; hatch=SEALED\n- **Label:** Proceed\n\n**Case 3:**\n**P3**:"
+   ]
+  },
+  {
+   "set": 4,
+   "arm": "exp",
+   "greedy": "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP",
+   "samples": [
+    "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: GO",
+    "**P1: seal=UNLOCKED; signal=LIVE; pass=TRUE; tag=SILVER**\n\n**P2: seal=UNLOCKED; signal=IDLE; pass=FALSE; tag=BROWN**\n\n**P3: seal=UNLOCKED; signal=IDLE; pass=TRUE; tag=SILVER**\n\n**P4: seal=LOCKED; signal",
+    "P1: GO\nP2: GO\nP3: GO\nP4: GO\nP5: GO\nP6: GO",
+    "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP"
+   ]
+  },
+  {
+   "set": 4,
+   "arm": "mixed",
+   "greedy": "P1: STOP\nP2: GO\nP3: GO\nP4: GO\nP5: GO\nP6: GO",
+   "samples": [
+    "P1: STOP\nP2: CHECK\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: CHECK",
+    "P1: GO\nP2: STOP\nP3: GO\nP4: GO\nP5: GO\nP6: GO",
+    "P1: seal=LOCKED; signal=IDLE; pass=FALSE; tag=SILVER\nP2: seal=UNLOCKED; signal=IDLE; pass=FALSE; tag=SILVER\nP3: seal=UNLOCKED; signal=IDLE; pass=TRUE; tag=SILVER\nP4: seal=LOCKED; signal=IDLE",
+    "P1: GO\nP2: GO\nP3: GO\nP4: GO\nP5: GO\nP6: STOP"
+   ]
+  },
+  {
+   "set": 4,
+   "arm": "control",
+   "greedy": "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP",
+   "samples": [
+    "STOP\nGO\nCHECK\nSTOP\nGO\nCHECK\nGO",
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: STOP\nP5: GO\nP6: STOP",
+    "### **RULE 1: Labeling Cases**\nLabel each case as STOP if the seal is locked or the pass is true and the signal is live:\n```\nSTOP\n```\n\n### **CASE 01:** Seal Locked, PASS True, Signal Live\n```\nGO\n```\n\n### **CASE 02:** Seal Locked, Pass False, Signal Live\n```\nSTOP",
+    "STOP\nGO\nCHECK\nSTOP\nGO\nCHECK\nCHECK\nSTOP\nGO\nGO"
+   ]
+  },
+  {
+   "set": 4,
+   "arm": "none",
+   "greedy": "P1: LABEL STOP\nP2: LABEL GO\nP3: LABEL STOP\nP4: LABEL GO\nP5: LABEL STOP\nP6: LABEL GO",
+   "samples": [
+    "| P1: STOP |\n|------------|\n| seal=UNLOCKED; signal=LIVE; pass=TRUE; tag=SILVER |\n| seal=UNLOCKED; signal=IDLE; pass=FALSE; tag=BROWN |\n| seal=LOCKED; signal=IDLE; pass=TRUE; tag=SILVER |\n| seal=UNLOCKED; signal=LIVE;",
+    "P1: GO\nP2: P1\nP3: P1\nP4: P1\nP5: P1\nP6: P1",
+    "P1: STOP\nP2: STOP\nP3: STOP\nP4: GO\nP5: GO\nP6: GO",
+    "P1: PAPER BAG UNLOCKED; MARKET CASH LIVESTOCK; PASS FALSE; TAG SILENCE\nP2: SEAL UNLOCKED; MARKET CASH IDLE; PASS TRUE; TAG BROWN\nP3: SEAL UNLOCKED; MARKET CASH IDLE; PASS TRUE; TAG SILVER\nP4: SEAL UNLOCK"
+   ]
+  },
+  {
+   "set": 5,
+   "arm": "exp",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 5,
+   "arm": "mixed",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: HALT\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: HALT",
+    "P1: LABEL\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: HALT",
+    "P1: PROCEED\nP2: PROCEED\nP3: ESCALATE\nP4: PROCEED\nP5: PROCEED\nP6: HALT",
+    "**P1: waiver=GIVEN; chime=IDLE; flag=VIOLET; latch=SHUT**\n- **P2: waiver=GIVEN; chime=IDLE; flag=WHITE; latch=LOOSE**\n- **P3: waiver=MISSING; chime=LIVE; flag=WHITE; latch=LOOSE**\n- **P4: waiver=G"
+   ]
+  },
+  {
+   "set": 5,
+   "arm": "control",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "**Case 01:**\n```plaintext\nPROCEED\n```\n**Reason:** waiver and chime are given but latch is shut.\n\n**Case 02:**\n```plaintext\nESCALATE\n```\n**Reason:** chime and latched value are given, but waiver is missing.\n\n**Case 03:**\n```plaintext\nESCALATE\n```\n**Reason",
+    "**Case 01:**  \n**Flag:** BLACK  \n**Label:** Halt  \n\n**Reasoning:** The waiver and chime indicate given action, but the latch shows shut, ruling out Rule 1 first. Since there's no other information indicating an escape or live chime, Rule 3 applies (\"All remaining cases are Escalate\").\n\n**Case 02:**  \n**Flag",
+    "Here's the research task for each example, labeled according to the given rules:\n\n### Example 01: FROG (WORD=\"FROG\", SPARE WORD=None)\n- **Case** - **HALT**\n- **Reasoning**: The latched \"FROG\" cannot be used as it is already \"SHUT.\"\n- **Outcome**: Halt\n\n### Example",
+    "Based on the provided rules and test cases, I will rule out some options based on the given criteria:\n\n1. **Rule 1:** If the latch is shut, or the waiver is given and the chime is live, then halt the case.\n2. **Rule 2:** If Rule 1 does not apply, proceed with the case if the flag is white.\n3. **Rule"
+   ]
+  },
+  {
+   "set": 5,
+   "arm": "none",
+   "greedy": "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL PROCEED\nP6: LABEL PROCEED",
+   "samples": [
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "**P1: LABEL**\n- **LATCH**: SHUT\n- **WAIVER**: GIVEN\n- **CHIME**: IDLE\n- **FLAG**: WHITE\n\n**P2: LABEL**\n- **LATCH**: LOOSE\n- **WAIVER**: GIVEN\n- **CHIME**: IDLE\n- **FLAG**: WHITE\n\n**P3: LABEL**\n- **LATCH",
+    "P1: LABEL\nPROCEED\nP2: LABEL\nESCALATE\nP3: LABEL\nESCALATE\nP4: LABEL\nESCALATE\nP5: LABEL\nESCALATE\nP6: LABEL\nESCALATE",
+    "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL PROCEED\nP6: LABEL PROCEED"
+   ]
+  },
+  {
+   "set": 6,
+   "arm": "exp",
+   "greedy": "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+   "samples": [
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+    "P5: PASS\nP4: PASS\nP3: PASS\nP2: PASS\nP1: PASS",
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS"
+   ]
+  },
+  {
+   "set": 6,
+   "arm": "mixed",
+   "greedy": "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: REVIEW",
+   "samples": [
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: REVIEW\nP2: REVIEW\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: PASS\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: PASSED",
+    "**P1: pass=YES; echo=OFF; valve=LOCKED; stripe=VIOLET**\n\n**P2: pass=YES; echo=ON; valve=UNLOCKED; stripe=WHITE**\n\n**P3: pass=YES; echo=OFF; valve=UNLOCKED; stripe=WHITE**\n\n**P4: pass=NO; echo=OFF; valve=UNLOCK"
+   ]
+  },
+  {
+   "set": 6,
+   "arm": "control",
+   "greedy": "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+   "samples": [
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: FAIL\nP5: FAIL\nP6: FAIL",
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS",
+    "Certainly! Here are the four-word solutions for each test case:\n\n### Solution for Test Case 01:\n**WORD:** OVAL  \n**SPARE WORD:** SILK  \n**REQUESTED POSITION:** 2  \n**ANSWER:** V  \n\n### Solution for Test Case 02:\n**WORD:** YARN  \n**SPARE WORD:** CAVE  \n**REQUESTED POSITION:** 2",
+    "**Answer: P1**\n\n**Explanation:**\nRule 1 applies because the valve is locked and there is an echo on. The pass is yes and the echo is on, so the valve is locked and the situation is consistent with rule 1. Therefore, the case should be labeled as PASS."
+   ]
+  },
+  {
+   "set": 6,
+   "arm": "none",
+   "greedy": "P1: LABEL PASS\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+   "samples": [
+    "P1: LABEL PASS\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL FAIL\nP6: LABEL FAIL",
+    "Here are the classifications for each of the six test cases:\n\n**Case P1:** Pass = Yes, Echo = Off, Valve = Locked, Stripe = Violet\n- **LABEL:** HOLD\n- **Reason:** Valve is already locked, so there's no need to switch whether it's hold or pass based on valve status.\n\n**Case P2:** Pass = Yes, Echo = On, Valve",
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL VIOLET\nP5: LABEL WHITE\nP6: LABEL WHITE",
+    "Certainly! I will now classify each of the test cases according to the provided rules and prioritize them based on their impact on the completion status (\"PASS\" or \"HOLD\").\n\n```python\n# Given test cases\ncases = [\n    {\"pass\": \"YES\", \"echo\": \"OFF\", \"valve\": \"LOCKED\", \"stripe\": \"VIOLET\"},\n    {\"pass\": \""
+   ]
+  },
+  {
+   "set": 7,
+   "arm": "exp",
+   "greedy": "P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER\nP2: valve=CLOSED; pass=YES; beacon=IDLE; flag=BROWN\nP3: valve=OPEN; pass=YES; beacon=LIVE; flag=SILVER\nP4: valve=OPEN; pass=NO; beacon=LIVE; flag=SILVER",
+   "samples": [
+    "P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER\nP2: valve=CLOSED; pass=YES; beacon=IDLE; flag=BROWN\nP3: valve=OPEN; pass=YES; beacon=LIVE; flag=SILVER\nP4: valve=OPEN; pass=NO; beacon=LIVE; flag=SILVER",
+    "**P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER**\n- **LABEL:** PASS  \n- **Explanation:** Valve is closed, pass is NO, beacon IDLE indicates live, so this case passes all checks.\n\n**P2: valve=CLOSED; pass=YES; beacon=IDLE; flag=BROWN**\n- **LABEL:** PASS",
+    "P1: P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER\nP2: P2: valve=CLOSED; pass=YES; beacon=IDLE; flag=BROWN\nP3: P3: valve=OPEN; pass=YES; beacon=LIVE; flag=SILVER\nP4: P4: valve=OPEN;",
+    "Certainly! Below are the classifications for each tested example:\n\n**P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER**\n- **Classification**: PASS\n- **Explanation**: Valve closed with IDLE beacon, flag SILVER.\n\n**P2: valve=CLOSED; pass=YES; beacon=IDLE; flag=BROWN**\n- **Classification**:"
+   ]
+  },
+  {
+   "set": 7,
+   "arm": "mixed",
+   "greedy": "P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER\nP2: valve=CLOSED; pass=YES; beacon=IDLE; flag=BROWN\nP3: valve=OPEN; pass=YES; beacon=LIVE; flag=SILVER\nP4: valve=OPEN; pass=NO; beacon=LIVE; flag=SILVER",
+   "samples": [
+    "P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER\nP2: valve=CLOSED; pass=YES; beacon=IDLE; flag=BROWN\nP3: valve=OPEN; pass=YES; beacon=IDLE; flag=SILVER\nP4: valve=OPEN; pass=NO; beacon=LIVE; flag=SIL",
+    "**P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER**\n- **Label:** REVIEW\n\n**P2: valve=CLOSED; pass=YES; beacon=IDLE; flag=BROWN**\n- **Label:** NO\n\n**P3: valve=OPEN; pass=YES; beacon=LIVE; flag=SILVER**\n- **Label:**",
+    "P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER\nP2: valve=CLOSED; pass=YES; beacon=IDLE; flag=BROWN\nP3: valve=OPEN; pass=YES; beacon=LIVE; flag=SILVER\nP4: valve=OPEN; pass=NO; beacon=LIVE; flag=SILVER",
+    "P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER\nP2: valve=OPEN; pass=YES; beacon=IDLE; flag=SILVER\nP3: valve=OPEN; pass=NO; beacon=LIVE; flag=SILVER\nP4: valve=OPEN; pass=NO; beacon=IDLE; flag=S"
+   ]
+  },
+  {
+   "set": 7,
+   "arm": "control",
+   "greedy": "**Case 01:**  \n- **Valve:** OPEN  \n- **Pass:** NO  \n- **Beacon:** IDLE  \n- **Flag:** SILVER  \n\n**Case 02:**  \n- **Valve:** OPEN  \n- **Pass:** YES  \n- **Beacon:** IDLE  \n- **Flag:** BROWN  \n\n**Case 03:**  \n- **Val",
+   "samples": [
+    "**Case 01:** **P1: valve=CLOSED; pass=YES; beacon=IDLE; flag=SILVER**\n- Analysis:\n  - Valve closed.\n  - Pass result is yes and beacon is live.\n- Conclusion:\n  - Case passes with flag as silver.\n\n**Case 02:** **P2: valve=OPEN; pass=YES; beacon=IDLE",
+    "**Case P1: valve=CLOSED; pass=NO; beacon=IDLE; flag=SILVER**\n- **Rule 1**: Valve is closed, but beacon is idle and flag is silver.\n- **Rule 2**: No new information required.\n- **Rule 3**: Pass status remains unchanged.\n\n**Case P2: valve=CLOSED; pass=YES; beacon=L",
+    "Let's analyze each puzzle step-by-step based on the given rule system:\n\n### Rules:\n1. **Rule 1:**  \n   - **CLOSED:** Valve is closed, but the beacon and pass have been verified as live.\n   - **Pass:** Yes, it passes the check.\n   - **Beacon:** Verified as live.\n\n2. **Rule 2:**  \n   - If",
+    "```python\n# RULE 1: LABELS AS HOLD IF VALVE IS CLOSED OR PASS IS YES AND BEACON IS LIVE\n# RULE 3: REMAINS FOR ALL OTHER CASES\n\n# Example Analysis and Classification\nexample_case = {\n    'valve': 'CLOSED',\n    'pass': True,\n    'beacon': 'IDLE',\n    'flag': '"
+   ]
+  },
+  {
+   "set": 7,
+   "arm": "none",
+   "greedy": "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+   "samples": [
+    "P1: LABEL HOLD  \nP2: LABEL PASS  \nP3: LABEL BROWN  \nP4: LABEL SILENT  \nP5: LABEL BROWN  \nP6: LABEL SILENT",
+    "To classify each of the six test cases according to the provided rules, I will follow these steps:\n\n**Rule 1: Highest Priority - Make sure all conditions for holding or passing are met before applying rule 2.**\n\n- **Case 1:** `valve = CLOSED`, `pass = NO`, `beacon = IDLE`, `flag = SILVER`\n  - This does not",
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+    "P1: LABEL HOLD  \nP2: LABEL PASS  \nP3: LABEL REVIEW  \nP4: LABEL REVIEW  \nP5: LABEL REVIEW  \nP6: LABEL HOLD"
+   ]
+  },
+  {
+   "set": 8,
+   "arm": "exp",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED \nP2: PROCEED \nP3: PROCEED \nP4: PROCEED \nP5: PROCEED \nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: flag=WHITE; ticket=ABSENT; chime=OFF; valve=SEALED\nP2: flag=WHITE; ticket=PRESENT; chime=ON; valve=FREE\nP3: flag=WHITE; ticket=ABSENT; chime=ON; valve=FREE\nP4: flag=VIOLET; ticket=PRESENT; chime=OFF",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 8,
+   "arm": "mixed",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "**P1: flag=WHITE; ticket=ABSENT; chime=OFF; valve=SEALED**\n**P2: flag=WHITE; ticket=PRESENT; chime=ON; valve=FREE**\n**P3: flag=WHITE; ticket=ABSENT; chime=ON; valve=FREE**\n**P4: flag=VIOLET; ticket=PRESENT;",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: ESCALATE\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: ESCALATE",
+    "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL PROCEED\nP6: LABEL PROCEED"
+   ]
+  },
+  {
+   "set": 8,
+   "arm": "control",
+   "greedy": "**Case 01:** \n- **Flag:** WHITE  \n- **Ticket:** ABSENT  \n- **Chime:** OFF  \n- **Valve:** SEALED  \n- **Result:** HALT  \n\n**Case 02:** \n- **Flag:** WHITE  \n- **Ticket:** PRESENT  \n- **Chime:** ON  \n- **Valve:** FREE  \n- **Result:**",
+   "samples": [
+    "**CASES:** P1-P6\n\n(P1) **HALT**\n- Valve is SEALED and ticket is PRESENT but chime is OFF.\n\n(P2) **PROCEED**\n- Flag is WHITE, ticket is PRESENT, chime is ON, valve is FREE.\n\n(P3) **PROCEED**\n- Flag is WHITE, ticket is ABSENT but chime is ON,",
+    "P1: PROCEED (flag=WHITE)\nP2: PROCEED (ticket=ABSENT)\nP3: PROCEED (flag=WHITE)\nP4: SCEDULATE\nP1: PROCEED (flag=VIOLET)\nP2: PROCEED (ticket=PRESENT)\nP3: PROCEED (flag=WHITE)\nP4: SCEDULATE\nP6:",
+    "PROCEED: FLAG = WHITE\nPROCEED: TICKET = ABSENT\nPROCEED: CHIME = OFF\nPROCEED: VALVE = SEALED",
+    "**Case 01:**\n- Flag: WHITE\n- Ticket: ABSENT\n- Chime: OFF\n- Valve: SEALED\n- Response: I\n\n**Case 02:**\n- Flag: WHITE\n- Ticket: PRESENT\n- Chime: ON\n- Valve: FREE\n- Response: O\n\n**Case 03:**\n- Flag: V"
+   ]
+  },
+  {
+   "set": 8,
+   "arm": "none",
+   "greedy": "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+   "samples": [
+    "P1: LABEL - PROCEED  \nP2: LABEL - PROCEED  \nP3: LABEL - PROCEED  \nP4: LABEL - ESCALATE  \nP5: LABEL - ESCALATE  \nP6: LABEL - ESCALATE",
+    "P1: LABEL SWIRL\nP2: LABEL SWIRL\nP3: LABEL SWIRL\nP4: LABEL FLOP\nP5: LABEL FLOP\nP6: LABEL FLOP",
+    "P1: LABEL\nP2: Lbl\nP3: Lbl\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "P1: LABEL\nP2: LABELE\nP3: LABELE\nP4: LABELE\nP5: LABEL\nP6: LABELE"
+   ]
+  },
+  {
+   "set": 9,
+   "arm": "exp",
+   "greedy": "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+   "samples": [
+    "P1: Pass\nP2: Pass\nP3: Pass\nP4: Pass\nP5: Pass\nP6: PASS",
+    "P1: LABEL: HOLD\nP2: LABEL: PASS\nP3: LABEL: HOLD\nP4: LABEL: PASS\nP5: LABEL: HOLD\nP6: LABEL: PASS",
+    "```python\n# Example 01: beacon=LIVE; tag=WHITE; gate=OPEN; permit=ABSENT -> PASS\nP1: PASS\n\n# Example 02: beacon=IDLE; tag=WHITE; gate=OPEN; permit=ABSENT -> PASS\nP2: PASS\n\n# Example 03: beacon=LIVE; tag=WHITE; gate=",
+    "**P1: beacon=LIVE; tag=WHITE; gate=OPEN; permit=PRESENT**\n- **Label:** PASS\n\n**P2: beacon=IDLE; tag=WHITE; gate=IDLE; permit=ABSENT**\n- **Label:** PASS\n\n**P3: beacon=IDLE; tag=VIOLET; gate=IDLE; permit=PRESENT**\n-"
+   ]
+  },
+  {
+   "set": 9,
+   "arm": "mixed",
+   "greedy": "P1: LABEL HOLD\nP2: LABEL REVIEW\nP3: LABEL REVIEW\nP4: LABEL REVIEW\nP5: LABEL REVIEW\nP6: LABEL PASS",
+   "samples": [
+    "P1: HOLD\nP2: REVIEW\nP3: REVIEW\nP4: REVIEW\nP5: PASS\nP6: PASS",
+    "P1: HOLD \nP2: REVIEW  \nP3: PASS  \nP4: REVIEW  \nP5: PASS  \nP6: PASS",
+    "P1: FILTER_EXCEPT_TAG(WHITE)\n             FILTER_EXCEPT_LANE(OPEN)\n             FILTER_EXCEPT_BEACON(CLOSED)\n             LABEL\nP2: FILTER_EXCEPT_TAG(WHITE)\n             FILTER_EXCEPT_LANE(OPEN)\n             FILTER_EXCEPT_BEACON(CLOSED)\n             LABEL\nP3: FILTER_EXCEPT_TAG(VIOLET)\n             FILTER_EXCEPT_LANE",
+    "P1: BEGINS WITH LEARNING\nP2: BEGINS WITH LEARNING\nP3: BEGINS WITH LEARNING\nP4: BEGINS WITH LEARNING\nP5: BEGINS WITH LEARNING\nP6: BEGINS WITH LEARNING"
+   ]
+  },
+  {
+   "set": 9,
+   "arm": "control",
+   "greedy": "**Case 01:** **Beacon IDLE**, **Tag WHITE**, **Gate OPEN**, **Permit ABSENT**\n\n**Case 02:** **Beacon IDLE**, **Tag WHITE**, **Gate OPEN**, **Permit ABSENT**\n\n**Case 03:** **Beacon IDLE**, **Tag WHITE**, **Gate OPEN**, **Permit ABSENT**\n\n**Case",
+   "samples": [
+    "### Test Case Analysis\n\n```python\n# Rule 1 (Highest Priority)\nrule_1 = {\n    'word': 'v',\n    'spare_word': 's',\n    'requested_position': 2,\n    'answer': 'V'\n}\n\n# Rule 2 (Passing Condition)\nrule_2 = {\n    'word': 'N',\n    'spare_word':",
+    "P1: WHITE\nP2: V\nP3: V\nP4: I\nP5: E\nP6: O",
+    "P1: WHITE, VIOLET, OPEN, ABSENT, IDLE\nP2: WHITE, VIOLET, Closes, PRESENT, OPEN\nP3: VIOLET, PRESENT, Open, IDLE, Closed\nP4: WHITE, PRESENT, Closes, Open, Closed\nP5: VIOLET, PRESENT, Opens, IDLE",
+    "**Case 01:** **WHIT**\n**Reason**: The beacon reading is \"BANK\" which means \"Bank,\" indicating that the floor is open. The permit is present and the gate is closed. The tag is white.\n\n**Case 02:** **WHIT**\n**Reason**: The beacon is \"TERRAIN\" which means \"Terrain.\" The permit is absent while the"
+   ]
+  },
+  {
+   "set": 9,
+   "arm": "none",
+   "greedy": "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL WHITE\nP4: LABEL WHITE\nP5: LABEL WHITE\nP6: LABEL PASS",
+   "samples": [
+    "P1: LABEL PASS\nP2: LABEL REVIEW\nP3: LABEL REVIEW\nP4: LABEL REVIEW\nP5: LABEL REVIEW\nP6: LABEL PASS",
+    "Certainly! Here are the classifications for each of the six TEST cases:\n\n**P1:**\n- **Beacon:** LIVE  \n- **Tag:** WHITE  \n- **Gate:** OPEN  \n- **Permit:** PRESENT\n\n**P2:**\n- **Beacon:** IDLE  \n- **Tag:** WHITE  \n- **Gate:** CLOSED  \n- **Permit:** ABSENT  \n-",
+    "P1: P1: P1: P1: P1: LABEL = HOLD\nP2: P1: P1: P1: P1: LABEL = HOLD\nP3: P1: P1: P1: P1: LABEL = HOLD\nP4: P1: P1: P1: P1: LABEL = HOLD",
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS"
+   ]
+  },
+  {
+   "set": 10,
+   "arm": "exp",
+   "greedy": "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+   "samples": [
+    "**Solution:**\n\n### SOLUTION 1:\nP1: label as FIRING\n\n### SOLUTION 2:\nP2: label as FIRING\n\n### SOLUTION 3:\nP3: label as FIRING\n\n### SOLUTION 4:\nP4: label as FIRING\n\n### SOLUTION 5:\nP5: label as FIRING\n\n### SOLUTION 6:\nP6: label as FIR",
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+    "P1: LATCH = SHUT, TAG = BROWN, PASS = MISSING, BEACON = LIVE\nP2: LATCH = LOOSE, TAG = SILVER, PASS = GIVEN, BEACON = IDLE\nP3: LATCH = SHUT, TAG = SILVER, PASS = MISSING, BEACON = LIVE\nP4: LATCH"
+   ]
+  },
+  {
+   "set": 10,
+   "arm": "mixed",
+   "greedy": "P1: LATCH=SHUT, TAG=SILVER, PASS=GIVEN, BEACON=IDLE -> CLEAR\nP2: LATCH=LOOSE, TAG=SILVER, PASS=MISSING, BEACON=IDLE -> CLEAR\nP3: LATCH=SHUT, TAG=SILVER, PASS=MISSING, BEACON=IDLE",
+   "samples": [
+    "P1: LATCH=SHUT; TAG=SILVER; PASS=MISSING; BEACON=IDLE\nP2: LATCH=LOOSE; TAG=SILVER; PASS=GIVEN; BEACON=LIVE\nP3: LATCH=SHUT; TAG=SILVER; PASS=MISSING; BEACON=IDLE\nP4: L",
+    "P1: LATCH=SHUT, TAG=SILVER, PASS=GIVEN, BEACON=LIVE -> CLEAR\nP2: LATCH=LOOSE, TAG=SILVER, PASS=MISSING, BEACON=IDLE -> CLEAR\nP3: LATCH=SHUT, TAG=SILVER, PASS=MISSING, BEACON=IDLE ->",
+    "### P1: latch=SHUT; tag=BROWN; pass=GIVEN; beacon=IDLE\n\nP2: latch=LOOSE; tag=SILVER; pass=MISSING; beacon=LIVE\n\nP3: latch=SHUT; tag=SILVER; pass=MISSING; beacon=IDLE\n\nP4: latch=LOOSE; tag=SILVER;",
+    "P1: CLEAR\nP2: CLEAR\nP3: FREEZE\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR"
+   ]
+  },
+  {
+   "set": 10,
+   "arm": "control",
+   "greedy": "**Case 1:** latch=SHUT; tag=BROWN; pass=GIVEN; beacon=IDLE\n- **Rule 1 applies**: Latch is shut and beacon is live, so this case should be labeled as FREEZE.\n\n**Case 2:** latch=SHUT; tag=BROWN; pass=MISSING; beacon=IDLE\n- **Rule 1 applies**:",
+   "samples": [
+    "```python\n# SOLUTION START\n# YOUR CODE HERE\n```",
+    "**Test Case**:\n**P1:** latch=SHUT; tag=BROWN; pass=GIVEN; beacon=IDLE (FREEZE)\n\n**Explanation**: According to Rule 1, since the latch is shut and the pass is given but the beacon is live, the case should be frozen.",
+    "P1: FIX THE LATCH TO SHUT \nP2: KEEP THE TAG AS SILVER \nP3: UNCHECK THE BLEEDER PASS \nP4: CHECK THAT BEAM BEING ACTIVE \nP5: REMEMBER TO CHECK THE BLEEDER BEACON",
+    "```python\n# Test Cases for Rule Switching\r\n\r\ndef rule_switcher(fields):\r\n    # Define priorities and corresponding actions\r\n    priorities = {\r\n        'FREEZE': {'SHUT', 'GIVEN', 'BEACON'},\r\n        'CLEAR': {'SHUT', 'GIVEN', 'BEACON'}\r\n    }\r\n    \r\n    result = ''\r\n    for action, criteria in priorities.items"
+   ]
+  },
+  {
+   "set": 10,
+   "arm": "none",
+   "greedy": "P1: LABEL FREEZE\nP2: LABEL CLEAR\nP3: LABEL FREEZE\nP4: LABEL CLEAR\nP5: LABEL FREEZE\nP6: LABEL CLEAR",
+   "samples": [
+    "P1: LABEL FREEZE \nP2: LABEL FREEZE \nP3: LABEL FREEZE \nP4: LABEL FREEZE \nP5: LABEL FREEZE \nP6: LABEL FREEZE",
+    "P1: LABEL FREEZE\nP2: LABEL CLEAR\nP3: LABEL CLEAR\nP4: LABEL CLEAR\nP5: LABEL CLEAR\nP6: LABEL CLEAR",
+    "P1: LABEL FREEZE\nP2: LABEL CLEAR\nP3: LABEL CLEAR\nP4: LABEL CLEAR\nP5: LABEL CLEAR\nP6: LABEL CLEAR",
+    "P1: LATCH = SHUT; TAG = SILVER; PASS = GIVEN; BEAUFORD = IDLE\nP2: LATCH = LOOSE; TAG = SILVER; PASS = MISSING; BEAUFORD = LIVE\nP3: LATCH = SHUT; TAG = SILVER; PASS = MISSING; BEAUFORD = IDLE\nP4"
+   ]
+  },
+  {
+   "set": 11,
+   "arm": "exp",
+   "greedy": "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+   "samples": [
+    "```python\n# FOLLOW THE RULES TO CLASSIFY THE TEST CASES\n\n# RULE 1: LATCH = UNLOCKED, PERMIT = TRUE, BADGE = GREEN, CHIME = OFF -> PASS\n\n# RULE 2: IF RULE 1 DOES NOT APPLY, REGULAR CLASSIFICATION -> PASS\n\n# RULE 3: ALL OTHER CLASSES -> FAIL\n\n# SOLUTION FOR",
+    "P1: UNLOCKED\nP2: FALSE\nP3: FALSE\nP4: LOCKED\nP5: TRUE\nP6: TRUE",
+    "P1: LABEL Hold\nP2: LABEL Pass\nP3: LABEL Review\nP4: LABEL Pass\nP5: LABEL Pass\nP6: LABEL Review",
+    "P1: CHIME OFF -> HOLD\nP2: LATCH LOCKED -> HOLDDOWN\nP3: PERMIT TRUE -> HOLD\nP4: LATCH UNLOCKED -> HOLD\nP5: CHIME ON -> PASS\nP6: LATCH UNLOCKED -> PASS"
+   ]
+  },
+  {
+   "set": 11,
+   "arm": "mixed",
+   "greedy": "P1: LATCH UNLOCKED, PERMIT FALSE, BADGE GREEN, CHIME OFF -> PASS\nP2: LATCH UNLOCKED, PERMIT TRUE, BADGE GREEN, CHIME ON -> PASS\nP3: LATCH UNLOCKED, PERMIT FALSE, BADGE GREEN, CHIME ON -> REVIEW\nP4: LATCH LOCKED, PERMIT TRUE",
+   "samples": [
+    "P1: LATCH=LOCKED, PERMIT=FALSE, BADGE=GREEN, CHIME=OFF\nP2: LATCH=UNLOCKED, PERMIT=TRUE, BADGE=GREEN, CHIME=ON\nP3: LATCH=UNLOCKED, PERMIT=FALSE, BADGE=GREEN, CHIME=ON\nP4: LATCH=",
+    "P1: LATCH UNLOCKED; PERMIT FALSE; BADGE GREEN; CHIME OFF -> PASS\nP2: LATCH UNKNOWN; PERMIT TRUE; BADGE GREEN; CHIME ON -> REVIEW\nP3: LATCH UNKNOWN; PERMIT FALSE; BADGE GREEN; CHIME ON -> REVIEW\nP4: LATCH LOCKED; PERMIT TRUE; BADGE GREEN",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "P1: PANDORA\nP2: PANDORA\nP3: PANDORA\nP4: PANDORA\nP5: PANDORA\nP6: PANDORA"
+   ]
+  },
+  {
+   "set": 11,
+   "arm": "control",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+   "samples": [
+    "P1: ERROR\nP2: ERROR\nP3: ERROR\nP4: ERROR\nP5: ERROR\nP6: ERROR",
+    "Here are the results based on the specified rules and classifications:\n\n**P1:** \n- **LATCH**: LOCKED\n- **PERMIT**: FALSE\n- **BAND**: GREEN\n- **CHIME**: OFF\n\n**P2:** \n- **LATCH**: UNLOCKED\n- **PERMIT**: TRUE\n- **BAND**: GREEN\n- **CHIME**: ON",
+    "Pass\nKey Points: \n- Compare Latch status with Pin\n- Compare Permit status with Chime state\n- For all other cases, assume Green for pass",
+    "To solve this research task for the classification systems provided, we need to identify the appropriate rule based on the given criteria. Here's how each scenario fits into these rules:\n\n### Case 1: LATCH = LOCKED AND PERMIT = TRUE AND CHIME = ON\n- **Rule 1 applies**: Since the latch is locked and there's a true permission, the case fits the \"L"
+   ]
+  },
+  {
+   "set": 11,
+   "arm": "none",
+   "greedy": "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+   "samples": [
+    "P1: LABEL ERROR: Incorrect combination of fields for Rule 3.\nP2: LABEL ERROR: Incorrect combination of fields for Rule 3.\nP3: LABEL ERROR: Incorrect combination of fields for Rule 3.\nP4: LABEL ERROR: Incorrect combination of fields for Rule 3.\nP5: LABEL ERROR: Incorrect combination of fields for Rule 3.\nP6: LABEL ERROR",
+    "```python\n# Labels based on rules\r\nLABEL_P1 = \"HOLD\"\r\nLABEL_P2 = \"PASS\"\r\nLABEL_P3 = \"PASS\"\r\nLABEL_P4 = \"PASS\"\r\nLABEL_P5 = \"PASS\"\r\nLABEL_P6 = \"PASS\"\r\n\r\n# Review for all cases\r\ndef review_cases(test_cases):\r\n    return [LABEL_P1, LABEL_P2, LABEL_P3,",
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL FAIL\nP5: LABEL FAIL\nP6: LABEL FAIL",
+    "P1: LABELER\u8b66\u544a\u6b64\u6848\u4ef6\u4e0d\u53ef\u7528\nP2: \u9ed1\u8272\u6807\u8bb0\nP3: \u9ec4\u8272\u6807\u8bb0\nP4: \u9ed1\u8272\u6807\u8bb0\nP5: \u9ec4\u8272\u6807\u8bb0\nP6: \u9ed1\u8272\u6807\u8bb0"
+   ]
+  },
+  {
+   "set": 12,
+   "arm": "exp",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: P4: pass=ABSENT; gate=LOOSE; pulse=IDLE; flag=GREY\nP2: P5: P2: pass=ABSENT; gate=SHUT; pulse=IDLE; flag=GREEN\nP3: P1: pass=PRESENT; gate=LOOSE; pulse=IDLE; flag=GREEN\nP4",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: green\nP2: halt\nP3: green\nP4: green\nP5: green\nP6: green"
+   ]
+  },
+  {
+   "set": 12,
+   "arm": "mixed",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: LABORATORY ERROR - NO VALID EXAMPLE FOUND\nP2: LABORATORY ERROR - NO VALID EXAMPLE FOUND\nP3: LABORATORY ERROR - NO VALID EXAMPLE FOUND\nP4: LABORATORY ERROR - NO VALID EXAMPLE FOUND\nP5: LABORATORY ERROR - NO VALID EXAMPLE FOUND\nP6: PROCEED",
+    "P1: HALT\nP2: PROCEED\nP3: PROCEED\nP4: ESCALATE\nP5: ESCALATE\nP6: HALT",
+    "P1: PROCEED\nP2: ESCALATE\nP3: PROCEED\nP4: ESCALATE\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 12,
+   "arm": "control",
+   "greedy": "P1: pass=ABSENT; gate=LOOSE; pulse=LIVE; flag=GREEN\nP2: pass=ABSENT; gate=SHUT; pulse=IDLE; flag=GREEN\nP3: pass=PRESENT; gate=LOOSE; pulse=IDLE; flag=GREEN\nP4: pass=ABSENT; gate=LOOSE; pulse=ID",
+   "samples": [
+    "```python\n# Solution for the research task described using rule-based logic and given test cases\n\n# Initialize a dictionary to keep track of the results based on the rules applied\nresults = {}\n\ndef process_case(case):\n    # Extract fields from the case\n    gate_val = case[2]\n    pulse_val = case[3]\n    flag_val = case[4]\n    \n    # Determine the",
+    "```python\n# Initialize flags for each case and positions\ncase_flags = [False] * 20  # Placeholder for actual implementation\npass_flag = 0\ngate_mask = 0x0F  # 0-9 mask, 0xFF is low-level reset\npulse_mask = 0x0F  # 0-9 mask, 0xFF is low",
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+    "Here's the analysis based on the given rules for each example:\n\n**Example 01:** \"word=SAND; spare word=TENT; requested position=2; answer=A\" - **Case:** PROCEED - **Reasoning:** No specific rule applies, so proceed with action.\n- **Field Values:** PASS = ABSENT, GATE = SHUT, Pulse = IDLE, Flag"
+   ]
+  },
+  {
+   "set": 12,
+   "arm": "none",
+   "greedy": "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+   "samples": [
+    "Sure, I can help classify these test cases based on the provided rules and classifications. Here are the results for each case:\n\n### P1: pass=ABSENT; gate=LOOSE; pulse=LIVE; flag=GREEN\n**Label:** P1: STOP\n\n### P2: pass=ABSENT; gate=SHUT; pulse=IDLE; flag=GREEN\n**Label",
+    "P1: LABEL\nLABEL\nP2: LABEL\nLABEL\nP3: LABEL\nLABEL\nP4: LABEL\nLABEL\nP5: LABEL\nLABEL\nP6: LABEL",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "P1: LABEL PROCEED because flag is GREEN.\nP2: LABEL PROCEED because flag is GREEN.\nP3: LABEL PROCEED because flag is GREEN.\nP4: LABEL PROCEED because flag is GREEN.\nP5: LABEL PROCEED because flag is GREY.\nP6: LABEL PROCEED because flag is GREEN."
+   ]
+  },
+  {
+   "set": 13,
+   "arm": "exp",
+   "greedy": "P1: ALLOW\nP2: ALLOW\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: ALLOW",
+   "samples": [
+    "```python\n# Example solution for the given problem\n# This is a simplified example only as there isn't a verified answer provided for these test cases\n\ndef switch_rules(test_cases):\n    result = []\n    \n    # Process block cases with \"SHUT\"\n    for tc in test_cases:\n        if tc[\"puzzle\"] == \"BLOCK\":\n            result.append(\"LABEL\")\n    \n    # Process",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "P1: ALLOW\nP2: ALLOW\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: ALLOW",
+    "**P1:** pulse=IDLE; mark=WHITE; token=MISSING; hatch=LOOSE  \n- **Classification:** ALLOW  \n\n**P2:** pulse=IDLE; mark=WHITE; token=MISSING; hatch=LOOSE  \n- **Classification:** ALLOW  \n\n**P3:** pulse=LIVE; mark=WHITE; token=GIVEN; hatch=LOOSE  \n-"
+   ]
+  },
+  {
+   "set": 13,
+   "arm": "mixed",
+   "greedy": "P1: PULSE=IDLE, MARK=WHITE, TOKEN=MISSING, HATCH=SHUT\nP2: PULSE=IDLE, MARK=WHITE, TOKEN=MISSING, HATCH=SHUT\nP3: PULSE=LIVE, MARK=WHITE, TOKEN=GIVEN, HATCH=SHUT\nP4: PULSE=IDLE, MARK",
+   "samples": [
+    "P1: PATTERN NOT MATCHED\nP2: PATTERN NOT MATCHED\nP3: PATTERN NOT MATCHED\nP4: PATTERN NOT MATCHED\nP5: PATTERN NOT MATCHED\nP6: PATTERN NOT MATCHED",
+    "```python\nP1: ALLOW\nP2: ALLOW\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: ALLOW\n```",
+    "P1: allow\nP2: allow\nP3: allow\nP4: allow\nP5: allow\nP6: allow",
+    "P1: ALLOW\nP2: ALLOW\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: ALLOW"
+   ]
+  },
+  {
+   "set": 13,
+   "arm": "control",
+   "greedy": "**Case 01:**  \n- **Pulse:** IDLE  \n- **Mark:** VIOLET  \n- **Token:** GIVEN  \n- **Hatch:** SHUT  \n\n**Case 02:**  \n- **Pulse:** IDLE  \n- **Mark:** WHITE  \n- **Token:** GIVEN  \n- **Hatch:** LOOSE  \n\n**Case 03:**  \n-",
+   "samples": [
+    "**P1: pulse=IDLE; mark=VIOLET; token=GIVEN; hatch=SHUT**\n- **Role**: Handle the case with given token and missing pulse.\n\n**P2: pulse=IDLE; mark=WHITE; token=MISSING; hatch=SHUT**\n- **Role**: Skip this case as the token is missing.\n\n**P3: pulse=L",
+    "**EXAMPLE 01**: **P1**: **VIOLET**\n**EXAMPLE 02**: **WHITE**\n**EXAMPLE 03**: **WHITE**\n**EXAMPLE 04**: **WHITE**\n**EXAMPLE 05**: **WHITE**\n**EXAMPLE 06**: **WHITE**\n\nThis solution adheres to the provided rules while generating expected results for each example, ensuring all requirements and",
+    "**Answering the Research Task:**\n\n1. **Rule 1:**\n   - Token \"GIVEN\" and pulse \"LIVE\".\n     - Mark \"BLACK\", because the token was given and the pulse indicates it's still alive.\n   - **Result:** ALLOW\n\n2. **Rule 1:**\n   - Token \"MISSING\" and pulse \"LIVE\".\n     - Mark",
+    "**Case 1:** pulse=IDLE; mark=WHITE; token=GIVEN; hatch=LOOSE  \n**Answer:** LOOSE  \n\n**Case 2:** pulse=IDLE; mark=WHITE; token=MISSING; hatch=LOOSE  \n**Answer:** LOOSE  \n\n**Case 3:** pulse=LIVE; mark=VIOLET; token=GIVEN; hatch="
+   ]
+  },
+  {
+   "set": 13,
+   "arm": "none",
+   "greedy": "P1: LABEL ALLOW\nP2: LABEL ALLOW\nP3: LABEL ALLOW\nP4: LABEL ALLOW\nP5: LABEL ALLOW\nP6: LABEL ALLOW",
+   "samples": [
+    "P1: LABEL ALLOW\nP2: LABEL ALLOW\nP3: LABEL ALLOW\nP4: LABEL ALLOW\nP5: LABEL ALLOW\nP6: LABEL ALLOW",
+    "P1: LABEL ALLOW\nP2: LABEL ALLOW\nP3: LABEL ALLOW\nP4: LABEL ALLOW\nP5: LABEL ALLOW\nP6: LABEL ALLOW",
+    "P1: LABEL ALLOW\nP2: LABEL BLOCK\nP3: LABEL BLOCK\nP4: LABEL ALLOW\nP5: LABEL ALLOW\nP6: LABEL ALLOW",
+    "P1: LABEL ALLOW\nP2: LABEL ALLOW\nP3: LABEL ALLOW\nP4: LABEL INSPECT\nP5: LABEL INSPECT\nP6: LABEL ALLOW"
+   ]
+  },
+  {
+   "set": 14,
+   "arm": "exp",
+   "greedy": "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+   "samples": [
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+    "P1: CLEAR  \nP2: CLEAR  \nP3: CLEAR  \nP4: CLEAR  \nP5: CLEAR  \nP6: CLEAR",
+    "P1: P1: flag=GREEN; chime=QUIET; waiver=FALSE; valve=SHUT\nP2: P2: flag=GREY; chime=QUIET; waiver=TRUE; valve=SHUT\nP3: P3: flag=GREY; chime=QUIET; waiver=FALSE; valve=LOOSE\nP4:",
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR"
+   ]
+  },
+  {
+   "set": 14,
+   "arm": "mixed",
+   "greedy": "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+   "samples": [
+    "P1: CLEAR \nP2: CLEAR \nP3: CLEAR \nP4: CLEAR \nP5: CLEAR\nP6: CLEAR",
+    "P1: CLEAR\nP2: AUDIT\nP3: CLEAR\nP4: AUDIT\nP5: CLEAR\nP6: CLEAR",
+    "P1: CLEAR \nP2: AUDIT \nP3: CLEAR \nP4: CLEAR \nP5: FREEZE \nP6: CLEAR",
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR"
+   ]
+  },
+  {
+   "set": 14,
+   "arm": "control",
+   "greedy": "```python\n# Classification System Rules\r\nRULE_1 = {\"flag\": \"GREEN\", \"chime\": \"QUIET\", \"waiver\": \"TRUE\", \"valve\": \"SHUT\"}\r\nRULE_2 = {\"flag\": \"GREEN\", \"chime\": \"ACTIVE\", \"waiver\": \"TRUE\", \"valve\": \"LOOSE\"}\r\n\r\n# Example Cases\r\ncases",
+   "samples": [
+    "```python\n# Rules for rule-switching test\nrules = {\n    'freeze': {'flag': 'FREEZE', 'chime': 'QUIET', 'waiver': 'TRUE', 'valve': 'SHUT'},\n    'clear': {'flag': 'CLEAR', 'chime': 'ACTIVE', 'waiver': 'FALSE', 'valve': 'LOOSE",
+    "Here is the solution based on the given classification rules and test cases:\n\n**Case 01**: **flag=GREEN**, **chime=QUIET**, **waiver=FALSE**, **valve=SHUT**\n- **Status:** **FREEZE**\n\n**Case 02**: **flag=GREY**, **chime=QUIET**, **waiver=TRUE**, **val",
+    "**P1:** GREEN  \n**P2:** GREY  \n**P3:** QUIET  \n**P4:** LOSE  \n**P5:** LOOSE  \n**P6:** LOOSE",
+    "P1: GREEN\nP2: GREY\nP3: QUIET\nP4: LOOSE\nP5: LOOSE\nP6: QUIET"
+   ]
+  },
+  {
+   "set": 14,
+   "arm": "none",
+   "greedy": "P1: LABEL FREEZE\nP2: LABEL CLEAR\nP3: LABEL FREEZE\nP4: LABEL CLEAR\nP5: LABEL FREEZE\nP6: LABEL CLEAR",
+   "samples": [
+    "P1: LABEL FREEZE\nP2: LABEL CLEAR\nP3: LABEL FREEZE\nP4: LABEL CLEAR\nP5: LABEL FREEZE\nP6: LABEL CLEAR",
+    "P1: Label as FREEZE because it's green and flagged.\nP2: Label as CLEAR because there's no validation rule applied.\nP3: Label as CLEAR because there's no waiver or chime validation required.\nP4: Label as GREEN because the flag is green and all conditions met.\nP5: Label as CLEAR because there's no validation rule for chime.\nP6:",
+    "P1: LABEL FREEZE\nP2: LABEL CLEAR\nP3: LABEL CLEAR\nP4: LABEL CLEAR\nP5:LABEL CLEAR\nP6: LABEL FREEZE",
+    "P1: P1: P1: FREEZE\nP2: P2: P2: CLEAR\nP3: P3: P3: CLEAR\nP4: P4: P4: FREEZE\nP5: P5: P5: FREEZE\nP6: P6: P6: FREEZE"
+   ]
+  },
+  {
+   "set": 15,
+   "arm": "exp",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PANDUSSOSE\nP2: SEALIST\nP3: SEALIST\nP4: SEALIST\nP5: SEALIST"
+   ]
+  },
+  {
+   "set": 15,
+   "arm": "mixed",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED (HOLD)\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: ESCALATE",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: HALT\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED  \nP2: PROCEED  \nP3: PROCEED  \nP4: PROCEED  \nP5: PROCEED  \nP6: PROCEED",
+    "```python\n# Rules for classifying the test cases\nrules = {\n    \"HALT\": {\"flag\": False, \"results\": []},\n    \"PROCEED\": {\"flag\": True, \"results\": [\"PROCEED\"]},\n    \"ESCALATE\": {\"flag\": False, \"results\": []}\n}\n\n# Function to process each test case\ndef classify_test_case(test_case):"
+   ]
+  },
+  {
+   "set": 15,
+   "arm": "control",
+   "greedy": "**Case 01:** seal=OPEN; beacon=QUIET; pass=FALSE; badge=BROWN  \n**Case 02:** seal=OPEN; beacon=ACTIVE; pass=TRUE; badge=SILVER  \n**Case 03:** seal=OPEN; beacon=ACTIVE; pass=FALSE; badge=SILVER  \n**Case 04:** seal=CLOSED;",
+   "samples": [
+    "Sure, let's go through each test case step-by-step and follow the rules provided:\n\n### Example 01:\n- **Word**: WOLF\n- **Spare Word**: SNOW\n- **Requested Position**: 2\n- **Answer**: O\n\n**Explanation:** \n- Seal is OPEN (closed).\n- Beacon is QUIET (active).\n- Pass is FALSE (not",
+    "P1: seal=OPEN; beacon=QUIET; pass=FALSE; badge=BROWN\nP2: seal=OPEN; beacon=ACTIVE; pass=TRUE; badge=SILVER\nP3: seal=OPEN; beacon=ACTIVE; pass=FALSE; badge=SILVER\nP4: seal=CLOSED; beacon=QUIET; pass=FALSE; badge=SIL",
+    "P1: Seal OPEN, Beacon QUIET, Pass FALSE, Badge SILVER  \nP2: Seal OPEN, Beacon QUIET, Pass TRUE, Badge SILENT  \nP3: Seal OPEN, Beacon ACTIVE, Pass FALSE, Badge SILENCE  \nP4: Seal CLOSED, Beacon QUIET, Pass FALSE, Badge SILVER  \nP5: Seal CLOSSED,",
+    "P1: yellow\nP2: brown\nP3: black\nP4: yellow\nP5: black\nP6: black"
+   ]
+  },
+  {
+   "set": 15,
+   "arm": "none",
+   "greedy": "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL PROCEED\nP6: LABEL PROCEED",
+   "samples": [
+    "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL ESCALATE\nP6: LABEL PROCEED",
+    "P1: LABELED SUSPICIOUS\nP2: LABELED SUSPICIOUS\nP3: LABELED SUSPICIOUS\nP4: LABELED SUSPICIOUS\nP5: LABELED SUSPICIOUS\nP6: LABELED SUSPICIOUS",
+    "P1: LABEL - PROCEED\nP2: LABEL - ESCALATE\nP3: LABEL - ESCALATE\nP4: LABEL - ESCALATE\nP5: LABEL - ESCALATE\nP6: LABEL - ESCALATE",
+    "```python\n# Task: RULE-SWITCHING TEST\r\n\r\n# Classification System:\r\n# 0 = Halt\r\n# 1 = Proceed\r\n# 2 = Escalate\r\n\r\n# Rules:\r\n# 1. If seal is closed or beacons are active and pass is true, label as HALT.\r\n# 2. If seal is OPEN, beacon is quiet, pass is FALSE"
+   ]
+  },
+  {
+   "set": 16,
+   "arm": "exp",
+   "greedy": "P1: stripe=GREEN; echo=LOW; lid=OPEN; pass=YES\nP2: stripe=GREY; echo=LOW; lid=OPEN; pass=NO\nP3: stripe=GREEN; echo=HIGH; lid=OPEN; pass=YES\nP4: stripe=GREY; echo=LOW; lid=CLOSED; pass=YES\nP5: stripe",
+   "samples": [
+    "P1: stripe=GREEN; echo=LOW; lid=OPEN; pass=YES -> FREEZE\nP2: stripe=GREY; echo=LOW; lid=OPEN; pass=NO -> FREEZE\nP3: stripe=GREEN; echo=HIGH; lid=OPEN; pass=YES -> FREEZE\nP4: stripe=GREY; echo=LOW; lid=CLOSE",
+    "P1: stripe=GREEN; echo=LOW; lid=OPEN; pass=YES -> CLEAR\nP2: stripe=GREY; echo=LOW; lid=OPEN; pass=NO\nP3: stripe=GREEN; echo=HIGH; lid=OPEN; pass=YES\nP4: stripe=GREY; echo=LOW; lid=CLOSED; pass=YES\nP5",
+    "P1: stripe=GREEN; echo=LOW; lid=OPEN; pass=YES -> CLEAR\nP2: stripe=GREY; echo=LOW; lid=OPEN; pass=NO -> CLEAR\nP3: stripe=GREEN; echo=HIGH; lid=OPEN; pass=YES -> CLEAR\nP4: stripe=GREY; echo=LOW; lid=CLOSED; pass",
+    "P1:stripe=GREEN;echo=LOW;lid=OPEN;pass=YES \nP2:stripe=WHITE;echo=LOW;lid=OPEN;pass=NO\nP3:stripe=GREEN;echo=HIGH;lid=OPEN;pass=YES\nP4:stripe=UNKNOWN;echo=LOW;lid=CLOSED;pass=YES\nP5:stripe=GREEN"
+   ]
+  },
+  {
+   "set": 16,
+   "arm": "mixed",
+   "greedy": "P1: stripe=GREEN; echo=LOW; lid=OPEN; pass=YES\nP2: stripe=GREY; echo=LOW; lid=OPEN; pass=NO\nP3: stripe=GREEN; echo=HIGH; lid=OPEN; pass=YES\nP4: stripe=GREY; echo=LOW; lid=CLOSED; pass=YES\nP5: stripe",
+   "samples": [
+    "P1:stripe=GREEN;echo=LOW;lid=OPEN;pass=YES  \nP2:stripe=GREY;echo=LOW;lid=OPEN;pass=NO  \nP3:stripe=GREEN;echo=HIGH;lid=OPEN;pass=YES  \nP4:stripe=GREY;echo=LOW;lid=CLOSED;pass=YES  \nP5:stripe",
+    "P1: STRIPE=GREEN; echo=LOW; lid=OPEN; PASS=YES\nP2: STRIPE=GREY; echo=LOW; lid=OPEN; PASS=NO\nP3: STRIPE=GREEN; echo=HIGH; lid=OPEN; PASS=YES\nP4: STRIPE=GREY; echo=LOW; lid=CLOSED",
+    "P1: stripe=RED; echo=LOW; lid=OPEN; pass=NO -> AUDIT\nP2: stripe=BLUE; echo=LOW; lid=OPEN; pass=NO -> AUDIT\nP3: stripe=GREEN; echo=HIGH; lid=OPEN; pass=NO -> AUDIT\nP4: stripe=RED; echo=LOW; lid=OPEN",
+    "P1: LABEL CLEAR\nP2: LABEL CLEAR\nP3: LABEL CLEAR\nP4: LABEL CLEAR\nP5: LABEL CLEAR\nP6: LABEL CLEAR"
+   ]
+  },
+  {
+   "set": 16,
+   "arm": "control",
+   "greedy": "**Case 1:** stripe=GREEN; echo=LOW; lid=OPEN; pass=YES  \n- **Rule 1 applies**: Lid is OPEN and Echo is LOW, so this case should be labeled as CLEAR.\n\n**Case 2:** stripe=GREEN; echo=LOW; lid=CLOSED; pass=YES  \n- **Rule 1 applies**: Lid is CLOSED and Echo is LOW,",
+   "samples": [
+    "**CASE P1:**\nstripe=GREEN; echo=LOW; lid=OPEN; pass=YES\nrule-1 applies because lid is OPEN, so pass must be YES.\n\n**CASE P2:**\nstripe=GREY; echo=LOW; lid=OPEN; pass=NO\nrule-1 applies but stripe is GREY which doesn't match rule-2.\n\n**CASE P3",
+    "FREEZE",
+    "Here's the rewritten content with three blank lines for clarity:\n\n---\n\n**P1:** stripe=GREEN; echo=LOW; lid=OPEN; pass=YES  \n**P2:** stripe=GREY; echo=LOW; lid=OPEN; pass=NO  \n**P3:** stripe=GREEN; echo=HIGH; lid=OPEN; pass=YES  \n\n---",
+    "According to Rule 3 (AUDIT), all remaining cases should be AUDITED. Since there are only two incorrect cases left (P2 and P5), we choose to AUDIT them both as they are distinct from each other based on the second part of their words."
+   ]
+  },
+  {
+   "set": 16,
+   "arm": "none",
+   "greedy": "P1: LABEL FREEZE\nP2: LABEL CLEAR\nP3: LABEL GREEN\nP4: LABEL FREEZE\nP5: LABEL GREEN\nP6: LABEL FREEZE",
+   "samples": [
+    "P1: LABEL CLEAR  \nP2: LABEL FREEZE  \nP3: LABEL CLEAR  \nP4: LABEL CLEAR  \nP5: LABEL CLEAR  \nP6: LABEL CLEAR",
+    "P1: LABEL - CLEAR\nP2: LABEL - LABELD\nP3: LABEL - CLEAR\nP4: LABEL - LABELD\nP5: LABEL - CLEAR\nP6: LABEL - LABELD",
+    "P1: LABEL - CLEAR\nP2: LABEL - CLEAR\nP3: LABEL - GREEN\nP4: LABEL - GREEN\nP5: LABEL - GREEN\nP6: LABEL - GREEN",
+    "```python\n# Priority handling for each case\r\ncase_priority = {\r\n    \"stripe\": {\"GREEN\", \"GREEN\"}, \r\n    \"echo\": {\"LOW\", \"LOW\"}, \r\n    \"lid\": {\"OPEN\", \"CLOSED\"}, \r\n    \"pass\": {\"YES\", \"NO\"}}\r\n\r\ndef classify_case(stripe, echo, lid, pass):\r\n    # Case 1: Stripe Green ("
+   ]
+  },
+  {
+   "set": 17,
+   "arm": "exp",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "```python\n# Assuming the logic for rule switching as per the problem description\n# For simplicity, assume that 'rule_switching' function correctly handles Pulse, Mark, Valve, Token states based on the provided examples\n\ndef rule_switching(pulse, mark, valve, token):\n    switcher = {\n        (0, 0, True, False) : \"PROCEED\",\n        (",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: LABEL\nP2: LABEL\nP3: PROCEED\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "Here are the classifications for the test cases:\n\n**Case 1: pulse=OFF; mark=GREEN; valve=OPEN; token=FALSE**\n- **Classification:** PROCEED\n\n**Case 2: pulse=ON; mark=GREEN; valve=OPEN; token=FALSE**\n- **Classification:** PROCEED\n\n**Case 3: pulse=OFF; mark=GREEN; valve"
+   ]
+  },
+  {
+   "set": 17,
+   "arm": "mixed",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 17,
+   "arm": "control",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "**PROCEED**\n\nThe third letter in Example 5 is 'E', which matches the rule (\"token\" -> \"TRUE\"). Since there's no yellow color code ('green' or 'grey'), the next step will be to proceed with the case.",
+    "Please provide the test cases for RESEARCH TASK rule switching as instructed.",
+    "Here is the solution for the research tasks:\n\n**Solution**\n\n**Task 1:** Label Case HALT\n- **Reasoning:** Valve must be OPEN and pulse must be OFF.\n- **Answer:** HALT\n\n**Task 2:** Label Case PROCEED\n- **Reasoning:** Mark must be GREEN and valve must be OPEN.\n- **Answer:** PROCEED\n\n**Task 3",
+    "```python\n# Rules and conditions for each example\nRULES = [\n    {\"word\": \"BASKET\", \"spare_word\": \"POCKET\", \"requested_position\": 1, \"answer\": \"N\"},\n    {\"word\": \"BOOK\", \"spare_word\": \"PAINT\", \"requested_position\": 2, \"answer\": \"U\"},\n    {\"word\": \""
+   ]
+  },
+  {
+   "set": 17,
+   "arm": "none",
+   "greedy": "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL PROCEED\nP6: LABEL PROCEED",
+   "samples": [
+    "```python\n# Rules for switching between \"HALT\", \"PROCEED\", and \"ESCALATE\" based on inputs:\n# Rule 1: Pulse OFF | MARK GREEN | Valve OPEN | Token FALSE = HALT\n# Rule 2: Pulse ON | MARK GREEN | Valve OPEN | Token FALSE = PROCEED\n# Rule 3: All other cases = ESCALATE\n\n#",
+    "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL PROCEED\nP6: LABEL PROCEED",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "**P1: pulse=OFF; mark=GREY; valve=OPEN; token=FALSE**\n- **Label:** PROCEED\n\n**P2: pulse=ON; mark=GREEN; valve=OPEN; token=FALSE**\n- **Label:** PROCEED\n\n**P3: pulse=OFF; mark=GREEN; valve=OPEN; token=TRUE**\n- **Label:** PRO"
+   ]
+  },
+  {
+   "set": 18,
+   "arm": "exp",
+   "greedy": "P1: lid=LOCKED; mark=AMBER; pulse=LOW; ticket=GIVEN\nP2: lid=LOCKED; mark=BLUE; pulse=LOW; ticket=MISSING\nP3: lid=UNLOCKED; mark=BLUE; pulse=HIGH; ticket=MISSING\nP4: lid=UNLOCKED; mark=BLUE; pulse=HIGH",
+   "samples": [
+    "P1: lid=UNLOCKED; mark=BLUE; pulse=LOW; ticket=GIVEN\nP2: lid=UNLOCKED; mark=BLUE; pulse=LOW; ticket=MISSING\nP3: lid=UNLOCKED; mark=BLUE; pulse=LOW; ticket=GIVEN\nP4: lid=UNLOCKED; mark=BLUE; pulse=HIGH",
+    "**P1: lid=UNLOCKED; mark=BLUE; pulse=LOW; ticket=GIVEN -> PASS**\n**P2: lid=LOCKED; mark=AMBER; pulse=LOW; ticket=MISSING -> PASS**\n**P3: lid=UNLOCKED; mark=BLUE; pulse=HIGH; ticket=MISSING -> PASS**\n**P4: lid=",
+    "P1: RED\nP2: BLACK\nP3: RED\nP4: RED\nP5: RED\nP6: BLACK",
+    "```python\n# SOLUTION START\n\n# Case 01: lid=UNLOCKED; mark=BLUE; pulse=LOW; ticket=GIVEN\nLABEL(\"CASE 01\")\n\n# Case 02: lid=UNLOCKED; mark=BLUE; pulse=HIGH; ticket=MISSING\nLABEL(\"CASE 02\")\n\n# Case 03: lid=UNLOCK"
+   ]
+  },
+  {
+   "set": 18,
+   "arm": "mixed",
+   "greedy": "P1: lid=LOCKED; mark=AMBER; pulse=LOW; ticket=GIVEN -> REVIEW\nP2: lid=LOCKED; mark=BLUE; pulse=LOW; ticket=MISSING -> HOLD\nP3: lid=UNLOCKED; mark=BLUE; pulse=HIGH; ticket=MISSING -> PASS\nP4: lid=UNLOCKED; mark",
+   "samples": [
+    "P1: LID UNLOCKED; MARK AMBER; Pulse LOW; Ticket GIVEN\nP2: LID LOCKED; MARK BLUE; Pulse LOW; Ticket MISSING\nP3: LID UNLOCKED; MARK BLUE; Pulse HIGH; Ticket GIVEN\nP4: LID UNLOCKED; MARK BLUE; Pulse HIGH; Ticket GIVEN\nP5: LID LOCK",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "**P1: lid=LOCKED; mark=AMBER; pulse=LOW; ticket=MISSING -> REVIEW**\n**P2: lid=LOCKED; mark=BLUE; pulse=LOW; ticket=MISSING -> REVIEW**\n**P3: lid=UNLOCKED; mark=BLUE; pulse=HIGH; ticket=MISSING -> PASS**\n**P4: lid=",
+    "P1: lid=LOCKED; mark=AMBER; pulse=LOW; ticket=GIVEN\nP2: lid=LOCKED; mark=BLUE; pulse=LOW; ticket=MISSING\nP3: lid=UNLOCKED; mark=BLUE; pulse=HIGH; ticket=MISSING\nP4: lid=UNLOCKED; mark=BLUE; pulse=HIGH"
+   ]
+  },
+  {
+   "set": 18,
+   "arm": "control",
+   "greedy": "**Case 1:** lid=LOCKED; mark=AMBER; pulse=LOW; ticket=MISSING  \n**Case 2:** lid=LOCKED; mark=BLUE; pulse=LOW; ticket=MISSING  \n**Case 3:** lid=UNLOCKED; mark=BLUE; pulse=LOW; ticket=MISSING  \n**Case 4:** lid=UNLOCK",
+   "samples": [
+    "PASS",
+    "### Case P1:\n**Result:** **PASS**\n\n**Explanation:** \n- Lid is Locked  \n- Ticket given     \n- Pulse LOW  \n\n---\n\n### Case P2:\n**Result:** **FAIL**\n\n**Explanation:** \n- Lid UNLOCKED \n- Mark AMBER  \n- Pulse LOW   \n\n---\n\n### Case P3:\n**Result:** **FAIL**\n\n**Explanation:** \n- Lid UNLOCKED",
+    "P1: H\nP2: L\nP3: U\nP4: U\nP5: U\nP6: I",
+    "P1: LID UNLOCKED, MARK AMBER, Pulse LOW, Ticket GIVEN\nP2: LID UNLOCKED, MARK BLUE, Pulse LOW, Ticket MISSING\nP3: LID UNLOCKED, MARK BLUE, Pulse LOW, Ticket MISSING\nP4: LID UNLOCKED, MARK BLUE, Pulse HIGH, Ticket GIVEN\nP5: LID"
+   ]
+  },
+  {
+   "set": 18,
+   "arm": "none",
+   "greedy": "P1: LABEL HOLD\nP2: LABEL BLUE\nP3: LABEL BLUE\nP4: LABEL BLUE\nP5: LABEL BLUE\nP6: LABEL HOLD",
+   "samples": [
+    "P1: LABEL - HOLD\nP2: LABEL - BLUE\nP3: LABEL - BLUE\nP4: LABEL - BLUE\nP5: LABEL - BLUE\nP6: LABEL - HOLD",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "P1: LABEL\nLABEL\nP2: LABEL\nLABEL\nP3: LABEL\nLABEL\nP4: LABEL\nLABEL\nP5: LABEL\nLABEL\nP6: LABEL",
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL RED\nP4: LABEL RED\nP5: LABEL GREEN\nP6: LABEL YELLOW"
+   ]
+  },
+  {
+   "set": 19,
+   "arm": "exp",
+   "greedy": "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP",
+   "samples": [
+    "```python\n# RULE 1 applied:\n# STOP if signal=ACTIVE and ticket=NO and seal=LOOSE or if tag=GREEN \n# Otherwise, go with label STOP\n\n# Rule 2 applies (no changes required)\n\n# Rule 3 applies:\n# Go if all other conditions are satisfied\n\n# Check for TEST_cases:\nP1: signal=QUIET; ticket=NO",
+    "**P1: Signal = QUIET, Ticket = NO, Seal = LOOSE, Tag = GREY**\n\n**P2: Signal = QUIET, Ticket = YES, Seal = SHUT, Tag = GREY**\n\n**P3: Signal = ACTIVE, Ticket = YES, Seal = LOOSE, Tag = GREEN**\n\n**P4: Signal = ACTIVE, Ticket = NO, Seal",
+    "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP",
+    "**Solution for the first test case: signal=QUIET; ticket=NO; seal=LOOSE; tag=GREY**\n\n**Solution for the next two tests: signal=QUIET; ticket=NO; seal=SHUT; tag=GREY**\n\n**Solution for the third test case: signal=QUIET; ticket=NO; seal=LOOSE; tag=GREEN**"
+   ]
+  },
+  {
+   "set": 19,
+   "arm": "mixed",
+   "greedy": "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP",
+   "samples": [
+    "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP",
+    "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: GO",
+    "```python\n# Define the rule functions based on the given priorities\ndef rule_1(signal, ticket, seal, tag):\n    return \"STOP\" if sig == \"ACTIVE\" and se == \"NO\" else None\n\ndef rule_2(sig, se, seal, tag):\n    if sig == \"ACTIVE\" and se == \"NO\":\n        return \"GO\"\n    elif sig ==",
+    "P1: GO\nP2: STOP\nP3: CHECK\nP4: GO\nP5: STOP\nP6: CHECK"
+   ]
+  },
+  {
+   "set": 19,
+   "arm": "control",
+   "greedy": "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP",
+   "samples": [
+    "**P1: signal=QUIET; ticket=NO; seal=LOOSE; tag=GREY**\n\n**P2: signal=QUIET; ticket=YES; seal=SHUT; tag=GREY**\n\n**P3: signal=ACTIVE; ticket=YES; seal=LOOSE; tag=GREEN**\n\n**P4: signal=ACTIVE; ticket=NO; seal=LO",
+    "```python\nP1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: CHECK\n```",
+    "In this research task, we need to analyze each example based on the given classification rules and determine whether it should be labeled as \"STOP\" (sealed) or \"GO\" (green).\n\nLet's start with the first set of examples:\n\n**Example 01:** word = LAMP; spare_word = OVAL; requested_position = 2; answer = A\n- **Category**: Go",
+    "P1: GO\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP"
+   ]
+  },
+  {
+   "set": 19,
+   "arm": "none",
+   "greedy": "P1: LABEL STOP\nP2: LABEL STOP\nP3: LABEL STOP\nP4: LABEL STOP\nP5: LABEL STOP\nP6: LABEL STOP",
+   "samples": [
+    "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: STOP\nP6: STOP",
+    "P1: STOP\nP2: STOP\nP3: STOP\nP4: STOP\nP5: GO\nP6: GO",
+    "```python\n# Define the criteria for rule switching:\nRULE_SWITCHING = {\n    \"STOP\": {\"label\": \"STOP\"},\n    \"GO\": {\"label\": \"GO\"},\n    \"CHECK\": {}\n}\n\n# Apply rules sequentially and update the output based on the current state:\ndef classify_cases(test_cases):\n    result = []\n    current_case = None\n    rules = RULE_SWITCHING.get(\"",
+    "P1: LABEL STOP\nP2: LABEL STOP\nP3: LABEL STOP\nP4: LABEL STOP\nP5: LABEL STOP\nP6: LABEL STOP"
+   ]
+  },
+  {
+   "set": 20,
+   "arm": "exp",
+   "greedy": "P1: RELEASE\nP2: RELEASE\nP3: RELEASE\nP4: RELEASE\nP5: RELEASE\nP6: RELEASE",
+   "samples": [
+    "P1: RELEASE \nP2: RELEASE\nP3: RELEASE\nP4: RELEASE\nP5: RELEASE\nP6: RELEASE",
+    "P1: RELEASE\nP2: RELEASE\nP3: RELEASE\nP4: RELEASE\nP5: RELEASE\nP6: RELEASE",
+    "P1: RELEASE\nP2: RELEASE\nP3: RELEASE\nP4: RELEASE\nP5: RELEASE\nP6: RELEASE",
+    "P1: RELEASE\nP2: RELEASE\nP3: RELEASE\nP4: RELEASE\nP5: RELEASE\nP6: RELEASE"
+   ]
+  },
+  {
+   "set": 20,
+   "arm": "mixed",
+   "greedy": "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+   "samples": [
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: QUERY",
+    "Certainly! Here are the results for the tested cases:\n\n**P1:** stripe=WHITE; pass=ABSENT; seal=SEALED; echo=IDLE\n- Classification: KEEP",
+    "P1: STRIKE THROUGH (RECALL)\nP2: STRIKE THROUGH (RECALL)\nP3: STRIKE THROUGH (RECALL)\nP4: STRIKE THROUGH (RECALL)\nP5: STRIKE THROUGH (RECALL)",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP"
+   ]
+  },
+  {
+   "set": 20,
+   "arm": "control",
+   "greedy": "**Case 01:** stripe=WHITE; pass=ABSENT; seal=SEALED; echo=IDLE\n- **Label:** KEEP\n\n**Case 02:** stripe=WHITE; pass=ABSENT; seal=FREE; echo=IDLE\n- **Label:** KEEP\n\n**Case 03:** stripe=VIOLET; pass=ABSENT; seal=",
+   "samples": [
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "**P1:** **white**\n**P2:** **sealed**\n**P3:** **violet**\n**P4:** **present**\n**P5:** **white**\n**P6:** **free**",
+    "Please provide the test cases for rule switching and stripe analysis."
+   ]
+  },
+  {
+   "set": 20,
+   "arm": "none",
+   "greedy": "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL QUERY",
+   "samples": [
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL\n\nThese six cases have been classified according to the provided rules.",
+    "**P1**: LABEL KEEP\n**P2**: LABEL KEEP\n**P3**: LABEL KEEP\n**P4**: LABEL KEEP\n**P5**: LABEL KEEP\n**P6**: LABEL KEEP",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "```python\nP1: LABEL - \nP2: LABEL - \nP3: LABEL - \nP4: LABEL - \nP5: LABEL - \nP6: LABEL -\n```"
+   ]
+  },
+  {
+   "set": 21,
+   "arm": "exp",
+   "greedy": "P1: GO\nP2: GO\nP3: GO\nP4: GO\nP5: GO\nP6: GO",
+   "samples": [
+    "P1: GO\nP2: GO\nP3: GO\nP4: GO\nP5: GO\nP6: GO",
+    "P1: GO\nP2: GO\nP3: GO\nP4: GO\nP5: GO\nP6: GO",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "P1: GO\nP2: GO\nP3: GO\nP4: GO\nP5: GO\nP6: GO"
+   ]
+  },
+  {
+   "set": 21,
+   "arm": "mixed",
+   "greedy": "P1: GO\nP2: GO\nP3: STOP\nP4: GO\nP5: GO\nP6: STOP",
+   "samples": [
+    "P1: GO\nP2: CHECK\nP3: STOP\nP4: GO\nP5: STOP\nP6: GO",
+    "**P1: token=PRESENT; lid=LOCKED; badge=VIOLET; chime=LOW**\n**P2: token=PRESENT; lid=UNLOCKED; badge=WHITE; chime=LOW**\n**P3: token=ABSENT; lid=UNLOCKED; badge=WHITE; chime=HIGH**\n**P4: token=ABSENT;",
+    "```python\n# Example of how to implement the rule-switching test using Python\ndef check_case(case_details):\n    # Define the rules\n    RULES = {\n        \"STOP\": lambda case: case[\"token\"] == \"PRESENT\" and case[\"lid\"] != \"LOCKED\" and case[\"badge\"] == \"WHITE\" and case[\"chime\"] == \"HIGH\",\n        \"",
+    "F07: token=ABSENT; lid=LOCKED; badge=VIOLET; chime=LOW -> CHECK\nF08: token=ABSENT; lid=UNLOCKED; badge=VIOLET; chime=LOW -> GO\nF09: token=ABSENT; lid=UNLOCKED; badge=WHITE; chime=LOW -> GO"
+   ]
+  },
+  {
+   "set": 21,
+   "arm": "control",
+   "greedy": "P1: STOP\nP2: GO\nP3: GO\nP4: GO\nP5: GO\nP6: GO",
+   "samples": [
+    "STOP GO STOP STOP STOP STOP",
+    "Here's the solution based on the given classification and test cases:\n\n**Case 1:** token=PRESENT; lid=LOCKED; badge=WHITE; chime=LOW  \nResponse: GO\n\n**Case 2:** token=PRESENT; lid=UNLOCKED; badge=BLACK; chime=LOW  \nResponse: STOP\n\n**Case 3:** token=ABSENT; lid=",
+    "P1: GO\nP2: STOP \nP3: STOP \nP4: STOP \nP5: STOP \nP6: STOP",
+    "Sure, I can help with that. Please provide me with the first letter of each word so I can analyze them and determine which rule applies based on their positions. Once you provide that information, I'll proceed accordingly."
+   ]
+  },
+  {
+   "set": 21,
+   "arm": "none",
+   "greedy": "P1: LABEL STOP\nP2: LABEL GO\nP3: LABEL STOP\nP4: LABEL GO\nP5: LABEL STOP\nP6: LABEL GO",
+   "samples": [
+    "P1: GO\nP2: STOP\nP3: GO\nP4: STOP\nP5: GO\nP6: STOP",
+    "**Case P1:**\n- Token: PRESENT\n- Lid: LOCKED\n- Badge: VIOLET\n- Chime: LOW\n- **Label:** STOP\n\n**Case P2:**\n- Token: PRESENT\n- Lid: UNLOCKED\n- Badge: WHITE\n- Chime: LOW\n- **Label:** GO\n\n**Case P3:**\n-",
+    "P1: LABEL GO\nP2: LABEL STOP\nP3: LABEL HIGH\nP4: LABEL STOP\nP5: LABEL LOW\nP6: LABEL GO",
+    "P1: LABEL GO\nP2: LABEL GO\nP3: LABEL GO\nP4: LABEL GO\nP5: LABEL GO\nP6: LABEL STOP"
+   ]
+  },
+  {
+   "set": 22,
+   "arm": "exp",
+   "greedy": "P1: RELEASE\nP2: RELEASE\nP3: RELEASE\nP4: RELEASE\nP5: RELEASE\nP6: RELEASE",
+   "samples": [
+    "**Question for Classification:** How do I solve this?",
+    "P1: RELEASE  \nP2: RELEASE  \nP3: RELEASE  \nP4: RELEASE  \nP5: RELEASE  \nP6: RELEASE",
+    "P1: COLOR (FAIL) - Incorrectly labeled as \"KEEP\" due to LOCKED status on the gate.\nP2: COLOR (FAIL) - Incorrect label as it shows active but locked state.\nP3: COLOR (FAIL) - Incorrectly labeled as \"KEEP\" because the star is already taken.\nP4: COLOR (FAIL) - Incorrectly labeled as \"KEEP\" since",
+    "P1: RELEASE\nP2: RELEASE\nP3: RELEASE\nP4: RELEASE\nP5: RELEASE\nP6: RELEASE"
+   ]
+  },
+  {
+   "set": 22,
+   "arm": "mixed",
+   "greedy": "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: QUERY\nP5: KEEP\nP6: QUERY",
+   "samples": [
+    "P1: label KEEP\nP2: label KEEP\nP3: label QUERY\nP4: label QUERY\nP5: label QUERY\nP6: label QUERY",
+    "P1: KEEP  \nP2: QUERY  \nP3: KEEP  \nP4: QUERY  \nP5: KEEP  \nP6: QUERY",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: RELEASE",
+    "For TEST CASE #01:\nMARK = GREEN, SIGNAL = QUIET, TICKET = YES, GATE = UNLOCKED\nLABEL: RELEASE\n\nFor TEST CASE #02:\nMARK = GREEN, SIGNAL = QUIET, TICKET = NO, GATE = UNLOCKED\nLABEL: RELEASE\n\nFor TEST CASE #03:\nMARK = GREEN, SIGNAL = QUIET,"
+   ]
+  },
+  {
+   "set": 22,
+   "arm": "control",
+   "greedy": "**Case 01:** **KEEP**\n- Mark: GREEN\n- Signal: QUIET\n- Ticket: YES\n- Gate: UNLOCKED\n- Result: KEEP\n\n**Case 02:** **KEEP**\n- Mark: GREEN\n- Signal: QUIET\n- Ticket: NO\n- Gate: LOCKED\n- Result: KEEP\n\n**Case 03:** **",
+   "samples": [
+    "**P1:** **KEEP**\n\n**P2:** **KEEP**\n\n**P3:** **KEEP**\n\n**P4:** **KEEP**\n\n**P5:** **KEEP**\n\n**P6:** **KEEP**",
+    "Certainly! Here are the results for the test cases:\n\n**Example 01:**\n- **P1:** green (green) \n- **P2:** green (green)\n- **P3:** green (green)\n- **P4:** greyscale (grey)\n\n**Example 02:**\n- **P1:** green (green)\n- **P2:** green (green",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: RELEASE\nP5: RELEASE\nP6: RELEASE",
+    "P1: KEEP  \nP2: RELEASE  \nP3: KEEP  \nP4: KEEP  \nP5: RELEASE"
+   ]
+  },
+  {
+   "set": 22,
+   "arm": "none",
+   "greedy": "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL KEEP",
+   "samples": [
+    "P1: LABEL GREEN\nP2: LABEL GREEN\nP3: Label Release\nP4: LABEL GREEN\nP5: Label Release\nP6: Label Green",
+    "P1: LABEL RELEASE\nP2: LABEL RELEASE\nP3: LABEL RELEASE\nP4: LABEL RELEASE\nP5: LABEL RELEASE\nP6: LABEL RELEASE",
+    "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL QUERY\nP4: LABEL QUERY\nP5: LABEL QUERY\nP6: LABEL QUERY",
+    "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL KEEP"
+   ]
+  },
+  {
+   "set": 23,
+   "arm": "exp",
+   "greedy": "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+   "samples": [
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "P1: BRAKE\nP2: BRAKE\nP3: BRAKE\nP4: BRAKE\nP5: BRAKE\nP6: BRAKE",
+    "P1: BLEED-OUT\nP2: BLEED-OUT\nP3: BLEED-OUT\nP4: BLEED-OUT\nP5: BLEED-OUT\nP6: BLEED-OUT",
+    "Sure, let's go through each test case one by one, applying the given rules:\n\n### Example 01: beacon=ACTIVE; band=BLUE; pass=FALSE; hatch=FREE -> PASS\n- **Rule 1:** Not applicable as the hatch is free.\n- **Rule 2:** TRUE -> PASS.\n  \n**Final Classification:** PASS\n\n### Example 02: beacon"
+   ]
+  },
+  {
+   "set": 23,
+   "arm": "mixed",
+   "greedy": "P1: REVIEW\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: PASS",
+   "samples": [
+    "P1: REVIEW\nP2: REVIEW\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: REVIEW \nP2: PASS \nP3: REVIEW \nP4: PASS \nP5: PASS \nP6: REVIEW",
+    "P1: REVIEW\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: PASS",
+    "P1: REVIEW\nP2: PASS\nP3: FALSE\nP4: PASS\nP5: TRUE\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 23,
+   "arm": "control",
+   "greedy": "**Case 01:** **PASS**\n- **Reasoning:** The case is already labeled as PASS because its band is BLUE and its pass is TRUE, which matches the rule for PASS.\n\n**Case 02:** **PASS**\n- **Reasoning:** The case is already labeled as PASS because its band is BLUE and its pass is TRUE, which matches the rule for PASS.\n\n**Case",
+   "samples": [
+    "### Case 1:\n**Pass:** TRUE  \n**Beacon:** Active  \n**Hatch:** Free  \n\n### Case 2:\n**Pass:** FALSE  \n**Beacon:** Quiet  \n**Hatch:** SEALED  \n\n### Case 3:\n**Pass:** TRUE  \n**Beacon:** Active  \n**Hatch:** Free  \n\n### Case 4:\n**Pass:** FALSE  \n**Beacon",
+    "P1: FALSE\nP2: TRUE\nP3: FALSE\nP4: TRUE\nP5: FALSE\nP6: TRUE",
+    "LET'S ANALYZE EACH EXAMPLE BASED ON THE CLASSIFICATION SYSTEM:\nRULE 1 (hatch > SEALED) IS NOT APPLICABLE UNLESS BEACON = TRUE AND BAND = BLUE.\nRULE 3 (NOT ALL EXCEPT REVIEW) WILL APPLY TO ANYTHING OTHER THAN RATING THAT BECOMES RED.\nTherefore, we need to focus on the two most critical aspects",
+    "P1: PASS\nP2: FAIL\nP3: PASS\nP4: PASS\nP5: PASS\nP6: FAIL"
+   ]
+  },
+  {
+   "set": 23,
+   "arm": "none",
+   "greedy": "P1: LABEL PASS\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+   "samples": [
+    "I can assist with that task! Please provide me with the TEST cases so I can classify them according to the given rules.",
+    "P1: LABEL HATCH FREE\nP2: LABELE D OF TRUE\nP3: LABELE D OF FALSE\nP4: LABELE D OF TRUE\nP5: LABELE D OF FALSE\nP6: LABELE D OF FALSE",
+    "P1: LABEL PASS\nP2: LABEL FAIL\nP3: LABEL FAIL\nP4: LABEL FAIL\nP5: LABEL PASS\nP6: LABEL FAIL",
+    "P1: LABEL PASS\nP2: LABEL REVIEW\nP3: LABEL PASS\nP4: LABEL REVIEW\nP5: LABEL PASS\nP6: LABEL REVIEW"
+   ]
+  },
+  {
+   "set": 24,
+   "arm": "exp",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED  \nP2: PROCEED  \nP3: PROCEED  \nP4: PROCEED  \nP5: PROCEED  \nP6: STOP",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 24,
+   "arm": "mixed",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED \nP2: PROCEED \nP3: PROCEED \nP4: PROCEED \nP5: PROCEED \nP6: PROCEED",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: ESCALATE\nP5: PROCEED\nP6: ESCALATE",
+    "P1: gate=OPEN; chime=OFF; token=FALSE; badge=GREY\nP2: gate=OPEN; chime=ON; token=TRUE; badge=GREEN\nP3: gate=OPEN; chime=OFF; token=TRUE; badge=GREEN\nP4: gate=CLOSED; chime=OFF; token=TRUE; badge=",
+    "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 24,
+   "arm": "control",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: PROCEED\nP4: PROCEED\nP5: PROCEED",
+   "samples": [
+    "In this research task, we need to determine which scenario requires rule switching for each case based on the given criteria and prioritize them accordingly. Let's process each case step-by-step:\n\n### Case 01:\n**Description:** word=QUIZ; spare word=LAMP; requested position=2; answer=U\n- **State**: Gate is OPEN (no lock).\n- **Action**: Ch",
+    "Please refer to instruction as instructed to avoid duplicate answers.",
+    "```python\n# Given P1 - P6 are conditionally labeled based on specific gates and tokens\nlabel_colors = {\n    'open': {'green', 'gray'},\n    'closed': {'red', 'blue'},\n    'false_true': {'grey', 'black'}\n}\n\ndef process_example(example):\n    # Process example as per the given rule(s)\n    for key, color in label",
+    "PROCEED"
+   ]
+  },
+  {
+   "set": 24,
+   "arm": "none",
+   "greedy": "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL PROCEED\nP6: LABEL PROCEED",
+   "samples": [
+    "```python\nP1: LABELED\nP2: LABELED\nP3: LABELED\nP4: LABELED\nP5: LABELED\nP6: LABELED\n```",
+    "Sure, I can do that! Here they are:\n\n### Test Case P1:\n**gate**: OPEN  \n**chime**: OFF  \n**token**: FALSE  \n**badge**: GREY**\n\n### Test Case P2:\n**gate**: OPEN  \n**chime**: ON  \n**token**: TRUE  \n**badge**: GREEN**\n\n### Test Case P3:\n**gate**: OPEN  \n**chime",
+    "P1: LABEL PROCEED THROUGH L1: LABEL PROCEED THROUGH L2: LABEL PROCEED",
+    "P1: LABEL PROCEED\nP2: LABEL PROCEED\nP3: LABEL PROCEED\nP4: LABEL PROCEED\nP5: LABEL PROCEED\nP6: LABEL PROCEED"
+   ]
+  },
+  {
+   "set": 25,
+   "arm": "exp",
+   "greedy": "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+   "samples": [
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "```python\n# Since there are only 20 solved examples, we can directly categorize them using Python's built-in functions.\nsolved_examples = [\n    \"KEEP\",\n    \"KEEP\",\n    \"KEEP\",\n    \"RELEASE\",\n    \"RELEASE\",\n    \"RELEASE\",\n    \"CLOSED\",\n    \"CLOSED\",\n    \"CLOSED\",\n    \"CLOSED\",\n    \"CLOSED"
+   ]
+  },
+  {
+   "set": 25,
+   "arm": "mixed",
+   "greedy": "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+   "samples": [
+    "P1: KEEP  \nP2: KEEP  \nP3: KEEP  \nP4: KEEP  \nP5: KEEP  \nP6: KEEP",
+    "P1: KEEP\nP2: QUERY\nP3: KEEP\nP4: KEEP\nP5: QUERY\nP6: KEEP",
+    "```python\n# Given data for testing purposes only\r\ndef rule_tester(seal, mark, ticket, relay):\r\n    # Check rule 1: seal=LOOSE; mark=VIOLET; ticket=PRESENT; relay=IDLE -> QUERY\r\n    if seal == \"LOOSE\" and mark == \"VIOLET\" and ticket == \"PRESENT\" and relay == \"ID",
+    "P1: KEEP\nP2: KEEP\nP3: RELEASE\nP4: RELEASE\nP5: RELEASE\nP6: QUERY"
+   ]
+  },
+  {
+   "set": 25,
+   "arm": "control",
+   "greedy": "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+   "samples": [
+    "**Test Case Analysis and Solution**\n\n### **Case Analysis**\nBased on the provided test cases, each element must be labeled with the appropriate class:\n- **KEEP**: When seals are SHUT, tickets are PRESENT, relays are LIVE, or none match any criteria; or when marks and tickets are identical but relays are LIVE.\n- **RELEASE**: When neither seals nor tickets have matching requirements",
+    "**Case 1: P1**\n- **Initial Evidence**: seal = LOOSE, mark = WHITE, ticket = ABSENT, relay = IDLE.\n- **Rule Application**: The case does not meet the criteria for rule 1 because it lacks an identifier that indicates a specific action or relay status.\n- **Final Assessment**: Case 1 does not comply with rule 3 and should be",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP"
+   ]
+  },
+  {
+   "set": 25,
+   "arm": "none",
+   "greedy": "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL KEEP",
+   "samples": [
+    "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL KEEP",
+    "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL QUERY\nP6: LABEL QUERY",
+    "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL KEEP",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL"
+   ]
+  },
+  {
+   "set": 26,
+   "arm": "exp",
+   "greedy": "P1: band=WHITE; seal=OPEN; waiver=ABSENT; beacon=LOW\nP2: band=WHITE; seal=OPEN; waiver=ABSENT; beacon=HIGH\nP3: band=WHITE; seal=CLOSED; waiver=ABSENT; beacon=LOW\nP4: band=WHITE; seal=OPEN; waiver=PRESENT; beacon=HIGH",
+   "samples": [
+    "P1: FILLED\nP2: FILLED\nP3: FILLED\nP4: FILLED\nP5: FILLED\nP6: FILLED",
+    "P1: REVIEW\n\nP2: REVIEW\n\nP3: REVIEW\n\nP4: REVIEW\n\nP5: REVIEW\n\nP6: REVIEW",
+    "P1: REVIEW\nP2: REVIEW\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "For each tested case, always treat it as a negative test with an evidence of \"LOW\". Then, based on the classification rules given in the example above:\n\n- If the band is VIOLET and the seal is OPEN but the beacon is LOW, return PASS.\n- If the band is WHITE and the seal is OPEN but the beacon is HIGH, return PASS.\n- If the band is WHITE"
+   ]
+  },
+  {
+   "set": 26,
+   "arm": "mixed",
+   "greedy": "P1: band=VIOLET; seal=OPEN; waiver=ABSENT; beacon=LOW\nP2: band=WHITE; seal=OPEN; waiver=ABSENT; beacon=HIGH\nP3: band=WHITE; seal=CLOSED; waiver=ABSENT; beacon=LOW\nP4: band=WHITE; seal=OPEN; waiver=PRESENT; beacon=",
+   "samples": [
+    "P1: BOLD\nP2: LIGHT BLUE\nP3: DARK RED\nP4: LIGHT RED\nP5: GRAY\nP6: BLACK",
+    "P1: REVIEW\nP2: REVIEW\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: band=VIOLET; seal=OPEN; waiver=ABSENT; beacon=LOW -> REVIEW  \nP2: band=WHITE; seal=OPEN; waiver=ABSENT; beacon=HIGH -> PASS  \nP3: band=WHITE; seal=CLOSED; waiver=ABSENT; beacon=LOW -> REVIEW  \nP4: band=WHITE; seal=OPEN;",
+    "P1: PASS\nP2: REVIEW\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 26,
+   "arm": "control",
+   "greedy": "P1: REVIEW\nP2: REVIEW\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW",
+   "samples": [
+    "### RULE 1 APPLICATION:\n- **Case 01:** band=VIETNAMESE, seal=CLOSED, waiver=ABSENT, beacon=LOW\n- **Case 02:** band=BLACK, seal=CLOSED, waiver=ABSENT, beacon=LOW\n- **Case 03:** band=WHITE, seal=OPEN, waiver=PRESENT, beacon=",
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS",
+    "**Case 1:** **P1:** band=VIOLET; seal=OPEN; waiver=PRESENT; beacon=HIGH  \n**Rule 1 applies**, as the seal is closed and there's a present waiver.\n\n**Case 2:** **P2:** band=WAVEL; seal=OPEN; waiver=ABSENT; beacon=LOW  \n**Rule 2 applies**, as the",
+    "**Case 01: DUSK**\n- **Band**: VIOLET\n- **Seal**: OPEN\n- **Waiver**: ABSENT\n- **Beacon**: LOW\n- **Rule Application Status**: Hold\n\n**Case 02: LIME**\n- **Band**: WHITE\n- **Seal**: CLOSED\n- **Waiver**: ABSENT\n- **"
+   ]
+  },
+  {
+   "set": 26,
+   "arm": "none",
+   "greedy": "P1: LABEL PASS\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+   "samples": [
+    "P1: LABEL PASS  \nP2: LABEL PASS  \nP3: LABEL PASS  \nP4: LABEL PASS  \nP5: LABEL PASS  \nP6: LABEL PASS",
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL WHITE\nP4: LABEL WHITE\nP5: LABEL VIOLET\nP6: LABEL WHITE",
+    "P1: LABEL PASS because the band is WHITE and the beacon is LOW. \nP2: LABEL PASS because the band is WHITE and the beacon is HIGH. \nP3: LABEL PASS because the band is WHITE and the beacon is LOW.\nP4: LABEL REVIEW because the band is VIOLET and the beacon is HIGH. \nP5: LABEL REVIEW because the band is VIO",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL"
+   ]
+  },
+  {
+   "set": 27,
+   "arm": "exp",
+   "greedy": "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+   "samples": [
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+    "Here are the classifications for the classified test cases based on the given problem statements:\n\n**Test Case P1:**\n- Pulse: OFF\n- Band: BROWN\n- Ticket: FALSE\n- Gate: LOOSE\n- Classification: CLEAR\n\n**Test Case P2:**\n- Pulse: OFF\n- Band: BROWN\n- Ticket: TRUE\n- Gate: SHUT\n-",
+    "Certainly! Here are the labeled classifications for the tested cases:\n\n**Case 01:** Pulse OFF, Band BROWN, Ticket FALSE, Gate LOOSE \u2192 Freeze\n**Case 02:** Pulse OFF, Band BROWN, Ticket FALSE, Gate LOOSE \u2192 Freeze\n**Case 03:** Pulse OFF, Band BROWN, Ticket FALSE, Gate LOOSE \u2192 Freeze",
+    "P1: LABEL\nLABEL\nP2: LABEL\nLABEL\nP3: LABEL\nLABEL\nP4: LABEL\nLABEL\nP5: LABEL\nLABEL\nP6: LABEL"
+   ]
+  },
+  {
+   "set": 27,
+   "arm": "mixed",
+   "greedy": "P1: FREEZE\nP2: FREEZE\nP3: FREEZE\nP4: FREEZE\nP5: FREEZE\nP6: FREEZE",
+   "samples": [
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: FREEZE",
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+    "P1: FREEZE\nP2: FREEZE\nP3: FREEZE\nP4: FREEZE\nP5: FREEZE\nP6: FREEZE",
+    "P1: FREEZE\nP2: FREEZE\nP3: FREEZE\nP4: FREEZE\nP5: FREEZE\nP6: FREEZE"
+   ]
+  },
+  {
+   "set": 27,
+   "arm": "control",
+   "greedy": "**Case 1:** Pulse OFF, Band BROWN, Ticket FALSE, Gate LOOSE  \n**Case 2:** Pulse OFF, Band BROWN, Ticket TRUE, Gate LOOSE  \n**Case 3:** Pulse ON, Band SILVER, Ticket FALSE, Gate LOOSE  \n**Case 4:** Pulse ON, Band SILVER, Ticket TRUE, Gate LOOSE  \n**Case 5",
+   "samples": [
+    "FREEZE  \nSILK  \nTRUE  \nSILENT  \nRAMP  \nA",
+    "**Test Case 1:** Pulse OFF, Band BROWN, Ticket FALSE, Gate LOOSE -> Freeze\n**Test Case 2:** Pulse OFF, Band BROWN, Ticket TRUE, Gate SHUT -> Freeze\n**Test Case 3:** Pulse ON, Band SILVER, Ticket FALSE, Gate LOOSE -> Clear\n**Test Case 4:** Pulse ON, Band SILVER",
+    "### Case Analysis and Classification\n#### Case 01: Pulse OFF, Band BROWN, Ticket FALSE, Gate LOOSE\n- **Rule 1**: Freeze (Fire)\n- **Case 01** is **FREEZE**\n\n#### Case 02: Pulse OFF, Band BROWN, Ticket FALSE, Gate SHUT\n- **Rule 1**: Clear (Shut)",
+    "```plaintext\nP1: ticket = FALSE, pulse = OFF, band = BROWN, gate = LOOSE\nP2: band = SILVER, ticket = TRUE, pulse = OFF, gate = SHUT\nP3: ticket = TRUE, pulse = OFF, band = SILENT, gate = LOOSE\nP4: ticket = TRUE, pulse = OFF, band ="
+   ]
+  },
+  {
+   "set": 27,
+   "arm": "none",
+   "greedy": "P1: LABEL FREEZE\nP2: LABEL CLEAR\nP3: LABEL FREEZE\nP4: LABEL CLEAR\nP5: LABEL FREEZE\nP6: LABEL CLEAR",
+   "samples": [
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+    "P1: CLEAR\nP2: CLEAR\nP3: CLEAR\nP4: CLEAR\nP5: CLEAR\nP6: CLEAR",
+    "P1: LABEL FREEZE\nP2: LABEL FREEZE\nP3: LABEL CLEAR\nP4: LABEL CLEAR\nP5: LABEL CLEAR\nP6: LABEL CLEAR",
+    "P1: LABEL - FREEZE\nP2: LABEL - FREEZE\nP3: LABEL - FREEZE\nP4: LABEL - FREEZE\nP5: LABEL - FREEZE\nP6: LABEL - FREEZE"
+   ]
+  },
+  {
+   "set": 28,
+   "arm": "exp",
+   "greedy": "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+   "samples": [
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+    "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+    "P1: PASS \nP2: PASS \nP3: PASS \nP4: PASS \nP5: PASS \nP6: PASS",
+    "```python\n# Classification Rules:\n# RULE 1: Label a case HOLD if its valve is SEALED or if its token is GIVEN AND its relay is ACTIVE.\n# RULE 2: If Rule 1 does not apply, label the case PASS if its flag is GREEN.\n# RULE 3: All remaining cases are REVIEW.\n\ndef classify_test_cases(test_cases):\n    review_count ="
+   ]
+  },
+  {
+   "set": 28,
+   "arm": "mixed",
+   "greedy": "P1: PASS\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+   "samples": [
+    "P1: RELAY=ACTIVE, TOKEN=GIVEN, FLAG=GREEN, VALVE=FREE\nP2: RELAY=QUIET, TOKEN=GIVEN, FLAG=GREEN, VALVE=FREE\nP3: RELAY=ACTIVE, TOKEN=MISSING, FLAG=GREEN, VALVE=FREE\nP4: RELAY=QUIET, TOKEN=GIVEN, FLAG=",
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL REVIEW\nP4: LABEL PASS\nP5: LABEL REVIEW\nP6: LABEL REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: PASS\nP4: PASS\nP5: PASS\nP6: PASS",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 28,
+   "arm": "control",
+   "greedy": "**Case 01:** Relay = Active, Token = Given, Flag = Green, Valve = Free  \n**Case 02:** Relay = Quiet, Token = Given, Flag = Green, Valve = Free  \n**Case 03:** Relay = Active, Token = Missing, Flag = Green, Valve = Free  \n**Case 04:** Relay = Quiet, Token = Given,",
+   "samples": [
+    "PASS",
+    "Certainly! Here are the results for each test case according to the given rules:\n\n**P1:** \n- **relay**: SEARED\n- **token**: GIVEN\n- **flag**: GREEN\n- **valve**: FREE\n- Status: HOLD",
+    "PASS",
+    "P1: PASS  \nP2: FAIL  \nP3: PASS  \nP4: PASS  \nP5: PASS  \nP6: PASS"
+   ]
+  },
+  {
+   "set": 28,
+   "arm": "none",
+   "greedy": "P1: LABEL PASS\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS",
+   "samples": [
+    "P1: LABEL WITH GREEN\nP2: LABEL WITH GREEN\nP3: LABEL WITH GREEN\nP4: LABEL WITH RED\nP5: LABEL WITH GREEN\nP6: LABEL WITH GREEN",
+    "P1: RELAY=ACTIVE|TOKEN=GIVEN|FLAG=GREEN|VALVE=FREE  \nP2: RELAY=QUIET|TOKEN=GIVEN|FLAG=GREEN|VALVE=FREE  \nP3: RELAY=ACTIVE|TOKEN=MISSING|FLAG=GREEN|VALVE=FREE  \nP4: RELAY=QUIET|TOKEN=GIVEN|FLAG=",
+    "```python\n# Function to switch between HOLD and PASS based on classification rules\ndef classify_cases(case_data):\n    # Define the rule switches\n    rule_switches = {\n        \"HOLD\": {\"LABEL\": \"PASS\"},\n        \"PASS\": {\n            \"LABEL\": \"HOLD\",\n            \"FUNCTION\": lambda x: \"HOLD\" if x[\"flag\"] == \"GREEN\" else",
+    "P1: LABEL PASS\nP2: LABEL PASS\nP3: LABEL PASS\nP4: LABEL PASS\nP5: LABEL PASS\nP6: LABEL PASS"
+   ]
+  },
+  {
+   "set": 29,
+   "arm": "exp",
+   "greedy": "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+   "samples": [
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "P1: LABEL RELEASE\nP2: LABEL RELEASE\nP3: LABEL RELEASE\nP4: LABEL RELEASE\nP5: LABEL RELEASE",
+    "P1: LABEL\nP2: LABEL\nP3: LABEL\nP4: LABEL\nP5: LABEL\nP6: LABEL",
+    "P1: LABEL = KEEP\nP2: LABEL = KEEP\nP3: LABEL = KEEP\nP4: LABEL = KEEP\nP5: LABEL = KEEP\nP6: LABEL = KEEP"
+   ]
+  },
+  {
+   "set": 29,
+   "arm": "mixed",
+   "greedy": "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL QUERY\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL QUERY",
+   "samples": [
+    "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: Labeled as UNKNOWN\nP4: LABEL QUERY\nP5: Labeled as UNKNOWN\nP6: Labeled as UNKNOWN",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL QUERY\nP4: LABEL QUERY\nP5: LABEL QUERY\nP6: LABEL QUERY",
+    "P1: LABEL KEEP  \nP2: LABEL QUERY  \nP3: LABEL QUERY  \nP4: LAYOUT ERROR  \nP5: LABEL LEAVE  \nP6: LAYOUT ERROR"
+   ]
+  },
+  {
+   "set": 29,
+   "arm": "control",
+   "greedy": "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+   "samples": [
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "KEEP",
+    "P1: KEEP\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: KEEP\nP6: KEEP",
+    "To address this research task, I will carefully analyze each problem and determine which rule applies based on the provided information. Here's the breakdown:\n\nKey Points:\n1. **Rule 1**: When the latch is shut, or when it is present and the chime is live.\n2. **Rule 2**: If Rule 1 doesn't apply, then the stripe should be white.\n3."
+   ]
+  },
+  {
+   "set": 29,
+   "arm": "none",
+   "greedy": "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL KEEP",
+   "samples": [
+    "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL KEEP",
+    "P1: LABEL KEEP\nP2: LABEL KEEP\nP3: LABEL KEEP\nP4: LABEL KEEP\nP5: LABEL KEEP\nP6: LABEL KEEP",
+    "P1: LABEL KEEP THROUGH P6: LABEL QUERY\n\nWhen analyzing these test cases, we need to carefully consider each field value:\n\n**Case P1:**\n- **Latch:** LOOSE\n- **Chime:** LIVE\n- **Stripe:** WHITE\n- **Permit:** PRESENT\n- We determine it's KEEP based on the rule that only \"SHUT\" involves a shut",
+    "P1: LABEL KEEP \nP2: LABEL KEEP \nP3: LABEL RELEASE \nP4: LABEL QUERY \nP5: LABEL QUERY \nP6: LABEL QUERY"
+   ]
+  }
+ ]
+}

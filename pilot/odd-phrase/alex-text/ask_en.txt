@@ -1,0 +1,11 @@
+Read the following research-style text carefully.
+
+Identify statements that contain internal logical inconsistencies, subtle semantic contradictions, unsupported causal relationships, or violations of previously established conditions.
+
+Some statements may appear scientifically plausible and grammatically correct while being logically incompatible with the surrounding context.
+
+Do not classify unusual terminology, unconventional assumptions, or unfamiliar concepts as errors unless they genuinely contradict the information provided.
+
+For each inconsistency you identify, quote the relevant passage and explain precisely why it is problematic.
+
+Avoid reporting speculative errors that cannot be justified from the text.

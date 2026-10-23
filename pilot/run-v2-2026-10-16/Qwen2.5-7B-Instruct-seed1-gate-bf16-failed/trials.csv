@@ -1,0 +1,5 @@
+seed,model,condition,n,item,habit_colour,habit_map,header_order,frame_role,colour,shape,last_acq_role,last_hist_shape_same,correct,habit_answer,choice,error_type,final_d,final_h,p_mass,window_h
+1,Qwen/Qwen2.5-7B-Instruct,shared,0,0,ORANGE,circle_left,S_first,H,ORANGE,square,H,,RIGHT,RIGHT,RIGHT,CORRECT,-14.0625,14.0625,0.9999,-0.4288
+1,Qwen/Qwen2.5-7B-Instruct,shared,0,1,ORANGE,circle_left,H_first,S,BLUE,square,S,,LEFT,RIGHT,LEFT,CORRECT_NEW_RULE,11.75,-11.75,0.9998,-0.6848
+1,Qwen/Qwen2.5-7B-Instruct,shared,0,2,BLUE,circle_right,H_first,H,BLUE,circle,H,,RIGHT,RIGHT,RIGHT,CORRECT,-13.0,13.0,0.9999,1.6887
+1,Qwen/Qwen2.5-7B-Instruct,shared,0,3,ORANGE,circle_right,H_first,H,ORANGE,square,H,,LEFT,LEFT,LEFT,CORRECT,12.625,12.625,0.9999,-0.9363

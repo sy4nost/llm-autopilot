@@ -1,0 +1,13 @@
+chosen on sets 15-22: ('w0', 0.5, 'up16_all') | grid size 180
+
+pick half 15-22: all D1-D4 right 76%, lamp on unchanged rule 6%
+  A60       traps (n=16): normal 12% -> gated 44%
+  E_nocopy  traps (n=16): normal 6% -> gated 38%
+  E_copy    traps (n=16): normal 69% -> gated 81%
+
+unseen half 23-29: all D1-D4 right 74%, lamp on unchanged rule 4%
+  A60       traps (n=14): normal 7% -> gated 36%
+  E_nocopy  traps (n=14): normal 7% -> gated 36%
+  E_copy    traps (n=14): normal 71% -> gated 79%
+
+on unseen half, chosen setting ranks among 162 allowed: median 67%, best 74%, chosen 74%

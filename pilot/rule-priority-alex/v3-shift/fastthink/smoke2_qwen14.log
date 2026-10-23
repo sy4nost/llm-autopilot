@@ -1,0 +1,39 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-5I7wFTyAKcyLHnmPgPpwWR
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/fastthink/modal_
+│   ft.py
+├── ✓ Created Function run.
+└── ✓ Created Function fetch.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   6%|▋         | 37/579 [00:00<00:01, 348.88it/s]
+[1ALoading weights:  12%|█▏        | 72/579 [00:00<00:02, 214.05it/s]
+[1ALoading weights:  17%|█▋        | 99/579 [00:00<00:02, 229.51it/s]
+[1ALoading weights:  21%|██▏       | 124/579 [00:00<00:02, 218.67it/s]
+[1ALoading weights:  26%|██▌       | 150/579 [00:00<00:01, 226.45it/s]
+[1ALoading weights:  34%|███▎      | 194/579 [00:00<00:01, 289.23it/s]
+[1ALoading weights:  39%|███▉      | 225/579 [00:00<00:01, 283.30it/s]
+[1ALoading weights:  44%|████▍     | 255/579 [00:01<00:01, 217.88it/s]
+[1ALoading weights:  51%|█████▏    | 297/579 [00:01<00:01, 262.55it/s]
+[1ALoading weights:  58%|█████▊    | 333/579 [00:01<00:00, 283.50it/s]
+[1ALoading weights:  63%|██████▎   | 365/579 [00:01<00:00, 275.53it/s]
+[1ALoading weights:  68%|██████▊   | 395/579 [00:01<00:00, 251.52it/s]
+[1ALoading weights:  73%|███████▎  | 422/579 [00:01<00:00, 227.39it/s]
+[1ALoading weights:  81%|████████  | 467/579 [00:01<00:00, 276.66it/s]
+[1ALoading weights:  86%|████████▌ | 497/579 [00:01<00:00, 262.23it/s]
+[1ALoading weights:  91%|█████████ | 525/579 [00:02<00:00, 264.16it/s]
+[1ALoading weights:  96%|█████████▌| 555/579 [00:02<00:00, 271.15it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 264.74it/s]
+qwen14 gen 16 / 16
+qwen14 already 0 to generate 42
+qwen14 gen 32 / 42
+qwen14 gen 42 / 42
+qwen14 samp 32 / 42
+qwen14 samp 41 / 42
+qwen14 samp 42 / 42
+qwen14 DONE /cache/ft_runs/smoke2/qwen14/out.jsonl
+qwen14 finished
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-5I7wFTyAKcyLHnmPgPpwWR

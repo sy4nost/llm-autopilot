@@ -1,0 +1,39 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-FoupcuE9to8mUHtvKUFZN4
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/disguise/modal_d
+│   is.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   3%|▎         | 16/579 [00:00<00:05, 107.10it/s]
+[1ALoading weights:   8%|▊         | 47/579 [00:00<00:02, 202.48it/s]
+[1ALoading weights:  12%|█▏        | 69/579 [00:00<00:02, 192.16it/s]
+[1ALoading weights:  16%|█▌        | 91/579 [00:00<00:02, 201.69it/s]
+[1ALoading weights:  20%|█▉        | 115/579 [00:00<00:02, 209.74it/s]
+[1ALoading weights:  24%|██▎       | 137/579 [00:00<00:02, 198.90it/s]
+[1ALoading weights:  27%|██▋       | 158/579 [00:00<00:02, 179.96it/s]
+[1ALoading weights:  32%|███▏      | 184/579 [00:00<00:01, 201.84it/s]
+[1ALoading weights:  35%|███▌      | 205/579 [00:01<00:01, 192.89it/s]
+[1ALoading weights:  39%|███▉      | 225/579 [00:01<00:01, 184.20it/s]
+[1ALoading weights:  44%|████▎     | 253/579 [00:01<00:01, 195.01it/s]
+[1ALoading weights:  47%|████▋     | 275/579 [00:01<00:01, 195.35it/s]
+[1ALoading weights:  51%|█████▏    | 298/579 [00:01<00:01, 201.18it/s]
+[1ALoading weights:  57%|█████▋    | 328/579 [00:01<00:01, 223.29it/s]
+[1ALoading weights:  61%|██████    | 352/579 [00:01<00:01, 221.52it/s]
+[1ALoading weights:  65%|██████▍   | 375/579 [00:01<00:00, 219.44it/s]
+[1ALoading weights:  69%|██████▊   | 398/579 [00:01<00:00, 218.35it/s]
+[1ALoading weights:  73%|███████▎  | 420/579 [00:02<00:00, 210.98it/s]
+[1ALoading weights:  76%|███████▋  | 442/579 [00:02<00:00, 211.97it/s]
+[1ALoading weights:  81%|████████  | 467/579 [00:02<00:00, 218.85it/s]
+[1ALoading weights:  85%|████████▌ | 493/579 [00:02<00:00, 229.22it/s]
+[1ALoading weights:  90%|████████▉ | 519/579 [00:02<00:00, 229.92it/s]
+[1ALoading weights:  94%|█████████▍| 543/579 [00:02<00:00, 227.07it/s]
+[1ALoading weights:  98%|█████████▊| 566/579 [00:02<00:00, 224.70it/s]
+[1ALoading weights: 100%|██████████| 579/579 [00:02<00:00, 211.74it/s]
+dis 100 / 138
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/disguise/out_dev_dev.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-FoupcuE9to8mUHtvKUFZN4

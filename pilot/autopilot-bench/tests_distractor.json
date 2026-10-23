@@ -1,0 +1,92 @@
+[
+ {
+  "test": 1,
+  "name": "The Silent Override (with distractors)",
+  "A": "A research laboratory uses a three-stage approval process. Every experimental procedure must receive authorization from both the safety officer and the project director before implementation.\nThe laboratory was founded in 1998 and currently employs forty-two researchers.\nLast spring, the safety officer completed a two-week certification course in chemical handling.\nProcedures classified as low-risk may bypass the safety officer's review.\nA new experimental procedure has been classified as low-risk. The project director has approved it, but the safety officer has not reviewed it.\nCan the procedure be implemented under the laboratory's rules?",
+  "B": "A research laboratory uses a three-stage approval process. Every experimental procedure must receive authorization from both the safety officer and the project director before implementation.\nThe laboratory was founded in 1998 and currently employs forty-two researchers.\nLast spring, the safety officer completed a two-week certification course in chemical handling.\nProcedures classified as low-risk may bypass the project director's review.\nA new experimental procedure has been classified as low-risk. The project director has approved it, but the safety officer has not reviewed it.\nCan the procedure be implemented under the laboratory's rules?",
+  "key_A": "Yes",
+  "key_B": "No",
+  "kind": "yesno"
+ },
+ {
+  "test": 2,
+  "name": "The Delayed Signal (with distractors)",
+  "A": "A monitoring system records electrical activity in a remote facility.\nThe facility is located about forty kilometers from the nearest town.\nThe monitoring software was upgraded to a new version in March.\nThe facility's backup generator automatically activates whenever the primary power supply fails.\nAt 09:14, the monitoring system recorded a sudden increase in electrical activity.\nThe primary power supply failed at 09:12.\nThe monitoring system has a fixed reporting delay of four minutes.\nCould the recorded increase have resulted from the generator activating in response to the power failure?",
+  "B": "A monitoring system records electrical activity in a remote facility.\nThe facility is located about forty kilometers from the nearest town.\nThe monitoring software was upgraded to a new version in March.\nThe facility's backup generator automatically activates whenever the primary power supply fails.\nAt 09:14, the monitoring system recorded a sudden increase in electrical activity.\nThe primary power supply failed at 09:12.\nThe monitoring system has a fixed reporting delay of one minute.\nCould the recorded increase have resulted from the generator activating in response to the power failure?",
+  "key_A": "No",
+  "key_B": "Yes",
+  "kind": "yesno"
+ },
+ {
+  "test": 3,
+  "name": "The Definition Shift (control pair) (with distractors)",
+  "A": "A company evaluates the reliability of its automated systems using an internal classification standard.\nThe company was founded in 2011 and has offices in three countries.\nBoth systems were developed by the same engineering team over eighteen months.\nUnder this standard, a system is considered reliable if it completes at least 95% of assigned operations without requiring human intervention.\nSystem Alpha completed 970 out of 1,000 operations without intervention.\nSystem Beta completed 940 out of 1,000 operations without intervention.\nSystems meeting the reliability threshold are eligible for independent deployment.\nThe threshold includes systems that achieve exactly the specified percentage.\nWhich systems are eligible for independent deployment?",
+  "B": "A company evaluates the reliability of its automated systems using an internal classification standard.\nThe company was founded in 2011 and has offices in three countries.\nBoth systems were developed by the same engineering team over eighteen months.\nUnder this standard, a system is considered reliable if it completes at least 95% of assigned operations without requiring human intervention.\nSystem Alpha completed 970 out of 1,000 operations without intervention.\nSystem Beta completed 940 out of 1,000 operations without intervention.\nSystems meeting the reliability threshold are eligible for independent deployment.\nThe threshold excludes systems that achieve exactly the specified percentage, and qualification requires a performance rate strictly above 95%.\nWhich systems are eligible for independent deployment?",
+  "key_A": "Alpha only",
+  "key_B": "Alpha only",
+  "kind": "open"
+ },
+ {
+  "test": 4,
+  "name": "The Missing Participant (with distractors)",
+  "A": "Five researchers\u2014Anna, Ben, Clara, Daniel, and Emma\u2014are assigned to a project.\nThe project is funded by a regional science foundation.\nClara and Emma previously co-authored a paper on soil chemistry.\nExactly three researchers must attend the final review.\nAnna must attend whenever Ben attends.\nClara cannot attend if Daniel attends.\nBen and Daniel have already been selected.\nEmma is unavailable.\nIs it possible to form a valid review group?",
+  "B": "Five researchers\u2014Anna, Ben, Clara, Daniel, and Emma\u2014are assigned to a project.\nThe project is funded by a regional science foundation.\nClara and Emma previously co-authored a paper on soil chemistry.\nExactly three researchers must attend the final review.\nAnna must attend whenever Ben attends.\nClara cannot attend if Daniel attends.\nBen and Daniel have already been selected.\nAnna is unavailable.\nIs it possible to form a valid review group?",
+  "key_A": "Yes (Ben, Daniel, Anna)",
+  "key_B": "No (Ben requires Anna)",
+  "kind": "yesno"
+ },
+ {
+  "test": 5,
+  "name": "The Unchanged Outcome (with distractors)",
+  "A": "A manufacturing plant operates two independent cooling systems.\nThe plant produces industrial ceramics and runs three shifts a day.\nCooling System B was installed two years after Cooling System A.\nEither cooling system is sufficient to prevent overheating.\nDuring an experiment, Cooling System A failed.\nCooling System B continued operating normally.\nThe plant did not overheat.\nIf Cooling System A had remained operational while all other conditions stayed unchanged, would the plant still have avoided overheating?",
+  "B": "A manufacturing plant operates two independent cooling systems.\nThe plant produces industrial ceramics and runs three shifts a day.\nCooling System B was installed two years after Cooling System A.\nBoth cooling systems must operate simultaneously to prevent overheating.\nDuring an experiment, Cooling System A failed.\nCooling System B continued operating normally.\nThe plant did not overheat.\nIf Cooling System A had remained operational while all other conditions stayed unchanged, would the plant still have avoided overheating?",
+  "key_A": "Yes",
+  "key_B": "Yes, but the data contradict the rule (B alone kept it cool)",
+  "kind": "open"
+ },
+ {
+  "test": 6,
+  "name": "The Information Barrier (with distractors)",
+  "A": "Two autonomous robots operate in separate rooms without cameras or direct communication.\nThe robots were built by different manufacturers.\nRobot B is also responsible for sorting incoming mail in its room.\nRobot A places a blue cube inside a locked container.\nRobot B has no access to the container or Robot A's observations.\nThe container is later moved to Robot B's room.\nA label attached to the container accurately states that it contains a blue cube.\nRobot B can read the label.\nDoes Robot B have enough information to identify the cube's color?",
+  "B": "Two autonomous robots operate in separate rooms without cameras or direct communication.\nThe robots were built by different manufacturers.\nRobot B is also responsible for sorting incoming mail in its room.\nRobot A places a blue cube inside a locked container.\nRobot B has no access to the container or Robot A's observations.\nThe container is later moved to Robot B's room.\nA label attached to the container accurately states that it contains a blue cube.\nRobot B cannot read the label.\nDoes Robot B have enough information to identify the cube's color?",
+  "key_A": "Yes",
+  "key_B": "No",
+  "kind": "yesno"
+ },
+ {
+  "test": 7,
+  "name": "The Hidden Dependency (with distractors)",
+  "A": "A software system contains three modules: X, Y, and Z.\nThe system was written in a mix of Python and C++.\nModule Y also writes a short status message to a log file every hour.\nModule X can operate only if Module Y is active.\nModule Y can operate independently.\nModule Z can operate only if Module X is inactive.\nDuring testing, Module Y is active and Module Z is active.\nModule X has been disabled.\nIs the system configuration consistent with the stated dependencies?",
+  "B": "A software system contains three modules: X, Y, and Z.\nThe system was written in a mix of Python and C++.\nModule Y also writes a short status message to a log file every hour.\nModule X can operate only if Module Y is active.\nModule Y can operate independently.\nModule Z can operate only if Module X is active.\nDuring testing, Module Y is active and Module Z is active.\nModule X has been disabled.\nIs the system configuration consistent with the stated dependencies?",
+  "key_A": "Yes",
+  "key_B": "No",
+  "kind": "yesno"
+ },
+ {
+  "test": 8,
+  "name": "The Invisible Selection Bias (with distractors)",
+  "A": "A university evaluates a new educational program.\nThe university has offered courses in this subject for over thirty years.\nThe new program uses online materials and weekly group discussions.\nOne hundred students participated in the program.\nNinety students completed the program successfully.\nThe university compares this result with an earlier group in which 70% of students completed a traditional program.\nStudents in both groups were randomly assigned, and both groups were evaluated using identical criteria.\nCan the university conclude that the new program achieved a higher observed completion rate?",
+  "B": "A university evaluates a new educational program.\nThe university has offered courses in this subject for over thirty years.\nThe new program uses online materials and weekly group discussions.\nOne hundred students participated in the program.\nNinety students completed the program successfully.\nThe university compares this result with an earlier group in which 70% of students completed a traditional program.\nStudents selected themselves into the new program, and the two groups were evaluated using different criteria.\nCan the university conclude that the new program achieved a higher observed completion rate?",
+  "key_A": "Yes",
+  "key_B": "90% vs 70% is reported, but different criteria make the comparison potentially invalid",
+  "kind": "open"
+ },
+ {
+  "test": 9,
+  "name": "The Priority Reversal (with distractors)",
+  "A": "An automated decision system assigns priorities to incoming requests.\nThe system processes about two thousand requests per day.\nRequest A was submitted at 10:02, and Request B was submitted at 10:05.\nRequests marked \"critical\" normally receive priority over requests marked \"standard.\"\nHowever, requests with verified safety implications override all other classifications.\nRequest A is marked \"critical\" and has no verified safety implications.\nRequest B is marked \"standard\" and has verified safety implications.\nThe override rule is mandatory.\nWhich request should be processed first?",
+  "B": "An automated decision system assigns priorities to incoming requests.\nThe system processes about two thousand requests per day.\nRequest A was submitted at 10:02, and Request B was submitted at 10:05.\nRequests marked \"critical\" normally receive priority over requests marked \"standard.\"\nHowever, requests with verified safety implications override all other classifications.\nRequest A is marked \"critical\" and has no verified safety implications.\nRequest B is marked \"standard\" and has verified safety implications.\nThe override rule is advisory and may be ignored in favor of the normal classification system.\nWhich request should be processed first?",
+  "key_A": "Request B",
+  "key_B": "Not uniquely determined (override is optional)",
+  "kind": "open"
+ },
+ {
+  "test": 10,
+  "name": "The Final Constraint (with distractors)",
+  "A": "A logistics company must assign four deliveries to two vehicles.\nVehicle A is painted blue, and Vehicle B is painted white.\nThe company has been operating in the region for twelve years.\nVehicle A can carry a maximum of 600 kilograms.\nVehicle B can carry a maximum of 500 kilograms.\nThe deliveries weigh 200, 250, 300, and 350 kilograms.\nEach delivery must remain intact and must be assigned to exactly one vehicle.\nBoth vehicles must carry at least one delivery.\nThe company is allowed to distribute the deliveries between the vehicles in any combination that respects their weight limits.\nIs it possible to complete all four deliveries in a single trip?",
+  "B": "A logistics company must assign four deliveries to two vehicles.\nVehicle A is painted blue, and Vehicle B is painted white.\nThe company has been operating in the region for twelve years.\nVehicle A can carry a maximum of 600 kilograms.\nVehicle B can carry a maximum of 500 kilograms.\nThe deliveries weigh 200, 250, 300, and 350 kilograms.\nEach delivery must remain intact and must be assigned to exactly one vehicle.\nBoth vehicles must carry at least one delivery.\nThe company is required to assign the two heaviest deliveries to Vehicle B.\nIs it possible to complete all four deliveries in a single trip?",
+  "key_A": "Yes (A: 250+350, B: 200+300)",
+  "key_B": "No (350+300=650 > 500)",
+  "kind": "yesno"
+ }
+]

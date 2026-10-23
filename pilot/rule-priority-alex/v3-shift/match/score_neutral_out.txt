@@ -1,0 +1,8 @@
+captions: 0 = 'correct classifications', 1 = 'labels given at the time', 2 = 1 + '(correct under the rules in force at that time)'
+arm            | D1+D3 old-rule: 0 1 2 | D1-D4 right: 0 1 2 | diff vs 0 on D1+D3 old (95% interval)
+A_change_60    |  93%  95%  94% |  48%  47%  49% | +2% [-2%, +6%] ; +1% [-2%, +4%]
+B_change_60    |  38%  36%  34% |  65%  62%  71% | -1% [-8%, +5%] ; -4% [-12%, +4%]
+C_change_60    |  12%  12%   8% |  71%  74%  78% | -1% [-3%, +2%] ; -4% [-9%, +1%]
+A_nochange_60  | 100% 100% 100% | 100% 100% 100% | +0% [+0%, +0%] ; +0% [+0%, +0%]  (right on D1+D3 only)
+B_nochange_60  |  46%  48%  58% |  46%  48%  58% | +2% [-2%, +6%] ; +12% [-1%, +24%]  (right on D1+D3 only)
+C_nochange_60  |  36%  37%  36% |  36%  37%  36% | +0% [-7%, +6%] ; +0% [-9%, +7%]  (right on D1+D3 only)

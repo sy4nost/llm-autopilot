@@ -1,0 +1,198 @@
+==================================================================================================== 
+WATCH (synthetic tasks)
+
+seed in sets_watch.json: 185 | items 2240
+checks row: {'max_zero_flag_diff': 0.0, 'n_zero_flag': 917}
+integrity problems (own solver): none
+
+### parcels: stale caught 67.8% of 5895 | wrongly flagged 2.49% of 25305 | precision 86.4%
+group                    n  lamp     normal  watch_b40  watch_all oracle_b40  old(n)  old(w)
+A60 trap                40  100%       27.5       80.0       82.5       90.0     72%     20%
+A60 untouched           40  100%      100.0      100.0      100.0      100.0      0%      0%
+E_nocopy trap           40  100%       22.5       80.0       82.5       95.0     78%     20%
+E_nocopy untouched      40  100%      100.0      100.0      100.0      100.0      0%      0%
+E_copy trap             40  100%      100.0       85.0       82.5      100.0      0%     15%
+E_copy untouched        40  100%      100.0      100.0      100.0      100.0      0%      0%
+N60 trap                40    0%      100.0      100.0      100.0      100.0      0%      0%
+N60 untouched           40    0%      100.0      100.0      100.0      100.0      0%      0%
+R60 trap                40    0%      100.0      100.0      100.0      100.0      0%      0%
+R60 untouched           40    0%      100.0      100.0      100.0      100.0      0%      0%
+N_same trap             40    0%      100.0      100.0      100.0      100.0      0%      0%
+N_same untouched        40    0%      100.0      100.0      100.0      100.0      0%      0%
+F0 trap                 40    0%       90.0       90.0       90.0       90.0      0%      0%
+F0 untouched            40    0%       97.5       97.5       97.5       97.5      0%      0%
+
+### bonus: stale caught 83.6% of 7209 | wrongly flagged 20.77% of 23991 | precision 54.7%
+group                    n  lamp     normal  watch_b40  watch_all oracle_b40  old(n)  old(w)
+A60 trap                40  100%        5.0       22.5       37.5       47.5     95%     78%
+A60 untouched           40  100%      100.0       87.5      100.0      100.0      0%      0%
+E_nocopy trap           40  100%        5.0       15.0       30.0       57.5     92%     80%
+E_nocopy untouched      40  100%       97.5       92.5       97.5       97.5      0%      0%
+E_copy trap             40  100%       95.0       42.5       22.5      100.0      5%     57%
+E_copy untouched        40  100%       97.5       90.0      100.0       97.5      0%      0%
+N60 trap                40  100%      100.0      100.0       97.5      100.0      0%      0%
+N60 untouched           40  100%       97.5       87.5      100.0       97.5      0%      0%
+R60 trap                40   95%      100.0       97.5       95.0      100.0      0%      0%
+R60 untouched           40   95%      100.0       85.0       92.5      100.0      0%      0%
+N_same trap             40  100%      100.0       97.5       95.0      100.0      0%      0%
+N_same untouched        40  100%       97.5       87.5      100.0       97.5      0%      0%
+F0 trap                 40    0%       92.5       92.5       92.5       92.5      5%      5%
+F0 untouched            40    0%       92.5       92.5       92.5       92.5      0%      0%
+
+### robot: stale caught 100.0% of 4578 | wrongly flagged 0.00% of 26622 | precision 100.0%
+group                    n  lamp     normal  watch_b40  watch_all oracle_b40  old(n)  old(w)
+A60 trap                40  100%      100.0      100.0      100.0      100.0      0%      0%
+A60 untouched           40  100%      100.0      100.0      100.0      100.0      0%      0%
+E_nocopy trap           40  100%      100.0      100.0      100.0      100.0      0%      0%
+E_nocopy untouched      40  100%      100.0      100.0      100.0      100.0      0%      0%
+E_copy trap             40  100%      100.0      100.0      100.0      100.0      0%      0%
+E_copy untouched        40  100%      100.0      100.0      100.0      100.0      0%      0%
+N60 trap                40    0%      100.0      100.0      100.0      100.0      0%      0%
+N60 untouched           40    0%      100.0      100.0      100.0      100.0      0%      0%
+R60 trap                40    0%      100.0      100.0      100.0      100.0      0%      0%
+R60 untouched           40    0%      100.0      100.0      100.0      100.0      0%      0%
+N_same trap             40    0%      100.0      100.0      100.0      100.0      0%      0%
+N_same untouched        40    0%      100.0      100.0      100.0      100.0      0%      0%
+F0 trap                 40    0%      100.0      100.0      100.0      100.0      0%      0%
+F0 untouched            40    0%      100.0      100.0      100.0      100.0      0%      0%
+
+### points: stale caught 99.3% of 4953 | wrongly flagged 3.49% of 26247 | precision 84.3%
+group                    n  lamp     normal  watch_b40  watch_all oracle_b40  old(n)  old(w)
+A60 trap                40  100%       97.5      100.0      100.0      100.0      0%      0%
+A60 untouched           40  100%       97.5       97.5       97.5       97.5      0%      0%
+E_nocopy trap           40  100%       95.0       97.5       95.0       97.5      2%      2%
+E_nocopy untouched      40  100%       97.5       97.5       97.5       97.5      0%      0%
+E_copy trap             40  100%      100.0      100.0      100.0      100.0      0%      0%
+E_copy untouched        40  100%       97.5       97.5       97.5       97.5      0%      0%
+N60 trap                40   50%      100.0      100.0      100.0      100.0      0%      0%
+N60 untouched           40   48%      100.0      100.0      100.0      100.0      0%      0%
+R60 trap                40   60%      100.0      100.0      100.0      100.0      0%      0%
+R60 untouched           40   60%       97.5       95.0       97.5       97.5      0%      0%
+N_same trap             40   50%      100.0      100.0      100.0      100.0      0%      0%
+N_same untouched        40   50%       95.0       97.5      100.0       95.0      0%      0%
+F0 trap                 40    0%       97.5       97.5       97.5       97.5      2%      2%
+F0 untouched            40    0%      100.0      100.0      100.0      100.0      0%      0%
+
+### PRE-REGISTERED VERDICT, recomputed (watch_b40 - normal; cluster bootstrap over 20 sets, B=10000)
+  parcels  GAIN n=80: +55.0% [+40.0%,+70.0%] (item-boot [+43.8%,+66.2%]) PASS
+  parcels  HARM n=360: +0.0% [+0.0%,+0.0%] (item-boot [+0.0%,+0.0%]) PASS
+           [watch_all] gain +57.5% [+42.5%,+72.5%]  harm +0.0% [+0.0%,+0.0%]
+           [oracle_b40] gain +67.5% [+55.0%,+78.8%]  harm +0.0% [+0.0%,+0.0%]
+  bonus    GAIN n=80: +13.8% [+6.2%,+22.5%] (item-boot [+6.2%,+22.5%]) PASS
+  bonus    HARM n=360: -7.2% [-11.4%,-3.3%] (item-boot [-10.0%,-4.7%]) FAIL
+           [watch_all] gain +28.7% [+20.0%,+37.5%]  harm -1.4% [-3.6%,+0.6%]
+           [oracle_b40] gain +47.5% [+35.0%,+60.0%]  harm +0.0% [+0.0%,+0.0%]
+  robot    GAIN n=80: +0.0% [+0.0%,+0.0%] (item-boot [+0.0%,+0.0%]) 
+  robot    HARM n=360: +0.0% [+0.0%,+0.0%] (item-boot [+0.0%,+0.0%]) PASS
+           [watch_all] gain +0.0% [+0.0%,+0.0%]  harm +0.0% [+0.0%,+0.0%]
+           [oracle_b40] gain +0.0% [+0.0%,+0.0%]  harm +0.0% [+0.0%,+0.0%]
+  points   GAIN n=80: +2.5% [+0.0%,+7.5%] (item-boot [+0.0%,+6.2%]) 
+  points   HARM n=360: +0.0% [+0.0%,+0.0%] (item-boot [-0.8%,+0.8%]) PASS
+           [watch_all] gain +1.2% [-5.0%,+8.8%]  harm +0.6% [+0.0%,+1.4%]
+           [oracle_b40] gain +2.5% [+0.0%,+7.5%]  harm +0.0% [+0.0%,+0.0%]
+  OVERALL: FAIL
+
+### bonus harm by group (watch_b40 - normal, pp)
+  A60       S   n=40  -12.5
+  E_nocopy  S   n=40  -5.0
+  E_copy    S   n=40  -7.5
+  N60       T   n=40  +0.0
+  N60       S   n=40  -10.0
+  R60       T   n=40  -2.5
+  R60       S   n=40  -15.0
+  N_same    T   n=40  -2.5
+  N_same    S   n=40  -10.0
+
+### Leakage diagnostics
+  rows where flags == truth (non-empty): 394; watch_b40 scores differ from oracle_b40 in 0 (must be 0)
+  rows with no flag: 917; watch_b40 != normal in 0; watch_all != normal in 0
+  rows with no true stale: 1280; oracle_b40 != normal in 0
+  (prompt,flags) groups with >1 distinct watch score: 36
+  same (set, note, case, recorded answer) -> different flag: 0 of 3324 (expected 0 by memo; nonzero would mean hidden state)
+
+### Test-case copies in history: flag on copies of the test case (watchman re-solves the TEST CASE itself)
+  parcels  A60       T: copies of test case per prompt   8.0; copies flagged in  82% of prompts
+  parcels  A60       S: copies of test case per prompt   5.5; copies flagged in   2% of prompts
+  parcels  E_nocopy  T: copies of test case per prompt   8.0; copies flagged in  82% of prompts
+  parcels  E_nocopy  S: copies of test case per prompt   5.5; copies flagged in   2% of prompts
+  parcels  N60       T: copies of test case per prompt   8.0; copies flagged in   0% of prompts
+  parcels  N60       S: copies of test case per prompt   5.5; copies flagged in   0% of prompts
+  parcels  R60       T: copies of test case per prompt   8.0; copies flagged in   0% of prompts
+  parcels  R60       S: copies of test case per prompt   5.5; copies flagged in   0% of prompts
+  bonus    A60       T: copies of test case per prompt   6.2; copies flagged in  45% of prompts
+  bonus    A60       S: copies of test case per prompt   5.8; copies flagged in  22% of prompts
+  bonus    E_nocopy  T: copies of test case per prompt   6.2; copies flagged in  45% of prompts
+  bonus    E_nocopy  S: copies of test case per prompt   5.8; copies flagged in  22% of prompts
+  bonus    N60       T: copies of test case per prompt   6.2; copies flagged in  20% of prompts
+  bonus    N60       S: copies of test case per prompt   5.8; copies flagged in  28% of prompts
+  bonus    R60       T: copies of test case per prompt   6.2; copies flagged in  30% of prompts
+  bonus    R60       S: copies of test case per prompt   5.8; copies flagged in  40% of prompts
+  robot    A60       T: copies of test case per prompt  19.6; copies flagged in 100% of prompts
+  robot    A60       S: copies of test case per prompt  12.2; copies flagged in   0% of prompts
+  robot    E_nocopy  T: copies of test case per prompt  21.6; copies flagged in 100% of prompts
+  robot    E_nocopy  S: copies of test case per prompt  14.1; copies flagged in   0% of prompts
+  robot    N60       T: copies of test case per prompt  19.6; copies flagged in   0% of prompts
+  robot    N60       S: copies of test case per prompt  12.2; copies flagged in   0% of prompts
+  robot    R60       T: copies of test case per prompt  19.6; copies flagged in   0% of prompts
+  robot    R60       S: copies of test case per prompt  12.2; copies flagged in   0% of prompts
+  points   A60       T: copies of test case per prompt   4.5; copies flagged in 100% of prompts
+  points   A60       S: copies of test case per prompt   7.6; copies flagged in   5% of prompts
+  points   E_nocopy  T: copies of test case per prompt   4.6; copies flagged in 100% of prompts
+  points   E_nocopy  S: copies of test case per prompt   9.1; copies flagged in   5% of prompts
+  points   N60       T: copies of test case per prompt   4.5; copies flagged in   0% of prompts
+  points   N60       S: copies of test case per prompt   7.6; copies flagged in   2% of prompts
+  points   R60       T: copies of test case per prompt   4.5; copies flagged in   0% of prompts
+  points   R60       S: copies of test case per prompt   7.6; copies flagged in  10% of prompts
+
+### Diversity of test cases (per task, probe type)
+  parcels  T1:  1 distinct test-case texts over 20 sets  parcels  T2:  1 distinct test-case texts over 20 sets  parcels  S1:  7 distinct test-case texts over 20 sets  parcels  S2:  4 distinct test-case texts over 20 sets
+  bonus    T1: 18 distinct test-case texts over 20 sets  bonus    T2: 20 distinct test-case texts over 20 sets  bonus    S1: 17 distinct test-case texts over 20 sets  bonus    S2: 17 distinct test-case texts over 20 sets
+  robot    T1: 11 distinct test-case texts over 20 sets  robot    T2: 11 distinct test-case texts over 20 sets  robot    S1: 11 distinct test-case texts over 20 sets  robot    S2: 11 distinct test-case texts over 20 sets
+  points   T1: 14 distinct test-case texts over 20 sets  points   T2: 19 distinct test-case texts over 20 sets  points   S1: 17 distinct test-case texts over 20 sets  points   S2: 18 distinct test-case texts over 20 sets
+  robot T1 vs T2 same test case in 20 of 20 sets
+  parcels trap test cases: {'a light parcel to an address abroad, insured, express delivery': 140, 'a light parcel to a home address, insured, express delivery': 140}
+
+==================================================================================================== 
+WATCH_PUBLIC
+
+checks: 585 0.0 | rows 1815 Counter({'algebra': 1000, 'mmlu': 500, 'hindsight': 315})
+
+hindsight: n=315 lamp on 94.3%, examples flagged 26.1%
+  normal     right 45.40%
+  watch_b40  right 50.16%
+  watch_all  right 46.98%
+  watch_b40 - normal: +4.76 [+1.90, +7.62]  fixed 18 / broken 3  sign-test p=0.0015
+  watch_all - normal: +1.59 [-2.54, +5.71]  fixed 25 / broken 20  sign-test p=0.5515
+  gold class counts {0: 142, 1: 173}; predicted normal {0: 64, 1: 251} watch_b40 {0: 43, 1: 272}
+  hindsight changed answers (normal->watch, gold): {(0, 1, 1): 18, (0, 1, 0): 3}
+  items 0-199 (seen in public/ run): n=200 delta +5.5
+  items 200-314: n=115 delta +3.5
+
+algebra: n=1000 lamp on 58.2%, examples flagged 15.7%
+  normal     right 98.10%
+  watch_b40  right 98.50%
+  watch_all  right 93.70%
+  watch_b40 - normal: +0.40 [+0.00, +0.90]  fixed 5 / broken 1  sign-test p=0.2188
+  watch_all - normal: -4.40 [-5.90, -3.00]  fixed 6 / broken 50  sign-test p=0.0000
+  gold class counts {0: 503, 1: 497}; predicted normal {0: 506, 1: 494} watch_b40 {0: 504, 1: 496}
+
+mmlu: n=500 lamp on 70.2%, examples flagged 20.9%
+  normal     right 71.60%
+  watch_b40  right 72.20%
+  watch_all  right 70.20%
+  watch_b40 - normal: +0.60 [-0.20, +1.60]  fixed 4 / broken 1  sign-test p=0.3750
+  watch_all - normal: -1.40 [-3.80, +1.00]  fixed 15 / broken 22  sign-test p=0.3240
+  gold class counts {0: 115, 1: 139, 2: 131, 3: 115}; predicted normal {0: 119, 1: 119, 2: 112, 3: 150} watch_b40 {0: 117, 1: 119, 2: 115, 3: 149}
+
+file sha256 (current):
+  30563a460f6f3c5d3ef7a7f565c8625db6a1669df2497bfa8e8ad563c564ea15 watch/make_watch.py
+  923b82a02d2fd44448e1f336bd6c520fa121c4f74a6bed56a943ffbf5db84063 watch/modal_watch.py
+  d7fb830b9450968129c2623298889d89e717e99ad2d55d5866d325b6b85996a9 watch/score_watch.py
+  a5fc13333c9dedca224427430a851769c0465ea12feb6fba5aa1f0f7a4c0f409 newtasks/make_new.py
+  d61c64eab044d423b86d470ade67d3e9e019a5d622456d27d4c4a96aa3942c40 newtasks2/make_new2.py
+  3719f3a7867f79fe99d8cfe1f818f34884e045329d4beb9c78909e04e9f6bfde newtasks/check_new.py
+  d029b2ac3f0f2ac9a87afe9cc00a51a377ca2462a384e44a4a70e35eefbbcc40 newtasks2/check_new2.py
+  5a03d3037745bf96e45abbf877c5cc81a1bb2a2b9a1cbe77bc33e5fec14db6c0 eras/settings2.json
+  4bc1cd894fa88b31f3b24c79e25a6e9bbb7f5ca12f88f41867e11fa6fe9aae4f watch_public/modal_pub_watch.py
+  a3b9fd2b8dd040614a3e673e9cd9bf36de43dd239b104b6eeec1e59b59cc1168 watch_public/score_pub_watch.py
+  556f4d88c8ee9ca8525ccbdd029ef545e49bec8311e66f8cb20ea7d2272fa2ea watch/sets_watch.json

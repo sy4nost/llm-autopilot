@@ -1,0 +1,329 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-yEqPit89AcHNyFOMxhhhIb
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v2/modal_rules_lvl.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+[1ALoading weights:  23%|██▎       | 67/290 [00:00<00:00, 624.87it/s]
+[1ALoading weights:  59%|█████▊    | 170/290 [00:00<00:00, 796.02it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 907.39it/s]
+
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:  14%|█▍        | 48/338 [00:00<00:00, 462.91it/s]
+[1ALoading weights:  28%|██▊       | 95/338 [00:00<00:00, 347.58it/s]
+[1ALoading weights:  39%|███▉      | 132/338 [00:00<00:00, 304.04it/s]
+[1ALoading weights:  56%|█████▌    | 188/338 [00:00<00:00, 380.20it/s]
+[1ALoading weights:  70%|██████▉   | 235/338 [00:00<00:00, 375.24it/s]
+[1ALoading weights:  81%|████████  | 274/338 [00:00<00:00, 373.83it/s]
+[1ALoading weights:  93%|█████████▎| 313/338 [00:00<00:00, 351.62it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:00<00:00, 385.90it/s]
+
+[1ALoading weights:   0%|          | 0/434 [00:00<?, ?it/s]
+[1ALoading weights:   8%|▊         | 33/434 [00:00<00:01, 275.49it/s]
+[1ALoading weights:  16%|█▋        | 71/434 [00:00<00:01, 319.90it/s]
+[1ALoading weights:  24%|██▍       | 104/434 [00:00<00:01, 268.33it/s]
+[1ALoading weights:  30%|███       | 132/434 [00:00<00:01, 254.03it/s]
+[1ALoading weights:  38%|███▊      | 165/434 [00:00<00:01, 265.72it/s]
+[1ALoading weights:  44%|████▍     | 192/434 [00:00<00:00, 245.95it/s]
+[1ALoading weights:  50%|█████     | 218/434 [00:00<00:00, 245.57it/s]
+[1ALoading weights:  56%|█████▌    | 243/434 [00:00<00:00, 240.69it/s]
+[1ALoading weights:  62%|██████▏   | 268/434 [00:01<00:00, 241.27it/s]
+[1ALoading weights:  71%|███████   | 309/434 [00:01<00:00, 282.14it/s]
+[1ALoading weights:  78%|███████▊  | 338/434 [00:01<00:00, 215.86it/s]
+[1ALoading weights:  90%|█████████ | 392/434 [00:01<00:00, 290.93it/s]
+[1ALoading weights: 100%|██████████| 434/434 [00:01<00:00, 291.63it/s]
+
+[1ALoading weights:   0%|          | 0/339 [00:00<?, ?it/s]
+Qwen/Qwen2.5-0.5B-Instruct 10 / 420
+[1ALoading weights:   5%|▌         | 17/339 [00:00<00:02, 124.05it/s]
+[1ALoading weights:  15%|█▌        | 51/339 [00:00<00:03, 75.42it/s] 
+[1ALoading weights:  27%|██▋       | 93/339 [00:00<00:01, 137.07it/s]
+[1ALoading weights:  40%|███▉      | 135/339 [00:00<00:01, 190.07it/s]
+[1ALoading weights:  50%|█████     | 170/339 [00:01<00:00, 206.45it/s]
+[1ALoading weights:  59%|█████▊    | 199/339 [00:01<00:00, 218.15it/s]
+[1ALoading weights:  67%|██████▋   | 226/339 [00:01<00:00, 217.86it/s]
+[1ALoading weights:  74%|███████▍  | 251/339 [00:01<00:00, 199.92it/s]
+[1ALoading weights:  82%|████████▏ | 279/339 [00:01<00:00, 197.93it/s]
+[1ALoading weights:  89%|████████▉ | 301/339 [00:01<00:00, 202.60it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 195.17it/s]
+Qwen/Qwen2.5-1.5B-Instruct 10 / 420
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   2%|▏         | 13/579 [00:00<00:04, 128.55it/s]
+[1ALoading weights:   5%|▌         | 29/579 [00:01<00:24, 22.66it/s] 
+[1ALoading weights:   7%|▋         | 39/579 [00:01<00:17, 31.49it/s]
+[1ALoading weights:   8%|▊         | 47/579 [00:01<00:21, 25.27it/s]
+Qwen/Qwen2.5-0.5B-Instruct 20 / 420
+[1ALoading weights:  13%|█▎        | 73/579 [00:01<00:09, 52.58it/s]
+Qwen/Qwen2.5-1.5B-Instruct 20 / 420
+[1ALoading weights:  15%|█▍        | 86/579 [00:03<00:22, 21.63it/s]
+[1ALoading weights:  16%|█▋        | 95/579 [00:03<00:19, 24.60it/s]
+[1ALoading weights:  18%|█▊        | 103/579 [00:03<00:20, 23.36it/s]
+[1ALoading weights:  19%|█▉        | 109/579 [00:04<00:20, 22.86it/s]
+[1ALoading weights:  22%|██▏       | 128/579 [00:04<00:11, 38.41it/s]
+[1ALoading weights:  27%|██▋       | 156/579 [00:04<00:06, 66.78it/s]
+[1ALoading weights:  30%|██▉       | 171/579 [00:05<00:10, 39.14it/s]
+Qwen/Qwen2.5-3B-Instruct 10 / 420
+[1ALoading weights:  31%|███▏      | 182/579 [00:05<00:11, 35.26it/s]
+Qwen/Qwen2.5-1.5B-Instruct 30 / 420
+Qwen/Qwen2.5-0.5B-Instruct 30 / 420
+[1ALoading weights:  33%|███▎      | 191/579 [00:06<00:14, 27.62it/s]
+[1ALoading weights:  34%|███▍      | 198/579 [00:06<00:18, 21.05it/s]
+[1ALoading weights:  35%|███▌      | 203/579 [00:07<00:21, 17.77it/s]
+[1ALoading weights:  36%|███▌      | 209/579 [00:07<00:17, 20.93it/s]
+[1ALoading weights:  37%|███▋      | 214/579 [00:07<00:17, 20.42it/s]
+[1ALoading weights:  41%|████▏     | 239/579 [00:07<00:07, 44.50it/s]
+[1ALoading weights:  44%|████▍     | 257/579 [00:07<00:05, 61.74it/s]
+Qwen/Qwen2.5-1.5B-Instruct 40 / 420
+[1ALoading weights:  46%|████▋     | 269/579 [00:08<00:10, 28.60it/s]
+[1ALoading weights:  49%|████▉     | 283/579 [00:09<00:11, 25.95it/s]
+[1ALoading weights:  50%|█████     | 290/579 [00:09<00:10, 28.04it/s]
+Qwen/Qwen2.5-0.5B-Instruct 40 / 420
+[1ALoading weights:  51%|█████     | 296/579 [00:10<00:13, 20.99it/s]
+[1ALoading weights:  52%|█████▏    | 301/579 [00:11<00:16, 16.36it/s]
+[1ALoading weights:  53%|█████▎    | 308/579 [00:11<00:17, 15.10it/s]
+[1ALoading weights:  55%|█████▍    | 317/579 [00:11<00:13, 20.07it/s]
+Qwen/Qwen2.5-3B-Instruct 20 / 420
+[1ALoading weights:  59%|█████▊    | 340/579 [00:11<00:06, 39.25it/s]
+[1ALoading weights:  60%|██████    | 349/579 [00:12<00:05, 42.02it/s]
+Qwen/Qwen2.5-1.5B-Instruct 50 / 420
+Qwen/Qwen2.5-7B-Instruct 10 / 420
+[1ALoading weights:  62%|██████▏   | 357/579 [00:12<00:06, 33.89it/s]
+[1ALoading weights:  63%|██████▎   | 364/579 [00:13<00:12, 16.78it/s]
+Qwen/Qwen2.5-0.5B-Instruct 50 / 420
+[1ALoading weights:  65%|██████▍   | 376/579 [00:13<00:09, 22.47it/s]
+[1ALoading weights:  66%|██████▌   | 381/579 [00:15<00:20,  9.60it/s]
+Qwen/Qwen2.5-1.5B-Instruct 60 / 420
+[1ALoading weights:  67%|██████▋   | 388/579 [00:16<00:16, 11.34it/s]
+[1ALoading weights:  71%|███████▏  | 413/579 [00:16<00:06, 24.50it/s]
+[1ALoading weights:  73%|███████▎  | 424/579 [00:16<00:05, 30.20it/s]
+Qwen/Qwen2.5-3B-Instruct 30 / 420
+[1ALoading weights:  78%|███████▊  | 450/579 [00:16<00:04, 32.19it/s]
+[1ALoading weights:  79%|███████▉  | 458/579 [00:17<00:05, 23.36it/s]
+[1ALoading weights:  81%|████████  | 467/579 [00:18<00:04, 23.94it/s]
+[1ALoading weights:  83%|████████▎ | 478/579 [00:18<00:03, 25.36it/s]
+[1ALoading weights:  85%|████████▌ | 493/579 [00:18<00:02, 35.01it/s]
+[1ALoading weights:  87%|████████▋ | 506/579 [00:18<00:01, 44.45it/s]
+Qwen/Qwen2.5-0.5B-Instruct 60 / 420
+[1ALoading weights:  89%|████████▉ | 515/579 [00:18<00:01, 49.07it/s]
+Qwen/Qwen2.5-1.5B-Instruct 70 / 420
+[1ALoading weights:  91%|█████████ | 527/579 [00:19<00:01, 45.94it/s]
+[1ALoading weights:  92%|█████████▏| 534/579 [00:19<00:01, 38.71it/s]
+[1ALoading weights:  93%|█████████▎| 540/579 [00:19<00:00, 39.08it/s]
+[1ALoading weights:  94%|█████████▍| 546/579 [00:19<00:01, 29.11it/s]
+[1ALoading weights:  95%|█████████▍| 550/579 [00:20<00:00, 29.41it/s]
+[1ALoading weights: 100%|██████████| 579/579 [00:20<00:00, 28.65it/s]
+Qwen/Qwen2.5-1.5B-Instruct 80 / 420
+Qwen/Qwen2.5-0.5B-Instruct 70 / 420
+Qwen/Qwen2.5-3B-Instruct 40 / 420
+Qwen/Qwen2.5-7B-Instruct 20 / 420
+Qwen/Qwen2.5-1.5B-Instruct 90 / 420
+Qwen/Qwen2.5-0.5B-Instruct 80 / 420
+Qwen/Qwen2.5-1.5B-Instruct 100 / 420
+Qwen/Qwen2.5-3B-Instruct 50 / 420
+Qwen/Qwen2.5-0.5B-Instruct 90 / 420
+Qwen/Qwen2.5-1.5B-Instruct 110 / 420
+Qwen/Qwen2.5-7B-Instruct 30 / 420
+Qwen/Qwen2.5-0.5B-Instruct 100 / 420
+Qwen/Qwen2.5-3B-Instruct 60 / 420
+Qwen/Qwen2.5-0.5B-Instruct 110 / 420
+Qwen/Qwen2.5-1.5B-Instruct 120 / 420
+Qwen/Qwen2.5-7B-Instruct 40 / 420
+Qwen/Qwen2.5-1.5B-Instruct 130 / 420
+Qwen/Qwen2.5-0.5B-Instruct 120 / Qwen/Qwen2.5-3B-Instruct 420
+70 / 420
+Qwen/Qwen2.5-0.5B-Instruct 130 / 420
+Qwen/Qwen2.5-1.5B-Instruct 140 / 420
+Qwen/Qwen2.5-3B-Instruct 80 / 420
+Qwen/Qwen2.5-1.5B-Instruct 150 / 420
+Qwen/Qwen2.5-0.5B-Instruct 140 / 420
+Qwen/Qwen2.5-14B-Instruct 10 / 420
+Qwen/Qwen2.5-1.5B-Instruct 160 / 420
+Qwen/Qwen2.5-7B-Instruct 50 / 420
+Qwen/Qwen2.5-3B-Instruct 90 / 420
+Qwen/Qwen2.5-0.5B-Instruct 150 / 420
+Qwen/Qwen2.5-1.5B-Instruct 170 / 420
+Qwen/Qwen2.5-1.5B-Instruct 180 / 420
+Qwen/Qwen2.5-0.5B-Instruct 160 / 420
+Qwen/Qwen2.5-3B-Instruct 100 / 420
+Qwen/Qwen2.5-1.5B-Instruct 190 / 420
+Qwen/Qwen2.5-7B-Instruct 60 / 420
+Qwen/Qwen2.5-0.5B-Instruct 170 / 420
+Qwen/Qwen2.5-1.5B-Instruct 200 / 420
+Qwen/Qwen2.5-3B-Instruct 110 / 420
+Qwen/Qwen2.5-0.5B-Instruct 180 / 420
+Qwen/Qwen2.5-14B-Instruct 20 / 420
+Qwen/Qwen2.5-1.5B-Instruct 210 / 420
+Qwen/Qwen2.5-7B-Instruct 70 / 420
+Qwen/Qwen2.5-0.5B-Instruct 190 / 420
+Qwen/Qwen2.5-1.5B-Instruct 220 / 420
+Qwen/Qwen2.5-3B-Instruct 120 / 420
+Qwen/Qwen2.5-1.5B-Instruct 230 / 420
+Qwen/Qwen2.5-0.5B-Instruct 200 / 420
+Qwen/Qwen2.5-7B-Instruct 80 / 420
+Qwen/Qwen2.5-1.5B-Instruct 240 / 420
+Qwen/Qwen2.5-0.5B-Instruct 210 / 420
+Qwen/Qwen2.5-3B-Instruct 130 / 420
+Qwen/Qwen2.5-1.5B-Instruct 250 / 420
+Qwen/Qwen2.5-0.5B-InstructQwen/Qwen2.5-14B-Instruct  220 / 420
+30 / 420
+Qwen/Qwen2.5-7B-Instruct 90 / 420
+Qwen/Qwen2.5-1.5B-Instruct 260 / 420
+Qwen/Qwen2.5-3B-Instruct 140 / 420
+Qwen/Qwen2.5-0.5B-Instruct 230 / 420
+Qwen/Qwen2.5-1.5B-Instruct 270 / 420
+Qwen/Qwen2.5-1.5B-Instruct 280 / 420
+Qwen/Qwen2.5-0.5B-Instruct 240 / 420
+Qwen/Qwen2.5-3B-Instruct 150 / 420
+Qwen/Qwen2.5-7B-Instruct 100 / 420
+Qwen/Qwen2.5-1.5B-Instruct 290 / 420
+Qwen/Qwen2.5-0.5B-Instruct 250 / 420
+Qwen/Qwen2.5-3B-Instruct 160 / 420
+Qwen/Qwen2.5-1.5B-Instruct 300 / 420
+Qwen/Qwen2.5-14B-Instruct 40 / 420
+Qwen/Qwen2.5-0.5B-Instruct 260 / 420
+Qwen/Qwen2.5-7B-Instruct 110 / 420
+Qwen/Qwen2.5-1.5B-Instruct 310 / 420
+Qwen/Qwen2.5-3B-Instruct 170 / 420
+Qwen/Qwen2.5-0.5B-Instruct 270 / 420
+Qwen/Qwen2.5-1.5B-Instruct 320 / 420
+Qwen/Qwen2.5-0.5B-Instruct 280 / 420
+Qwen/Qwen2.5-7B-Instruct 120 / 420
+Qwen/Qwen2.5-1.5B-Instruct 330 / 420
+Qwen/Qwen2.5-3B-Instruct 180 / 420
+Qwen/Qwen2.5-0.5B-Instruct 290 / 420
+Qwen/Qwen2.5-1.5B-Instruct 340 / 420
+Qwen/Qwen2.5-14B-Instruct 50 / 420
+Qwen/Qwen2.5-0.5B-Instruct 300 / 420
+Qwen/Qwen2.5-1.5B-Instruct 350 / 420
+Qwen/Qwen2.5-3B-Instruct 190 / 420
+Qwen/Qwen2.5-0.5B-Instruct 310 / 420
+Qwen/Qwen2.5-1.5B-Instruct 360 / 420
+Qwen/Qwen2.5-7B-Instruct 130 / 420
+Qwen/Qwen2.5-3B-Instruct 200 / 420
+Qwen/Qwen2.5-1.5B-Instruct 370 / 420
+Qwen/Qwen2.5-0.5B-Instruct 320 / 420
+Qwen/Qwen2.5-0.5B-Instruct 330 / 420Qwen/Qwen2.5-1.5B-Instruct 380 / 420
+
+Qwen/Qwen2.5-3B-Instruct 210 / 420
+Qwen/Qwen2.5-7B-Instruct 140 / 420
+Qwen/Qwen2.5-1.5B-Instruct 390 / 420
+Qwen/Qwen2.5-0.5B-Instruct 340 / 420
+Qwen/Qwen2.5-14B-Instruct 60 / 420
+Qwen/Qwen2.5-3B-Instruct 220 / 420
+Qwen/Qwen2.5-0.5B-Instruct 350 / 420
+Qwen/Qwen2.5-1.5B-Instruct 400 / 420
+Qwen/Qwen2.5-7B-Instruct 150 / 420
+Qwen/Qwen2.5-1.5B-Instruct 410 / 420
+Qwen/Qwen2.5-0.5B-Instruct 360 / 420
+Qwen/Qwen2.5-3B-Instruct 230 / 420
+Qwen/Qwen2.5-1.5B-Instruct 420 / 420
+Qwen/Qwen2.5-0.5B-Instruct 370 / 420
+Qwen/Qwen2.5-7B-Instruct 160 / 420
+Qwen/Qwen2.5-3B-Instruct 240 / 420
+Qwen/Qwen2.5-0.5B-Instruct 380 / 420
+Qwen/Qwen2.5-14B-Instruct 70 / 420
+Qwen/Qwen2.5-0.5B-Instruct 390 / 420
+Qwen/Qwen2.5-3B-Instruct 250 / 420
+Qwen/Qwen2.5-7B-Instruct 170 / 420
+Qwen/Qwen2.5-0.5B-Instruct 400 / 420
+Qwen/Qwen2.5-3B-Instruct 260 / 420
+Qwen/Qwen2.5-7B-Instruct 180 / 420
+Qwen/Qwen2.5-0.5B-Instruct 410 / 420
+Qwen/Qwen2.5-0.5B-Instruct 420 / 420
+done Qwen/Qwen2.5-0.5B-Instruct
+done Qwen/Qwen2.5-1.5B-Instruct
+Qwen/Qwen2.5-3B-Instruct 270 / 420
+Qwen/Qwen2.5-14B-Instruct 80 / 420
+Qwen/Qwen2.5-7B-Instruct 190 / 420
+Qwen/Qwen2.5-3B-Instruct 280 / 420
+Qwen/Qwen2.5-3B-Instruct 290 / 420
+Qwen/Qwen2.5-7B-Instruct 200 / 420
+Qwen/Qwen2.5-14B-Instruct 90 / 420
+Qwen/Qwen2.5-3B-Instruct 300 / 420
+Qwen/Qwen2.5-7B-Instruct 210 / 420
+Qwen/Qwen2.5-3B-Instruct 310 / 420
+Qwen/Qwen2.5-7B-Instruct 220 / 420
+Qwen/Qwen2.5-3B-Instruct 320 / 420
+Qwen/Qwen2.5-14B-Instruct 100 / 420
+Qwen/Qwen2.5-7B-Instruct 230 / 420
+Qwen/Qwen2.5-3B-Instruct 330 / 420
+Qwen/Qwen2.5-3B-Instruct 340 / 420
+Qwen/Qwen2.5-7B-Instruct 240 / 420
+Qwen/Qwen2.5-3B-Instruct 350 / 420
+Qwen/Qwen2.5-14B-Instruct 110 / 420
+Qwen/Qwen2.5-7B-Instruct 250 / 420
+Qwen/Qwen2.5-3B-Instruct 360 / 420
+Qwen/Qwen2.5-7B-Instruct 260 / 420
+Qwen/Qwen2.5-3B-Instruct 370 / 420
+Qwen/Qwen2.5-3B-Instruct 380 / 420
+Qwen/Qwen2.5-14B-Instruct 120 / 420
+Qwen/Qwen2.5-7B-Instruct 270 / 420
+Qwen/Qwen2.5-3B-Instruct 390 / 420
+Qwen/Qwen2.5-7B-Instruct 280 / 420
+Qwen/Qwen2.5-3B-Instruct 400 / 420
+Qwen/Qwen2.5-7B-Instruct 290 / 420
+Qwen/Qwen2.5-14B-Instruct 130 / 420
+Qwen/Qwen2.5-3B-Instruct 410 / 420
+Qwen/Qwen2.5-3B-Instruct 420 / 420
+done Qwen/Qwen2.5-3B-Instruct
+Qwen/Qwen2.5-7B-Instruct 300 / 420
+Qwen/Qwen2.5-7B-Instruct 310 / 420
+Qwen/Qwen2.5-14B-Instruct 140 / 420
+Qwen/Qwen2.5-7B-Instruct 320 / 420
+Qwen/Qwen2.5-7B-Instruct 330 / 420
+Qwen/Qwen2.5-14B-Instruct 150 / 420
+Qwen/Qwen2.5-7B-Instruct 340 / 420
+Qwen/Qwen2.5-7B-Instruct 350 / 420
+Qwen/Qwen2.5-14B-Instruct 160 / 420
+Qwen/Qwen2.5-7B-Instruct 360 / 420
+Qwen/Qwen2.5-7B-Instruct 370 / 420
+Qwen/Qwen2.5-14B-Instruct 170 / 420
+Qwen/Qwen2.5-7B-Instruct 380 / 420
+Qwen/Qwen2.5-7B-Instruct 390 / 420
+Qwen/Qwen2.5-14B-Instruct 180 / 420
+Qwen/Qwen2.5-7B-Instruct 400 / 420
+[W1016 11:26:44.999026163 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 1054867456 bytes (free: 944766976, total: 47695921152).
+Qwen/Qwen2.5-7B-Instruct 410 / 420
+Qwen/Qwen2.5-7B-Instruct 420 / 420
+done Qwen/Qwen2.5-7B-Instruct
+Qwen/Qwen2.5-14B-Instruct 190 / 420
+Qwen/Qwen2.5-14B-Instruct 200 / 420
+Qwen/Qwen2.5-14B-Instruct 210 / 420
+[W1016 11:27:36.033700381 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 1088421888 bytes (free: 804257792, total: 47695921152).
+Qwen/Qwen2.5-14B-Instruct 220 / 420
+Qwen/Qwen2.5-14B-Instruct 230 / 420
+Qwen/Qwen2.5-14B-Instruct 240 / 420
+Qwen/Qwen2.5-14B-Instruct 250 / 420
+Qwen/Qwen2.5-14B-Instruct 260 / 420
+Qwen/Qwen2.5-14B-Instruct 270 / 420
+Qwen/Qwen2.5-14B-Instruct 280 / 420
+Qwen/Qwen2.5-14B-Instruct 290 / 420
+Qwen/Qwen2.5-14B-Instruct 300 / 420
+Qwen/Qwen2.5-14B-Instruct 310 / 420
+Qwen/Qwen2.5-14B-Instruct 320 / 420
+Qwen/Qwen2.5-14B-Instruct 330 / 420
+Qwen/Qwen2.5-14B-Instruct 340 / 420
+Qwen/Qwen2.5-14B-Instruct 350 / 420
+Qwen/Qwen2.5-14B-Instruct 360 / 420
+Qwen/Qwen2.5-14B-Instruct 370 / 420
+Qwen/Qwen2.5-14B-Instruct 380 / 420
+Qwen/Qwen2.5-14B-Instruct 390 / 420
+Qwen/Qwen2.5-14B-Instruct 400 / 420
+Qwen/Qwen2.5-14B-Instruct 410 / 420
+Qwen/Qwen2.5-14B-Instruct 420 / 420
+done Qwen/Qwen2.5-14B-Instruct
+an error occurred during closing of asynchronous generator <async_generator object async_merge at 0x7ffa32bcefb0>
+asyncgen: <async_generator object async_merge at 0x7ffa32bcefb0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py", line 858, in __iter__
+    yield from run_async_gen(runner, self._async_iterable)
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+RuntimeError: aclose(): asynchronous generator is already running
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-yEqPit89AcHNyFOMxhhhIb
+EXIT 0

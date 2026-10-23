@@ -1,0 +1,16 @@
+checks: {'repeat_max_diff': 0.0}
+U v1: traps n 113 right 98% habit 2 distractor 0 | plain n 25 right 100% -> -
+U v2: traps n 101 right 96% habit 4 distractor 0 | plain n 26 right 96% -> -
+U v3: traps n 117 right 100% habit 0 distractor 0 | plain n 27 right 100% -> -
+U v4: traps n 118 right 98% habit 2 distractor 0 | plain n 29 right 100% -> -
+K v1: traps n 83 right 88% habit 10 distractor 0 | plain n 18 right 100% -> -
+K v2: traps n 16 right 100% habit 0 distractor 0 | plain n 28 right 100% -> -
+K v3: traps n 41 right 100% habit 0 distractor 0 | plain n 25 right 100% -> -
+D v1: traps n 90 right 68% habit 29 distractor 0 | plain n 11 right 100% -> eligible
+D v2: traps n 111 right 100% habit 0 distractor 0 | plain n 25 right 100% -> -
+D v3: traps n 120 right 100% habit 0 distractor 0 | plain n 26 right 100% -> -
+D v4: traps n 119 right 100% habit 0 distractor 0 | plain n 25 right 100% -> -
+chosen variants: {'D': 1}
+M threshold 21.625 (dev BA 0.716)
+H cells D: ['cube', 'hexagon']
+families entered: 1 (need >= 2, else stop: nothing to say)

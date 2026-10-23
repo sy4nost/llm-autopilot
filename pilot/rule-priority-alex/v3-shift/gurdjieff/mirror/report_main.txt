@@ -1,0 +1,38 @@
+items scored with all 4 lines: 1399
+## Sanity: NONE pick == saved DIRECT pick (exact ties excluded), need >= 98% per family
+  R: 99.8% of 1015
+  D: 100.0% of 372
+SANITY PASS
+
+## Lamp firings per population (lamp fires on 30% of each family)
+  R/traps         199 of 378
+  D/traps         107 of 258
+  R/cfright        46 of 210
+  R/agree           0 of 84
+  R/compute        63 of 354
+  D/no-conflict     5 of 115
+
+## Accuracy per population (right answers of 100)
+  population          BASE    MIRROR     HINTL   GENERIC  RANDOM-S  TEMPLATE      CONF       ALL
+  R/traps             47.1      44.4      63.8      42.6      45.3      44.2      43.7      43.7
+  D/traps             78.3      65.5      99.6      79.5      71.4      66.5      63.6      61.6
+  R/cfright           98.6     100.0     100.0     100.0      98.8     100.0      99.5      99.5
+  R/agree            100.0     100.0     100.0     100.0     100.0     100.0     100.0     100.0
+  R/compute           82.8      82.2      82.5      82.5      82.9      82.8      83.6      83.3
+  D/no-conflict      100.0     100.0     100.0     100.0     100.0     100.0     100.0     100.0
+  traps (mean)        62.7      55.0      81.7      61.0      58.3      55.4      53.6      52.6
+
+M1 MIRROR - BASE traps -7.7 [-12.1, -4.3] need > 0, low > 0 -> FAIL
+M2 MIRROR - best simple placement (RANDOM-S) traps -3.4 [-6.1, -1.2] need >= +3, low > 0 -> FAIL
+M3 MIRROR - HINTL traps -26.7 [-35.2, -18.6] need >= +3, low > 0 -> FAIL
+M5 (6 populations, equal weight) MIRROR - ALL traps+harm +0.7 [+0.1, +1.3] need >= 0 (point) -> PASS
+   harm R/cfright      MIRROR-BASE +1.4 [+0.0, +3.3]   ALL-BASE +1.0 [-1.0, +2.9]
+   harm R/agree        MIRROR-BASE +0.0 [+0.0, +0.0]   ALL-BASE +0.0 [+0.0, +0.0]
+   harm R/compute      MIRROR-BASE -0.6 [-1.4, +0.0]   ALL-BASE +0.6 [-1.7, +2.8]
+   harm D/no-conflict  MIRROR-BASE +0.0 [+0.0, +0.0]   ALL-BASE +0.0 [+0.0, +0.0]
+HARM every population MIRROR - BASE low >= -5 -> PASS
+
+VERDICT: mirror NOT shown
+report: HINTL - BASE traps +19.0 [+12.6, +25.5];  GENERIC - BASE traps -1.7
+report: R/cfright/T0 n 50 fires 46  BASE 94 MIRROR 100 HINTL 100 ALL 100
+report: R/traps/T7 n 24 fires 0  BASE 0 MIRROR 0 HINTL 0 ALL 0

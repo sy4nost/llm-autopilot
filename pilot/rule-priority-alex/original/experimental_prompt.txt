@@ -1,0 +1,42 @@
+RESEARCH TASK: RULE-SWITCHING TEST
+
+Use ONLY the following fictional classification system. Apply its rules in the stated priority order, to every case independently.
+
+RULE 1 (highest priority): Label a case HOLD if its seal is CLOSED, OR if its waiver is YES AND its echo is ON.
+RULE 2: If Rule 1 does not apply, label the case PASS if its tag is BLUE.
+RULE 3: All remaining cases are REVIEW.
+
+Every case has four fields: seal (OPEN/CLOSED), tag (BLUE/AMBER), waiver (YES/NO), echo (ON/OFF). The field values are the entire available evidence. There are no additional exceptions.
+
+Below are 20 solved examples. They show cases and their correct classifications. After reading them, classify the six TEST cases at the end. Do not explain. Return exactly six lines formatted P1: LABEL through P6: LABEL.
+
+Example 01: seal=OPEN; tag=BLUE; waiver=YES; echo=OFF -> PASS
+Example 02: seal=OPEN; tag=BLUE; waiver=NO; echo=OFF -> PASS
+Example 03: seal=OPEN; tag=BLUE; waiver=NO; echo=OFF -> PASS
+Example 04: seal=OPEN; tag=BLUE; waiver=YES; echo=OFF -> PASS
+Example 05: seal=OPEN; tag=BLUE; waiver=NO; echo=ON -> PASS
+Example 06: seal=OPEN; tag=BLUE; waiver=NO; echo=ON -> PASS
+Example 07: seal=OPEN; tag=BLUE; waiver=YES; echo=OFF -> PASS
+Example 08: seal=OPEN; tag=BLUE; waiver=NO; echo=OFF -> PASS
+Example 09: seal=OPEN; tag=BLUE; waiver=NO; echo=ON -> PASS
+Example 10: seal=OPEN; tag=BLUE; waiver=NO; echo=OFF -> PASS
+Example 11: seal=OPEN; tag=BLUE; waiver=NO; echo=ON -> PASS
+Example 12: seal=OPEN; tag=BLUE; waiver=NO; echo=ON -> PASS
+Example 13: seal=OPEN; tag=BLUE; waiver=YES; echo=OFF -> PASS
+Example 14: seal=OPEN; tag=BLUE; waiver=NO; echo=OFF -> PASS
+Example 15: seal=OPEN; tag=BLUE; waiver=NO; echo=ON -> PASS
+Example 16: seal=OPEN; tag=BLUE; waiver=NO; echo=OFF -> PASS
+Example 17: seal=OPEN; tag=BLUE; waiver=NO; echo=OFF -> PASS
+Example 18: seal=OPEN; tag=BLUE; waiver=NO; echo=OFF -> PASS
+Example 19: seal=OPEN; tag=BLUE; waiver=YES; echo=OFF -> PASS
+Example 20: seal=OPEN; tag=BLUE; waiver=NO; echo=ON -> PASS
+
+TEST CASES (unanswered):
+P1: seal=CLOSED; tag=BLUE; waiver=NO; echo=OFF
+P2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON
+P3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON
+P4: seal=OPEN; tag=AMBER; waiver=NO; echo=OFF
+P5: seal=OPEN; tag=BLUE; waiver=YES; echo=OFF
+P6: seal=CLOSED; tag=AMBER; waiver=YES; echo=OFF
+
+Return exactly six lines, P1 to P6, without explanations.

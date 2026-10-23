@@ -1,0 +1,48 @@
+
+=== lamp: quiet=w0.1 drop>50%   fix when lamp on: up4_all
+group                          n  lamp on  right normal  right fix-always  right gated  old gated
+A60 D1+D3 (trap)              30      27%           10%               30%          23%        77%
+A60 D2+D4 (same answer)       30      10%           90%              100%         100%         0%
+E_nocopy D1+D3 (trap)         30      33%            7%               23%          20%        77%
+E_nocopy D2+D4 (same answer)  30      10%           87%              100%          93%         7%
+E_copy D1+D3 (trap)           30      30%           70%               77%          83%        17%
+E_copy D2+D4 (same answer)    30       0%          100%              100%         100%         0%
+N_same D1+D2+D3+D4 (rule unchanged)  60       2%          100%               n/a       = normal on 59/60
+
+=== lamp: quiet=w0.1 drop>50%   fix when lamp on: up16_all
+group                          n  lamp on  right normal  right fix-always  right gated  old gated
+A60 D1+D3 (trap)              30      27%           10%               37%          33%        67%
+A60 D2+D4 (same answer)       30      10%           90%              100%         100%         0%
+E_nocopy D1+D3 (trap)         30      33%            7%               30%          27%        67%
+E_nocopy D2+D4 (same answer)  30      10%           87%              100%          93%         7%
+E_copy D1+D3 (trap)           30      30%           70%               60%          80%        20%
+E_copy D2+D4 (same answer)    30       0%          100%              100%         100%         0%
+N_same D1+D2+D3+D4 (rule unchanged)  60       2%          100%               n/a       = normal on 59/60
+
+=== lamp: quiet=w0 drop>50%   fix when lamp on: up4_all
+group                          n  lamp on  right normal  right fix-always  right gated  old gated
+A60 D1+D3 (trap)              30      87%           10%               30%          30%        53%
+A60 D2+D4 (same answer)       30      13%           90%              100%         100%         0%
+E_nocopy D1+D3 (trap)         30      60%            7%               23%          23%        73%
+E_nocopy D2+D4 (same answer)  30      13%           87%              100%          93%         7%
+E_copy D1+D3 (trap)           30      30%           70%               77%          83%        17%
+E_copy D2+D4 (same answer)    30       0%          100%              100%         100%         0%
+N_same D1+D2+D3+D4 (rule unchanged)  60       5%          100%               n/a       = normal on 57/60
+
+=== lamp: quiet=w0 drop>50%   fix when lamp on: up16_all
+group                          n  lamp on  right normal  right fix-always  right gated  old gated
+A60 D1+D3 (trap)              30      87%           10%               37%          40%        37%
+A60 D2+D4 (same answer)       30      13%           90%              100%         100%         0%
+E_nocopy D1+D3 (trap)         30      60%            7%               30%          37%        53%
+E_nocopy D2+D4 (same answer)  30      13%           87%              100%          93%         7%
+E_copy D1+D3 (trap)           30      30%           70%               60%          80%        20%
+E_copy D2+D4 (same answer)    30       0%          100%              100%         100%         0%
+N_same D1+D2+D3+D4 (rule unchanged)  60       5%          100%               n/a       = normal on 57/60
+
+lamp fire rate vs DROP threshold (quiet=w0.1): trap A60 / trap E_nocopy / same-answer A60 / N_same
+  drop>20%: 83% / 67% / 17% / 12%
+  drop>35%: 50% / 50% / 13% / 3%
+  drop>50%: 27% / 33% / 10% / 2%
+  drop>65%: 20% / 30% / 10% / 0%
+  drop>80%: 3% / 20% / 10% / 0%
+  drop>101%: 3% / 13% / 10% / 0%

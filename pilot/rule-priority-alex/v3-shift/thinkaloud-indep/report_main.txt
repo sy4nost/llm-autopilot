@@ -1,0 +1,73 @@
+checks: {}
+
+## Share right per task / population
+  task     pop        n      direct direct_mean        rawc   rawc_mean       instr       think      thinki think_force thinki_forc   parsed T/TI  agree T/TI  trunc T/TI
+  memo     trap     120       83.3%       80.8%       59.2%       55.0%       84.2%       98.3%       96.7%       90.0%       94.2%    89%  92%   92%  98%    0%   0%
+  memo     control   80      100.0%      100.0%       98.8%       98.8%       98.8%      100.0%      100.0%      100.0%      100.0%    86%  90%  100% 100%    0%   0%
+  neqa     trap     120       72.5%       72.5%       70.0%       70.0%       75.8%       77.5%       77.5%       78.3%       77.5%   100% 100%   99%  98%    0%   0%
+  neqa     control   80       92.5%       92.5%       95.0%       95.0%       91.2%       91.2%       88.8%       91.2%       90.0%    98% 100%   98%  99%    0%   0%
+  hind     trap     120       35.8%       35.8%       55.8%       55.8%       20.0%       85.0%       38.3%       85.0%       38.3%   100% 100%  100% 100%    0%   0%
+  hind     control   80      100.0%      100.0%      100.0%      100.0%      100.0%      100.0%       98.8%      100.0%       98.8%   100% 100%  100% 100%    0%   0%
+  unknown  trap     100       53.0%       53.0%       49.0%       49.0%       52.0%       63.0%       63.0%       61.0%       61.0%   100%  98%   98%  98%    0%   0%
+  alg      trap     120      100.0%      100.0%      100.0%      100.0%      100.0%      100.0%      100.0%      100.0%      100.0%   100% 100%  100% 100%    0%   0%
+  alg      control   80      100.0%      100.0%      100.0%      100.0%      100.0%      100.0%      100.0%      100.0%      100.0%   100% 100%  100% 100%    0%   0%
+  modus    trap     100      100.0%      100.0%      100.0%      100.0%      100.0%       98.0%      100.0%       98.0%      100.0%   100% 100%  100% 100%    0%   0%
+  quote    trap     100       97.0%       97.0%       97.0%       97.0%       99.0%       96.0%      100.0%       96.0%      100.0%    58%  34%  100% 100%    0%   0%
+  pattern  trap     100       56.0%       56.0%       33.0%       33.0%       53.0%       50.0%       55.0%       48.0%       53.0%    56%  55%   98%  98%    0%   0%
+  redef    trap     100       76.0%       76.0%       56.0%       56.0%       83.0%       84.0%       92.0%       84.0%       92.0%   100% 100%  100% 100%    0%   0%
+  mmlu     trap    1000       77.8%       77.8%       78.3%       78.3%       75.1%       79.6%       79.0%       79.5%       78.8%    92%  94%  100% 100%    6%   5%
+  per class, main traps (shows class shifts):
+    memo     right=0 n 60 direct 90% instr 87% think 98% thinki 98%
+    memo     right=1 n 60 direct 77% instr 82% think 98% thinki 95%
+    neqa     right=0 n 60 direct 67% instr 68% think 77% thinki 70%
+    neqa     right=1 n 60 direct 78% instr 83% think 78% thinki 85%
+    hind     right=0 n 60 direct 20% instr 10% think 98% thinki 50%
+    hind     right=1 n 60 direct 52% instr 30% think 72% thinki 27%
+    unknown  right=0 n 50 direct 44% instr 44% think 56% thinki 58%
+    unknown  right=1 n 50 direct 62% instr 60% think 70% thinki 68%
+    alg      right=0 n 60 direct 100% instr 100% think 100% thinki 100%
+    alg      right=1 n 60 direct 100% instr 100% think 100% thinki 100%
+
+######## PRE-REGISTERED VERDICT (main traps: memo, NeQA, hindsight, into-the-unknown, repetitive-algebra; equal weight)
+C1 THINK  - direct      +15.8 [+12.5, +19.0] need >= +5, low > 0 -> PASS
+C1 THINK  - direct_mean +16.3 [+13.1, +19.6] need >= +5, low > 0 -> PASS
+C1 THINK  - rawc        +18.0 [+14.2, +21.8] need >= +5, low > 0 -> PASS
+C1 THINK  families with a gain over DIRECT: 4 of 5 (need >= 3) -> PASS
+C3 THINK harm on controls (habit answer right) -0.3 [-1.9, +1.3] need >= -5, low >= -10, every family >= -10 (per family [0.0, -1.2, 0.0, 0.0]) -> PASS
+C3 THINK harm on MMLU (1000) +1.8 [-0.5, +4.0] need >= -2, low >= -5 -> PASS
+C2 THINKI - direct      +6.2 [+2.7, +9.5] need >= +5, low > 0 -> PASS
+C2 THINKI - direct_mean +6.7 [+3.3, +10.0] need >= +5, low > 0 -> PASS
+C2 THINKI - rawc        +8.3 [+4.4, +12.3] need >= +5, low > 0 -> PASS
+C2 THINKI families with a gain over DIRECT: 4 of 5 (need >= 3) -> PASS
+C3 THINKI harm on controls (habit answer right) -1.3 [-3.1, +0.6] need >= -5, low >= -10, every family >= -10 (per family [0.0, -3.8, -1.2, 0.0]) -> PASS
+C3 THINKI harm on MMLU (1000) +1.2 [-0.9, +3.4] need >= -2, low >= -5 -> PASS
+VERDICT THINK : HELPS on independent tasks
+VERDICT THINKI: HELPS on independent tasks
+
+######## Report only
+  THINK  - INSTR  main traps +18.4 [+15.2, +21.5] | controls +0.3 [-1.6, +2.2]
+  THINKI - INSTR  main traps +8.7 [+5.5, +11.9] | controls -0.6 [-2.5, +1.3]
+  THINKI - THINK  main traps -9.7 [-12.4, -6.9] | controls -0.9 [-2.8, +0.9]
+  INSTR  - DIRECT main traps -2.5 [-4.6, -0.6] | controls -0.6 [-1.9, +0.6]
+  per task deltas vs DIRECT [95%]  (THINK | THINKI | INSTR):
+    memo     trap    +15.0 [+8.3, +22.5] | +13.3 [+7.5, +20.0] | +0.8 [-2.5, +5.0]
+    neqa     trap    +5.0 [-1.7, +11.7] | +5.0 [-1.7, +11.7] | +3.3 [-0.8, +7.5]
+    hind     trap    +49.2 [+38.3, +60.0] | +2.5 [-9.2, +15.0] | -15.8 [-23.3, -9.2]
+    unknown  trap    +10.0 [+3.0, +17.0] | +10.0 [+4.0, +17.0] | -1.0 [-5.8, +3.1]
+    alg      trap    +0.0 [+0.0, +0.0] | +0.0 [+0.0, +0.0] | +0.0 [+0.0, +0.0]
+    memo     control +0.0 [+0.0, +0.0] | +0.0 [+0.0, +0.0] | -1.2 [-3.7, +0.0]
+    neqa     control -1.3 [-7.5, +5.0] | -3.8 [-11.3, +3.7] | -1.3 [-6.2, +2.5]
+    hind     control +0.0 [+0.0, +0.0] | -1.2 [-3.7, +0.0] | +0.0 [+0.0, +0.0]
+    alg      control +0.0 [+0.0, +0.0] | +0.0 [+0.0, +0.0] | +0.0 [+0.0, +0.0]
+    modus    trap    -2.0 [-5.0, +0.0] | +0.0 [+0.0, +0.0] | +0.0 [+0.0, +0.0]
+    quote    trap    -1.0 [-6.0, +4.0] | +3.0 [+0.0, +6.5] | +2.0 [+0.0, +5.1]
+    pattern  trap    -6.0 [-18.0, +6.0] | -1.0 [-14.0, +12.0] | -3.0 [-10.0, +4.0]
+    redef    trap    +8.0 [-1.0, +18.0] | +16.0 [+7.0, +26.0] | +7.0 [+1.0, +14.0]
+    mmlu     trap    +1.8 [-0.5, +4.0] | +1.2 [-0.9, +3.4] | -2.7 [-4.2, -1.4]
+  detector 'THINK answer != DIRECT answer' -> DIRECT wrong (per task, traps+controls, needs >= 5 of each):
+    memo     AUC flag 0.97  low-confidence 0.78  DIRECT errors 20
+    neqa     AUC flag 0.65  low-confidence 0.75  DIRECT errors 39
+    hind     AUC flag 0.90  low-confidence 0.77  DIRECT errors 77
+    unknown  AUC flag 0.61  low-confidence 0.53  DIRECT errors 47
+    alg      AUC flag nan  low-confidence nan  DIRECT errors 0
+    MMLU flag rate 16.0%

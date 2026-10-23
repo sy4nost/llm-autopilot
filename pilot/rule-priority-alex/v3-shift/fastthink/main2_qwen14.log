@@ -1,0 +1,141 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-Fy4Uc8qX03LUkw1zjOeBE9
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/fastthink/modal_
+│   ft.py
+├── ✓ Created Function run.
+└── ✓ Created Function fetch.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   6%|▌         | 32/579 [00:00<00:01, 295.66it/s]
+[1ALoading weights:  11%|█         | 62/579 [00:00<00:02, 258.18it/s]
+[1ALoading weights:  16%|█▌        | 91/579 [00:00<00:01, 245.38it/s]
+[1ALoading weights:  21%|██        | 119/579 [00:00<00:01, 236.29it/s]
+[1ALoading weights:  25%|██▍       | 143/579 [00:00<00:02, 208.72it/s]
+[1ALoading weights:  30%|██▉       | 173/579 [00:00<00:01, 217.65it/s]
+[1ALoading weights:  34%|███▍      | 197/579 [00:00<00:01, 208.03it/s]
+[1ALoading weights:  39%|███▊      | 223/579 [00:00<00:01, 220.38it/s]
+[1ALoading weights:  42%|████▏     | 246/579 [00:01<00:01, 201.81it/s]
+[1ALoading weights:  48%|████▊     | 276/579 [00:01<00:01, 227.45it/s]
+[1ALoading weights:  52%|█████▏    | 300/579 [00:01<00:01, 224.29it/s]
+[1ALoading weights:  56%|█████▌    | 323/579 [00:01<00:01, 192.88it/s]
+[1ALoading weights:  63%|██████▎   | 362/579 [00:01<00:00, 239.30it/s]
+[1ALoading weights:  67%|██████▋   | 389/579 [00:01<00:00, 238.06it/s]
+[1ALoading weights:  72%|███████▏  | 414/579 [00:01<00:00, 211.86it/s]
+[1ALoading weights:  78%|███████▊  | 450/579 [00:01<00:00, 238.45it/s]
+[1ALoading weights:  82%|████████▏ | 475/579 [00:02<00:00, 240.88it/s]
+[1ALoading weights:  87%|████████▋ | 501/579 [00:02<00:00, 238.06it/s]
+[1ALoading weights:  91%|█████████ | 526/579 [00:02<00:00, 223.69it/s]
+[1ALoading weights:  95%|█████████▍| 549/579 [00:02<00:00, 198.92it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 231.69it/s]
+qwen14 gen 16 / 16
+qwen14 already 864 to generate 751
+qwen14 gen 32 / 751
+qwen14 gen 64 / 751
+qwen14 gen 96 / 751
+qwen14 gen 128 / 751
+qwen14 gen 160 / 751
+qwen14 gen 192 / 751
+qwen14 gen 224 / 751
+qwen14 gen 256 / 751
+qwen14 gen 288 / 751
+qwen14 gen 320 / 751
+qwen14 gen 352 / 751
+qwen14 gen 384 / 751
+qwen14 gen 416 / 751
+qwen14 gen 448 / 751
+qwen14 gen 480 / 751
+qwen14 gen 512 / 751
+qwen14 gen 544 / 751
+qwen14 gen 576 / 751
+qwen14 gen 608 / 751
+qwen14 gen 638 / 751
+qwen14 gen 668 / 751
+qwen14 gen 698 / 751
+qwen14 gen 728 / 751
+qwen14 gen 751 / 751
+qwen14 samp 32 / 1615
+qwen14 samp 64 / 1615
+qwen14 samp 96 / 1615
+qwen14 samp 128 / 1615
+qwen14 samp 160 / 1615
+qwen14 samp 192 / 1615
+qwen14 samp 224 / 1615
+qwen14 samp 256 / 1615
+qwen14 samp 288 / 1615
+qwen14 samp 320 / 1615
+qwen14 samp 352 / 1615
+qwen14 samp 384 / 1615
+qwen14 samp 416 / 1615
+qwen14 samp 448 / 1615
+qwen14 samp 480 / 1615
+qwen14 samp 512 / 1615
+qwen14 samp 544 / 1615
+qwen14 samp 576 / 1615
+qwen14 samp 608 / 1615
+qwen14 samp 640 / 1615
+qwen14 samp 672 / 1615
+qwen14 samp 704 / 1615
+qwen14 samp 736 / 1615
+qwen14 samp 768 / 1615
+qwen14 samp 800 / 1615
+qwen14 samp 832 / 1615
+qwen14 samp 864 / 1615
+qwen14 samp 896 / 1615
+qwen14 samp 928 / 1615
+qwen14 samp 960 / 1615
+qwen14 samp 992 / 1615
+qwen14 samp 1024 / 1615
+qwen14 samp 1056 / 1615
+qwen14 samp 1088 / 1615
+qwen14 samp 1120 / 1615
+qwen14 samp 1152 / 1615
+qwen14 samp 1184 / 1615
+qwen14 samp 1216 / 1615
+qwen14 samp 1248 / 1615
+qwen14 samp 1280 / 1615
+qwen14 samp 1312 / 1615
+qwen14 samp 1341 / 1615
+qwen14 samp 1365 / 1615
+qwen14 samp 1385 / 1615
+qwen14 samp 1405 / 1615
+qwen14 samp 1424 / 1615
+qwen14 samp 1443 / 1615
+qwen14 samp 1462 / 1615
+qwen14 samp 1481 / 1615
+qwen14 samp 1495 / 1615
+qwen14 samp 1504 / 1615
+qwen14 samp 1513 / 1615
+qwen14 samp 1522 / 1615
+qwen14 samp 1531 / 1615
+qwen14 samp 1540 / 1615
+qwen14 samp 1549 / 1615
+qwen14 samp 1558 / 1615
+qwen14 samp 1567 / 1615
+qwen14 samp 1576 / 1615
+qwen14 samp 1585 / 1615
+qwen14 samp 1594 / 1615
+qwen14 samp 1603 / 1615
+qwen14 samp 1612 / 1615
+qwen14 samp 1615 / 1615
+qwen14 score 100 / 1615
+qwen14 score 200 / 1615
+qwen14 score 300 / 1615
+qwen14 score 400 / 1615
+qwen14 score 500 / 1615
+qwen14 score 600 / 1615
+qwen14 score 700 / 1615
+qwen14 score 800 / 1615
+qwen14 score 900 / 1615
+qwen14 score 1000 / 1615
+qwen14 score 1100 / 1615
+qwen14 score 1200 / 1615
+qwen14 score 1300 / 1615
+qwen14 score 1400 / 1615
+qwen14 score 1500 / 1615
+qwen14 score 1600 / 1615
+qwen14 DONE /cache/ft_runs/main/qwen14/out.jsonl
+qwen14 finished
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-Fy4Uc8qX03LUkw1zjOeBE9

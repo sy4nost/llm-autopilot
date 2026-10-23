@@ -1,0 +1,129 @@
+models with output: ['qwen14', 'phi4', 'olmo13']
+qwen14 {'model': 'Qwen/Qwen2.5-14B-Instruct', 'eos': [151643, 151645], 'maxnew': 512, 'gen_config': "{'do_sample': True, 'temperature': 0.7, 'top_k': 20, 'top_p': 0.8, 'repetition_penalty': 1.05, 'pad_token_id': 151643, 'bos_token_id': 151643, 'eos_token_id': [151645, 151643], 'transformers_version': '5.20.0'}", 'template_head': '<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nHi<|i', 'template_tail': 'n, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nHi<|im_end|>\n<|im_start|>assistant\n', 'head_ids': [151644, 8948, 198, 2610, 525, 1207], 'batch_vs_single_identical': 3, 'batch_vs_single_same_answer_line': 14, 'n_checked': 16}
+phi4 {'model': 'microsoft/phi-4', 'eos': [100257, 100265], 'maxnew': 512, 'gen_config': "{'pad_token_id': 100349, 'bos_token_id': 100257, 'eos_token_id': [100257, 100265], '_from_model_config': True, 'transformers_version': '5.20.0'}", 'template_head': '<|im_start|>user<|im_sep|>Hi<|im_end|><|im_start|>assistant<|im_sep|>', 'template_tail': '<|im_start|>user<|im_sep|>Hi<|im_end|><|im_start|>assistant<|im_sep|>', 'head_ids': [100264, 882, 100266, 13347, 100265, 100264], 'batch_vs_single_identical': 4, 'batch_vs_single_same_answer_line': 12, 'n_checked': 16}
+olmo13 {'model': 'allenai/OLMo-2-1124-13B-Instruct', 'eos': [100257, 100265], 'maxnew': 512, 'gen_config': "{'pad_token_id': 100277, 'eos_token_id': 100257, '_from_model_config': True, 'transformers_version': '5.20.0'}", 'template_head': '<|endoftext|><|user|>\nHi\n<|assistant|>\n', 'template_tail': '<|endoftext|><|user|>\nHi\n<|assistant|>\n', 'head_ids': [100257, 27, 91, 882, 91, 397], 'batch_vs_single_identical': 4, 'batch_vs_single_same_answer_line': 6, 'n_checked': 16}
+
+## Pipeline: items, parse rate of final Answer line, truncated generations, parse rate of sampled short answers
+  qwen14  tqa      n  250  parsed 97%  truncated 1%  samples parsed 97%
+  qwen14  hans     n  300  parsed 100%  truncated 0%  samples parsed 100%
+  qwen14  epi      n  200  parsed 100%  truncated 0%  samples parsed 100%
+  qwen14  sigfigs  n  200  parsed 14%  truncated 4%  samples parsed 100%
+  qwen14  memo     n  150  parsed 80%  truncated 0%  samples parsed 74%
+  qwen14  hind     n  115  parsed 100%  truncated 0%  samples parsed 97%
+  qwen14  mmlu     n  400  parsed 93%  truncated 5%  samples parsed 99%
+  phi4    tqa      n  250  parsed 96%  truncated 0%  samples parsed 90%
+  phi4    hans     n  300  parsed 100%  truncated 0%  samples parsed 100%
+  phi4    epi      n  200  parsed 100%  truncated 0%  samples parsed 100%
+  phi4    sigfigs  n  200  parsed 52%  truncated 0%  samples parsed 98%
+  phi4    memo     n  150  parsed 73%  truncated 1%  samples parsed 65%
+  phi4    hind     n  115  parsed 100%  truncated 0%  samples parsed 79%
+  phi4    mmlu     n  400  parsed 90%  truncated 6%  samples parsed 98%
+  olmo13  tqa      n  250  parsed 85%  truncated 0%  samples parsed 98%
+  olmo13  hans     n  300  parsed 98%  truncated 0%  samples parsed 96%
+  olmo13  epi      n  200  parsed 100%  truncated 0%  samples parsed 100%
+  olmo13  sigfigs  n  200  parsed 8%  truncated 2%  samples parsed 95%
+  olmo13  memo     n  150  parsed 87%  truncated 0%  samples parsed 75%
+  olmo13  hind     n  115  parsed 99%  truncated 0%  samples parsed 100%
+  olmo13  mmlu     n  400  parsed 76%  truncated 6%  samples parsed 98%
+
+## Per cell (traps and controls together unless marked): fast right, thought right, flag rate, fast errors E, recall at flag rate
+  qwen14  tqa      n  250  fast  77.2  thought  73.2  flag  17.6  E   57  rec FLAG  40.4 RANDOM  17.6 CONF  50.9 SAMPLE  38.6  autopilot   4.4
+  qwen14  hans     n  300  fast  89.0  thought  86.3  flag  10.7  E   33  rec FLAG  36.4 RANDOM  10.7 CONF  42.4 SAMPLE  12.1  autopilot   4.0
+          hans/trap    fast  88.0  thought  88.0
+          hans/control fast  90.0  thought  84.7
+  qwen14  epi      n  200  fast  72.0  thought  86.0  flag  26.0  E   56  rec FLAG  71.4 RANDOM  26.0 CONF  46.4 SAMPLE  25.0  autopilot  20.0
+  qwen14  sigfigs  n  200  fast  58.0  thought  82.5  flag  35.0  E   84  rec FLAG  72.6 RANDOM  35.0 CONF  48.8 SAMPLE  36.9  autopilot  29.0
+  qwen14  memo     n  150  fast  82.0  thought  93.3  flag  14.0  E   27  rec FLAG  70.4 RANDOM  14.0 CONF  33.3 SAMPLE  11.1  autopilot  12.7
+  qwen14  hind     n  115  fast  33.0  thought  83.5  flag  69.6  E   77  rec FLAG  89.6 RANDOM  69.6 CONF  63.6 SAMPLE  71.4  autopilot  60.0
+  qwen14  mmlu     n  400  fast  74.2  thought  77.0  flag  16.8  E  103  rec FLAG  47.6 RANDOM  16.8 CONF  35.9 SAMPLE  25.2  autopilot   7.2
+  phi4    tqa      n  250  fast  72.8  thought  75.6  flag  17.6  E   68  rec FLAG  48.5 RANDOM  17.6 CONF  41.2 SAMPLE  38.2  autopilot   7.2
+  phi4    hans     n  300  fast  83.0  thought  84.3  flag  16.7  E   51  rec FLAG  52.9 RANDOM  16.7 CONF  49.0 SAMPLE  31.4  autopilot   9.0
+          hans/trap    fast  71.3  thought  86.7
+          hans/control fast  94.7  thought  82.0
+  phi4    epi      n  200  fast  79.0  thought  77.0  flag  23.0  E   42  rec FLAG  50.0 RANDOM  23.0 CONF  47.6 SAMPLE  57.1  autopilot  10.5
+  phi4    sigfigs  n  200  fast  43.0  thought  96.5  flag  57.0  E  114  rec FLAG  97.4 RANDOM  57.0 CONF  63.2 SAMPLE  60.5  autopilot  55.0
+  phi4    memo     n  150  fast  63.3  thought  92.0  flag  32.7  E   55  rec FLAG  83.6 RANDOM  32.7 CONF  36.4 SAMPLE  20.0  autopilot  30.7
+  phi4    hind     n  115  fast   3.5  thought  79.1  flag  75.7  E  111  rec FLAG  78.4 RANDOM  75.7 CONF  74.8 SAMPLE  74.8  autopilot  75.7
+  phi4    mmlu     n  400  fast  78.2  thought  84.5  flag  15.5  E   87  rec FLAG  54.0 RANDOM  15.5 CONF  39.1 SAMPLE  36.8  autopilot  10.0
+  olmo13  tqa      n  250  fast  59.2  thought  61.6  flag  29.2  E  102  rec FLAG  52.0 RANDOM  29.2 CONF  50.0 SAMPLE  49.0  autopilot  10.4
+  olmo13  hans     n  300  fast  80.7  thought  79.7  flag  17.7  E   58  rec FLAG  43.1 RANDOM  17.7 CONF  32.8 SAMPLE  17.2  autopilot   8.3
+          hans/trap    fast  63.3  thought  78.0
+          hans/control fast  98.0  thought  81.3
+  olmo13  epi      n  200  fast  68.5  thought  54.0  flag  61.5  E   63  rec FLAG  74.6 RANDOM  61.5 CONF  88.9 SAMPLE  76.2  autopilot  23.5
+  olmo13  sigfigs  n  200  fast  31.5  thought  27.0  flag  40.5  E  137  rec FLAG  37.2 RANDOM  40.5 CONF  40.9 SAMPLE  38.7  autopilot  10.5
+  olmo13  memo     n  150  fast  79.3  thought  96.0  flag  19.3  E   31  rec FLAG  87.1 RANDOM  19.3 CONF  51.6 SAMPLE  19.4  autopilot  18.0
+  olmo13  hind     n  115  fast  11.3  thought  55.7  flag  51.3  E  102  rec FLAG  53.9 RANDOM  51.3 CONF  45.1 SAMPLE  47.1  autopilot  47.8
+  olmo13  mmlu     n  400  fast  60.2  thought  62.7  flag  29.5  E  159  rec FLAG  50.3 RANDOM  29.5 CONF  50.3 SAMPLE  47.8  autopilot  12.0
+
+## H1 lamp, verdict tests ['tqa', 'hans', 'epi'] (need > 0 per model in >= 2 models)
+H1 FLAG - RANDOM +27.7 [+23.5, +31.8] need >= +10, low > 0; per model qwen14 +31.3, phi4 +31.4, olmo13 +20.4 -> pass
+H1 FLAG - CONF   +2.2 [-2.7, +6.6] need >= +10, low > 0; per model qwen14 +2.8, phi4 +4.6, olmo13 -0.7 -> FAIL
+H1 FLAG - SAMPLE +13.8 [+8.6, +18.8] need >= +10, low > 0; per model qwen14 +24.1, phi4 +8.2, olmo13 +9.1 -> pass
+H1 -> FAIL
+
+## H2 thinking helps, verdict tests ['tqa', 'hans', 'epi'] (HANS traps only)
+H2 THINK - DIRECT (traps) +3.2 [+0.5, +5.8] need >= +5, low > 0; per model qwen14 +3.3, phi4 +5.4, olmo13 +0.9 -> FAIL
+  harm qwen14  MMLU THINK - DIRECT +2.7 [-0.5, +6.2] need >= -2, low >= -5;  HANS controls -5.3 need >= -10 -> ok
+  harm phi4    MMLU THINK - DIRECT +6.2 [+2.7, +9.8] need >= -2, low >= -5;  HANS controls -12.7 need >= -10 -> HARM
+  harm olmo13  MMLU THINK - DIRECT +2.5 [-2.2, +7.0] need >= -2, low >= -5;  HANS controls -16.7 need >= -10 -> HARM
+HARM -> FAIL
+
+## Readout sensitivity (PLAN v2, B3): same sign required, separately for H1 and H2
+H1 [direct_mean/think] FLAG - RANDOM +25.5 [+21.5, +29.6] need >= +10, low > 0; per model qwen14 +31.0, phi4 +26.5, olmo13 +19.1 -> pass
+H1 [direct_mean/think] FLAG - CONF   +0.9 [-3.7, +5.2] need >= +10, low > 0; per model qwen14 +4.0, phi4 +5.2, olmo13 -6.5 -> FAIL
+H1 [direct_mean/think] FLAG - SAMPLE +13.7 [+8.2, +18.5] need >= +10, low > 0; per model qwen14 +23.8, phi4 +8.9, olmo13 +8.3 -> pass
+H2 [direct_mean/think] THINK - DIRECT (traps) +2.3 [-0.1, +4.5] need >= +5, low > 0; per model qwen14 +2.8, phi4 +5.7, olmo13 -1.6 -> FAIL
+  sign same as main: H1 True, H2 True
+H1 [direct/think_forced] FLAG - RANDOM +27.7 [+23.5, +31.8] need >= +10, low > 0; per model qwen14 +31.3, phi4 +31.4, olmo13 +20.4 -> pass
+H1 [direct/think_forced] FLAG - CONF   +2.2 [-2.7, +6.6] need >= +10, low > 0; per model qwen14 +2.8, phi4 +4.6, olmo13 -0.7 -> FAIL
+H1 [direct/think_forced] FLAG - SAMPLE +13.8 [+8.6, +18.8] need >= +10, low > 0; per model qwen14 +24.1, phi4 +8.2, olmo13 +9.1 -> pass
+H2 [direct/think_forced] THINK - DIRECT (traps) +3.2 [+0.5, +5.7] need >= +5, low > 0; per model qwen14 +3.3, phi4 +5.4, olmo13 +0.9 -> FAIL
+  sign same as main: H1 True, H2 True
+SENSITIVITY H1 -> same sign;  H2 -> same sign
+
+VERDICT lamp: NOT confirmed
+VERDICT thinking: NOT shown
+
+## Report-only
+  with sig-figs added:
+H1 +sigfigs FLAG - RANDOM +27.0 [+23.6, +30.4] need >= +10, low > 0; per model qwen14 +32.9, phi4 +33.6, olmo13 +14.5 -> pass
+H1 +sigfigs FLAG - CONF   +6.2 [+2.2, +9.8] need >= +10, low > 0; per model qwen14 +8.1, phi4 +12.0, olmo13 -1.4 -> FAIL
+H1 +sigfigs FLAG - SAMPLE +16.3 [+12.3, +20.3] need >= +10, low > 0; per model qwen14 +27.0, phi4 +15.4, olmo13 +6.4 -> pass
+H2 +sigfigs THINK - DIRECT (traps) +8.5 [+6.3, +10.9] need >= +5, low > 0; per model qwen14 +8.6, phi4 +17.4, olmo13 -0.5 -> PASS
+  sig-figs alone:
+H2 sigfigs THINK - DIRECT (traps) +24.5 [+20.2, +28.8] need >= +5, low > 0; per model qwen14 +24.5, phi4 +53.5, olmo13 -4.5 -> PASS
+  R1 qwen14  MMLU flag 16.8%  recall FLAG 47.6 CONF 35.9 SAMPLE 25.2 RANDOM 16.8
+  R1 phi4    MMLU flag 15.5%  recall FLAG 54.0 CONF 39.1 SAMPLE 36.8 RANDOM 15.5
+  R1 olmo13  MMLU flag 29.5%  recall FLAG 50.3 CONF 50.3 SAMPLE 47.8 RANDOM 29.5
+  R2 qwen14  tqa   recall PRIOR-CLASS  26.3  CONF AUC 0.84
+  R2 qwen14  hans  recall PRIOR-CLASS  33.3  CONF AUC 0.85
+  R2 qwen14  epi   recall PRIOR-CLASS  55.4  CONF AUC 0.74
+  R2 phi4    tqa   recall PRIOR-CLASS  23.5  CONF AUC 0.87
+  R2 phi4    hans  recall PRIOR-CLASS  45.1  CONF AUC 0.80
+  R2 phi4    epi   recall PRIOR-CLASS  50.0  CONF AUC 0.83
+  R2 olmo13  tqa   recall PRIOR-CLASS  32.4  CONF AUC 0.80
+  R2 olmo13  hans  recall PRIOR-CLASS  50.0  CONF AUC 0.73
+  R2 olmo13  epi   recall PRIOR-CLASS  92.1  CONF AUC 0.76
+  R3 qwen14  tqa      never  77.2  think-on-30%-least-confident  74.4  always  73.2  share 70%
+  R3 qwen14  hans     never  88.0  think-on-30%-least-confident  88.0  always  88.0  share nan%
+  R3 qwen14  epi      never  72.0  think-on-30%-least-confident  80.5  always  86.0  share 61%
+  R3 qwen14  sigfigs  never  58.0  think-on-30%-least-confident  68.5  always  82.5  share 43%
+  R3 phi4    tqa      never  72.8  think-on-30%-least-confident  76.8  always  75.6  share 143%
+  R3 phi4    hans     never  71.3  think-on-30%-least-confident  83.3  always  86.7  share 78%
+  R3 phi4    epi      never  79.0  think-on-30%-least-confident  80.0  always  77.0  share -50%
+  R3 phi4    sigfigs  never  43.0  think-on-30%-least-confident  59.5  always  96.5  share 31%
+  R3 olmo13  tqa      never  59.2  think-on-30%-least-confident  62.8  always  61.6  share 150%
+  R3 olmo13  hans     never  63.3  think-on-30%-least-confident  71.3  always  78.0  share 55%
+  R3 olmo13  epi      never  68.5  think-on-30%-least-confident  74.5  always  54.0  share -41%
+  R3 olmo13  sigfigs  never  31.5  think-on-30%-least-confident  30.5  always  27.0  share 22%
+  R6 qwen14  disagreements 128: thought right 49%, fast right 41%
+  R6 phi4    disagreements 140: thought right 47%, fast right 42%
+  R6 olmo13  disagreements 249: thought right 39%, fast right 50%
+  R7 qwen14  TQA chance 22.7; thought right on non-truncated 73.4 (n 248)
+  R7 phi4    TQA chance 22.7; thought right on non-truncated 75.6 (n 250)
+  R7 olmo13  TQA chance 22.7; thought right on non-truncated 61.8 (n 249)
+  R4 replication (old tests, new items):
+H1 repl FLAG - RANDOM +48.8 [+42.1, +55.7] need >= +10, low > 0; per model qwen14 +38.2, phi4 +51.0, olmo13 +67.8 -> pass
+H1 repl FLAG - CONF   +36.4 [+29.9, +45.8] need >= +10, low > 0; per model qwen14 +31.5, phi4 +47.3, olmo13 +35.5 -> pass
+H1 repl FLAG - SAMPLE +52.2 [+44.9, +61.8] need >= +10, low > 0; per model qwen14 +38.7, phi4 +63.6, olmo13 +67.7 -> pass
+H2 repl THINK - DIRECT (traps) +37.9 [+33.8, +41.8] need >= +5, low > 0; per model qwen14 +30.9, phi4 +52.2, olmo13 +30.5 -> PASS

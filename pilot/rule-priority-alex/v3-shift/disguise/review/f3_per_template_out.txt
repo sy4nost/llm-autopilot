@@ -1,0 +1,15 @@
+P-redefine (F3) cell: n, kept(mass>=.5), correct among kept, correct all
+  t0 [90, 76, 40, 51]
+  t1 [90, 36, 11, 35]
+  t2 [90, 16, 2, 19]
+  t3 [90, 15, 13, 75]
+  t4 [90, 90, 90, 90]
+  t5 [90, 0, 0, 65]
+  t6 [90, 0, 0, 0]
+  t7 [90, 20, 0, 0]
+  t8 [90, 2, 1, 81]
+P-native change_0 cell: n, correct(new rule), old-rule answer
+  change_0|D1 [90, 6, 72]
+  change_0|D2 [90, 90, 0]
+  change_0|D3 [90, 15, 74]
+  change_0|D4 [90, 90, 0]

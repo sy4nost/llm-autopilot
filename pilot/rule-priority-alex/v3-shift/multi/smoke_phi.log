@@ -1,0 +1,30 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-zGPr10HVwEf5ZVJyH47HDz
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/multi/modal_mult
+│   i.py
+├── ✓ Created Function download.
+└── ✓ Created Function run.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:   0%|          | 0/243 [00:00<?, ?it/s]
+[1ALoading weights:   9%|▉         | 22/243 [00:00<00:01, 170.01it/s]
+[1ALoading weights:  16%|█▋        | 40/243 [00:00<00:01, 119.32it/s]
+[1ALoading weights:  22%|██▏       | 54/243 [00:00<00:01, 125.66it/s]
+[1ALoading weights:  28%|██▊       | 68/243 [00:00<00:01, 125.73it/s]
+[1ALoading weights:  33%|███▎      | 81/243 [00:00<00:01, 118.26it/s]
+[1ALoading weights:  40%|████      | 98/243 [00:00<00:01, 124.54it/s]
+[1ALoading weights:  46%|████▌     | 111/243 [00:01<00:02, 58.88it/s]
+[1ALoading weights:  52%|█████▏    | 127/243 [00:01<00:01, 72.07it/s]
+[1ALoading weights:  58%|█████▊    | 142/243 [00:03<00:04, 20.64it/s]
+[1ALoading weights:  63%|██████▎   | 154/243 [00:03<00:03, 26.29it/s]
+[1ALoading weights:  70%|██████▉   | 170/243 [00:03<00:02, 35.20it/s]
+[1ALoading weights:  74%|███████▍  | 180/243 [00:03<00:01, 41.11it/s]
+[1ALoading weights:  82%|████████▏ | 200/243 [00:03<00:00, 50.45it/s]
+[1ALoading weights:  88%|████████▊ | 215/243 [00:04<00:00, 62.59it/s]
+[1ALoading weights:  93%|█████████▎| 227/243 [00:04<00:00, 71.24it/s]Loading weights: 100%|██████████| 243/243 [00:04<00:00, 58.50it/s]
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/multi/multi_phi-4_smoke.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-zGPr10HVwEf5ZVJyH47HDz

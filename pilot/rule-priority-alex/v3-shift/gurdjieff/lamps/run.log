@@ -1,0 +1,49 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-UdnoyJ6cBZWawD7baDpzwD
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/gurdjieff/lamps/
+│   lamps_g.py
+└── ✓ Created Function run.
+loaded 3122
+unit own:D/traps {'unit': 'own:D/traps', 'n': 258, 'flips': 56, 'lamp32': 0.978, 'lamp24': 0.849, 'lamp40': 0.984, 'low_conf': 0.811, 'output_only': 0.785, 'diff_low95': 0.076, 'has_lamp': True}
+unit own:K/traps {'unit': 'own:K/traps', 'n': 242, 'flips': 60, 'lamp32': 0.629, 'lamp24': 0.627, 'lamp40': 0.633, 'low_conf': 0.684, 'output_only': 0.651, 'diff_low95': -0.16, 'has_lamp': False}
+unit own:N/traps {'unit': 'own:N/traps', 'n': 120, 'flips': 110, 'lamp32': 0.831, 'lamp24': 0.538, 'lamp40': 0.909, 'low_conf': 0.251, 'output_only': 0.77, 'diff_low95': -0.121, 'has_lamp': False}
+unit own:R/traps {'unit': 'own:R/traps', 'n': 378, 'flips': 170, 'lamp32': 0.867, 'lamp24': 0.881, 'lamp40': 0.901, 'low_conf': 0.516, 'output_only': 0.581, 'diff_low95': 0.221, 'has_lamp': True}
+unit own:R/cfright {'unit': 'own:R/cfright', 'n': 210, 'flips': 35, 'lamp32': 0.971, 'lamp24': 0.971, 'lamp40': 0.976, 'low_conf': 0.688, 'output_only': 0.674, 'diff_low95': 0.195, 'has_lamp': True}
+unit own:R/compute {'unit': 'own:R/compute', 'n': 354, 'flips': 60, 'lamp32': 0.83, 'lamp24': 0.788, 'lamp40': 0.88, 'low_conf': 0.881, 'output_only': 0.883, 'diff_low95': -0.127, 'has_lamp': False}
+unit pub:hind/trap {'unit': 'pub:hind/trap', 'n': 120, 'flips': 75, 'lamp32': 0.808, 'lamp24': 0.721, 'lamp40': 0.838, 'low_conf': 0.28, 'output_only': 0.681, 'diff_low95': -0.003, 'has_lamp': False}
+unit pub:memo/trap {'unit': 'pub:memo/trap', 'n': 120, 'flips': 20, 'lamp32': 0.637, 'lamp24': 0.642, 'lamp40': 0.708, 'low_conf': 0.698, 'output_only': 0.623, 'diff_low95': -0.272, 'has_lamp': False}
+unit pub:neqa/trap {'unit': 'pub:neqa/trap', 'n': 120, 'flips': 16, 'lamp32': 0.779, 'lamp24': 0.387, 'lamp40': 0.801, 'low_conf': 0.864, 'output_only': 0.785, 'diff_low95': -0.213, 'has_lamp': False}
+unit pub:unknown/trap {'unit': 'pub:unknown/trap', 'n': 100, 'flips': 14, 'lamp32': 0.415, 'lamp24': 0.36, 'lamp40': 0.581, 'low_conf': 0.741, 'output_only': 0.758, 'diff_low95': -0.538, 'has_lamp': False}
+unit pub:pattern/trap {'unit': 'pub:pattern/trap', 'n': 100, 'flips': 36, 'lamp32': 0.529, 'lamp24': 0.545, 'lamp40': 0.525, 'low_conf': 0.473, 'output_only': 0.558, 'diff_low95': -0.201, 'has_lamp': False}
+unit pub:mmlu/trap {'unit': 'pub:mmlu/trap', 'n': 1000, 'flips': 160, 'lamp32': 0.81, 'lamp24': 0.663, 'lamp40': 0.832, 'low_conf': 0.86, 'output_only': 0.85, 'diff_low95': -0.084, 'has_lamp': False}
+{'unit': 'own:D/traps', 'n': 258, 'flips': 56, 'lamp32': 0.978, 'lamp24': 0.849, 'lamp40': 0.984, 'low_conf': 0.811, 'output_only': 0.785, 'diff_low95': 0.076, 'has_lamp': True}
+{'unit': 'own:K/traps', 'n': 242, 'flips': 60, 'lamp32': 0.629, 'lamp24': 0.627, 'lamp40': 0.633, 'low_conf': 0.684, 'output_only': 0.651, 'diff_low95': -0.16, 'has_lamp': False}
+{'unit': 'own:N/traps', 'n': 120, 'flips': 110, 'lamp32': 0.831, 'lamp24': 0.538, 'lamp40': 0.909, 'low_conf': 0.251, 'output_only': 0.77, 'diff_low95': -0.121, 'has_lamp': False}
+{'unit': 'own:R/traps', 'n': 378, 'flips': 170, 'lamp32': 0.867, 'lamp24': 0.881, 'lamp40': 0.901, 'low_conf': 0.516, 'output_only': 0.581, 'diff_low95': 0.221, 'has_lamp': True}
+{'unit': 'own:R/cfright', 'n': 210, 'flips': 35, 'lamp32': 0.971, 'lamp24': 0.971, 'lamp40': 0.976, 'low_conf': 0.688, 'output_only': 0.674, 'diff_low95': 0.195, 'has_lamp': True}
+{'unit': 'own:R/compute', 'n': 354, 'flips': 60, 'lamp32': 0.83, 'lamp24': 0.788, 'lamp40': 0.88, 'low_conf': 0.881, 'output_only': 0.883, 'diff_low95': -0.127, 'has_lamp': False}
+{'unit': 'pub:hind/trap', 'n': 120, 'flips': 75, 'lamp32': 0.808, 'lamp24': 0.721, 'lamp40': 0.838, 'low_conf': 0.28, 'output_only': 0.681, 'diff_low95': -0.003, 'has_lamp': False}
+{'unit': 'pub:memo/trap', 'n': 120, 'flips': 20, 'lamp32': 0.637, 'lamp24': 0.642, 'lamp40': 0.708, 'low_conf': 0.698, 'output_only': 0.623, 'diff_low95': -0.272, 'has_lamp': False}
+{'unit': 'pub:neqa/trap', 'n': 120, 'flips': 16, 'lamp32': 0.779, 'lamp24': 0.387, 'lamp40': 0.801, 'low_conf': 0.864, 'output_only': 0.785, 'diff_low95': -0.213, 'has_lamp': False}
+{'unit': 'pub:unknown/trap', 'n': 100, 'flips': 14, 'lamp32': 0.415, 'lamp24': 0.36, 'lamp40': 0.581, 'low_conf': 0.741, 'output_only': 0.758, 'diff_low95': -0.538, 'has_lamp': False}
+{'unit': 'pub:pattern/trap', 'n': 100, 'flips': 36, 'lamp32': 0.529, 'lamp24': 0.545, 'lamp40': 0.525, 'low_conf': 0.473, 'output_only': 0.558, 'diff_low95': -0.201, 'has_lamp': False}
+{'unit': 'pub:mmlu/trap', 'n': 1000, 'flips': 160, 'lamp32': 0.81, 'lamp24': 0.663, 'lamp40': 0.832, 'low_conf': 0.86, 'output_only': 0.85, 'diff_low95': -0.084, 'has_lamp': False}
+families [['own:D/traps', 'own:K/traps'], ['own:D/traps', 'own:R/traps'], ['own:D/traps', 'own:R/cfright'], ['own:D/traps', 'pub:neqa/trap'], ['own:D/traps', 'pub:mmlu/trap'], ['own:N/traps', 'own:R/cfright'], ['own:R/traps', 'pub:unknown/trap'], ['pub:memo/trap', 'pub:neqa/trap'], ['pub:neqa/trap', 'pub:mmlu/trap']]
+{'unit': 'own:D/traps', 'panel': 0.919, 'low_conf': 0.811}
+{'unit': 'own:K/traps', 'panel': 0.63, 'low_conf': 0.684}
+{'unit': 'own:N/traps', 'panel': 0.498, 'low_conf': 0.251}
+{'unit': 'own:R/traps', 'panel': 0.793, 'low_conf': 0.516}
+{'unit': 'own:R/cfright', 'panel': 0.723, 'low_conf': 0.688}
+{'unit': 'own:R/compute', 'panel': 0.217, 'low_conf': 0.881}
+{'unit': 'pub:hind/trap', 'panel': 0.737, 'low_conf': 0.28}
+{'unit': 'pub:memo/trap', 'panel': 0.675, 'low_conf': 0.698}
+{'unit': 'pub:neqa/trap', 'panel': 0.751, 'low_conf': 0.864}
+{'unit': 'pub:unknown/trap', 'panel': 0.655, 'low_conf': 0.741}
+{'unit': 'pub:pattern/trap', 'panel': 0.438, 'low_conf': 0.473}
+{'unit': 'pub:mmlu/trap', 'panel': 0.69, 'low_conf': 0.86}
+panel mean 0.644 low mean 0.646 works False
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-UdnoyJ6cBZWawD7baDpzwD

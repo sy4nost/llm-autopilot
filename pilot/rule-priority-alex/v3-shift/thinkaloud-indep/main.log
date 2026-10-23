@@ -1,0 +1,247 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-KMycAggDFN90thQuitvYFs
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/thinkaloud-indep
+│   /modal_ti.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   7%|▋         | 38/579 [00:00<00:01, 368.23it/s]
+[1ALoading weights:  13%|█▎        | 75/579 [00:00<00:02, 243.47it/s]
+[1ALoading weights:  18%|█▊        | 102/579 [00:00<00:03, 154.72it/s]
+[1ALoading weights:  23%|██▎       | 136/579 [00:00<00:02, 195.96it/s]
+[1ALoading weights:  28%|██▊       | 161/579 [00:00<00:02, 195.87it/s]
+[1ALoading weights:  32%|███▏      | 184/579 [00:00<00:02, 173.66it/s]
+[1ALoading weights:  36%|███▋      | 211/579 [00:01<00:01, 192.14it/s]
+[1ALoading weights:  43%|████▎     | 247/579 [00:01<00:01, 232.09it/s]
+[1ALoading weights:  47%|████▋     | 273/579 [00:01<00:01, 238.78it/s]
+[1ALoading weights:  52%|█████▏    | 299/579 [00:01<00:01, 235.93it/s]
+[1ALoading weights:  58%|█████▊    | 335/579 [00:01<00:00, 254.33it/s]
+[1ALoading weights:  64%|██████▍   | 371/579 [00:01<00:00, 271.66it/s]
+[1ALoading weights:  69%|██████▉   | 399/579 [00:01<00:00, 269.53it/s]
+[1ALoading weights:  74%|███████▎  | 427/579 [00:01<00:00, 256.06it/s]
+[1ALoading weights:  79%|███████▊  | 455/579 [00:01<00:00, 247.79it/s]
+[1ALoading weights:  83%|████████▎ | 483/579 [00:02<00:00, 252.02it/s]
+[1ALoading weights:  88%|████████▊ | 511/579 [00:02<00:00, 257.44it/s]
+[1ALoading weights:  94%|█████████▍| 544/579 [00:02<00:00, 263.24it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 241.75it/s]
+gen 32 / 2300
+gen 64 / 2300
+gen 96 / 2300
+gen 128 / 2300
+gen 160 / 2300
+gen 192 / 2300
+gen 224 / 2300
+gen 256 / 2300
+gen 288 / 2300
+gen 320 / 2300
+gen 352 / 2300
+gen 384 / 2300
+gen 416 / 2300
+gen 448 / 2300
+gen 480 / 2300
+gen 512 / 2300
+gen 544 / 2300
+gen 576 / 2300
+gen 608 / 2300
+gen 640 / 2300
+gen 672 / 2300
+gen 704 / 2300
+gen 736 / 2300
+gen 768 / 2300
+gen 800 / 2300
+gen 832 / 2300
+gen 864 / 2300
+gen 896 / 2300
+gen 928 / 2300
+gen 960 / 2300
+gen 992 / 2300
+gen 1024 / 2300
+gen 1056 / 2300
+gen 1088 / 2300
+gen 1120 / 2300
+gen 1152 / 2300
+gen 1184 / 2300
+gen 1216 / 2300
+gen 1248 / 2300
+gen 1280 / 2300
+gen 1312 / 2300
+gen 1344 / 2300
+gen 1376 / 2300
+gen 1408 / 2300
+gen 1440 / 2300
+gen 1472 / 2300
+gen 1504 / 2300
+gen 1536 / 2300
+gen 1568 / 2300
+gen 1600 / 2300
+gen 1632 / 2300
+gen 1664 / 2300
+gen 1696 / 2300
+gen 1728 / 2300
+gen 1760 / 2300
+gen 1792 / 2300
+gen 1824 / 2300
+gen 1856 / 2300
+gen 1888 / 2300
+gen 1920 / 2300
+gen 1952 / 2300
+gen 1984 / 2300
+gen 2016 / 2300
+gen 2048 / 2300
+gen 2080 / 2300
+gen 2112 / 2300
+gen 2144 / 2300
+gen 2176 / 2300
+gen 2208 / 2300
+gen 2240 / 2300
+gen 2272 / 2300
+gen 2300 / 2300
+gen 32 / 2300
+gen 64 / 2300
+gen 96 / 2300
+gen 128 / 2300
+gen 160 / 2300
+gen 192 / 2300
+gen 224 / 2300
+gen 256 / 2300
+gen 288 / 2300
+gen 320 / 2300
+gen 352 / 2300
+gen 384 / 2300
+gen 416 / 2300
+gen 448 / 2300
+gen 480 / 2300
+gen 512 / 2300
+gen 544 / 2300
+gen 576 / 2300
+gen 608 / 2300
+gen 640 / 2300
+gen 672 / 2300
+gen 704 / 2300
+gen 736 / 2300
+gen 768 / 2300
+gen 800 / 2300
+gen 832 / 2300
+gen 864 / 2300
+gen 896 / 2300
+gen 928 / 2300
+gen 960 / 2300
+gen 992 / 2300
+gen 1024 / 2300
+gen 1056 / 2300
+gen 1088 / 2300
+gen 1120 / 2300
+gen 1152 / 2300
+gen 1184 / 2300
+gen 1216 / 2300
+gen 1248 / 2300
+gen 1280 / 2300
+gen 1312 / 2300
+gen 1344 / 2300
+gen 1376 / 2300
+gen 1408 / 2300
+gen 1440 / 2300
+gen 1472 / 2300
+gen 1504 / 2300
+gen 1536 / 2300
+gen 1568 / 2300
+gen 1600 / 2300
+gen 1632 / 2300
+gen 1664 / 2300
+gen 1696 / 2300
+gen 1728 / 2300
+gen 1760 / 2300
+gen 1792 / 2300
+gen 1824 / 2300
+gen 1856 / 2300
+gen 1888 / 2300
+gen 1920 / 2300
+gen 1952 / 2300
+gen 1984 / 2300
+gen 2016 / 2300
+gen 2048 / 2300
+gen 2080 / 2300
+gen 2112 / 2300
+gen 2144 / 2300
+gen 2176 / 2300
+gen 2208 / 2300
+gen 2240 / 2300
+Stopping app - uncaught exception raised locally: ConflictError('workspace ac-opjv2ovOUh29oYvpv4wgbO is disabled').
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/thinkaloud-indep │
+│ /modal_ti.py:95 in main                                                      │
+│                                                                              │
+│   94 │   with open(out, "w") as f:                                           │
+│ ❱ 95 │   │   for line in run.remote_gen(items, tag == "smoke"):              │
+│   96 │   │   │   f.write(line + "\n"); f.flush()                             │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_object.py:61 in wrapped       │
+│                                                                              │
+│    60 │   │   async with aclosing(method(self, *args, **kwargs)) as stream:  │
+│ ❱  61 │   │   │   async for item in stream:                                  │
+│    62 │   │   │   │   yield item                                             │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_functions.py:2102 in          │
+│ remote_gen                                                                   │
+│                                                                              │
+│   2101 │   │   │   )                                                         │
+│ ❱ 2102 │   │   async for item in self._call_generator(args, kwargs):         │
+│   2103 │   │   │   yield item                                                │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_object.py:61 in wrapped       │
+│                                                                              │
+│    60 │   │   async with aclosing(method(self, *args, **kwargs)) as stream:  │
+│ ❱  61 │   │   │   async for item in stream:                                  │
+│    62 │   │   │   │   yield item                                             │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_functions.py:2059 in          │
+│ _call_generator                                                              │
+│                                                                              │
+│   2058 │   │   │   )                                                         │
+│ ❱ 2059 │   │   async for res in invocation.run_generator():                  │
+│   2060 │   │   │   yield res                                                 │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_functions.py:547 in           │
+│ run_generator                                                                │
+│                                                                              │
+│    546 │   │   ) as streamer:                                                │
+│ ❱  547 │   │   │   async for item in streamer:                               │
+│    548 │   │   │   │   if isinstance(item, api_pb2.GeneratorDone):           │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1114 in  │
+│ async_merge                                                                  │
+│                                                                              │
+│   1113 │   │   │   │   │   assert_type(item, ExceptionWrapper)               │
+│ ❱ 1114 │   │   │   │   │   raise item.value                                  │
+│   1115                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1093 in  │
+│ producer                                                                     │
+│                                                                              │
+│   1092 │   │   │   async with aclosing(generator) as stream:                 │
+│ ❱ 1093 │   │   │   │   async for item in stream:                             │
+│   1094 │   │   │   │   │   await queue.put(ValueWrapper(item))               │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1153 in  │
+│ callable_to_agen                                                             │
+│                                                                              │
+│   1152 async def callable_to_agen(awaitable: Callable[[], Awaitable[T]]) ->  │
+│ ❱ 1153 │   yield await awaitable()                                           │
+│   1154                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_functions.py:508 in           │
+│ run_function                                                                 │
+│                                                                              │
+│    507 │   │   │   │   │   # We immediately retry internal failures and the  │
+│ ❱  508 │   │   │   │   │   self.attempt_token = await self._retry_input(meta │
+│    509 │   │   │   │   │   continue                                          │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_functions.py:528 in           │
+│ _retry_input                                                                 │
+│                                                                              │
+│    527 │   │   )                                                             │
+│ ❱  528 │   │   retry_response = await self.stub.AttemptRetry(retry_request,  │
+│    529 │   │   return retry_response.attempt_token                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ConflictError: workspace ac-opjv2ovOUh29oYvpv4wgbO is disabled

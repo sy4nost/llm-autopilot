@@ -1,0 +1,33 @@
+## Families after filters (option mass >= 0.5, validity)
+  C-bonus     scored    16  kept    15  habit errors     5  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  C-parcels   scored    16  kept    16  habit errors     8  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  C-rule      scored    36  kept    36  habit errors    15  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  P-native    scored    24  kept    24  habit errors    11  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  P-neqa      scored    30  kept    29  habit errors     7  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  P-quote     scored    30  kept    30  habit errors     0  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  P-redefine  scored    30  kept    26  habit errors    10  in qualifying cells: pos 10 neg 16  informative False  cells 1
+  mmlu        scored    60  kept    60  habit errors    14  in qualifying cells: pos 14 neg 46  informative False  cells 1
+
+## B4 generic-error probe (MMLU): layer 44, CV AUC by layer {"8": 0.212, "12": 0.135, "16": 0.24, "20": 0.279, "24": 0.115, "28": 0.346, "32": 0.337, "36": 0.625, "40": 0.654, "44": 0.692}
+  held-out MMLU AUC 0.570  (validity needs >= 0.65) -> WEAK (criterion 2 still applied)
+
+######## C->P: train ['C-rule', 'C-parcels', 'C-bonus'] -> test ['P-redefine', 'P-neqa', 'P-quote']
+  layer chosen 8 by fallback-5fold; held-out-family AUC by layer {"8": NaN, "12": NaN, "16": NaN, "20": NaN, "24": NaN, "28": NaN, "32": NaN, "36": NaN, "40": NaN, "44": NaN}
+  B1 sign fitted on training: fires at SMALL margin
+  family       n_pos  n_neg  inform.            lamp              B1              B2              B3              B4  lamp_uncentred
+  P-redefine      10     16    False           0.606           0.481           0.744           0.588           0.531           0.562
+  P-neqa           0      0    False             nan             nan             nan             nan             nan             nan
+  P-quote          0      0    False             nan             nan             nan             nan             nan             nan
+  informative test families []: fewer than 2 -> C->P NON-INFORMATIVE
+
+######## P->C: train ['P-redefine', 'P-quote'] -> test ['C-rule', 'C-parcels', 'C-bonus', 'P-neqa']
+  P-quote not informative as a training family -> P->C NON-INFORMATIVE (pre-registered)
+
+######## [report] C-families -> P-native (structural twin of C-rule)
+  layer 8: within-cell AUC nan (pos 0, neg 0, informative False); B1 margin nan
+  trap-situation probe on P-redefine: within-cell AUC for habit errors 0.556
+  trap-situation probe on P-neqa: within-cell AUC for habit errors nan
+  trap-situation probe on P-quote: within-cell AUC for habit errors nan
+
+######## PRE-REGISTERED VERDICT
+  C->P: non-informative | P->C: non-informative | OVERALL: NON-INFORMATIVE (not enough data in the main direction; no conclusion about the signal)

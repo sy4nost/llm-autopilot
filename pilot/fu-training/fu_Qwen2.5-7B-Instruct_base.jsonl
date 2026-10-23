@@ -1,0 +1,700 @@
+{"stage": "test", "model": "base", "i": 0, "fam": "rule", "kind": "change", "key": "MOSS", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-11.375, -0.0, -12.25]}
+{"stage": "test", "model": "base", "i": 1, "fam": "rule", "kind": "change", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-12.375, -0.0, -17.25]}
+{"stage": "test", "model": "base", "i": 2, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-24.189, -0.0, -24.565]}
+{"stage": "test", "model": "base", "i": 3, "fam": "rule", "kind": "change", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-19.251, -7.126, -0.001]}
+{"stage": "test", "model": "base", "i": 4, "fam": "rule", "kind": "change", "key": "FIRST", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-15.5, -0.0, -13.375]}
+{"stage": "test", "model": "base", "i": 5, "fam": "rule", "kind": "change", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-19.875, -13.5, -0.0]}
+{"stage": "test", "model": "base", "i": 6, "fam": "rule", "kind": "change", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-21.875, -0.0, -16.625]}
+{"stage": "test", "model": "base", "i": 7, "fam": "rule", "kind": "change", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-20.875, -12.75, -0.0]}
+{"stage": "test", "model": "base", "i": 8, "fam": "rule", "kind": "change", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-15.718, -0.53, -0.907]}
+{"stage": "test", "model": "base", "i": 9, "fam": "rule", "kind": "change", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-11.25, -0.0, -16.25]}
+{"stage": "test", "model": "base", "i": 10, "fam": "rule", "kind": "change", "key": "REED", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -26.764, -22.024]}
+{"stage": "test", "model": "base", "i": 11, "fam": "rule", "kind": "change", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-14.38, -5.755, -0.005]}
+{"stage": "test", "model": "base", "i": 12, "fam": "rule", "kind": "change", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-13.125, -0.0, -12.125]}
+{"stage": "test", "model": "base", "i": 13, "fam": "rule", "kind": "change", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-19.378, -0.0, -18.627]}
+{"stage": "test", "model": "base", "i": 14, "fam": "rule", "kind": "change", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-13.75, -0.0, -16.875]}
+{"stage": "test", "model": "base", "i": 15, "fam": "rule", "kind": "change", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -27.385, -21.132]}
+{"stage": "test", "model": "base", "i": 16, "fam": "rule", "kind": "change", "key": "FIRST", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-14.126, -0.001, -7.751]}
+{"stage": "test", "model": "base", "i": 17, "fam": "rule", "kind": "change", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-14.875, -0.0, -18.375]}
+{"stage": "test", "model": "base", "i": 18, "fam": "rule", "kind": "change", "key": "ONYX", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.064, -2.814, -11.189]}
+{"stage": "test", "model": "base", "i": 19, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-18.244, -0.056, -2.931]}
+{"stage": "test", "model": "base", "i": 20, "fam": "rule", "kind": "change", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-10.518, -2.018, -0.143]}
+{"stage": "test", "model": "base", "i": 21, "fam": "rule", "kind": "change", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -10.75, -9.001]}
+{"stage": "test", "model": "base", "i": 22, "fam": "rule", "kind": "change", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-21.813, -24.5, -0.0]}
+{"stage": "test", "model": "base", "i": 23, "fam": "rule", "kind": "change", "key": "THIRD", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.003, -6.253, -6.878]}
+{"stage": "test", "model": "base", "i": 24, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-15.625, -0.0, -23.251]}
+{"stage": "test", "model": "base", "i": 25, "fam": "rule", "kind": "change", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-19.125, -0.0, -14.75]}
+{"stage": "test", "model": "base", "i": 26, "fam": "rule", "kind": "change", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-18.001, -0.001, -6.751]}
+{"stage": "test", "model": "base", "i": 27, "fam": "rule", "kind": "change", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-6.253, -0.003, -9.503]}
+{"stage": "test", "model": "base", "i": 28, "fam": "rule", "kind": "change", "key": "OPAL", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -12.75, -20.313]}
+{"stage": "test", "model": "base", "i": 29, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-16.625, -0.0, -17.126]}
+{"stage": "test", "model": "base", "i": 30, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-12.75, -0.0, -23.315]}
+{"stage": "test", "model": "base", "i": 31, "fam": "rule", "kind": "change", "key": "OPAL", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -20.125, -18.625]}
+{"stage": "test", "model": "base", "i": 32, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-11.126, -0.001, -7.377]}
+{"stage": "test", "model": "base", "i": 33, "fam": "rule", "kind": "change", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-19.573, -6.26, -0.012]}
+{"stage": "test", "model": "base", "i": 34, "fam": "rule", "kind": "change", "key": "ONYX", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -15.625, -21.375]}
+{"stage": "test", "model": "base", "i": 35, "fam": "rule", "kind": "change", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.002, -21.503, -6.252]}
+{"stage": "test", "model": "base", "i": 36, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-19.0, -0.0, -19.501]}
+{"stage": "test", "model": "base", "i": 37, "fam": "rule", "kind": "change", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-19.75, -0.0, -16.251]}
+{"stage": "test", "model": "base", "i": 38, "fam": "rule", "kind": "change", "key": "REED", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -26.0, -21.637]}
+{"stage": "test", "model": "base", "i": 39, "fam": "rule", "kind": "change", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-10.63, -9.505, -0.005]}
+{"stage": "test", "model": "base", "i": 40, "fam": "rule", "kind": "change", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-22.313, -0.0, -14.752]}
+{"stage": "test", "model": "base", "i": 41, "fam": "rule", "kind": "change", "key": "FIRST", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-15.875, -0.0, -12.75]}
+{"stage": "test", "model": "base", "i": 42, "fam": "rule", "kind": "change", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-1.702, -0.202, -12.203]}
+{"stage": "test", "model": "base", "i": 43, "fam": "rule", "kind": "change", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-12.125, -0.0, -14.0]}
+{"stage": "test", "model": "base", "i": 44, "fam": "rule", "kind": "change", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -12.125, -18.879]}
+{"stage": "test", "model": "base", "i": 45, "fam": "rule", "kind": "change", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-17.078, -0.578, -0.828]}
+{"stage": "test", "model": "base", "i": 46, "fam": "rule", "kind": "change", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-23.501, -0.0, -17.266]}
+{"stage": "test", "model": "base", "i": 47, "fam": "rule", "kind": "change", "key": "THIRD", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -10.5, -13.126]}
+{"stage": "test", "model": "base", "i": 48, "fam": "rule", "kind": "change", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-12.25, -0.0, -16.625]}
+{"stage": "test", "model": "base", "i": 49, "fam": "rule", "kind": "change", "key": "MOSS", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-3.288, -0.038, -18.639]}
+{"stage": "test", "model": "base", "i": 50, "fam": "rule", "kind": "change", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -27.313, -19.878]}
+{"stage": "test", "model": "base", "i": 51, "fam": "rule", "kind": "change", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -13.375, -12.504]}
+{"stage": "test", "model": "base", "i": 52, "fam": "rule", "kind": "change", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-6.252, -0.002, -14.252]}
+{"stage": "test", "model": "base", "i": 53, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-8.006, -0.005, -5.382]}
+{"stage": "test", "model": "base", "i": 54, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-17.252, -0.0, -13.126]}
+{"stage": "test", "model": "base", "i": 55, "fam": "rule", "kind": "change", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-19.5, -0.0, -8.125]}
+{"stage": "test", "model": "base", "i": 56, "fam": "rule", "kind": "change", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-20.868, -2.93, -0.055]}
+{"stage": "test", "model": "base", "i": 57, "fam": "rule", "kind": "change", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -14.625, -14.002]}
+{"stage": "test", "model": "base", "i": 58, "fam": "rule", "kind": "change", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-19.375, -0.0, -14.125]}
+{"stage": "test", "model": "base", "i": 59, "fam": "rule", "kind": "change", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-19.501, -0.0, -11.751]}
+{"stage": "test", "model": "base", "i": 60, "fam": "rule", "kind": "change", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-14.632, -13.257, -0.008]}
+{"stage": "test", "model": "base", "i": 61, "fam": "rule", "kind": "change", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-17.125, -0.0, -13.25]}
+{"stage": "test", "model": "base", "i": 62, "fam": "rule", "kind": "change", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-14.0, -0.0, -12.875]}
+{"stage": "test", "model": "base", "i": 63, "fam": "rule", "kind": "change", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-19.063, -0.0, -12.25]}
+{"stage": "test", "model": "base", "i": 64, "fam": "rule", "kind": "change", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-19.637, -5.886, -0.012]}
+{"stage": "test", "model": "base", "i": 65, "fam": "rule", "kind": "change", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-10.138, -6.513, -0.014]}
+{"stage": "test", "model": "base", "i": 66, "fam": "rule", "kind": "change", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-20.0, -24.375, -0.0]}
+{"stage": "test", "model": "base", "i": 67, "fam": "rule", "kind": "change", "key": "FIRST", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-14.259, -5.009, -0.009]}
+{"stage": "test", "model": "base", "i": 68, "fam": "rule", "kind": "change", "key": "ONYX", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.002, -6.502, -17.502]}
+{"stage": "test", "model": "base", "i": 69, "fam": "rule", "kind": "change", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-19.625, -24.438, -0.0]}
+{"stage": "test", "model": "base", "i": 70, "fam": "rule", "kind": "change", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-15.431, -2.931, -0.056]}
+{"stage": "test", "model": "base", "i": 71, "fam": "rule", "kind": "change", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-14.25, -0.0, -16.577]}
+{"stage": "test", "model": "base", "i": 72, "fam": "rule", "kind": "change", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-18.027, -2.714, -0.092]}
+{"stage": "test", "model": "base", "i": 73, "fam": "rule", "kind": "change", "key": "OPAL", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.001, -16.688, -17.813]}
+{"stage": "test", "model": "base", "i": 74, "fam": "rule", "kind": "change", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-10.501, -0.001, -6.876]}
+{"stage": "test", "model": "base", "i": 75, "fam": "rule", "kind": "change", "key": "OMEGA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -17.125, -17.879]}
+{"stage": "test", "model": "base", "i": 76, "fam": "rule", "kind": "change", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.016, -4.141, -9.767]}
+{"stage": "test", "model": "base", "i": 77, "fam": "rule", "kind": "change", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-1.179, -0.429, -3.304]}
+{"stage": "test", "model": "base", "i": 78, "fam": "rule", "kind": "change", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-19.375, -0.0, -17.887]}
+{"stage": "test", "model": "base", "i": 79, "fam": "rule", "kind": "change", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-10.75, -0.0, -16.876]}
+{"stage": "test", "model": "base", "i": 80, "fam": "rule", "kind": "same", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -31.281, -34.655]}
+{"stage": "test", "model": "base", "i": 81, "fam": "rule", "kind": "same", "key": "REED", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-24.875, -24.313, -0.0]}
+{"stage": "test", "model": "base", "i": 82, "fam": "rule", "kind": "same", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -24.875, -25.688]}
+{"stage": "test", "model": "base", "i": 83, "fam": "rule", "kind": "same", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -31.5, -26.51]}
+{"stage": "test", "model": "base", "i": 84, "fam": "rule", "kind": "same", "key": "FERN", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-26.125, -0.0, -19.683]}
+{"stage": "test", "model": "base", "i": 85, "fam": "rule", "kind": "same", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -14.25, -15.626]}
+{"stage": "test", "model": "base", "i": 86, "fam": "rule", "kind": "same", "key": "REED", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-27.625, -30.063, -0.0]}
+{"stage": "test", "model": "base", "i": 87, "fam": "rule", "kind": "same", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-24.938, -0.0, -25.751]}
+{"stage": "test", "model": "base", "i": 88, "fam": "rule", "kind": "same", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -23.063, -27.5]}
+{"stage": "test", "model": "base", "i": 89, "fam": "rule", "kind": "same", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.016, -4.266, -7.141]}
+{"stage": "test", "model": "base", "i": 90, "fam": "rule", "kind": "same", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-23.125, -0.0, -15.876]}
+{"stage": "test", "model": "base", "i": 91, "fam": "rule", "kind": "same", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -17.625, -20.377]}
+{"stage": "test", "model": "base", "i": 92, "fam": "rule", "kind": "same", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-19.129, -5.504, -0.004]}
+{"stage": "test", "model": "base", "i": 93, "fam": "rule", "kind": "same", "key": "FERN", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-25.001, -0.0, -17.75]}
+{"stage": "test", "model": "base", "i": 94, "fam": "rule", "kind": "same", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -20.438, -25.438]}
+{"stage": "test", "model": "base", "i": 95, "fam": "rule", "kind": "same", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -28.313, -34.314]}
+{"stage": "test", "model": "base", "i": 96, "fam": "rule", "kind": "same", "key": "FERN", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-26.438, -0.0, -21.004]}
+{"stage": "test", "model": "base", "i": 97, "fam": "rule", "kind": "same", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-20.5, -0.0, -10.625]}
+{"stage": "test", "model": "base", "i": 98, "fam": "rule", "kind": "same", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -13.25, -25.439]}
+{"stage": "test", "model": "base", "i": 99, "fam": "rule", "kind": "same", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -26.0, -30.69]}
+{"stage": "test", "model": "base", "i": 100, "fam": "rule", "kind": "same", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-24.188, -15.5, -0.0]}
+{"stage": "test", "model": "base", "i": 101, "fam": "rule", "kind": "same", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.001, -16.001, -18.126]}
+{"stage": "test", "model": "base", "i": 102, "fam": "rule", "kind": "same", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-22.438, -0.0, -22.008]}
+{"stage": "test", "model": "base", "i": 103, "fam": "rule", "kind": "same", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -16.375, -19.127]}
+{"stage": "test", "model": "base", "i": 104, "fam": "rule", "kind": "same", "key": "OMEGA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-23.906, -10.776, -0.027]}
+{"stage": "test", "model": "base", "i": 105, "fam": "rule", "kind": "same", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-26.126, -0.0, -22.752]}
+{"stage": "test", "model": "base", "i": 106, "fam": "rule", "kind": "same", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -16.5, -19.501]}
+{"stage": "test", "model": "base", "i": 107, "fam": "rule", "kind": "same", "key": "FERN", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-24.755, -0.0, -17.875]}
+{"stage": "test", "model": "base", "i": 108, "fam": "rule", "kind": "same", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -15.875, -20.252]}
+{"stage": "test", "model": "base", "i": 109, "fam": "rule", "kind": "same", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -33.818, -30.008]}
+{"stage": "test", "model": "base", "i": 110, "fam": "rule", "kind": "same", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -15.625, -20.563]}
+{"stage": "test", "model": "base", "i": 111, "fam": "rule", "kind": "same", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -17.125, -24.313]}
+{"stage": "test", "model": "base", "i": 112, "fam": "rule", "kind": "same", "key": "FERN", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-18.0, -0.0, -28.51]}
+{"stage": "test", "model": "base", "i": 113, "fam": "rule", "kind": "same", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -19.125, -28.878]}
+{"stage": "test", "model": "base", "i": 114, "fam": "rule", "kind": "same", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -23.375, -31.065]}
+{"stage": "test", "model": "base", "i": 115, "fam": "rule", "kind": "same", "key": "FERN", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-21.0, -0.0, -23.767]}
+{"stage": "test", "model": "base", "i": 116, "fam": "rule", "kind": "same", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-28.188, -19.625, -0.0]}
+{"stage": "test", "model": "base", "i": 117, "fam": "rule", "kind": "same", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.005, -10.88, -5.382]}
+{"stage": "test", "model": "base", "i": 118, "fam": "rule", "kind": "same", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -18.5, -23.813]}
+{"stage": "test", "model": "base", "i": 119, "fam": "rule", "kind": "same", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -32.71, -26.032]}
+{"stage": "test", "model": "base", "i": 120, "fam": "rule", "kind": "noisy", "key": "FIRST", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-9.001, -0.001, -17.501]}
+{"stage": "test", "model": "base", "i": 121, "fam": "rule", "kind": "noisy", "key": "OMEGA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -17.0, -19.626]}
+{"stage": "test", "model": "base", "i": 122, "fam": "rule", "kind": "noisy", "key": "FIRST", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-2.813, -0.063, -17.063]}
+{"stage": "test", "model": "base", "i": 123, "fam": "rule", "kind": "noisy", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-26.875, -0.0, -24.378]}
+{"stage": "test", "model": "base", "i": 124, "fam": "rule", "kind": "noisy", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-24.188, -15.0, -0.0]}
+{"stage": "test", "model": "base", "i": 125, "fam": "rule", "kind": "noisy", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-24.32, -12.757, -0.007]}
+{"stage": "test", "model": "base", "i": 126, "fam": "rule", "kind": "noisy", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -8.375, -10.875]}
+{"stage": "test", "model": "base", "i": 127, "fam": "rule", "kind": "noisy", "key": "THIRD", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.004, -8.379, -5.754]}
+{"stage": "test", "model": "base", "i": 128, "fam": "rule", "kind": "noisy", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-15.75, -0.0, -11.25]}
+{"stage": "test", "model": "base", "i": 129, "fam": "rule", "kind": "noisy", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-20.95, -18.325, -0.014]}
+{"stage": "test", "model": "base", "i": 130, "fam": "rule", "kind": "noisy", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.474, -23.121, -0.974]}
+{"stage": "test", "model": "base", "i": 131, "fam": "rule", "kind": "noisy", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-21.25, -0.0, -10.376]}
+{"stage": "test", "model": "base", "i": 132, "fam": "rule", "kind": "noisy", "key": "ONYX", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.002, -6.377, -15.752]}
+{"stage": "test", "model": "base", "i": 133, "fam": "rule", "kind": "noisy", "key": "OMEGA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.001, -8.001, -7.127]}
+{"stage": "test", "model": "base", "i": 134, "fam": "rule", "kind": "noisy", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-10.14, -11.387, -0.013]}
+{"stage": "test", "model": "base", "i": 135, "fam": "rule", "kind": "noisy", "key": "FIRST", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-16.0, -0.0, -19.75]}
+{"stage": "test", "model": "base", "i": 136, "fam": "rule", "kind": "noisy", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-19.75, -18.0, -0.0]}
+{"stage": "test", "model": "base", "i": 137, "fam": "rule", "kind": "noisy", "key": "THIRD", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-4.438, -3.188, -0.063]}
+{"stage": "test", "model": "base", "i": 138, "fam": "rule", "kind": "noisy", "key": "FIRST", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-10.5, -0.0, -19.25]}
+{"stage": "test", "model": "base", "i": 139, "fam": "rule", "kind": "noisy", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-22.692, -19.63, -0.006]}
+{"stage": "test", "model": "base", "i": 140, "fam": "rule", "kind": "noisy", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.013, -4.388, -12.638]}
+{"stage": "test", "model": "base", "i": 141, "fam": "rule", "kind": "noisy", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -11.625, -12.502]}
+{"stage": "test", "model": "base", "i": 142, "fam": "rule", "kind": "noisy", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-20.125, -0.0, -19.875]}
+{"stage": "test", "model": "base", "i": 143, "fam": "rule", "kind": "noisy", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-26.563, -0.0, -19.003]}
+{"stage": "test", "model": "base", "i": 144, "fam": "rule", "kind": "noisy", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-18.25, -0.0, -20.502]}
+{"stage": "test", "model": "base", "i": 145, "fam": "rule", "kind": "noisy", "key": "FIRST", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-7.132, -9.257, -0.007]}
+{"stage": "test", "model": "base", "i": 146, "fam": "rule", "kind": "noisy", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-16.125, -0.0, -18.0]}
+{"stage": "test", "model": "base", "i": 147, "fam": "rule", "kind": "noisy", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.524, -0.899, -11.524]}
+{"stage": "test", "model": "base", "i": 148, "fam": "rule", "kind": "noisy", "key": "REED", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -24.814, -17.125]}
+{"stage": "test", "model": "base", "i": 149, "fam": "rule", "kind": "noisy", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-23.938, -0.0, -16.5]}
+{"stage": "test", "model": "base", "i": 150, "fam": "rule", "kind": "noisy", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-17.625, -0.0, -13.625]}
+{"stage": "test", "model": "base", "i": 151, "fam": "rule", "kind": "noisy", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-15.875, -0.0, -19.875]}
+{"stage": "test", "model": "base", "i": 152, "fam": "rule", "kind": "noisy", "key": "FIRST", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.017, -14.392, -4.142]}
+{"stage": "test", "model": "base", "i": 153, "fam": "rule", "kind": "noisy", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-19.875, -0.0, -14.0]}
+{"stage": "test", "model": "base", "i": 154, "fam": "rule", "kind": "noisy", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-8.0, -9.625, -0.0]}
+{"stage": "test", "model": "base", "i": 155, "fam": "rule", "kind": "noisy", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.706, -4.706, -0.706]}
+{"stage": "test", "model": "base", "i": 156, "fam": "rule", "kind": "noisy", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -30.688, -12.875]}
+{"stage": "test", "model": "base", "i": 157, "fam": "rule", "kind": "noisy", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-10.501, -0.001, -13.251]}
+{"stage": "test", "model": "base", "i": 158, "fam": "rule", "kind": "noisy", "key": "THIRD", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -15.625, -15.625]}
+{"stage": "test", "model": "base", "i": 159, "fam": "rule", "kind": "noisy", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-18.625, -0.0, -12.75]}
+{"stage": "test", "model": "base", "i": 160, "fam": "fact", "kind": "change", "key": "73", "old": "22", "cands": ["73", "22"], "scores": [-0.0, -15.625]}
+{"stage": "test", "model": "base", "i": 161, "fam": "fact", "kind": "change", "key": "10", "old": "19", "cands": ["10", "19"], "scores": [-0.0, -15.0]}
+{"stage": "test", "model": "base", "i": 162, "fam": "fact", "kind": "change", "key": "55", "old": "41", "cands": ["55", "41"], "scores": [0.0, -18.625]}
+{"stage": "test", "model": "base", "i": 163, "fam": "fact", "kind": "change", "key": "43", "old": "29", "cands": ["43", "29"], "scores": [0.0, -21.75]}
+{"stage": "test", "model": "base", "i": 164, "fam": "fact", "kind": "change", "key": "90", "old": "69", "cands": ["90", "69"], "scores": [0.0, -23.75]}
+{"stage": "test", "model": "base", "i": 165, "fam": "fact", "kind": "change", "key": "37", "old": "69", "cands": ["37", "69"], "scores": [0.0, -25.75]}
+{"stage": "test", "model": "base", "i": 166, "fam": "fact", "kind": "change", "key": "79", "old": "49", "cands": ["79", "49"], "scores": [0.0, -18.125]}
+{"stage": "test", "model": "base", "i": 167, "fam": "fact", "kind": "change", "key": "51", "old": "45", "cands": ["51", "45"], "scores": [0.0, -20.625]}
+{"stage": "test", "model": "base", "i": 168, "fam": "fact", "kind": "change", "key": "63", "old": "85", "cands": ["63", "85"], "scores": [0.0, -22.625]}
+{"stage": "test", "model": "base", "i": 169, "fam": "fact", "kind": "change", "key": "44", "old": "45", "cands": ["44", "45"], "scores": [0.0, -23.625]}
+{"stage": "test", "model": "base", "i": 170, "fam": "fact", "kind": "change", "key": "46", "old": "95", "cands": ["46", "95"], "scores": [0.0, -23.875]}
+{"stage": "test", "model": "base", "i": 171, "fam": "fact", "kind": "change", "key": "83", "old": "35", "cands": ["83", "35"], "scores": [0.0, -21.5]}
+{"stage": "test", "model": "base", "i": 172, "fam": "fact", "kind": "change", "key": "97", "old": "85", "cands": ["97", "85"], "scores": [0.0, -20.125]}
+{"stage": "test", "model": "base", "i": 173, "fam": "fact", "kind": "change", "key": "49", "old": "42", "cands": ["49", "42"], "scores": [0.0, -24.875]}
+{"stage": "test", "model": "base", "i": 174, "fam": "fact", "kind": "change", "key": "44", "old": "20", "cands": ["44", "20"], "scores": [0.0, -21.75]}
+{"stage": "test", "model": "base", "i": 175, "fam": "fact", "kind": "change", "key": "33", "old": "78", "cands": ["33", "78"], "scores": [0.0, -22.625]}
+{"stage": "test", "model": "base", "i": 176, "fam": "fact", "kind": "change", "key": "43", "old": "49", "cands": ["43", "49"], "scores": [0.0, -19.75]}
+{"stage": "test", "model": "base", "i": 177, "fam": "fact", "kind": "change", "key": "68", "old": "47", "cands": ["68", "47"], "scores": [0.0, -17.125]}
+{"stage": "test", "model": "base", "i": 178, "fam": "fact", "kind": "change", "key": "16", "old": "22", "cands": ["16", "22"], "scores": [0.0, -23.25]}
+{"stage": "test", "model": "base", "i": 179, "fam": "fact", "kind": "change", "key": "82", "old": "69", "cands": ["82", "69"], "scores": [0.0, -22.875]}
+{"stage": "test", "model": "base", "i": 180, "fam": "fact", "kind": "change", "key": "32", "old": "11", "cands": ["32", "11"], "scores": [0.0, -19.75]}
+{"stage": "test", "model": "base", "i": 181, "fam": "fact", "kind": "change", "key": "37", "old": "11", "cands": ["37", "11"], "scores": [0.0, -24.75]}
+{"stage": "test", "model": "base", "i": 182, "fam": "fact", "kind": "change", "key": "52", "old": "76", "cands": ["52", "76"], "scores": [0.0, -26.625]}
+{"stage": "test", "model": "base", "i": 183, "fam": "fact", "kind": "change", "key": "18", "old": "16", "cands": ["18", "16"], "scores": [0.0, -22.5]}
+{"stage": "test", "model": "base", "i": 184, "fam": "fact", "kind": "change", "key": "21", "old": "97", "cands": ["21", "97"], "scores": [0.0, -25.25]}
+{"stage": "test", "model": "base", "i": 185, "fam": "fact", "kind": "change", "key": "52", "old": "57", "cands": ["52", "57"], "scores": [0.0, -29.0]}
+{"stage": "test", "model": "base", "i": 186, "fam": "fact", "kind": "change", "key": "53", "old": "50", "cands": ["53", "50"], "scores": [0.0, -31.625]}
+{"stage": "test", "model": "base", "i": 187, "fam": "fact", "kind": "change", "key": "87", "old": "17", "cands": ["87", "17"], "scores": [0.0, -21.375]}
+{"stage": "test", "model": "base", "i": 188, "fam": "fact", "kind": "change", "key": "44", "old": "95", "cands": ["44", "95"], "scores": [0.0, -23.875]}
+{"stage": "test", "model": "base", "i": 189, "fam": "fact", "kind": "change", "key": "29", "old": "81", "cands": ["29", "81"], "scores": [0.0, -24.25]}
+{"stage": "test", "model": "base", "i": 190, "fam": "fact", "kind": "change", "key": "76", "old": "64", "cands": ["76", "64"], "scores": [0.0, -22.5]}
+{"stage": "test", "model": "base", "i": 191, "fam": "fact", "kind": "change", "key": "18", "old": "19", "cands": ["18", "19"], "scores": [0.0, -18.375]}
+{"stage": "test", "model": "base", "i": 192, "fam": "fact", "kind": "change", "key": "35", "old": "69", "cands": ["35", "69"], "scores": [0.0, -25.75]}
+{"stage": "test", "model": "base", "i": 193, "fam": "fact", "kind": "change", "key": "92", "old": "59", "cands": ["92", "59"], "scores": [0.0, -23.25]}
+{"stage": "test", "model": "base", "i": 194, "fam": "fact", "kind": "change", "key": "56", "old": "23", "cands": ["56", "23"], "scores": [0.0, -21.375]}
+{"stage": "test", "model": "base", "i": 195, "fam": "fact", "kind": "change", "key": "32", "old": "97", "cands": ["32", "97"], "scores": [0.0, -22.5]}
+{"stage": "test", "model": "base", "i": 196, "fam": "fact", "kind": "change", "key": "12", "old": "79", "cands": ["12", "79"], "scores": [0.0, -29.0]}
+{"stage": "test", "model": "base", "i": 197, "fam": "fact", "kind": "change", "key": "37", "old": "80", "cands": ["37", "80"], "scores": [0.0, -27.125]}
+{"stage": "test", "model": "base", "i": 198, "fam": "fact", "kind": "change", "key": "91", "old": "42", "cands": ["91", "42"], "scores": [0.0, -21.625]}
+{"stage": "test", "model": "base", "i": 199, "fam": "fact", "kind": "change", "key": "50", "old": "89", "cands": ["50", "89"], "scores": [0.0, -23.5]}
+{"stage": "test", "model": "base", "i": 200, "fam": "fact", "kind": "same", "key": "41", "old": "41", "cands": ["41", "25"], "scores": [0.0, -34.321]}
+{"stage": "test", "model": "base", "i": 201, "fam": "fact", "kind": "same", "key": "61", "old": "61", "cands": ["61", "92"], "scores": [-0.0, -21.253]}
+{"stage": "test", "model": "base", "i": 202, "fam": "fact", "kind": "same", "key": "16", "old": "16", "cands": ["16", "54"], "scores": [0.0, -25.144]}
+{"stage": "test", "model": "base", "i": 203, "fam": "fact", "kind": "same", "key": "23", "old": "23", "cands": ["23", "46"], "scores": [0.0, -34.316]}
+{"stage": "test", "model": "base", "i": 204, "fam": "fact", "kind": "same", "key": "80", "old": "80", "cands": ["80", "53"], "scores": [0.0, -25.731]}
+{"stage": "test", "model": "base", "i": 205, "fam": "fact", "kind": "same", "key": "24", "old": "24", "cands": ["24", "36"], "scores": [0.0, -22.127]}
+{"stage": "test", "model": "base", "i": 206, "fam": "fact", "kind": "same", "key": "22", "old": "22", "cands": ["22", "81"], "scores": [-0.0, -23.834]}
+{"stage": "test", "model": "base", "i": 207, "fam": "fact", "kind": "same", "key": "96", "old": "96", "cands": ["96", "78"], "scores": [0.0, -22.387]}
+{"stage": "test", "model": "base", "i": 208, "fam": "fact", "kind": "same", "key": "42", "old": "42", "cands": ["42", "26"], "scores": [0.0, -34.813]}
+{"stage": "test", "model": "base", "i": 209, "fam": "fact", "kind": "same", "key": "34", "old": "34", "cands": ["34", "80"], "scores": [-0.0, -24.751]}
+{"stage": "test", "model": "base", "i": 210, "fam": "fact", "kind": "same", "key": "14", "old": "14", "cands": ["14", "70"], "scores": [0.0, -24.625]}
+{"stage": "test", "model": "base", "i": 211, "fam": "fact", "kind": "same", "key": "86", "old": "86", "cands": ["86", "35"], "scores": [-0.0, -28.95]}
+{"stage": "test", "model": "base", "i": 212, "fam": "fact", "kind": "same", "key": "42", "old": "42", "cands": ["42", "89"], "scores": [-0.0, -23.244]}
+{"stage": "test", "model": "base", "i": 213, "fam": "fact", "kind": "same", "key": "74", "old": "74", "cands": ["74", "27"], "scores": [-0.0, -23.294]}
+{"stage": "test", "model": "base", "i": 214, "fam": "fact", "kind": "same", "key": "86", "old": "86", "cands": ["86", "67"], "scores": [-0.0, -19.9]}
+{"stage": "test", "model": "base", "i": 215, "fam": "fact", "kind": "same", "key": "51", "old": "51", "cands": ["51", "16"], "scores": [0.0, -30.159]}
+{"stage": "test", "model": "base", "i": 216, "fam": "fact", "kind": "same", "key": "42", "old": "42", "cands": ["42", "21"], "scores": [-0.0, -34.813]}
+{"stage": "test", "model": "base", "i": 217, "fam": "fact", "kind": "same", "key": "44", "old": "44", "cands": ["44", "17"], "scores": [-0.0, -18.89]}
+{"stage": "test", "model": "base", "i": 218, "fam": "fact", "kind": "same", "key": "46", "old": "46", "cands": ["46", "10"], "scores": [0.0, -27.242]}
+{"stage": "test", "model": "base", "i": 219, "fam": "fact", "kind": "same", "key": "20", "old": "20", "cands": ["20", "61"], "scores": [-0.0, -28.916]}
+{"stage": "test", "model": "base", "i": 220, "fam": "math", "kind": "change", "key": "21", "old": "27", "cands": ["21", "27"], "scores": [-0.0, -9.0]}
+{"stage": "test", "model": "base", "i": 221, "fam": "math", "kind": "change", "key": "3", "old": "12", "cands": ["3", "12"], "scores": [-0.0, -13.431]}
+{"stage": "test", "model": "base", "i": 222, "fam": "math", "kind": "change", "key": "22", "old": "25", "cands": ["22", "25"], "scores": [0.0, -21.625]}
+{"stage": "test", "model": "base", "i": 223, "fam": "math", "kind": "change", "key": "30", "old": "21", "cands": ["30", "21"], "scores": [-5.007, -4.798]}
+{"stage": "test", "model": "base", "i": 224, "fam": "math", "kind": "change", "key": "7", "old": "15", "cands": ["7", "15"], "scores": [-0.354, -11.994]}
+{"stage": "test", "model": "base", "i": 225, "fam": "math", "kind": "change", "key": "39", "old": "36", "cands": ["39", "36"], "scores": [-0.023, -11.648]}
+{"stage": "test", "model": "base", "i": 226, "fam": "math", "kind": "change", "key": "33", "old": "24", "cands": ["33", "24"], "scores": [-0.03, -12.78]}
+{"stage": "test", "model": "base", "i": 227, "fam": "math", "kind": "change", "key": "34", "old": "42", "cands": ["34", "42"], "scores": [-0.001, -8.24]}
+{"stage": "test", "model": "base", "i": 228, "fam": "math", "kind": "change", "key": "44", "old": "48", "cands": ["44", "48"], "scores": [-0.0, -19.875]}
+{"stage": "test", "model": "base", "i": 229, "fam": "math", "kind": "change", "key": "23", "old": "32", "cands": ["23", "32"], "scores": [-0.092, -7.387]}
+{"stage": "test", "model": "base", "i": 230, "fam": "math", "kind": "change", "key": "19", "old": "25", "cands": ["19", "25"], "scores": [-0.0, -14.084]}
+{"stage": "test", "model": "base", "i": 231, "fam": "math", "kind": "change", "key": "42", "old": "49", "cands": ["42", "49"], "scores": [-0.0, -13.5]}
+{"stage": "test", "model": "base", "i": 232, "fam": "math", "kind": "change", "key": "81", "old": "72", "cands": ["81", "72"], "scores": [-1.911, -3.163]}
+{"stage": "test", "model": "base", "i": 233, "fam": "math", "kind": "change", "key": "13", "old": "21", "cands": ["13", "21"], "scores": [-6.026, -10.342]}
+{"stage": "test", "model": "base", "i": 234, "fam": "math", "kind": "change", "key": "55", "old": "64", "cands": ["55", "64"], "scores": [-0.0, -11.011]}
+{"stage": "test", "model": "base", "i": 235, "fam": "math", "kind": "change", "key": "59", "old": "56", "cands": ["59", "56"], "scores": [-0.0, -19.75]}
+{"stage": "test", "model": "base", "i": 236, "fam": "math", "kind": "change", "key": "52", "old": "54", "cands": ["52", "54"], "scores": [-0.001, -7.751]}
+{"stage": "test", "model": "base", "i": 237, "fam": "math", "kind": "change", "key": "60", "old": "63", "cands": ["60", "63"], "scores": [-2.127, -21.002]}
+{"stage": "test", "model": "base", "i": 238, "fam": "math", "kind": "change", "key": "9", "old": "18", "cands": ["9", "18"], "scores": [-0.387, -5.169]}
+{"stage": "test", "model": "base", "i": 239, "fam": "math", "kind": "change", "key": "43", "old": "35", "cands": ["43", "35"], "scores": [-0.014, -8.785]}
+{"stage": "test", "model": "base", "i": 240, "fam": "math", "kind": "change", "key": "23", "old": "21", "cands": ["23", "21"], "scores": [-0.313, -15.063]}
+{"stage": "test", "model": "base", "i": 241, "fam": "math", "kind": "change", "key": "29", "old": "36", "cands": ["29", "36"], "scores": [-0.0, -8.667]}
+{"stage": "test", "model": "base", "i": 242, "fam": "math", "kind": "change", "key": "26", "old": "28", "cands": ["26", "28"], "scores": [-1.965, -10.34]}
+{"stage": "test", "model": "base", "i": 243, "fam": "math", "kind": "change", "key": "16", "old": "21", "cands": ["16", "21"], "scores": [-0.0, -11.278]}
+{"stage": "test", "model": "base", "i": 244, "fam": "math", "kind": "change", "key": "50", "old": "42", "cands": ["50", "42"], "scores": [-1.91, -7.784]}
+{"stage": "test", "model": "base", "i": 245, "fam": "math", "kind": "change", "key": "41", "old": "48", "cands": ["41", "48"], "scores": [-0.062, -26.312]}
+{"stage": "test", "model": "base", "i": 246, "fam": "math", "kind": "change", "key": "28", "old": "20", "cands": ["28", "20"], "scores": [-0.0, -12.875]}
+{"stage": "test", "model": "base", "i": 247, "fam": "math", "kind": "change", "key": "61", "old": "64", "cands": ["61", "64"], "scores": [-1.342, -1.467]}
+{"stage": "test", "model": "base", "i": 248, "fam": "math", "kind": "change", "key": "60", "old": "56", "cands": ["60", "56"], "scores": [-0.201, -1.726]}
+{"stage": "test", "model": "base", "i": 249, "fam": "math", "kind": "change", "key": "58", "old": "54", "cands": ["58", "54"], "scores": [-2.835, -0.085]}
+{"stage": "test", "model": "base", "i": 250, "fam": "math", "kind": "change", "key": "37", "old": "28", "cands": ["37", "28"], "scores": [-1.25, -6.856]}
+{"stage": "test", "model": "base", "i": 251, "fam": "math", "kind": "change", "key": "30", "old": "36", "cands": ["30", "36"], "scores": [-0.1, -15.85]}
+{"stage": "test", "model": "base", "i": 252, "fam": "math", "kind": "change", "key": "45", "old": "40", "cands": ["45", "40"], "scores": [-0.0, -14.75]}
+{"stage": "test", "model": "base", "i": 253, "fam": "math", "kind": "change", "key": "45", "old": "54", "cands": ["45", "54"], "scores": [-0.0, -8.75]}
+{"stage": "test", "model": "base", "i": 254, "fam": "math", "kind": "change", "key": "49", "old": "42", "cands": ["49", "42"], "scores": [-0.0, -18.375]}
+{"stage": "test", "model": "base", "i": 255, "fam": "math", "kind": "change", "key": "13", "old": "15", "cands": ["13", "15"], "scores": [-0.0, -20.875]}
+{"stage": "test", "model": "base", "i": 256, "fam": "math", "kind": "change", "key": "10", "old": "12", "cands": ["10", "12"], "scores": [-0.0, -11.375]}
+{"stage": "test", "model": "base", "i": 257, "fam": "math", "kind": "change", "key": "21", "old": "27", "cands": ["21", "27"], "scores": [-0.006, -5.131]}
+{"stage": "test", "model": "base", "i": 258, "fam": "math", "kind": "change", "key": "17", "old": "24", "cands": ["17", "24"], "scores": [-0.002, -9.803]}
+{"stage": "test", "model": "base", "i": 259, "fam": "math", "kind": "change", "key": "30", "old": "21", "cands": ["30", "21"], "scores": [-0.201, -2.597]}
+{"stage": "test", "model": "base", "i": 260, "fam": "math", "kind": "change", "key": "35", "old": "28", "cands": ["35", "28"], "scores": [-0.0, -8.25]}
+{"stage": "test", "model": "base", "i": 261, "fam": "math", "kind": "change", "key": "26", "old": "24", "cands": ["26", "24"], "scores": [-0.0, -16.75]}
+{"stage": "test", "model": "base", "i": 262, "fam": "math", "kind": "change", "key": "43", "old": "36", "cands": ["43", "36"], "scores": [-0.203, -14.702]}
+{"stage": "test", "model": "base", "i": 263, "fam": "math", "kind": "change", "key": "43", "old": "36", "cands": ["43", "36"], "scores": [-0.024, -17.774]}
+{"stage": "test", "model": "base", "i": 264, "fam": "math", "kind": "change", "key": "35", "old": "32", "cands": ["35", "32"], "scores": [-0.0, -16.625]}
+{"stage": "test", "model": "base", "i": 265, "fam": "math", "kind": "change", "key": "36", "old": "27", "cands": ["36", "27"], "scores": [-0.0, -9.125]}
+{"stage": "test", "model": "base", "i": 266, "fam": "math", "kind": "change", "key": "9", "old": "16", "cands": ["9", "16"], "scores": [-0.043, -7.457]}
+{"stage": "test", "model": "base", "i": 267, "fam": "math", "kind": "change", "key": "61", "old": "56", "cands": ["61", "56"], "scores": [-2.813, -0.104]}
+{"stage": "test", "model": "base", "i": 268, "fam": "math", "kind": "change", "key": "19", "old": "24", "cands": ["19", "24"], "scores": [-0.0, -17.062]}
+{"stage": "test", "model": "base", "i": 269, "fam": "math", "kind": "change", "key": "62", "old": "64", "cands": ["62", "64"], "scores": [-0.0, -17.625]}
+{"stage": "test", "model": "base", "i": 270, "fam": "math", "kind": "change", "key": "57", "old": "49", "cands": ["57", "49"], "scores": [-1.566, -0.697]}
+{"stage": "test", "model": "base", "i": 271, "fam": "math", "kind": "change", "key": "39", "old": "36", "cands": ["39", "36"], "scores": [-0.03, -11.28]}
+{"stage": "test", "model": "base", "i": 272, "fam": "math", "kind": "change", "key": "27", "old": "35", "cands": ["27", "35"], "scores": [-0.0, -11.556]}
+{"stage": "test", "model": "base", "i": 273, "fam": "math", "kind": "change", "key": "34", "old": "40", "cands": ["34", "40"], "scores": [-0.0, -17.574]}
+{"stage": "test", "model": "base", "i": 274, "fam": "math", "kind": "change", "key": "62", "old": "56", "cands": ["62", "56"], "scores": [-0.207, -8.423]}
+{"stage": "test", "model": "base", "i": 275, "fam": "math", "kind": "change", "key": "55", "old": "63", "cands": ["55", "63"], "scores": [-0.0, -10.901]}
+{"stage": "test", "model": "base", "i": 276, "fam": "math", "kind": "change", "key": "24", "old": "21", "cands": ["24", "21"], "scores": [-0.0, -16.375]}
+{"stage": "test", "model": "base", "i": 277, "fam": "math", "kind": "change", "key": "52", "old": "48", "cands": ["52", "48"], "scores": [-0.035, -5.263]}
+{"stage": "test", "model": "base", "i": 278, "fam": "math", "kind": "change", "key": "29", "old": "24", "cands": ["29", "24"], "scores": [-0.004, -20.629]}
+{"stage": "test", "model": "base", "i": 279, "fam": "math", "kind": "change", "key": "69", "old": "63", "cands": ["69", "63"], "scores": [-2.05, -0.175]}
+{"stage": "test", "model": "base", "i": 280, "fam": "math", "kind": "change", "key": "28", "old": "32", "cands": ["28", "32"], "scores": [-0.002, -6.626]}
+{"stage": "test", "model": "base", "i": 281, "fam": "math", "kind": "change", "key": "36", "old": "45", "cands": ["36", "45"], "scores": [-0.038, -3.288]}
+{"stage": "test", "model": "base", "i": 282, "fam": "math", "kind": "change", "key": "9", "old": "18", "cands": ["9", "18"], "scores": [-0.0, -10.752]}
+{"stage": "test", "model": "base", "i": 283, "fam": "math", "kind": "change", "key": "62", "old": "54", "cands": ["62", "54"], "scores": [-1.327, -11.849]}
+{"stage": "test", "model": "base", "i": 284, "fam": "math", "kind": "change", "key": "28", "old": "21", "cands": ["28", "21"], "scores": [-0.006, -5.381]}
+{"stage": "test", "model": "base", "i": 285, "fam": "math", "kind": "change", "key": "52", "old": "48", "cands": ["52", "48"], "scores": [-0.0, -9.0]}
+{"stage": "test", "model": "base", "i": 286, "fam": "math", "kind": "change", "key": "43", "old": "45", "cands": ["43", "45"], "scores": [-0.0, -22.0]}
+{"stage": "test", "model": "base", "i": 287, "fam": "math", "kind": "change", "key": "79", "old": "72", "cands": ["79", "72"], "scores": [-0.012, -6.637]}
+{"stage": "test", "model": "base", "i": 288, "fam": "math", "kind": "change", "key": "24", "old": "27", "cands": ["24", "27"], "scores": [-0.018, -12.018]}
+{"stage": "test", "model": "base", "i": 289, "fam": "math", "kind": "change", "key": "43", "old": "40", "cands": ["43", "40"], "scores": [-0.0, -19.125]}
+{"stage": "test", "model": "base", "i": 290, "fam": "math", "kind": "change", "key": "20", "old": "24", "cands": ["20", "24"], "scores": [-0.034, -3.659]}
+{"stage": "test", "model": "base", "i": 291, "fam": "math", "kind": "change", "key": "22", "old": "24", "cands": ["22", "24"], "scores": [0.0, -22.812]}
+{"stage": "test", "model": "base", "i": 292, "fam": "math", "kind": "change", "key": "26", "old": "32", "cands": ["26", "32"], "scores": [-0.002, -8.071]}
+{"stage": "test", "model": "base", "i": 293, "fam": "math", "kind": "change", "key": "29", "old": "27", "cands": ["29", "27"], "scores": [-1.502, -14.127]}
+{"stage": "test", "model": "base", "i": 294, "fam": "math", "kind": "change", "key": "18", "old": "12", "cands": ["18", "12"], "scores": [-0.03, -14.78]}
+{"stage": "test", "model": "base", "i": 295, "fam": "math", "kind": "change", "key": "21", "old": "27", "cands": ["21", "27"], "scores": [-0.0, -15.875]}
+{"stage": "test", "model": "base", "i": 296, "fam": "math", "kind": "change", "key": "23", "old": "27", "cands": ["23", "27"], "scores": [-0.0, -22.0]}
+{"stage": "test", "model": "base", "i": 297, "fam": "math", "kind": "change", "key": "8", "old": "15", "cands": ["8", "15"], "scores": [-0.0, -13.864]}
+{"stage": "test", "model": "base", "i": 298, "fam": "math", "kind": "change", "key": "59", "old": "56", "cands": ["59", "56"], "scores": [-0.004, -10.004]}
+{"stage": "test", "model": "base", "i": 299, "fam": "math", "kind": "change", "key": "16", "old": "9", "cands": ["16", "9"], "scores": [-0.006, -6.002]}
+{"stage": "test", "model": "base", "i": 300, "fam": "price", "kind": "change", "key": "16", "old": "8", "cands": ["16", "8"], "scores": [-0.001, -7.501]}
+{"stage": "test", "model": "base", "i": 301, "fam": "price", "kind": "change", "key": "40", "old": "64", "cands": ["40", "64"], "scores": [-0.0, -15.379]}
+{"stage": "test", "model": "base", "i": 302, "fam": "price", "kind": "change", "key": "45", "old": "54", "cands": ["45", "54"], "scores": [-0.001, -9.092]}
+{"stage": "test", "model": "base", "i": 303, "fam": "price", "kind": "change", "key": "15", "old": "24", "cands": ["15", "24"], "scores": [-0.148, -10.276]}
+{"stage": "test", "model": "base", "i": 304, "fam": "price", "kind": "change", "key": "44", "old": "20", "cands": ["44", "20"], "scores": [-0.0, -25.337]}
+{"stage": "test", "model": "base", "i": 305, "fam": "price", "kind": "change", "key": "48", "old": "24", "cands": ["48", "24"], "scores": [-0.007, -5.007]}
+{"stage": "test", "model": "base", "i": 306, "fam": "price", "kind": "change", "key": "14", "old": "6", "cands": ["14", "6"], "scores": [-0.003, -21.128]}
+{"stage": "test", "model": "base", "i": 307, "fam": "price", "kind": "change", "key": "66", "old": "48", "cands": ["66", "48"], "scores": [-3.288, -7.791]}
+{"stage": "test", "model": "base", "i": 308, "fam": "price", "kind": "change", "key": "18", "old": "15", "cands": ["18", "15"], "scores": [-0.0, -26.813]}
+{"stage": "test", "model": "base", "i": 309, "fam": "price", "kind": "change", "key": "27", "old": "21", "cands": ["27", "21"], "scores": [-0.002, -16.127]}
+{"stage": "test", "model": "base", "i": 310, "fam": "price", "kind": "change", "key": "108", "old": "72", "cands": ["108", "72"], "scores": [-0.0, -14.625]}
+{"stage": "test", "model": "base", "i": 311, "fam": "price", "kind": "change", "key": "6", "old": "14", "cands": ["6", "14"], "scores": [-0.007, -15.776]}
+{"stage": "test", "model": "base", "i": 312, "fam": "price", "kind": "change", "key": "48", "old": "32", "cands": ["48", "32"], "scores": [-0.0, -11.813]}
+{"stage": "test", "model": "base", "i": 313, "fam": "price", "kind": "change", "key": "21", "old": "28", "cands": ["21", "28"], "scores": [0.0, -18.5]}
+{"stage": "test", "model": "base", "i": 314, "fam": "price", "kind": "change", "key": "36", "old": "24", "cands": ["36", "24"], "scores": [-0.021, -10.146]}
+{"stage": "test", "model": "base", "i": 315, "fam": "price", "kind": "change", "key": "22", "old": "10", "cands": ["22", "10"], "scores": [-0.693, -18.381]}
+{"stage": "test", "model": "base", "i": 316, "fam": "price", "kind": "change", "key": "99", "old": "27", "cands": ["99", "27"], "scores": [-1.413, -3.696]}
+{"stage": "test", "model": "base", "i": 317, "fam": "price", "kind": "change", "key": "27", "old": "24", "cands": ["27", "24"], "scores": [-0.0, -22.563]}
+{"stage": "test", "model": "base", "i": 318, "fam": "price", "kind": "change", "key": "96", "old": "32", "cands": ["96", "32"], "scores": [-11.875, -0.004]}
+{"stage": "test", "model": "base", "i": 319, "fam": "price", "kind": "change", "key": "42", "old": "54", "cands": ["42", "54"], "scores": [-0.0, -20.937]}
+{"stage": "test", "model": "base", "i": 320, "fam": "price", "kind": "change", "key": "72", "old": "36", "cands": ["72", "36"], "scores": [-0.01, -11.44]}
+{"stage": "test", "model": "base", "i": 321, "fam": "price", "kind": "change", "key": "15", "old": "20", "cands": ["15", "20"], "scores": [-0.001, -13.254]}
+{"stage": "test", "model": "base", "i": 322, "fam": "price", "kind": "change", "key": "55", "old": "45", "cands": ["55", "45"], "scores": [-0.0, -16.507]}
+{"stage": "test", "model": "base", "i": 323, "fam": "price", "kind": "change", "key": "22", "old": "10", "cands": ["22", "10"], "scores": [-0.0, -29.626]}
+{"stage": "test", "model": "base", "i": 324, "fam": "price", "kind": "change", "key": "48", "old": "32", "cands": ["48", "32"], "scores": [-0.0, -15.698]}
+{"stage": "test", "model": "base", "i": 325, "fam": "price", "kind": "change", "key": "15", "old": "27", "cands": ["15", "27"], "scores": [-0.047, -7.575]}
+{"stage": "test", "model": "base", "i": 326, "fam": "price", "kind": "change", "key": "16", "old": "8", "cands": ["16", "8"], "scores": [-4.264, -0.014]}
+{"stage": "test", "model": "base", "i": 327, "fam": "price", "kind": "change", "key": "60", "old": "30", "cands": ["60", "30"], "scores": [-0.0, -14.018]}
+{"stage": "test", "model": "base", "i": 328, "fam": "price", "kind": "change", "key": "72", "old": "18", "cands": ["72", "18"], "scores": [-0.975, -9.725]}
+{"stage": "test", "model": "base", "i": 329, "fam": "price", "kind": "change", "key": "35", "old": "49", "cands": ["35", "49"], "scores": [-0.004, -9.8]}
+{"stage": "test", "model": "base", "i": 330, "fam": "price", "kind": "change", "key": "44", "old": "12", "cands": ["44", "12"], "scores": [-6.751, -13.626]}
+{"stage": "test", "model": "base", "i": 331, "fam": "price", "kind": "change", "key": "44", "old": "16", "cands": ["44", "16"], "scores": [-0.0, -19.018]}
+{"stage": "test", "model": "base", "i": 332, "fam": "price", "kind": "change", "key": "40", "old": "12", "cands": ["40", "12"], "scores": [-0.002, -22.064]}
+{"stage": "test", "model": "base", "i": 333, "fam": "price", "kind": "change", "key": "20", "old": "14", "cands": ["20", "14"], "scores": [-0.127, -14.252]}
+{"stage": "test", "model": "base", "i": 334, "fam": "price", "kind": "change", "key": "49", "old": "28", "cands": ["49", "28"], "scores": [-0.006, -5.265]}
+{"stage": "test", "model": "base", "i": 335, "fam": "price", "kind": "change", "key": "64", "old": "40", "cands": ["64", "40"], "scores": [-0.0, -17.849]}
+{"stage": "test", "model": "base", "i": 336, "fam": "price", "kind": "change", "key": "10", "old": "14", "cands": ["10", "14"], "scores": [-0.001, -25.376]}
+{"stage": "test", "model": "base", "i": 337, "fam": "price", "kind": "change", "key": "24", "old": "27", "cands": ["24", "27"], "scores": [-0.007, -14.882]}
+{"stage": "test", "model": "base", "i": 338, "fam": "price", "kind": "change", "key": "8", "old": "14", "cands": ["8", "14"], "scores": [-0.0, -15.634]}
+{"stage": "test", "model": "base", "i": 339, "fam": "price", "kind": "change", "key": "35", "old": "49", "cands": ["35", "49"], "scores": [-0.0, -23.851]}
+{"stage": "test", "model": "base", "i": 340, "fam": "price", "kind": "change", "key": "18", "old": "15", "cands": ["18", "15"], "scores": [-0.0, -24.5]}
+{"stage": "test", "model": "base", "i": 341, "fam": "price", "kind": "change", "key": "24", "old": "16", "cands": ["24", "16"], "scores": [-0.011, -20.136]}
+{"stage": "test", "model": "base", "i": 342, "fam": "price", "kind": "change", "key": "42", "old": "54", "cands": ["42", "54"], "scores": [-0.009, -9.149]}
+{"stage": "test", "model": "base", "i": 343, "fam": "price", "kind": "change", "key": "49", "old": "42", "cands": ["49", "42"], "scores": [-0.0, -19.875]}
+{"stage": "test", "model": "base", "i": 344, "fam": "price", "kind": "change", "key": "20", "old": "8", "cands": ["20", "8"], "scores": [-0.023, -8.898]}
+{"stage": "test", "model": "base", "i": 345, "fam": "price", "kind": "change", "key": "36", "old": "63", "cands": ["36", "63"], "scores": [-0.0, -15.802]}
+{"stage": "test", "model": "base", "i": 346, "fam": "price", "kind": "change", "key": "20", "old": "28", "cands": ["20", "28"], "scores": [-0.0, -24.5]}
+{"stage": "test", "model": "base", "i": 347, "fam": "price", "kind": "change", "key": "90", "old": "72", "cands": ["90", "72"], "scores": [-13.127, -1.572]}
+{"stage": "test", "model": "base", "i": 348, "fam": "price", "kind": "change", "key": "22", "old": "14", "cands": ["22", "14"], "scores": [0.0, -25.456]}
+{"stage": "test", "model": "base", "i": 349, "fam": "price", "kind": "change", "key": "21", "old": "9", "cands": ["21", "9"], "scores": [-3.53, -9.155]}
+{"stage": "test", "model": "base", "i": 350, "fam": "price", "kind": "change", "key": "44", "old": "36", "cands": ["44", "36"], "scores": [-0.0, -18.61]}
+{"stage": "test", "model": "base", "i": 351, "fam": "price", "kind": "change", "key": "56", "old": "35", "cands": ["56", "35"], "scores": [-0.0, -14.099]}
+{"stage": "test", "model": "base", "i": 352, "fam": "price", "kind": "change", "key": "90", "old": "27", "cands": ["90", "27"], "scores": [-0.388, -1.138]}
+{"stage": "test", "model": "base", "i": 353, "fam": "price", "kind": "change", "key": "9", "old": "24", "cands": ["9", "24"], "scores": [-0.0, -16.387]}
+{"stage": "test", "model": "base", "i": 354, "fam": "price", "kind": "change", "key": "48", "old": "20", "cands": ["48", "20"], "scores": [-0.127, -14.252]}
+{"stage": "test", "model": "base", "i": 355, "fam": "price", "kind": "change", "key": "60", "old": "30", "cands": ["60", "30"], "scores": [-0.038, -3.288]}
+{"stage": "test", "model": "base", "i": 356, "fam": "price", "kind": "change", "key": "27", "old": "18", "cands": ["27", "18"], "scores": [-0.0, -19.011]}
+{"stage": "test", "model": "base", "i": 357, "fam": "price", "kind": "change", "key": "54", "old": "30", "cands": ["54", "30"], "scores": [-0.0, -30.625]}
+{"stage": "test", "model": "base", "i": 358, "fam": "price", "kind": "change", "key": "66", "old": "24", "cands": ["66", "24"], "scores": [-0.0, -22.104]}
+{"stage": "test", "model": "base", "i": 359, "fam": "price", "kind": "change", "key": "77", "old": "35", "cands": ["77", "35"], "scores": [-0.1, -8.993]}
+{"stage": "test", "model": "base", "i": 360, "fam": "price", "kind": "change", "key": "9", "old": "21", "cands": ["9", "21"], "scores": [-0.049, -5.972]}
+{"stage": "test", "model": "base", "i": 361, "fam": "price", "kind": "change", "key": "16", "old": "6", "cands": ["16", "6"], "scores": [-11.136, -4.511]}
+{"stage": "test", "model": "base", "i": 362, "fam": "price", "kind": "change", "key": "30", "old": "18", "cands": ["30", "18"], "scores": [-0.0, -22.009]}
+{"stage": "test", "model": "base", "i": 363, "fam": "price", "kind": "change", "key": "15", "old": "21", "cands": ["15", "21"], "scores": [-0.0, -17.864]}
+{"stage": "test", "model": "base", "i": 364, "fam": "price", "kind": "change", "key": "30", "old": "12", "cands": ["30", "12"], "scores": [-3.651, -17.151]}
+{"stage": "test", "model": "base", "i": 365, "fam": "price", "kind": "change", "key": "28", "old": "32", "cands": ["28", "32"], "scores": [-0.0, -9.586]}
+{"stage": "test", "model": "base", "i": 366, "fam": "price", "kind": "change", "key": "64", "old": "40", "cands": ["64", "40"], "scores": [-0.006, -5.155]}
+{"stage": "test", "model": "base", "i": 367, "fam": "price", "kind": "change", "key": "20", "old": "25", "cands": ["20", "25"], "scores": [-0.0, -22.875]}
+{"stage": "test", "model": "base", "i": 368, "fam": "price", "kind": "change", "key": "40", "old": "72", "cands": ["40", "72"], "scores": [-2.371, -2.473]}
+{"stage": "test", "model": "base", "i": 369, "fam": "price", "kind": "change", "key": "54", "old": "72", "cands": ["54", "72"], "scores": [-0.01, -5.885]}
+{"stage": "test", "model": "base", "i": 370, "fam": "price", "kind": "change", "key": "45", "old": "36", "cands": ["45", "36"], "scores": [-0.0, -19.376]}
+{"stage": "test", "model": "base", "i": 371, "fam": "price", "kind": "change", "key": "54", "old": "81", "cands": ["54", "81"], "scores": [-0.0, -8.75]}
+{"stage": "test", "model": "base", "i": 372, "fam": "price", "kind": "change", "key": "63", "old": "28", "cands": ["63", "28"], "scores": [-0.0, -23.578]}
+{"stage": "test", "model": "base", "i": 373, "fam": "price", "kind": "change", "key": "48", "old": "36", "cands": ["48", "36"], "scores": [-0.0, -17.886]}
+{"stage": "test", "model": "base", "i": 374, "fam": "price", "kind": "change", "key": "72", "old": "24", "cands": ["72", "24"], "scores": [-0.0, -10.987]}
+{"stage": "test", "model": "base", "i": 375, "fam": "price", "kind": "change", "key": "9", "old": "15", "cands": ["9", "15"], "scores": [-0.003, -12.602]}
+{"stage": "test", "model": "base", "i": 376, "fam": "price", "kind": "change", "key": "84", "old": "35", "cands": ["84", "35"], "scores": [-0.0, -24.315]}
+{"stage": "test", "model": "base", "i": 377, "fam": "price", "kind": "change", "key": "60", "old": "42", "cands": ["60", "42"], "scores": [-0.0, -23.876]}
+{"stage": "test", "model": "base", "i": 378, "fam": "price", "kind": "change", "key": "88", "old": "32", "cands": ["88", "32"], "scores": [-0.164, -5.811]}
+{"stage": "test", "model": "base", "i": 379, "fam": "price", "kind": "change", "key": "12", "old": "16", "cands": ["12", "16"], "scores": [0.0, -23.75]}
+{"stage": "test", "model": "base", "i": 380, "fam": "math", "kind": "same", "key": "64", "old": "64", "cands": ["64", "16"], "scores": [0.0, -33.67]}
+{"stage": "test", "model": "base", "i": 381, "fam": "math", "kind": "same", "key": "16", "old": "16", "cands": ["16", "8"], "scores": [0.0, -29.188]}
+{"stage": "test", "model": "base", "i": 382, "fam": "math", "kind": "same", "key": "42", "old": "42", "cands": ["42", "13"], "scores": [0.0, -41.571]}
+{"stage": "test", "model": "base", "i": 383, "fam": "math", "kind": "same", "key": "64", "old": "64", "cands": ["64", "16"], "scores": [0.0, -34.751]}
+{"stage": "test", "model": "base", "i": 384, "fam": "math", "kind": "same", "key": "27", "old": "27", "cands": ["27", "12"], "scores": [0.0, -33.864]}
+{"stage": "test", "model": "base", "i": 385, "fam": "math", "kind": "same", "key": "64", "old": "64", "cands": ["64", "16"], "scores": [0.0, -36.278]}
+{"stage": "test", "model": "base", "i": 386, "fam": "math", "kind": "same", "key": "12", "old": "12", "cands": ["12", "7"], "scores": [0.0, -32.438]}
+{"stage": "test", "model": "base", "i": 387, "fam": "math", "kind": "same", "key": "18", "old": "18", "cands": ["18", "9"], "scores": [0.0, -28.25]}
+{"stage": "test", "model": "base", "i": 388, "fam": "math", "kind": "same", "key": "24", "old": "24", "cands": ["24", "11"], "scores": [0.0, -37.583]}
+{"stage": "test", "model": "base", "i": 389, "fam": "math", "kind": "same", "key": "27", "old": "27", "cands": ["27", "12"], "scores": [0.0, -33.897]}
+{"stage": "test", "model": "base", "i": 390, "fam": "math", "kind": "same", "key": "18", "old": "18", "cands": ["18", "9"], "scores": [0.0, -28.375]}
+{"stage": "test", "model": "base", "i": 391, "fam": "math", "kind": "same", "key": "72", "old": "72", "cands": ["72", "17"], "scores": [0.0, -37.059]}
+{"stage": "test", "model": "base", "i": 392, "fam": "math", "kind": "same", "key": "45", "old": "45", "cands": ["45", "14"], "scores": [0.0, -42.198]}
+{"stage": "test", "model": "base", "i": 393, "fam": "math", "kind": "same", "key": "32", "old": "32", "cands": ["32", "12"], "scores": [0.0, -29.537]}
+{"stage": "test", "model": "base", "i": 394, "fam": "math", "kind": "same", "key": "16", "old": "16", "cands": ["16", "8"], "scores": [0.0, -28.25]}
+{"stage": "test", "model": "base", "i": 395, "fam": "math", "kind": "same", "key": "42", "old": "42", "cands": ["42", "13"], "scores": [0.0, -38.234]}
+{"stage": "test", "model": "base", "i": 396, "fam": "math", "kind": "same", "key": "28", "old": "28", "cands": ["28", "11"], "scores": [0.0, -34.021]}
+{"stage": "test", "model": "base", "i": 397, "fam": "math", "kind": "same", "key": "35", "old": "35", "cands": ["35", "12"], "scores": [0.0, -35.513]}
+{"stage": "test", "model": "base", "i": 398, "fam": "math", "kind": "same", "key": "45", "old": "45", "cands": ["45", "14"], "scores": [0.0, -41.089]}
+{"stage": "test", "model": "base", "i": 399, "fam": "math", "kind": "same", "key": "18", "old": "18", "cands": ["18", "9"], "scores": [0.0, -28.0]}
+{"stage": "test", "model": "base", "i": 400, "fam": "math", "kind": "same", "key": "54", "old": "54", "cands": ["54", "15"], "scores": [0.0, -37.777]}
+{"stage": "test", "model": "base", "i": 401, "fam": "math", "kind": "same", "key": "36", "old": "36", "cands": ["36", "13"], "scores": [0.0, -39.803]}
+{"stage": "test", "model": "base", "i": 402, "fam": "math", "kind": "same", "key": "64", "old": "64", "cands": ["64", "16"], "scores": [0.0, -33.025]}
+{"stage": "test", "model": "base", "i": 403, "fam": "math", "kind": "same", "key": "42", "old": "42", "cands": ["42", "13"], "scores": [0.0, -34.355]}
+{"stage": "test", "model": "base", "i": 404, "fam": "math", "kind": "same", "key": "40", "old": "40", "cands": ["40", "13"], "scores": [0.0, -41.399]}
+{"stage": "test", "model": "base", "i": 405, "fam": "math", "kind": "same", "key": "45", "old": "45", "cands": ["45", "14"], "scores": [0.0, -42.956]}
+{"stage": "test", "model": "base", "i": 406, "fam": "math", "kind": "same", "key": "24", "old": "24", "cands": ["24", "10"], "scores": [0.0, -37.173]}
+{"stage": "test", "model": "base", "i": 407, "fam": "math", "kind": "same", "key": "12", "old": "12", "cands": ["12", "7"], "scores": [0.0, -32.938]}
+{"stage": "test", "model": "base", "i": 408, "fam": "math", "kind": "same", "key": "48", "old": "48", "cands": ["48", "14"], "scores": [0.0, -31.409]}
+{"stage": "test", "model": "base", "i": 409, "fam": "math", "kind": "same", "key": "40", "old": "40", "cands": ["40", "13"], "scores": [0.0, -34.555]}
+{"stage": "test", "model": "base", "i": 410, "fam": "math", "kind": "same", "key": "54", "old": "54", "cands": ["54", "15"], "scores": [0.0, -39.932]}
+{"stage": "test", "model": "base", "i": 411, "fam": "math", "kind": "same", "key": "36", "old": "36", "cands": ["36", "13"], "scores": [0.0, -36.867]}
+{"stage": "test", "model": "base", "i": 412, "fam": "math", "kind": "same", "key": "18", "old": "18", "cands": ["18", "9"], "scores": [0.0, -29.375]}
+{"stage": "test", "model": "base", "i": 413, "fam": "math", "kind": "same", "key": "27", "old": "27", "cands": ["27", "12"], "scores": [0.0, -33.626]}
+{"stage": "test", "model": "base", "i": 414, "fam": "math", "kind": "same", "key": "27", "old": "27", "cands": ["27", "12"], "scores": [0.0, -31.253]}
+{"stage": "test", "model": "base", "i": 415, "fam": "math", "kind": "same", "key": "15", "old": "15", "cands": ["15", "8"], "scores": [0.0, -25.0]}
+{"stage": "test", "model": "base", "i": 416, "fam": "math", "kind": "same", "key": "42", "old": "42", "cands": ["42", "13"], "scores": [0.0, -39.561]}
+{"stage": "test", "model": "base", "i": 417, "fam": "math", "kind": "same", "key": "24", "old": "24", "cands": ["24", "11"], "scores": [0.0, -36.114]}
+{"stage": "test", "model": "base", "i": 418, "fam": "math", "kind": "same", "key": "24", "old": "24", "cands": ["24", "11"], "scores": [0.0, -31.558]}
+{"stage": "test", "model": "base", "i": 419, "fam": "math", "kind": "same", "key": "56", "old": "56", "cands": ["56", "15"], "scores": [0.0, -34.22]}
+{"stage": "test", "model": "base", "i": 420, "fam": "price", "kind": "same", "key": "15", "old": "15", "cands": ["15", "20"], "scores": [-0.0, -22.828]}
+{"stage": "test", "model": "base", "i": 421, "fam": "price", "kind": "same", "key": "40", "old": "40", "cands": ["40", "45"], "scores": [-0.0, -17.375]}
+{"stage": "test", "model": "base", "i": 422, "fam": "price", "kind": "same", "key": "15", "old": "15", "cands": ["15", "20"], "scores": [-0.003, -7.019]}
+{"stage": "test", "model": "base", "i": 423, "fam": "price", "kind": "same", "key": "81", "old": "81", "cands": ["81", "90"], "scores": [-0.005, -5.384]}
+{"stage": "test", "model": "base", "i": 424, "fam": "price", "kind": "same", "key": "24", "old": "24", "cands": ["24", "30"], "scores": [-0.0, -11.698]}
+{"stage": "test", "model": "base", "i": 425, "fam": "price", "kind": "same", "key": "18", "old": "18", "cands": ["18", "27"], "scores": [0.0, -19.629]}
+{"stage": "test", "model": "base", "i": 426, "fam": "price", "kind": "same", "key": "40", "old": "40", "cands": ["40", "45"], "scores": [-0.0, -26.625]}
+{"stage": "test", "model": "base", "i": 427, "fam": "price", "kind": "same", "key": "30", "old": "30", "cands": ["30", "35"], "scores": [-0.0, -13.75]}
+{"stage": "test", "model": "base", "i": 428, "fam": "price", "kind": "same", "key": "42", "old": "42", "cands": ["42", "48"], "scores": [-0.0, -21.0]}
+{"stage": "test", "model": "base", "i": 429, "fam": "price", "kind": "same", "key": "35", "old": "35", "cands": ["35", "42"], "scores": [0.0, -22.413]}
+{"stage": "test", "model": "base", "i": 430, "fam": "price", "kind": "same", "key": "40", "old": "40", "cands": ["40", "48"], "scores": [-0.0, -17.0]}
+{"stage": "test", "model": "base", "i": 431, "fam": "price", "kind": "same", "key": "81", "old": "81", "cands": ["81", "90"], "scores": [-0.0, -17.705]}
+{"stage": "test", "model": "base", "i": 432, "fam": "price", "kind": "same", "key": "14", "old": "14", "cands": ["14", "21"], "scores": [-0.0, -22.006]}
+{"stage": "test", "model": "base", "i": 433, "fam": "price", "kind": "same", "key": "42", "old": "42", "cands": ["42", "48"], "scores": [-0.0, -14.75]}
+{"stage": "test", "model": "base", "i": 434, "fam": "price", "kind": "same", "key": "72", "old": "72", "cands": ["72", "81"], "scores": [-0.0, -14.877]}
+{"stage": "test", "model": "base", "i": 435, "fam": "price", "kind": "same", "key": "35", "old": "35", "cands": ["35", "42"], "scores": [-0.0, -17.954]}
+{"stage": "test", "model": "base", "i": 436, "fam": "price", "kind": "same", "key": "54", "old": "54", "cands": ["54", "60"], "scores": [0.0, -21.664]}
+{"stage": "test", "model": "base", "i": 437, "fam": "price", "kind": "same", "key": "18", "old": "18", "cands": ["18", "21"], "scores": [0.0, -30.505]}
+{"stage": "test", "model": "base", "i": 438, "fam": "price", "kind": "same", "key": "15", "old": "15", "cands": ["15", "20"], "scores": [0.0, -18.434]}
+{"stage": "test", "model": "base", "i": 439, "fam": "price", "kind": "same", "key": "54", "old": "54", "cands": ["54", "63"], "scores": [-0.0, -14.257]}
+{"stage": "test", "model": "base", "i": 440, "fam": "price", "kind": "same", "key": "16", "old": "16", "cands": ["16", "20"], "scores": [0.0, -23.864]}
+{"stage": "test", "model": "base", "i": 441, "fam": "price", "kind": "same", "key": "81", "old": "81", "cands": ["81", "90"], "scores": [0.0, -21.397]}
+{"stage": "test", "model": "base", "i": 442, "fam": "price", "kind": "same", "key": "63", "old": "63", "cands": ["63", "72"], "scores": [-0.003, -12.535]}
+{"stage": "test", "model": "base", "i": 443, "fam": "price", "kind": "same", "key": "72", "old": "72", "cands": ["72", "80"], "scores": [-0.0, -15.128]}
+{"stage": "test", "model": "base", "i": 444, "fam": "price", "kind": "same", "key": "72", "old": "72", "cands": ["72", "80"], "scores": [-0.0, -16.625]}
+{"stage": "test", "model": "base", "i": 445, "fam": "price", "kind": "same", "key": "15", "old": "15", "cands": ["15", "18"], "scores": [-0.0, -20.375]}
+{"stage": "test", "model": "base", "i": 446, "fam": "price", "kind": "same", "key": "12", "old": "12", "cands": ["12", "15"], "scores": [-0.0, -21.25]}
+{"stage": "test", "model": "base", "i": 447, "fam": "price", "kind": "same", "key": "18", "old": "18", "cands": ["18", "27"], "scores": [-0.0, -9.127]}
+{"stage": "test", "model": "base", "i": 448, "fam": "price", "kind": "same", "key": "25", "old": "25", "cands": ["25", "30"], "scores": [-0.0, -12.756]}
+{"stage": "test", "model": "base", "i": 449, "fam": "price", "kind": "same", "key": "25", "old": "25", "cands": ["25", "30"], "scores": [-0.0, -9.878]}
+{"stage": "test", "model": "base", "i": 450, "fam": "price", "kind": "same", "key": "36", "old": "36", "cands": ["36", "45"], "scores": [-0.0, -13.502]}
+{"stage": "test", "model": "base", "i": 451, "fam": "price", "kind": "same", "key": "56", "old": "56", "cands": ["56", "64"], "scores": [-0.0, -18.266]}
+{"stage": "test", "model": "base", "i": 452, "fam": "price", "kind": "same", "key": "8", "old": "8", "cands": ["8", "12"], "scores": [-0.0, -28.625]}
+{"stage": "test", "model": "base", "i": 453, "fam": "price", "kind": "same", "key": "36", "old": "36", "cands": ["36", "42"], "scores": [-0.0, -10.904]}
+{"stage": "test", "model": "base", "i": 454, "fam": "price", "kind": "same", "key": "24", "old": "24", "cands": ["24", "32"], "scores": [-0.0, -16.506]}
+{"stage": "test", "model": "base", "i": 455, "fam": "price", "kind": "same", "key": "56", "old": "56", "cands": ["56", "64"], "scores": [-0.0, -18.276]}
+{"stage": "test", "model": "base", "i": 456, "fam": "price", "kind": "same", "key": "48", "old": "48", "cands": ["48", "54"], "scores": [0.0, -22.71]}
+{"stage": "test", "model": "base", "i": 457, "fam": "price", "kind": "same", "key": "63", "old": "63", "cands": ["63", "72"], "scores": [-0.0, -11.323]}
+{"stage": "test", "model": "base", "i": 458, "fam": "price", "kind": "same", "key": "27", "old": "27", "cands": ["27", "30"], "scores": [-0.0, -15.375]}
+{"stage": "test", "model": "base", "i": 459, "fam": "price", "kind": "same", "key": "21", "old": "21", "cands": ["21", "28"], "scores": [-0.0, -16.375]}
+{"stage": "test", "model": "base", "i": 460, "fam": "rule", "kind": "nohist", "key": "OMEGA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -8.25, -11.503]}
+{"stage": "test", "model": "base", "i": 461, "fam": "rule", "kind": "nohist", "key": "OMEGA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-2.396, -6.021, -0.148]}
+{"stage": "test", "model": "base", "i": 462, "fam": "rule", "kind": "nohist", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.121, -2.246, -4.996]}
+{"stage": "test", "model": "base", "i": 463, "fam": "rule", "kind": "nohist", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-3.53, -0.03, -16.718]}
+{"stage": "test", "model": "base", "i": 464, "fam": "rule", "kind": "nohist", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-20.751, -0.0, -8.752]}
+{"stage": "test", "model": "base", "i": 465, "fam": "rule", "kind": "nohist", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-15.75, -0.0, -12.251]}
+{"stage": "test", "model": "base", "i": 466, "fam": "rule", "kind": "nohist", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-6.004, -0.004, -10.005]}
+{"stage": "test", "model": "base", "i": 467, "fam": "rule", "kind": "nohist", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-22.188, -0.0, -18.252]}
+{"stage": "test", "model": "base", "i": 468, "fam": "rule", "kind": "nohist", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-22.5, -0.0, -19.501]}
+{"stage": "test", "model": "base", "i": 469, "fam": "rule", "kind": "nohist", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -9.375, -17.004]}
+{"stage": "test", "model": "base", "i": 470, "fam": "rule", "kind": "nohist", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-16.625, -0.0, -14.875]}
+{"stage": "test", "model": "base", "i": 471, "fam": "rule", "kind": "nohist", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-14.375, -0.0, -14.25]}
+{"stage": "test", "model": "base", "i": 472, "fam": "rule", "kind": "nohist", "key": "MOSS", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -18.0, -23.886]}
+{"stage": "test", "model": "base", "i": 473, "fam": "rule", "kind": "nohist", "key": "OMEGA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.015, -6.39, -4.642]}
+{"stage": "test", "model": "base", "i": 474, "fam": "rule", "kind": "nohist", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-20.313, -0.0, -11.375]}
+{"stage": "test", "model": "base", "i": 475, "fam": "rule", "kind": "nohist", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.302, -1.427, -4.052]}
+{"stage": "test", "model": "base", "i": 476, "fam": "rule", "kind": "nohist", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-6.627, -0.002, -17.002]}
+{"stage": "test", "model": "base", "i": 477, "fam": "rule", "kind": "nohist", "key": "REED", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.001, -20.501, -16.628]}
+{"stage": "test", "model": "base", "i": 478, "fam": "rule", "kind": "nohist", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-10.25, -0.0, -14.0]}
+{"stage": "test", "model": "base", "i": 479, "fam": "rule", "kind": "nohist", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-10.0, -0.0, -23.376]}
+{"stage": "test", "model": "base", "i": 480, "fam": "rule", "kind": "nohist", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-14.5, -0.0, -12.875]}
+{"stage": "test", "model": "base", "i": 481, "fam": "rule", "kind": "nohist", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-8.062, -2.812, -0.062]}
+{"stage": "test", "model": "base", "i": 482, "fam": "rule", "kind": "nohist", "key": "MOSS", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.002, -6.627, -20.752]}
+{"stage": "test", "model": "base", "i": 483, "fam": "rule", "kind": "nohist", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-12.001, -7.751, -0.001]}
+{"stage": "test", "model": "base", "i": 484, "fam": "rule", "kind": "nohist", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-12.0, -0.0, -9.5]}
+{"stage": "test", "model": "base", "i": 485, "fam": "rule", "kind": "nohist", "key": "ONYX", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -11.75, -14.875]}
+{"stage": "test", "model": "base", "i": 486, "fam": "rule", "kind": "nohist", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -10.25, -13.878]}
+{"stage": "test", "model": "base", "i": 487, "fam": "rule", "kind": "nohist", "key": "FIRST", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-2.58, -0.08, -15.705]}
+{"stage": "test", "model": "base", "i": 488, "fam": "rule", "kind": "nohist", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-5.754, -0.004, -17.879]}
+{"stage": "test", "model": "base", "i": 489, "fam": "rule", "kind": "nohist", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-4.883, -0.008, -22.447]}
+{"stage": "test", "model": "base", "i": 490, "fam": "rule", "kind": "nohist", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-10.5, -0.0, -17.375]}
+{"stage": "test", "model": "base", "i": 491, "fam": "rule", "kind": "nohist", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.252, -1.877, -2.879]}
+{"stage": "test", "model": "base", "i": 492, "fam": "rule", "kind": "nohist", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-11.25, -0.0, -26.066]}
+{"stage": "test", "model": "base", "i": 493, "fam": "rule", "kind": "nohist", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-5.175, -1.925, -0.175]}
+{"stage": "test", "model": "base", "i": 494, "fam": "rule", "kind": "nohist", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-6.503, -0.003, -11.253]}
+{"stage": "test", "model": "base", "i": 495, "fam": "rule", "kind": "nohist", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-21.438, -0.0, -16.0]}
+{"stage": "test", "model": "base", "i": 496, "fam": "rule", "kind": "nohist", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-10.501, -0.001, -7.876]}
+{"stage": "test", "model": "base", "i": 497, "fam": "rule", "kind": "nohist", "key": "MOSS", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.005, -5.505, -17.005]}
+{"stage": "test", "model": "base", "i": 498, "fam": "rule", "kind": "nohist", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-3.774, -0.024, -17.711]}
+{"stage": "test", "model": "base", "i": 499, "fam": "rule", "kind": "nohist", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-4.9, -1.15, -0.4]}
+{"stage": "test", "model": "base", "i": 500, "fam": "rule", "kind": "fresh", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-14.628, -1.503, -0.253]}
+{"stage": "test", "model": "base", "i": 501, "fam": "rule", "kind": "fresh", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-7.74, -0.99, -0.49]}
+{"stage": "test", "model": "base", "i": 502, "fam": "rule", "kind": "fresh", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -18.125, -27.628]}
+{"stage": "test", "model": "base", "i": 503, "fam": "rule", "kind": "fresh", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-13.75, -0.0, -23.876]}
+{"stage": "test", "model": "base", "i": 504, "fam": "rule", "kind": "fresh", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -29.125, -28.501]}
+{"stage": "test", "model": "base", "i": 505, "fam": "rule", "kind": "fresh", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -30.0, -27.376]}
+{"stage": "test", "model": "base", "i": 506, "fam": "rule", "kind": "fresh", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-18.89, -8.89, -0.017]}
+{"stage": "test", "model": "base", "i": 507, "fam": "rule", "kind": "fresh", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -16.5, -29.815]}
+{"stage": "test", "model": "base", "i": 508, "fam": "rule", "kind": "fresh", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-14.375, -0.0, -17.5]}
+{"stage": "test", "model": "base", "i": 509, "fam": "rule", "kind": "fresh", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-23.0, -24.625, -0.0]}
+{"stage": "test", "model": "base", "i": 510, "fam": "rule", "kind": "fresh", "key": "FIRST", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.001, -14.376, -18.001]}
+{"stage": "test", "model": "base", "i": 511, "fam": "rule", "kind": "fresh", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-8.83, -9.33, -0.08]}
+{"stage": "test", "model": "base", "i": 512, "fam": "rule", "kind": "fresh", "key": "OPAL", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-24.25, -18.5, -0.0]}
+{"stage": "test", "model": "base", "i": 513, "fam": "rule", "kind": "fresh", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-23.25, -0.0, -16.376]}
+{"stage": "test", "model": "base", "i": 514, "fam": "rule", "kind": "fresh", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-11.33, -9.455, -0.08]}
+{"stage": "test", "model": "base", "i": 515, "fam": "rule", "kind": "fresh", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-12.625, -0.0, -13.25]}
+{"stage": "test", "model": "base", "i": 516, "fam": "rule", "kind": "fresh", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -25.188, -29.125]}
+{"stage": "test", "model": "base", "i": 517, "fam": "rule", "kind": "fresh", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -22.75, -28.625]}
+{"stage": "test", "model": "base", "i": 518, "fam": "rule", "kind": "fresh", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-17.0, -0.0, -16.375]}
+{"stage": "test", "model": "base", "i": 519, "fam": "rule", "kind": "fresh", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-14.0, -0.0, -15.5]}
+{"stage": "test", "model": "base", "i": 520, "fam": "rule", "kind": "fresh", "key": "FIRST", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -14.75, -20.001]}
+{"stage": "test", "model": "base", "i": 521, "fam": "rule", "kind": "fresh", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-17.773, -13.148, -0.025]}
+{"stage": "test", "model": "base", "i": 522, "fam": "rule", "kind": "fresh", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-12.538, -11.663, -0.038]}
+{"stage": "test", "model": "base", "i": 523, "fam": "rule", "kind": "fresh", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-16.0, -0.0, -11.625]}
+{"stage": "test", "model": "base", "i": 524, "fam": "rule", "kind": "fresh", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-22.955, -14.892, -0.02]}
+{"stage": "test", "model": "base", "i": 525, "fam": "rule", "kind": "fresh", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-25.0, -28.063, -0.0]}
+{"stage": "test", "model": "base", "i": 526, "fam": "rule", "kind": "fresh", "key": "FIRST", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.001, -14.126, -20.753]}
+{"stage": "test", "model": "base", "i": 527, "fam": "rule", "kind": "fresh", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-13.68, -11.93, -0.055]}
+{"stage": "test", "model": "base", "i": 528, "fam": "rule", "kind": "fresh", "key": "FIRST", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -12.625, -20.876]}
+{"stage": "test", "model": "base", "i": 529, "fam": "rule", "kind": "fresh", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -18.25, -30.753]}
+{"stage": "test", "model": "base", "i": 530, "fam": "rule", "kind": "fresh", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-17.889, -4.264, -0.014]}
+{"stage": "test", "model": "base", "i": 531, "fam": "rule", "kind": "fresh", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-21.75, -0.0, -14.627]}
+{"stage": "test", "model": "base", "i": 532, "fam": "rule", "kind": "fresh", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -17.5, -26.314]}
+{"stage": "test", "model": "base", "i": 533, "fam": "rule", "kind": "fresh", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-15.0, -0.0, -12.875]}
+{"stage": "test", "model": "base", "i": 534, "fam": "rule", "kind": "fresh", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-16.125, -12.125, -0.0]}
+{"stage": "test", "model": "base", "i": 535, "fam": "rule", "kind": "fresh", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-12.563, -0.313, -1.313]}
+{"stage": "test", "model": "base", "i": 536, "fam": "rule", "kind": "fresh", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -17.625, -29.502]}
+{"stage": "test", "model": "base", "i": 537, "fam": "rule", "kind": "fresh", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -26.625, -27.313]}
+{"stage": "test", "model": "base", "i": 538, "fam": "rule", "kind": "fresh", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-21.776, -13.526, -0.027]}
+{"stage": "test", "model": "base", "i": 539, "fam": "rule", "kind": "fresh", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-22.625, -27.563, -0.0]}
+{"stage": "test", "model": "base", "i": 540, "fam": "math", "kind": "subtle", "key": "35", "old": "15", "cands": ["35", "15"], "scores": [0.0, -27.758]}
+{"stage": "test", "model": "base", "i": 541, "fam": "math", "kind": "subtle", "key": "42", "old": "36", "cands": ["42", "36"], "scores": [0.0, -23.267]}
+{"stage": "test", "model": "base", "i": 542, "fam": "math", "kind": "subtle", "key": "9", "old": "24", "cands": ["9", "24"], "scores": [0.0, -45.812]}
+{"stage": "test", "model": "base", "i": 543, "fam": "math", "kind": "subtle", "key": "24", "old": "56", "cands": ["24", "56"], "scores": [0.0, -29.132]}
+{"stage": "test", "model": "base", "i": 544, "fam": "math", "kind": "subtle", "key": "21", "old": "35", "cands": ["21", "35"], "scores": [0.0, -18.744]}
+{"stage": "test", "model": "base", "i": 545, "fam": "math", "kind": "subtle", "key": "27", "old": "15", "cands": ["27", "15"], "scores": [0.0, -26.796]}
+{"stage": "test", "model": "base", "i": 546, "fam": "math", "kind": "subtle", "key": "35", "old": "49", "cands": ["35", "49"], "scores": [0.0, -29.908]}
+{"stage": "test", "model": "base", "i": 547, "fam": "math", "kind": "subtle", "key": "54", "old": "18", "cands": ["54", "18"], "scores": [0.0, -31.942]}
+{"stage": "test", "model": "base", "i": 548, "fam": "math", "kind": "subtle", "key": "15", "old": "27", "cands": ["15", "27"], "scores": [0.0, -31.349]}
+{"stage": "test", "model": "base", "i": 549, "fam": "math", "kind": "subtle", "key": "36", "old": "54", "cands": ["36", "54"], "scores": [0.0, -24.636]}
+{"stage": "test", "model": "base", "i": 550, "fam": "math", "kind": "subtle", "key": "49", "old": "63", "cands": ["49", "63"], "scores": [0.0, -25.875]}
+{"stage": "test", "model": "base", "i": 551, "fam": "math", "kind": "subtle", "key": "48", "old": "36", "cands": ["48", "36"], "scores": [0.0, -24.292]}
+{"stage": "test", "model": "base", "i": 552, "fam": "math", "kind": "subtle", "key": "40", "old": "45", "cands": ["40", "45"], "scores": [0.0, -28.688]}
+{"stage": "test", "model": "base", "i": 553, "fam": "math", "kind": "subtle", "key": "56", "old": "48", "cands": ["56", "48"], "scores": [0.0, -22.629]}
+{"stage": "test", "model": "base", "i": 554, "fam": "math", "kind": "subtle", "key": "36", "old": "45", "cands": ["36", "45"], "scores": [0.0, -22.019]}
+{"stage": "test", "model": "base", "i": 555, "fam": "math", "kind": "subtle", "key": "35", "old": "15", "cands": ["35", "15"], "scores": [0.0, -32.902]}
+{"stage": "test", "model": "base", "i": 556, "fam": "math", "kind": "subtle", "key": "63", "old": "49", "cands": ["63", "49"], "scores": [0.0, -23.5]}
+{"stage": "test", "model": "base", "i": 557, "fam": "math", "kind": "subtle", "key": "45", "old": "35", "cands": ["45", "35"], "scores": [0.0, -25.365]}
+{"stage": "test", "model": "base", "i": 558, "fam": "math", "kind": "subtle", "key": "48", "old": "32", "cands": ["48", "32"], "scores": [0.0, -22.755]}
+{"stage": "test", "model": "base", "i": 559, "fam": "math", "kind": "subtle", "key": "28", "old": "42", "cands": ["28", "42"], "scores": [0.0, -23.418]}
+{"stage": "test", "model": "base", "i": 560, "fam": "math", "kind": "subtle", "key": "20", "old": "35", "cands": ["20", "35"], "scores": [0.0, -31.705]}
+{"stage": "test", "model": "base", "i": 561, "fam": "math", "kind": "subtle", "key": "42", "old": "35", "cands": ["42", "35"], "scores": [0.0, -24.613]}
+{"stage": "test", "model": "base", "i": 562, "fam": "math", "kind": "subtle", "key": "16", "old": "36", "cands": ["16", "36"], "scores": [0.0, -31.385]}
+{"stage": "test", "model": "base", "i": 563, "fam": "math", "kind": "subtle", "key": "28", "old": "56", "cands": ["28", "56"], "scores": [0.0, -20.125]}
+{"stage": "test", "model": "base", "i": 564, "fam": "math", "kind": "subtle", "key": "63", "old": "81", "cands": ["63", "81"], "scores": [0.0, -19.875]}
+{"stage": "test", "model": "base", "i": 565, "fam": "math", "kind": "subtle", "key": "27", "old": "54", "cands": ["27", "54"], "scores": [0.0, -26.199]}
+{"stage": "test", "model": "base", "i": 566, "fam": "math", "kind": "subtle", "key": "24", "old": "12", "cands": ["24", "12"], "scores": [0.0, -24.274]}
+{"stage": "test", "model": "base", "i": 567, "fam": "math", "kind": "subtle", "key": "45", "old": "30", "cands": ["45", "30"], "scores": [0.0, -31.445]}
+{"stage": "test", "model": "base", "i": 568, "fam": "math", "kind": "subtle", "key": "40", "old": "48", "cands": ["40", "48"], "scores": [0.0, -27.812]}
+{"stage": "test", "model": "base", "i": 569, "fam": "math", "kind": "subtle", "key": "49", "old": "28", "cands": ["49", "28"], "scores": [0.0, -35.129]}
+{"stage": "test", "model": "base", "i": 570, "fam": "math", "kind": "subtle", "key": "27", "old": "12", "cands": ["27", "12"], "scores": [0.0, -35.471]}
+{"stage": "test", "model": "base", "i": 571, "fam": "math", "kind": "subtle", "key": "12", "old": "20", "cands": ["12", "20"], "scores": [0.0, -23.375]}
+{"stage": "test", "model": "base", "i": 572, "fam": "math", "kind": "subtle", "key": "12", "old": "24", "cands": ["12", "24"], "scores": [0.0, -22.752]}
+{"stage": "test", "model": "base", "i": 573, "fam": "math", "kind": "subtle", "key": "63", "old": "21", "cands": ["63", "21"], "scores": [0.0, -26.526]}
+{"stage": "test", "model": "base", "i": 574, "fam": "math", "kind": "subtle", "key": "12", "old": "16", "cands": ["12", "16"], "scores": [0.0, -27.188]}
+{"stage": "test", "model": "base", "i": 575, "fam": "math", "kind": "subtle", "key": "64", "old": "72", "cands": ["64", "72"], "scores": [0.0, -20.126]}
+{"stage": "test", "model": "base", "i": 576, "fam": "math", "kind": "subtle", "key": "28", "old": "24", "cands": ["28", "24"], "scores": [0.0, -23.875]}
+{"stage": "test", "model": "base", "i": 577, "fam": "math", "kind": "subtle", "key": "24", "old": "20", "cands": ["24", "20"], "scores": [0.0, -25.125]}
+{"stage": "test", "model": "base", "i": 578, "fam": "math", "kind": "subtle", "key": "42", "old": "49", "cands": ["42", "49"], "scores": [0.0, -30.688]}
+{"stage": "test", "model": "base", "i": 579, "fam": "math", "kind": "subtle", "key": "24", "old": "15", "cands": ["24", "15"], "scores": [0.0, -28.633]}
+{"stage": "test", "model": "base", "i": 580, "fam": "math", "kind": "subtle", "key": "36", "old": "18", "cands": ["36", "18"], "scores": [0.0, -23.001]}
+{"stage": "test", "model": "base", "i": 581, "fam": "math", "kind": "subtle", "key": "28", "old": "32", "cands": ["28", "32"], "scores": [0.0, -22.791]}
+{"stage": "test", "model": "base", "i": 582, "fam": "math", "kind": "subtle", "key": "21", "old": "63", "cands": ["21", "63"], "scores": [0.0, -27.511]}
+{"stage": "test", "model": "base", "i": 583, "fam": "math", "kind": "subtle", "key": "15", "old": "24", "cands": ["15", "24"], "scores": [0.0, -29.064]}
+{"stage": "test", "model": "base", "i": 584, "fam": "math", "kind": "subtle", "key": "63", "old": "42", "cands": ["63", "42"], "scores": [0.0, -28.764]}
+{"stage": "test", "model": "base", "i": 585, "fam": "math", "kind": "subtle", "key": "15", "old": "35", "cands": ["15", "35"], "scores": [0.0, -24.579]}
+{"stage": "test", "model": "base", "i": 586, "fam": "math", "kind": "subtle", "key": "27", "old": "36", "cands": ["27", "36"], "scores": [0.0, -19.164]}
+{"stage": "test", "model": "base", "i": 587, "fam": "math", "kind": "subtle", "key": "40", "old": "35", "cands": ["40", "35"], "scores": [0.0, -24.033]}
+{"stage": "test", "model": "base", "i": 588, "fam": "math", "kind": "subtle", "key": "48", "old": "24", "cands": ["48", "24"], "scores": [0.0, -27.813]}
+{"stage": "test", "model": "base", "i": 589, "fam": "math", "kind": "subtle", "key": "30", "old": "54", "cands": ["30", "54"], "scores": [0.0, -30.483]}
+{"stage": "test", "model": "base", "i": 590, "fam": "math", "kind": "subtle", "key": "15", "old": "24", "cands": ["15", "24"], "scores": [0.0, -26.75]}
+{"stage": "test", "model": "base", "i": 591, "fam": "math", "kind": "subtle", "key": "54", "old": "36", "cands": ["54", "36"], "scores": [0.0, -27.25]}
+{"stage": "test", "model": "base", "i": 592, "fam": "math", "kind": "subtle", "key": "42", "old": "54", "cands": ["42", "54"], "scores": [0.0, -25.877]}
+{"stage": "test", "model": "base", "i": 593, "fam": "math", "kind": "subtle", "key": "32", "old": "64", "cands": ["32", "64"], "scores": [0.0, -26.5]}
+{"stage": "test", "model": "base", "i": 594, "fam": "math", "kind": "subtle", "key": "48", "old": "30", "cands": ["48", "30"], "scores": [0.0, -28.816]}
+{"stage": "test", "model": "base", "i": 595, "fam": "math", "kind": "subtle", "key": "24", "old": "28", "cands": ["24", "28"], "scores": [0.0, -30.375]}
+{"stage": "test", "model": "base", "i": 596, "fam": "math", "kind": "subtle", "key": "36", "old": "12", "cands": ["36", "12"], "scores": [0.0, -29.105]}
+{"stage": "test", "model": "base", "i": 597, "fam": "math", "kind": "subtle", "key": "72", "old": "63", "cands": ["72", "63"], "scores": [0.0, -24.192]}
+{"stage": "test", "model": "base", "i": 598, "fam": "math", "kind": "subtle", "key": "30", "old": "36", "cands": ["30", "36"], "scores": [0.0, -29.562]}
+{"stage": "test", "model": "base", "i": 599, "fam": "math", "kind": "subtle", "key": "72", "old": "45", "cands": ["72", "45"], "scores": [0.0, -33.839]}
+{"stage": "test", "model": "base", "i": 600, "fam": "math", "kind": "subtle", "key": "64", "old": "32", "cands": ["64", "32"], "scores": [0.0, -26.521]}
+{"stage": "test", "model": "base", "i": 601, "fam": "math", "kind": "subtle", "key": "72", "old": "48", "cands": ["72", "48"], "scores": [0.0, -26.063]}
+{"stage": "test", "model": "base", "i": 602, "fam": "math", "kind": "subtle", "key": "28", "old": "24", "cands": ["28", "24"], "scores": [0.0, -23.938]}
+{"stage": "test", "model": "base", "i": 603, "fam": "math", "kind": "subtle", "key": "48", "old": "40", "cands": ["48", "40"], "scores": [0.0, -29.062]}
+{"stage": "test", "model": "base", "i": 604, "fam": "math", "kind": "subtle", "key": "36", "old": "30", "cands": ["36", "30"], "scores": [0.0, -24.625]}
+{"stage": "test", "model": "base", "i": 605, "fam": "math", "kind": "subtle", "key": "40", "old": "45", "cands": ["40", "45"], "scores": [0.0, -27.875]}
+{"stage": "test", "model": "base", "i": 606, "fam": "math", "kind": "subtle", "key": "9", "old": "12", "cands": ["9", "12"], "scores": [0.0, -26.015]}
+{"stage": "test", "model": "base", "i": 607, "fam": "math", "kind": "subtle", "key": "49", "old": "21", "cands": ["49", "21"], "scores": [0.0, -32.438]}
+{"stage": "test", "model": "base", "i": 608, "fam": "math", "kind": "subtle", "key": "32", "old": "16", "cands": ["32", "16"], "scores": [0.0, -25.252]}
+{"stage": "test", "model": "base", "i": 609, "fam": "math", "kind": "subtle", "key": "28", "old": "36", "cands": ["28", "36"], "scores": [0.0, -23.288]}
+{"stage": "test", "model": "base", "i": 610, "fam": "math", "kind": "subtle", "key": "40", "old": "48", "cands": ["40", "48"], "scores": [0.0, -26.5]}
+{"stage": "test", "model": "base", "i": 611, "fam": "math", "kind": "subtle", "key": "21", "old": "15", "cands": ["21", "15"], "scores": [0.0, -29.588]}
+{"stage": "test", "model": "base", "i": 612, "fam": "math", "kind": "subtle", "key": "56", "old": "64", "cands": ["56", "64"], "scores": [0.0, -25.256]}
+{"stage": "test", "model": "base", "i": 613, "fam": "math", "kind": "subtle", "key": "28", "old": "35", "cands": ["28", "35"], "scores": [0.0, -26.158]}
+{"stage": "test", "model": "base", "i": 614, "fam": "math", "kind": "subtle", "key": "48", "old": "24", "cands": ["48", "24"], "scores": [0.0, -23.75]}
+{"stage": "test", "model": "base", "i": 615, "fam": "math", "kind": "subtle", "key": "20", "old": "40", "cands": ["20", "40"], "scores": [0.0, -21.875]}
+{"stage": "test", "model": "base", "i": 616, "fam": "math", "kind": "subtle", "key": "72", "old": "24", "cands": ["72", "24"], "scores": [0.0, -21.251]}
+{"stage": "test", "model": "base", "i": 617, "fam": "math", "kind": "subtle", "key": "15", "old": "30", "cands": ["15", "30"], "scores": [0.0, -22.125]}
+{"stage": "test", "model": "base", "i": 618, "fam": "math", "kind": "subtle", "key": "36", "old": "81", "cands": ["36", "81"], "scores": [0.0, -26.602]}
+{"stage": "test", "model": "base", "i": 619, "fam": "math", "kind": "subtle", "key": "36", "old": "27", "cands": ["36", "27"], "scores": [0.0, -22.383]}
+{"stage": "test", "model": "base", "i": 620, "fam": "price", "kind": "top", "key": "66", "old": "24", "cands": ["66", "24"], "scores": [-11.538, -3.222]}
+{"stage": "test", "model": "base", "i": 621, "fam": "price", "kind": "top", "key": "60", "old": "25", "cands": ["60", "25"], "scores": [-16.253, -0.011]}
+{"stage": "test", "model": "base", "i": 622, "fam": "price", "kind": "top", "key": "30", "old": "9", "cands": ["30", "9"], "scores": [-16.227, -0.001]}
+{"stage": "test", "model": "base", "i": 623, "fam": "price", "kind": "top", "key": "42", "old": "63", "cands": ["42", "63"], "scores": [-14.378, -0.003]}
+{"stage": "test", "model": "base", "i": 624, "fam": "price", "kind": "top", "key": "24", "old": "10", "cands": ["24", "10"], "scores": [-15.0, -11.75]}
+{"stage": "test", "model": "base", "i": 625, "fam": "price", "kind": "top", "key": "90", "old": "27", "cands": ["90", "27"], "scores": [-20.876, -0.0]}
+{"stage": "test", "model": "base", "i": 626, "fam": "price", "kind": "top", "key": "18", "old": "8", "cands": ["18", "8"], "scores": [-9.274, -0.024]}
+{"stage": "test", "model": "base", "i": 627, "fam": "price", "kind": "top", "key": "80", "old": "32", "cands": ["80", "32"], "scores": [-10.75, -0.0]}
+{"stage": "test", "model": "base", "i": 628, "fam": "price", "kind": "top", "key": "48", "old": "72", "cands": ["48", "72"], "scores": [-4.333, -0.708]}
+{"stage": "test", "model": "base", "i": 629, "fam": "price", "kind": "top", "key": "6", "old": "8", "cands": ["6", "8"], "scores": [-21.125, 0.0]}
+{"stage": "test", "model": "base", "i": 630, "fam": "price", "kind": "top", "key": "8", "old": "18", "cands": ["8", "18"], "scores": [-6.657, -0.032]}
+{"stage": "test", "model": "base", "i": 631, "fam": "price", "kind": "top", "key": "60", "old": "35", "cands": ["60", "35"], "scores": [-10.144, -3.206]}
+{"stage": "test", "model": "base", "i": 632, "fam": "price", "kind": "top", "key": "54", "old": "63", "cands": ["54", "63"], "scores": [-8.126, -0.0]}
+{"stage": "test", "model": "base", "i": 633, "fam": "price", "kind": "top", "key": "77", "old": "28", "cands": ["77", "28"], "scores": [-2.944, -0.069]}
+{"stage": "test", "model": "base", "i": 634, "fam": "price", "kind": "top", "key": "12", "old": "24", "cands": ["12", "24"], "scores": [-10.501, -0.001]}
+{"stage": "test", "model": "base", "i": 635, "fam": "price", "kind": "top", "key": "60", "old": "24", "cands": ["60", "24"], "scores": [-11.759, -0.009]}
+{"stage": "test", "model": "base", "i": 636, "fam": "price", "kind": "top", "key": "21", "old": "63", "cands": ["21", "63"], "scores": [-9.75, -0.0]}
+{"stage": "test", "model": "base", "i": 637, "fam": "price", "kind": "top", "key": "24", "old": "10", "cands": ["24", "10"], "scores": [-11.5, -10.125]}
+{"stage": "test", "model": "base", "i": 638, "fam": "price", "kind": "top", "key": "49", "old": "56", "cands": ["49", "56"], "scores": [-6.751, -0.001]}
+{"stage": "test", "model": "base", "i": 639, "fam": "price", "kind": "top", "key": "70", "old": "35", "cands": ["70", "35"], "scores": [-13.75, -0.0]}
+{"stage": "test", "model": "base", "i": 640, "fam": "price", "kind": "top", "key": "36", "old": "27", "cands": ["36", "27"], "scores": [-8.75, -0.007]}
+{"stage": "test", "model": "base", "i": 641, "fam": "price", "kind": "top", "key": "60", "old": "35", "cands": ["60", "35"], "scores": [-1.513, -5.404]}
+{"stage": "test", "model": "base", "i": 642, "fam": "price", "kind": "top", "key": "60", "old": "24", "cands": ["60", "24"], "scores": [-15.5, -0.0]}
+{"stage": "test", "model": "base", "i": 643, "fam": "price", "kind": "top", "key": "40", "old": "16", "cands": ["40", "16"], "scores": [-11.326, -0.0]}
+{"stage": "test", "model": "base", "i": 644, "fam": "price", "kind": "top", "key": "81", "old": "63", "cands": ["81", "63"], "scores": [-11.125, -0.0]}
+{"stage": "test", "model": "base", "i": 645, "fam": "price", "kind": "top", "key": "18", "old": "6", "cands": ["18", "6"], "scores": [-18.993, -0.0]}
+{"stage": "test", "model": "base", "i": 646, "fam": "price", "kind": "top", "key": "40", "old": "36", "cands": ["40", "36"], "scores": [-0.0, -11.254]}
+{"stage": "test", "model": "base", "i": 647, "fam": "price", "kind": "top", "key": "22", "old": "8", "cands": ["22", "8"], "scores": [-8.133, -0.633]}
+{"stage": "test", "model": "base", "i": 648, "fam": "price", "kind": "top", "key": "18", "old": "15", "cands": ["18", "15"], "scores": [-0.006, -6.756]}
+{"stage": "test", "model": "base", "i": 649, "fam": "price", "kind": "top", "key": "32", "old": "12", "cands": ["32", "12"], "scores": [-13.785, -0.318]}
+{"stage": "test", "model": "base", "i": 650, "fam": "price", "kind": "top", "key": "55", "old": "15", "cands": ["55", "15"], "scores": [-11.75, -11.875]}
+{"stage": "test", "model": "base", "i": 651, "fam": "price", "kind": "top", "key": "56", "old": "49", "cands": ["56", "49"], "scores": [-8.754, -0.004]}
+{"stage": "test", "model": "base", "i": 652, "fam": "price", "kind": "top", "key": "54", "old": "48", "cands": ["54", "48"], "scores": [-5.013, -0.388]}
+{"stage": "test", "model": "base", "i": 653, "fam": "price", "kind": "top", "key": "21", "old": "35", "cands": ["21", "35"], "scores": [-7.751, -0.0]}
+{"stage": "test", "model": "base", "i": 654, "fam": "price", "kind": "top", "key": "40", "old": "15", "cands": ["40", "15"], "scores": [-16.506, -0.006]}
+{"stage": "test", "model": "base", "i": 655, "fam": "price", "kind": "top", "key": "40", "old": "16", "cands": ["40", "16"], "scores": [-16.125, -1.91]}
+{"stage": "test", "model": "base", "i": 656, "fam": "price", "kind": "top", "key": "60", "old": "42", "cands": ["60", "42"], "scores": [-5.506, -0.009]}
+{"stage": "test", "model": "base", "i": 657, "fam": "price", "kind": "top", "key": "90", "old": "63", "cands": ["90", "63"], "scores": [-9.503, -0.003]}
+{"stage": "test", "model": "base", "i": 658, "fam": "price", "kind": "top", "key": "28", "old": "49", "cands": ["28", "49"], "scores": [-15.0, -0.0]}
+{"stage": "test", "model": "base", "i": 659, "fam": "price", "kind": "top", "key": "35", "old": "28", "cands": ["35", "28"], "scores": [-7.75, -0.001]}
+{"stage": "test", "model": "base", "i": 660, "fam": "price", "kind": "top", "key": "32", "old": "56", "cands": ["32", "56"], "scores": [-12.149, -0.024]}
+{"stage": "test", "model": "base", "i": 661, "fam": "price", "kind": "top", "key": "18", "old": "24", "cands": ["18", "24"], "scores": [-13.767, -0.0]}
+{"stage": "test", "model": "base", "i": 662, "fam": "price", "kind": "top", "key": "72", "old": "36", "cands": ["72", "36"], "scores": [-16.5, -0.0]}
+{"stage": "test", "model": "base", "i": 663, "fam": "price", "kind": "top", "key": "30", "old": "48", "cands": ["30", "48"], "scores": [-11.632, -0.008]}
+{"stage": "test", "model": "base", "i": 664, "fam": "price", "kind": "top", "key": "48", "old": "40", "cands": ["48", "40"], "scores": [-7.381, -0.006]}
+{"stage": "test", "model": "base", "i": 665, "fam": "price", "kind": "top", "key": "14", "old": "16", "cands": ["14", "16"], "scores": [-0.001, -17.376]}
+{"stage": "test", "model": "base", "i": 666, "fam": "price", "kind": "top", "key": "25", "old": "35", "cands": ["25", "35"], "scores": [-2.583, -0.087]}
+{"stage": "test", "model": "base", "i": 667, "fam": "price", "kind": "top", "key": "27", "old": "81", "cands": ["27", "81"], "scores": [-0.144, -2.894]}
+{"stage": "test", "model": "base", "i": 668, "fam": "price", "kind": "top", "key": "8", "old": "18", "cands": ["8", "18"], "scores": [-8.508, -1.014]}
+{"stage": "test", "model": "base", "i": 669, "fam": "price", "kind": "top", "key": "32", "old": "36", "cands": ["32", "36"], "scores": [-1.702, -0.202]}
+{"stage": "test", "model": "base", "i": 670, "fam": "price", "kind": "top", "key": "16", "old": "28", "cands": ["16", "28"], "scores": [-13.549, -0.0]}
+{"stage": "test", "model": "base", "i": 671, "fam": "price", "kind": "top", "key": "48", "old": "18", "cands": ["48", "18"], "scores": [-11.431, -0.057]}
+{"stage": "test", "model": "base", "i": 672, "fam": "price", "kind": "top", "key": "60", "old": "30", "cands": ["60", "30"], "scores": [-13.375, -0.0]}
+{"stage": "test", "model": "base", "i": 673, "fam": "price", "kind": "top", "key": "8", "old": "16", "cands": ["8", "16"], "scores": [-6.003, -0.003]}
+{"stage": "test", "model": "base", "i": 674, "fam": "price", "kind": "top", "key": "21", "old": "42", "cands": ["21", "42"], "scores": [-5.155, -2.156]}
+{"stage": "test", "model": "base", "i": 675, "fam": "price", "kind": "top", "key": "25", "old": "35", "cands": ["25", "35"], "scores": [-6.626, -0.005]}
+{"stage": "test", "model": "base", "i": 676, "fam": "price", "kind": "top", "key": "10", "old": "16", "cands": ["10", "16"], "scores": [-0.201, -4.826]}
+{"stage": "test", "model": "base", "i": 677, "fam": "price", "kind": "top", "key": "77", "old": "49", "cands": ["77", "49"], "scores": [-5.519, -0.019]}
+{"stage": "test", "model": "base", "i": 678, "fam": "price", "kind": "top", "key": "18", "old": "48", "cands": ["18", "48"], "scores": [-0.905, -5.28]}
+{"stage": "test", "model": "base", "i": 679, "fam": "price", "kind": "top", "key": "16", "old": "36", "cands": ["16", "36"], "scores": [-12.242, -0.37]}
+{"stage": "test", "model": "base", "i": 680, "fam": "price", "kind": "top", "key": "12", "old": "24", "cands": ["12", "24"], "scores": [-11.012, -0.033]}
+{"stage": "test", "model": "base", "i": 681, "fam": "price", "kind": "top", "key": "90", "old": "63", "cands": ["90", "63"], "scores": [-12.378, -0.001]}
+{"stage": "test", "model": "base", "i": 682, "fam": "price", "kind": "top", "key": "88", "old": "24", "cands": ["88", "24"], "scores": [-13.509, -0.01]}
+{"stage": "test", "model": "base", "i": 683, "fam": "price", "kind": "top", "key": "20", "old": "35", "cands": ["20", "35"], "scores": [-12.309, -0.0]}
+{"stage": "test", "model": "base", "i": 684, "fam": "price", "kind": "top", "key": "27", "old": "81", "cands": ["27", "81"], "scores": [-12.25, -0.0]}
+{"stage": "test", "model": "base", "i": 685, "fam": "price", "kind": "top", "key": "40", "old": "20", "cands": ["40", "20"], "scores": [-18.625, -0.001]}
+{"stage": "test", "model": "base", "i": 686, "fam": "price", "kind": "top", "key": "36", "old": "72", "cands": ["36", "72"], "scores": [-18.5, -0.0]}
+{"stage": "test", "model": "base", "i": 687, "fam": "price", "kind": "top", "key": "70", "old": "28", "cands": ["70", "28"], "scores": [-14.629, -0.004]}
+{"stage": "test", "model": "base", "i": 688, "fam": "price", "kind": "top", "key": "63", "old": "28", "cands": ["63", "28"], "scores": [-9.167, -2.798]}
+{"stage": "test", "model": "base", "i": 689, "fam": "price", "kind": "top", "key": "45", "old": "54", "cands": ["45", "54"], "scores": [-4.018, -0.019]}
+{"stage": "test", "model": "base", "i": 690, "fam": "price", "kind": "top", "key": "48", "old": "36", "cands": ["48", "36"], "scores": [-0.145, -2.022]}
+{"stage": "test", "model": "base", "i": 691, "fam": "price", "kind": "top", "key": "50", "old": "40", "cands": ["50", "40"], "scores": [-8.5, -0.0]}
+{"stage": "test", "model": "base", "i": 692, "fam": "price", "kind": "top", "key": "32", "old": "12", "cands": ["32", "12"], "scores": [-13.252, -0.127]}
+{"stage": "test", "model": "base", "i": 693, "fam": "price", "kind": "top", "key": "60", "old": "42", "cands": ["60", "42"], "scores": [-8.162, -0.162]}
+{"stage": "test", "model": "base", "i": 694, "fam": "price", "kind": "top", "key": "20", "old": "15", "cands": ["20", "15"], "scores": [-11.0, -0.0]}
+{"stage": "test", "model": "base", "i": 695, "fam": "price", "kind": "top", "key": "45", "old": "25", "cands": ["45", "25"], "scores": [-12.626, -0.0]}
+{"stage": "test", "model": "base", "i": 696, "fam": "price", "kind": "top", "key": "15", "old": "30", "cands": ["15", "30"], "scores": [-8.126, -0.001]}
+{"stage": "test", "model": "base", "i": 697, "fam": "price", "kind": "top", "key": "49", "old": "28", "cands": ["49", "28"], "scores": [-7.754, -0.004]}
+{"stage": "test", "model": "base", "i": 698, "fam": "price", "kind": "top", "key": "54", "old": "81", "cands": ["54", "81"], "scores": [-15.5, -0.0]}
+{"stage": "test", "model": "base", "i": 699, "fam": "price", "kind": "top", "key": "40", "old": "45", "cands": ["40", "45"], "scores": [-0.433, -9.558]}

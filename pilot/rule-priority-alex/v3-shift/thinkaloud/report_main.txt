@@ -1,0 +1,53 @@
+checks: {}
+
+## Right answers (%) per family and population, all arms (forced choice)
+  R agree    n   84 direct 100.0 instr 100.0 think 100.0 thinki 100.0 disg 100.0 | lamp 69% trunc 0% unparsed 0%
+  R cfright  n  210 direct  98.6 instr 100.0 think  81.9 thinki  98.1 disg  96.7 | lamp 21% trunc 0% unparsed 2%
+  R compute  n  354 direct  83.3 instr  82.8 think  99.7 thinki  99.7 disg  83.3 | lamp 0% trunc 0% unparsed 1%
+  R traps    n  378 direct  47.4 instr  68.3 think  91.8 thinki  95.8 disg  79.4 | lamp 35% trunc 0% unparsed 1%
+  N agree    n  120 direct 100.0 instr  99.2 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  N confirm  n   60 direct  96.7 instr  95.0 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  N traps    n  120 direct   8.3 instr   7.5 think 100.0 thinki  99.2 | lamp 4% trunc 0% unparsed 0%
+  K agree    n   97 direct 100.0 instr 100.0 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  K plain    n   22 direct  95.5 instr  95.5 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  K traps    n  242 direct  69.8 instr 100.0 think  68.2 thinki 100.0 | lamp 13% trunc 0% unparsed 0%
+  D agree    n   88 direct 100.0 instr 100.0 think 100.0 thinki 100.0 | lamp 20% trunc 0% unparsed 0%
+  D plain    n   27 direct 100.0 instr 100.0 think 100.0 thinki 100.0 | lamp 37% trunc 0% unparsed 0%
+  D traps    n  258 direct  78.3 instr 100.0 think 100.0 thinki 100.0 | lamp 61% trunc 0% unparsed 0%
+  R traps per template: T3 direct 85% think 99% instr 85% | T5 direct 60% think 99% instr 62% | T6 direct 5% think 96% instr 71% | T7 direct 0% think 0% instr 0%
+
+######## PRE-REGISTERED VERDICT
+1. THINK - DIRECT on traps (R compute-adjusted, families equal): +33.9% [+29.4%, +38.6%] need >= +10, low > 0 -> PASS
+2. THINK - INSTR on traps: +19.9% [+16.8%, +22.7%] need >= +5, low > 0 -> PASS
+3. harm R cfright  -16.7% [-21.9%, -11.4%] need >= -5, low >= -10 -> FAIL
+3. harm R agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm R compute  +16.4% [+12.1%, +20.3%] need >= -5, low >= -10 -> PASS
+3. harm N agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm N confirm  +3.3% [+0.0%, +8.6%] need >= -5, low >= -10 -> PASS
+3. harm K agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm K plain    +4.5% [+0.0%, +16.7%] need >= -5, low >= -10 -> PASS
+3. harm D agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm D plain    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+VERDICT 'thinking helps' (1 & 2 & 3): FAIL
+
+4. measurable cells (>= 5 habit errors and >= 5 right in DIRECT): 12 -> [('D', 'cube'), ('D', 'hexagon'), ('D', 'octagon'), ('D', 'pentagon'), ('D', 'rectangle'), ('K', 'France'), ('K', 'Greece'), ('K', 'Portugal'), ('N', 'D3'), ('R', 'T3'), ('R', 'T5'), ('R', 'T6')]
+   rival margin         within-cell AUC 0.515
+   rival think!=direct  within-cell AUC 0.901
+   rival instr!=direct  within-cell AUC 0.866
+   rival disg!=direct   within-cell AUC 0.774
+   rival S2 no          within-cell AUC 0.500
+   lamp within-cell AUC 0.518 [0.476, 0.564]; minus best rival -0.383 [-0.432, -0.290] need >= 0.70 low > 0.55 and >= +0.05 low > 0 -> FAIL
+VERDICT 'verbal lamp': FAIL
+   sensitivity: lamp without ['actually', 'commonly', 'standard', 'typically']: within-cell AUC 0.572
+
+######## Report only
+  1 unadjusted: +36.9%; without truncated THINK items: +33.9%
+  family R: THINK-DIRECT +23.8% (unadj +36.0%), THINK-INSTR +18.8%, THINKI-DIRECT +47.5%
+  family N: THINK-DIRECT +91.7% (unadj +91.7%), THINK-INSTR +92.5%, THINKI-DIRECT +90.8%
+  family K: THINK-DIRECT -1.7% (unadj -1.7%), THINK-INSTR -31.8%, THINKI-DIRECT +30.2%
+  family D: THINK-DIRECT +21.7% (unadj +21.7%), THINK-INSTR +0.0%, THINKI-DIRECT +21.7%
+  parsed answer agrees with forced THINK answer: 100% of 2051 parsed (9 unparsed); parsed accuracy on traps 89%
+  R traps: lamp on 131 (THINK right 89%, DIRECT habit 82%) | off 247 (THINK right 93%, DIRECT habit 37%) | weak-word rate 44%
+  N traps: lamp on 5 (THINK right 100%, DIRECT habit 100%) | off 115 (THINK right 100%, DIRECT habit 86%) | weak-word rate 92%
+  K traps: lamp on 32 (THINK right 84%, DIRECT habit 28%) | off 210 (THINK right 66%, DIRECT habit 30%) | weak-word rate 44%
+  D traps: lamp on 158 (THINK right 100%, DIRECT habit 35%) | off 100 (THINK right 100%, DIRECT habit 1%) | weak-word rate 34%

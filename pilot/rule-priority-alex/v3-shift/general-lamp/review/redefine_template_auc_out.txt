@@ -1,0 +1,13 @@
+e+                 n= 28 errors= 17 rate=0.61
+pi:+               n= 19 errors= 17 rate=0.89
+pi:mod             n= 20 errors= 10 rate=0.50
+pi:num             n= 30 errors=  9 rate=0.30
+view+:digit        n= 22 errors=  2 rate=0.09
+view+:random       n= 19 errors=  2 rate=0.11
+view-num           n= 20 errors=  0 rate=0.00
+view÷:instead      n= 19 errors=  4 rate=0.21
+view÷:short        n= 23 errors=  1 rate=0.04
+errors 62 of 200
+template-only AUC (in-sample cell means): 0.854
+prompt-length AUC: 0.292
+margin AUC (small margin = fires): 0.826

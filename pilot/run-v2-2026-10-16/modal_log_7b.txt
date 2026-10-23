@@ -1,0 +1,30 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-J79CYaOD87C2OkhcKBpaoI
+✓ Created objects.
+├── ✓ Uploaded /mnt/attach/project-files/pilot/v2/modal_run_v2.py
+├── ✓ Uploaded /mnt/attach/project-files/pilot/v2/analyze_v2.py
+├── ✓ Uploaded /mnt/attach/project-files/pilot/v2/run_v2.py
+└── ✓ Created Function run_remote.
+items: 512, all 64 cells x 8, pairing checked
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]
+Fetching 4 files:  25%|██▌       | 1/4 [00:53<02:41, 53.87s/it]
+Fetching 4 files:  50%|█████     | 2/4 [00:59<00:50, 25.35s/it]
+Fetching 4 files:  75%|███████▌  | 3/4 [01:17<00:21, 21.95s/it]
+Fetching 4 files: 100%|██████████| 4/4 [01:20<00:00, 14.42s/it]
+Fetching 4 files: 100%|██████████| 4/4 [01:20<00:00, 20.01s/it]
+
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]
+Loading weights:  44%|████▍     | 150/339 [00:00<00:00, 1494.26it/s]
+Loading weights: 100%|██████████| 339/339 [00:00<00:00, 2201.76it/s]
+model=Qwen/Qwen2.5-7B-Instruct device=cuda layers=28 H2 window = logit-lens indices 14..18  cache=on  out=/tmp/out
+item 1/512: 1.2 s per item, left about 11 min
+item 2/512: 0.8 s per item, left about 6 min
+check-cache: 4 items, 4 prompts, max abs diff cached vs full = 2.78e-01 (limit 0.05): FAILED
+check-cache FAILED: cached and full runs differ; rerun with --no-cache
+[gate] Qwen/Qwen2.5-7B-Instruct: exit=1 verdict=NONE (133 s)
+results in /mnt/project-files/pilot/run-v2-2026-10-16
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-J79CYaOD87C2OkhcKBpaoI

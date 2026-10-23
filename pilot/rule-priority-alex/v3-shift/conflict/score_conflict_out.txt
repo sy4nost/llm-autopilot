@@ -1,0 +1,17 @@
+probe layer 27, held-out probe accuracy by layer max 1.00
+chosen on own facts: brake1
+task                          n  lamp on  normal   brake1 all  brake1 lamp   brake2 all  brake2 lamp   brake4 all  brake4 lamp
+own-consistent               34       0%  100.0%       100.0%       100.0%       100.0%       100.0%       100.0%       100.0%
+own-conflict                 34     100%   32.4%        32.4%        32.4%        32.4%        32.4%        32.4%        32.4%
+redefine-math               200     100%   69.0%        72.5%        72.5%        73.0%        73.0%        70.0%        70.0%
+quote-repetition            200     100%   86.0%        88.0%        88.0%        88.0%        88.0%        82.0%        82.0%
+hindsight-neglect-10shot    200     100%   46.5%        44.0%        44.0%        45.5%        45.5%        50.5%        50.5%
+mmlu                        200     100%   80.5%        80.0%        80.0%        80.0%        80.0%        77.0%        77.0%
+
+main brake1: gated - normal, 95% interval
+  own-consistent             lamp-gated +0.0% [+0.0%, +0.0%]   always +0.0% [+0.0%, +0.0%]
+  own-conflict               lamp-gated +0.0% [+0.0%, +0.0%]   always +0.0% [+0.0%, +0.0%]
+  redefine-math              lamp-gated +3.5% [+0.5%, +7.0%]   always +3.5% [+1.0%, +6.5%]
+  quote-repetition           lamp-gated +2.0% [+0.0%, +4.5%]   always +2.0% [-0.5%, +4.5%]
+  hindsight-neglect-10shot   lamp-gated -2.5% [-5.0%, -0.5%]   always -2.5% [-5.0%, -0.5%]
+  mmlu                       lamp-gated -0.5% [-2.0%, +1.0%]   always -0.5% [-2.5%, +1.0%]

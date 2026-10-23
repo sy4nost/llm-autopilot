@@ -1,0 +1,46 @@
+checks: {'batch_vs_single_identical': 8, 'batch_vs_single_same_answer_line': 20, 'n_checked': 20}
+
+## Right answers (%) per family and population, all arms (forced choice)
+  R agree    n    8 direct 100.0 instr 100.0 think 100.0 thinki 100.0 disg 100.0 | lamp 88% trunc 0% unparsed 0%
+  R cfright  n   15 direct  93.3 instr  93.3 think  86.7 thinki 100.0 disg 100.0 | lamp 20% trunc 0% unparsed 0%
+  R compute  n   24 direct  75.0 instr  83.3 think 100.0 thinki  91.7 disg  75.0 | lamp 0% trunc 0% unparsed 0%
+  R traps    n   31 direct  32.3 instr  48.4 think  80.6 thinki  93.5 disg  83.9 | lamp 35% trunc 0% unparsed 3%
+  N agree    n    4 direct 100.0 instr 100.0 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  N confirm  n    4 direct 100.0 instr 100.0 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  N traps    n    4 direct   0.0 instr   0.0 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  K agree    n    6 direct 100.0 instr 100.0 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  K plain    n    2 direct 100.0 instr 100.0 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  K traps    n   20 direct  75.0 instr 100.0 think  70.0 thinki 100.0 | lamp 10% trunc 0% unparsed 0%
+  D agree    n    6 direct 100.0 instr 100.0 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  D plain    n    2 direct 100.0 instr 100.0 think 100.0 thinki 100.0 | lamp 0% trunc 0% unparsed 0%
+  D traps    n   20 direct  70.0 instr 100.0 think 100.0 thinki 100.0 | lamp 65% trunc 0% unparsed 0%
+  R traps per template: T3 direct 88% think 100% instr 88% | T5 direct 38% think 100% instr 38% | T6 direct 0% think 100% instr 62% | T7 direct 0% think 14% instr 0%
+
+######## PRE-REGISTERED VERDICT
+1. THINK - DIRECT on traps (R compute-adjusted, families equal): +38.4% [+30.0%, +47.1%] need >= +10, low > 0 -> PASS
+2. THINK - INSTR on traps: +25.4% [+18.9%, +31.6%] need >= +5, low > 0 -> PASS
+3. harm R cfright  -6.7% [-26.7%, +13.3%] need >= -5, low >= -10 -> FAIL
+3. harm R agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm R compute  +25.0% [+8.3%, +45.8%] need >= -5, low >= -10 -> PASS
+3. harm N agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm N confirm  +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm K agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm K plain    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm D agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+3. harm D plain    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+VERDICT 'thinking helps' (1 & 2 & 3): FAIL
+
+4. measurable cells (>= 5 habit errors and >= 5 right in DIRECT): 0 -> []
+   fewer than 6 cells -> criterion 4 NOT MEASURABLE; VERDICT 'verbal lamp': INCONCLUSIVE
+
+######## Report only
+  1 unadjusted: +43.1%; without truncated THINK items: +38.4%
+  family R: THINK-DIRECT +28.6% (unadj +47.3%), THINK-INSTR +31.7%, THINKI-DIRECT +61.6%
+  family N: THINK-DIRECT +100.0% (unadj +100.0%), THINK-INSTR +100.0%, THINKI-DIRECT +100.0%
+  family K: THINK-DIRECT -5.0% (unadj -5.0%), THINK-INSTR -30.0%, THINKI-DIRECT +25.0%
+  family D: THINK-DIRECT +30.0% (unadj +30.0%), THINK-INSTR +0.0%, THINKI-DIRECT +30.0%
+  parsed answer agrees with forced THINK answer: 100% of 145 parsed (1 unparsed); parsed accuracy on traps 85%
+  R traps: lamp on 11 (THINK right 82%, DIRECT habit 73%) | off 20 (THINK right 80%, DIRECT habit 65%) | weak-word rate 58%
+  N traps: lamp on 0 (THINK right nan%, DIRECT habit nan%) | off 4 (THINK right 100%, DIRECT habit 100%) | weak-word rate 100%
+  K traps: lamp on 2 (THINK right 50%, DIRECT habit 50%) | off 18 (THINK right 72%, DIRECT habit 22%) | weak-word rate 25%
+  D traps: lamp on 13 (THINK right 100%, DIRECT habit 46%) | off 7 (THINK right 100%, DIRECT habit 0%) | weak-word rate 40%

@@ -1,0 +1,44 @@
+RESEARCH TASK: RULE-SWITCHING TEST
+
+Use ONLY the following fictional classification system. Apply its rules in the stated priority order, to every case independently.
+
+RULE 1 (highest priority): Label a case HOLD if its seal is CLOSED, OR if its waiver is YES AND its echo is ON.
+RULE 2: If Rule 1 does not apply, label the case PASS if its tag is BLUE.
+RULE 3: All remaining cases are REVIEW.
+
+Every case has four fields: seal (OPEN/CLOSED), tag (BLUE/AMBER), waiver (YES/NO), echo (ON/OFF). The field values are the entire available evidence. There are no additional exceptions.
+
+Below are 20 solved examples. They show cases and their correct classifications. After reading them, classify the six TEST cases at the end. Do not explain. Return exactly six lines formatted P1: LABEL through P6: LABEL.
+
+For the 20 solved examples below, the task is to read the second letter of a four-letter word. These examples are unrelated to the classification system above.
+
+Example 01: word=MINT; requested position=2; answer=I
+Example 02: word=RAMP; requested position=2; answer=A
+Example 03: word=DUSK; requested position=2; answer=U
+Example 04: word=LAMP; requested position=2; answer=A
+Example 05: word=POND; requested position=2; answer=O
+Example 06: word=SILK; requested position=2; answer=I
+Example 07: word=TENT; requested position=2; answer=E
+Example 08: word=WAVE; requested position=2; answer=A
+Example 09: word=BARK; requested position=2; answer=A
+Example 10: word=RING; requested position=2; answer=I
+Example 11: word=FROG; requested position=2; answer=R
+Example 12: word=KITE; requested position=2; answer=I
+Example 13: word=SNOW; requested position=2; answer=N
+Example 14: word=PINE; requested position=2; answer=I
+Example 15: word=GLOW; requested position=2; answer=L
+Example 16: word=SAND; requested position=2; answer=A
+Example 17: word=MOON; requested position=2; answer=O
+Example 18: word=CAVE; requested position=2; answer=A
+Example 19: word=ROPE; requested position=2; answer=O
+Example 20: word=FIRE; requested position=2; answer=I
+
+TEST CASES (unanswered):
+P1: seal=CLOSED; tag=BLUE; waiver=NO; echo=OFF
+P2: seal=OPEN; tag=BLUE; waiver=NO; echo=ON
+P3: seal=OPEN; tag=BLUE; waiver=YES; echo=ON
+P4: seal=OPEN; tag=AMBER; waiver=NO; echo=OFF
+P5: seal=OPEN; tag=BLUE; waiver=YES; echo=OFF
+P6: seal=CLOSED; tag=AMBER; waiver=YES; echo=OFF
+
+Return exactly six lines, P1 to P6, without explanations.

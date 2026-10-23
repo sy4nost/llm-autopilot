@@ -1,0 +1,7 @@
+family kind       n | base right  old | tuned right  old | tuned-base right [95%]
+rule   plain     60 |      3%   93% |     42%   58% | +38% [+25%, +50%]   (trained family, new words)
+rule   decoy     60 |     97%    0% |     98%    0% | +2% [-3%, +8%]   (trained family, new words)
+price  plain     60 |     12%   88% |     73%   27% | +62% [+48%, +73%]   (NEVER TRAINED)
+price  decoy     60 |     97%    0% |     62%    0% | -35% [-47%, -23%]   (NEVER TRAINED)
+MMLU: base nan% (n=0), tuned nan% (n=0)
+GSM8K: base nan% (n=0), tuned nan% (n=0)

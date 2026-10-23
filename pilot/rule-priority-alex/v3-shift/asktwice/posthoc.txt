@@ -1,0 +1,20 @@
+post hoc, disguise/out_main_main.jsonl; y = normal answer wrong; flag = disguised answer differs
+R-traps
+  T0 n86 err 2% flag 0% AUCflag 0.50 AUC(-margin) 0.85
+  T1 n90 err 0% flag 0% AUCflag nan AUC(-margin) nan
+  T2 n88 err 2% flag 3% AUCflag 0.99 AUC(-margin) 0.99
+  T3 n41 err 20% flag 17% AUCflag 0.94 AUC(-margin) 0.84
+  T4 n90 err 0% flag 0% AUCflag nan AUC(-margin) nan
+  T5 n46 err 30% flag 17% AUCflag 0.53 AUC(-margin) 0.77
+  T6 n56 err 98% flag 91% AUCflag 0.96 AUC(-margin) 0.02
+  T7 n90 err 100% flag 98% AUCflag nan AUC(-margin) nan
+  T8 n88 err 2% flag 16% AUCflag 0.42 AUC(-margin) 1.00
+  pooled AUC 0.916
+N-traps
+  D1 n90 err 96% flag 70% AUCflag 0.60 AUC(-margin) 0.13
+  D3 n90 err 82% flag 53% AUCflag 0.63 AUC(-margin) 0.17
+  pooled AUC 0.65
+R-same flag rate 0%
+R-agree flag rate 0%
+N-agree flag rate 23%
+N-confirm flag rate 22%

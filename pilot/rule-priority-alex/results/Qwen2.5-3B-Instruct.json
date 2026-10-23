@@ -1,0 +1,1325 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "answers": [
+  {
+   "set": 0,
+   "arm": "exp",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 0,
+   "arm": "mixed",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: HOLD",
+    "P1: HOLD  \nP2: PASS  \nP3: PASS  \nP4: REVIEW  \nP5: PASS  \nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 0,
+   "arm": "control",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 0,
+   "arm": "none",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 1,
+   "arm": "exp",
+   "greedy": "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: ALLOW\nP6: BLOCK",
+   "samples": [
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: ALLOW\nP6: BLOCK",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: ALLOW\nP6: BLOCK",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: ALLOW\nP6: BLOCK",
+    "P1: BLOCK  \nP2: INSPECT  \nP3: ALLOW  \nP4: BLOCK  \nP5: ALLOW  \nP6: BLOCK"
+   ]
+  },
+  {
+   "set": 1,
+   "arm": "mixed",
+   "greedy": "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: BLOCK",
+   "samples": [
+    "P1: BLOCK  \nP2: INSPECT  \nP3: ALLOW  \nP4: ALLOW  \nP5: ALLOW  \nP6: BLOCK",
+    "P1: BLOCK  \nP2: INSPECT  \nP3: ALLOW  \nP4: ALLOW  \nP5: ALLOW  \nP6: BLOCK",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: ALLOW\nP5: ALLOW\nP6: BLOCK",
+    "P1: BLOCK  \nP2: INSPECT  \nP3: ALLOW  \nP4: ALLOW  \nP5: ALLOW  \nP6: BLOCK"
+   ]
+  },
+  {
+   "set": 1,
+   "arm": "control",
+   "greedy": "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: ALLOW\nP6: BLOCK",
+   "samples": [
+    "P1: BLOCK  \nP2: INSPECT  \nP3: ALLOW  \nP4: BLOCK  \nP5: BLOCK  \nP6: BLOCK",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: ALLOW\nP6: BLOCK",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: ALLOW\nP6: BLOCK",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: ALLOW\nP6: BLOCK"
+   ]
+  },
+  {
+   "set": 1,
+   "arm": "none",
+   "greedy": "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: BLOCK\nP6: INSPECT",
+   "samples": [
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: BLOCK\nP6: INSPECT",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: BLOCK\nP6: INSPECT",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: BLOCK\nP6: INSPECT",
+    "P1: BLOCK\nP2: INSPECT\nP3: ALLOW\nP4: BLOCK\nP5: BLOCK\nP6: INSPECT"
+   ]
+  },
+  {
+   "set": 2,
+   "arm": "exp",
+   "greedy": "P1: HOLD\nP2: REVIEW\nP3: REVIEW\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: REVIEW\nP3: REVIEW\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: HOLD  \nP2: REVIEW  \nP3: REVIEW  \nP4: PASS  \nP5: HOLD  \nP6: REVIEW",
+    "P1: HOLD  \nP2: REVIEW  \nP3: REVIEW  \nP4: PASS  \nP5: HOLD  \nP6: REVIEW",
+    "P1: PASS\nP2: REVIEW\nP3: REVIEW\nP4: HOLD\nP5: HOLD\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 2,
+   "arm": "mixed",
+   "greedy": "P1: REVIEW\nP2: HOLD\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+   "samples": [
+    "P1: REVIEW\nP2: HOLD\nP3: PASS\nP4: HOLD\nP5: HOLD\nP6: REVIEW",
+    "P1: REVIEW\nP2: HOLD\nP3: PASS\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: REVIEW\nP2: HOLD\nP3: PASS\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: REVIEW  \nP2: HOLD  \nP3: PASS  \nP4: HOLD  \nP5: PASS  \nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 2,
+   "arm": "control",
+   "greedy": "P1: PASS\nP2: REVIEW\nP3: REVIEW\nP4: HOLD\nP5: HOLD\nP6: REVIEW",
+   "samples": [
+    "P1: PASS\nP2: REVIEW\nP3: REVIEW\nP4: HOLD\nP5: HOLD\nP6: REVIEW",
+    "P1: PASS\nP2: REVIEW\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: PASS\nP2: REVIEW\nP3: REVIEW\nP4: HOLD\nP5: HOLD\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: HOLD\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 2,
+   "arm": "none",
+   "greedy": "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: HOLD\nP5: HOLD\nP6: PASS",
+   "samples": [
+    "P1: LABEL HOLD\nP2: LABEL PASS\nP3: LABEL REVIEW\nP4: LABEL HOLD\nP5: LABEL REVIEW\nP6: LABEL HOLD",
+    "P1: PASS\nP2: REVIEW\nP3: REVIEW\nP4: HOLD\nP5: HOLD\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: HOLD\nP5: HOLD\nP6: PASS"
+   ]
+  },
+  {
+   "set": 3,
+   "arm": "exp",
+   "greedy": "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 3,
+   "arm": "mixed",
+   "greedy": "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: PROCEED",
+   "samples": [
+    "P1: PROCEED  \nP2: HALT  \nP3: PROCEED  \nP4: HALT  \nP5: HALT  \nP6: PROCEED",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: PROCEED",
+    "P1: PROCEED  \nP2: HALT  \nP3: ESCALATE  \nP4: HALT  \nP5: HALT  \nP6: PROCEED",
+    "P1: PROCEED  \nP2: HALT  \nP3: ESCALATE  \nP4: HALT  \nP5: HALT  \nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 3,
+   "arm": "control",
+   "greedy": "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 3,
+   "arm": "none",
+   "greedy": "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED  \nP2: HALT  \nP3: ESCALATE  \nP4: HALT  \nP5: HALT  \nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 4,
+   "arm": "exp",
+   "greedy": "P1: GO  \nP2: CHECK  \nP3: GO  \nP4: STOP  \nP5: CHECK  \nP6: GO",
+   "samples": [
+    "P1: GO  \nP2: CHECK  \nP3: GO  \nP4: STOP  \nP5: CHECK  \nP6: GO",
+    "P1: GO\nP2: CHECK\nP3: GO\nP4: STOP\nP5: CHECK\nP6: GO",
+    "P1: GO  \nP2: CHECK  \nP3: GO  \nP4: STOP  \nP5: CHECK  \nP6: GO",
+    "P1: GO  \nP2: CHECK  \nP3: GO  \nP4: STOP  \nP5: STOP  \nP6: CHECK"
+   ]
+  },
+  {
+   "set": 4,
+   "arm": "mixed",
+   "greedy": "P1: GO\nP2: CHECK\nP3: GO\nP4: STOP\nP5: STOP\nP6: CHECK",
+   "samples": [
+    "P1: GO  \nP2: CHECK  \nP3: GO  \nP4: STOP  \nP5: STOP  \nP6: CHECK",
+    "P1: GO  \nP2: CHECK  \nP3: GO  \nP4: STOP  \nP5: STOP  \nP6: CHECK",
+    "P1: GO\nP2: CHECK\nP3: GO\nP4: STOP\nP5: STOP\nP6: CHECK",
+    "P1: GO  \nP2: CHECK  \nP3: GO  \nP4: STOP  \nP5: STOP  \nP6: CHECK"
+   ]
+  },
+  {
+   "set": 4,
+   "arm": "control",
+   "greedy": "P1: GO\nP2: CHECK\nP3: STOP\nP4: STOP\nP5: STOP\nP6: CHECK",
+   "samples": [
+    "P1: GO\nP2: CHECK\nP3: STOP\nP4: STOP\nP5: STOP\nP6: CHECK",
+    "P1: GO\nP2: CHECK\nP3: STOP\nP4: STOP\nP5: STOP\nP6: CHECK",
+    "P1: GO\nP2: CHECK\nP3: GO\nP4: STOP\nP5: STOP\nP6: CHECK",
+    "P1: GO\nP2: CHECK\nP3: GO\nP4: STOP\nP5: STOP\nP6: CHECK"
+   ]
+  },
+  {
+   "set": 4,
+   "arm": "none",
+   "greedy": "P1: GO\nP2: CHECK\nP3: CHECK\nP4: STOP\nP5: STOP\nP6: GO",
+   "samples": [
+    "P1: GO\nP2: CHECK\nP3: CHECK\nP4: STOP\nP5: CHECK\nP6: STOP",
+    "P1: GO  \nP2: GO  \nP3: CHECK  \nP4: STOP  \nP5: STOP  \nP6: GO",
+    "P1: GO\nP2: CHECK\nP3: CHECK\nP4: STOP\nP5: STOP\nP6: GO",
+    "P1: GO\nP2: CHECK\nP3: CHECK\nP4: STOP\nP5: STOP\nP6: GO"
+   ]
+  },
+  {
+   "set": 5,
+   "arm": "exp",
+   "greedy": "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: HALT\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 5,
+   "arm": "mixed",
+   "greedy": "P1: HALT\nP2: HALT\nP3: ESCALATE\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: PROCEED\nP3: HALT\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: ESCALATE\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT  \nP2: HALT  \nP3: ESCALATE  \nP4: ESCALATE  \nP5: HALT  \nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 5,
+   "arm": "control",
+   "greedy": "P1: HALT\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: PROCEED\nP6: HALT",
+   "samples": [
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: HALT"
+   ]
+  },
+  {
+   "set": 5,
+   "arm": "none",
+   "greedy": "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: ESCALATE\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: ESCALATE\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 6,
+   "arm": "exp",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 6,
+   "arm": "mixed",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 6,
+   "arm": "control",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 6,
+   "arm": "none",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 7,
+   "arm": "exp",
+   "greedy": "P1: HOLD\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 7,
+   "arm": "mixed",
+   "greedy": "P1: HOLD  \nP2: HOLD  \nP3: PASS  \nP4: REVIEW  \nP5: PASS  \nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: REVIEW\nP3: PASS\nP4: PASS\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD  \nP2: REVIEW  \nP3: PASS  \nP4: PASS  \nP5: PASS  \nP6: HOLD",
+    "P1: HOLD  \nP2: REVIEW  \nP3: PASS  \nP4: REVIEW  \nP5: PASS  \nP6: HOLD"
+   ]
+  },
+  {
+   "set": 7,
+   "arm": "control",
+   "greedy": "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD  \nP2: HOLD  \nP3: PASS  \nP4: REVIEW  \nP5: PASS  \nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 7,
+   "arm": "none",
+   "greedy": "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 8,
+   "arm": "exp",
+   "greedy": "P1: HALT\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: PROCEED\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: PROCEED\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: PROCEED\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: PROCEED\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 8,
+   "arm": "mixed",
+   "greedy": "P1: HALT\nP2: PROCEED\nP3: PROCEED\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: PROCEED\nP3: PROCEED\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: PROCEED\nP6: ESCALATE",
+    "P1: HALT  \nP2: PROCEED  \nP3: PROCEED  \nP4: HALT  \nP5: ESCALATE  \nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: PROCEED\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 8,
+   "arm": "control",
+   "greedy": "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 8,
+   "arm": "none",
+   "greedy": "P1: HALT\nP2: PROCEED\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: PROCEED\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+    "P1: HALT\nP2: PROCEED\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: PROCEED\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: PROCEED\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 9,
+   "arm": "exp",
+   "greedy": "P1: HOLD\nP2: REVIEW\nP3: HOLD\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: REVIEW\nP3: HOLD\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: HOLD  \nP2: REVIEW  \nP3: HOLD  \nP4: PASS  \nP5: HOLD  \nP6: REVIEW",
+    "P1: HOLD\nP2: REVIEW\nP3: REVIEW\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: HOLD\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 9,
+   "arm": "mixed",
+   "greedy": "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: PASS\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: PASS\nP6: HOLD",
+    "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: PASS\nP6: HOLD",
+    "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: HOLD\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 9,
+   "arm": "control",
+   "greedy": "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: REVIEW\nP5: HOLD\nP6: REVIEW",
+   "samples": [
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: REVIEW\nP5: HOLD\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: REVIEW\nP5: HOLD\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: REVIEW\nP5: HOLD\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: REVIEW\nP5: HOLD\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 9,
+   "arm": "none",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: HOLD\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: HOLD\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: HOLD\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: REVIEW\nP5: HOLD\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 10,
+   "arm": "exp",
+   "greedy": "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: FREEZE\nP5: AUDIT\nP6: CLEAR",
+   "samples": [
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: FREEZE\nP5: AUDIT\nP6: CLEAR",
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: FREEZE\nP5: AUDIT\nP6: CLEAR",
+    "P1: FREEZE  \nP2: CLEAR  \nP3: FREEZE  \nP4: FREEZE  \nP5: AUDIT  \nP6: CLEAR",
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: FREEZE\nP5: AUDIT\nP6: CLEAR"
+   ]
+  },
+  {
+   "set": 10,
+   "arm": "mixed",
+   "greedy": "P1: FREEZE\nP2: FREEZE\nP3: FREEZE\nP4: FREEZE\nP5: FREEZE\nP6: CLEAR",
+   "samples": [
+    "P1: FREEZE\nP2: FREEZE\nP3: FREEZE\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: FREEZE  \nP2: FREEZE  \nP3: AUDIT  \nP4: FREEZE  \nP5: CLEAR  \nP6: CLEAR",
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: CLEAR",
+    "P1: FREEZE  \nP2: FREEZE  \nP3: FREEZE  \nP4: FREEZE  \nP5: FREEZE  \nP6: CLEAR"
+   ]
+  },
+  {
+   "set": 10,
+   "arm": "control",
+   "greedy": "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: CLEAR\nP5: AUDIT\nP6: AUDIT",
+   "samples": [
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: CLEAR\nP5: AUDIT\nP6: AUDIT",
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: CLEAR\nP5: AUDIT\nP6: AUDIT",
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: CLEAR\nP5: AUDIT\nP6: AUDIT",
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: CLEAR\nP5: AUDIT\nP6: AUDIT"
+   ]
+  },
+  {
+   "set": 10,
+   "arm": "none",
+   "greedy": "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: FREEZE\nP5: AUDIT\nP6: AUDIT",
+   "samples": [
+    "P1: CLEAR  \nP2: AUDIT  \nP3: FREEZE  \nP4: FREEZE  \nP5: AUDIT  \nP6: CLEAR",
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: FREEZE\nP5: AUDIT\nP6: AUDIT",
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: FREEZE\nP5: AUDIT\nP6: CLEAR",
+    "P1: FREEZE\nP2: CLEAR\nP3: FREEZE\nP4: FREEZE\nP5: AUDIT\nP6: AUDIT"
+   ]
+  },
+  {
+   "set": 11,
+   "arm": "exp",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: HOLD\nP3: HOLD\nP4: PASS\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: HOLD\nP4: PASS\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 11,
+   "arm": "mixed",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD  \nP2: PASS  \nP3: PASS  \nP4: HOLD  \nP5: PASS  \nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 11,
+   "arm": "control",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 11,
+   "arm": "none",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+   "samples": [
+    "P1: PASS\nP2: HOLD\nP3: HOLD\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: HOLD\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 12,
+   "arm": "exp",
+   "greedy": "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: ESCALATE\nP6: HALT",
+   "samples": [
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: ESCALATE\nP6: HALT",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: ESCALATE\nP6: HALT",
+    "P1: HALT  \nP2: HALT  \nP3: PROCEED  \nP4: ESCALATE  \nP5: ESCALATE  \nP6: HALT",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: ESCALATE\nP6: HALT"
+   ]
+  },
+  {
+   "set": 12,
+   "arm": "mixed",
+   "greedy": "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: HALT\nP6: PROCEED",
+   "samples": [
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: HALT\nP6: PROCEED",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: HALT\nP6: PROCEED",
+    "P1: HALT  \nP2: HALT  \nP3: PROCEED  \nP4: ESCALATE  \nP5: HALT  \nP6: PROCEED",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: HALT\nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 12,
+   "arm": "control",
+   "greedy": "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: PROCEED\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT  \nP2: HALT  \nP3: PROCEED  \nP4: ESCALATE  \nP5: HALT  \nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 12,
+   "arm": "none",
+   "greedy": "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: PROCEED\nP5: HALT\nP6: HALT",
+   "samples": [
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: ESCALATE\nP5: ESCALATE\nP6: HALT",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: PROCEED\nP5: HALT\nP6: HALT",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: PROCEED\nP5: HALT\nP6: HALT",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: PROCEED\nP5: HALT\nP6: HALT"
+   ]
+  },
+  {
+   "set": 13,
+   "arm": "exp",
+   "greedy": "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: BLOCK\nP5: ALLOW\nP6: INSPECT",
+   "samples": [
+    "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: BLOCK\nP5: ALLOW\nP6: INSPECT",
+    "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: BLOCK\nP5: ALLOW\nP6: INSPECT",
+    "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: BLOCK\nP5: ALLOW\nP6: INSPECT",
+    "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: BLOCK\nP5: ALLOW\nP6: INSPECT"
+   ]
+  },
+  {
+   "set": 13,
+   "arm": "mixed",
+   "greedy": "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: ALLOW\nP5: ALLOW\nP6: INSPECT",
+   "samples": [
+    "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: BLOCK\nP5: ALLOW\nP6: INSPECT",
+    "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: ALLOW\nP5: ALLOW\nP6: INSPECT",
+    "P1: BLOCK  \nP2: BLOCK  \nP3: BLOCK  \nP4: ALLOW  \nP5: ALLOW  \nP6: INSPECT",
+    "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: ALLOW\nP5: ALLOW\nP6: INSPECT"
+   ]
+  },
+  {
+   "set": 13,
+   "arm": "control",
+   "greedy": "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: BLOCK\nP5: BLOCK\nP6: INSPECT",
+   "samples": [
+    "P1: BLOCK\nP2: BLOCK\nP3: BLOCK\nP4: ALLOW\nP5: INSPECT\nP6: INSPECT",
+    "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: BLOCK\nP5: BLOCK\nP6: INSPECT",
+    "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: BLOCK\nP5: BLOCK\nP6: INSPECT",
+    "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: BLOCK\nP5: BLOCK\nP6: INSPECT"
+   ]
+  },
+  {
+   "set": 13,
+   "arm": "none",
+   "greedy": "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: INSPECT\nP5: INSPECT\nP6: INSPECT",
+   "samples": [
+    "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: INSPECT\nP5: INSPECT\nP6: INSPECT",
+    "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: INSPECT\nP5: INSPECT\nP6: INSPECT",
+    "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: INSPECT\nP5: INSPECT\nP6: INSPECT",
+    "P1: BLOCK\nP2: ALLOW\nP3: BLOCK\nP4: INSPECT\nP5: INSPECT\nP6: INSPECT"
+   ]
+  },
+  {
+   "set": 14,
+   "arm": "exp",
+   "greedy": "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+   "samples": [
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: FREEZE",
+    "P1: FREEZE\nP2: AUDIT\nP3: CLEAR\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: FREEZE\nP2: AUDIT\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: FREEZE"
+   ]
+  },
+  {
+   "set": 14,
+   "arm": "mixed",
+   "greedy": "P1: FREEZE  \nP2: FREEZE  \nP3: CLEAR  \nP4: FREEZE  \nP5: CLEAR  \nP6: CLEAR",
+   "samples": [
+    "P1: FREEZE  \nP2: FREEZE  \nP3: CLEAR  \nP4: FREEZE  \nP5: CLEAR  \nP6: CLEAR",
+    "P1: FREEZE\nP2: FREEZE\nP3: CLEAR\nP4: FREEZE\nP5: CLEAR\nP6: CLEAR",
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: CLEAR",
+    "P1: FREEZE  \nP2: FREEZE  \nP3: AUDIT  \nP4: FREEZE  \nP5: CLEAR  \nP6: CLEAR"
+   ]
+  },
+  {
+   "set": 14,
+   "arm": "control",
+   "greedy": "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+   "samples": [
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: CLEAR"
+   ]
+  },
+  {
+   "set": 14,
+   "arm": "none",
+   "greedy": "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+   "samples": [
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: FREEZE\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT"
+   ]
+  },
+  {
+   "set": 15,
+   "arm": "exp",
+   "greedy": "P1: ESCALATE\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+   "samples": [
+    "P1: ESCALATE\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: ESCALATE\nP6: PROCEED",
+    "P1: ESCALATE\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: ESCALATE\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: ESCALATE\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 15,
+   "arm": "mixed",
+   "greedy": "P1: ESCALATE  \nP2: HALT  \nP3: PROCEED  \nP4: HALT  \nP5: ESCALATE  \nP6: PROCEED",
+   "samples": [
+    "P1: ESCALATE  \nP2: HALT  \nP3: HALT  \nP4: HALT  \nP5: HALT  \nP6: PROCEED",
+    "P1: ESCALATE\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: HALT\nP6: PROCEED",
+    "P1: ESCALATE  \nP2: HALT  \nP3: PROCEED  \nP4: HALT  \nP5: ESCALATE  \nP6: PROCEED",
+    "P1: ESCALATE  \nP2: HALT  \nP3: PROCEED  \nP4: HALT  \nP5: ESCALATE  \nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 15,
+   "arm": "control",
+   "greedy": "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: ESCALATE\nP2: HALT\nP3: HALT\nP4: HALT\nP5: HALT\nP6: PROCEED",
+    "P1: ESCALATE\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: ESCALATE\nP2: PROCEED\nP3: HALT\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: ESCALATE\nP2: HALT\nP3: PROCEED\nP4: HALT\nP5: HALT\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 15,
+   "arm": "none",
+   "greedy": "P1: ESCALATE\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: PROCEED",
+   "samples": [
+    "P1: ESCALATE  \nP2: PROCEED  \nP3: HALT  \nP4: HALT  \nP5: ESCALATE  \nP6: HALT",
+    "P1: ESCALATE\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: PROCEED",
+    "P1: ESCALATE\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: HALT"
+   ]
+  },
+  {
+   "set": 16,
+   "arm": "exp",
+   "greedy": "P1: CLEAR\nP2: AUDIT\nP3: FREEZE\nP4: AUDIT\nP5: FREEZE\nP6: AUDIT",
+   "samples": [
+    "P1: CLEAR  \nP2: AUDIT  \nP3: FREEZE  \nP4: AUDIT  \nP5: FREEZE  \nP6: AUDIT",
+    "P1: FREEZE  \nP2: AUDIT  \nP3: FREEZE  \nP4: AUDIT  \nP5: FREEZE  \nP6: AUDIT",
+    "P1: CLEAR  \nP2: AUDIT  \nP3: FREEZE  \nP4: AUDIT  \nP5: CLEAR  \nP6: AUDIT",
+    "P1: FREEZE  \nP2: AUDIT  \nP3: FREEZE  \nP4: AUDIT  \nP5: FREEZE  \nP6: AUDIT"
+   ]
+  },
+  {
+   "set": 16,
+   "arm": "mixed",
+   "greedy": "P1: CLEAR\nP2: AUDIT\nP3: FREEZE\nP4: FREEZE\nP5: FREEZE\nP6: AUDIT",
+   "samples": [
+    "P1: CLEAR  \nP2: FREEZE  \nP3: FREEZE  \nP4: FREEZE  \nP5: FREEZE  \nP6: AUDIT",
+    "P1: CLEAR\nP2: AUDIT\nP3: CLEAR\nP4: FREEZE\nP5: FREEZE\nP6: FREEZE",
+    "P1: CLEAR\nP2: AUDIT\nP3: FREEZE\nP4: FREEZE\nP5: FREEZE\nP6: AUDIT",
+    "P1: CLEAR  \nP2: AUDIT  \nP3: FREEZE  \nP4: FREEZE  \nP5: CLEAR  \nP6: FREEZE"
+   ]
+  },
+  {
+   "set": 16,
+   "arm": "control",
+   "greedy": "P1: AUDIT\nP2: AUDIT\nP3: FREEZE\nP4: CLEAR\nP5: AUDIT\nP6: AUDIT",
+   "samples": [
+    "P1: AUDIT\nP2: AUDIT\nP3: FREEZE\nP4: CLEAR\nP5: AUDIT\nP6: AUDIT",
+    "P1: AUDIT\nP2: AUDIT\nP3: FREEZE\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: AUDIT\nP2: AUDIT\nP3: FREEZE\nP4: CLEAR\nP5: FREEZE\nP6: AUDIT",
+    "P1: AUDIT\nP2: AUDIT\nP3: FREEZE\nP4: CLEAR\nP5: FREEZE\nP6: AUDIT"
+   ]
+  },
+  {
+   "set": 16,
+   "arm": "none",
+   "greedy": "P1: CLEAR\nP2: AUDIT\nP3: FREEZE\nP4: FREEZE\nP5: FREEZE\nP6: FREEZE",
+   "samples": [
+    "P1: LABEL: CLEAR\nP2: LABEL: AUDIT\nP3: LABEL: FREEZE\nP4: LABEL: FREEZE\nP5: LABEL: FREEZE\nP6: LABEL: FREEZE",
+    "P1: CLEAR  \nP2: AUDIT  \nP3: FREEZE  \nP4: FREEZE  \nP5: AUDIT  \nP6: FREEZE",
+    "P1: CLEAR\nP2: AUDIT\nP3: FREEZE\nP4: FREEZE\nP5: FREEZE\nP6: FREEZE",
+    "P1: LABEL: CLEAR\nP2: LABEL: AUDIT\nP3: LABEL: FREEZE\nP4: LABEL: FREEZE\nP5: LABEL: CLEAR\nP6: LABEL: AUDIT"
+   ]
+  },
+  {
+   "set": 17,
+   "arm": "exp",
+   "greedy": "P1: ESCALATE\nP2: PROCEED\nP3: HALT\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: ESCALATE  \nP2: HALT  \nP3: HALT  \nP4: HALT  \nP5: PROCEED  \nP6: ESCALATE",
+    "P1: ESCALATE\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 17,
+   "arm": "mixed",
+   "greedy": "P1: PROCEED\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: PROCEED\nP6: HALT",
+   "samples": [
+    "P1: PROCEED  \nP2: PROCEED  \nP3: ESCALATE  \nP4: HALT  \nP5: PROCEED  \nP6: HALT",
+    "P1: PROCEED\nP2: ESCALATE\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: HALT",
+    "P1: PROCEED\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: HALT",
+    "P1: ESCALATE  \nP2: PROCEED  \nP3: HALT  \nP4: HALT  \nP5: PROCEED  \nP6: HALT"
+   ]
+  },
+  {
+   "set": 17,
+   "arm": "control",
+   "greedy": "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+   "samples": [
+    "P1: ESCALATE\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: HALT",
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+    "P1: ESCALATE\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 17,
+   "arm": "none",
+   "greedy": "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED  \nP2: HALT  \nP3: HALT  \nP4: ESCALATE  \nP5: PROCEED  \nP6: HALT",
+    "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE",
+    "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: ESCALATE\nP5: HALT\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 18,
+   "arm": "exp",
+   "greedy": "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: PASS\nP5: PASS\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: PASS\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: PASS\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: PASS\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: PASS\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 18,
+   "arm": "mixed",
+   "greedy": "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD  \nP2: HOLD  \nP3: PASS  \nP4: HOLD  \nP5: PASS  \nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: HOLD\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 18,
+   "arm": "control",
+   "greedy": "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+   "samples": [
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 18,
+   "arm": "none",
+   "greedy": "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: PASS",
+   "samples": [
+    "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: PASS",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: PASS",
+    "P1: HOLD\nP2: HOLD\nP3: REVIEW\nP4: REVIEW\nP5: REVIEW\nP6: PASS"
+   ]
+  },
+  {
+   "set": 19,
+   "arm": "exp",
+   "greedy": "P1: CHECK  \nP2: STOP  \nP3: GO  \nP4: GO  \nP5: STOP  \nP6: CHECK",
+   "samples": [
+    "P1: CHECK  \nP2: STOP  \nP3: GO  \nP4: GO  \nP5: STOP  \nP6: CHECK",
+    "P1: CHECK\nP2: STOP\nP3: GO\nP4: GO\nP5: STOP\nP6: CHECK",
+    "P1: CHECK  \nP2: STOP  \nP3: GO  \nP4: GO  \nP5: STOP  \nP6: CHECK",
+    "P1: CHECK  \nP2: STOP  \nP3: GO  \nP4: GO  \nP5: STOP  \nP6: CHECK"
+   ]
+  },
+  {
+   "set": 19,
+   "arm": "mixed",
+   "greedy": "P1: CHECK  \nP2: STOP  \nP3: GO  \nP4: GO  \nP5: CHECK  \nP6: GO",
+   "samples": [
+    "P1: CHECK  \nP2: STOP  \nP3: GO  \nP4: GO  \nP5: GO  \nP6: GO",
+    "P1: CHECK\nP2: STOP\nP3: GO\nP4: GO\nP5: GO\nP6: GO",
+    "P1: CHECK  \nP2: STOP  \nP3: GO  \nP4: GO  \nP5: GO  \nP6: GO",
+    "P1: CHECK\nP2: STOP\nP3: GO\nP4: GO\nP5: CHECK\nP6: GO"
+   ]
+  },
+  {
+   "set": 19,
+   "arm": "control",
+   "greedy": "P1: CHECK\nP2: STOP\nP3: GO\nP4: CHECK\nP5: STOP\nP6: CHECK",
+   "samples": [
+    "P1: GO\nP2: STOP\nP3: CHECK\nP4: CHECK\nP5: STOP\nP6: CHECK",
+    "P1: CHECK\nP2: STOP\nP3: GO\nP4: CHECK\nP5: STOP\nP6: CHECK",
+    "P1: CHECK\nP2: STOP\nP3: STOP\nP4: GO\nP5: STOP\nP6: CHECK",
+    "P1: GO\nP2: STOP\nP3: GO\nP4: CHECK\nP5: STOP\nP6: CHECK"
+   ]
+  },
+  {
+   "set": 19,
+   "arm": "none",
+   "greedy": "P1: GO\nP2: STOP\nP3: GO\nP4: CHECK\nP5: STOP\nP6: CHECK",
+   "samples": [
+    "P1: GO\nP2: STOP\nP3: GO\nP4: CHECK\nP5: STOP\nP6: CHECK",
+    "P1: GO  \nP2: STOP  \nP3: GO  \nP4: CHECK  \nP5: STOP  \nP6: GO",
+    "P1: GO\nP2: STOP\nP3: GO\nP4: CHECK\nP5: STOP\nP6: CHECK",
+    "P1: GO\nP2: STOP\nP3: GO\nP4: CHECK\nP5: STOP\nP6: CHECK"
+   ]
+  },
+  {
+   "set": 20,
+   "arm": "exp",
+   "greedy": "P1: QUERY\nP2: KEEP\nP3: QUERY\nP4: QUERY\nP5: RELEASE\nP6: KEEP",
+   "samples": [
+    "P1: QUERY\nP2: KEEP\nP3: QUERY\nP4: QUERY\nP5: RELEASE\nP6: KEEP",
+    "P1: QUERY  \nP2: KEEP  \nP3: QUERY  \nP4: QUERY  \nP5: RELEASE  \nP6: KEEP",
+    "P1: QUERY\nP2: KEEP\nP3: QUERY\nP4: QUERY\nP5: QUERY\nP6: RELEASE",
+    "P1: KEEP  \nP2: KEEP  \nP3: QUERY  \nP4: QUERY  \nP5: RELEASE  \nP6: RELEASE"
+   ]
+  },
+  {
+   "set": 20,
+   "arm": "mixed",
+   "greedy": "P1: QUERY  \nP2: KEEP  \nP3: QUERY  \nP4: KEEP  \nP5: RELEASE  \nP6: RELEASE",
+   "samples": [
+    "P1: QUERY\nP2: KEEP\nP3: QUERY\nP4: KEEP\nP5: RELEASE\nP6: RELEASE",
+    "P1: QUERY  \nP2: KEEP  \nP3: QUERY  \nP4: KEEP  \nP5: RELEASE  \nP6: RELEASE",
+    "P1: QUERY  \nP2: KEEP  \nP3: QUERY  \nP4: KEEP  \nP5: RELEASE  \nP6: RELEASE",
+    "P1: QUERY  \nP2: QUERY  \nP3: QUERY  \nP4: KEEP  \nP5: RELEASE  \nP6: RELEASE"
+   ]
+  },
+  {
+   "set": 20,
+   "arm": "control",
+   "greedy": "P1: QUERY\nP2: QUERY\nP3: QUERY\nP4: KEEP\nP5: RELEASE\nP6: QUERY",
+   "samples": [
+    "P1: QUERY  \nP2: QUERY  \nP3: QUERY  \nP4: KEEP  \nP5: RELEASE  \nP6: QUERY",
+    "P1: QUERY\nP2: QUERY\nP3: QUERY\nP4: KEEP\nP5: RELEASE\nP6: QUERY",
+    "P1: QUERY  \nP2: QUERY  \nP3: QUERY  \nP4: KEEP  \nP5: RELEASE  \nP6: QUERY",
+    "P1: QUERY\nP2: KEEP\nP3: QUERY\nP4: RELEASE\nP5: QUERY\nP6: QUERY"
+   ]
+  },
+  {
+   "set": 20,
+   "arm": "none",
+   "greedy": "P1: KEEP\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: RELEASE\nP6: KEEP",
+   "samples": [
+    "P1: KEEP\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: RELEASE\nP6: KEEP",
+    "P1: KEEP\nP2: KEEP\nP3: QUERY\nP4: RELEASE\nP5: KEEP\nP6: KEEP",
+    "P1: KEEP\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+    "P1: KEEP  \nP2: RELEASE  \nP3: QUERY  \nP4: KEEP  \nP5: RELEASE  \nP6: QUERY"
+   ]
+  },
+  {
+   "set": 21,
+   "arm": "exp",
+   "greedy": "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: CHECK",
+   "samples": [
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: CHECK",
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: CHECK",
+    "P1: STOP  \nP2: GO  \nP3: STOP  \nP4: CHECK  \nP5: STOP  \nP6: STOP",
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: CHECK"
+   ]
+  },
+  {
+   "set": 21,
+   "arm": "mixed",
+   "greedy": "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: GO",
+   "samples": [
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: GO",
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: GO",
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: GO",
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: GO"
+   ]
+  },
+  {
+   "set": 21,
+   "arm": "control",
+   "greedy": "P1: STOP\nP2: GO\nP3: CHECK\nP4: STOP\nP5: CHECK\nP6: STOP",
+   "samples": [
+    "P1: STOP\nP2: GO\nP3: CHECK\nP4: STOP\nP5: CHECK\nP6: STOP",
+    "P1: STOP\nP2: GO\nP3: CHECK\nP4: STOP\nP5: CHECK\nP6: STOP",
+    "P1: STOP\nP2: GO\nP3: CHECK\nP4: STOP\nP5: CHECK\nP6: STOP",
+    "P1: STOP\nP2: GO\nP3: CHECK\nP4: STOP\nP5: CHECK\nP6: STOP"
+   ]
+  },
+  {
+   "set": 21,
+   "arm": "none",
+   "greedy": "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: CHECK",
+   "samples": [
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: CHECK",
+    "P1: STOP\nP2: GO\nP3: CHECK\nP4: GO\nP5: STOP\nP6: CHECK",
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: CHECK",
+    "P1: STOP\nP2: GO\nP3: STOP\nP4: CHECK\nP5: STOP\nP6: CHECK"
+   ]
+  },
+  {
+   "set": 22,
+   "arm": "exp",
+   "greedy": "P1: KEEP  \nP2: RELEASE  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY",
+   "samples": [
+    "P1: KEEP  \nP2: RELEASE  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY",
+    "P1: KEEP  \nP2: RELEASE  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY",
+    "P1: KEEP  \nP2: RELEASE  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY",
+    "P1: KEEP  \nP2: RELEASE  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY"
+   ]
+  },
+  {
+   "set": 22,
+   "arm": "mixed",
+   "greedy": "P1: RELEASE  \nP2: KEEP  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY",
+   "samples": [
+    "P1: RELEASE\nP2: KEEP\nP3: KEEP\nP4: QUERY\nP5: QUERY\nP6: RELEASE",
+    "P1: RELEASE  \nP2: KEEP  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY",
+    "P1: RELEASE  \nP2: KEEP  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY",
+    "P1: RELEASE  \nP2: KEEP  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY"
+   ]
+  },
+  {
+   "set": 22,
+   "arm": "control",
+   "greedy": "P1: QUERY\nP2: RELEASE\nP3: KEEP\nP4: QUERY\nP5: QUERY\nP6: QUERY",
+   "samples": [
+    "P1: QUERY\nP2: RELEASE\nP3: KEEP\nP4: QUERY\nP5: QUERY\nP6: QUERY",
+    "P1: QUERY  \nP2: RELEASE  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY",
+    "P1: QUERY  \nP2: RELEASE  \nP3: QUERY  \nP4: KEEP  \nP5: QUERY  \nP6: QUERY",
+    "P1: QUERY  \nP2: RELEASE  \nP3: KEEP  \nP4: QUERY  \nP5: QUERY  \nP6: QUERY"
+   ]
+  },
+  {
+   "set": 22,
+   "arm": "none",
+   "greedy": "P1: QUERY\nP2: KEEP\nP3: RELEASE\nP4: KEEP\nP5: QUERY\nP6: KEEP",
+   "samples": [
+    "P1: QUERY  \nP2: KEEP  \nP3: RELEASE  \nP4: KEEP  \nP5: QUERY  \nP6: KEEP",
+    "P1: QUERY  \nP2: RELEASE  \nP3: KEEP  \nP4: KEEP  \nP5: QUERY  \nP6: KEEP",
+    "P1: QUERY  \nP2: KEEP  \nP3: RELEASE  \nP4: KEEP  \nP5: QUERY  \nP6: KEEP",
+    "P1: KEEP\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: KEEP"
+   ]
+  },
+  {
+   "set": 23,
+   "arm": "exp",
+   "greedy": "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: PASS\nP5: REVIEW\nP6: REVIEW",
+   "samples": [
+    "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: PASS\nP5: REVIEW\nP6: REVIEW",
+    "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: PASS\nP5: REVIEW\nP6: REVIEW",
+    "P1: REVIEW\nP2: PASS\nP3: PASS\nP4: PASS\nP5: REVIEW\nP6: REVIEW",
+    "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: PASS\nP5: REVIEW\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 23,
+   "arm": "mixed",
+   "greedy": "P1: HOLD  \nP2: PASS  \nP3: REVIEW  \nP4: PASS  \nP5: PASS  \nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: PASS\nP6: HOLD",
+    "P1: HOLD  \nP2: PASS  \nP3: REVIEW  \nP4: PASS  \nP5: PASS  \nP6: HOLD",
+    "P1: HOLD  \nP2: PASS  \nP3: REVIEW  \nP4: PASS  \nP5: PASS  \nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: PASS\nP4: PASS\nP5: PASS\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 23,
+   "arm": "control",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+   "samples": [
+    "P1: PASS\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: PASS\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 23,
+   "arm": "none",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 24,
+   "arm": "exp",
+   "greedy": "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE",
+    "P1: ESCALATE\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: ESCALATE",
+    "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: ESCALATE"
+   ]
+  },
+  {
+   "set": 24,
+   "arm": "mixed",
+   "greedy": "P1: HALT\nP2: ESCALATE\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+   "samples": [
+    "P1: HALT\nP2: ESCALATE\nP3: ESCALATE\nP4: HALT\nP5: HALT\nP6: ESCALATE",
+    "P1: HALT  \nP2: ESCALATE  \nP3: HALT  \nP4: HALT  \nP5: PROCEED  \nP6: ESCALATE",
+    "P1: ESCALATE  \nP2: HALT  \nP3: PROCEED  \nP4: HALT  \nP5: HALT  \nP6: PROCEED",
+    "P1: ESCALATE  \nP2: HALT  \nP3: PROCEED  \nP4: HALT  \nP5: HALT  \nP6: PROCEED"
+   ]
+  },
+  {
+   "set": 24,
+   "arm": "control",
+   "greedy": "P1: HALT\nP2: HALT\nP3: HALT\nP4: HALT\nP5: HALT\nP6: HALT",
+   "samples": [
+    "P1: ESCALATE  \nP2: HALT  \nP3: HALT  \nP4: HALT  \nP5: HALT  \nP6: HALT",
+    "P1: HALT  \nP2: PROCEED  \nP3: HALT  \nP4: HALT  \nP5: HALT  \nP6: HALT",
+    "P1: HALT\nP2: PROCEED\nP3: ESCALATE\nP4: HALT\nP5: ESCALATE\nP6: HALT",
+    "P1: HALT  \nP2: HALT  \nP3: HALT  \nP4: HALT  \nP5: HALT  \nP6: HALT"
+   ]
+  },
+  {
+   "set": 24,
+   "arm": "none",
+   "greedy": "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: HALT",
+   "samples": [
+    "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: HALT",
+    "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: HALT\nP5: PROCEED\nP6: HALT",
+    "P1: PROCEED\nP2: HALT\nP3: HALT\nP4: HALT\nP5: ESCALATE\nP6: HALT",
+    "P1: PROCEED  \nP2: HALT  \nP3: HALT  \nP4: HALT  \nP5: ESCALATE  \nP6: HALT"
+   ]
+  },
+  {
+   "set": 25,
+   "arm": "exp",
+   "greedy": "P1: RELEASE\nP2: QUERY\nP3: KEEP\nP4: QUERY\nP5: QUERY\nP6: QUERY",
+   "samples": [
+    "P1: RELEASE\nP2: QUERY\nP3: KEEP\nP4: QUERY\nP5: QUERY\nP6: QUERY",
+    "P1: RELEASE\nP2: QUERY\nP3: KEEP\nP4: QUERY\nP5: QUERY\nP6: QUERY",
+    "P1: RELEASE\nP2: QUERY\nP3: KEEP\nP4: QUERY\nP5: QUERY\nP6: QUERY",
+    "P1: RELEASE\nP2: QUERY\nP3: KEEP\nP4: QUERY\nP5: QUERY\nP6: QUERY"
+   ]
+  },
+  {
+   "set": 25,
+   "arm": "mixed",
+   "greedy": "P1: RELEASE\nP2: QUERY\nP3: KEEP\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+   "samples": [
+    "P1: RELEASE\nP2: KEEP\nP3: KEEP\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+    "P1: RELEASE\nP2: QUERY\nP3: KEEP\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+    "P1: RELEASE\nP2: QUERY\nP3: KEEP\nP4: KEEP\nP5: QUERY\nP6: RELEASE",
+    "P1: RELEASE\nP2: QUERY\nP3: KEEP\nP4: KEEP\nP5: QUERY\nP6: QUERY"
+   ]
+  },
+  {
+   "set": 25,
+   "arm": "control",
+   "greedy": "P1: QUERY\nP2: QUERY\nP3: KEEP\nP4: RELEASE\nP5: QUERY\nP6: QUERY",
+   "samples": [
+    "P1: QUERY\nP2: QUERY\nP3: KEEP\nP4: RELEASE\nP5: QUERY\nP6: QUERY",
+    "P1: QUERY\nP2: QUERY\nP3: KEEP\nP4: RELEASE\nP5: QUERY\nP6: QUERY",
+    "P1: QUERY  \nP2: QUERY  \nP3: KEEP  \nP4: RELEASE  \nP5: QUERY  \nP6: QUERY",
+    "P1: QUERY  \nP2: QUERY  \nP3: KEEP  \nP4: RELEASE  \nP5: QUERY  \nP6: QUERY"
+   ]
+  },
+  {
+   "set": 25,
+   "arm": "none",
+   "greedy": "P1: KEEP\nP2: QUERY\nP3: KEEP\nP4: RELEASE\nP5: QUERY\nP6: RELEASE",
+   "samples": [
+    "P1: KEEP\nP2: QUERY\nP3: KEEP\nP4: RELEASE\nP5: QUERY\nP6: KEEP",
+    "P1: KEEP\nP2: QUERY\nP3: KEEP\nP4: RELEASE\nP5: QUERY\nP6: RELEASE",
+    "P1: KEEP\nP2: QUERY\nP3: KEEP\nP4: RELEASE\nP5: QUERY\nP6: KEEP",
+    "P1: QUERY\nP2: QUERY\nP3: KEEP\nP4: KEEP\nP5: RELEASE\nP6: KEEP"
+   ]
+  },
+  {
+   "set": 26,
+   "arm": "exp",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+   "samples": [
+    "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: REVIEW\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: HOLD  \nP2: PASS  \nP3: REVIEW  \nP4: HOLD  \nP5: REVIEW  \nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 26,
+   "arm": "mixed",
+   "greedy": "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: HOLD\nP5: HOLD\nP6: PASS",
+   "samples": [
+    "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: HOLD\nP5: HOLD\nP6: PASS",
+    "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: REVIEW\nP2: PASS\nP3: HOLD\nP4: HOLD\nP5: PASS\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 26,
+   "arm": "control",
+   "greedy": "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: REVIEW",
+   "samples": [
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: PASS\nP5: REVIEW\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 26,
+   "arm": "none",
+   "greedy": "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: HOLD\nP5: PASS\nP6: HOLD",
+    "P1: HOLD\nP2: PASS\nP3: REVIEW\nP4: PASS\nP5: HOLD\nP6: REVIEW",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: PASS\nP2: HOLD\nP3: REVIEW\nP4: HOLD\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 27,
+   "arm": "exp",
+   "greedy": "P1: AUDIT\nP2: FREEZE\nP3: CLEAR\nP4: FREEZE\nP5: AUDIT\nP6: AUDIT",
+   "samples": [
+    "P1: AUDIT\nP2: FREEZE\nP3: CLEAR\nP4: FREEZE\nP5: AUDIT\nP6: AUDIT",
+    "P1: AUDIT\nP2: FREEZE\nP3: CLEAR\nP4: FREEZE\nP5: AUDIT\nP6: AUDIT",
+    "P1: AUDIT\nP2: FREEZE\nP3: CLEAR\nP4: FREEZE\nP5: AUDIT\nP6: AUDIT",
+    "P1: AUDIT\nP2: FREEZE\nP3: CLEAR\nP4: FREEZE\nP5: AUDIT\nP6: AUDIT"
+   ]
+  },
+  {
+   "set": 27,
+   "arm": "mixed",
+   "greedy": "P1: FREEZE\nP2: AUDIT\nP3: CLEAR\nP4: AUDIT\nP5: CLEAR\nP6: AUDIT",
+   "samples": [
+    "P1: AUDIT  \nP2: FREEZE  \nP3: CLEAR  \nP4: AUDIT  \nP5: CLEAR  \nP6: FREEZE",
+    "P1: CLEAR\nP2: AUDIT\nP3: FREEZE\nP4: AUDIT\nP5: CLEAR\nP6: FREEZE",
+    "P1: FREEZE  \nP2: AUDIT  \nP3: CLEAR  \nP4: AUDIT  \nP5: CLEAR  \nP6: CLEAR",
+    "P1: AUDIT  \nP2: FREEZE  \nP3: CLEAR  \nP4: AUDIT  \nP5: CLEAR  \nP6: FREEZE"
+   ]
+  },
+  {
+   "set": 27,
+   "arm": "control",
+   "greedy": "P1: CLEAR  \nP2: FREEZE  \nP3: CLEAR  \nP4: FREEZE  \nP5: AUDIT  \nP6: FREEZE",
+   "samples": [
+    "P1: FREEZE  \nP2: FREEZE  \nP3: CLEAR  \nP4: AUDIT  \nP5: FREEZE  \nP6: AUDIT",
+    "P1: AUDIT\nP2: FREEZE\nP3: CLEAR\nP4: FREEZE\nP5: AUDIT\nP6: FREEZE",
+    "P1: FREEZE\nP2: FREEZE\nP3: CLEAR\nP4: AUDIT\nP5: FREEZE\nP6: AUDIT",
+    "P1: CLEAR  \nP2: FREEZE  \nP3: CLEAR  \nP4: AUDIT  \nP5: FREEZE  \nP6: AUDIT"
+   ]
+  },
+  {
+   "set": 27,
+   "arm": "none",
+   "greedy": "P1: CLEAR\nP2: FREEZE\nP3: AUDIT\nP4: FREEZE\nP5: FREEZE\nP6: AUDIT",
+   "samples": [
+    "P1: CLEAR\nP2: FREEZE\nP3: CLEAR\nP4: AUDIT\nP5: FREEZE\nP6: AUDIT",
+    "P1: CLEAR  \nP2: FREEZE  \nP3: AUDIT  \nP4: AUDIT  \nP5: FREEZE  \nP6: AUDIT",
+    "P1: FREEZE\nP2: CLEAR\nP3: AUDIT\nP4: FREEZE\nP5: CLEAR\nP6: AUDIT",
+    "P1: CLEAR\nP2: FREEZE\nP3: AUDIT\nP4: CLEAR\nP5: FREEZE\nP6: AUDIT"
+   ]
+  },
+  {
+   "set": 28,
+   "arm": "exp",
+   "greedy": "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+   "samples": [
+    "P1: PASS\nP2: HOLD\nP3: HOLD\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+    "P1: PASS\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+    "P1: HOLD\nP2: HOLD\nP3: PASS\nP4: REVIEW\nP5: PASS\nP6: REVIEW",
+    "P1: PASS  \nP2: PASS  \nP3: HOLD  \nP4: REVIEW  \nP5: PASS  \nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 28,
+   "arm": "mixed",
+   "greedy": "P1: PASS\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: PASS\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: PASS\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: PASS\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: PASS\nP2: REVIEW\nP3: PASS\nP4: HOLD\nP5: HOLD\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 28,
+   "arm": "control",
+   "greedy": "P1: PASS\nP2: REVIEW\nP3: HOLD\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+   "samples": [
+    "P1: PASS\nP2: REVIEW\nP3: HOLD\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: PASS\nP2: REVIEW\nP3: HOLD\nP4: HOLD\nP5: PASS\nP6: REVIEW",
+    "P1: PASS\nP2: REVIEW\nP3: HOLD\nP4: HOLD\nP5: REVIEW\nP6: REVIEW",
+    "P1: PASS\nP2: REVIEW\nP3: HOLD\nP4: HOLD\nP5: REVIEW\nP6: REVIEW"
+   ]
+  },
+  {
+   "set": 28,
+   "arm": "none",
+   "greedy": "P1: PASS\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+   "samples": [
+    "P1: PASS  \nP2: REVIEW  \nP3: HOLD  \nP4: HOLD  \nP5: REVIEW  \nP6: HOLD",
+    "P1: PASS\nP2: REVIEW\nP3: HOLD\nP4: HOLD\nP5: REVIEW\nP6: HOLD",
+    "P1: PASS\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD",
+    "P1: PASS\nP2: PASS\nP3: HOLD\nP4: REVIEW\nP5: REVIEW\nP6: HOLD"
+   ]
+  },
+  {
+   "set": 29,
+   "arm": "exp",
+   "greedy": "P1: KEEP  \nP2: KEEP  \nP3: QUERY  \nP4: QUERY  \nP5: KEEP  \nP6: QUERY",
+   "samples": [
+    "P1: KEEP\nP2: KEEP\nP3: QUERY\nP4: QUERY\nP5: KEEP\nP6: QUERY",
+    "P1: KEEP\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: KEEP",
+    "P1: LABEL KEEP  \nP2: LABEL KEEP  \nP3: LABEL QUERY  \nP4: LABEL RELEASE  \nP5: LABEL QUERY  \nP6: LABEL RELEASE",
+    "P1: KEEP\nP2: QUERY\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY"
+   ]
+  },
+  {
+   "set": 29,
+   "arm": "mixed",
+   "greedy": "P1: KEEP  \nP2: KEEP  \nP3: QUERY  \nP4: KEEP  \nP5: RELEASE  \nP6: KEEP",
+   "samples": [
+    "P1: KEEP\nP2: KEEP\nP3: QUERY\nP4: KEEP\nP5: RELEASE\nP6: KEEP",
+    "P1: RELEASE\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: RELEASE\nP6: KEEP",
+    "P1: KEEP\nP2: KEEP\nP3: QUERY\nP4: KEEP\nP5: RELEASE\nP6: KEEP",
+    "P1: QUERY\nP2: QUERY\nP3: QUERY\nP4: KEEP\nP5: RELEASE\nP6: KEEP"
+   ]
+  },
+  {
+   "set": 29,
+   "arm": "control",
+   "greedy": "P1: KEEP\nP2: QUERY\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+   "samples": [
+    "P1: KEEP\nP2: QUERY\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+    "P1: KEEP\nP2: QUERY\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+    "P1: KEEP\nP2: QUERY\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+    "P1: KEEP  \nP2: QUERY  \nP3: QUERY  \nP4: KEEP  \nP5: QUERY  \nP6: QUERY"
+   ]
+  },
+  {
+   "set": 29,
+   "arm": "none",
+   "greedy": "P1: KEEP\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+   "samples": [
+    "P1: KEEP\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+    "P1: KEEP\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY",
+    "P1: KEEP  \nP2: QUERY  \nP3: QUERY  \nP4: KEEP  \nP5: QUERY  \nP6: QUERY",
+    "P1: KEEP\nP2: RELEASE\nP3: QUERY\nP4: KEEP\nP5: QUERY\nP6: QUERY"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-giSMbGgY9dzPVZNViCHgei
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/gurdjieff/mirror
+│   /mirror_g.py
+├── ✓ Created Function lamp.
+├── ✓ Created Function score.
+└── ✓ Created Function get.
+5596 jobs
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   6%|▋         | 37/579 [00:00<00:01, 330.06it/s]
+[1ALoading weights:  12%|█▏        | 71/579 [00:00<00:02, 195.84it/s]
+[1ALoading weights:  17%|█▋        | 96/579 [00:00<00:02, 196.84it/s]
+[1ALoading weights:  23%|██▎       | 131/579 [00:00<00:01, 238.51it/s]
+[1ALoading weights:  27%|██▋       | 157/579 [00:00<00:02, 178.50it/s]
+[1ALoading weights:  31%|███       | 178/579 [00:00<00:02, 173.50it/s]
+[1ALoading weights:  34%|███▍      | 198/579 [00:01<00:02, 169.55it/s]
+[1ALoading weights:  41%|████      | 235/579 [00:01<00:01, 215.17it/s]
+[1ALoading weights:  45%|████▍     | 259/579 [00:01<00:01, 212.75it/s]
+[1ALoading weights:  50%|████▉     | 288/579 [00:01<00:01, 208.44it/s]
+[1ALoading weights:  54%|█████▎    | 310/579 [00:01<00:01, 211.11it/s]
+[1ALoading weights:  57%|█████▋    | 332/579 [00:01<00:01, 180.88it/s]
+[1ALoading weights:  61%|██████    | 352/579 [00:01<00:01, 144.77it/s]
+[1ALoading weights:  64%|██████▎   | 369/579 [00:02<00:01, 145.41it/s]
+[1ALoading weights:  67%|██████▋   | 386/579 [00:02<00:01, 148.30it/s]
+[1ALoading weights:  71%|███████   | 412/579 [00:02<00:00, 171.02it/s]
+[1ALoading weights:  77%|███████▋  | 446/579 [00:02<00:00, 207.12it/s]
+[1ALoading weights:  82%|████████▏ | 475/579 [00:02<00:00, 223.23it/s]
+[1ALoading weights:  86%|████████▌ | 499/579 [00:02<00:00, 225.61it/s]
+[1ALoading weights:  90%|█████████ | 523/579 [00:02<00:00, 222.72it/s]
+[1ALoading weights: 100%|██████████| 579/579 [00:02<00:00, 209.47it/s]
+scored 100 / 5596
+scored 200 / 5596
+scored 300 / 5596
+scored 400 / 5596
+scored 500 / 5596
+scored 600 / 5596
+scored 700 / 5596
+scored 800 / 5596
+scored 900 / 5596
+scored 1000 / 5596
+scored 1100 / 5596
+scored 1200 / 5596
+scored 1300 / 5596
+scored 1400 / 5596
+scored 1500 / 5596
+scored 1600 / 5596
+scored 1700 / 5596
+scored 1800 / 5596
+scored 1900 / 5596
+scored 2000 / 5596
+scored 2100 / 5596
+scored 2200 / 5596
+scored 2300 / 5596
+scored 2400 / 5596
+scored 2500 / 5596
+scored 2600 / 5596
+scored 2700 / 5596
+scored 2800 / 5596
+scored 2900 / 5596
+scored 3000 / 5596
+scored 3100 / 5596
+scored 3200 / 5596
+scored 3300 / 5596
+scored 3400 / 5596
+scored 3500 / 5596
+scored 3600 / 5596
+scored 3700 / 5596
+scored 3800 / 5596
+scored 3900 / 5596
+scored 4000 / 5596
+scored 4100 / 5596
+scored 4200 / 5596
+scored 4300 / 5596
+scored 4400 / 5596
+scored 4500 / 5596
+scored 4600 / 5596
+scored 4700 / 5596
+scored 4800 / 5596
+scored 4900 / 5596
+scored 5000 / 5596
+scored 5100 / 5596
+scored 5200 / 5596
+scored 5300 / 5596
+scored 5400 / 5596
+scored 5500 / 5596
+DONE main
+[modal-client] 2026-10-19T18:40:47+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-giSMbGgY9dzPVZNViCHgei

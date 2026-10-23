@@ -1,0 +1,89 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-gchObaMFyRPZZE7jVLgURk
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/watch/modal_watc
+│   h.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   3%|▎         | 15/579 [00:00<00:03, 144.68it/s]
+[1ALoading weights:   5%|▌         | 30/579 [00:00<00:06, 89.49it/s] 
+[1ALoading weights:  11%|█         | 65/579 [00:00<00:03, 161.80it/s]
+[1ALoading weights:  15%|█▍        | 84/579 [00:00<00:02, 168.93it/s]
+[1ALoading weights:  18%|█▊        | 103/579 [00:00<00:03, 156.67it/s]
+[1ALoading weights:  22%|██▏       | 126/579 [00:00<00:02, 160.27it/s]
+[1ALoading weights:  27%|██▋       | 156/579 [00:00<00:02, 194.98it/s]
+[1ALoading weights:  31%|███       | 177/579 [00:01<00:02, 171.90it/s]
+[1ALoading weights:  34%|███▍      | 196/579 [00:01<00:03, 127.34it/s]
+[1ALoading weights:  37%|███▋      | 212/579 [00:01<00:02, 126.60it/s]
+[1ALoading weights:  43%|████▎     | 247/579 [00:01<00:01, 167.76it/s]
+[1ALoading weights:  51%|█████▏    | 298/579 [00:01<00:01, 246.00it/s]
+[1ALoading weights:  57%|█████▋    | 332/579 [00:01<00:00, 263.51it/s]
+[1ALoading weights:  63%|██████▎   | 362/579 [00:01<00:00, 244.66it/s]
+[1ALoading weights:  69%|██████▊   | 398/579 [00:02<00:00, 255.14it/s]
+[1ALoading weights:  75%|███████▌  | 437/579 [00:02<00:00, 278.83it/s]
+[1ALoading weights:  81%|████████  | 470/579 [00:02<00:00, 287.55it/s]
+[1ALoading weights:  86%|████████▋ | 500/579 [00:02<00:00, 276.75it/s]
+[1ALoading weights:  91%|█████████▏| 529/579 [00:02<00:00, 272.42it/s]
+[1ALoading weights:  96%|█████████▌| 557/579 [00:02<00:00, 268.79it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 218.35it/s]
+watch 40 / 2240 rechecks cached 30
+watch 80 / 2240 rechecks cached 45
+watch 120 / 2240 rechecks cached 75
+watch 160 / 2240 rechecks cached 90
+watch 200 / 2240 rechecks cached 115
+watch 240 / 2240 rechecks cached 135
+watch 280 / 2240 rechecks cached 150
+watch 320 / 2240 rechecks cached 180
+watch 360 / 2240 rechecks cached 195
+watch 400 / 2240 rechecks cached 225
+watch 440 / 2240 rechecks cached 240
+watch 480 / 2240 rechecks cached 265
+watch 520 / 2240 rechecks cached 285
+watch 560 / 2240 rechecks cached 300
+watch 600 / 2240 rechecks cached 392
+watch 640 / 2240 rechecks cached 444
+watch 680 / 2240 rechecks cached 537
+watch 720 / 2240 rechecks cached 585
+watch 760 / 2240 rechecks cached 666
+watch 800 / 2240 rechecks cached 729
+watch 840 / 2240 rechecks cached 765
+watch 880 / 2240 rechecks cached 851
+watch 920 / 2240 rechecks cached 903
+watch 960 / 2240 rechecks cached 993
+watch 1000 / 2240 rechecks cached 1044
+watch 1040 / 2240 rechecks cached 1114
+watch 1080 / 2240 rechecks cached 1164
+watch 1120 / 2240 rechecks cached 1200
+watch 1160 / 2240 rechecks cached 1248
+watch 1200 / 2240 rechecks cached 1296
+watch 1240 / 2240 rechecks cached 1344
+watch 1280 / 2240 rechecks cached 1344
+watch 1320 / 2240 rechecks cached 1374
+watch 1360 / 2240 rechecks cached 1392
+watch 1400 / 2240 rechecks cached 1392
+watch 1440 / 2240 rechecks cached 1392
+watch 1480 / 2240 rechecks cached 1392
+watch 1520 / 2240 rechecks cached 1392
+watch 1560 / 2240 rechecks cached 1392
+watch 1600 / 2240 rechecks cached 1392
+watch 1640 / 2240 rechecks cached 1392
+watch 1680 / 2240 rechecks cached 1392
+watch 1720 / 2240 rechecks cached 1476
+watch 1760 / 2240 rechecks cached 1518
+watch 1800 / 2240 rechecks cached 1602
+watch 1840 / 2240 rechecks cached 1644
+watch 1880 / 2240 rechecks cached 1714
+watch 1920 / 2240 rechecks cached 1770
+watch 1960 / 2240 rechecks cached 1812
+watch 2000 / 2240 rechecks cached 1896
+watch 2040 / 2240 rechecks cached 1938
+watch 2080 / 2240 rechecks cached 2022
+watch 2120 / 2240 rechecks cached 2064
+watch 2160 / 2240 rechecks cached 2134
+watch 2200 / 2240 rechecks cached 2190
+watch 2240 / 2240 rechecks cached 2232
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/watch/watch_Qwen2.5-14B-Instruct.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-gchObaMFyRPZZE7jVLgURk

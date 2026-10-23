@@ -1,0 +1,285 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-2SISuBgTvqzGGbyaZhrySq
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v2/modal_rules_long.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/339 [00:00<?, ?it/s]
+[1ALoading weights:  20%|██        | 68/339 [00:00<00:00, 511.66it/s]
+[1ALoading weights:  35%|███▌      | 120/339 [00:00<00:02, 106.54it/s]
+[1ALoading weights:  48%|████▊     | 163/339 [00:01<00:01, 146.25it/s]
+[1ALoading weights:  57%|█████▋    | 194/339 [00:01<00:00, 154.42it/s]
+[1ALoading weights:  65%|██████▌   | 222/339 [00:01<00:00, 157.33it/s]
+[1ALoading weights:  72%|███████▏  | 245/339 [00:01<00:00, 165.82it/s]
+[1ALoading weights:  79%|███████▉  | 267/339 [00:01<00:00, 169.73it/s]
+[1ALoading weights:  85%|████████▍ | 288/339 [00:01<00:00, 172.76it/s]
+[1ALoading weights: 100%|██████████| 339/339 [00:01<00:00, 182.09it/s]
+Qwen/Qwen2.5-7B-Instruct 24 / 2520
+Qwen/Qwen2.5-7B-Instruct 48 / 2520
+Qwen/Qwen2.5-7B-Instruct 72 / 2520
+Qwen/Qwen2.5-7B-Instruct 96 / 2520
+[W1016 11:50:00.816834617 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 2915041280 bytes (free: 1782775808, total: 47695921152).
+Qwen/Qwen2.5-7B-Instruct 120 / 2520
+Qwen/Qwen2.5-7B-Instruct 144 / 2520
+Qwen/Qwen2.5-7B-Instruct 168 / 2520
+Qwen/Qwen2.5-7B-Instruct 192 / 2520
+Qwen/Qwen2.5-7B-Instruct 216 / 2520
+Qwen/Qwen2.5-7B-Instruct 240 / 2520
+Qwen/Qwen2.5-7B-Instruct 264 / 2520
+Qwen/Qwen2.5-7B-Instruct 288 / 2520
+Qwen/Qwen2.5-7B-Instruct 312 / 2520
+Qwen/Qwen2.5-7B-Instruct 336 / 2520
+Qwen/Qwen2.5-7B-Instruct 360 / 2520
+Qwen/Qwen2.5-7B-Instruct 384 / 2520
+Qwen/Qwen2.5-7B-Instruct 408 / 2520
+Qwen/Qwen2.5-7B-Instruct 432 / 2520
+Qwen/Qwen2.5-7B-Instruct 456 / 2520
+Qwen/Qwen2.5-7B-Instruct 480 / 2520
+Qwen/Qwen2.5-7B-Instruct 504 / 2520
+Qwen/Qwen2.5-7B-Instruct 528 / 2520
+Qwen/Qwen2.5-7B-Instruct 552 / 2520
+Qwen/Qwen2.5-7B-Instruct 576 / 2520
+Qwen/Qwen2.5-7B-Instruct 600 / 2520
+Qwen/Qwen2.5-7B-Instruct 624 / 2520
+Qwen/Qwen2.5-7B-Instruct 648 / 2520
+Qwen/Qwen2.5-7B-Instruct 672 / 2520
+Qwen/Qwen2.5-7B-Instruct 696 / 2520
+Qwen/Qwen2.5-7B-Instruct 720 / 2520
+Qwen/Qwen2.5-7B-Instruct 744 / 2520
+Qwen/Qwen2.5-7B-Instruct 768 / 2520
+Qwen/Qwen2.5-7B-Instruct 792 / 2520
+Qwen/Qwen2.5-7B-Instruct 816 / 2520
+Qwen/Qwen2.5-7B-Instruct 840 / 2520
+Qwen/Qwen2.5-7B-Instruct 864 / 2520
+Qwen/Qwen2.5-7B-Instruct 888 / 2520
+Qwen/Qwen2.5-7B-Instruct 912 / 2520
+Qwen/Qwen2.5-7B-Instruct 936 / 2520
+Qwen/Qwen2.5-7B-Instruct 960 / 2520
+Qwen/Qwen2.5-7B-Instruct 984 / 2520
+Qwen/Qwen2.5-7B-Instruct 1008 / 2520
+Qwen/Qwen2.5-7B-Instruct 1032 / 2520
+Qwen/Qwen2.5-7B-Instruct 1056 / 2520
+Qwen/Qwen2.5-7B-Instruct 1080 / 2520
+Qwen/Qwen2.5-7B-Instruct 1104 / 2520
+Qwen/Qwen2.5-7B-Instruct 1128 / 2520
+Qwen/Qwen2.5-7B-Instruct 1152 / 2520
+Qwen/Qwen2.5-7B-Instruct 1176 / 2520
+Qwen/Qwen2.5-7B-Instruct 1200 / 2520
+Qwen/Qwen2.5-7B-Instruct 1224 / 2520
+Qwen/Qwen2.5-7B-Instruct 1248 / 2520
+[W1016 11:56:46.155584590 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 3049259008 bytes (free: 130220032, total: 47695921152).
+Qwen/Qwen2.5-7B-Instruct 1272 / 2520
+Qwen/Qwen2.5-7B-Instruct 1296 / 2520
+Qwen/Qwen2.5-7B-Instruct 1320 / 2520
+Qwen/Qwen2.5-7B-Instruct 1344 / 2520
+Qwen/Qwen2.5-7B-Instruct 1368 / 2520
+Qwen/Qwen2.5-7B-Instruct 1392 / 2520
+Qwen/Qwen2.5-7B-Instruct 1416 / 2520
+Qwen/Qwen2.5-7B-Instruct 1440 / 2520
+Qwen/Qwen2.5-7B-Instruct 1464 / 2520
+Qwen/Qwen2.5-7B-Instruct 1488 / 2520
+Qwen/Qwen2.5-7B-Instruct 1512 / 2520
+Qwen/Qwen2.5-7B-Instruct 1536 / 2520
+Qwen/Qwen2.5-7B-Instruct 1560 / 2520
+Qwen/Qwen2.5-7B-Instruct 1584 / 2520
+Qwen/Qwen2.5-7B-Instruct 1608 / 2520
+Qwen/Qwen2.5-7B-Instruct 1632 / 2520
+Qwen/Qwen2.5-7B-Instruct 1656 / 2520
+Qwen/Qwen2.5-7B-Instruct 1680 / 2520
+Qwen/Qwen2.5-7B-Instruct 1704 / 2520
+Qwen/Qwen2.5-7B-Instruct 1728 / 2520
+Qwen/Qwen2.5-7B-Instruct 1752 / 2520
+Qwen/Qwen2.5-7B-Instruct 1776 / 2520
+Qwen/Qwen2.5-7B-Instruct 1800 / 2520
+Qwen/Qwen2.5-7B-Instruct 1824 / 2520
+Qwen/Qwen2.5-7B-Instruct 1848 / 2520
+Qwen/Qwen2.5-7B-Instruct 1872 / 2520
+Qwen/Qwen2.5-7B-Instruct 1896 / 2520
+Qwen/Qwen2.5-7B-Instruct 1920 / 2520
+Qwen/Qwen2.5-7B-Instruct 1944 / 2520
+Qwen/Qwen2.5-7B-Instruct 1968 / 2520
+Qwen/Qwen2.5-7B-Instruct 1992 / 2520
+Stopping app - user stopped from CLI.
+Runner terminated.
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /mnt/attach/project-files/pilot/rule-priority-alex/v2/modal_rules_long.py:54 │
+│ in main                                                                      │
+│                                                                              │
+│   53 │   names = [m for m in models.split(",") if m]                         │
+│ ❱ 54 │   for name, res in zip(names, run.map(names, kwargs={"items": items}) │
+│   55 │   │   json.dump(res, open(os.path.join(HERE, out, name.split("/")[-1] │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:858 in   │
+│ __iter__                                                                     │
+│                                                                              │
+│    857 │   │   │   with Runner() as runner:                                  │
+│ ❱  858 │   │   │   │   yield from run_async_gen(runner, self._async_iterable │
+│    859 │   │   except NestedEventLoops:                                      │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:940 in   │
+│ run_async_gen                                                                │
+│                                                                              │
+│    939 │   │   │   else:                                                     │
+│ ❱  940 │   │   │   │   next_yield = runner.run(gen.asend(next_send))  # type │
+│    941 │   │   except KeyboardInterrupt as e:                                │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/synchronicity/async_utils.py:82 in   │
+│ run                                                                          │
+│                                                                              │
+│ /usr/lib/python3.13/asyncio/base_events.py:726 in run_until_complete         │
+│                                                                              │
+│    725 │   │                                                                 │
+│ ❱  726 │   │   return future.result()                                        │
+│    727                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/synchronicity/async_utils.py:48 in   │
+│ wrapper_coro                                                                 │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:768 in   │
+│ asend                                                                        │
+│                                                                              │
+│    767 │   │   self.iterated = True                                          │
+│ ❱  768 │   │   return await self.gen.asend(value)                            │
+│    769                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:1042 in        │
+│ _map_async                                                                   │
+│                                                                              │
+│   1041 │   async_input_gen = async_zip(*[sync_or_async_iter(it) for it in in │
+│ ❱ 1042 │   async for output in _map_helper(                                  │
+│   1043 │   │   self,                                                         │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:1015 in        │
+│ _map_helper                                                                  │
+│                                                                              │
+│   1014 │   ) as map_output_stream:                                           │
+│ ❱ 1015 │   │   async for output in map_output_stream:                        │
+│   1016 │   │   │   yield output                                              │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1114 in  │
+│ async_merge                                                                  │
+│                                                                              │
+│   1113 │   │   │   │   │   assert_type(item, ExceptionWrapper)               │
+│ ❱ 1114 │   │   │   │   │   raise item.value                                  │
+│   1115                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1093 in  │
+│ producer                                                                     │
+│                                                                              │
+│   1092 │   │   │   async with aclosing(generator) as stream:                 │
+│ ❱ 1093 │   │   │   │   async for item in stream:                             │
+│   1094 │   │   │   │   │   await queue.put(ValueWrapper(item))               │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_object.py:61 in wrapped       │
+│                                                                              │
+│    60 │   │   async with aclosing(method(self, *args, **kwargs)) as stream:  │
+│ ❱  61 │   │   │   async for item in stream:                                  │
+│    62 │   │   │   │   yield item                                             │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_functions.py:1962 in _map     │
+│                                                                              │
+│   1961 │   │   │   ) as stream:                                              │
+│ ❱ 1962 │   │   │   │   async for item in stream:                             │
+│   1963 │   │   │   │   │   yield item                                        │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:971 in         │
+│ _map_invocation_inputplane                                                   │
+│                                                                              │
+│    970 │   ) as merged:                                                      │
+│ ❱  971 │   │   async for maybe_output in merged:                             │
+│    972 │   │   │   if maybe_output is not None:  # ignore None sentinels     │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1131 in  │
+│ async_merge                                                                  │
+│                                                                              │
+│   1130 │   │   │   │   assert_type(item, ExceptionWrapper)                   │
+│ ❱ 1131 │   │   │   │   raise item.value                                      │
+│   1132                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1093 in  │
+│ producer                                                                     │
+│                                                                              │
+│   1092 │   │   │   async with aclosing(generator) as stream:                 │
+│ ❱ 1093 │   │   │   │   async for item in stream:                             │
+│   1094 │   │   │   │   │   await queue.put(ValueWrapper(item))               │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:926 in         │
+│ poll_outputs                                                                 │
+│                                                                              │
+│    925 │   │   ) as streamer:                                                │
+│ ❱  926 │   │   │   async for idx, output in streamer:                        │
+│    927 │   │   │   │   if not order_outputs:                                 │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1243 in  │
+│ async_map_ordered                                                            │
+│                                                                              │
+│   1242 │   async with aclosing(async_map(async_zip(counter(), input_generato │
+│ ❱ 1243 │   │   async for output_idx, output_item in stream:                  │
+│   1244 │   │   │   buffer[output_idx] = output_item                          │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1219 in  │
+│ async_map                                                                    │
+│                                                                              │
+│   1218 │   ) as stream:                                                      │
+│ ❱ 1219 │   │   async for item in stream:                                     │
+│   1220 │   │   │   yield item                                                │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1114 in  │
+│ async_merge                                                                  │
+│                                                                              │
+│   1113 │   │   │   │   │   assert_type(item, ExceptionWrapper)               │
+│ ❱ 1114 │   │   │   │   │   raise item.value                                  │
+│   1115                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1093 in  │
+│ producer                                                                     │
+│                                                                              │
+│   1092 │   │   │   async with aclosing(generator) as stream:                 │
+│ ❱ 1093 │   │   │   │   async for item in stream:                             │
+│   1094 │   │   │   │   │   await queue.put(ValueWrapper(item))               │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1208 in  │
+│ worker                                                                       │
+│                                                                              │
+│   1207 │   │   │   if isinstance(item, ValueWrapper):                        │
+│ ❱ 1208 │   │   │   │   res = await prevent_cancellation_abortion(async_mappe │
+│   1209 │   │   │   │   yield res                                             │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1173 in  │
+│ prevent_cancellation_abortion                                                │
+│                                                                              │
+│   1172 │   try:                                                              │
+│ ❱ 1173 │   │   return await asyncio.shield(t)                                │
+│   1174 │   except asyncio.CancelledError:                                    │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1232 in  │
+│ mapper_func_wrapper                                                          │
+│                                                                              │
+│   1231 │   async def mapper_func_wrapper(tup: tuple[int, T]) -> tuple[int, V │
+│ ❱ 1232 │   │   return (tup[0], await async_mapper_func(tup[1]))              │
+│   1233                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:915 in         │
+│ fetch_output                                                                 │
+│                                                                              │
+│    914 │   │   │   else:                                                     │
+│ ❱  915 │   │   │   │   raise e                                               │
+│    916 │   │   return (item.idx, output)                                     │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:910 in         │
+│ fetch_output                                                                 │
+│                                                                              │
+│    909 │   │   try:                                                          │
+│ ❱  910 │   │   │   output = await _process_result(item.result, item.data_for │
+│    911 │   │   except Exception as e:                                        │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/function_utils.py:574   │
+│ in _process_result                                                           │
+│                                                                              │
+│   573 │   │                                                                  │
+│ ❱ 574 │   │   raise RemoteError(result.exception)                            │
+│   575                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+RemoteError
+EXIT 1

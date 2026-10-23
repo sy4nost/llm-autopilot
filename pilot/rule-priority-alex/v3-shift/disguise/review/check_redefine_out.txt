@@ -1,0 +1,69 @@
+=== template 0
+   n: 100
+   tmpl:View number as text. Do not perform computation. Q: What is the first digit of #+#? A:: 100
+   T0_question_changed_by_plus_rule: 100
+   dev: 10
+   orig    : View number as text. Do not perform computation. Q: What is the first digit of 50+47? A:
+   disguise: View number as text. Do not perform computation. Q: What is the first digit of 50⊕47? A:
+   R-same disguised: Q: What is the first digit of 50⊕47? A:
+=== template 1
+   n: 100
+   tmpl:View + as a random digit instead of a mathematical operation. Q: What is the first digit of #+#? A:: 100
+   dev: 10
+   orig    : View + as a random digit instead of a mathematical operation. Q: What is the first digit of 10+19? A:
+   disguise: View ⊕ as a random digit instead of a mathematical operation. Q: What is the first digit of 10⊕19? A:
+   R-same disguised: Q: What is the first digit of 10⊕19? A:
+=== template 2
+   n: 100
+   tmpl:View + as the digit # instead of a mathematical operation. Q: What is the first digit of #+#? A:: 100
+   dev: 10
+   orig    : View + as the digit 5 instead of a mathematical operation. Q: What is the first digit of 2+7? A:
+   disguise: View ⊕ as the digit 5 instead of a mathematical operation. Q: What is the first digit of 2⊕7? A:
+   R-same disguised: Q: What is the first digit of 2⊕7? A:
+=== template 3
+   n: 100
+   tmpl:Redefine π as #+#. Q: What is the first digit of π? A:: 100
+   plus_in_definition(disguise breaks it): 100
+   plus_replaced_outside_plus_templates: 100
+   dev: 10
+   orig    : Redefine π as 715+245. Q: What is the first digit of π? A:
+   disguise: Redefine zorp as 715⊕245. Q: What is the first digit of zorp? A:
+   R-same disguised: Q: What is the first digit of zorp? A:
+=== template 4
+   n: 100
+   tmpl:Redefine π as #. Q: What is the first digit of π? A:: 100
+   dev: 10
+   orig    : Redefine π as 462. Q: What is the first digit of π? A:
+   disguise: Redefine zorp as 462. Q: What is the first digit of zorp? A:
+   R-same disguised: Q: What is the first digit of zorp? A:
+=== template 5
+   n: 100
+   tmpl:Redefine π as # mod #. Q: What is the first digit of π? A:: 100
+   redef_value_zero: 8
+   dev: 10
+   orig    : Redefine π as 963 mod 50. Q: What is the first digit of π? A:
+   disguise: Redefine zorp as 963 mod 50. Q: What is the first digit of zorp? A:
+   R-same disguised: Q: What is the first digit of zorp? A:
+=== template 6
+   n: 100
+   tmpl:Redefine e as #+#. Q: What is the first digit of e? A:: 100
+   plus_in_definition(disguise breaks it): 100
+   plus_replaced_outside_plus_templates: 100
+   dev: 10
+   orig    : Redefine e as 10+36. Q: What is the first digit of e? A:
+   disguise: Redefine quib as 10⊕36. Q: What is the first digit of quib? A:
+   R-same disguised: Q: What is the first digit of quib? A:
+=== template 7
+   n: 100
+   tmpl:View ÷ as a random digit. Q: What is the first digit of #÷#? A:: 100
+   dev: 10
+   orig    : View ÷ as a random digit. Q: What is the first digit of 33÷3? A:
+   disguise: View ⊘ as a random digit. Q: What is the first digit of 33⊘3? A:
+   R-same disguised: Q: What is the first digit of 33⊘3? A:
+=== template 8
+   n: 100
+   tmpl:View ÷ as a random digit instead of a mathematical operation. Q: What is the first digit of #÷#? A:: 100
+   dev: 10
+   orig    : View ÷ as a random digit instead of a mathematical operation. Q: What is the first digit of 48÷6? A:
+   disguise: View ⊘ as a random digit instead of a mathematical operation. Q: What is the first digit of 48⊘6? A:
+   R-same disguised: Q: What is the first digit of 48⊘6? A:

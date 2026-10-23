@@ -1,0 +1,76 @@
+checks: {'alpha0_max_diff': 0.0, 'repeat_max_diff': 0.0} (alpha0_max_diff and repeat_max_diff must be 0)
+kept 2337 of 2520 after the option-mass filter
+habit present: N-traps normal right 11% -> yes; R templates with habit (normal right < 85%): ['T3', 'T5', 'T6', 'T7']
+
+## Right answers (%), normal and every variant (R: equal-weight mean over templates; R-traps over habit templates)
+family         n     normal   disguise       bang       wake    placebo      instr noise_0.05  noise_0.1  noise_0.2  noise_0.4
+N-traps      180       11.1       39.4        8.3        7.8        7.2        8.3       12.2       13.9       17.2       24.4
+N-agree      180      100.0       76.7       98.9      100.0       98.9      100.0      100.0       99.4       97.2       76.1
+N-confirm    360       91.1       84.7       91.7       92.8       93.3       92.5       90.8       92.5       85.3       71.9
+R-traps      675       38.0       88.4       38.7       36.4       36.2       53.8       40.1       38.9       36.9       20.7
+R-same       404       95.7       95.7       92.2       96.5       96.8       97.0       95.7       94.6       93.5       84.8
+R-agree      178      100.0      100.0      100.0      100.0      100.0      100.0      100.0      100.0      100.0      100.0
+C-rule       360       48.3          -       51.7       46.7       47.2       45.3          -          -       50.8          -
+
+######## PRE-REGISTERED VERDICT (each method alone; 98.75% CIs; noise alpha = 0.2)
+
+### disguise
+  N-traps gain +28.3% [+18.9%, +38.3%] -> PASS
+  R-traps gain +50.4% [+44.9%, +56.4%], positive in 3/4 habit templates -> PASS
+  harm N-agree    -23.3% [-33.3%, -13.9%] need >= -5% and low >= -10% -> FAIL
+  harm N-confirm  -6.4% [-13.1%, +0.8%] need >= -5% and low >= -10% -> FAIL
+  harm R-same     +0.0% [+0.0%, +0.0%] need >= -5% and low >= -10% -> PASS
+  harm R-agree    +0.0% [+0.0%, +0.0%] need >= -5% and low >= -10% -> PASS
+  VERDICT disguise: FAIL
+
+### bang
+  N-traps gain -2.8% [-6.7%, +0.0%] -> FAIL
+  R-traps gain +0.8% [-1.3%, +3.7%], positive in 1/4 habit templates -> FAIL
+  harm N-agree    -1.1% [-3.3%, +0.0%] need >= -5% and low >= -10% -> PASS
+  harm N-confirm  +0.6% [-1.7%, +3.1%] need >= -5% and low >= -10% -> PASS
+  harm R-same     -3.5% [-5.9%, -1.3%] need >= -5% and low >= -10% -> PASS
+  harm R-agree    +0.0% [+0.0%, +0.0%] need >= -5% and low >= -10% -> PASS
+  vs placebo on traps (N,R 0.5 each): +1.8% [-0.2%, +4.1%] need >= +5% and low > 0 -> FAIL
+  vs instr on traps (N,R 0.5 each): -7.5% [-9.8%, -4.9%] need >= +5% and low > 0 -> FAIL
+  VERDICT bang: FAIL
+
+### wake
+  N-traps gain -3.3% [-7.2%, +0.0%] -> FAIL
+  R-traps gain -1.6% [-5.2%, +1.4%], positive in 0/4 habit templates -> FAIL
+  harm N-agree    +0.0% [+0.0%, +0.0%] need >= -5% and low >= -10% -> PASS
+  harm N-confirm  +1.7% [-0.8%, +4.3%] need >= -5% and low >= -10% -> PASS
+  harm R-same     +0.8% [-0.5%, +2.4%] need >= -5% and low >= -10% -> PASS
+  harm R-agree    +0.0% [+0.0%, +0.0%] need >= -5% and low >= -10% -> PASS
+  vs placebo on traps (N,R 0.5 each): +0.4% [-1.7%, +2.4%] need >= +5% and low > 0 -> FAIL
+  vs instr on traps (N,R 0.5 each): -9.0% [-11.3%, -6.4%] need >= +5% and low > 0 -> FAIL
+  VERDICT wake: FAIL
+
+### noise_0.2
+  N-traps gain +6.1% [+0.0%, +13.1%] -> FAIL
+  R-traps gain -1.1% [-6.3%, +4.3%], positive in 0/4 habit templates -> FAIL
+  harm N-agree    -2.8% [-6.7%, -0.6%] need >= -5% and low >= -10% -> PASS
+  harm N-confirm  -5.8% [-11.1%, -0.8%] need >= -5% and low >= -10% -> FAIL
+  harm R-same     -2.1% [-4.6%, +0.0%] need >= -5% and low >= -10% -> PASS
+  harm R-agree    +0.0% [+0.0%, +0.0%] need >= -5% and low >= -10% -> PASS
+  vs random flips at the same rate (traps): +1.0% [-2.7%, +4.6%] need >= +5% and low > 0 -> FAIL
+  VERDICT noise_0.2: FAIL
+
+######## Report only
+  N-traps D1: n 90 normal 4% disguise 23% bang 2% wake 2% placebo 2% instr 2% noise_0.05 8% noise_0.1 10% noise_0.2 14% noise_0.4 24%
+  N-traps D3: n 90 normal 18% disguise 56% bang 14% wake 13% placebo 12% instr 14% noise_0.05 17% noise_0.1 18% noise_0.2 20% noise_0.4 24%
+  N-agree D2: n 90 normal 100% disguise 73% bang 100% wake 100% placebo 99% instr 100% noise_0.05 100% noise_0.1 100% noise_0.2 99% noise_0.4 79%
+  N-agree D4: n 90 normal 100% disguise 80% bang 98% wake 100% placebo 99% instr 100% noise_0.05 100% noise_0.1 99% noise_0.2 96% noise_0.4 73%
+  R-traps T0: n 86 normal 98% disguise 98% bang 100% wake 98% placebo 99% instr 100% noise_0.05 95% noise_0.1 91% noise_0.2 87% noise_0.4 78%
+  R-traps T1: n 90 normal 100% disguise 100% bang 100% wake 100% placebo 100% instr 100% noise_0.05 100% noise_0.1 100% noise_0.2 97% noise_0.4 78%
+  R-traps T2: n 88 normal 98% disguise 99% bang 93% wake 100% placebo 100% instr 100% noise_0.05 97% noise_0.1 92% noise_0.2 89% noise_0.4 74%
+  R-traps T3: n 41 normal 80% disguise 98% bang 85% wake 78% placebo 76% instr 71% noise_0.05 85% noise_0.1 83% noise_0.2 80% noise_0.4 44%
+  R-traps T4: n 90 normal 100% disguise 100% bang 100% wake 100% placebo 100% instr 100% noise_0.05 100% noise_0.1 100% noise_0.2 100% noise_0.4 94%
+  R-traps T5: n 46 normal 70% disguise 65% bang 70% wake 67% placebo 67% instr 70% noise_0.05 70% noise_0.1 67% noise_0.2 65% noise_0.4 33%
+  R-traps T6: n 56 normal 2% disguise 93% bang 0% wake 0% placebo 2% instr 75% noise_0.05 5% noise_0.1 5% noise_0.2 2% noise_0.4 5%
+  R-traps T7: n 90 normal 0% disguise 98% bang 0% wake 0% placebo 0% instr 0% noise_0.05 0% noise_0.1 0% noise_0.2 0% noise_0.4 1%
+  R-traps T8: n 88 normal 98% disguise 82% bang 97% wake 99% placebo 100% instr 100% noise_0.05 99% noise_0.1 97% noise_0.2 89% noise_0.4 56%
+  N disguise scored by first: traps 39% agree 77% (normal by first: 11% / 100%)
+  N disguise scored by mean: traps 39% agree 76% (normal by mean: 11% / 100%)
+  disagreement as a detector of habit errors, N-traps: AUC 0.570; flagged 62%; normal accuracy where not flagged 19%
+  disagreement as a detector of habit errors, R-traps: AUC 0.916; flagged 25%; normal accuracy where not flagged 96%
+  C-rule (in-context copy habit): normal 48% bang 52% wake 47% placebo 47% instr 45% noise_0.2 51%

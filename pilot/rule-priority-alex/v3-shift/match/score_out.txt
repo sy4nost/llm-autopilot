@@ -1,0 +1,28 @@
+answers without a label: 0
+arm              right: D1   D2   D3   D4  | old-rule label on D1+D3 | on D2+D4
+fresh             87%  56%  87%  75% |   0% |  27%
+change_0          25%  85%  47%  83% |  37% |  11%
+A_change_20        7%  80%  15%  92% |  88% |  13%
+B_change_20       35%  74%  51%  75% |  49% |  24%
+C_change_20       49%  67%  83%  69% |  22% |  30%
+A_change_60        7%  86%   7%  93% |  93% |  10%
+B_change_60       39%  73%  69%  79% |  38% |  22%
+C_change_60       61%  70%  91%  64% |  12% |  33%
+A_nochange_20    100%  94% 100%  93% | 100% |  94%
+B_nochange_20     83%  97%  63%  93% |  73% |  95%
+C_nochange_20     76%  97%  43%  95% |  59% |  96%
+A_nochange_60    100% 100% 100% 100% | 100% | 100%
+B_nochange_60     69% 100%  23% 100% |  46% | 100%
+C_nochange_60     57% 100%  16% 100% |  36% | 100%
+
+D1+D3 old-rule answers, paired differences over sets (95% interval):
+  N=20 A_change_20 - B_change_20: +39% [+27%, +52%]
+  N=20 B_change_20 - C_change_20: +27% [+13%, +42%]
+  N=20 A_change_20 - C_change_20: +66% [+53%, +79%]
+  N=20 C_change_20 - change_0: -15% [-30%, -1%]
+  N=20 B_change_20 - change_0: +12% [-6%, +30%]
+  N=60 A_change_60 - B_change_60: +55% [+42%, +68%]
+  N=60 B_change_60 - C_change_60: +25% [+10%, +41%]
+  N=60 A_change_60 - C_change_60: +81% [+70%, +90%]
+  N=60 C_change_60 - change_0: -25% [-39%, -12%]
+  N=60 B_change_60 - change_0: +0% [-20%, +20%]

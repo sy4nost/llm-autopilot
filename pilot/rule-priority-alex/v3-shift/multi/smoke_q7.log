@@ -1,0 +1,29 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-1MrvA4RtwupNCtfSYT9Eqb
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/multi/modal_mult
+│   i.py
+├── ✓ Created Function download.
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/339 [00:00<?, ?it/s]
+[1ALoading weights:   2%|▏         | 8/339 [00:00<00:14, 23.29it/s]
+[1ALoading weights:   6%|▋         | 22/339 [00:00<00:06, 49.59it/s]
+[1ALoading weights:   9%|▊         | 29/339 [00:00<00:07, 40.58it/s]
+[1ALoading weights:  10%|█         | 35/339 [00:00<00:07, 41.38it/s]
+[1ALoading weights:  14%|█▎        | 46/339 [00:01<00:05, 49.81it/s]
+[1ALoading weights:  15%|█▌        | 52/339 [00:02<00:19, 14.96it/s]
+[1ALoading weights:  23%|██▎       | 78/339 [00:02<00:07, 33.95it/s]
+[1ALoading weights:  32%|███▏      | 107/339 [00:02<00:03, 59.99it/s]
+[1ALoading weights:  40%|████      | 136/339 [00:02<00:02, 88.85it/s]
+[1ALoading weights:  54%|█████▍    | 184/339 [00:02<00:01, 146.93it/s]
+[1ALoading weights:  62%|██████▏   | 211/339 [00:02<00:00, 166.94it/s]
+[1ALoading weights:  70%|███████   | 238/339 [00:02<00:00, 185.51it/s]
+[1ALoading weights:  81%|████████  | 275/339 [00:03<00:00, 208.10it/s]
+[1ALoading weights:  91%|█████████▏| 310/339 [00:03<00:00, 227.44it/s]
+[1ALoading weights: 100%|██████████| 339/339 [00:03<00:00, 105.57it/s]
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/multi/multi_Qwen2.5-7B-Instruct_smoke.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-1MrvA4RtwupNCtfSYT9Eqb

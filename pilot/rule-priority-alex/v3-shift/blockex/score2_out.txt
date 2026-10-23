@@ -1,0 +1,61 @@
+OUR TASK, held-out sets 15-29, 270 prompts
+=== all ===  chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg right | all right
+  normal        43% |    51% |    80% |    57% |    63%
+  b20           33% |    54% |    96% |    61% |    70%
+  b20+early     32% |    41% |   100% |    47% |    63%
+  b40           31% |    56% |    99% |    63% |    73%
+  late_all      32% |    53% |    94% |    62% |    70%
+=== A ===  chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg right | all right
+  normal        90% |    10% |    90% |   100% |    67%
+  b20           77% |    17% |   100% |   100% |    72%
+  b20+early     37% |    37% |   100% |    57% |    64%
+  b40           63% |    27% |   100% |    97% |    74%
+  late_all      57% |    30% |   100% |    90% |    73%
+=== B ===  chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg right | all right
+  normal        37% |    60% |    83% |    43% |    62%
+  b20           13% |    73% |    97% |    43% |    71%
+  b20+early     33% |    43% |   100% |    43% |    62%
+  b40           20% |    70% |   100% |    50% |    73%
+  late_all      20% |    70% |    93% |    47% |    70%
+=== C ===  chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg right | all right
+  normal         3% |    83% |    67% |    27% |    59%
+  b20           10% |    73% |    90% |    40% |    68%
+  b20+early     27% |    43% |   100% |    40% |    61%
+  b40           10% |    70% |    97% |    43% |    70%
+  late_all      20% |    60% |    90% |    50% |    67%
+change D1+D3: third label (neither right nor old): normal 6%, b20 12%, b20+early 27%, b40 13%, late_all 14%
+paired over sets vs normal (95% interval):
+  b20        chg D1+D3 old    -10% [-19%, -2%]
+  b20        chg D1+D3 right  +3% [-6%, +11%]
+  b20        chg D2+D4 right  +16% [+7%, +24%]
+  b20        nochg right      +4% [+0%, +9%]
+  b20        all right        +8% [+3%, +13%]
+  b20+early  chg D1+D3 old    -11% [-30%, +8%]
+  b20+early  chg D1+D3 right  -10% [-22%, +3%]
+  b20+early  chg D2+D4 right  +20% [+11%, +30%]
+  b20+early  nochg right      -10% [-31%, +9%]
+  b20+early  all right        -0% [-8%, +7%]
+  b40        chg D1+D3 old    -12% [-24%, -1%]
+  b40        chg D1+D3 right  +4% [-6%, +14%]
+  b40        chg D2+D4 right  +19% [+10%, +28%]
+  b40        nochg right      +7% [+0%, +13%]
+  b40        all right        +10% [+6%, +14%]
+  late_all   chg D1+D3 old    -11% [-24%, +1%]
+  late_all   chg D1+D3 right  +2% [-11%, +14%]
+  late_all   chg D2+D4 right  +14% [+6%, +24%]
+  late_all   nochg right      +6% [-3%, +14%]
+  late_all   all right        +7% [+2%, +13%]
+
+MMLU 570 questions
+  normal      77.5%  diff +0.0% [+0.0%, +0.0%]  fixed 0 broken 0
+  b20         77.9%  diff +0.4% [-0.4%, +1.1%]  fixed 3 broken 1
+  b20+early   77.0%  diff -0.5% [-2.6%, +1.6%]  fixed 17 broken 20
+  b40         78.1%  diff +0.5% [-0.2%, +1.4%]  fixed 4 broken 1
+  late_all    77.7%  diff +0.2% [-1.2%, +1.6%]  fixed 8 broken 7
+
+GSM8K 250 questions
+  normal      93.6%  diff +0.0% [+0.0%, +0.0%]  fixed 0 broken 0
+  b20         93.6%  diff +0.0% [-1.2%, +1.2%]  fixed 1 broken 1
+  b20+early   93.6%  diff +0.0% [-2.8%, +2.8%]  fixed 6 broken 6
+  b40         93.6%  diff +0.0% [-1.2%, +1.2%]  fixed 1 broken 1
+  late_all    90.4%  diff -3.2% [-6.0%, -0.4%]  fixed 3 broken 11

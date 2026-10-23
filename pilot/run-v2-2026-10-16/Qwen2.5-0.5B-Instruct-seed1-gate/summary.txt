@@ -1,0 +1,50 @@
+run_v2.py, started 2026-10-16 02:44, finished 2026-10-16 02:44
+model=Qwen/Qwen2.5-0.5B-Instruct device=cuda dtype=float32 python=3.12.10 torch=2.14.1+cu130 transformers=5.20.0 threads=1
+items=512 learn=16 N=0 seed=1 cache=on layers=24 window=12..15
+time: 38 s total, 0.07 s per item-condition (512 item-conditions, 512 prompts)
+cache fallbacks (full forward because tokenization was not prefix + test): 0 of 512
+check-cache: 4 prompts, max abs diff 1.91e-05 OK
+
+RULE-SWITCH TEST v2: SUMMARY   model=Qwen/Qwen2.5-0.5B-Instruct   items=512 (H 256, S 256)
+layers=24; H2 window (pre-registered) = logit-lens indices 12..15; CIs 95%, bootstrap = 2000 resamples over items, seed 1
+H = habit frame (the history practises it), S = switch frame (reverse mapping). h = logp(habit answer) - logp(other answer), in nats; > 0 leans to the habit (old) answer.
+
+1. GATE at N=0 (header + acquisition block, no history): both frames must be >= 85% correct.
+   H frame   77% [72%-82%] (198/256)   S frame   74% [68%-79%] (189/256)   -> FAIL
+   FAIL: the model does not apply both rules even without history. H1 and H2 below are NOT interpretable.
+
+2. BEHAVIOUR per condition and N (N=0 is one shared prompt).
+   H acc = correct on H trials. S old = S trials answered by the habit rule, Wilson CI (50% = guessing).
+   D = 2*S old - 1: +1 habit rule, 0 shape ignored, -1 switch rule (correct). S RIGHT = share of RIGHT on S (side bias).
+   final_h S = mean h at the output on S trials, +-SE. p_mass = mean p(LEFT)+p(RIGHT) at the output.
+     cond   N  H acc      S old [95% CI]      D  S RIGHT      final_h S  p_mass
+   shared   0    77%       26% [21%-32%]  -0.48      47%   -0.95 +-0.09    0.99
+
+3. H1 (primary, stated in advance): the habit history pushes S answers toward the habit rule, more so for
+   longer N. Per item on S trials: final_h(habit) - final_h(filler) at the same N (> 0 = pulled to the old
+   answer). H1 is supported if the slope of this difference against log2(N) has its CI above 0.
+   needs at least two N >= 2 with both conditions: not tested.
+
+4. H2 (primary, stated in advance): a hidden pull to the habit answer in the window layers (12..15).
+   Per item on S trials: window_h(habit) - window_h(filler) at the same N, all S items. H2 is supported if
+   the slope against log2(N) has its CI above 0 AND the slope CI is above 0 on each habit-answer side
+   separately (LEFT items, RIGHT items), so that an effect on one side only cannot pose as a habit effect.
+   needs at least two N >= 2 with both conditions: not tested.
+
+5. DECISION LAYER on correct H trials: the first logit-lens index where h exceeds half of its final value.
+   mean curve = from the mean h per layer, averaged with equal weight over the two habit-answer sides (the
+   lens has a LEFT/RIGHT lean per layer that cancels this way); trials L/R = correct H trials with habit
+   answer LEFT / RIGHT. jump = rise of the mean curve at that index as a share of the final value (close to 1
+   = the answer forms abruptly). per trial = the same index per trial after removing the cell's per-layer
+   side lean: median [quartiles] and the most common index with its share.
+   Indices count from 0: v1 (Qwen2.5-0.5B, 24 layers) found index 16 = the 17th layer.
+     cond   N  trials L/R mean curve  jump  per trial
+   shared   0      110/88         16  1.70  16 [12-16], most common 16 (55%)
+   distribution over the condition x N cells (mean curve): index 16: 1 (of 1)
+   distribution over all correct H trials (per trial, side lean removed): 8: 4%, 9: 9%, 12: 11%, 13: 7%, 14: 10%, 15: 1%, 16: 55%, 18: 1% (indices under 1% not shown)
+
+6. S OLD-RULE RATE BY FACTOR (each pair: first level / second level; 50% = guessing). A large gap inside a
+   pair means that factor, not the habit, drives the answers. last hist same = the last history shape equals
+   the test shape (habit, N > 0 only).
+     cond   N       habit ans L/R           shape c/s          colour B/O          header H/S        last acq H/S last hist same/diff
+   shared   0           29% / 23%           27% / 25%           24% / 28%           28% / 24%           20% / 32%                    

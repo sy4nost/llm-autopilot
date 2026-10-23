@@ -1,0 +1,92 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-2v8Snrh6Okk6Cctc5wveW3
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/newtasks2/modal_
+│   new2.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   4%|▎         | 21/579 [00:00<00:02, 201.15it/s]
+[1ALoading weights:   7%|▋         | 42/579 [00:00<00:03, 153.48it/s]
+[1ALoading weights:  10%|█         | 60/579 [00:00<00:03, 153.35it/s]
+[1ALoading weights:  15%|█▌        | 88/579 [00:00<00:02, 191.32it/s]
+[1ALoading weights:  19%|█▊        | 108/579 [00:00<00:02, 177.82it/s]
+[1ALoading weights:  22%|██▏       | 127/579 [00:00<00:03, 136.25it/s]
+[1ALoading weights:  25%|██▍       | 143/579 [00:00<00:03, 136.48it/s]
+[1ALoading weights:  28%|██▊       | 164/579 [00:01<00:02, 150.84it/s]
+[1ALoading weights:  33%|███▎      | 190/579 [00:01<00:02, 176.92it/s]
+[1ALoading weights:  36%|███▌      | 209/579 [00:01<00:02, 172.90it/s]
+[1ALoading weights:  41%|████      | 235/579 [00:01<00:01, 188.34it/s]
+[1ALoading weights:  44%|████▍     | 255/579 [00:01<00:01, 165.86it/s]
+[1ALoading weights:  50%|█████     | 290/579 [00:01<00:01, 200.31it/s]
+[1ALoading weights:  54%|█████▎    | 311/579 [00:01<00:01, 193.12it/s]
+[1ALoading weights:  62%|██████▏   | 361/579 [00:01<00:00, 240.48it/s]
+[1ALoading weights:  66%|██████▋   | 385/579 [00:02<00:01, 181.74it/s]
+[1ALoading weights:  70%|██████▉   | 405/579 [00:02<00:01, 158.00it/s]
+[1ALoading weights:  73%|███████▎  | 424/579 [00:02<00:00, 158.45it/s]
+[1ALoading weights:  78%|███████▊  | 452/579 [00:02<00:00, 173.55it/s]
+[1ALoading weights:  81%|████████▏ | 471/579 [00:02<00:00, 170.01it/s]
+[1ALoading weights:  84%|████████▍ | 489/579 [00:02<00:00, 165.97it/s]
+[1ALoading weights:  88%|████████▊ | 512/579 [00:02<00:00, 173.76it/s]
+[1ALoading weights: 100%|██████████| 579/579 [00:03<00:00, 189.94it/s]
+new 20 / 1120 max up1/w1 diff 0.0 0.0
+new 40 / 1120 max up1/w1 diff 0.0 0.0
+new 60 / 1120 max up1/w1 diff 0.0 0.0
+new 80 / 1120 max up1/w1 diff 0.0 0.0
+new 100 / 1120 max up1/w1 diff 0.0 0.0
+new 120 / 1120 max up1/w1 diff 0.0 0.0
+new 140 / 1120 max up1/w1 diff 0.0 0.0
+new 160 / 1120 max up1/w1 diff 0.0 0.0
+new 180 / 1120 max up1/w1 diff 0.0 0.0
+new 200 / 1120 max up1/w1 diff 0.0 0.0
+new 220 / 1120 max up1/w1 diff 0.0 0.0
+new 240 / 1120 max up1/w1 diff 0.0 0.0
+new 260 / 1120 max up1/w1 diff 0.0 0.0
+new 280 / 1120 max up1/w1 diff 0.0 0.0
+new 300 / 1120 max up1/w1 diff 0.0 0.0
+new 320 / 1120 max up1/w1 diff 0.0 0.0
+new 340 / 1120 max up1/w1 diff 0.0 0.0
+new 360 / 1120 max up1/w1 diff 0.0 0.0
+new 380 / 1120 max up1/w1 diff 0.0 0.0
+new 400 / 1120 max up1/w1 diff 0.0 0.0
+new 420 / 1120 max up1/w1 diff 0.0 0.0
+new 440 / 1120 max up1/w1 diff 0.0 0.0
+new 460 / 1120 max up1/w1 diff 0.0 0.0
+new 480 / 1120 max up1/w1 diff 0.0 0.0
+new 500 / 1120 max up1/w1 diff 0.0 0.0
+new 520 / 1120 max up1/w1 diff 0.0 0.0
+new 540 / 1120 max up1/w1 diff 0.0 0.0
+new 560 / 1120 max up1/w1 diff 0.0 0.0
+new 580 / 1120 max up1/w1 diff 0.0 0.0
+new 600 / 1120 max up1/w1 diff 0.0 0.0
+new 620 / 1120 max up1/w1 diff 0.0 0.0
+new 640 / 1120 max up1/w1 diff 0.0 0.0
+new 660 / 1120 max up1/w1 diff 0.0 0.0
+new 680 / 1120 max up1/w1 diff 0.0 0.0
+new 700 / 1120 max up1/w1 diff 0.0 0.0
+new 720 / 1120 max up1/w1 diff 0.0 0.0
+new 740 / 1120 max up1/w1 diff 0.0 0.0
+new 760 / 1120 max up1/w1 diff 0.0 0.0
+new 780 / 1120 max up1/w1 diff 0.0 0.0
+new 800 / 1120 max up1/w1 diff 0.0 0.0
+new 820 / 1120 max up1/w1 diff 0.0 0.0
+new 840 / 1120 max up1/w1 diff 0.0 0.0
+new 860 / 1120 max up1/w1 diff 0.0 0.0
+new 880 / 1120 max up1/w1 diff 0.0 0.0
+new 900 / 1120 max up1/w1 diff 0.0 0.0
+new 920 / 1120 max up1/w1 diff 0.0 0.0
+new 940 / 1120 max up1/w1 diff 0.0 0.0
+new 960 / 1120 max up1/w1 diff 0.0 0.0
+new 980 / 1120 max up1/w1 diff 0.0 0.0
+new 1000 / 1120 max up1/w1 diff 0.0 0.0
+new 1020 / 1120 max up1/w1 diff 0.0 0.0
+new 1040 / 1120 max up1/w1 diff 0.0 0.0
+new 1060 / 1120 max up1/w1 diff 0.0 0.0
+new 1080 / 1120 max up1/w1 diff 0.0 0.0
+new 1100 / 1120 max up1/w1 diff 0.0 0.0
+new 1120 / 1120 max up1/w1 diff 0.0 0.0
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/newtasks2/new2_Qwen2.5-14B-Instruct.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-2v8Snrh6Okk6Cctc5wveW3

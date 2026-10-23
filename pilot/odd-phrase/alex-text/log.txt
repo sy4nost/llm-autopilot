@@ -1,0 +1,81 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-tVoVQ1gqKZBqUXxXIH9kpE
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/odd-phrase/alex-text/modal_alex.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+[1ALoading weights:  32%|███▏      | 93/290 [00:00<00:00, 841.90it/s]
+[1ALoading weights:  61%|██████▏   | 178/290 [00:00<00:00, 792.05it/s]
+[1ALoading weights: 100%|██████████| 290/290 [00:00<00:00, 1066.55it/s]
+
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   0%|          | 0/434 [00:00<?, ?it/s]
+[1ALoading weights:   9%|▉         | 32/338 [00:00<00:01, 299.33it/s]
+[1ALoading weights:   9%|▊         | 37/434 [00:00<00:01, 361.03it/s]
+[1ALoading weights:  24%|██▍       | 81/338 [00:00<00:00, 367.24it/s]
+[1ALoading weights:  17%|█▋        | 74/434 [00:00<00:01, 273.00it/s]
+[1ALoading weights:  24%|██▎       | 103/434 [00:00<00:01, 253.58it/s]
+[1ALoading weights:  32%|███▏      | 137/434 [00:00<00:01, 254.85it/s]
+[1ALoading weights:  43%|████▎     | 186/434 [00:00<00:00, 325.00it/s]
+[1ALoading weights:  35%|███▍      | 118/338 [00:00<00:01, 118.26it/s]
+[1ALoading weights:  51%|█████     | 221/434 [00:00<00:00, 269.29it/s]
+[1ALoading weights:  45%|████▍     | 151/338 [00:00<00:01, 150.73it/s]
+[1ALoading weights:  58%|█████▊    | 251/434 [00:00<00:00, 272.03it/s]
+[1ALoading weights:  56%|█████▌    | 188/338 [00:01<00:00, 188.82it/s]
+[1ALoading weights:  65%|██████▍   | 280/434 [00:01<00:00, 258.91it/s]
+[1ALoading weights:  67%|██████▋   | 227/338 [00:01<00:00, 225.21it/s]
+[1ALoading weights:  74%|███████▎  | 319/434 [00:01<00:00, 277.36it/s]
+[1ALoading weights:  80%|███████▉  | 270/338 [00:01<00:00, 261.48it/s]
+[1ALoading weights:  91%|█████████ | 306/338 [00:01<00:00, 280.95it/s]
+[1ALoading weights:  80%|████████  | 348/434 [00:01<00:00, 250.71it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 238.96it/s]
+
+[1ALoading weights:  87%|████████▋ | 379/434 [00:01<00:00, 252.01it/s]
+[1ALoading weights: 100%|██████████| 434/434 [00:01<00:00, 292.44it/s]
+
+[1ALoading weights:   0%|          | 0/339 [00:00<?, ?it/s]
+[1ALoading weights:   6%|▌         | 20/339 [00:00<00:03, 99.29it/s]
+[1ALoading weights:  26%|██▌       | 87/339 [00:00<00:01, 248.70it/s]
+[1ALoading weights:  33%|███▎      | 113/339 [00:00<00:00, 237.12it/s]
+[1ALoading weights:  40%|████      | 137/339 [00:00<00:00, 221.97it/s]
+[1ALoading weights:  51%|█████▏    | 174/339 [00:00<00:00, 236.91it/s]
+[1ALoading weights:  60%|█████▉    | 203/339 [00:00<00:00, 241.98it/s]
+[1ALoading weights:  67%|██████▋   | 228/339 [00:01<00:00, 211.35it/s]
+[1ALoading weights:  74%|███████▎  | 250/339 [00:01<00:00, 168.67it/s]
+[1ALoading weights:  83%|████████▎ | 281/339 [00:01<00:00, 198.05it/s]
+[1ALoading weights:  92%|█████████▏| 313/339 [00:01<00:00, 218.62it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 227.70it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1AFetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]
+[1AFetching 8 files:  12%|█▎        | 1/8 [00:52<06:08, 52.69s/it]
+[1AFetching 8 files:  25%|██▌       | 2/8 [00:56<02:23, 23.97s/it]
+done Qwen/Qwen2.5-0.5B-Instruct
+done Qwen/Qwen2.5-1.5B-Instruct
+[1AFetching 8 files:  38%|███▊      | 3/8 [01:11<01:38, 19.78s/it]
+[1AFetching 8 files:  50%|█████     | 4/8 [01:18<00:59, 14.96s/it]
+[1AFetching 8 files:  62%|██████▎   | 5/8 [01:27<00:37, 12.55s/it]
+[1AFetching 8 files:  75%|███████▌  | 6/8 [01:39<00:25, 12.57s/it]
+[1AFetching 8 files:  88%|████████▊ | 7/8 [01:48<00:11, 11.46s/it]
+[1AFetching 8 files: 100%|██████████| 8/8 [01:53<00:00,  9.10s/it]
+[1AFetching 8 files: 100%|██████████| 8/8 [01:53<00:00, 14.13s/it]
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:  64%|██████▎   | 369/579 [00:00<00:00, 3673.41it/s]Loading weights: 100%|██████████| 579/579 [00:00<00:00, 4153.52it/s]
+done Qwen/Qwen2.5-3B-Instruct
+done Qwen/Qwen2.5-7B-Instruct
+done Qwen/Qwen2.5-14B-Instruct
+an error occurred during closing of asynchronous generator <async_generator object async_merge at 0x7fe52a9e2430>
+asyncgen: <async_generator object async_merge at 0x7fe52a9e2430>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py", line 856, in __iter__
+    yield from run_async_gen(runner, self._async_iterable)
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+RuntimeError: aclose(): asynchronous generator is already running
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-tVoVQ1gqKZBqUXxXIH9kpE

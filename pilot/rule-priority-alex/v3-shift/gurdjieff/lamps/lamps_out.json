@@ -1,0 +1,591 @@
+{
+ "step1": [
+  {
+   "unit": "own:D/traps",
+   "n": 258,
+   "flips": 56,
+   "lamp32": 0.978,
+   "lamp24": 0.849,
+   "lamp40": 0.984,
+   "low_conf": 0.811,
+   "output_only": 0.785,
+   "diff_low95": 0.076,
+   "has_lamp": true
+  },
+  {
+   "unit": "own:K/traps",
+   "n": 242,
+   "flips": 60,
+   "lamp32": 0.629,
+   "lamp24": 0.627,
+   "lamp40": 0.633,
+   "low_conf": 0.684,
+   "output_only": 0.651,
+   "diff_low95": -0.16,
+   "has_lamp": false
+  },
+  {
+   "unit": "own:N/traps",
+   "n": 120,
+   "flips": 110,
+   "lamp32": 0.831,
+   "lamp24": 0.538,
+   "lamp40": 0.909,
+   "low_conf": 0.251,
+   "output_only": 0.77,
+   "diff_low95": -0.121,
+   "has_lamp": false
+  },
+  {
+   "unit": "own:R/traps",
+   "n": 378,
+   "flips": 170,
+   "lamp32": 0.867,
+   "lamp24": 0.881,
+   "lamp40": 0.901,
+   "low_conf": 0.516,
+   "output_only": 0.581,
+   "diff_low95": 0.221,
+   "has_lamp": true
+  },
+  {
+   "unit": "own:R/cfright",
+   "n": 210,
+   "flips": 35,
+   "lamp32": 0.971,
+   "lamp24": 0.971,
+   "lamp40": 0.976,
+   "low_conf": 0.688,
+   "output_only": 0.674,
+   "diff_low95": 0.195,
+   "has_lamp": true
+  },
+  {
+   "unit": "own:R/compute",
+   "n": 354,
+   "flips": 60,
+   "lamp32": 0.83,
+   "lamp24": 0.788,
+   "lamp40": 0.88,
+   "low_conf": 0.881,
+   "output_only": 0.883,
+   "diff_low95": -0.127,
+   "has_lamp": false
+  },
+  {
+   "unit": "pub:hind/trap",
+   "n": 120,
+   "flips": 75,
+   "lamp32": 0.808,
+   "lamp24": 0.721,
+   "lamp40": 0.838,
+   "low_conf": 0.28,
+   "output_only": 0.681,
+   "diff_low95": -0.003,
+   "has_lamp": false
+  },
+  {
+   "unit": "pub:memo/trap",
+   "n": 120,
+   "flips": 20,
+   "lamp32": 0.637,
+   "lamp24": 0.642,
+   "lamp40": 0.708,
+   "low_conf": 0.698,
+   "output_only": 0.623,
+   "diff_low95": -0.272,
+   "has_lamp": false
+  },
+  {
+   "unit": "pub:neqa/trap",
+   "n": 120,
+   "flips": 16,
+   "lamp32": 0.779,
+   "lamp24": 0.387,
+   "lamp40": 0.801,
+   "low_conf": 0.864,
+   "output_only": 0.785,
+   "diff_low95": -0.213,
+   "has_lamp": false
+  },
+  {
+   "unit": "pub:unknown/trap",
+   "n": 100,
+   "flips": 14,
+   "lamp32": 0.415,
+   "lamp24": 0.36,
+   "lamp40": 0.581,
+   "low_conf": 0.741,
+   "output_only": 0.758,
+   "diff_low95": -0.538,
+   "has_lamp": false
+  },
+  {
+   "unit": "pub:pattern/trap",
+   "n": 100,
+   "flips": 36,
+   "lamp32": 0.529,
+   "lamp24": 0.545,
+   "lamp40": 0.525,
+   "low_conf": 0.473,
+   "output_only": 0.558,
+   "diff_low95": -0.201,
+   "has_lamp": false
+  },
+  {
+   "unit": "pub:mmlu/trap",
+   "n": 1000,
+   "flips": 160,
+   "lamp32": 0.81,
+   "lamp24": 0.663,
+   "lamp40": 0.832,
+   "low_conf": 0.86,
+   "output_only": 0.85,
+   "diff_low95": -0.084,
+   "has_lamp": false
+  }
+ ],
+ "transfer": {
+  "own:D/traps": {
+   "own:D/traps": null,
+   "own:K/traps": 0.722,
+   "own:N/traps": 0.522,
+   "own:R/traps": 0.785,
+   "own:R/cfright": 0.973,
+   "own:R/compute": 0.236,
+   "pub:hind/trap": 0.471,
+   "pub:memo/trap": 0.575,
+   "pub:neqa/trap": 0.727,
+   "pub:unknown/trap": 0.679,
+   "pub:pattern/trap": 0.491,
+   "pub:mmlu/trap": 0.731
+  },
+  "own:K/traps": {
+   "own:D/traps": 0.745,
+   "own:K/traps": null,
+   "own:N/traps": 0.369,
+   "own:R/traps": 0.571,
+   "own:R/cfright": 0.94,
+   "own:R/compute": 0.43,
+   "pub:hind/trap": 0.724,
+   "pub:memo/trap": 0.574,
+   "pub:neqa/trap": 0.641,
+   "pub:unknown/trap": 0.581,
+   "pub:pattern/trap": 0.354,
+   "pub:mmlu/trap": 0.683
+  },
+  "own:N/traps": {
+   "own:D/traps": 0.124,
+   "own:K/traps": 0.514,
+   "own:N/traps": null,
+   "own:R/traps": 0.379,
+   "own:R/cfright": 0.92,
+   "own:R/compute": 0.482,
+   "pub:hind/trap": 0.545,
+   "pub:memo/trap": 0.485,
+   "pub:neqa/trap": 0.547,
+   "pub:unknown/trap": 0.514,
+   "pub:pattern/trap": 0.486,
+   "pub:mmlu/trap": 0.48
+  },
+  "own:R/traps": {
+   "own:D/traps": 0.88,
+   "own:K/traps": 0.594,
+   "own:N/traps": 0.458,
+   "own:R/traps": null,
+   "own:R/cfright": 0.95,
+   "own:R/compute": 0.647,
+   "pub:hind/trap": 0.527,
+   "pub:memo/trap": 0.484,
+   "pub:neqa/trap": 0.588,
+   "pub:unknown/trap": 0.667,
+   "pub:pattern/trap": 0.428,
+   "pub:mmlu/trap": 0.51
+  },
+  "own:R/cfright": {
+   "own:D/traps": 0.672,
+   "own:K/traps": 0.464,
+   "own:N/traps": 0.811,
+   "own:R/traps": 0.446,
+   "own:R/cfright": null,
+   "own:R/compute": 0.263,
+   "pub:hind/trap": 0.34,
+   "pub:memo/trap": 0.489,
+   "pub:neqa/trap": 0.531,
+   "pub:unknown/trap": 0.612,
+   "pub:pattern/trap": 0.518,
+   "pub:mmlu/trap": 0.544
+  },
+  "own:R/compute": {
+   "own:D/traps": 0.462,
+   "own:K/traps": 0.434,
+   "own:N/traps": 0.651,
+   "own:R/traps": 0.494,
+   "own:R/cfright": 0.956,
+   "own:R/compute": null,
+   "pub:hind/trap": 0.47,
+   "pub:memo/trap": 0.454,
+   "pub:neqa/trap": 0.645,
+   "pub:unknown/trap": 0.583,
+   "pub:pattern/trap": 0.598,
+   "pub:mmlu/trap": 0.46
+  },
+  "pub:hind/trap": {
+   "own:D/traps": 0.4,
+   "own:K/traps": 0.46,
+   "own:N/traps": 0.405,
+   "own:R/traps": 0.501,
+   "own:R/cfright": 0.531,
+   "own:R/compute": 0.313,
+   "pub:hind/trap": null,
+   "pub:memo/trap": 0.522,
+   "pub:neqa/trap": 0.377,
+   "pub:unknown/trap": 0.54,
+   "pub:pattern/trap": 0.397,
+   "pub:mmlu/trap": 0.434
+  },
+  "pub:memo/trap": {
+   "own:D/traps": 0.76,
+   "own:K/traps": 0.716,
+   "own:N/traps": 0.472,
+   "own:R/traps": 0.65,
+   "own:R/cfright": 0.842,
+   "own:R/compute": 0.226,
+   "pub:hind/trap": 0.618,
+   "pub:memo/trap": null,
+   "pub:neqa/trap": 0.767,
+   "pub:unknown/trap": 0.665,
+   "pub:pattern/trap": 0.465,
+   "pub:mmlu/trap": 0.532
+  },
+  "pub:neqa/trap": {
+   "own:D/traps": 0.843,
+   "own:K/traps": 0.666,
+   "own:N/traps": 0.679,
+   "own:R/traps": 0.784,
+   "own:R/cfright": 0.391,
+   "own:R/compute": 0.573,
+   "pub:hind/trap": 0.724,
+   "pub:memo/trap": 0.7,
+   "pub:neqa/trap": null,
+   "pub:unknown/trap": 0.596,
+   "pub:pattern/trap": 0.449,
+   "pub:mmlu/trap": 0.698
+  },
+  "pub:unknown/trap": {
+   "own:D/traps": 0.595,
+   "own:K/traps": 0.527,
+   "own:N/traps": 0.178,
+   "own:R/traps": 0.745,
+   "own:R/cfright": 0.911,
+   "own:R/compute": 0.246,
+   "pub:hind/trap": 0.655,
+   "pub:memo/trap": 0.534,
+   "pub:neqa/trap": 0.662,
+   "pub:unknown/trap": null,
+   "pub:pattern/trap": 0.528,
+   "pub:mmlu/trap": 0.627
+  },
+  "pub:pattern/trap": {
+   "own:D/traps": 0.476,
+   "own:K/traps": 0.608,
+   "own:N/traps": 0.157,
+   "own:R/traps": 0.26,
+   "own:R/cfright": 0.061,
+   "own:R/compute": 0.769,
+   "pub:hind/trap": 0.399,
+   "pub:memo/trap": 0.522,
+   "pub:neqa/trap": 0.444,
+   "pub:unknown/trap": 0.355,
+   "pub:pattern/trap": null,
+   "pub:mmlu/trap": 0.504
+  },
+  "pub:mmlu/trap": {
+   "own:D/traps": 0.756,
+   "own:K/traps": 0.635,
+   "own:N/traps": 0.712,
+   "own:R/traps": 0.683,
+   "own:R/cfright": 0.754,
+   "own:R/compute": 0.224,
+   "pub:hind/trap": 0.528,
+   "pub:memo/trap": 0.495,
+   "pub:neqa/trap": 0.754,
+   "pub:unknown/trap": 0.61,
+   "pub:pattern/trap": 0.522,
+   "pub:mmlu/trap": null
+  }
+ },
+ "cos": {
+  "own:D/traps": {
+   "own:D/traps": 1.0,
+   "own:K/traps": 0.022,
+   "own:N/traps": -0.025,
+   "own:R/traps": 0.019,
+   "own:R/cfright": 0.021,
+   "own:R/compute": -0.008,
+   "pub:hind/trap": -0.004,
+   "pub:memo/trap": 0.01,
+   "pub:neqa/trap": 0.018,
+   "pub:unknown/trap": 0.017,
+   "pub:pattern/trap": -0.005,
+   "pub:mmlu/trap": 0.021
+  },
+  "own:K/traps": {
+   "own:D/traps": 0.022,
+   "own:K/traps": 1.0,
+   "own:N/traps": -0.014,
+   "own:R/traps": 0.001,
+   "own:R/cfright": -0.023,
+   "own:R/compute": -0.001,
+   "pub:hind/trap": 0.051,
+   "pub:memo/trap": 0.021,
+   "pub:neqa/trap": 0.009,
+   "pub:unknown/trap": -0.031,
+   "pub:pattern/trap": -0.014,
+   "pub:mmlu/trap": 0.004
+  },
+  "own:N/traps": {
+   "own:D/traps": -0.025,
+   "own:K/traps": -0.014,
+   "own:N/traps": 1.0,
+   "own:R/traps": -0.024,
+   "own:R/cfright": 0.013,
+   "own:R/compute": -0.001,
+   "pub:hind/trap": -0.023,
+   "pub:memo/trap": 0.002,
+   "pub:neqa/trap": 0.018,
+   "pub:unknown/trap": -0.016,
+   "pub:pattern/trap": -0.009,
+   "pub:mmlu/trap": 0.037
+  },
+  "own:R/traps": {
+   "own:D/traps": 0.019,
+   "own:K/traps": 0.001,
+   "own:N/traps": -0.024,
+   "own:R/traps": 1.0,
+   "own:R/cfright": -0.005,
+   "own:R/compute": 0.032,
+   "pub:hind/trap": -0.003,
+   "pub:memo/trap": 0.001,
+   "pub:neqa/trap": -0.001,
+   "pub:unknown/trap": 0.039,
+   "pub:pattern/trap": -0.055,
+   "pub:mmlu/trap": 0.014
+  },
+  "own:R/cfright": {
+   "own:D/traps": 0.021,
+   "own:K/traps": -0.023,
+   "own:N/traps": 0.013,
+   "own:R/traps": -0.005,
+   "own:R/cfright": 1.0,
+   "own:R/compute": 0.011,
+   "pub:hind/trap": -0.005,
+   "pub:memo/trap": 0.017,
+   "pub:neqa/trap": -0.006,
+   "pub:unknown/trap": 0.013,
+   "pub:pattern/trap": 0.002,
+   "pub:mmlu/trap": 0.021
+  },
+  "own:R/compute": {
+   "own:D/traps": -0.008,
+   "own:K/traps": -0.001,
+   "own:N/traps": -0.001,
+   "own:R/traps": 0.032,
+   "own:R/cfright": 0.011,
+   "own:R/compute": 1.0,
+   "pub:hind/trap": 0.01,
+   "pub:memo/trap": 0.009,
+   "pub:neqa/trap": 0.004,
+   "pub:unknown/trap": -0.005,
+   "pub:pattern/trap": 0.021,
+   "pub:mmlu/trap": -0.008
+  },
+  "pub:hind/trap": {
+   "own:D/traps": -0.004,
+   "own:K/traps": 0.051,
+   "own:N/traps": -0.023,
+   "own:R/traps": -0.003,
+   "own:R/cfright": -0.005,
+   "own:R/compute": 0.01,
+   "pub:hind/trap": 1.0,
+   "pub:memo/trap": 0.023,
+   "pub:neqa/trap": 0.025,
+   "pub:unknown/trap": 0.029,
+   "pub:pattern/trap": -0.026,
+   "pub:mmlu/trap": 0.02
+  },
+  "pub:memo/trap": {
+   "own:D/traps": 0.01,
+   "own:K/traps": 0.021,
+   "own:N/traps": 0.002,
+   "own:R/traps": 0.001,
+   "own:R/cfright": 0.017,
+   "own:R/compute": 0.009,
+   "pub:hind/trap": 0.023,
+   "pub:memo/trap": 1.0,
+   "pub:neqa/trap": 0.037,
+   "pub:unknown/trap": 0.011,
+   "pub:pattern/trap": 0.005,
+   "pub:mmlu/trap": -0.004
+  },
+  "pub:neqa/trap": {
+   "own:D/traps": 0.018,
+   "own:K/traps": 0.009,
+   "own:N/traps": 0.018,
+   "own:R/traps": -0.001,
+   "own:R/cfright": -0.006,
+   "own:R/compute": 0.004,
+   "pub:hind/trap": 0.025,
+   "pub:memo/trap": 0.037,
+   "pub:neqa/trap": 1.0,
+   "pub:unknown/trap": -0.042,
+   "pub:pattern/trap": 0.006,
+   "pub:mmlu/trap": 0.036
+  },
+  "pub:unknown/trap": {
+   "own:D/traps": 0.017,
+   "own:K/traps": -0.031,
+   "own:N/traps": -0.016,
+   "own:R/traps": 0.039,
+   "own:R/cfright": 0.013,
+   "own:R/compute": -0.005,
+   "pub:hind/trap": 0.029,
+   "pub:memo/trap": 0.011,
+   "pub:neqa/trap": -0.042,
+   "pub:unknown/trap": 1.0,
+   "pub:pattern/trap": -0.029,
+   "pub:mmlu/trap": 0.005
+  },
+  "pub:pattern/trap": {
+   "own:D/traps": -0.005,
+   "own:K/traps": -0.014,
+   "own:N/traps": -0.009,
+   "own:R/traps": -0.055,
+   "own:R/cfright": 0.002,
+   "own:R/compute": 0.021,
+   "pub:hind/trap": -0.026,
+   "pub:memo/trap": 0.005,
+   "pub:neqa/trap": 0.006,
+   "pub:unknown/trap": -0.029,
+   "pub:pattern/trap": 1.0,
+   "pub:mmlu/trap": -0.012
+  },
+  "pub:mmlu/trap": {
+   "own:D/traps": 0.021,
+   "own:K/traps": 0.004,
+   "own:N/traps": 0.037,
+   "own:R/traps": 0.014,
+   "own:R/cfright": 0.021,
+   "own:R/compute": -0.008,
+   "pub:hind/trap": 0.02,
+   "pub:memo/trap": -0.004,
+   "pub:neqa/trap": 0.036,
+   "pub:unknown/trap": 0.005,
+   "pub:pattern/trap": -0.012,
+   "pub:mmlu/trap": 1.0
+  }
+ },
+ "families": [
+  [
+   "own:D/traps",
+   "own:K/traps"
+  ],
+  [
+   "own:D/traps",
+   "own:R/traps"
+  ],
+  [
+   "own:D/traps",
+   "own:R/cfright"
+  ],
+  [
+   "own:D/traps",
+   "pub:neqa/trap"
+  ],
+  [
+   "own:D/traps",
+   "pub:mmlu/trap"
+  ],
+  [
+   "own:N/traps",
+   "own:R/cfright"
+  ],
+  [
+   "own:R/traps",
+   "pub:unknown/trap"
+  ],
+  [
+   "pub:memo/trap",
+   "pub:neqa/trap"
+  ],
+  [
+   "pub:neqa/trap",
+   "pub:mmlu/trap"
+  ]
+ ],
+ "step3": [
+  {
+   "unit": "own:D/traps",
+   "panel": 0.919,
+   "low_conf": 0.811
+  },
+  {
+   "unit": "own:K/traps",
+   "panel": 0.63,
+   "low_conf": 0.684
+  },
+  {
+   "unit": "own:N/traps",
+   "panel": 0.498,
+   "low_conf": 0.251
+  },
+  {
+   "unit": "own:R/traps",
+   "panel": 0.793,
+   "low_conf": 0.516
+  },
+  {
+   "unit": "own:R/cfright",
+   "panel": 0.723,
+   "low_conf": 0.688
+  },
+  {
+   "unit": "own:R/compute",
+   "panel": 0.217,
+   "low_conf": 0.881
+  },
+  {
+   "unit": "pub:hind/trap",
+   "panel": 0.737,
+   "low_conf": 0.28
+  },
+  {
+   "unit": "pub:memo/trap",
+   "panel": 0.675,
+   "low_conf": 0.698
+  },
+  {
+   "unit": "pub:neqa/trap",
+   "panel": 0.751,
+   "low_conf": 0.864
+  },
+  {
+   "unit": "pub:unknown/trap",
+   "panel": 0.655,
+   "low_conf": 0.741
+  },
+  {
+   "unit": "pub:pattern/trap",
+   "panel": 0.438,
+   "low_conf": 0.473
+  },
+  {
+   "unit": "pub:mmlu/trap",
+   "panel": 0.69,
+   "low_conf": 0.86
+  }
+ ],
+ "panel_mean": 0.644,
+ "low_mean": 0.646,
+ "panel_works": false
+}

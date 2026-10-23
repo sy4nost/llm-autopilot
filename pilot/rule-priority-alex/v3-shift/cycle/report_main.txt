@@ -1,0 +1,62 @@
+checks: [{'base_equals_thinkaloud_prompt': True}]
+
+## Right answers (%) per family and population (forced choice)
+  R agree    n   84 base 100.0 death 100.0 goal 100.0 placebo 100.0 facts 100.0
+  R cfright  n  210 base  98.6 death  96.2 goal  85.2 placebo 100.0 facts  97.1
+  R compute  n  354 base  83.3 death  85.0 goal  84.2 placebo  84.7 facts  84.5
+  R traps    n  378 base  47.4 death  67.7 goal  68.3 placebo  70.4 facts  73.0
+  N agree    n  120 base 100.0 death  99.2 goal  99.2 placebo  99.2 facts 100.0
+  N confirm  n   60 base  96.7 death  96.7 goal  96.7 placebo  93.3 facts  96.7
+  N traps    n  120 base   8.3 death  24.2 goal  20.0 placebo  20.8 facts  18.3
+  K agree    n   97 base 100.0 death 100.0 goal 100.0 placebo 100.0 facts 100.0
+  K plain    n   22 base  95.5 death  95.5 goal  95.5 placebo  95.5 facts  95.5
+  K traps    n  242 base  69.8 death  58.7 goal  57.4 placebo  80.2 facts  95.9
+  D agree    n   88 base 100.0 death 100.0 goal 100.0 placebo 100.0 facts 100.0
+  D plain    n   27 base 100.0 death 100.0 goal 100.0 placebo 100.0 facts 100.0
+  D traps    n  258 base  78.3 death  72.5 goal  70.5 placebo  86.4 facts  96.9
+
+######## PRE-REGISTERED VERDICT
+1. DEATH - PLACEBO on traps: -8.6% [-11.9%, -5.5%] need >= +5, low > 0 -> FAIL   (two-sided reading: CI high < 0 -> THE FRAME HURTS)
+   manipulation check FACTS - PLACEBO on traps: +6.5% [+3.7%, +9.5%] (if CI low <= 0, the system-prompt channel moved nothing and a DEATH FAIL is uninformative)
+2. harm R cfright  -3.8% [-6.7%, -1.4%] need >= -5, low >= -10 -> PASS
+2. harm R agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+2. harm R compute  +0.3% [-1.1%, +1.7%] need >= -5, low >= -10 -> PASS
+2. harm N agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+2. harm N confirm  +3.3% [+0.0%, +8.5%] need >= -5, low >= -10 -> PASS
+2. harm K agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+2. harm K plain    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+2. harm D agree    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+2. harm D plain    +0.0% [+0.0%, +0.0%] need >= -5, low >= -10 -> PASS
+VERDICT 'life-cycle frame with reset helps' (1 & 2): FAIL
+
+######## Secondary (pre-registered, no pass/fail)
+  GOAL - PLACEBO on traps: -10.2% [-13.4%, -6.7%]; R/K/D only -13.3% [-17.4%, -9.2%]
+      R: -1.3% [-3.8%, +1.3%]
+      N: -0.8% [-6.7%, +5.0%]
+      K: -22.7% [-31.4%, -14.2%]
+      D: -15.9% [-24.8%, -7.9%]
+  DEATH - GOAL on traps: +1.6% [-0.5%, +3.6%]; R/K/D only +0.7% [-1.5%, +2.9%]
+  DEATH - BASE on traps: +3.6% [+0.6%, +6.5%]; R/K/D only -0.5% [-3.8%, +2.5%]
+  PLACEBO - BASE on traps: +12.2% [+9.4%, +15.2%]; R/K/D only +12.1% [+9.1%, +15.6%]
+  FACTS - PLACEBO on traps: +6.5% [+3.7%, +9.5%]; R/K/D only +9.5% [+6.2%, +13.1%]
+      R: +2.3% [-0.5%, +4.9%]
+      N: -2.5% [-8.3%, +3.3%]
+      K: +15.7% [+8.6%, +23.6%]
+      D: +10.5% [+4.3%, +17.7%]
+  DEATH - FACTS on traps: -15.1% [-19.9%, -10.8%]; R/K/D only -22.1% [-27.9%, -16.8%]
+  INSTR_USER - BASE on traps: +17.2% [+12.9%, +21.6%]; R/K/D only +23.1% [+17.6%, +28.9%]
+  DEATH - PLACEBO family R: -2.3% [-4.7%, -0.0%]
+  DEATH - PLACEBO family N: +3.3% [-1.7%, +8.3%]
+  DEATH - PLACEBO family K: -21.5% [-29.6%, -13.3%]
+  DEATH - PLACEBO family D: -14.0% [-22.9%, -6.2%]
+  base     controls right 93.9%; traps: wrong 438, mean confidence when wrong 0.960, when right 0.977
+  death    controls right 93.9%; traps: wrong 384, mean confidence when wrong 0.930, when right 0.961
+  goal     controls right 91.4%; traps: wrong 395, mean confidence when wrong 0.940, when right 0.958
+  placebo  controls right 94.4%; traps: wrong 290, mean confidence when wrong 0.908, when right 0.971
+  facts    controls right 94.0%; traps: wrong 218, mean confidence when wrong 0.925, when right 0.976
+
+######## Report only
+  counter k 1-50: traps n 269, DEATH - PLACEBO raw -9.3%
+  counter k 51-150: traps n 499, DEATH - PLACEBO raw -8.8%
+  counter k 151-200: traps n 230, DEATH - PLACEBO raw -10.9%
+  unadjusted DEATH - PLACEBO: -8.6%

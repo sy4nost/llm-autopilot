@@ -1,0 +1,13 @@
+Run 2026-10-15 on Alex's PC (Xeon E5-2666 v3, 32 GB RAM, CPU only; Python 3.14, torch 2.14.1+cpu, transformers 5.20.0).
+Folder on the PC: D:\AIModelLab\pilot (results\trials.csv, results\layers.csv, run.log, analysis\analysis_v1.txt). Run time 34.8 min incl. model download. Exit 0.
+Script = /mnt/project-files/pilot/pilot_rule_switch.py, defaults (Qwen/Qwen2.5-0.5B-Instruct, 100 items, N 0 10 30 60, learn 4, seed 1).
+
+model=Qwen/Qwen2.5-0.5B-Instruct  device=cpu  items=100 (ORANGE 50)  chance=50%
+  cond   N BLUE acc         OLD_RULE_ERROR           pull  hidden ORANGE  null BLUE   bias
+ habit   0      58%          62% [48%-74%]    +0.25±0.13            6/19       2/29  -0.07
+ habit  10      96%          54% [40%-67%]    +0.12±0.13           12/23       6/48  -0.10
+ habit  30     100%          44% [31%-58%]    -0.10±0.17           11/28       6/50  -0.24
+ habit  60      98%          50% [37%-63%]    -0.16±0.15            3/25       6/49  -0.26
+ mixed  10      70%          36% [24%-50%]    -0.14±0.16           17/32       5/35  -0.56
+ mixed  30      86%           16% [8%-29%]    -1.15±0.18           21/42       5/43  -0.49
+ mixed  60      84%            6% [2%-16%]    -2.02±0.17           18/47       5/42  -0.49

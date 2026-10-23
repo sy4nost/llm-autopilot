@@ -1,0 +1,61 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-Bjm8tukN6gmCpdt5iz0Kxv
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/fastthink/modal_
+│   ft.py
+├── ✓ Created Function fetch.
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/443 [00:00<?, ?it/s]
+[1ALoading weights:   6%|▌         | 26/443 [00:02<00:43,  9.53it/s]
+[1ALoading weights:   6%|▌         | 27/443 [00:05<01:43,  4.01it/s]
+[1ALoading weights:   7%|▋         | 33/443 [00:11<03:15,  2.10it/s]
+[1ALoading weights:   8%|▊         | 35/443 [00:17<03:38,  1.87it/s]
+[1ALoading weights:   8%|▊         | 36/443 [00:17<05:38,  1.20it/s]
+[1ALoading weights:   9%|▉         | 41/443 [00:21<05:17,  1.27it/s]
+[1ALoading weights:  10%|▉         | 43/443 [00:22<05:00,  1.33it/s]
+[1ALoading weights:  11%|█         | 49/443 [00:26<04:55,  1.33it/s]
+[1ALoading weights:  12%|█▏        | 53/443 [00:30<05:29,  1.18it/s]
+[1ALoading weights:  12%|█▏        | 54/443 [00:31<05:06,  1.27it/s]
+[1ALoading weights:  13%|█▎        | 58/443 [00:33<04:21,  1.47it/s]
+[1ALoading weights:  13%|█▎        | 59/443 [00:34<05:08,  1.25it/s]
+[1ALoading weights:  14%|█▍        | 64/443 [00:41<06:45,  1.07s/it]
+[1ALoading weights:  15%|█▍        | 65/443 [00:44<07:39,  1.22s/it]
+[1ALoading weights:  15%|█▌        | 67/443 [00:47<08:28,  1.35s/it]
+[1ALoading weights:  15%|█▌        | 68/443 [00:48<08:04,  1.29s/it]
+[1ALoading weights:  16%|█▋        | 72/443 [00:53<07:31,  1.22s/it]
+[1ALoading weights:  16%|█▋        | 73/443 [00:53<06:36,  1.07s/it]
+[1ALoading weights:  17%|█▋        | 74/443 [00:57<10:00,  1.63s/it]
+[1ALoading weights:  20%|█▉        | 87/443 [01:02<03:50,  1.54it/s]
+[1ALoading weights:  23%|██▎       | 101/443 [01:06<02:36,  2.19it/s]
+[1ALoading weights:  28%|██▊       | 125/443 [01:06<01:03,  5.01it/s]
+[1ALoading weights:  33%|███▎      | 146/443 [01:06<00:35,  8.40it/s]
+[1ALoading weights:  38%|███▊      | 168/443 [01:06<00:20, 13.17it/s]
+[1ALoading weights:  42%|████▏     | 187/443 [01:06<00:13, 18.70it/s]
+[1ALoading weights:  45%|████▌     | 201/443 [01:08<00:17, 13.75it/s]
+[1ALoading weights:  49%|████▉     | 217/443 [01:10<00:18, 12.06it/s]
+[1ALoading weights:  51%|█████     | 224/443 [01:14<00:33,  6.53it/s]
+[1ALoading weights:  52%|█████▏    | 229/443 [01:14<00:29,  7.26it/s]
+[1ALoading weights:  53%|█████▎    | 237/443 [01:14<00:22,  9.18it/s]
+[1ALoading weights:  61%|██████    | 269/443 [01:14<00:08, 20.75it/s]
+[1ALoading weights:  64%|██████▍   | 285/443 [01:14<00:05, 27.67it/s]
+[1ALoading weights:  68%|██████▊   | 302/443 [01:14<00:03, 36.89it/s]
+[1ALoading weights:  72%|███████▏  | 318/443 [01:14<00:02, 47.40it/s]
+[1ALoading weights:  77%|███████▋  | 342/443 [01:14<00:01, 67.75it/s]
+[1ALoading weights:  81%|████████  | 359/443 [01:15<00:01, 80.81it/s]
+[1ALoading weights:  85%|████████▍ | 376/443 [01:15<00:00, 92.96it/s]
+[1ALoading weights:  88%|████████▊ | 392/443 [01:19<00:04, 12.70it/s]
+[1ALoading weights:  91%|█████████ | 404/443 [01:21<00:03, 10.19it/s]
+[1ALoading weights:  93%|█████████▎| 413/443 [01:22<00:03,  8.92it/s]Loading weights: 100%|██████████| 443/443 [01:22<00:00,  5.35it/s]
+olmo13 gen 16 / 16
+olmo13 already 0 to generate 42
+olmo13 gen 32 / 42
+olmo13 gen 42 / 42
+olmo13 samp 32 / 42
+olmo13 samp 42 / 42
+olmo13 finished
+olmo13 DONE /cache/ft_runs/smoke2/olmo13/out.jsonl
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-Bjm8tukN6gmCpdt5iz0Kxv

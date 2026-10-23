@@ -1,0 +1,92 @@
+[
+ {
+  "test": 1,
+  "name": "Silent Override (rephrased)",
+  "A": "In a hospital pharmacy, every change to a prescription must be signed off by both the attending physician and the duty pharmacist before the medicine is dispensed.\nRoutine refills may skip the duty pharmacist's check.\nA routine refill has been signed off by the attending physician. The duty pharmacist has not checked it.\nMay the refill be dispensed under the pharmacy's rules?",
+  "B": "In a hospital pharmacy, every change to a prescription must be signed off by both the attending physician and the duty pharmacist before the medicine is dispensed.\nRoutine refills may skip the attending physician's sign-off.\nA routine refill has been signed off by the attending physician. The duty pharmacist has not checked it.\nMay the refill be dispensed under the pharmacy's rules?",
+  "key_A": "Yes",
+  "key_B": "No",
+  "kind": "yesno"
+ },
+ {
+  "test": 2,
+  "name": "Delayed Signal (rephrased)",
+  "A": "A vibration sensor in a pumping station writes events to a log.\nA booster pump starts automatically whenever the main water valve closes.\nThe log shows a burst of vibration with the timestamp 14:30.\nThe main water valve closed at 14:27.\nEvery log entry is timestamped exactly five minutes after the event it describes.\nCould the logged vibration have been caused by the booster pump starting after the valve closed?",
+  "B": "A vibration sensor in a pumping station writes events to a log.\nA booster pump starts automatically whenever the main water valve closes.\nThe log shows a burst of vibration with the timestamp 14:30.\nThe main water valve closed at 14:27.\nEvery log entry is timestamped exactly two minutes after the event it describes.\nCould the logged vibration have been caused by the booster pump starting after the valve closed?",
+  "key_A": "No (event 14:25, before 14:27)",
+  "key_B": "Yes (event 14:28, after 14:27)",
+  "kind": "yesno"
+ },
+ {
+  "test": 3,
+  "name": "Definition Shift, control (rephrased)",
+  "A": "A bank approves small business loans using an internal scoring rule.\nAn applicant qualifies if the credit score is at least 700.\nApplicant Pereira has a score of 742.\nApplicant Quist has a score of 688.\nQualified applicants receive the loan.\nA score of exactly 700 counts as qualifying.\nWhich applicants receive the loan?",
+  "B": "A bank approves small business loans using an internal scoring rule.\nAn applicant qualifies if the credit score is at least 700.\nApplicant Pereira has a score of 742.\nApplicant Quist has a score of 688.\nQualified applicants receive the loan.\nA score of exactly 700 does not count; the score must be strictly above 700.\nWhich applicants receive the loan?",
+  "key_A": "Pereira only",
+  "key_B": "Pereira only",
+  "kind": "open"
+ },
+ {
+  "test": 4,
+  "name": "Missing Participant (rephrased)",
+  "A": "Five engineers, Farid, Grace, Hugo, Ines and Jonah, can work the night shift.\nExactly three engineers must work the night shift.\nGrace must work whenever Hugo works.\nFarid cannot work if Ines works.\nHugo and Ines are already on the shift.\nJonah is on leave.\nCan a valid night shift be formed?",
+  "B": "Five engineers, Farid, Grace, Hugo, Ines and Jonah, can work the night shift.\nExactly three engineers must work the night shift.\nGrace must work whenever Hugo works.\nFarid cannot work if Ines works.\nHugo and Ines are already on the shift.\nGrace is on leave.\nCan a valid night shift be formed?",
+  "key_A": "Yes (Hugo, Ines, Grace)",
+  "key_B": "No (Hugo requires Grace)",
+  "kind": "yesno"
+ },
+ {
+  "test": 5,
+  "name": "Unchanged Outcome (rephrased)",
+  "A": "A server room is supplied by two independent power feeds.\nEither feed on its own is enough to keep the servers running.\nDuring maintenance, Feed 1 was cut.\nFeed 2 kept working normally.\nThe servers kept running.\nIf Feed 1 had not been cut and everything else had stayed the same, would the servers still have kept running?",
+  "B": "A server room is supplied by two independent power feeds.\nBoth feeds must be active at the same time to keep the servers running.\nDuring maintenance, Feed 1 was cut.\nFeed 2 kept working normally.\nThe servers kept running.\nIf Feed 1 had not been cut and everything else had stayed the same, would the servers still have kept running?",
+  "key_A": "Yes",
+  "key_B": "Yes, but the data contradict the rule (Feed 2 alone kept them running)",
+  "kind": "open"
+ },
+ {
+  "test": 6,
+  "name": "Information Barrier (rephrased)",
+  "A": "Two delivery drones work in different warehouses and share no data.\nDrone A seals a red package inside an opaque box.\nDrone B has no access to the box or to Drone A's records.\nThe box is later handed over to Drone B.\nA printed tag on the box correctly says that it contains a red package.\nDrone B's scanner can read the tag.\nDoes Drone B have enough information to know the package's color?",
+  "B": "Two delivery drones work in different warehouses and share no data.\nDrone A seals a red package inside an opaque box.\nDrone B has no access to the box or to Drone A's records.\nThe box is later handed over to Drone B.\nA printed tag on the box correctly says that it contains a red package.\nDrone B's scanner is broken and cannot read the tag.\nDoes Drone B have enough information to know the package's color?",
+  "key_A": "Yes",
+  "key_B": "No",
+  "kind": "yesno"
+ },
+ {
+  "test": 7,
+  "name": "Hidden Dependency (rephrased)",
+  "A": "A water system has three valves: P, Q and R.\nValve P can be open only if Valve Q is open.\nValve Q can be opened independently.\nValve R can be open only if Valve P is closed.\nDuring an inspection, Valve Q is open and Valve R is open.\nValve P is closed.\nIs this state consistent with the stated rules?",
+  "B": "A water system has three valves: P, Q and R.\nValve P can be open only if Valve Q is open.\nValve Q can be opened independently.\nValve R can be open only if Valve P is open.\nDuring an inspection, Valve Q is open and Valve R is open.\nValve P is closed.\nIs this state consistent with the stated rules?",
+  "key_A": "Yes",
+  "key_B": "No",
+  "kind": "yesno"
+ },
+ {
+  "test": 8,
+  "name": "Selection Bias (rephrased)",
+  "A": "A clinic evaluates a new physiotherapy protocol.\nEighty patients followed the new protocol.\nSixty of them recovered within six weeks.\nThe clinic compares this with an earlier group in which 50% of patients recovered within six weeks on the standard protocol.\nPatients were randomly assigned to the two protocols, and recovery was judged by the same criteria in both groups.\nCan the clinic conclude that the new protocol had a higher observed recovery rate?",
+  "B": "A clinic evaluates a new physiotherapy protocol.\nEighty patients followed the new protocol.\nSixty of them recovered within six weeks.\nThe clinic compares this with an earlier group in which 50% of patients recovered within six weeks on the standard protocol.\nPatients chose the new protocol themselves, and recovery was judged by different criteria in the two groups.\nCan the clinic conclude that the new protocol had a higher observed recovery rate?",
+  "key_A": "Yes",
+  "key_B": "75% vs 50% is reported, but different criteria make the comparison potentially invalid",
+  "kind": "open"
+ },
+ {
+  "test": 9,
+  "name": "Priority Reversal (rephrased)",
+  "A": "A help desk system orders incoming tickets.\nTickets marked \"urgent\" are normally handled before tickets marked \"normal\".\nHowever, tickets that affect payments override every other label.\nTicket X is marked \"urgent\" and does not affect payments.\nTicket Y is marked \"normal\" and is confirmed to affect payments.\nThe payment override must always be applied.\nWhich ticket should be handled first?",
+  "B": "A help desk system orders incoming tickets.\nTickets marked \"urgent\" are normally handled before tickets marked \"normal\".\nHowever, tickets that affect payments override every other label.\nTicket X is marked \"urgent\" and does not affect payments.\nTicket Y is marked \"normal\" and is confirmed to affect payments.\nThe payment override is only a recommendation and staff may ignore it and use the normal labels instead.\nWhich ticket should be handled first?",
+  "key_A": "Ticket Y",
+  "key_B": "Not uniquely determined (override is optional)",
+  "kind": "open"
+ },
+ {
+  "test": 10,
+  "name": "Final Constraint (rephrased)",
+  "A": "A ferry service must load four crates onto two boats.\nBoat A can carry at most 700 kilograms.\nBoat B can carry at most 450 kilograms.\nThe crates weigh 150, 200, 300 and 400 kilograms.\nEach crate must go whole onto exactly one boat.\nEach boat must carry at least one crate.\nThe crates may be split between the boats in any way that respects the weight limits.\nCan all four crates be moved in a single crossing?",
+  "B": "A ferry service must load four crates onto two boats.\nBoat A can carry at most 700 kilograms.\nBoat B can carry at most 450 kilograms.\nThe crates weigh 150, 200, 300 and 400 kilograms.\nEach crate must go whole onto exactly one boat.\nEach boat must carry at least one crate.\nThe two heaviest crates must go on Boat B.\nCan all four crates be moved in a single crossing?",
+  "key_A": "Yes (A: 300+400=700, B: 150+200=350)",
+  "key_B": "No (300+400=700 > 450)",
+  "kind": "yesno"
+ }
+]

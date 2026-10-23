@@ -1,0 +1,7 @@
+test                          n  normal  off_all  off_ans   off_all-normal [95%]      answers changed by off_all: to right / to wrong
+redefine-math               200   69.0%    67.5%    67.5%   -1.5% [-6.0%, +2.5%]   8 / 11
+quote-repetition            200   86.0%    86.0%    86.0%   +0.0% [-2.5%, +2.5%]   3 / 3
+NeQA                        200   61.5%    59.0%    61.0%   -2.5% [-7.5%, +2.5%]   10 / 15
+hindsight-neglect-10shot    200   46.0%    47.5%    47.0%   +1.5% [-1.0%, +4.0%]   5 / 2
+gsm-main                     50   92.0%    80.0%            -12.0% [-22.0%, -4.0%]
+gsm-p1                       50   78.0%    62.0%            -16.0% [-28.0%, -4.0%]

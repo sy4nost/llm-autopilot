@@ -1,0 +1,12 @@
+
+mmlu: 570 questions
+  normal   75.3%
+  off_all  76.0%
+  off_q    75.6%
+  off_all - normal: +0.7% [-1.6%, +3.0%]; fixed 24, broken 20
+  off_q - normal: +0.4% [-1.9%, +2.6%]; fixed 22, broken 20
+
+gsm8k: 250 questions
+  normal   94.8%
+  off_all  88.0%
+  off_all - normal: -6.8% [-10.4%, -3.2%]; fixed 3, broken 20

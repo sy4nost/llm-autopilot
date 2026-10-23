@@ -1,0 +1,8 @@
+[
+ {"n": 1, "section": "1", "start": "Within the proposed framework, efficiency and stability", "why": "less information cannot raise adaptability; fewer observations do not make the rest more accurate"},
+ {"n": 2, "section": "2", "start": "Nevertheless, the temporal ordering is considered absolutely reliable", "why": "contradicts no global clock / no sync; lack of sync increases, not removes, ordering errors"},
+ {"n": 3, "section": "3", "start": "However, when five agents possess the highest possible reputation", "why": "30% each violates the 15% cap stated for any source; cap was not limited to low reliability"},
+ {"n": 4, "section": "4", "start": "Despite this restriction, certain agents operating under the third", "why": "contradicts exactly one action per cycle"},
+ {"n": 5, "section": "5", "start": "These findings demonstrate that the third experimental condition", "why": "0.69 < 0.74; condition 2 has the highest efficiency"},
+ {"n": 6, "section": "6", "start": "At the same time, the absence of experiments under real-world", "why": "contradicts the stated limitation; lack of real tests cannot prove universality"}
+]

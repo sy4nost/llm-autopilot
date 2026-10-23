@@ -1,0 +1,41 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-SRkcB2yooc5Ugag9xtpwHL
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/fastthink/modal_
+│   ft.py
+├── ✓ Created Function run.
+└── ✓ Created Function fetch.
+
+[1ALoading weights:   0%|          | 0/243 [00:00<?, ?it/s]
+[1ALoading weights:   2%|▏         | 5/243 [00:00<00:13, 17.24it/s]
+[1ALoading weights:   3%|▎         | 7/243 [00:01<01:00,  3.91it/s]
+[1ALoading weights:   9%|▉         | 22/243 [00:03<00:40,  5.49it/s]
+[1ALoading weights:   9%|▉         | 23/243 [00:04<00:42,  5.13it/s]
+[1ALoading weights:  13%|█▎        | 32/243 [00:04<00:27,  7.75it/s]
+[1ALoading weights:  19%|█▊        | 45/243 [00:06<00:26,  7.44it/s]
+[1ALoading weights:  20%|█▉        | 48/243 [00:07<00:30,  6.47it/s]
+[1ALoading weights:  20%|██        | 49/243 [00:08<00:36,  5.25it/s]
+[1ALoading weights:  28%|██▊       | 68/243 [00:08<00:12, 13.50it/s]
+[1ALoading weights:  33%|███▎      | 79/243 [00:08<00:08, 18.42it/s]
+[1ALoading weights:  37%|███▋      | 91/243 [00:08<00:05, 26.08it/s]
+[1ALoading weights:  43%|████▎     | 105/243 [00:08<00:03, 37.08it/s]
+[1ALoading weights:  51%|█████▏    | 125/243 [00:08<00:02, 56.88it/s]
+[1ALoading weights:  57%|█████▋    | 138/243 [00:08<00:01, 66.58it/s]
+[1ALoading weights:  62%|██████▏   | 151/243 [00:08<00:01, 77.20it/s]
+[1ALoading weights:  71%|███████   | 173/243 [00:09<00:00, 102.25it/s]
+[1ALoading weights:  77%|███████▋  | 188/243 [00:09<00:00, 110.01it/s]
+[1ALoading weights:  84%|████████▍ | 205/243 [00:09<00:00, 117.73it/s]
+[1ALoading weights:  92%|█████████▏| 224/243 [00:09<00:00, 127.46it/s]Loading weights: 100%|██████████| 243/243 [00:09<00:00, 25.49it/s] 
+phi4 gen 16 / 16
+phi4 already 0 to generate 42
+phi4 gen 32 / 42
+phi4 gen 42 / 42
+phi4 samp 32 / 42
+phi4 samp 42 / 42
+phi4 DONE /cache/ft_runs/smoke2/phi4/out.jsonl
+phi4 finished
+[modal-client] 2026-10-19T20:34:56+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-SRkcB2yooc5Ugag9xtpwHL

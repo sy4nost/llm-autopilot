@@ -1,0 +1,6 @@
+run_v2.py, started 2026-10-16 02:44, finished 2026-10-16 02:46
+model=Qwen/Qwen2.5-3B-Instruct device=cuda dtype=float32 python=3.12.10 torch=2.14.1+cu130 transformers=5.20.0 threads=1
+items=512 learn=16 N=0 seed=1 cache=on layers=36 window=18..23
+time: 2 min total, 0.28 s per item-condition (512 item-conditions, 512 prompts)
+cache fallbacks (full forward because tokenization was not prefix + test): 0 of 512
+check-cache: 4 prompts, max abs diff 7.72e-05 OK

@@ -1,0 +1,27 @@
+checks: prompts with nothing flagged 585 | max diff there 0.0 (must be 0)
+
+hindsight: n=315  lamp on 94%  examples flagged 26%
+  normal     right 45.4%
+  watch_b40  right 50.2%
+  watch_all  right 47.0%
+  watch_b40 - normal: +4.8% [+2.2%, +7.6%]
+  watch_all - normal: +1.6% [-2.5%, +5.7%]
+
+algebra: n=1000  lamp on 58%  examples flagged 16%
+  normal     right 98.1%
+  watch_b40  right 98.5%
+  watch_all  right 93.7%
+  watch_b40 - normal: +0.4% [+0.0%, +0.9%]
+  watch_all - normal: -4.4% [-5.9%, -3.0%]
+
+mmlu: n=500  lamp on 70%  examples flagged 21%
+  normal     right 71.6%
+  watch_b40  right 72.2%
+  watch_all  right 70.2%
+  watch_b40 - normal: +0.6% [-0.2%, +1.6%]
+  watch_all - normal: -1.4% [-3.8%, +1.0%]
+
+PRE-REGISTERED (watch_b40):
+  no harm on MMLU: +0.6% need >= -2.0% -> PASS
+  hindsight: independent gain SHOWN (+4.8% [+2.2%, +7.6%]); harm none
+  algebra: independent gain NOT SHOWN (+0.4% [+0.0%, +0.9%]); harm none

@@ -1,0 +1,36 @@
+checks: 0.0 (w1 vs normal, must be 0)
+A60 w0 vs blockex2 b40: 60 prompts, max diff 0.000, same pick 60/60
+
+RIGHT answers
+group                    n  normal      w1    w0.3    w0.1   w0.03      w0
+A60 D1+D3 (trap)        30     10%     10%     10%     13%     13%     27%
+A60 D2+D4               30     90%     90%     97%    100%    100%    100%
+E_copy D1+D3            30     70%     70%     87%     90%     93%     93%
+E_copy D2+D4            30    100%    100%    100%    100%    100%    100%
+E_nocopy D1+D3          30      7%      7%     10%     17%     20%     23%
+E_nocopy D2+D4          30     87%     87%     93%     93%     93%     93%
+N_same (no change)      60    100%    100%    100%    100%    100%    100%
+
+OLD-rule answers (only where old != key)
+A60 D1+D3 (trap)        30     90%     90%     90%     87%     83%     63%
+A60 D2+D4               30     10%     10%      3%      0%      0%      0%
+E_copy D1+D3            30     30%     30%     13%     10%      7%      7%
+E_copy D2+D4            30      0%      0%      0%      0%      0%      0%
+E_nocopy D1+D3          30     93%     93%     90%     80%     73%     67%
+E_nocopy D2+D4          30     13%     13%      7%      7%      7%      7%
+
+formula vs normal, right answers, paired bootstrap over sets (95%)
+  w0.1  A60 D1+D3 (trap)       +3% [+0%, +10%]
+  w0.1  A60 D2+D4              +10% [+0%, +20%]
+  w0.1  E_copy D1+D3           +20% [+7%, +37%]
+  w0.1  E_copy D2+D4           +0% [+0%, +0%]
+  w0.1  E_nocopy D1+D3         +10% [+0%, +20%]
+  w0.1  E_nocopy D2+D4         +7% [+0%, +17%]
+  w0.1  N_same (no change)     +0% [+0%, +0%]
+  w0    A60 D1+D3 (trap)       +17% [+7%, +30%]
+  w0    A60 D2+D4              +10% [+0%, +20%]
+  w0    E_copy D1+D3           +23% [+10%, +40%]
+  w0    E_copy D2+D4           +0% [+0%, +0%]
+  w0    E_nocopy D1+D3         +17% [+7%, +30%]
+  w0    E_nocopy D2+D4         +7% [+0%, +17%]
+  w0    N_same (no change)     +0% [+0%, +0%]

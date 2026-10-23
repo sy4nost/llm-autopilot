@@ -1,0 +1,15 @@
+habit errors: train 67/270, held-out 55/270
+all features   held-out AUC 0.91
+  only final        AUC 0.52
+  only off          AUC 0.86
+  only push         AUC 0.63
+  only off_agrees   AUC 0.74
+  only push_agrees  AUC 0.57
+  only lens20       AUC 0.55
+  only lens24       AUC 0.54
+  only lens28       AUC 0.50
+  only lens29       AUC 0.56
+  chg D1+D3 (trap)   lamp on  36%  right: normal  52% -> lamp+brake  61%
+  chg D2+D4          lamp on  11%  right: normal  80% -> lamp+brake  91%
+  nochange           lamp on   8%  right: normal  57% -> lamp+brake  57%
+  all                right: normal 63% -> lamp+brake 70%

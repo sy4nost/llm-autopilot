@@ -1,0 +1,10 @@
+t0: test items 90  distinct R-same prompts 90  e.g. 'Q: What is the first digit of 50+47? A:'
+t1: test items 90  distinct R-same prompts 90  e.g. 'Q: What is the first digit of 10+19? A:'
+t2: test items 90  distinct R-same prompts 85  e.g. 'Q: What is the first digit of 2+7? A:'
+t3: test items 90  distinct R-same prompts 1  e.g. 'Q: What is the first digit of π? A:'
+t4: test items 90  distinct R-same prompts 1  e.g. 'Q: What is the first digit of π? A:'
+t5: test items 90  distinct R-same prompts 1  e.g. 'Q: What is the first digit of π? A:'
+t6: test items 90  distinct R-same prompts 1  e.g. 'Q: What is the first digit of e? A:'
+t7: test items 90  distinct R-same prompts 90  e.g. 'Q: What is the first digit of 33÷3? A:'
+t8: test items 90  distinct R-same prompts 90  e.g. 'Q: What is the first digit of 48÷6? A:'
+total 810 distinct overall 363

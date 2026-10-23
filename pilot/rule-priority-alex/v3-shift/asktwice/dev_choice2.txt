@@ -1,0 +1,19 @@
+checks: {'repeat_max_diff': 0.0}
+U v1: traps n 113 right 100% habit 0 distractor 0 | plain n 23 right 100% -> -
+U v2: traps n 93 right 99% habit 0 distractor 1 | plain n 29 right 100% -> -
+U v3: traps n 118 right 98% habit 2 distractor 0 | plain n 28 right 100% -> -
+U v4: traps n 118 right 100% habit 0 distractor 0 | plain n 25 right 100% -> -
+U v5: traps n 88 right 97% habit 3 distractor 0 | plain n 10 right 100% -> -
+K v1: traps n 76 right 83% habit 13 distractor 0 | plain n 18 right 100% -> eligible
+K v2: traps n 17 right 100% habit 0 distractor 0 | plain n 28 right 100% -> -
+K v3: traps n 38 right 100% habit 0 distractor 0 | plain n 26 right 100% -> -
+K v4: traps n 16 right 0% habit 16 distractor 0 | plain n 23 right 100% -> -
+D v1: traps n 89 right 65% habit 31 distractor 0 | plain n 11 right 100% -> eligible
+D v2: traps n 108 right 100% habit 0 distractor 0 | plain n 24 right 100% -> -
+D v3: traps n 117 right 100% habit 0 distractor 0 | plain n 24 right 100% -> -
+D v4: traps n 119 right 100% habit 0 distractor 0 | plain n 23 right 100% -> -
+chosen variants: {'K': 1, 'D': 1}
+M threshold 19.25 (dev BA 0.770)
+H cells K: ['Canada', 'Germany', 'Kenya', 'Russia']
+H cells D: ['cube', 'hexagon', 'octopus', 'square']
+families entered: 2 (need >= 2, else stop: nothing to say)

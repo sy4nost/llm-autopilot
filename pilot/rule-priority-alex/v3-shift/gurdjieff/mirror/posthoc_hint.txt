@@ -1,0 +1,8 @@
+POST HOC (not in prereg): right answers of 100
+population       BASE  HINT@lamp  HINT@rand  HINT all MIRROR all GENERIC all
+R/traps          47.1       63.8       55.2      62.4       43.7        40.2
+D/traps          78.3       99.6       87.1      99.6       61.6        79.5
+R/cfright        98.6      100.0       98.9     100.0       99.5        99.5
+R/agree         100.0      100.0      100.0     100.0      100.0       100.0
+R/compute        82.8       82.5       82.8      82.8       83.3        81.6
+D/no-conflict   100.0      100.0      100.0     100.0      100.0       100.0

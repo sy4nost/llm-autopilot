@@ -1,0 +1,24 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-tmxO0fxtuEwTnMWyitIqcA
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/inside/modal_ins
+│   ide.py
+└── ✓ Created Function probe.
+
+[1ALoading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+[1ALoading weights:  37%|███▋      | 107/290 [00:00<00:00, 1048.37it/s]
+[1ALoading weights:  73%|███████▎  | 212/290 [00:00<00:00, 949.81it/s] 
+[1ALoading weights: 100%|██████████| 290/290 [00:00<00:00, 1063.86it/s]
+Qwen/Qwen2.5-0.5B-Instruct 1 / 8
+Qwen/Qwen2.5-0.5B-Instruct 2 / 8
+Qwen/Qwen2.5-0.5B-Instruct 3 / 8
+Qwen/Qwen2.5-0.5B-Instruct 4 / 8
+Qwen/Qwen2.5-0.5B-Instruct 5 / 8
+Qwen/Qwen2.5-0.5B-Instruct 6 / 8
+Qwen/Qwen2.5-0.5B-Instruct 7 / 8
+Qwen/Qwen2.5-0.5B-Instruct 8 / 8
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/inside/inside_Qwen2.5-0.5B-Instruct_test.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-tmxO0fxtuEwTnMWyitIqcA

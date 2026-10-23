@@ -1,0 +1,458 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-BcALvgZxE0CnRLXq0k6HYC
+✓ Created objects.
+├── ✓ Uploaded /mnt/attach/project-files/pilot/rule-priority-alex/modal_rules.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+[1ALoading weights:  20%|██        | 58/290 [00:00<00:00, 544.90it/s]
+[1ALoading weights:  45%|████▍     | 130/290 [00:00<00:00, 641.39it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1151.25it/s]
+
+[1ALoading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+[1ALoading weights:   9%|▉         | 30/338 [00:00<00:01, 181.37it/s]
+[1ALoading weights:  17%|█▋        | 59/338 [00:00<00:01, 229.12it/s]
+[1ALoading weights:  30%|██▉       | 101/338 [00:00<00:00, 279.11it/s]
+[1ALoading weights:  38%|███▊      | 130/338 [00:01<00:02, 80.00it/s] 
+[1ALoading weights:  51%|█████     | 172/338 [00:01<00:01, 120.89it/s]
+[1ALoading weights:  68%|██████▊   | 229/338 [00:01<00:00, 183.60it/s]
+[1ALoading weights: 100%|██████████| 338/338 [00:01<00:00, 221.82it/s]
+
+[1ALoading weights:   0%|          | 0/434 [00:00<?, ?it/s]
+[1ALoading weights:   4%|▍         | 17/434 [00:00<00:02, 162.72it/s]
+[1ALoading weights:  12%|█▏        | 52/434 [00:00<00:01, 258.23it/s]
+[1ALoading weights:  20%|█▉        | 86/434 [00:00<00:01, 281.56it/s]
+[1ALoading weights:  26%|██▋       | 115/434 [00:00<00:01, 246.48it/s]
+[1ALoading weights:  36%|███▋      | 158/434 [00:00<00:00, 293.51it/s]
+[1ALoading weights:  45%|████▍     | 194/434 [00:00<00:00, 309.25it/s]
+[1ALoading weights:  52%|█████▏    | 226/434 [00:00<00:00, 302.11it/s]
+[1ALoading weights:  60%|██████    | 262/434 [00:00<00:00, 300.10it/s]
+[1ALoading weights:  68%|██████▊   | 293/434 [00:01<00:00, 280.65it/s]
+[1ALoading weights: 100%|██████████| 434/434 [00:01<00:00, 414.81it/s]
+
+[1ALoading weights:   0%|          | 0/339 [00:00<?, ?it/s]
+[1ALoading weights:  10%|█         | 34/339 [00:00<00:00, 321.03it/s]
+[1ALoading weights:  20%|█▉        | 67/339 [00:00<00:00, 294.92it/s]
+[1ALoading weights:  29%|██▊       | 97/339 [00:00<00:01, 188.52it/s]
+[1ALoading weights:  35%|███▌      | 119/339 [00:02<00:07, 29.86it/s]
+[1ALoading weights:  42%|████▏     | 143/339 [00:02<00:04, 41.68it/s]
+[1ALoading weights:  47%|████▋     | 160/339 [00:02<00:03, 50.62it/s]
+[1ALoading weights:  56%|█████▋    | 191/339 [00:02<00:01, 75.24it/s]
+[1ALoading weights:  70%|██████▉   | 236/339 [00:03<00:00, 119.52it/s]
+[1ALoading weights:  81%|████████  | 275/339 [00:03<00:00, 157.67it/s]
+[1ALoading weights:  90%|█████████ | 306/339 [00:03<00:00, 172.67it/s]
+[1ALoading weights: 100%|██████████| 339/339 [00:03<00:00, 104.45it/s]
+Qwen/Qwen2.5-0.5B-Instruct 40 / 120
+Qwen/Qwen2.5-0.5B-Instruct 80 / 120
+Qwen/Qwen2.5-1.5B-Instruct 40 / 120
+[W1016 11:02:17.377473263 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 5825888256 bytes (free: 1566244864, total: 50897879040).
+Qwen/Qwen2.5-0.5B-Instruct 120 / 120
+done Qwen/Qwen2.5-0.5B-Instruct
+Qwen/Qwen2.5-3B-Instruct 40 / 120
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   1%|          | 6/579 [00:01<01:48,  5.30it/s]
+[1ALoading weights:   2%|▏         | 12/579 [00:02<01:38,  5.76it/s]
+[1ALoading weights:   4%|▎         | 21/579 [00:02<01:12,  7.73it/s]
+[1ALoading weights:   5%|▍         | 27/579 [00:03<01:00,  9.17it/s][W1016 11:02:25.540715306 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 5825888256 bytes (free: 1689976832, total: 50897879040).
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in handle_input_exception
+    yield
+  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync
+    values = io_context.call_function_sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in call_function_sync
+    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/modal_rules.py", line 36, in run
+    s = model.generate(**b, max_new_tokens=80, do_sample=True, temperature=0.7, top_p=1.0, top_k=0,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/generation/utils.py", line 2989, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/generation/utils.py", line 3189, in _sample
+    outputs = self._prefill(
+              ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/generation/utils.py", line 4300, in _prefill
+    return self(**model_inputs, return_dict=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/generic.py", line 943, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 444, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/generic.py", line 1081, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/output_capturing.py", line 287, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 380, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/modeling_layers.py", line 111, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 288, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 46, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.43 GiB. GPU 0 has a total capacity of 47.40 GiB of which 1.57 GiB is free. Process 1 has 45.81 GiB memory in use. Of the allocated memory 37.04 GiB is allocated by PyTorch, and 8.28 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+Stopping app - uncaught exception raised locally: ExecutionError('Could not deserialize remote exception due to local error:\nDeserialization failed because the \'torch\' module is not available in the local environment.\nThis can happen if your local environment does not have the remote exception definitions.\nHere is the remote traceback:\nTraceback (most recent call last):\n  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in handle_input_exception\n    yield\n  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync\n    values = io_context.call_function_sync()\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in call_function_sync\n    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/root/modal_rules.py", line 36, in run\n    s = model.generate(**b, max_new_tokens=80, do_sample=True, temperature=0.7, top_p=1.0, top_k=0,\n .
+
+[1ALoading weights:   5%|▌         | 29/579 [00:04<01:48,  5.09it/s]
+[1ALoading weights:   9%|▉         | 54/579 [00:04<00:31, 16.93it/s]
+[1ALoading weights:  13%|█▎        | 78/579 [00:05<00:15, 31.32it/s]
+[1ALoading weights:  16%|█▌        | 91/579 [00:05<00:14, 34.46it/s]
+[1ALoading weights:  18%|█▊        | 102/579 [00:06<00:23, 20.18it/s]
+[1ALoading weights:  19%|█▉        | 110/579 [00:07<00:24, 18.98it/s]
+[1ALoading weights:  23%|██▎       | 135/579 [00:07<00:13, 33.23it/s]
+[1ALoading weights:  29%|██▉       | 170/579 [00:07<00:06, 59.26it/s]
+[1ALoading weights:  34%|███▍      | 199/579 [00:07<00:04, 83.27it/s]
+Qwen/Qwen2.5-1.5B-Instruct 80 / 120
+[1ALoading weights:  38%|███▊      | 219/579 [00:07<00:03, 94.19it/s]
+[1ALoading weights:  44%|████▍     | 254/579 [00:07<00:02, 124.63it/s]
+[1ALoading weights:  46%|████▌     | 266/579 [00:07<00:09, 34.27it/s] 
+Runner terminated.
+Runner terminated.
+Runner terminated.
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /usr/local/lib/python3.13/dist-packages/modal/_serialization.py:117 in       │
+│ deserialize                                                                  │
+│                                                                              │
+│   116 │   try:                                                               │
+│ ❱ 117 │   │   return Unpickler(client, io.BytesIO(s)).load()                 │
+│   118 │   except AttributeError as exc:                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ModuleNotFoundError: No module named 'torch'
+
+The above exception was the direct cause of the following exception:
+
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /mnt/attach/project-files/pilot/rule-priority-alex/modal_rules.py:51 in main │
+│                                                                              │
+│   50 │   names = [m for m in models.split(",") if m]                         │
+│ ❱ 51 │   for name, res in zip(names, run.map(names, kwargs={"items": items}) │
+│   52 │   │   json.dump(res, open(os.path.join(HERE, out, name.split("/")[-1] │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:858 in   │
+│ __iter__                                                                     │
+│                                                                              │
+│    857 │   │   │   with Runner() as runner:                                  │
+│ ❱  858 │   │   │   │   yield from run_async_gen(runner, self._async_iterable │
+│    859 │   │   except NestedEventLoops:                                      │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:940 in   │
+│ run_async_gen                                                                │
+│                                                                              │
+│    939 │   │   │   else:                                                     │
+│ ❱  940 │   │   │   │   next_yield = runner.run(gen.asend(next_send))  # type │
+│    941 │   │   except KeyboardInterrupt as e:                                │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/synchronicity/async_utils.py:82 in   │
+│ run                                                                          │
+│                                                                              │
+│ /usr/lib/python3.13/asyncio/base_events.py:726 in run_until_complete         │
+│                                                                              │
+│    725 │   │                                                                 │
+│ ❱  726 │   │   return future.result()                                        │
+│    727                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/synchronicity/async_utils.py:48 in   │
+│ wrapper_coro                                                                 │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:768 in   │
+│ asend                                                                        │
+│                                                                              │
+│    767 │   │   self.iterated = True                                          │
+│ ❱  768 │   │   return await self.gen.asend(value)                            │
+│    769                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:1042 in        │
+│ _map_async                                                                   │
+│                                                                              │
+│   1041 │   async_input_gen = async_zip(*[sync_or_async_iter(it) for it in in │
+│ ❱ 1042 │   async for output in _map_helper(                                  │
+│   1043 │   │   self,                                                         │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:1015 in        │
+│ _map_helper                                                                  │
+│                                                                              │
+│   1014 │   ) as map_output_stream:                                           │
+│ ❱ 1015 │   │   async for output in map_output_stream:                        │
+│   1016 │   │   │   yield output                                              │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1114 in  │
+│ async_merge                                                                  │
+│                                                                              │
+│   1113 │   │   │   │   │   assert_type(item, ExceptionWrapper)               │
+│ ❱ 1114 │   │   │   │   │   raise item.value                                  │
+│   1115                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1093 in  │
+│ producer                                                                     │
+│                                                                              │
+│   1092 │   │   │   async with aclosing(generator) as stream:                 │
+│ ❱ 1093 │   │   │   │   async for item in stream:                             │
+│   1094 │   │   │   │   │   await queue.put(ValueWrapper(item))               │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_object.py:61 in wrapped       │
+│                                                                              │
+│    60 │   │   async with aclosing(method(self, *args, **kwargs)) as stream:  │
+│ ❱  61 │   │   │   async for item in stream:                                  │
+│    62 │   │   │   │   yield item                                             │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_functions.py:1962 in _map     │
+│                                                                              │
+│   1961 │   │   │   ) as stream:                                              │
+│ ❱ 1962 │   │   │   │   async for item in stream:                             │
+│   1963 │   │   │   │   │   yield item                                        │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:971 in         │
+│ _map_invocation_inputplane                                                   │
+│                                                                              │
+│    970 │   ) as merged:                                                      │
+│ ❱  971 │   │   async for maybe_output in merged:                             │
+│    972 │   │   │   if maybe_output is not None:  # ignore None sentinels     │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1114 in  │
+│ async_merge                                                                  │
+│                                                                              │
+│   1113 │   │   │   │   │   assert_type(item, ExceptionWrapper)               │
+│ ❱ 1114 │   │   │   │   │   raise item.value                                  │
+│   1115                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1093 in  │
+│ producer                                                                     │
+│                                                                              │
+│   1092 │   │   │   async with aclosing(generator) as stream:                 │
+│ ❱ 1093 │   │   │   │   async for item in stream:                             │
+│   1094 │   │   │   │   │   await queue.put(ValueWrapper(item))               │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:926 in         │
+│ poll_outputs                                                                 │
+│                                                                              │
+│    925 │   │   ) as streamer:                                                │
+│ ❱  926 │   │   │   async for idx, output in streamer:                        │
+│    927 │   │   │   │   if not order_outputs:                                 │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1243 in  │
+│ async_map_ordered                                                            │
+│                                                                              │
+│   1242 │   async with aclosing(async_map(async_zip(counter(), input_generato │
+│ ❱ 1243 │   │   async for output_idx, output_item in stream:                  │
+│   1244 │   │   │   buffer[output_idx] = output_item                          │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1219 in  │
+│ async_map                                                                    │
+│                                                                              │
+│   1218 │   ) as stream:                                                      │
+│ ❱ 1219 │   │   async for item in stream:                                     │
+│   1220 │   │   │   yield item                                                │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1114 in  │
+│ async_merge                                                                  │
+│                                                                              │
+│   1113 │   │   │   │   │   assert_type(item, ExceptionWrapper)               │
+│ ❱ 1114 │   │   │   │   │   raise item.value                                  │
+│   1115                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1093 in  │
+│ producer                                                                     │
+│                                                                              │
+│   1092 │   │   │   async with aclosing(generator) as stream:                 │
+│ ❱ 1093 │   │   │   │   async for item in stream:                             │
+│   1094 │   │   │   │   │   await queue.put(ValueWrapper(item))               │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1208 in  │
+│ worker                                                                       │
+│                                                                              │
+│   1207 │   │   │   if isinstance(item, ValueWrapper):                        │
+│ ❱ 1208 │   │   │   │   res = await prevent_cancellation_abortion(async_mappe │
+│   1209 │   │   │   │   yield res                                             │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1173 in  │
+│ prevent_cancellation_abortion                                                │
+│                                                                              │
+│   1172 │   try:                                                              │
+│ ❱ 1173 │   │   return await asyncio.shield(t)                                │
+│   1174 │   except asyncio.CancelledError:                                    │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py:1232 in  │
+│ mapper_func_wrapper                                                          │
+│                                                                              │
+│   1231 │   async def mapper_func_wrapper(tup: tuple[int, T]) -> tuple[int, V │
+│ ❱ 1232 │   │   return (tup[0], await async_mapper_func(tup[1]))              │
+│   1233                                                                       │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:915 in         │
+│ fetch_output                                                                 │
+│                                                                              │
+│    914 │   │   │   else:                                                     │
+│ ❱  915 │   │   │   │   raise e                                               │
+│    916 │   │   return (item.idx, output)                                     │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/parallel_map.py:910 in         │
+│ fetch_output                                                                 │
+│                                                                              │
+│    909 │   │   try:                                                          │
+│ ❱  910 │   │   │   output = await _process_result(item.result, item.data_for │
+│    911 │   │   except Exception as e:                                        │
+│                                                                              │
+│ /usr/local/lib/python3.13/dist-packages/modal/_utils/function_utils.py:547   │
+│ in _process_result                                                           │
+│                                                                              │
+│   546 │   │   │   except DeserializationError as deser_exc:                  │
+│ ❱ 547 │   │   │   │   raise ExecutionError(                                  │
+│   548 │   │   │   │   │   "Could not deserialize remote exception due to loc │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ExecutionError: Could not deserialize remote exception due to local error:
+Deserialization failed because the 'torch' module is not available in the local 
+environment.
+This can happen if your local environment does not have the remote exception 
+definitions.
+Here is the remote traceback:
+Traceback (most recent call last):
+  File "/pkg/modal/_runtime/container_io_manager.py", line 987, in 
+handle_input_exception
+    yield
+  File "/pkg/modal/_container_entrypoint.py", line 189, in run_input_sync
+    values = io_context.call_function_sync()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pkg/modal/_runtime/container_io_manager.py", line 266, in 
+call_function_sync
+    expected_value_or_values = self.finalized_function.callable(*args, **kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/modal_rules.py", line 36, in run
+    s = model.generate(**b, max_new_tokens=80, do_sample=True, temperature=0.7, 
+top_p=1.0, top_k=0,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/utils/_contextlib.py", 
+line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.12/site-packages/transformers/generation/utils.py", line
+2989, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.12/site-packages/transformers/generation/utils.py", line
+3189, in _sample
+    outputs = self._prefill(
+              ^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.12/site-packages/transformers/generation/utils.py", line
+4300, in _prefill
+    return self(**model_inputs, return_dict=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", 
+line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", 
+line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/generic.py", 
+line 943, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen
+2.py", line 444, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", 
+line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", 
+line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/transformers/utils/generic.py", 
+line 1081, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.12/site-packages/transformers/utils/output_capturing.py"
+, line 287, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen
+2.py", line 380, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.12/site-packages/transformers/modeling_layers.py", line 
+111, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", 
+line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", 
+line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen
+2.py", line 288, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", 
+line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/torch/nn/modules/module.py", 
+line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen
+2.py", line 46, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.43 GiB. GPU 0 
+has a total capacity of 47.40 GiB of which 1.57 GiB is free. Process 1 has 45.81
+GiB memory in use. Of the allocated memory 37.04 GiB is allocated by PyTorch, 
+and 8.28 GiB is reserved by PyTorch but unallocated. If reserved but unallocated
+memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to 
+avoid fragmentation.  See documentation for Memory Management  
+(https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-wi
+th-pytorch-cuda-alloc-conf)
+
+EXIT 1

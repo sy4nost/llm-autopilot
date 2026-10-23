@@ -1,0 +1,166 @@
+{
+ "variants": {
+  "K": 1,
+  "D": 1
+ },
+ "M_thresh": 19.25,
+ "H_cells": {
+  "K": [
+   "Canada",
+   "Germany",
+   "Kenya",
+   "Russia"
+  ],
+  "D": [
+   "cube",
+   "hexagon",
+   "octopus",
+   "square"
+  ]
+ },
+ "table": [
+  {
+   "family": "U",
+   "variant": 1,
+   "n_traps": 113,
+   "traps_right": 1.0,
+   "habit": 0,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 23,
+   "eligible": false
+  },
+  {
+   "family": "U",
+   "variant": 2,
+   "n_traps": 93,
+   "traps_right": 0.989,
+   "habit": 0,
+   "distractor": 1,
+   "plain_right": 1.0,
+   "n_plain": 29,
+   "eligible": false
+  },
+  {
+   "family": "U",
+   "variant": 3,
+   "n_traps": 118,
+   "traps_right": 0.983,
+   "habit": 2,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 28,
+   "eligible": false
+  },
+  {
+   "family": "U",
+   "variant": 4,
+   "n_traps": 118,
+   "traps_right": 1.0,
+   "habit": 0,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 25,
+   "eligible": false
+  },
+  {
+   "family": "U",
+   "variant": 5,
+   "n_traps": 88,
+   "traps_right": 0.966,
+   "habit": 3,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 10,
+   "eligible": false
+  },
+  {
+   "family": "K",
+   "variant": 1,
+   "n_traps": 76,
+   "traps_right": 0.829,
+   "habit": 13,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 18,
+   "eligible": true
+  },
+  {
+   "family": "K",
+   "variant": 2,
+   "n_traps": 17,
+   "traps_right": 1.0,
+   "habit": 0,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 28,
+   "eligible": false
+  },
+  {
+   "family": "K",
+   "variant": 3,
+   "n_traps": 38,
+   "traps_right": 1.0,
+   "habit": 0,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 26,
+   "eligible": false
+  },
+  {
+   "family": "K",
+   "variant": 4,
+   "n_traps": 16,
+   "traps_right": 0.0,
+   "habit": 16,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 23,
+   "eligible": false
+  },
+  {
+   "family": "D",
+   "variant": 1,
+   "n_traps": 89,
+   "traps_right": 0.652,
+   "habit": 31,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 11,
+   "eligible": true
+  },
+  {
+   "family": "D",
+   "variant": 2,
+   "n_traps": 108,
+   "traps_right": 1.0,
+   "habit": 0,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 24,
+   "eligible": false
+  },
+  {
+   "family": "D",
+   "variant": 3,
+   "n_traps": 117,
+   "traps_right": 1.0,
+   "habit": 0,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 24,
+   "eligible": false
+  },
+  {
+   "family": "D",
+   "variant": 4,
+   "n_traps": 119,
+   "traps_right": 1.0,
+   "habit": 0,
+   "distractor": 0,
+   "plain_right": 1.0,
+   "n_plain": 23,
+   "eligible": false
+  }
+ ]
+}

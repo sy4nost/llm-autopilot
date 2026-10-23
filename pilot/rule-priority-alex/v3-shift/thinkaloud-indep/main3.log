@@ -1,0 +1,201 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-m81XydjX2YSaugQL5SmZLt
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/thinkaloud-indep
+│   /modal_ti.py
+├── ✓ Created Function run.
+└── ✓ Created Function fetch.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   5%|▌         | 31/579 [00:00<00:01, 288.51it/s]
+[1ALoading weights:  10%|█         | 60/579 [00:00<00:02, 209.13it/s]
+[1ALoading weights:  17%|█▋        | 99/579 [00:00<00:01, 266.81it/s]
+[1ALoading weights:  22%|██▏       | 128/579 [00:00<00:01, 230.83it/s]
+[1ALoading weights:  26%|██▋       | 153/579 [00:00<00:01, 218.66it/s]
+[1ALoading weights:  35%|███▌      | 203/579 [00:00<00:01, 296.16it/s]
+[1ALoading weights:  41%|████      | 235/579 [00:00<00:01, 286.44it/s]
+[1ALoading weights:  47%|████▋     | 271/579 [00:00<00:01, 300.85it/s]
+[1ALoading weights:  52%|█████▏    | 303/579 [00:01<00:00, 286.92it/s]
+[1ALoading weights:  58%|█████▊    | 333/579 [00:01<00:00, 255.84it/s]
+[1ALoading weights:  63%|██████▎   | 362/579 [00:01<00:00, 260.98it/s]
+[1ALoading weights:  68%|██████▊   | 393/579 [00:01<00:00, 271.64it/s]
+[1ALoading weights:  73%|███████▎  | 421/579 [00:01<00:00, 259.02it/s]
+[1ALoading weights:  78%|███████▊  | 450/579 [00:01<00:00, 257.33it/s]
+[1ALoading weights:  82%|████████▏ | 477/579 [00:01<00:00, 260.10it/s]
+[1ALoading weights:  87%|████████▋ | 504/579 [00:01<00:00, 249.74it/s]
+[1ALoading weights:  93%|█████████▎| 540/579 [00:02<00:00, 277.73it/s]
+[1ALoading weights:  98%|█████████▊| 569/579 [00:02<00:00, 271.06it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 269.23it/s]
+think already 0 to generate 2300
+gen 32 / 2300
+gen 64 / 2300
+gen 96 / 2300
+gen 128 / 2300
+gen 160 / 2300
+gen 192 / 2300
+gen 224 / 2300
+gen 256 / 2300
+gen 288 / 2300
+gen 320 / 2300
+gen 352 / 2300
+gen 384 / 2300
+gen 416 / 2300
+gen 448 / 2300
+gen 480 / 2300
+gen 512 / 2300
+gen 544 / 2300
+gen 576 / 2300
+gen 608 / 2300
+gen 640 / 2300
+gen 672 / 2300
+gen 704 / 2300
+gen 736 / 2300
+gen 768 / 2300
+gen 800 / 2300
+gen 832 / 2300
+gen 864 / 2300
+gen 896 / 2300
+gen 928 / 2300
+gen 960 / 2300
+gen 992 / 2300
+gen 1024 / 2300
+gen 1056 / 2300
+gen 1088 / 2300
+gen 1120 / 2300
+gen 1152 / 2300
+gen 1184 / 2300
+gen 1216 / 2300
+gen 1248 / 2300
+gen 1280 / 2300
+gen 1312 / 2300
+gen 1344 / 2300
+gen 1376 / 2300
+gen 1408 / 2300
+gen 1440 / 2300
+gen 1472 / 2300
+gen 1504 / 2300
+gen 1536 / 2300
+gen 1568 / 2300
+gen 1600 / 2300
+gen 1632 / 2300
+gen 1664 / 2300
+gen 1696 / 2300
+gen 1728 / 2300
+gen 1760 / 2300
+gen 1792 / 2300
+gen 1824 / 2300
+gen 1856 / 2300
+gen 1888 / 2300
+gen 1920 / 2300
+gen 1952 / 2300
+gen 1984 / 2300
+gen 2016 / 2300
+gen 2048 / 2300
+gen 2080 / 2300
+gen 2112 / 2300
+gen 2144 / 2300
+gen 2176 / 2300
+gen 2208 / 2300
+gen 2240 / 2300
+gen 2272 / 2300
+gen 2300 / 2300
+thinki already 0 to generate 2300
+gen 32 / 2300
+gen 64 / 2300
+gen 96 / 2300
+gen 128 / 2300
+gen 160 / 2300
+gen 192 / 2300
+gen 224 / 2300
+gen 256 / 2300
+gen 288 / 2300
+gen 320 / 2300
+gen 352 / 2300
+gen 384 / 2300
+gen 416 / 2300
+gen 448 / 2300
+gen 480 / 2300
+gen 512 / 2300
+gen 544 / 2300
+gen 576 / 2300
+gen 608 / 2300
+gen 640 / 2300
+gen 672 / 2300
+gen 704 / 2300
+gen 736 / 2300
+gen 768 / 2300
+gen 800 / 2300
+gen 832 / 2300
+gen 864 / 2300
+gen 896 / 2300
+gen 928 / 2300
+gen 960 / 2300
+gen 992 / 2300
+gen 1024 / 2300
+gen 1056 / 2300
+gen 1088 / 2300
+gen 1120 / 2300
+gen 1152 / 2300
+gen 1184 / 2300
+gen 1216 / 2300
+gen 1248 / 2300
+gen 1280 / 2300
+gen 1312 / 2300
+gen 1344 / 2300
+gen 1376 / 2300
+gen 1408 / 2300
+gen 1440 / 2300
+gen 1472 / 2300
+gen 1504 / 2300
+gen 1536 / 2300
+gen 1568 / 2300
+gen 1600 / 2300
+gen 1632 / 2300
+gen 1664 / 2300
+gen 1696 / 2300
+gen 1728 / 2300
+gen 1760 / 2300
+gen 1792 / 2300
+gen 1824 / 2300
+gen 1856 / 2300
+gen 1888 / 2300
+gen 1920 / 2300
+gen 1952 / 2300
+gen 1984 / 2300
+gen 2016 / 2300
+gen 2048 / 2300
+gen 2080 / 2300
+gen 2112 / 2300
+gen 2144 / 2300
+gen 2176 / 2300
+gen 2208 / 2300
+gen 2240 / 2300
+gen 2272 / 2300
+gen 2300 / 2300
+score 100 / 2300
+score 200 / 2300
+score 300 / 2300
+score 400 / 2300
+score 500 / 2300
+score 600 / 2300
+score 700 / 2300
+score 800 / 2300
+score 900 / 2300
+score 1000 / 2300
+score 1100 / 2300
+score 1200 / 2300
+score 1300 / 2300
+score 1400 / 2300
+score 1500 / 2300
+score 1600 / 2300
+score 1700 / 2300
+score 1800 / 2300
+score 1900 / 2300
+score 2000 / 2300
+score 2100 / 2300
+score 2200 / 2300
+score 2300 / 2300
+DONE /cache/ti_runs/main/out.jsonl
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-m81XydjX2YSaugQL5SmZLt

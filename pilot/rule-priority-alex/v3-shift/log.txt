@@ -1,0 +1,213 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-uPd2USj4dwXo6amgTou6kE
+Building image im-p9UHb8jGrYnqiCHOrXtYWK
+
+=> Step 0: FROM base
+
+=> Step 1: ENV HF_HOME=/cache/hf
+
+=> Step 2: ENV PYTHONUNBUFFERED=1
+
+=> Step 3: ENV PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+Saving image...
+Image saved, took 434.32ms
+
+Built image im-p9UHb8jGrYnqiCHOrXtYWK in 1.01s
+
+
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/modal_shift.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   2%|▏         | 13/579 [00:00<00:04, 123.87it/s]
+[1ALoading weights:   8%|▊         | 49/579 [00:00<00:02, 229.41it/s]
+[1ALoading weights:  12%|█▏        | 72/579 [00:00<00:02, 186.66it/s]
+[1ALoading weights:  16%|█▋        | 95/579 [00:00<00:02, 200.43it/s]
+[1ALoading weights:  25%|██▍       | 144/579 [00:00<00:01, 292.65it/s]
+[1ALoading weights:  32%|███▏      | 186/579 [00:00<00:01, 323.72it/s]
+[1ALoading weights:  38%|███▊      | 222/579 [00:00<00:01, 316.18it/s]
+[1ALoading weights:  44%|████▍     | 255/579 [00:00<00:01, 294.09it/s]
+[1ALoading weights:  49%|████▉     | 286/579 [00:01<00:00, 293.40it/s]
+[1ALoading weights:  55%|█████▍    | 316/579 [00:01<00:00, 292.11it/s]
+[1ALoading weights:  60%|█████▉    | 346/579 [00:01<00:01, 222.79it/s]
+[1ALoading weights:  65%|██████▌   | 379/579 [00:01<00:00, 240.44it/s]
+[1ALoading weights:  70%|███████   | 406/579 [00:01<00:00, 228.04it/s]
+[1ALoading weights:  77%|███████▋  | 443/579 [00:01<00:00, 252.35it/s]
+[1ALoading weights:  81%|████████  | 470/579 [00:01<00:00, 251.71it/s]
+[1ALoading weights:  86%|████████▌ | 497/579 [00:01<00:00, 248.26it/s]
+[1ALoading weights:  90%|█████████ | 523/579 [00:02<00:00, 223.14it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 269.03it/s]
+Qwen/Qwen2.5-14B-Instruct 8 / 1260
+Qwen/Qwen2.5-14B-Instruct 16 / 1260
+Qwen/Qwen2.5-14B-Instruct 24 / 1260
+Qwen/Qwen2.5-14B-Instruct 32 / 1260
+Qwen/Qwen2.5-14B-Instruct 40 / 1260
+Qwen/Qwen2.5-14B-Instruct 48 / 1260
+Qwen/Qwen2.5-14B-Instruct 56 / 1260
+Qwen/Qwen2.5-14B-Instruct 64 / 1260
+Qwen/Qwen2.5-14B-Instruct 72 / 1260
+Qwen/Qwen2.5-14B-Instruct 80 / 1260
+Qwen/Qwen2.5-14B-Instruct 88 / 1260
+Qwen/Qwen2.5-14B-Instruct 96 / 1260
+Qwen/Qwen2.5-14B-Instruct 104 / 1260
+Qwen/Qwen2.5-14B-Instruct 112 / 1260
+Qwen/Qwen2.5-14B-Instruct 120 / 1260
+Qwen/Qwen2.5-14B-Instruct 128 / 1260
+Qwen/Qwen2.5-14B-Instruct 136 / 1260
+Qwen/Qwen2.5-14B-Instruct 144 / 1260
+Qwen/Qwen2.5-14B-Instruct 152 / 1260
+Qwen/Qwen2.5-14B-Instruct 160 / 1260
+Qwen/Qwen2.5-14B-Instruct 168 / 1260
+Qwen/Qwen2.5-14B-Instruct 176 / 1260
+Qwen/Qwen2.5-14B-Instruct 184 / 1260
+Qwen/Qwen2.5-14B-Instruct 192 / 1260
+Qwen/Qwen2.5-14B-Instruct 200 / 1260
+Qwen/Qwen2.5-14B-Instruct 208 / 1260
+Qwen/Qwen2.5-14B-Instruct 216 / 1260
+Qwen/Qwen2.5-14B-Instruct 224 / 1260
+Qwen/Qwen2.5-14B-Instruct 232 / 1260
+Qwen/Qwen2.5-14B-Instruct 240 / 1260
+Qwen/Qwen2.5-14B-Instruct 248 / 1260
+Qwen/Qwen2.5-14B-Instruct 256 / 1260
+Qwen/Qwen2.5-14B-Instruct 264 / 1260
+Qwen/Qwen2.5-14B-Instruct 272 / 1260
+Qwen/Qwen2.5-14B-Instruct 280 / 1260
+Qwen/Qwen2.5-14B-Instruct 288 / 1260
+Qwen/Qwen2.5-14B-Instruct 296 / 1260
+Qwen/Qwen2.5-14B-Instruct 304 / 1260
+Qwen/Qwen2.5-14B-Instruct 312 / 1260
+Qwen/Qwen2.5-14B-Instruct 320 / 1260
+Qwen/Qwen2.5-14B-Instruct 328 / 1260
+Qwen/Qwen2.5-14B-Instruct 336 / 1260
+Qwen/Qwen2.5-14B-Instruct 344 / 1260
+Qwen/Qwen2.5-14B-Instruct 352 / 1260
+Qwen/Qwen2.5-14B-Instruct 360 / 1260
+Qwen/Qwen2.5-14B-Instruct 368 / 1260
+Qwen/Qwen2.5-14B-Instruct 376 / 1260
+Qwen/Qwen2.5-14B-Instruct 384 / 1260
+Qwen/Qwen2.5-14B-Instruct 392 / 1260
+Qwen/Qwen2.5-14B-Instruct 400 / 1260
+Qwen/Qwen2.5-14B-Instruct 408 / 1260
+Qwen/Qwen2.5-14B-Instruct 416 / 1260
+Qwen/Qwen2.5-14B-Instruct 424 / 1260
+Qwen/Qwen2.5-14B-Instruct 432 / 1260
+Qwen/Qwen2.5-14B-Instruct 440 / 1260
+Qwen/Qwen2.5-14B-Instruct 448 / 1260
+Qwen/Qwen2.5-14B-Instruct 456 / 1260
+Qwen/Qwen2.5-14B-Instruct 464 / 1260
+Qwen/Qwen2.5-14B-Instruct 472 / 1260
+Qwen/Qwen2.5-14B-Instruct 480 / 1260
+Qwen/Qwen2.5-14B-Instruct 488 / 1260
+Qwen/Qwen2.5-14B-Instruct 496 / 1260
+Qwen/Qwen2.5-14B-Instruct 504 / 1260
+Qwen/Qwen2.5-14B-Instruct 512 / 1260
+Qwen/Qwen2.5-14B-Instruct 520 / 1260
+Qwen/Qwen2.5-14B-Instruct 528 / 1260
+Qwen/Qwen2.5-14B-Instruct 536 / 1260
+Qwen/Qwen2.5-14B-Instruct 544 / 1260
+Qwen/Qwen2.5-14B-Instruct 552 / 1260
+Qwen/Qwen2.5-14B-Instruct 560 / 1260
+Qwen/Qwen2.5-14B-Instruct 568 / 1260
+Qwen/Qwen2.5-14B-Instruct 576 / 1260
+Qwen/Qwen2.5-14B-Instruct 584 / 1260
+Qwen/Qwen2.5-14B-Instruct 592 / 1260
+Qwen/Qwen2.5-14B-Instruct 600 / 1260
+Qwen/Qwen2.5-14B-Instruct 608 / 1260
+Qwen/Qwen2.5-14B-Instruct 616 / 1260
+Qwen/Qwen2.5-14B-Instruct 624 / 1260
+Qwen/Qwen2.5-14B-Instruct 632 / 1260
+Qwen/Qwen2.5-14B-Instruct 640 / 1260
+Qwen/Qwen2.5-14B-Instruct 648 / 1260
+Qwen/Qwen2.5-14B-Instruct 656 / 1260
+Qwen/Qwen2.5-14B-Instruct 664 / 1260
+Qwen/Qwen2.5-14B-Instruct 672 / 1260
+Qwen/Qwen2.5-14B-Instruct 680 / 1260
+Qwen/Qwen2.5-14B-Instruct 688 / 1260
+Qwen/Qwen2.5-14B-Instruct 696 / 1260
+Qwen/Qwen2.5-14B-Instruct 704 / 1260
+Qwen/Qwen2.5-14B-Instruct 712 / 1260
+Qwen/Qwen2.5-14B-Instruct 720 / 1260
+Qwen/Qwen2.5-14B-Instruct 728 / 1260
+Qwen/Qwen2.5-14B-Instruct 736 / 1260
+Qwen/Qwen2.5-14B-Instruct 744 / 1260
+Qwen/Qwen2.5-14B-Instruct 752 / 1260
+Qwen/Qwen2.5-14B-Instruct 760 / 1260
+Qwen/Qwen2.5-14B-Instruct 768 / 1260
+Qwen/Qwen2.5-14B-Instruct 776 / 1260
+Qwen/Qwen2.5-14B-Instruct 784 / 1260
+Qwen/Qwen2.5-14B-Instruct 792 / 1260
+Qwen/Qwen2.5-14B-Instruct 800 / 1260
+Qwen/Qwen2.5-14B-Instruct 808 / 1260
+Qwen/Qwen2.5-14B-Instruct 816 / 1260
+Qwen/Qwen2.5-14B-Instruct 824 / 1260
+Qwen/Qwen2.5-14B-Instruct 832 / 1260
+Qwen/Qwen2.5-14B-Instruct 840 / 1260
+Qwen/Qwen2.5-14B-Instruct 848 / 1260
+Qwen/Qwen2.5-14B-Instruct 856 / 1260
+Qwen/Qwen2.5-14B-Instruct 864 / 1260
+Qwen/Qwen2.5-14B-Instruct 872 / 1260
+Qwen/Qwen2.5-14B-Instruct 880 / 1260
+Qwen/Qwen2.5-14B-Instruct 888 / 1260
+Qwen/Qwen2.5-14B-Instruct 896 / 1260
+Qwen/Qwen2.5-14B-Instruct 904 / 1260
+Qwen/Qwen2.5-14B-Instruct 912 / 1260
+Qwen/Qwen2.5-14B-Instruct 920 / 1260
+Qwen/Qwen2.5-14B-Instruct 928 / 1260
+Qwen/Qwen2.5-14B-Instruct 936 / 1260
+Qwen/Qwen2.5-14B-Instruct 944 / 1260
+Qwen/Qwen2.5-14B-Instruct 952 / 1260
+Qwen/Qwen2.5-14B-Instruct 960 / 1260
+Qwen/Qwen2.5-14B-Instruct 968 / 1260
+Qwen/Qwen2.5-14B-Instruct 976 / 1260
+Qwen/Qwen2.5-14B-Instruct 984 / 1260
+Qwen/Qwen2.5-14B-Instruct 992 / 1260
+Qwen/Qwen2.5-14B-Instruct 1000 / 1260
+Qwen/Qwen2.5-14B-Instruct 1008 / 1260
+Qwen/Qwen2.5-14B-Instruct 1016 / 1260
+Qwen/Qwen2.5-14B-Instruct 1024 / 1260
+Qwen/Qwen2.5-14B-Instruct 1032 / 1260
+Qwen/Qwen2.5-14B-Instruct 1040 / 1260
+Qwen/Qwen2.5-14B-Instruct 1048 / 1260
+Qwen/Qwen2.5-14B-Instruct 1056 / 1260
+Qwen/Qwen2.5-14B-Instruct 1064 / 1260
+Qwen/Qwen2.5-14B-Instruct 1072 / 1260
+Qwen/Qwen2.5-14B-Instruct 1080 / 1260
+Qwen/Qwen2.5-14B-Instruct 1088 / 1260
+Qwen/Qwen2.5-14B-Instruct 1096 / 1260
+Qwen/Qwen2.5-14B-Instruct 1104 / 1260
+Qwen/Qwen2.5-14B-Instruct 1112 / 1260
+Qwen/Qwen2.5-14B-Instruct 1120 / 1260
+Qwen/Qwen2.5-14B-Instruct 1128 / 1260
+Qwen/Qwen2.5-14B-Instruct 1136 / 1260
+Qwen/Qwen2.5-14B-Instruct 1144 / 1260
+Qwen/Qwen2.5-14B-Instruct 1152 / 1260
+Qwen/Qwen2.5-14B-Instruct 1160 / 1260
+Qwen/Qwen2.5-14B-Instruct 1168 / 1260
+Qwen/Qwen2.5-14B-Instruct 1176 / 1260
+Qwen/Qwen2.5-14B-Instruct 1184 / 1260
+Qwen/Qwen2.5-14B-Instruct 1192 / 1260
+Qwen/Qwen2.5-14B-Instruct 1200 / 1260
+Qwen/Qwen2.5-14B-Instruct 1208 / 1260
+Qwen/Qwen2.5-14B-Instruct 1216 / 1260
+Qwen/Qwen2.5-14B-Instruct 1224 / 1260
+Qwen/Qwen2.5-14B-Instruct 1232 / 1260
+Qwen/Qwen2.5-14B-Instruct 1240 / 1260
+Qwen/Qwen2.5-14B-Instruct 1248 / 1260
+Qwen/Qwen2.5-14B-Instruct 1256 / 1260
+Qwen/Qwen2.5-14B-Instruct 1264 / 1260
+done Qwen/Qwen2.5-14B-Instruct
+an error occurred during closing of asynchronous generator <async_generator object async_merge at 0x7fa38ac92fb0>
+asyncgen: <async_generator object async_merge at 0x7fa38ac92fb0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py", line 858, in __iter__
+    yield from run_async_gen(runner, self._async_iterable)
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+RuntimeError: aclose(): asynchronous generator is already running
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-uPd2USj4dwXo6amgTou6kE
+EXIT 0

@@ -1,0 +1,7 @@
+POST HOC (not pre-registered): main traps without hindsight
+  THINK  - direct      +7.5 [+4.6, +10.5]
+  THINK  - direct_mean +8.1 [+5.2, +11.2]
+  THINK  - rawc        +15.2 [+11.7, +18.9]
+  THINKI - direct      +7.1 [+4.3, +10.0]
+  THINKI - direct_mean +7.7 [+4.9, +10.7]
+  THINKI - rawc        +14.8 [+11.2, +18.4]

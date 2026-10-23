@@ -1,0 +1,47 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-p0Gp6HcmUebhvc41Rsgf6Z
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/thinkaloud-indep
+│   /modal_ti.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   1%|          | 4/579 [00:00<01:50,  5.19it/s]
+[1ALoading weights:   1%|          | 6/579 [00:01<02:42,  3.53it/s]
+[1ALoading weights:   3%|▎         | 18/579 [00:02<01:09,  8.09it/s]
+[1ALoading weights:   4%|▎         | 21/579 [00:05<02:48,  3.31it/s]
+[1ALoading weights:   5%|▍         | 28/579 [00:05<01:50,  4.97it/s]
+[1ALoading weights:  10%|█         | 58/579 [00:05<00:30, 17.06it/s]
+[1ALoading weights:  12%|█▏        | 69/579 [00:06<00:29, 17.12it/s]
+[1ALoading weights:  15%|█▍        | 85/579 [00:07<00:25, 19.74it/s]
+[1ALoading weights:  16%|█▌        | 92/579 [00:07<00:27, 17.56it/s]
+[1ALoading weights:  17%|█▋        | 97/579 [00:10<01:08,  7.02it/s]
+[1ALoading weights:  22%|██▏       | 126/579 [00:10<00:28, 15.68it/s]
+[1ALoading weights:  26%|██▋       | 153/579 [00:10<00:16, 26.10it/s]
+[1ALoading weights:  32%|███▏      | 186/579 [00:11<00:09, 42.80it/s]
+[1ALoading weights:  36%|███▋      | 211/579 [00:12<00:11, 32.54it/s]
+[1ALoading weights:  40%|███▉      | 231/579 [00:12<00:08, 41.12it/s]
+[1ALoading weights:  46%|████▌     | 266/579 [00:12<00:04, 63.14it/s]
+[1ALoading weights:  50%|█████     | 291/579 [00:12<00:03, 80.20it/s]
+[1ALoading weights:  54%|█████▍    | 312/579 [00:13<00:04, 65.14it/s]
+[1ALoading weights:  57%|█████▋    | 331/579 [00:13<00:03, 76.49it/s]
+[1ALoading weights:  63%|██████▎   | 365/579 [00:13<00:01, 109.58it/s]
+[1ALoading weights:  67%|██████▋   | 390/579 [00:13<00:01, 128.59it/s]
+[1ALoading weights:  71%|███████▏  | 413/579 [00:13<00:01, 142.76it/s]
+[1ALoading weights:  77%|███████▋  | 444/579 [00:13<00:00, 174.38it/s]
+[1ALoading weights:  82%|████████▏ | 475/579 [00:13<00:00, 197.73it/s]
+[1ALoading weights:  86%|████████▋ | 500/579 [00:13<00:00, 188.98it/s]
+[1ALoading weights:  92%|█████████▏| 535/579 [00:13<00:00, 221.56it/s]
+[1ALoading weights: 100%|██████████| 579/579 [00:14<00:00, 41.18it/s] 
+gen 20 / 20
+gen 32 / 72
+gen 64 / 72
+gen 72 / 72
+gen 32 / 72
+gen 64 / 72
+gen 72 / 72
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/thinkaloud-indep/out_smoke.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-p0Gp6HcmUebhvc41Rsgf6Z

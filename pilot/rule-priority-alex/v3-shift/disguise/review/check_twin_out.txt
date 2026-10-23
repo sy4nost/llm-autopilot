@@ -1,0 +1,43 @@
+seed 20261020: items 1680 (change_0 120) mismatches {'arm': 0, 'set': 0, 'probe': 0, 'keypos': 0, 'oldpos': 0, 'skeleton': 0, 'hist': 0, 'order': 0, 'labidx': 0, 'collide_set': 0} | fictional prompts with road nouns 0 | fictional sets with any road-like word 25/30, with STOP/HALT label 9
+--- example change_0 fictional:
+RESEARCH TASK: RULE-SWITCHING TEST
+
+Use ONLY the following fictional classification system. Apply its rules in the stated priority order, to every case independently.
+
+RULE 1 (highest priority): Label a case HOLD if its hatch is LOCKED.
+RULE 2: If Rule 1 does not apply, label the case HOLD if its ticket is YES and, at the same time, its beacon is ACTIVE.
+RULE 3: If Rules 1 and 2 do not apply, label the case PASS if its mark is WHITE.
+RULE 4: All remaining cases are REVIEW.
+
+Every case has four fields: mark (WHITE/VIOLET), hatch (UNLOCKED/LOCKED), beacon (ACTIVE/QUIET), ticket (YES/NO). The field values are the entire available evidence. There are no additional exceptions.
+
+IMPORTANT UPDATE (applies to the TEST case below): Rule 2 has been changed. New RULE 2: If Rule 1 does not apply, label the case HOLD if its ticket is YES and, at the same time, its beacon is QUIET. All other rules stay the same.
+
+Classify the TEST case below. Do not explain. Return only its label.
+
+TEST CASE: mark=WHITE; hatch=UNLOCKED; beacon=ACTIVE; ticket=YES
+
+Return only the label.
+--- native:
+RESEARCH TASK: RULE-SWITCHING TEST
+
+Use ONLY the following fictional classification system. Apply its rules in the stated priority order, to every case independently.
+
+RULE 1 (highest priority): Label a case STOP if its barrier is LOWERED.
+RULE 2: If Rule 1 does not apply, label the case STOP if its zebra is ACTIVE and, at the same time, its walkers is CROSSING.
+RULE 3: If Rules 1 and 2 do not apply, label the case GO if its lamp is GREEN.
+RULE 4: All remaining cases are CHECK.
+
+Every case has four fields: lamp (GREEN/AMBER), barrier (RAISED/LOWERED), walkers (CROSSING/NONE), zebra (ACTIVE/INACTIVE). The field values are the entire available evidence. There are no additional exceptions.
+
+IMPORTANT UPDATE (applies to the TEST case below): Rule 2 has been changed. New RULE 2: If Rule 1 does not apply, label the case STOP if its zebra is ACTIVE and, at the same time, its walkers is NONE. All other rules stay the same.
+
+Classify the TEST case below. Do not explain. Return only its label.
+
+TEST CASE: lamp=GREEN; barrier=RAISED; walkers=CROSSING; zebra=ACTIVE
+
+Return only the label.
+seed 12345: items 1680 (change_0 120) mismatches {'arm': 0, 'set': 0, 'probe': 0, 'keypos': 0, 'oldpos': 0, 'skeleton': 0, 'hist': 0, 'order': 0, 'labidx': 0, 'collide_set': 0} | fictional prompts with road nouns 0 | fictional sets with any road-like word 26/30, with STOP/HALT label 8
+seed 777: items 1680 (change_0 120) mismatches {'arm': 0, 'set': 0, 'probe': 0, 'keypos': 0, 'oldpos': 0, 'skeleton': 0, 'hist': 0, 'order': 0, 'labidx': 0, 'collide_set': 0} | fictional prompts with road nouns 0 | fictional sets with any road-like word 29/30, with STOP/HALT label 8
+seed 778: items 1680 (change_0 120) mismatches {'arm': 0, 'set': 0, 'probe': 0, 'keypos': 0, 'oldpos': 0, 'skeleton': 0, 'hist': 0, 'order': 0, 'labidx': 0, 'collide_set': 0} | fictional prompts with road nouns 0 | fictional sets with any road-like word 29/30, with STOP/HALT label 12
+seed 779: items 1680 (change_0 120) mismatches {'arm': 0, 'set': 0, 'probe': 0, 'keypos': 0, 'oldpos': 0, 'skeleton': 0, 'hist': 0, 'order': 0, 'labidx': 0, 'collide_set': 0} | fictional prompts with road nouns 0 | fictional sets with any road-like word 28/30, with STOP/HALT label 9

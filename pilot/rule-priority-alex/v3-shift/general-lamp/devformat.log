@@ -1,0 +1,38 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-sSc57DOOllgnr7BI6TUD8h
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/general-lamp/mod
+│   al_gl.py
+├── ✓ Created Function analyze.
+└── ✓ Created Function collect.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   8%|▊         | 46/579 [00:00<00:01, 332.71it/s]
+[1ALoading weights:  14%|█▍        | 80/579 [00:00<00:02, 224.93it/s]
+[1ALoading weights:  18%|█▊        | 104/579 [00:00<00:02, 219.81it/s]
+[1ALoading weights:  24%|██▍       | 140/579 [00:00<00:01, 260.33it/s]
+[1ALoading weights:  29%|██▉       | 169/579 [00:00<00:01, 262.48it/s]
+[1ALoading weights:  34%|███▍      | 197/579 [00:00<00:01, 263.83it/s]
+[1ALoading weights:  39%|███▊      | 224/579 [00:00<00:01, 227.83it/s]
+[1ALoading weights:  45%|████▍     | 260/579 [00:01<00:01, 257.69it/s]
+[1ALoading weights:  50%|████▉     | 287/579 [00:01<00:01, 251.45it/s]
+[1ALoading weights:  54%|█████▍    | 313/579 [00:01<00:01, 241.42it/s]
+[1ALoading weights:  58%|█████▊    | 338/579 [00:01<00:01, 238.71it/s]
+[1ALoading weights:  63%|██████▎   | 363/579 [00:01<00:00, 216.39it/s]
+[1ALoading weights:  67%|██████▋   | 386/579 [00:01<00:00, 212.00it/s]
+[1ALoading weights:  70%|███████   | 408/579 [00:01<00:00, 200.01it/s]
+[1ALoading weights:  75%|███████▍  | 433/579 [00:01<00:00, 188.24it/s]
+[1ALoading weights:  80%|████████  | 465/579 [00:02<00:00, 209.20it/s]
+[1ALoading weights:  85%|████████▍ | 491/579 [00:02<00:00, 213.17it/s]
+[1ALoading weights:  90%|████████▉ | 521/579 [00:02<00:00, 230.24it/s]
+[1ALoading weights:  95%|█████████▍| 548/579 [00:02<00:00, 236.48it/s]
+[1ALoading weights:  99%|█████████▉| 572/579 [00:02<00:00, 231.00it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 234.30it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+devformat F1 done
+devformat F2 done
+devformat F3 done
+{"devformat": true, "median_mass": {"F1": {"P-redefine": 0.9999418647572162, "P-neqa": 1.0000000000389373, "P-quote": 6.323736152227898e-12}, "F2": {"P-redefine": 1.000000000000056, "P-neqa": 0.9952367025448032, "P-quote": 5.435662590221314e-13}, "F3": {"P-redefine": 0.38547455517162676, "P-neqa": 0.99992584751409, "P-quote": 1.000000000000785}}, "share_ge_05": {"F1": {"P-redefine": 0.8222222222222222, "P-neqa": 1.0, "P-quote": 0.06666666666666667}, "F2": {"P-redefine": 0.8444444444444444, "P-neqa": 0.9, "P-quote": 0.0}, "F3": {"P-redefine": 0.28888888888888886, "P-neqa": 1.0, "P-quote": 1.0}}, "chosen": "F3", "n": {"P-redefine": 90, "P-neqa": 30, "P-quote": 30}}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-sSc57DOOllgnr7BI6TUD8h

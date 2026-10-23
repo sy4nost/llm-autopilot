@@ -1,0 +1,8645 @@
+{
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "answers": [
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "DRIVE",
+    "CAUTION",
+    "CAUTION",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "DRIVE",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "CAUTION",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "STOP",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "PROCEED",
+    "SLOW",
+    "PROCEED",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "CHECK",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "HALT",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "STOP",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "fresh",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "HALT",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "CAUTION",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "change_0",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "GO",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "STOP",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "SLOW",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "HALT",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "CAUTION",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "STOP",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "CAUTION",
+    "STOP",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "CHECK",
+    "BRAKE",
+    "CHECK",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "GO",
+    "BRAKE",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "HALT",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "STOP",
+    "DRIVE",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "DRIVE",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "PROCEED",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BRAKE",
+   "samples": [
+    "BRAKE",
+    "BRAKE",
+    "BRAKE",
+    "BRAKE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "CHECK",
+    "STOP",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "STOP",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "STOP",
+    "GO",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "CHECK",
+    "STOP",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "CHECK",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "STOP",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "DRIVE",
+   "samples": [
+    "DRIVE",
+    "DRIVE",
+    "DRIVE",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "DRIVE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "DRIVE",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "HALT",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "SLOW",
+   "samples": [
+    "SLOW",
+    "SLOW",
+    "SLOW",
+    "SLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CAUTION",
+   "samples": [
+    "CAUTION",
+    "CAUTION",
+    "CAUTION",
+    "CAUTION"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  }
+ ]
+}

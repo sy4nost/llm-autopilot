@@ -1,0 +1,71 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-EDBxLwC7MBu3vrPUNC8JkV
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/watch_public/mod
+│   al_pub_watch.py
+└── ✓ Created Function run.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   5%|▌         | 31/579 [00:00<00:01, 274.72it/s]
+[1ALoading weights:  11%|█         | 64/579 [00:00<00:01, 278.67it/s]
+[1ALoading weights:  16%|█▌        | 92/579 [00:00<00:01, 258.57it/s]
+[1ALoading weights:  20%|██        | 118/579 [00:00<00:02, 214.43it/s]
+[1ALoading weights:  26%|██▌       | 150/579 [00:00<00:01, 230.92it/s]
+[1ALoading weights:  30%|███       | 174/579 [00:00<00:02, 191.82it/s]
+[1ALoading weights:  34%|███▎      | 195/579 [00:00<00:02, 171.64it/s]
+[1ALoading weights:  41%|████      | 236/579 [00:01<00:01, 225.85it/s]
+[1ALoading weights:  45%|████▌     | 261/579 [00:01<00:01, 202.78it/s]
+[1ALoading weights:  49%|████▉     | 286/579 [00:01<00:01, 209.59it/s]
+[1ALoading weights:  56%|█████▋    | 327/579 [00:01<00:00, 259.58it/s]
+[1ALoading weights:  61%|██████▏   | 355/579 [00:01<00:00, 228.63it/s]
+[1ALoading weights:  66%|██████▌   | 380/579 [00:01<00:00, 229.77it/s]
+[1ALoading weights:  71%|███████   | 411/579 [00:01<00:00, 236.20it/s]
+[1ALoading weights:  75%|███████▌  | 436/579 [00:01<00:00, 228.35it/s]
+[1ALoading weights:  79%|███████▉  | 460/579 [00:02<00:00, 197.50it/s]
+[1ALoading weights:  83%|████████▎ | 481/579 [00:02<00:00, 185.21it/s]
+[1ALoading weights:  87%|████████▋ | 506/579 [00:02<00:00, 200.37it/s]
+[1ALoading weights:  96%|█████████▌| 556/579 [00:02<00:00, 266.86it/s]
+[1ALoading weights: 100%|██████████| 579/579 [00:02<00:00, 231.81it/s]
+pubwatch 50 / 1815
+pubwatch 100 / 1815
+pubwatch 150 / 1815
+pubwatch 200 / 1815
+pubwatch 250 / 1815
+pubwatch 300 / 1815
+pubwatch 350 / 1815
+pubwatch 400 / 1815
+pubwatch 450 / 1815
+pubwatch 500 / 1815
+pubwatch 550 / 1815
+pubwatch 600 / 1815
+pubwatch 650 / 1815
+pubwatch 700 / 1815
+pubwatch 750 / 1815
+pubwatch 800 / 1815
+pubwatch 850 / 1815
+pubwatch 900 / 1815
+pubwatch 950 / 1815
+pubwatch 1000 / 1815
+pubwatch 1050 / 1815
+pubwatch 1100 / 1815
+pubwatch 1150 / 1815
+pubwatch 1200 / 1815
+pubwatch 1250 / 1815
+pubwatch 1300 / 1815
+pubwatch 1350 / 1815
+pubwatch 1400 / 1815
+pubwatch 1450 / 1815
+pubwatch 1500 / 1815
+pubwatch 1550 / 1815
+pubwatch 1600 / 1815
+pubwatch 1650 / 1815
+pubwatch 1700 / 1815
+pubwatch 1750 / 1815
+pubwatch 1800 / 1815
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/watch_public/pubwatch_Qwen2.5-14B-Instruct.jsonl
+Stopping app - local entrypoint completed.
+Runner terminated.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-EDBxLwC7MBu3vrPUNC8JkV

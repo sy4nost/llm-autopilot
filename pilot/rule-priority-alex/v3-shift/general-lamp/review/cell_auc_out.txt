@@ -1,0 +1,22 @@
+C-rule     n= 480 expected positives=  125 negatives=  355  cell-only AUC=0.874
+P-native   n= 120 expected positives=   49 negatives=   71  cell-only AUC=0.920
+C-parcels  n= 320 expected positives=   67 negatives=  253  cell-only AUC=0.978
+C-bonus    n= 320 expected positives=   74 negatives=  246  cell-only AUC=0.981
+--- restricted to trap situations (the target the public families use)
+C-rule     expected positives=  125 negatives=  235  cell-only AUC=0.809
+P-native   expected positives=   49 negatives=   71  cell-only AUC=0.920
+C-parcels  expected positives=   67 negatives=   53  cell-only AUC=0.897
+C-bonus    expected positives=   74 negatives=   46  cell-only AUC=0.900
+--- public, errors expected at earlier accuracy (n=200 sample in public/)
+redefine-math     n= 200 expected errors=   62
+redefine-math     n= 300 expected errors=   93
+redefine-math     n= 500 expected errors=  155
+redefine-math     n= 900 expected errors=  279
+quote-repetition  n= 200 expected errors=   28
+quote-repetition  n= 300 expected errors=   42
+quote-repetition  n= 500 expected errors=   70
+quote-repetition  n= 900 expected errors=  126
+NeQA              n= 200 expected errors=   77
+NeQA              n= 300 expected errors=  116
+NeQA              n= 500 expected errors=  192
+NeQA              n= 900 expected errors=  346

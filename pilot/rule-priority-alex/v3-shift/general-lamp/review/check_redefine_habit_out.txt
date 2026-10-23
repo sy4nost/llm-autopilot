@@ -1,0 +1,5 @@
+('e', True, False) 100
+('pi', True, False) 300
+('view+', True, False) 200
+('view+num', True, False) 100
+('view÷', True, False) 200

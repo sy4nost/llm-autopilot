@@ -1,0 +1,68 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-3AqgBs0QLHkSkXOxj33ZQg
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/general-lamp/mod
+│   al_gl.py
+├── ✓ Created Function collect.
+└── ✓ Created Function analyze.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   2%|▏         | 10/579 [00:00<00:06, 89.00it/s]
+[1ALoading weights:  10%|█         | 58/579 [00:00<00:01, 305.98it/s]
+[1ALoading weights:  19%|█▊        | 108/579 [00:00<00:01, 391.85it/s]
+[1ALoading weights:  26%|██▌       | 148/579 [00:00<00:01, 318.19it/s]
+[1ALoading weights:  31%|███▏      | 182/579 [00:00<00:01, 308.26it/s]
+[1ALoading weights:  37%|███▋      | 215/579 [00:00<00:01, 219.84it/s]
+[1ALoading weights:  44%|████▍     | 254/579 [00:00<00:01, 254.62it/s]
+[1ALoading weights:  49%|████▉     | 284/579 [00:01<00:01, 249.07it/s]
+[1ALoading weights:  54%|█████▍    | 312/579 [00:01<00:01, 222.36it/s]
+[1ALoading weights:  58%|█████▊    | 337/579 [00:01<00:01, 205.00it/s]
+[1ALoading weights:  64%|██████▎   | 368/579 [00:01<00:00, 223.45it/s]
+[1ALoading weights:  68%|██████▊   | 392/579 [00:01<00:00, 206.81it/s]
+[1ALoading weights:  73%|███████▎  | 425/579 [00:01<00:00, 236.22it/s]
+[1ALoading weights:  79%|███████▉  | 458/579 [00:01<00:00, 255.88it/s]
+[1ALoading weights:  84%|████████▍ | 485/579 [00:01<00:00, 250.61it/s]
+[1ALoading weights:  88%|████████▊ | 511/579 [00:02<00:00, 239.85it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 270.22it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+collect 100 / 302
+collect 200 / 302
+collect 300 / 302
+checks: {'checks': {'cache_check_max_diff_top': 0.10186056604385374, 'multi_token_options_checked': 11}, 'n_rows': 242, 'n_items': 302}
+## Families after filters (option mass >= 0.5, validity)
+  C-bonus     scored    16  kept    15  habit errors     5  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  C-parcels   scored    16  kept    16  habit errors     8  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  C-rule      scored    36  kept    36  habit errors    15  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  P-native    scored    24  kept    24  habit errors    11  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  P-neqa      scored    30  kept    29  habit errors     7  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  P-quote     scored    30  kept    30  habit errors     0  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  P-redefine  scored    30  kept    26  habit errors    10  in qualifying cells: pos 10 neg 16  informative False  cells 1
+  mmlu        scored    60  kept    60  habit errors    14  in qualifying cells: pos 14 neg 46  informative False  cells 1
+
+## B4 generic-error probe (MMLU): layer 44, CV AUC by layer {"8": 0.212, "12": 0.135, "16": 0.24, "20": 0.279, "24": 0.115, "28": 0.346, "32": 0.337, "36": 0.625, "40": 0.654, "44": 0.692}
+  held-out MMLU AUC 0.570  (validity needs >= 0.65) -> WEAK (criterion 2 still applied)
+
+######## C->P: train ['C-rule', 'C-parcels', 'C-bonus'] -> test ['P-redefine', 'P-neqa', 'P-quote']
+  layer chosen 8 by fallback-5fold; held-out-family AUC by layer {"8": NaN, "12": NaN, "16": NaN, "20": NaN, "24": NaN, "28": NaN, "32": NaN, "36": NaN, "40": NaN, "44": NaN}
+  B1 sign fitted on training: fires at SMALL margin
+  family       n_pos  n_neg  inform.            lamp              B1              B2              B3              B4  lamp_uncentred
+  P-redefine      10     16    False           0.606           0.481           0.744           0.588           0.531           0.562
+  P-neqa           0      0    False             nan             nan             nan             nan             nan             nan
+  P-quote          0      0    False             nan             nan             nan             nan             nan             nan
+  informative test families []: fewer than 2 -> C->P NON-INFORMATIVE
+
+######## P->C: train ['P-redefine', 'P-quote'] -> test ['C-rule', 'C-parcels', 'C-bonus', 'P-neqa']
+  P-quote not informative as a training family -> P->C NON-INFORMATIVE (pre-registered)
+
+######## [report] C-families -> P-native (structural twin of C-rule)
+  layer 8: within-cell AUC nan (pos 0, neg 0, informative False); B1 margin nan
+  trap-situation probe on P-redefine: within-cell AUC for habit errors 0.556
+  trap-situation probe on P-neqa: within-cell AUC for habit errors nan
+  trap-situation probe on P-quote: within-cell AUC for habit errors nan
+
+######## PRE-REGISTERED VERDICT
+  C->P: non-informative | P->C: non-informative | OVERALL: NON-INFORMATIVE (not enough data in the main direction; no conclusion about the signal)
+wrote report_smoke.txt scores_smoke.json
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-3AqgBs0QLHkSkXOxj33ZQg

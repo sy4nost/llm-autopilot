@@ -1,0 +1,2402 @@
+[
+{
+"id": "cap0",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of France is Paris, a city known for its museums and markets.\nQuestion: What is the capital of France?\nAnswer with just the answer.",
+"cands": [
+"Paris",
+"Hanoi"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap0",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of France is Hanoi, a city known for its museums and markets.\nQuestion: What is the capital of France?\nAnswer with just the answer.",
+"cands": [
+"Hanoi",
+"Paris"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap1",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Germany is Berlin, a city known for its museums and markets.\nQuestion: What is the capital of Germany?\nAnswer with just the answer.",
+"cands": [
+"Berlin",
+"Santiago"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap1",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Germany is Santiago, a city known for its museums and markets.\nQuestion: What is the capital of Germany?\nAnswer with just the answer.",
+"cands": [
+"Santiago",
+"Berlin"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap2",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Italy is Rome, a city known for its museums and markets.\nQuestion: What is the capital of Italy?\nAnswer with just the answer.",
+"cands": [
+"Rome",
+"Madrid"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap2",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Italy is Madrid, a city known for its museums and markets.\nQuestion: What is the capital of Italy?\nAnswer with just the answer.",
+"cands": [
+"Madrid",
+"Rome"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap3",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Spain is Madrid, a city known for its museums and markets.\nQuestion: What is the capital of Spain?\nAnswer with just the answer.",
+"cands": [
+"Madrid",
+"Helsinki"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap3",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Spain is Helsinki, a city known for its museums and markets.\nQuestion: What is the capital of Spain?\nAnswer with just the answer.",
+"cands": [
+"Helsinki",
+"Madrid"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap4",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Japan is Tokyo, a city known for its museums and markets.\nQuestion: What is the capital of Japan?\nAnswer with just the answer.",
+"cands": [
+"Tokyo",
+"Brussels"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap4",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Japan is Brussels, a city known for its museums and markets.\nQuestion: What is the capital of Japan?\nAnswer with just the answer.",
+"cands": [
+"Brussels",
+"Tokyo"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap5",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of China is Beijing, a city known for its museums and markets.\nQuestion: What is the capital of China?\nAnswer with just the answer.",
+"cands": [
+"Beijing",
+"Copenhagen"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap5",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of China is Copenhagen, a city known for its museums and markets.\nQuestion: What is the capital of China?\nAnswer with just the answer.",
+"cands": [
+"Copenhagen",
+"Beijing"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap6",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Russia is Moscow, a city known for its museums and markets.\nQuestion: What is the capital of Russia?\nAnswer with just the answer.",
+"cands": [
+"Moscow",
+"Lima"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap6",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Russia is Lima, a city known for its museums and markets.\nQuestion: What is the capital of Russia?\nAnswer with just the answer.",
+"cands": [
+"Lima",
+"Moscow"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap7",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Egypt is Cairo, a city known for its museums and markets.\nQuestion: What is the capital of Egypt?\nAnswer with just the answer.",
+"cands": [
+"Cairo",
+"Budapest"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap7",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Egypt is Budapest, a city known for its museums and markets.\nQuestion: What is the capital of Egypt?\nAnswer with just the answer.",
+"cands": [
+"Budapest",
+"Cairo"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap8",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Canada is Ottawa, a city known for its museums and markets.\nQuestion: What is the capital of Canada?\nAnswer with just the answer.",
+"cands": [
+"Ottawa",
+"Baghdad"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap8",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Canada is Baghdad, a city known for its museums and markets.\nQuestion: What is the capital of Canada?\nAnswer with just the answer.",
+"cands": [
+"Baghdad",
+"Ottawa"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap9",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Australia is Canberra, a city known for its museums and markets.\nQuestion: What is the capital of Australia?\nAnswer with just the answer.",
+"cands": [
+"Canberra",
+"New Delhi"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap9",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Australia is New Delhi, a city known for its museums and markets.\nQuestion: What is the capital of Australia?\nAnswer with just the answer.",
+"cands": [
+"New Delhi",
+"Canberra"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap10",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Brazil is Brasilia, a city known for its museums and markets.\nQuestion: What is the capital of Brazil?\nAnswer with just the answer.",
+"cands": [
+"Brasilia",
+"Jakarta"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap10",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Brazil is Jakarta, a city known for its museums and markets.\nQuestion: What is the capital of Brazil?\nAnswer with just the answer.",
+"cands": [
+"Jakarta",
+"Brasilia"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap11",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Argentina is Buenos Aires, a city known for its museums and markets.\nQuestion: What is the capital of Argentina?\nAnswer with just the answer.",
+"cands": [
+"Buenos Aires",
+"Lisbon"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap11",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Argentina is Lisbon, a city known for its museums and markets.\nQuestion: What is the capital of Argentina?\nAnswer with just the answer.",
+"cands": [
+"Lisbon",
+"Buenos Aires"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap12",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Kenya is Nairobi, a city known for its museums and markets.\nQuestion: What is the capital of Kenya?\nAnswer with just the answer.",
+"cands": [
+"Nairobi",
+"Brussels"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap12",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Kenya is Brussels, a city known for its museums and markets.\nQuestion: What is the capital of Kenya?\nAnswer with just the answer.",
+"cands": [
+"Brussels",
+"Nairobi"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap13",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Greece is Athens, a city known for its museums and markets.\nQuestion: What is the capital of Greece?\nAnswer with just the answer.",
+"cands": [
+"Athens",
+"Ottawa"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap13",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Greece is Ottawa, a city known for its museums and markets.\nQuestion: What is the capital of Greece?\nAnswer with just the answer.",
+"cands": [
+"Ottawa",
+"Athens"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap14",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Portugal is Lisbon, a city known for its museums and markets.\nQuestion: What is the capital of Portugal?\nAnswer with just the answer.",
+"cands": [
+"Lisbon",
+"Vienna"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap14",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Portugal is Vienna, a city known for its museums and markets.\nQuestion: What is the capital of Portugal?\nAnswer with just the answer.",
+"cands": [
+"Vienna",
+"Lisbon"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap15",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Norway is Oslo, a city known for its museums and markets.\nQuestion: What is the capital of Norway?\nAnswer with just the answer.",
+"cands": [
+"Oslo",
+"Ottawa"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap15",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Norway is Ottawa, a city known for its museums and markets.\nQuestion: What is the capital of Norway?\nAnswer with just the answer.",
+"cands": [
+"Ottawa",
+"Oslo"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap16",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Sweden is Stockholm, a city known for its museums and markets.\nQuestion: What is the capital of Sweden?\nAnswer with just the answer.",
+"cands": [
+"Stockholm",
+"Moscow"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap16",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Sweden is Moscow, a city known for its museums and markets.\nQuestion: What is the capital of Sweden?\nAnswer with just the answer.",
+"cands": [
+"Moscow",
+"Stockholm"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap17",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Finland is Helsinki, a city known for its museums and markets.\nQuestion: What is the capital of Finland?\nAnswer with just the answer.",
+"cands": [
+"Helsinki",
+"Stockholm"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap17",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Finland is Stockholm, a city known for its museums and markets.\nQuestion: What is the capital of Finland?\nAnswer with just the answer.",
+"cands": [
+"Stockholm",
+"Helsinki"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap18",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Poland is Warsaw, a city known for its museums and markets.\nQuestion: What is the capital of Poland?\nAnswer with just the answer.",
+"cands": [
+"Warsaw",
+"Prague"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap18",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Poland is Prague, a city known for its museums and markets.\nQuestion: What is the capital of Poland?\nAnswer with just the answer.",
+"cands": [
+"Prague",
+"Warsaw"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap19",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Austria is Vienna, a city known for its museums and markets.\nQuestion: What is the capital of Austria?\nAnswer with just the answer.",
+"cands": [
+"Vienna",
+"Bogota"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap19",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Austria is Bogota, a city known for its museums and markets.\nQuestion: What is the capital of Austria?\nAnswer with just the answer.",
+"cands": [
+"Bogota",
+"Vienna"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap20",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Hungary is Budapest, a city known for its museums and markets.\nQuestion: What is the capital of Hungary?\nAnswer with just the answer.",
+"cands": [
+"Budapest",
+"Canberra"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap20",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Hungary is Canberra, a city known for its museums and markets.\nQuestion: What is the capital of Hungary?\nAnswer with just the answer.",
+"cands": [
+"Canberra",
+"Budapest"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap21",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Ireland is Dublin, a city known for its museums and markets.\nQuestion: What is the capital of Ireland?\nAnswer with just the answer.",
+"cands": [
+"Dublin",
+"Vienna"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap21",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Ireland is Vienna, a city known for its museums and markets.\nQuestion: What is the capital of Ireland?\nAnswer with just the answer.",
+"cands": [
+"Vienna",
+"Dublin"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap22",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Turkey is Ankara, a city known for its museums and markets.\nQuestion: What is the capital of Turkey?\nAnswer with just the answer.",
+"cands": [
+"Ankara",
+"Moscow"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap22",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Turkey is Moscow, a city known for its museums and markets.\nQuestion: What is the capital of Turkey?\nAnswer with just the answer.",
+"cands": [
+"Moscow",
+"Ankara"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap23",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of India is New Delhi, a city known for its museums and markets.\nQuestion: What is the capital of India?\nAnswer with just the answer.",
+"cands": [
+"New Delhi",
+"Tokyo"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap23",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of India is Tokyo, a city known for its museums and markets.\nQuestion: What is the capital of India?\nAnswer with just the answer.",
+"cands": [
+"Tokyo",
+"New Delhi"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap24",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Thailand is Bangkok, a city known for its museums and markets.\nQuestion: What is the capital of Thailand?\nAnswer with just the answer.",
+"cands": [
+"Bangkok",
+"Dublin"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap24",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Thailand is Dublin, a city known for its museums and markets.\nQuestion: What is the capital of Thailand?\nAnswer with just the answer.",
+"cands": [
+"Dublin",
+"Bangkok"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap25",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Vietnam is Hanoi, a city known for its museums and markets.\nQuestion: What is the capital of Vietnam?\nAnswer with just the answer.",
+"cands": [
+"Hanoi",
+"Baghdad"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap25",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Vietnam is Baghdad, a city known for its museums and markets.\nQuestion: What is the capital of Vietnam?\nAnswer with just the answer.",
+"cands": [
+"Baghdad",
+"Hanoi"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap26",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Peru is Lima, a city known for its museums and markets.\nQuestion: What is the capital of Peru?\nAnswer with just the answer.",
+"cands": [
+"Lima",
+"Kyiv"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap26",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Peru is Kyiv, a city known for its museums and markets.\nQuestion: What is the capital of Peru?\nAnswer with just the answer.",
+"cands": [
+"Kyiv",
+"Lima"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap27",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Chile is Santiago, a city known for its museums and markets.\nQuestion: What is the capital of Chile?\nAnswer with just the answer.",
+"cands": [
+"Santiago",
+"Moscow"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap27",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Chile is Moscow, a city known for its museums and markets.\nQuestion: What is the capital of Chile?\nAnswer with just the answer.",
+"cands": [
+"Moscow",
+"Santiago"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap28",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Mexico is Mexico City, a city known for its museums and markets.\nQuestion: What is the capital of Mexico?\nAnswer with just the answer.",
+"cands": [
+"Mexico City",
+"Ankara"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap28",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Mexico is Ankara, a city known for its museums and markets.\nQuestion: What is the capital of Mexico?\nAnswer with just the answer.",
+"cands": [
+"Ankara",
+"Mexico City"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap29",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Cuba is Havana, a city known for its museums and markets.\nQuestion: What is the capital of Cuba?\nAnswer with just the answer.",
+"cands": [
+"Havana",
+"Santiago"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap29",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Cuba is Santiago, a city known for its museums and markets.\nQuestion: What is the capital of Cuba?\nAnswer with just the answer.",
+"cands": [
+"Santiago",
+"Havana"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap30",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Iran is Tehran, a city known for its museums and markets.\nQuestion: What is the capital of Iran?\nAnswer with just the answer.",
+"cands": [
+"Tehran",
+"Budapest"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap30",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Iran is Budapest, a city known for its museums and markets.\nQuestion: What is the capital of Iran?\nAnswer with just the answer.",
+"cands": [
+"Budapest",
+"Tehran"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap31",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Iraq is Baghdad, a city known for its museums and markets.\nQuestion: What is the capital of Iraq?\nAnswer with just the answer.",
+"cands": [
+"Baghdad",
+"Athens"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap31",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Iraq is Athens, a city known for its museums and markets.\nQuestion: What is the capital of Iraq?\nAnswer with just the answer.",
+"cands": [
+"Athens",
+"Baghdad"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap32",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Denmark is Copenhagen, a city known for its museums and markets.\nQuestion: What is the capital of Denmark?\nAnswer with just the answer.",
+"cands": [
+"Copenhagen",
+"Kyiv"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap32",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Denmark is Kyiv, a city known for its museums and markets.\nQuestion: What is the capital of Denmark?\nAnswer with just the answer.",
+"cands": [
+"Kyiv",
+"Copenhagen"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap33",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Belgium is Brussels, a city known for its museums and markets.\nQuestion: What is the capital of Belgium?\nAnswer with just the answer.",
+"cands": [
+"Brussels",
+"Tehran"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap33",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Belgium is Tehran, a city known for its museums and markets.\nQuestion: What is the capital of Belgium?\nAnswer with just the answer.",
+"cands": [
+"Tehran",
+"Brussels"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap34",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Netherlands is Amsterdam, a city known for its museums and markets.\nQuestion: What is the capital of Netherlands?\nAnswer with just the answer.",
+"cands": [
+"Amsterdam",
+"Mexico City"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap34",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Netherlands is Mexico City, a city known for its museums and markets.\nQuestion: What is the capital of Netherlands?\nAnswer with just the answer.",
+"cands": [
+"Mexico City",
+"Amsterdam"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap35",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Czech Republic is Prague, a city known for its museums and markets.\nQuestion: What is the capital of Czech Republic?\nAnswer with just the answer.",
+"cands": [
+"Prague",
+"Brussels"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap35",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Czech Republic is Brussels, a city known for its museums and markets.\nQuestion: What is the capital of Czech Republic?\nAnswer with just the answer.",
+"cands": [
+"Brussels",
+"Prague"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap36",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Ukraine is Kyiv, a city known for its museums and markets.\nQuestion: What is the capital of Ukraine?\nAnswer with just the answer.",
+"cands": [
+"Kyiv",
+"Stockholm"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap36",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Ukraine is Stockholm, a city known for its museums and markets.\nQuestion: What is the capital of Ukraine?\nAnswer with just the answer.",
+"cands": [
+"Stockholm",
+"Kyiv"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap37",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of South Korea is Seoul, a city known for its museums and markets.\nQuestion: What is the capital of South Korea?\nAnswer with just the answer.",
+"cands": [
+"Seoul",
+"Madrid"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap37",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of South Korea is Madrid, a city known for its museums and markets.\nQuestion: What is the capital of South Korea?\nAnswer with just the answer.",
+"cands": [
+"Madrid",
+"Seoul"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap38",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Indonesia is Jakarta, a city known for its museums and markets.\nQuestion: What is the capital of Indonesia?\nAnswer with just the answer.",
+"cands": [
+"Jakarta",
+"Prague"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap38",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Indonesia is Prague, a city known for its museums and markets.\nQuestion: What is the capital of Indonesia?\nAnswer with just the answer.",
+"cands": [
+"Prague",
+"Jakarta"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "cap39",
+"kind": "cap",
+"version": "consistent",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Colombia is Bogota, a city known for its museums and markets.\nQuestion: What is the capital of Colombia?\nAnswer with just the answer.",
+"cands": [
+"Bogota",
+"Paris"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "cap39",
+"kind": "cap",
+"version": "conflict",
+"prompt": "Passage: Travel guide, page 12. Many visitors start their trip in the capital. The capital of Colombia is Paris, a city known for its museums and markets.\nQuestion: What is the capital of Colombia?\nAnswer with just the answer.",
+"cands": [
+"Paris",
+"Bogota"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el0",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for gold is Au.\nQuestion: What is the chemical symbol for gold?\nAnswer with just the answer.",
+"cands": [
+"Au",
+"Na"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el0",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for gold is Na.\nQuestion: What is the chemical symbol for gold?\nAnswer with just the answer.",
+"cands": [
+"Na",
+"Au"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el1",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for silver is Ag.\nQuestion: What is the chemical symbol for silver?\nAnswer with just the answer.",
+"cands": [
+"Ag",
+"He"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el1",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for silver is He.\nQuestion: What is the chemical symbol for silver?\nAnswer with just the answer.",
+"cands": [
+"He",
+"Ag"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el2",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for iron is Fe.\nQuestion: What is the chemical symbol for iron?\nAnswer with just the answer.",
+"cands": [
+"Fe",
+"Au"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el2",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for iron is Au.\nQuestion: What is the chemical symbol for iron?\nAnswer with just the answer.",
+"cands": [
+"Au",
+"Fe"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el3",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for sodium is Na.\nQuestion: What is the chemical symbol for sodium?\nAnswer with just the answer.",
+"cands": [
+"Na",
+"Cl"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el3",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for sodium is Cl.\nQuestion: What is the chemical symbol for sodium?\nAnswer with just the answer.",
+"cands": [
+"Cl",
+"Na"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el4",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for potassium is K.\nQuestion: What is the chemical symbol for potassium?\nAnswer with just the answer.",
+"cands": [
+"K",
+"C"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el4",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for potassium is C.\nQuestion: What is the chemical symbol for potassium?\nAnswer with just the answer.",
+"cands": [
+"C",
+"K"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el5",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for lead is Pb.\nQuestion: What is the chemical symbol for lead?\nAnswer with just the answer.",
+"cands": [
+"Pb",
+"Hg"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el5",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for lead is Hg.\nQuestion: What is the chemical symbol for lead?\nAnswer with just the answer.",
+"cands": [
+"Hg",
+"Pb"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el6",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for copper is Cu.\nQuestion: What is the chemical symbol for copper?\nAnswer with just the answer.",
+"cands": [
+"Cu",
+"C"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el6",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for copper is C.\nQuestion: What is the chemical symbol for copper?\nAnswer with just the answer.",
+"cands": [
+"C",
+"Cu"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el7",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for tin is Sn.\nQuestion: What is the chemical symbol for tin?\nAnswer with just the answer.",
+"cands": [
+"Sn",
+"Fe"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el7",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for tin is Fe.\nQuestion: What is the chemical symbol for tin?\nAnswer with just the answer.",
+"cands": [
+"Fe",
+"Sn"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el8",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for mercury is Hg.\nQuestion: What is the chemical symbol for mercury?\nAnswer with just the answer.",
+"cands": [
+"Hg",
+"Cu"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el8",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for mercury is Cu.\nQuestion: What is the chemical symbol for mercury?\nAnswer with just the answer.",
+"cands": [
+"Cu",
+"Hg"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el9",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for oxygen is O.\nQuestion: What is the chemical symbol for oxygen?\nAnswer with just the answer.",
+"cands": [
+"O",
+"U"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el9",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for oxygen is U.\nQuestion: What is the chemical symbol for oxygen?\nAnswer with just the answer.",
+"cands": [
+"U",
+"O"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el10",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for hydrogen is H.\nQuestion: What is the chemical symbol for hydrogen?\nAnswer with just the answer.",
+"cands": [
+"H",
+"Sn"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el10",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for hydrogen is Sn.\nQuestion: What is the chemical symbol for hydrogen?\nAnswer with just the answer.",
+"cands": [
+"Sn",
+"H"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el11",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for carbon is C.\nQuestion: What is the chemical symbol for carbon?\nAnswer with just the answer.",
+"cands": [
+"C",
+"Sn"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el11",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for carbon is Sn.\nQuestion: What is the chemical symbol for carbon?\nAnswer with just the answer.",
+"cands": [
+"Sn",
+"C"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el12",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for nitrogen is N.\nQuestion: What is the chemical symbol for nitrogen?\nAnswer with just the answer.",
+"cands": [
+"N",
+"K"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el12",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for nitrogen is K.\nQuestion: What is the chemical symbol for nitrogen?\nAnswer with just the answer.",
+"cands": [
+"K",
+"N"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el13",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for helium is He.\nQuestion: What is the chemical symbol for helium?\nAnswer with just the answer.",
+"cands": [
+"He",
+"S"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el13",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for helium is S.\nQuestion: What is the chemical symbol for helium?\nAnswer with just the answer.",
+"cands": [
+"S",
+"He"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el14",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for calcium is Ca.\nQuestion: What is the chemical symbol for calcium?\nAnswer with just the answer.",
+"cands": [
+"Ca",
+"Zn"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el14",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for calcium is Zn.\nQuestion: What is the chemical symbol for calcium?\nAnswer with just the answer.",
+"cands": [
+"Zn",
+"Ca"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el15",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for zinc is Zn.\nQuestion: What is the chemical symbol for zinc?\nAnswer with just the answer.",
+"cands": [
+"Zn",
+"Fe"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el15",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for zinc is Fe.\nQuestion: What is the chemical symbol for zinc?\nAnswer with just the answer.",
+"cands": [
+"Fe",
+"Zn"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el16",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for chlorine is Cl.\nQuestion: What is the chemical symbol for chlorine?\nAnswer with just the answer.",
+"cands": [
+"Cl",
+"Fe"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el16",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for chlorine is Fe.\nQuestion: What is the chemical symbol for chlorine?\nAnswer with just the answer.",
+"cands": [
+"Fe",
+"Cl"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el17",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for neon is Ne.\nQuestion: What is the chemical symbol for neon?\nAnswer with just the answer.",
+"cands": [
+"Ne",
+"H"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el17",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for neon is H.\nQuestion: What is the chemical symbol for neon?\nAnswer with just the answer.",
+"cands": [
+"H",
+"Ne"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el18",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for sulfur is S.\nQuestion: What is the chemical symbol for sulfur?\nAnswer with just the answer.",
+"cands": [
+"S",
+"Cl"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el18",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for sulfur is Cl.\nQuestion: What is the chemical symbol for sulfur?\nAnswer with just the answer.",
+"cands": [
+"Cl",
+"S"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "el19",
+"kind": "el",
+"version": "consistent",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for uranium is U.\nQuestion: What is the chemical symbol for uranium?\nAnswer with just the answer.",
+"cands": [
+"U",
+"Zn"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "el19",
+"kind": "el",
+"version": "conflict",
+"prompt": "Passage: Chemistry handout. Each element has a short symbol used in formulas. The chemical symbol for uranium is Zn.\nQuestion: What is the chemical symbol for uranium?\nAnswer with just the answer.",
+"cands": [
+"Zn",
+"U"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au0",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Hamlet was written by Shakespeare, and it is often studied in schools.\nQuestion: Who wrote Hamlet?\nAnswer with just the answer.",
+"cands": [
+"Shakespeare",
+"Cervantes"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au0",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Hamlet was written by Cervantes, and it is often studied in schools.\nQuestion: Who wrote Hamlet?\nAnswer with just the answer.",
+"cands": [
+"Cervantes",
+"Shakespeare"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au1",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play War and Peace was written by Tolstoy, and it is often studied in schools.\nQuestion: Who wrote War and Peace?\nAnswer with just the answer.",
+"cands": [
+"Tolstoy",
+"Melville"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au1",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play War and Peace was written by Melville, and it is often studied in schools.\nQuestion: Who wrote War and Peace?\nAnswer with just the answer.",
+"cands": [
+"Melville",
+"Tolstoy"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au2",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Crime and Punishment was written by Dostoevsky, and it is often studied in schools.\nQuestion: Who wrote Crime and Punishment?\nAnswer with just the answer.",
+"cands": [
+"Dostoevsky",
+"Stoker"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au2",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Crime and Punishment was written by Stoker, and it is often studied in schools.\nQuestion: Who wrote Crime and Punishment?\nAnswer with just the answer.",
+"cands": [
+"Stoker",
+"Dostoevsky"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au3",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play 1984 was written by Orwell, and it is often studied in schools.\nQuestion: Who wrote 1984?\nAnswer with just the answer.",
+"cands": [
+"Orwell",
+"Melville"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au3",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play 1984 was written by Melville, and it is often studied in schools.\nQuestion: Who wrote 1984?\nAnswer with just the answer.",
+"cands": [
+"Melville",
+"Orwell"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au4",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Don Quixote was written by Cervantes, and it is often studied in schools.\nQuestion: Who wrote Don Quixote?\nAnswer with just the answer.",
+"cands": [
+"Cervantes",
+"Orwell"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au4",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Don Quixote was written by Orwell, and it is often studied in schools.\nQuestion: Who wrote Don Quixote?\nAnswer with just the answer.",
+"cands": [
+"Orwell",
+"Cervantes"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au5",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play The Odyssey was written by Homer, and it is often studied in schools.\nQuestion: Who wrote The Odyssey?\nAnswer with just the answer.",
+"cands": [
+"Homer",
+"Stoker"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au5",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play The Odyssey was written by Stoker, and it is often studied in schools.\nQuestion: Who wrote The Odyssey?\nAnswer with just the answer.",
+"cands": [
+"Stoker",
+"Homer"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au6",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Pride and Prejudice was written by Austen, and it is often studied in schools.\nQuestion: Who wrote Pride and Prejudice?\nAnswer with just the answer.",
+"cands": [
+"Austen",
+"Hugo"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au6",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Pride and Prejudice was written by Hugo, and it is often studied in schools.\nQuestion: Who wrote Pride and Prejudice?\nAnswer with just the answer.",
+"cands": [
+"Hugo",
+"Austen"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au7",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Faust was written by Goethe, and it is often studied in schools.\nQuestion: Who wrote Faust?\nAnswer with just the answer.",
+"cands": [
+"Goethe",
+"Stoker"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au7",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Faust was written by Stoker, and it is often studied in schools.\nQuestion: Who wrote Faust?\nAnswer with just the answer.",
+"cands": [
+"Stoker",
+"Goethe"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au8",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play The Divine Comedy was written by Dante, and it is often studied in schools.\nQuestion: Who wrote The Divine Comedy?\nAnswer with just the answer.",
+"cands": [
+"Dante",
+"Austen"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au8",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play The Divine Comedy was written by Austen, and it is often studied in schools.\nQuestion: Who wrote The Divine Comedy?\nAnswer with just the answer.",
+"cands": [
+"Austen",
+"Dante"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au9",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Oliver Twist was written by Dickens, and it is often studied in schools.\nQuestion: Who wrote Oliver Twist?\nAnswer with just the answer.",
+"cands": [
+"Dickens",
+"Stoker"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au9",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Oliver Twist was written by Stoker, and it is often studied in schools.\nQuestion: Who wrote Oliver Twist?\nAnswer with just the answer.",
+"cands": [
+"Stoker",
+"Dickens"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au10",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Moby-Dick was written by Melville, and it is often studied in schools.\nQuestion: Who wrote Moby-Dick?\nAnswer with just the answer.",
+"cands": [
+"Melville",
+"Saint-Exupery"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au10",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Moby-Dick was written by Saint-Exupery, and it is often studied in schools.\nQuestion: Who wrote Moby-Dick?\nAnswer with just the answer.",
+"cands": [
+"Saint-Exupery",
+"Melville"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au11",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Les Miserables was written by Hugo, and it is often studied in schools.\nQuestion: Who wrote Les Miserables?\nAnswer with just the answer.",
+"cands": [
+"Hugo",
+"Dickens"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au11",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Les Miserables was written by Dickens, and it is often studied in schools.\nQuestion: Who wrote Les Miserables?\nAnswer with just the answer.",
+"cands": [
+"Dickens",
+"Hugo"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au12",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play The Old Man and the Sea was written by Hemingway, and it is often studied in schools.\nQuestion: Who wrote The Old Man and the Sea?\nAnswer with just the answer.",
+"cands": [
+"Hemingway",
+"Pushkin"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au12",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play The Old Man and the Sea was written by Pushkin, and it is often studied in schools.\nQuestion: Who wrote The Old Man and the Sea?\nAnswer with just the answer.",
+"cands": [
+"Pushkin",
+"Hemingway"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au13",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Ulysses was written by Joyce, and it is often studied in schools.\nQuestion: Who wrote Ulysses?\nAnswer with just the answer.",
+"cands": [
+"Joyce",
+"Dostoevsky"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au13",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Ulysses was written by Dostoevsky, and it is often studied in schools.\nQuestion: Who wrote Ulysses?\nAnswer with just the answer.",
+"cands": [
+"Dostoevsky",
+"Joyce"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au14",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play The Trial was written by Kafka, and it is often studied in schools.\nQuestion: Who wrote The Trial?\nAnswer with just the answer.",
+"cands": [
+"Kafka",
+"Hemingway"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au14",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play The Trial was written by Hemingway, and it is often studied in schools.\nQuestion: Who wrote The Trial?\nAnswer with just the answer.",
+"cands": [
+"Hemingway",
+"Kafka"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au15",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Eugene Onegin was written by Pushkin, and it is often studied in schools.\nQuestion: Who wrote Eugene Onegin?\nAnswer with just the answer.",
+"cands": [
+"Pushkin",
+"Melville"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au15",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Eugene Onegin was written by Melville, and it is often studied in schools.\nQuestion: Who wrote Eugene Onegin?\nAnswer with just the answer.",
+"cands": [
+"Melville",
+"Pushkin"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au16",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play The Seagull was written by Chekhov, and it is often studied in schools.\nQuestion: Who wrote The Seagull?\nAnswer with just the answer.",
+"cands": [
+"Chekhov",
+"Saint-Exupery"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au16",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play The Seagull was written by Saint-Exupery, and it is often studied in schools.\nQuestion: Who wrote The Seagull?\nAnswer with just the answer.",
+"cands": [
+"Saint-Exupery",
+"Chekhov"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au17",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Frankenstein was written by Shelley, and it is often studied in schools.\nQuestion: Who wrote Frankenstein?\nAnswer with just the answer.",
+"cands": [
+"Shelley",
+"Goethe"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au17",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Frankenstein was written by Goethe, and it is often studied in schools.\nQuestion: Who wrote Frankenstein?\nAnswer with just the answer.",
+"cands": [
+"Goethe",
+"Shelley"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au18",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play Dracula was written by Stoker, and it is often studied in schools.\nQuestion: Who wrote Dracula?\nAnswer with just the answer.",
+"cands": [
+"Stoker",
+"Dickens"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au18",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play Dracula was written by Dickens, and it is often studied in schools.\nQuestion: Who wrote Dracula?\nAnswer with just the answer.",
+"cands": [
+"Dickens",
+"Stoker"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "au19",
+"kind": "au",
+"version": "consistent",
+"prompt": "Passage: Library catalogue note. The novel or play The Little Prince was written by Saint-Exupery, and it is often studied in schools.\nQuestion: Who wrote The Little Prince?\nAnswer with just the answer.",
+"cands": [
+"Saint-Exupery",
+"Homer"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "au19",
+"kind": "au",
+"version": "conflict",
+"prompt": "Passage: Library catalogue note. The novel or play The Little Prince was written by Homer, and it is often studied in schools.\nQuestion: Who wrote The Little Prince?\nAnswer with just the answer.",
+"cands": [
+"Homer",
+"Saint-Exupery"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc0",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the largest planet in the Solar System is Jupiter.\nQuestion: What is the largest planet in the Solar System?\nAnswer with just the answer.",
+"cands": [
+"Jupiter",
+"da Vinci"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc0",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the largest planet in the Solar System is da Vinci.\nQuestion: What is the largest planet in the Solar System?\nAnswer with just the answer.",
+"cands": [
+"da Vinci",
+"Jupiter"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc1",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the planet closest to the Sun is Mercury.\nQuestion: What is the planet closest to the Sun?\nAnswer with just the answer.",
+"cands": [
+"Mercury",
+"Bell"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc1",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the planet closest to the Sun is Bell.\nQuestion: What is the planet closest to the Sun?\nAnswer with just the answer.",
+"cands": [
+"Bell",
+"Mercury"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc2",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the longest river in Africa is the Nile.\nQuestion: What is the longest river in Africa?\nAnswer with just the answer.",
+"cands": [
+"the Nile",
+"Mercury"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc2",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the longest river in Africa is Mercury.\nQuestion: What is the longest river in Africa?\nAnswer with just the answer.",
+"cands": [
+"Mercury",
+"the Nile"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc3",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the largest ocean is the Pacific.\nQuestion: What is the largest ocean?\nAnswer with just the answer.",
+"cands": [
+"the Pacific",
+"Fleming"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc3",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the largest ocean is Fleming.\nQuestion: What is the largest ocean?\nAnswer with just the answer.",
+"cands": [
+"Fleming",
+"the Pacific"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc4",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the tallest mountain on Earth is Everest.\nQuestion: What is the tallest mountain on Earth?\nAnswer with just the answer.",
+"cands": [
+"Everest",
+"the pound"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc4",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the tallest mountain on Earth is the pound.\nQuestion: What is the tallest mountain on Earth?\nAnswer with just the answer.",
+"cands": [
+"the pound",
+"Everest"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc5",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the largest desert in Africa is the Sahara.\nQuestion: What is the largest desert in Africa?\nAnswer with just the answer.",
+"cands": [
+"the Sahara",
+"the Nile"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc5",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the largest desert in Africa is the Nile.\nQuestion: What is the largest desert in Africa?\nAnswer with just the answer.",
+"cands": [
+"the Nile",
+"the Sahara"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc6",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the inventor of the telephone is Bell.\nQuestion: What is the inventor of the telephone?\nAnswer with just the answer.",
+"cands": [
+"Bell",
+"the Nile"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc6",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the inventor of the telephone is the Nile.\nQuestion: What is the inventor of the telephone?\nAnswer with just the answer.",
+"cands": [
+"the Nile",
+"Bell"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc7",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the painter of the Mona Lisa is da Vinci.\nQuestion: What is the painter of the Mona Lisa?\nAnswer with just the answer.",
+"cands": [
+"da Vinci",
+"Everest"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc7",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the painter of the Mona Lisa is Everest.\nQuestion: What is the painter of the Mona Lisa?\nAnswer with just the answer.",
+"cands": [
+"Everest",
+"da Vinci"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc8",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the composer of the Moonlight Sonata is Beethoven.\nQuestion: What is the composer of the Moonlight Sonata?\nAnswer with just the answer.",
+"cands": [
+"Beethoven",
+"Everest"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc8",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the composer of the Moonlight Sonata is Everest.\nQuestion: What is the composer of the Moonlight Sonata?\nAnswer with just the answer.",
+"cands": [
+"Everest",
+"Beethoven"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc9",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the discoverer of penicillin is Fleming.\nQuestion: What is the discoverer of penicillin?\nAnswer with just the answer.",
+"cands": [
+"Fleming",
+"Mercury"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc9",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the discoverer of penicillin is Mercury.\nQuestion: What is the discoverer of penicillin?\nAnswer with just the answer.",
+"cands": [
+"Mercury",
+"Fleming"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc10",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the first person to walk on the Moon is Armstrong.\nQuestion: What is the first person to walk on the Moon?\nAnswer with just the answer.",
+"cands": [
+"Armstrong",
+"the Nile"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc10",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the first person to walk on the Moon is the Nile.\nQuestion: What is the first person to walk on the Moon?\nAnswer with just the answer.",
+"cands": [
+"the Nile",
+"Armstrong"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc11",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the author of the theory of relativity is Einstein.\nQuestion: What is the author of the theory of relativity?\nAnswer with just the answer.",
+"cands": [
+"Einstein",
+"2"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc11",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the author of the theory of relativity is 2.\nQuestion: What is the author of the theory of relativity?\nAnswer with just the answer.",
+"cands": [
+"2",
+"Einstein"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc12",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the hardest natural mineral is diamond.\nQuestion: What is the hardest natural mineral?\nAnswer with just the answer.",
+"cands": [
+"diamond",
+"the blue whale"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc12",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the hardest natural mineral is the blue whale.\nQuestion: What is the hardest natural mineral?\nAnswer with just the answer.",
+"cands": [
+"the blue whale",
+"diamond"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc13",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the largest mammal is the blue whale.\nQuestion: What is the largest mammal?\nAnswer with just the answer.",
+"cands": [
+"the blue whale",
+"Portuguese"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc13",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the largest mammal is Portuguese.\nQuestion: What is the largest mammal?\nAnswer with just the answer.",
+"cands": [
+"Portuguese",
+"the blue whale"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc14",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the fastest land animal is the cheetah.\nQuestion: What is the fastest land animal?\nAnswer with just the answer.",
+"cands": [
+"the cheetah",
+"Beethoven"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc14",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the fastest land animal is Beethoven.\nQuestion: What is the fastest land animal?\nAnswer with just the answer.",
+"cands": [
+"Beethoven",
+"the cheetah"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc15",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the currency of Japan is the yen.\nQuestion: What is the currency of Japan?\nAnswer with just the answer.",
+"cands": [
+"the yen",
+"Portuguese"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc15",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the currency of Japan is Portuguese.\nQuestion: What is the currency of Japan?\nAnswer with just the answer.",
+"cands": [
+"Portuguese",
+"the yen"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc16",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the currency of the United Kingdom is the pound.\nQuestion: What is the currency of the United Kingdom?\nAnswer with just the answer.",
+"cands": [
+"the pound",
+"da Vinci"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc16",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the currency of the United Kingdom is da Vinci.\nQuestion: What is the currency of the United Kingdom?\nAnswer with just the answer.",
+"cands": [
+"da Vinci",
+"the pound"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc17",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the official language of Brazil is Portuguese.\nQuestion: What is the official language of Brazil?\nAnswer with just the answer.",
+"cands": [
+"Portuguese",
+"Bell"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc17",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the official language of Brazil is Bell.\nQuestion: What is the official language of Brazil?\nAnswer with just the answer.",
+"cands": [
+"Bell",
+"Portuguese"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc18",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the smallest prime number is 2.\nQuestion: What is the smallest prime number?\nAnswer with just the answer.",
+"cands": [
+"2",
+"7"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc18",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the smallest prime number is 7.\nQuestion: What is the smallest prime number?\nAnswer with just the answer.",
+"cands": [
+"7",
+"2"
+],
+"gold": 0,
+"memory": 1
+},
+{
+"id": "misc19",
+"kind": "misc",
+"version": "consistent",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the number of continents is 7.\nQuestion: What is the number of continents?\nAnswer with just the answer.",
+"cands": [
+"7",
+"the blue whale"
+],
+"gold": 0,
+"memory": 0
+},
+{
+"id": "misc19",
+"kind": "misc",
+"version": "conflict",
+"prompt": "Passage: Quiz notes for the school team. Remember this one: the number of continents is the blue whale.\nQuestion: What is the number of continents?\nAnswer with just the answer.",
+"cands": [
+"the blue whale",
+"7"
+],
+"gold": 0,
+"memory": 1
+}
+]

@@ -1,0 +1,44 @@
+checks: max w1 diff 0.0 | max up1 diff 0.0 (both must be 0)
+
+######## robot
+group                                n  lamp on    normal     gated  up16_all        w0    gated4  old(norm) old(gated)
+A60 trap                            40       0%      100%      100%      100%      100%      100%         0%         0%
+A60 untouched                       40       2%      100%      100%      100%      100%      100%         0%         0%
+E_nocopy trap                       40       0%      100%      100%      100%      100%      100%         0%         0%
+E_nocopy untouched                  40       2%      100%      100%      100%      100%      100%         0%         0%
+E_copy trap                         40       0%      100%      100%      100%      100%      100%         0%         0%
+E_copy untouched                    40       0%      100%      100%      100%      100%      100%         0%         0%
+N60 trap                            40       0%      100%      100%      100%      100%      100%         0%         0%
+N60 untouched                       40       2%      100%      100%      100%      100%      100%         0%         0%
+R60 trap                            40       0%      100%      100%      100%      100%      100%         0%         0%
+R60 untouched                       40       0%      100%      100%      100%      100%      100%         0%         0%
+N_same trap                         40       0%      100%      100%      100%      100%      100%         0%         0%
+N_same untouched                    40       0%      100%      100%      100%      100%      100%         0%         0%
+F0 trap                             40       0%      100%      100%      100%      100%      100%         0%         0%
+F0 untouched                        40       0%      100%      100%      100%      100%      100%         0%         0%
+
+######## points
+group                                n  lamp on    normal     gated  up16_all        w0    gated4  old(norm) old(gated)
+A60 trap                            40       0%       98%       98%       90%       98%       98%         0%         0%
+A60 untouched                       40      12%      100%      100%      100%       98%      100%         0%         0%
+E_nocopy trap                       40       2%      100%       98%       92%       98%       98%         0%         0%
+E_nocopy untouched                  40       5%       98%       98%      100%       92%       98%         0%         0%
+E_copy trap                         40       0%       98%       98%       95%       98%       98%         0%         0%
+E_copy untouched                    40       0%       98%       98%       98%       98%       98%         0%         0%
+N60 trap                            40      38%      100%      100%      100%       88%      100%         0%         0%
+N60 untouched                       40      12%      100%      100%      100%       95%      100%         0%         0%
+R60 trap                            40      32%      100%       98%       88%       98%      100%         0%         0%
+R60 untouched                       40      12%      100%      100%      100%       95%      100%         0%         0%
+N_same trap                         40       5%       98%       98%       98%      100%       98%         0%         0%
+N_same untouched                    40       0%      100%      100%      100%      100%      100%         0%         0%
+F0 trap                             40       0%      100%      100%      100%      100%      100%         0%         0%
+F0 untouched                        40       0%      100%      100%      100%      100%      100%         0%         0%
+
+######## PRE-REGISTERED VERDICT (gated vs normal, right answers, paired bootstrap over sets, 95%)
+  robot   GAIN traps A60+E_nocopy (n=80): +0% [+0%, +0%]  need >= +10% and low > 0 -> FAIL
+  robot   HARM where experience is right (n=360): +0% [+0%, +0%]  need >= -5% -> PASS
+  robot   (secondary) E_copy traps: +0% [+0%, +0%]
+  points  GAIN traps A60+E_nocopy (n=80): -1% [-4%, +0%]  need >= +10% and low > 0 -> FAIL
+  points  HARM where experience is right (n=360): -0% [-1%, +0%]  need >= -5% -> PASS
+  points  (secondary) E_copy traps: +0% [+0%, +0%]
+  OVERALL: FAIL

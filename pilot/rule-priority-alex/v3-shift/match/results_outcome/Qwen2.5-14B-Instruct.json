@@ -1,0 +1,8645 @@
+{
+ "model": "Qwen/Qwen2.5-14B-Instruct",
+ "answers": [
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "STOP",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "INSPECT",
+    "BLOCK",
+    "INSPECT",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "HOLD",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "REVIEW",
+    "HOLD",
+    "PASS",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 3,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "QUERY",
+    "KEEP",
+    "KEEP",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 8,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "AUDIT",
+    "AUDIT",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "STOP",
+    "STOP",
+    "GO",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "STOP",
+    "STOP",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "STOP",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 12,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "CHECK",
+    "STOP",
+    "CHECK",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "RELEASE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "RELEASE",
+   "samples": [
+    "RELEASE",
+    "RELEASE",
+    "RELEASE",
+    "RELEASE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 27,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "REVIEW",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "ALLOW",
+   "samples": [
+    "ALLOW",
+    "ALLOW",
+    "ALLOW",
+    "ALLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "ALLOW",
+   "samples": [
+    "ALLOW",
+    "ALLOW",
+    "ALLOW",
+    "ALLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "ALLOW",
+    "BLOCK",
+    "ALLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 28,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 25,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "CHECK",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 24,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "STOP",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 21,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "CLEAR",
+    "FREEZE",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "AUDIT",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 15,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "CLEAR",
+    "CLEAR",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "KEEP",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "BLOCK",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 7,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "RELEASE",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "CLEAR",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 1,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "AUDIT",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 11,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "HOLD",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 17,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "STOP",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "RELEASE",
+   "samples": [
+    "RELEASE",
+    "RELEASE",
+    "RELEASE",
+    "RELEASE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "RELEASE",
+   "samples": [
+    "RELEASE",
+    "RELEASE",
+    "RELEASE",
+    "RELEASE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "RELEASE",
+   "samples": [
+    "RELEASE",
+    "RELEASE",
+    "RELEASE",
+    "RELEASE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 29,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "RELEASE",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "RELEASE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 5,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "CHECK",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 19,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "ALLOW",
+   "samples": [
+    "ALLOW",
+    "ALLOW",
+    "ALLOW",
+    "ALLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 4,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "AUDIT",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "FREEZE",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 22,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 2,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "FREEZE",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 10,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "FREEZE",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 26,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "PROCEED",
+    "PROCEED",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "HALT",
+    "HALT",
+    "PROCEED",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "ALLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "INSPECT",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 20,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 9,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "STOP",
+   "samples": [
+    "STOP",
+    "STOP",
+    "STOP",
+    "STOP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "CHECK",
+   "samples": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "CHECK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 6,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "GO",
+   "samples": [
+    "GO",
+    "GO",
+    "GO",
+    "GO"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PASS",
+   "samples": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 13,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "QUERY",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "KEEP",
+   "samples": [
+    "KEEP",
+    "KEEP",
+    "KEEP",
+    "KEEP"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "QUERY",
+   "samples": [
+    "QUERY",
+    "QUERY",
+    "QUERY",
+    "QUERY"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 18,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "RELEASE",
+   "samples": [
+    "RELEASE",
+    "RELEASE",
+    "RELEASE",
+    "RELEASE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_C_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "ALLOW",
+   "samples": [
+    "ALLOW",
+    "ALLOW",
+    "ALLOW",
+    "ALLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "REVIEW",
+   "samples": [
+    "REVIEW",
+    "REVIEW",
+    "REVIEW",
+    "REVIEW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_B_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_A_nochange_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "PASS"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 0,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HOLD",
+   "samples": [
+    "HOLD",
+    "HOLD",
+    "HOLD",
+    "HOLD"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "BLOCK",
+   "samples": [
+    "BLOCK",
+    "BLOCK",
+    "BLOCK",
+    "BLOCK"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "INSPECT",
+   "samples": [
+    "INSPECT",
+    "INSPECT",
+    "INSPECT",
+    "INSPECT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 23,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "ALLOW",
+   "samples": [
+    "ALLOW",
+    "ALLOW",
+    "ALLOW",
+    "ALLOW"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "FREEZE",
+   "samples": [
+    "FREEZE",
+    "FREEZE",
+    "FREEZE",
+    "FREEZE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "CLEAR",
+   "samples": [
+    "CLEAR",
+    "CLEAR",
+    "CLEAR",
+    "CLEAR"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 16,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "AUDIT",
+   "samples": [
+    "AUDIT",
+    "AUDIT",
+    "AUDIT",
+    "AUDIT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_C_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "PROCEED",
+   "samples": [
+    "PROCEED",
+    "PROCEED",
+    "PROCEED",
+    "PROCEED"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D3"
+   ],
+   "greedy": "ESCALATE",
+   "samples": [
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE",
+    "ESCALATE"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D1"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_B_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D4"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  },
+  {
+   "level": "S",
+   "set": 14,
+   "arm": "nt3_A_change_60",
+   "fmt": "single",
+   "probe_ids": [
+    "D2"
+   ],
+   "greedy": "HALT",
+   "samples": [
+    "HALT",
+    "HALT",
+    "HALT",
+    "HALT"
+   ]
+  }
+ ]
+}

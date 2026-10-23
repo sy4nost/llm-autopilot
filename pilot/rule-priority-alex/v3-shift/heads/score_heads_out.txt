@@ -1,0 +1,60 @@
+discovery prompts 30; held-out prompts 270
+top 20 heads (layer, head, mean attention to the identical example's label):
+  L36.10 0.164, L37.18 0.160, L34.29 0.143, L29.11 0.133, L34.28 0.133, L32.9 0.127, L33.2 0.126, L36.21 0.124, L32.4 0.112, L34.6 0.105, L36.23 0.102, L29.13 0.100, L29.20 0.094, L29.10 0.090, L36.36 0.089, L34.27 0.089, L35.29 0.087, L29.18 0.084, L38.33 0.079, L29.21 0.079
+lamp threshold 2.036
+
+=== all ===  chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg D1+D3 right
+  normal         43% |    51% |    80% |    57%
+  top10          27% |    51% |    98% |    56%
+  top20          21% |    61% |    93% |    57%
+  top40          14% |    58% |    78% |    53%
+  rand20         42% |    47% |    78% |    49%
+  lamp top20     34% |    57% |    80% |    58%
+
+=== A ===  chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg D1+D3 right
+  normal         90% |    10% |    90% |   100%
+  top10          70% |    20% |   100% |    97%
+  top20          60% |    30% |    97% |    97%
+  top40          37% |    40% |    90% |    97%
+  rand20         83% |    13% |    93% |   100%
+  lamp top20     83% |    13% |    90% |   100%
+
+=== B ===  chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg D1+D3 right
+  normal         37% |    60% |    83% |    43%
+  top10          10% |    63% |    97% |    33%
+  top20           3% |    77% |    93% |    43%
+  top40           7% |    63% |    73% |    37%
+  rand20         30% |    63% |    73% |    27%
+  lamp top20     17% |    73% |    80% |    47%
+
+=== C ===  chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg D1+D3 right
+  normal          3% |    83% |    67% |    27%
+  top10           0% |    70% |    97% |    37%
+  top20           0% |    77% |    90% |    30%
+  top40           0% |    70% |    70% |    27%
+  rand20         13% |    63% |    67% |    20%
+  lamp top20      3% |    83% |    70% |    27%
+
+lamp signal (top-20 heads' attention to example labels), held-out mean by condition, change D1+D3:
+  A: 3.303; lamp on 43%
+  B: 1.912; lamp on 43%
+  C: 1.523; lamp on 27%
+  A no-change: 3.444; lamp on 40%
+
+held-out, paired over sets vs normal (95% interval):
+  top20       chg D1+D3 old      -22% [-30%, -14%]
+  top20       chg D1+D3 right    +10% [+0%, +18%]
+  top20       chg D2+D4 right    +13% [+4%, +23%]
+  top20       nochg D1+D3 right  +0% [-6%, +7%]
+  top40       chg D1+D3 old      -29% [-41%, -17%]
+  top40       chg D1+D3 right    +7% [-3%, +16%]
+  top40       chg D2+D4 right    -2% [-16%, +10%]
+  top40       nochg D1+D3 right  -3% [-8%, +1%]
+  rand20      chg D1+D3 old      -1% [-11%, +10%]
+  rand20      chg D1+D3 right    -4% [-16%, +4%]
+  rand20      chg D2+D4 right    -2% [-18%, +12%]
+  rand20      nochg D1+D3 right  -8% [-16%, -1%]
+  lamp top20  chg D1+D3 old      -9% [-17%, -2%]
+  lamp top20  chg D1+D3 right    +6% [+1%, +11%]
+  lamp top20  chg D2+D4 right    +0% [-3%, +3%]
+  lamp top20  nochg D1+D3 right  +1% [-3%, +7%]

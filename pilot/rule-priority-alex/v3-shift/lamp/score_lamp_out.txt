@@ -1,0 +1,27 @@
+habit actually happening (normal answer = old label where old != key): {'A chg D1+D3': '90%', 'B chg D1+D3': '33%', 'C chg D1+D3': '0%', 'chg D2+D4': '20%', 'A nochg': '0%', 'B+C nochg': '0%'}
+
+lamp ON rate, held-out:  A chg D1+D3 | B chg D1+D3 | C chg D1+D3 | chg D2+D4 | A nochg | B+C nochg
+  lens20       100% |    80% |    67% |    87% |   100% |    75%
+  lens24       100% |    80% |    67% |    87% |   100% |    75%
+  lens28       100% |    87% |    80% |    90% |   100% |    85%
+  lens29        93% |    83% |    73% |    77% |    97% |    82%
+  lens20cal     67% |    70% |    80% |    74% |    67% |    75%
+  lens24cal     60% |    60% |    70% |    68% |    53% |    70%
+  lens28cal     73% |    73% |    80% |    78% |    73% |    78%
+  lens29cal     73% |    77% |    80% |    74% |    73% |    72%
+  off           40% |    53% |    47% |    38% |     3% |    38%
+
+right answers, held-out:  A chg D1+D3 | B chg D1+D3 | C chg D1+D3 | chg D2+D4 | A nochg | B+C nochg | all
+  normal               10% |    60% |    87% |    80% |   100% |    35% | 63%
+  heads off always     30% |    70% |    77% |    92% |    97% |    35% | 69%
+  lamp lens28cal       27% |    67% |    77% |    93% |   100% |    35% | 69%
+  lamp lens29cal       27% |    67% |    77% |    92% |    97% |    35% | 68%
+  lamp off             30% |    67% |    77% |    86% |    97% |    37% | 67%
+
+what the 20 heads push (held-out): share pushing the OLD label | the RIGHT label
+  A chg D1+D3  100% |   0%
+  B chg D1+D3   53% |  47%
+  C chg D1+D3   23% |  70%
+  chg D2+D4     38% |  61%
+  A nochg      100% | 100%
+  B+C nochg     42% |  42%

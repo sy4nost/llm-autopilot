@@ -1,0 +1,115 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-dgfVjPGNR9AoL5y3urFx1G
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/fastthink/modal_
+│   ft.py
+├── ✓ Created Function fetch.
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   5%|▌         | 30/579 [00:00<00:02, 195.58it/s]
+[1ALoading weights:   9%|▊         | 50/579 [00:00<00:02, 179.76it/s]
+[1ALoading weights:  12%|█▏        | 68/579 [00:00<00:04, 112.70it/s]
+[1ALoading weights:  14%|█▍        | 81/579 [00:00<00:04, 107.52it/s]
+[1ALoading weights:  17%|█▋        | 100/579 [00:00<00:04, 119.04it/s]
+[1ALoading weights:  22%|██▏       | 125/579 [00:00<00:03, 141.25it/s]
+[1ALoading weights:  24%|██▍       | 140/579 [00:01<00:03, 139.41it/s]
+[1ALoading weights:  28%|██▊       | 164/579 [00:01<00:02, 149.20it/s]
+[1ALoading weights:  31%|███       | 180/579 [00:01<00:03, 122.11it/s]
+[1ALoading weights:  33%|███▎      | 193/579 [00:01<00:03, 120.39it/s]
+[1ALoading weights:   0%|          | 0/243 [00:00<?, ?it/s]
+[1ALoading weights:  37%|███▋      | 215/579 [00:01<00:02, 143.44it/s]
+[1ALoading weights:  40%|████      | 232/579 [00:01<00:02, 135.83it/s]
+[1ALoading weights:  45%|████▍     | 259/579 [00:01<00:02, 153.58it/s]
+[1ALoading weights:   7%|▋         | 18/243 [00:00<00:06, 36.18it/s]
+[1ALoading weights:  47%|████▋     | 275/579 [00:02<00:02, 122.85it/s]
+[1ALoading weights:  54%|█████▎    | 310/579 [00:02<00:01, 171.01it/s]
+[1ALoading weights:  57%|█████▋    | 330/579 [00:02<00:01, 162.70it/s]
+[1ALoading weights:   9%|▉         | 22/243 [00:00<00:09, 23.04it/s]
+[1ALoading weights:  10%|█         | 25/243 [00:01<00:14, 15.50it/s]
+[1ALoading weights:  60%|██████    | 349/579 [00:03<00:04, 56.71it/s] 
+[1ALoading weights:  65%|██████▍   | 376/579 [00:03<00:02, 72.03it/s]
+[1ALoading weights:  16%|█▌        | 38/243 [00:02<00:12, 16.03it/s]
+[1ALoading weights:   0%|          | 0/443 [00:00<?, ?it/s]
+[1ALoading weights:   2%|▏         | 10/443 [00:00<00:16, 26.67it/s]
+[1ALoading weights:  16%|█▋        | 40/243 [00:02<00:18, 11.03it/s]
+[1ALoading weights:  67%|██████▋   | 390/579 [00:04<00:04, 40.06it/s]
+[1ALoading weights:  69%|██████▉   | 400/579 [00:04<00:04, 36.33it/s]
+[1ALoading weights:  74%|███████▍  | 431/579 [00:04<00:02, 58.51it/s]
+[1ALoading weights:   3%|▎         | 13/443 [00:01<00:51,  8.34it/s]
+[1ALoading weights:  77%|███████▋  | 446/579 [00:05<00:01, 66.95it/s]
+[1ALoading weights:  83%|████████▎ | 478/579 [00:05<00:01, 98.71it/s]
+[1ALoading weights:  89%|████████▉ | 517/579 [00:05<00:00, 137.04it/s]
+[1ALoading weights:  19%|█▊        | 45/243 [00:03<00:24,  8.25it/s]
+[1ALoading weights:  94%|█████████▍| 543/579 [00:05<00:00, 157.65it/s]
+[1ALoading weights:  98%|█████████▊| 567/579 [00:05<00:00, 171.90it/s]Loading weights: 100%|██████████| 579/579 [00:05<00:00, 105.71it/s]
+
+[1ALoading weights:  19%|█▉        | 46/243 [00:04<00:29,  6.59it/s]
+[1ALoading weights:  23%|██▎       | 55/243 [00:04<00:15, 11.99it/s]
+[1ALoading weights:  29%|██▉       | 71/243 [00:04<00:07, 24.52it/s]
+[1ALoading weights:  35%|███▌      | 86/243 [00:04<00:04, 37.26it/s]
+[1ALoading weights:  44%|████▍     | 107/243 [00:04<00:02, 57.51it/s]
+[1ALoading weights:  49%|████▊     | 118/243 [00:05<00:04, 27.67it/s]
+[1ALoading weights:   3%|▎         | 15/443 [00:03<02:31,  2.83it/s]
+[1ALoading weights:  57%|█████▋    | 138/243 [00:05<00:02, 40.41it/s]
+[1ALoading weights:  67%|██████▋   | 163/243 [00:06<00:01, 60.31it/s]
+[1ALoading weights:  77%|███████▋  | 186/243 [00:06<00:00, 76.63it/s]
+[1ALoading weights:   4%|▍         | 18/443 [00:04<02:03,  3.43it/s]
+[1ALoading weights:  84%|████████▍ | 205/243 [00:06<00:00, 91.88it/s]
+[1ALoading weights:  95%|█████████▍| 230/243 [00:06<00:00, 117.37it/s]Loading weights: 100%|██████████| 243/243 [00:06<00:00, 37.86it/s] 
+
+[1ALoading weights:   6%|▋         | 28/443 [00:04<00:58,  7.04it/s]
+[1ALoading weights:   8%|▊         | 34/443 [00:05<00:56,  7.24it/s]
+[1ALoading weights:  10%|▉         | 43/443 [00:06<01:00,  6.63it/s]
+[1ALoading weights:  10%|▉         | 44/443 [00:08<01:26,  4.61it/s]
+[1ALoading weights:  11%|█         | 48/443 [00:08<01:12,  5.43it/s]
+[1ALoading weights:  11%|█         | 49/443 [00:09<01:42,  3.83it/s]
+[1ALoading weights:  13%|█▎        | 56/443 [00:10<01:31,  4.24it/s]
+[1ALoading weights:  17%|█▋        | 77/443 [00:11<00:33, 10.80it/s]
+[1ALoading weights:  19%|█▉        | 85/443 [00:12<00:35, 10.20it/s]
+[1ALoading weights:  22%|██▏       | 97/443 [00:13<00:37,  9.30it/s]
+[1ALoading weights:  28%|██▊       | 125/443 [00:13<00:16, 19.34it/s]
+[1ALoading weights:  31%|███       | 138/443 [00:14<00:12, 24.98it/s]
+[1ALoading weights:  35%|███▌      | 156/443 [00:14<00:08, 35.52it/s]
+[1ALoading weights:  41%|████      | 180/443 [00:14<00:04, 53.28it/s]
+[1ALoading weights:  44%|████▍     | 195/443 [00:14<00:03, 63.64it/s]
+[1ALoading weights:  48%|████▊     | 213/443 [00:14<00:02, 78.91it/s]
+[1ALoading weights:  52%|█████▏    | 230/443 [00:14<00:02, 89.70it/s]
+[1ALoading weights:  56%|█████▋    | 250/443 [00:14<00:01, 104.90it/s]
+[1ALoading weights:  60%|██████    | 266/443 [00:14<00:01, 113.85it/s]
+[1ALoading weights:  65%|██████▍   | 286/443 [00:14<00:01, 130.18it/s]
+[1ALoading weights:  72%|███████▏  | 318/443 [00:15<00:00, 168.07it/s]
+[1ALoading weights:  77%|███████▋  | 342/443 [00:15<00:00, 182.44it/s]
+[1ALoading weights:  82%|████████▏ | 363/443 [00:15<00:00, 182.19it/s]
+[1ALoading weights:  86%|████████▋ | 383/443 [00:15<00:00, 178.47it/s]
+[1ALoading weights:  91%|█████████ | 403/443 [00:15<00:00, 180.54it/s]
+[1ALoading weights:  95%|█████████▌| 422/443 [00:15<00:00, 170.65it/s]
+[1ALoading weights: 100%|██████████| 443/443 [00:15<00:00, 28.30it/s] 
+phi4 gen 8 / 8
+olmo13 gen 8 / 8
+qwen14 gen 8 / 8
+phi4 already 0 to generate 42
+olmo13 already 0 to generate 42
+phi4 gen 32 / 42
+olmo13 gen 32 / 42
+qwen14 already 0 to generate 42
+phi4 gen 42 / 42
+phi4 samp 32 / 42
+olmo13 gen 42 / 42
+phi4 samp 42 / 42
+olmo13 samp 32 / 42
+olmo13 samp 42 / 42
+phi4 DONE /cache/ft_runs/smoke/phi4/out.jsonl
+qwen14 gen 32 / 42
+olmo13 DONE /cache/ft_runs/smoke/olmo13/out.jsonl
+qwen14 gen 42 / 42
+qwen14 samp 32 / 42
+qwen14 samp 42 / 42
+qwen14 DONE /cache/ft_runs/smoke/qwen14/out.jsonl
+qwen14 finished
+phi4 finished
+olmo13 finished
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-dgfVjPGNR9AoL5y3urFx1G

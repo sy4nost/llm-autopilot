@@ -1,0 +1,70 @@
+## Sanity: recomputed forced-choice DIRECT pick == saved pick, per family (need >= 98% everywhere; items whose saved top-2 margin < 1e-3 are exact ties and not counted); also median |recomputed - saved| option score
+  missing items 0 (must be 0)
+  own:D          n   373  ties   1  agree 100.0%  median score diff 0.0001
+  own:K          n   361  ties   0  agree 100.0%  median score diff 0.0000
+  own:N          n   300  ties   3  agree 99.7%  median score diff 0.0000
+  own:R          n  1026  ties  11  agree 99.8%  median score diff 0.0039
+  pub:alg        n   200  ties   2  agree 100.0%  median score diff 0.0000
+  pub:hind       n   200  ties   0  agree 99.0%  median score diff 0.0000
+  pub:memo       n   200  ties   1  agree 100.0%  median score diff 0.0065
+  pub:mmlu       n  1000  ties   5  agree 99.7%  median score diff 0.0000
+  pub:modus      n   100  ties   0  agree 100.0%  median score diff 0.0000
+  pub:neqa       n   200  ties   2  agree 100.0%  median score diff 0.0000
+  pub:pattern    n   100  ties   2  agree 98.0%  median score diff 0.0000
+  pub:quote      n   100  ties   0  agree 100.0%  median score diff 0.0038
+  pub:unknown    n   100  ties   0  agree 100.0%  median score diff 0.0000
+SANITY FAIL -> stop, nothing below is a verdict
+
+######## S1 own->public: train 2060  test 2200
+  sensor: chose L32 C=0.003 (LOFO within-pop AUC in training pool 0.768)
+  test populations with >= 10 flips and >= 10 non-flips: 6
+  population                     n flips      sensor low-confide output-only     surface      length
+  pub:hind/trap                120    75       0.694       0.280       0.434       0.460       0.511
+  pub:memo/trap                120    20       0.643       0.698       0.352       0.538       0.538
+  pub:mmlu/trap               1000   160       0.730       0.860       0.850       0.559       0.416
+  pub:neqa/trap                120    16       0.775       0.864       0.843       0.507       0.564
+  pub:pattern/trap             100    36       0.509       0.473       0.545       0.486       0.479
+  pub:unknown/trap             100    14       0.690       0.741       0.759       0.422       0.475
+P1 within-population AUC sensor 0.673; minus best rival (low-confidence 0.653) +0.021 [-0.045, +0.084] (wider of item/cluster) need >= 0.70 and >= +0.05, low > 0 -> FAIL
+  accuracy at 30% thinking (families weighted equally): DIRECT 79.5  THINK 84.4
+   sensor 82.6  low-confidence 83.0  output-only 83.0  surface 82.4  length 79.9  random 81.0
+P2 sensor gate - best rival gate -0.4 [-2.1, +0.8] (wider of item/cluster) need >= +2, low > 0 -> FAIL
+   curve (sensor / low-confidence / random) at thinking share: 10% 80.8/81.0/80.0; 20% 81.9/81.0/80.5; 30% 82.6/83.0/81.0; 40% 84.0/83.4/81.5
+   harm pub:alg/control            n    80 gate - DIRECT +0.0
+   harm pub:hind/control           n    80 gate - DIRECT +0.0
+   harm pub:memo/control           n    80 gate - DIRECT +0.0
+   harm pub:mmlu/trap              n  1000 gate - DIRECT +0.6
+   harm pub:modus/trap             n   100 gate - DIRECT +0.0
+   harm pub:neqa/control           n    80 gate - DIRECT +0.0
+   harm pub:quote/trap             n   100 gate - DIRECT -1.0
+P3 every harm population >= -3 points -> PASS
+VERDICT S1 own->public: NOT SHOWN
+  report: y+ (THINK fixes a wrong DIRECT) within-pop AUC sensor 0.659 low-confidence 0.657
+
+######## S2 public->own: train 2200  test 2060
+  sensor: chose L44 C=0.003 (LOFO within-pop AUC in training pool 0.667)
+  test populations with >= 10 flips and >= 10 non-flips: 6
+  population                     n flips      sensor low-confide output-only     surface      length
+  own:D/traps                  258    56       0.660       0.811       0.779       0.482       0.475
+  own:K/traps                  242    60       0.638       0.684       0.678       0.462       0.482
+  own:N/traps                  120   110       0.317       0.251       0.285       0.585       0.585
+  own:R/cfright                210    35       0.212       0.688       0.697       0.058       0.293
+  own:R/compute                354    60       0.668       0.881       0.892       0.549       0.743
+  own:R/traps                  378   170       0.703       0.516       0.540       0.223       0.250
+P1 within-population AUC sensor 0.533; minus best rival (output-only 0.645) -0.112 [-0.169, -0.068] (wider of item/cluster) need >= 0.70 and >= +0.05, low > 0 -> FAIL
+  accuracy at 30% thinking (families weighted equally): DIRECT 75.4  THINK 93.0
+   sensor 80.0  low-confidence 86.8  output-only 86.8  surface 77.3  length 84.8  random 80.7
+P2 sensor gate - best rival gate -6.9 [-9.4, -5.0] (wider of item/cluster) need >= +2, low > 0 -> FAIL
+   curve (sensor / low-confidence / random) at thinking share: 10% 76.5/79.7/77.2; 20% 77.8/83.2/78.9; 30% 80.0/86.8/80.7; 40% 81.4/89.6/82.4
+   harm own:D/agree                n    88 gate - DIRECT +0.0
+   harm own:D/plain                n    27 gate - DIRECT +0.0
+   harm own:K/agree                n    97 gate - DIRECT +0.0
+   harm own:K/plain                n    22 gate - DIRECT +0.0
+   harm own:N/agree                n   120 gate - DIRECT +0.0
+   harm own:N/confirm              n    60 gate - DIRECT +0.0
+   harm own:R/agree                n    84 gate - DIRECT +0.0
+   harm own:R/cfright              n   210 gate - DIRECT -2.4
+P3 every harm population >= -3 points -> PASS
+N1 within-cell AUC on 19 cells: sensor 0.515 best rival 0.607 need >= 0.65 and > rival -> FAIL
+VERDICT S2 public->own: NOT SHOWN
+  report: y+ (THINK fixes a wrong DIRECT) within-pop AUC sensor 0.610 low-confidence 0.634

@@ -1,0 +1,37 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-EWYfV5gTv6i7Y8juKKDOFC
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/watch_public/mod
+│   al_pub_watch.py
+└── ✓ Created Function run.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   3%|▎         | 15/579 [00:00<00:03, 141.06it/s]
+[1ALoading weights:   5%|▌         | 30/579 [00:00<00:03, 144.24it/s]
+[1ALoading weights:  10%|█         | 59/579 [00:00<00:02, 202.73it/s]
+[1ALoading weights:  14%|█▍        | 83/579 [00:00<00:02, 191.68it/s]
+[1ALoading weights:  18%|█▊        | 103/579 [00:00<00:02, 190.31it/s]
+[1ALoading weights:  22%|██▏       | 129/579 [00:00<00:02, 199.87it/s]
+[1ALoading weights:  27%|██▋       | 156/579 [00:00<00:01, 217.91it/s]
+[1ALoading weights:  31%|███       | 178/579 [00:00<00:01, 207.58it/s]
+[1ALoading weights:  36%|███▌      | 208/579 [00:01<00:01, 231.65it/s]
+[1ALoading weights:  42%|████▏     | 241/579 [00:01<00:01, 255.74it/s]
+[1ALoading weights:  46%|████▌     | 267/579 [00:01<00:01, 254.23it/s]
+[1ALoading weights:  51%|█████     | 293/579 [00:01<00:01, 232.72it/s]
+[1ALoading weights:  55%|█████▌    | 319/579 [00:01<00:01, 226.30it/s]
+[1ALoading weights:  60%|█████▉    | 346/579 [00:01<00:01, 226.52it/s]
+[1ALoading weights:  64%|██████▎   | 369/579 [00:01<00:01, 195.90it/s]
+[1ALoading weights:  67%|██████▋   | 390/579 [00:01<00:00, 189.78it/s]
+[1ALoading weights:  72%|███████▏  | 416/579 [00:01<00:00, 199.49it/s]
+[1ALoading weights:  77%|███████▋  | 444/579 [00:02<00:00, 211.81it/s]
+[1ALoading weights:  80%|████████  | 466/579 [00:02<00:00, 199.73it/s]
+[1ALoading weights:  84%|████████▍ | 487/579 [00:02<00:00, 169.29it/s]
+[1ALoading weights:  89%|████████▉ | 514/579 [00:02<00:00, 188.76it/s]
+[1ALoading weights:  93%|█████████▎| 540/579 [00:02<00:00, 201.57it/s]
+[1ALoading weights: 100%|██████████| 579/579 [00:02<00:00, 215.02it/s]
+wrote /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/watch_public/pubwatch_Qwen2.5-14B-Instruct_smoke.jsonl
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-EWYfV5gTv6i7Y8juKKDOFC

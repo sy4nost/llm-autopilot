@@ -1,0 +1,172 @@
+{
+ "own": [
+  {
+   "pop": "D/traps",
+   "n": 258,
+   "flips": 56,
+   "conflict": 0.91,
+   "sensor": 0.898,
+   "sensor_wo_conflict": 0.72,
+   "low_conf": 0.811
+  },
+  {
+   "pop": "K/traps",
+   "n": 242,
+   "flips": 60,
+   "conflict": 0.672,
+   "sensor": 0.696,
+   "sensor_wo_conflict": 0.7,
+   "low_conf": 0.684
+  },
+  {
+   "pop": "N/traps",
+   "n": 120,
+   "flips": 110,
+   "conflict": 0.571,
+   "sensor": 0.561,
+   "sensor_wo_conflict": 0.471,
+   "low_conf": 0.251
+  },
+  {
+   "pop": "R/cfright",
+   "n": 210,
+   "flips": 35,
+   "conflict": 0.96,
+   "sensor": 0.967,
+   "sensor_wo_conflict": 0.755,
+   "low_conf": 0.688
+  },
+  {
+   "pop": "R/compute",
+   "n": 354,
+   "flips": 60,
+   "conflict": 0.692,
+   "sensor": 0.688,
+   "sensor_wo_conflict": 0.614,
+   "low_conf": 0.881
+  },
+  {
+   "pop": "R/traps",
+   "n": 378,
+   "flips": 170,
+   "conflict": 0.608,
+   "sensor": 0.801,
+   "sensor_wo_conflict": 0.813,
+   "low_conf": 0.516
+  }
+ ],
+ "cos": {
+  "R": 0.2699337621583352,
+  "N": 0.19354983134979298,
+  "K": 0.2904866709418557,
+  "D": 0.2796038263646483
+ },
+ "pub": [
+  {
+   "pop": "alg/control",
+   "n": 80,
+   "flips": 0,
+   "mean_proj": 1.04,
+   "conflict": null
+  },
+  {
+   "pop": "alg/trap",
+   "n": 120,
+   "flips": 0,
+   "mean_proj": 0.54,
+   "conflict": null
+  },
+  {
+   "pop": "hind/control",
+   "n": 80,
+   "flips": 0,
+   "mean_proj": -9.63,
+   "conflict": null
+  },
+  {
+   "pop": "hind/trap",
+   "n": 120,
+   "flips": 75,
+   "mean_proj": 1.22,
+   "conflict": 0.542
+  },
+  {
+   "pop": "memo/control",
+   "n": 80,
+   "flips": 0,
+   "mean_proj": -5.09,
+   "conflict": null
+  },
+  {
+   "pop": "memo/trap",
+   "n": 120,
+   "flips": 20,
+   "mean_proj": -4.22,
+   "conflict": 0.656
+  },
+  {
+   "pop": "mmlu/trap",
+   "n": 1000,
+   "flips": 160,
+   "mean_proj": -6.36,
+   "conflict": 0.75
+  },
+  {
+   "pop": "modus/trap",
+   "n": 100,
+   "flips": 2,
+   "mean_proj": -11.2,
+   "conflict": null
+  },
+  {
+   "pop": "neqa/control",
+   "n": 80,
+   "flips": 7,
+   "mean_proj": -2.03,
+   "conflict": null
+  },
+  {
+   "pop": "neqa/trap",
+   "n": 120,
+   "flips": 16,
+   "mean_proj": -3.37,
+   "conflict": 0.785
+  },
+  {
+   "pop": "pattern/trap",
+   "n": 100,
+   "flips": 36,
+   "mean_proj": 3.95,
+   "conflict": 0.649
+  },
+  {
+   "pop": "quote/trap",
+   "n": 100,
+   "flips": 7,
+   "mean_proj": 1.41,
+   "conflict": null
+  },
+  {
+   "pop": "unknown/trap",
+   "n": 100,
+   "flips": 14,
+   "mean_proj": -0.17,
+   "conflict": 0.687
+  }
+ ],
+ "own_mean_proj": {
+  "D/agree": -25.63,
+  "D/plain": -19.38,
+  "D/traps": 3.27,
+  "K/agree": -25.03,
+  "K/plain": -11.7,
+  "K/traps": 6.96,
+  "N/agree": -8.91,
+  "N/confirm": 3.86,
+  "N/traps": 13.81,
+  "R/agree": -17.59,
+  "R/cfright": -4.76,
+  "R/compute": 6.67,
+  "R/traps": 5.91
+ }
+}

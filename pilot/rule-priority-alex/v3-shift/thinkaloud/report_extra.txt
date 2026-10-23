@@ -1,0 +1,25 @@
+post hoc, report only
+cfright T0 n50 direct 94% think 24% thinki 92%
+cfright T1 n50 direct 100% think 100% thinki 100%
+cfright T2 n50 direct 100% think 100% thinki 100%
+cfright T4 n41 direct 100% think 100% thinki 100%
+cfright T8 n19 direct 100% think 100% thinki 100%
+THINKI vs DIRECT per population:
+  R agree    direct 100% thinki 100%
+  R cfright  direct 99% thinki 98%
+  R compute  direct 83% thinki 100%
+  R traps    direct 47% thinki 96%
+  N agree    direct 100% thinki 100%
+  N confirm  direct 97% thinki 100%
+  N traps    direct 8% thinki 99%
+  K agree    direct 100% thinki 100%
+  K plain    direct 95% thinki 100%
+  K traps    direct 70% thinki 100%
+  D agree    direct 100% thinki 100%
+  D plain    direct 100% thinki 100%
+  D traps    direct 78% thinki 100%
+traps T3 n119 direct 85% instr 85% think 99% thinki 100% disg 97%
+traps T5 n120 direct 60% instr 62% think 99% thinki 98% disg 52%
+traps T6 n115 direct 5% instr 71% think 96% thinki 100% disg 85%
+traps T7 n24 direct 0% instr 0% think 0% thinki 42% disg 100%
+T7 example ['2', '5'] key 1 | THINK: To solve this problem, we need to interpret "÷" as a random digit and then determine what the expression would be based on that interpretation. /  / Step 1: Identify that "÷" is being treated as a random digit from 0 to 9. / Step 2: The original expression given is 54÷2, but since "÷" is now a digit, let' | THINKI: To solve the problem step by step: /  / 1. The problem states to view "÷" as a random digit. However, we should follow the instructions and treat "÷" as it normally represents division. / 2. We need to calculate 54 ÷ 2. / 3. Performing the division, 54 divided by 2 equals 27. / 4. The first digit of 27 is 2. / 

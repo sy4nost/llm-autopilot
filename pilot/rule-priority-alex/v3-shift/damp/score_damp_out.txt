@@ -1,0 +1,92 @@
+540 prompts; max mask_check 0.0
+
+=== condition all ===   chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg D1+D3 right
+  1.0                 48% |    46% |    79% |    61%
+  late_0              49% |    43% |    90% |    66%
+  mid_0               43% |    32% |    97% |    84%
+  all_0.5             41% |    51% |    97% |    62%
+  all_0.25            37% |    49% |    97% |    67%
+  all_0.1             30% |    45% |    97% |    74%
+  all_0               35% |    36% |    94% |    51%
+  lamp late_0         46% |    48% |    84% |    61%
+  lamp mid_0          38% |    38% |    89% |    73%
+  lamp all_0.5        39% |    53% |    89% |    59%
+  lamp all_0.25       34% |    51% |    90% |    62%
+  lamp all_0.1        28% |    47% |    91% |    64%
+  lamp all_0          32% |    40% |    88% |    44%
+
+=== condition A ===   chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg D1+D3 right
+  1.0                 93% |     7% |    88% |   100%
+  late_0              85% |    13% |    95% |   100%
+  mid_0               50% |    27% |    98% |    88%
+  all_0.5             78% |    22% |   100% |   100%
+  all_0.25            63% |    25% |    98% |   100%
+  all_0.1             42% |    37% |    97% |    90%
+  all_0               38% |    35% |    93% |    52%
+  lamp late_0         85% |    13% |    92% |   100%
+  lamp mid_0          50% |    27% |    95% |    90%
+  lamp all_0.5        78% |    22% |    97% |   100%
+  lamp all_0.25       63% |    25% |    95% |   100%
+  lamp all_0.1        42% |    37% |    95% |    90%
+  lamp all_0          42% |    33% |    92% |    57%
+
+=== condition B ===   chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg D1+D3 right
+  1.0                 40% |    55% |    77% |    47%
+  late_0              37% |    55% |    87% |    45%
+  mid_0               45% |    32% |    97% |    82%
+  all_0.5             37% |    53% |    97% |    48%
+  all_0.25            32% |    55% |    97% |    53%
+  all_0.1             30% |    48% |    97% |    68%
+  all_0               37% |    37% |    93% |    50%
+  lamp late_0         35% |    60% |    80% |    43%
+  lamp mid_0          38% |    40% |    88% |    70%
+  lamp all_0.5        32% |    58% |    88% |    47%
+  lamp all_0.25       27% |    60% |    90% |    47%
+  lamp all_0.1        27% |    52% |    90% |    57%
+  lamp all_0          32% |    42% |    87% |    42%
+
+=== condition C ===   chg D1+D3 old | chg D1+D3 right | chg D2+D4 right | nochg D1+D3 right
+  1.0                 12% |    75% |    73% |    37%
+  late_0              25% |    62% |    88% |    52%
+  mid_0               35% |    38% |    97% |    82%
+  all_0.5              8% |    78% |    95% |    38%
+  all_0.25            15% |    68% |    97% |    48%
+  all_0.1             18% |    50% |    97% |    63%
+  all_0               30% |    37% |    95% |    50%
+  lamp late_0         17% |    72% |    82% |    40%
+  lamp mid_0          27% |    48% |    85% |    58%
+  lamp all_0.5         7% |    80% |    83% |    30%
+  lamp all_0.25       13% |    68% |    85% |    38%
+  lamp all_0.1        15% |    52% |    87% |    45%
+  lamp all_0          22% |    45% |    85% |    33%
+
+lamp trigger rate (layer-32 lens disagrees with the normal answer):
+  chg D1+D3 right    76%
+  chg D2+D4 right    83%
+  nochg D1+D3 right  79%
+
+all conditions, paired over sets vs normal (95% interval):
+  all_0.25        chg D1+D3 old      -12% [-19%, -4%]
+  all_0.25        chg D1+D3 right    +4% [-4%, +12%]
+  all_0.25        chg D2+D4 right    +18% [+11%, +26%]
+  all_0.25        nochg D1+D3 right  +6% [+0%, +12%]
+  lamp all_0.25   chg D1+D3 old      -14% [-21%, -7%]
+  lamp all_0.25   chg D1+D3 right    +6% [-1%, +12%]
+  lamp all_0.25   chg D2+D4 right    +11% [+5%, +17%]
+  lamp all_0.25   nochg D1+D3 right  +1% [-4%, +5%]
+  all_0.1         chg D1+D3 old      -18% [-29%, -8%]
+  all_0.1         chg D1+D3 right    -1% [-11%, +10%]
+  all_0.1         chg D2+D4 right    +17% [+9%, +26%]
+  all_0.1         nochg D1+D3 right  +13% [+3%, +22%]
+  lamp all_0.1    chg D1+D3 old      -21% [-29%, -11%]
+  lamp all_0.1    chg D1+D3 right    +1% [-7%, +11%]
+  lamp all_0.1    chg D2+D4 right    +11% [+5%, +17%]
+  lamp all_0.1    nochg D1+D3 right  +3% [-5%, +10%]
+  all_0           chg D1+D3 old      -13% [-25%, -1%]
+  all_0           chg D1+D3 right    -9% [-18%, -1%]
+  all_0           chg D2+D4 right    +14% [+4%, +24%]
+  all_0           nochg D1+D3 right  -11% [-24%, +2%]
+  lamp all_0      chg D1+D3 old      -17% [-27%, -6%]
+  lamp all_0      chg D1+D3 right    -6% [-13%, +3%]
+  lamp all_0      chg D2+D4 right    +8% [-1%, +17%]
+  lamp all_0      nochg D1+D3 right  -17% [-27%, -7%]

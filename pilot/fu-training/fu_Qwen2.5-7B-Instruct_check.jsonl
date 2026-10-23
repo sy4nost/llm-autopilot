@@ -1,0 +1,480 @@
+{"stage": "test", "model": "base", "i": 0, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-16.003, -0.003, -6.005]}
+{"stage": "test", "model": "base", "i": 1, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-15.511, -14.136, -0.011]}
+{"stage": "test", "model": "base", "i": 2, "fam": "rule", "kind": "plain", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-22.125, -13.875, -0.0]}
+{"stage": "test", "model": "base", "i": 3, "fam": "rule", "kind": "plain", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-15.383, -7.008, -0.008]}
+{"stage": "test", "model": "base", "i": 4, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -11.625, -16.75]}
+{"stage": "test", "model": "base", "i": 5, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-12.25, -0.0, -12.25]}
+{"stage": "test", "model": "base", "i": 6, "fam": "rule", "kind": "plain", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-22.875, -0.0, -18.625]}
+{"stage": "test", "model": "base", "i": 7, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-11.626, -0.001, -6.877]}
+{"stage": "test", "model": "base", "i": 8, "fam": "rule", "kind": "plain", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-16.375, -0.0, -13.0]}
+{"stage": "test", "model": "base", "i": 9, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-19.365, -13.178, -0.053]}
+{"stage": "test", "model": "base", "i": 10, "fam": "rule", "kind": "plain", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-4.511, -0.011, -16.137]}
+{"stage": "test", "model": "base", "i": 11, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-20.125, -0.0, -23.51]}
+{"stage": "test", "model": "base", "i": 12, "fam": "rule", "kind": "plain", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-17.25, -0.0, -17.375]}
+{"stage": "test", "model": "base", "i": 13, "fam": "rule", "kind": "plain", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-14.501, -0.001, -14.001]}
+{"stage": "test", "model": "base", "i": 14, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -21.5, -26.19]}
+{"stage": "test", "model": "base", "i": 15, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-19.5, -0.0, -14.0]}
+{"stage": "test", "model": "base", "i": 16, "fam": "rule", "kind": "plain", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-13.0, -21.75, -0.0]}
+{"stage": "test", "model": "base", "i": 17, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-15.384, -10.634, -0.009]}
+{"stage": "test", "model": "base", "i": 18, "fam": "rule", "kind": "plain", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-15.375, -7.875, -0.0]}
+{"stage": "test", "model": "base", "i": 19, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-21.25, -19.25, -0.0]}
+{"stage": "test", "model": "base", "i": 20, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-14.625, -0.0, -20.032]}
+{"stage": "test", "model": "base", "i": 21, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-22.25, -0.0, -18.252]}
+{"stage": "test", "model": "base", "i": 22, "fam": "rule", "kind": "plain", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -30.126, -26.367]}
+{"stage": "test", "model": "base", "i": 23, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -16.25, -20.503]}
+{"stage": "test", "model": "base", "i": 24, "fam": "rule", "kind": "plain", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-23.188, -0.0, -9.752]}
+{"stage": "test", "model": "base", "i": 25, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-18.625, -0.0, -16.125]}
+{"stage": "test", "model": "base", "i": 26, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -26.125, -29.88]}
+{"stage": "test", "model": "base", "i": 27, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-23.501, -0.0, -12.376]}
+{"stage": "test", "model": "base", "i": 28, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-15.29, -3.29, -0.04]}
+{"stage": "test", "model": "base", "i": 29, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-16.625, -0.0, -17.129]}
+{"stage": "test", "model": "base", "i": 30, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-12.16, -3.41, -0.035]}
+{"stage": "test", "model": "base", "i": 31, "fam": "rule", "kind": "plain", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.477, -0.977, -14.878]}
+{"stage": "test", "model": "base", "i": 32, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -17.625, -18.001]}
+{"stage": "test", "model": "base", "i": 33, "fam": "rule", "kind": "plain", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-5.257, -0.007, -9.382]}
+{"stage": "test", "model": "base", "i": 34, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-20.875, -0.0, -23.939]}
+{"stage": "test", "model": "base", "i": 35, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-18.329, -12.016, -0.017]}
+{"stage": "test", "model": "base", "i": 36, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-20.333, -3.896, -0.021]}
+{"stage": "test", "model": "base", "i": 37, "fam": "rule", "kind": "plain", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-1.895, -0.27, -2.52]}
+{"stage": "test", "model": "base", "i": 38, "fam": "rule", "kind": "plain", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-4.611, -1.236, -0.361]}
+{"stage": "test", "model": "base", "i": 39, "fam": "rule", "kind": "plain", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-15.876, -0.001, -10.626]}
+{"stage": "test", "model": "base", "i": 40, "fam": "rule", "kind": "plain", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-12.264, -9.764, -0.014]}
+{"stage": "test", "model": "base", "i": 41, "fam": "rule", "kind": "plain", "key": "FIRST", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-7.632, -6.507, -0.007]}
+{"stage": "test", "model": "base", "i": 42, "fam": "rule", "kind": "plain", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-16.75, -21.625, -0.0]}
+{"stage": "test", "model": "base", "i": 43, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-15.004, -8.504, -0.004]}
+{"stage": "test", "model": "base", "i": 44, "fam": "rule", "kind": "plain", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-20.625, -25.0, -0.0]}
+{"stage": "test", "model": "base", "i": 45, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -23.25, -28.813]}
+{"stage": "test", "model": "base", "i": 46, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-22.375, -0.0, -13.252]}
+{"stage": "test", "model": "base", "i": 47, "fam": "rule", "kind": "plain", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-17.875, -0.0, -19.375]}
+{"stage": "test", "model": "base", "i": 48, "fam": "rule", "kind": "plain", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-13.625, -0.0, -15.001]}
+{"stage": "test", "model": "base", "i": 49, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -18.875, -24.189]}
+{"stage": "test", "model": "base", "i": 50, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -21.125, -26.376]}
+{"stage": "test", "model": "base", "i": 51, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-13.51, -13.135, -0.01]}
+{"stage": "test", "model": "base", "i": 52, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -25.438, -27.565]}
+{"stage": "test", "model": "base", "i": 53, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-10.888, -10.888, -0.013]}
+{"stage": "test", "model": "base", "i": 54, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -16.5, -20.001]}
+{"stage": "test", "model": "base", "i": 55, "fam": "rule", "kind": "plain", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -30.376, -27.177]}
+{"stage": "test", "model": "base", "i": 56, "fam": "rule", "kind": "plain", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -30.064, -24.876]}
+{"stage": "test", "model": "base", "i": 57, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-19.875, -0.0, -18.379]}
+{"stage": "test", "model": "base", "i": 58, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-13.0, -0.0, -21.32]}
+{"stage": "test", "model": "base", "i": 59, "fam": "rule", "kind": "plain", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-12.125, -0.0, -18.089]}
+{"stage": "test", "model": "base", "i": 60, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -13.0, -21.75]}
+{"stage": "test", "model": "base", "i": 61, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-22.563, -0.0, -22.449]}
+{"stage": "test", "model": "base", "i": 62, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -18.625, -21.75]}
+{"stage": "test", "model": "base", "i": 63, "fam": "rule", "kind": "decoy", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -18.25, -12.876]}
+{"stage": "test", "model": "base", "i": 64, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -30.377, -20.375]}
+{"stage": "test", "model": "base", "i": 65, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -31.754, -24.502]}
+{"stage": "test", "model": "base", "i": 66, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-20.875, -0.0, -17.875]}
+{"stage": "test", "model": "base", "i": 67, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -26.817, -16.126]}
+{"stage": "test", "model": "base", "i": 68, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -35.941, -35.512]}
+{"stage": "test", "model": "base", "i": 69, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -33.683, -35.121]}
+{"stage": "test", "model": "base", "i": 70, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -12.625, -17.0]}
+{"stage": "test", "model": "base", "i": 71, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-20.25, -0.0, -17.375]}
+{"stage": "test", "model": "base", "i": 72, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-23.438, -0.0, -17.375]}
+{"stage": "test", "model": "base", "i": 73, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -29.942, -24.994]}
+{"stage": "test", "model": "base", "i": 74, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-25.188, -0.0, -19.312]}
+{"stage": "test", "model": "base", "i": 75, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-15.0, -0.0, -14.5]}
+{"stage": "test", "model": "base", "i": 76, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.001, -16.001, -14.751]}
+{"stage": "test", "model": "base", "i": 77, "fam": "rule", "kind": "decoy", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-21.718, -3.53, -0.03]}
+{"stage": "test", "model": "base", "i": 78, "fam": "rule", "kind": "decoy", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -18.375, -30.814]}
+{"stage": "test", "model": "base", "i": 79, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -32.942, -26.132]}
+{"stage": "test", "model": "base", "i": 80, "fam": "rule", "kind": "decoy", "key": "OMEGA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-24.26, -12.38, -0.006]}
+{"stage": "test", "model": "base", "i": 81, "fam": "rule", "kind": "decoy", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-20.519, -0.144, -2.019]}
+{"stage": "test", "model": "base", "i": 82, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -32.314, -28.122]}
+{"stage": "test", "model": "base", "i": 83, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -12.5, -19.126]}
+{"stage": "test", "model": "base", "i": 84, "fam": "rule", "kind": "decoy", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-25.375, -16.875, -0.0]}
+{"stage": "test", "model": "base", "i": 85, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-22.315, -0.002, -6.378]}
+{"stage": "test", "model": "base", "i": 86, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-18.0, -0.0, -14.125]}
+{"stage": "test", "model": "base", "i": 87, "fam": "rule", "kind": "decoy", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-27.813, -24.125, -0.0]}
+{"stage": "test", "model": "base", "i": 88, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.604, -10.479, -0.854]}
+{"stage": "test", "model": "base", "i": 89, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -30.313, -31.064]}
+{"stage": "test", "model": "base", "i": 90, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-21.266, -2.264, -0.14]}
+{"stage": "test", "model": "base", "i": 91, "fam": "rule", "kind": "decoy", "key": "THIRD", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-16.882, -10.507, -0.007]}
+{"stage": "test", "model": "base", "i": 92, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -33.564, -33.486]}
+{"stage": "test", "model": "base", "i": 93, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -18.5, -21.253]}
+{"stage": "test", "model": "base", "i": 94, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-20.75, -0.0, -17.5]}
+{"stage": "test", "model": "base", "i": 95, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -16.125, -24.875]}
+{"stage": "test", "model": "base", "i": 96, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -17.75, -21.627]}
+{"stage": "test", "model": "base", "i": 97, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-26.126, -0.0, -18.251]}
+{"stage": "test", "model": "base", "i": 98, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -32.662, -27.037]}
+{"stage": "test", "model": "base", "i": 99, "fam": "rule", "kind": "decoy", "key": "REED", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-26.688, -22.0, -0.0]}
+{"stage": "test", "model": "base", "i": 100, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -27.563, -29.063]}
+{"stage": "test", "model": "base", "i": 101, "fam": "rule", "kind": "decoy", "key": "OMEGA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-25.475, -15.657, -0.033]}
+{"stage": "test", "model": "base", "i": 102, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-26.875, -0.0, -20.876]}
+{"stage": "test", "model": "base", "i": 103, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-27.626, -0.0, -15.502]}
+{"stage": "test", "model": "base", "i": 104, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -21.563, -19.938]}
+{"stage": "test", "model": "base", "i": 105, "fam": "rule", "kind": "decoy", "key": "FERN", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-18.625, -0.0, -24.159]}
+{"stage": "test", "model": "base", "i": 106, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-19.75, -0.0, -20.125]}
+{"stage": "test", "model": "base", "i": 107, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-27.377, -0.0, -14.251]}
+{"stage": "test", "model": "base", "i": 108, "fam": "rule", "kind": "decoy", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -23.25, -17.878]}
+{"stage": "test", "model": "base", "i": 109, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -23.75, -23.875]}
+{"stage": "test", "model": "base", "i": 110, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -31.273, -27.753]}
+{"stage": "test", "model": "base", "i": 111, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -29.505, -29.393]}
+{"stage": "test", "model": "base", "i": 112, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -11.75, -17.376]}
+{"stage": "test", "model": "base", "i": 113, "fam": "rule", "kind": "decoy", "key": "THIRD", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-17.45, -15.388, -0.013]}
+{"stage": "test", "model": "base", "i": 114, "fam": "rule", "kind": "decoy", "key": "THIRD", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-18.38, -13.63, -0.005]}
+{"stage": "test", "model": "base", "i": 115, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-17.5, -0.0, -15.125]}
+{"stage": "test", "model": "base", "i": 116, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -9.625, -20.438]}
+{"stage": "test", "model": "base", "i": 117, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.0, -15.375, -20.627]}
+{"stage": "test", "model": "base", "i": 118, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.001, -7.626, -19.063]}
+{"stage": "test", "model": "base", "i": 119, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-19.875, -0.0, -16.5]}
+{"stage": "test", "model": "base", "i": 120, "fam": "price", "kind": "plain", "key": "72", "old": "27", "cands": ["72", "27"], "scores": [-22.375, -0.0]}
+{"stage": "test", "model": "base", "i": 121, "fam": "price", "kind": "plain", "key": "14", "old": "16", "cands": ["14", "16"], "scores": [-0.576, -0.826]}
+{"stage": "test", "model": "base", "i": 122, "fam": "price", "kind": "plain", "key": "48", "old": "20", "cands": ["48", "20"], "scores": [-4.932, -5.065]}
+{"stage": "test", "model": "base", "i": 123, "fam": "price", "kind": "plain", "key": "45", "old": "27", "cands": ["45", "27"], "scores": [-15.375, -0.0]}
+{"stage": "test", "model": "base", "i": 124, "fam": "price", "kind": "plain", "key": "72", "old": "36", "cands": ["72", "36"], "scores": [-3.169, -0.044]}
+{"stage": "test", "model": "base", "i": 125, "fam": "price", "kind": "plain", "key": "30", "old": "36", "cands": ["30", "36"], "scores": [-14.875, -0.0]}
+{"stage": "test", "model": "base", "i": 126, "fam": "price", "kind": "plain", "key": "40", "old": "24", "cands": ["40", "24"], "scores": [-17.25, -0.0]}
+{"stage": "test", "model": "base", "i": 127, "fam": "price", "kind": "plain", "key": "12", "old": "24", "cands": ["12", "24"], "scores": [-15.75, -0.0]}
+{"stage": "test", "model": "base", "i": 128, "fam": "price", "kind": "plain", "key": "60", "old": "42", "cands": ["60", "42"], "scores": [-6.766, -0.016]}
+{"stage": "test", "model": "base", "i": 129, "fam": "price", "kind": "plain", "key": "20", "old": "8", "cands": ["20", "8"], "scores": [-11.159, -0.018]}
+{"stage": "test", "model": "base", "i": 130, "fam": "price", "kind": "plain", "key": "27", "old": "12", "cands": ["27", "12"], "scores": [-13.451, -1.704]}
+{"stage": "test", "model": "base", "i": 131, "fam": "price", "kind": "plain", "key": "24", "old": "36", "cands": ["24", "36"], "scores": [-12.25, -0.0]}
+{"stage": "test", "model": "base", "i": 132, "fam": "price", "kind": "plain", "key": "24", "old": "48", "cands": ["24", "48"], "scores": [-5.514, -0.014]}
+{"stage": "test", "model": "base", "i": 133, "fam": "price", "kind": "plain", "key": "80", "old": "48", "cands": ["80", "48"], "scores": [-8.25, -0.524]}
+{"stage": "test", "model": "base", "i": 134, "fam": "price", "kind": "plain", "key": "63", "old": "81", "cands": ["63", "81"], "scores": [-17.625, -0.0]}
+{"stage": "test", "model": "base", "i": 135, "fam": "price", "kind": "plain", "key": "27", "old": "18", "cands": ["27", "18"], "scores": [-16.875, -0.0]}
+{"stage": "test", "model": "base", "i": 136, "fam": "price", "kind": "plain", "key": "90", "old": "36", "cands": ["90", "36"], "scores": [-11.376, -0.001]}
+{"stage": "test", "model": "base", "i": 137, "fam": "price", "kind": "plain", "key": "30", "old": "24", "cands": ["30", "24"], "scores": [-2.35, -0.424]}
+{"stage": "test", "model": "base", "i": 138, "fam": "price", "kind": "plain", "key": "40", "old": "56", "cands": ["40", "56"], "scores": [-7.126, -0.001]}
+{"stage": "test", "model": "base", "i": 139, "fam": "price", "kind": "plain", "key": "49", "old": "63", "cands": ["49", "63"], "scores": [-18.0, -0.0]}
+{"stage": "test", "model": "base", "i": 140, "fam": "price", "kind": "plain", "key": "77", "old": "42", "cands": ["77", "42"], "scores": [-7.251, -0.004]}
+{"stage": "test", "model": "base", "i": 141, "fam": "price", "kind": "plain", "key": "99", "old": "45", "cands": ["99", "45"], "scores": [-12.066, -0.0]}
+{"stage": "test", "model": "base", "i": 142, "fam": "price", "kind": "plain", "key": "32", "old": "56", "cands": ["32", "56"], "scores": [-22.25, -0.0]}
+{"stage": "test", "model": "base", "i": 143, "fam": "price", "kind": "plain", "key": "24", "old": "40", "cands": ["24", "40"], "scores": [-14.625, -0.0]}
+{"stage": "test", "model": "base", "i": 144, "fam": "price", "kind": "plain", "key": "32", "old": "72", "cands": ["32", "72"], "scores": [-0.329, -1.579]}
+{"stage": "test", "model": "base", "i": 145, "fam": "price", "kind": "plain", "key": "36", "old": "54", "cands": ["36", "54"], "scores": [-19.75, -0.0]}
+{"stage": "test", "model": "base", "i": 146, "fam": "price", "kind": "plain", "key": "81", "old": "36", "cands": ["81", "36"], "scores": [-5.847, -0.097]}
+{"stage": "test", "model": "base", "i": 147, "fam": "price", "kind": "plain", "key": "48", "old": "24", "cands": ["48", "24"], "scores": [-10.625, -0.0]}
+{"stage": "test", "model": "base", "i": 148, "fam": "price", "kind": "plain", "key": "50", "old": "20", "cands": ["50", "20"], "scores": [-8.155, -4.157]}
+{"stage": "test", "model": "base", "i": 149, "fam": "price", "kind": "plain", "key": "18", "old": "30", "cands": ["18", "30"], "scores": [-0.039, -3.289]}
+{"stage": "test", "model": "base", "i": 150, "fam": "price", "kind": "plain", "key": "30", "old": "36", "cands": ["30", "36"], "scores": [-9.375, -0.0]}
+{"stage": "test", "model": "base", "i": 151, "fam": "price", "kind": "plain", "key": "24", "old": "9", "cands": ["24", "9"], "scores": [-16.255, -0.005]}
+{"stage": "test", "model": "base", "i": 152, "fam": "price", "kind": "plain", "key": "28", "old": "36", "cands": ["28", "36"], "scores": [-9.878, -0.003]}
+{"stage": "test", "model": "base", "i": 153, "fam": "price", "kind": "plain", "key": "72", "old": "27", "cands": ["72", "27"], "scores": [-6.815, -1.315]}
+{"stage": "test", "model": "base", "i": 154, "fam": "price", "kind": "plain", "key": "30", "old": "24", "cands": ["30", "24"], "scores": [-4.157, -0.039]}
+{"stage": "test", "model": "base", "i": 155, "fam": "price", "kind": "plain", "key": "70", "old": "28", "cands": ["70", "28"], "scores": [-18.518, -0.0]}
+{"stage": "test", "model": "base", "i": 156, "fam": "price", "kind": "plain", "key": "81", "old": "54", "cands": ["81", "54"], "scores": [-18.375, -0.0]}
+{"stage": "test", "model": "base", "i": 157, "fam": "price", "kind": "plain", "key": "66", "old": "30", "cands": ["66", "30"], "scores": [-10.439, -0.268]}
+{"stage": "test", "model": "base", "i": 158, "fam": "price", "kind": "plain", "key": "32", "old": "56", "cands": ["32", "56"], "scores": [-17.125, -0.0]}
+{"stage": "test", "model": "base", "i": 159, "fam": "price", "kind": "plain", "key": "16", "old": "8", "cands": ["16", "8"], "scores": [-22.625, 0.0]}
+{"stage": "test", "model": "base", "i": 160, "fam": "price", "kind": "plain", "key": "12", "old": "24", "cands": ["12", "24"], "scores": [-0.019, -4.019]}
+{"stage": "test", "model": "base", "i": 161, "fam": "price", "kind": "plain", "key": "30", "old": "24", "cands": ["30", "24"], "scores": [-9.25, -0.0]}
+{"stage": "test", "model": "base", "i": 162, "fam": "price", "kind": "plain", "key": "99", "old": "45", "cands": ["99", "45"], "scores": [-11.135, -0.009]}
+{"stage": "test", "model": "base", "i": 163, "fam": "price", "kind": "plain", "key": "63", "old": "81", "cands": ["63", "81"], "scores": [-19.125, -0.0]}
+{"stage": "test", "model": "base", "i": 164, "fam": "price", "kind": "plain", "key": "42", "old": "21", "cands": ["42", "21"], "scores": [-18.929, -0.0]}
+{"stage": "test", "model": "base", "i": 165, "fam": "price", "kind": "plain", "key": "42", "old": "36", "cands": ["42", "36"], "scores": [-4.524, -0.024]}
+{"stage": "test", "model": "base", "i": 166, "fam": "price", "kind": "plain", "key": "54", "old": "30", "cands": ["54", "30"], "scores": [-15.878, -0.051]}
+{"stage": "test", "model": "base", "i": 167, "fam": "price", "kind": "plain", "key": "55", "old": "25", "cands": ["55", "25"], "scores": [-6.885, -0.013]}
+{"stage": "test", "model": "base", "i": 168, "fam": "price", "kind": "plain", "key": "81", "old": "72", "cands": ["81", "72"], "scores": [-0.105, -2.355]}
+{"stage": "test", "model": "base", "i": 169, "fam": "price", "kind": "plain", "key": "45", "old": "72", "cands": ["45", "72"], "scores": [-8.504, -0.004]}
+{"stage": "test", "model": "base", "i": 170, "fam": "price", "kind": "plain", "key": "24", "old": "32", "cands": ["24", "32"], "scores": [-10.125, -0.0]}
+{"stage": "test", "model": "base", "i": 171, "fam": "price", "kind": "plain", "key": "66", "old": "30", "cands": ["66", "30"], "scores": [-8.383, -0.074]}
+{"stage": "test", "model": "base", "i": 172, "fam": "price", "kind": "plain", "key": "42", "old": "48", "cands": ["42", "48"], "scores": [-16.5, -0.0]}
+{"stage": "test", "model": "base", "i": 173, "fam": "price", "kind": "plain", "key": "36", "old": "45", "cands": ["36", "45"], "scores": [-11.25, -0.0]}
+{"stage": "test", "model": "base", "i": 174, "fam": "price", "kind": "plain", "key": "42", "old": "24", "cands": ["42", "24"], "scores": [-5.46, -0.932]}
+{"stage": "test", "model": "base", "i": 175, "fam": "price", "kind": "plain", "key": "77", "old": "63", "cands": ["77", "63"], "scores": [-0.047, -3.172]}
+{"stage": "test", "model": "base", "i": 176, "fam": "price", "kind": "plain", "key": "44", "old": "12", "cands": ["44", "12"], "scores": [-17.631, -8.625]}
+{"stage": "test", "model": "base", "i": 177, "fam": "price", "kind": "plain", "key": "50", "old": "25", "cands": ["50", "25"], "scores": [-12.25, -0.0]}
+{"stage": "test", "model": "base", "i": 178, "fam": "price", "kind": "plain", "key": "28", "old": "49", "cands": ["28", "49"], "scores": [-22.875, 0.0]}
+{"stage": "test", "model": "base", "i": 179, "fam": "price", "kind": "plain", "key": "90", "old": "72", "cands": ["90", "72"], "scores": [-11.127, -0.002]}
+{"stage": "test", "model": "base", "i": 180, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "21"], "scores": [-0.037, -6.144]}
+{"stage": "test", "model": "base", "i": 181, "fam": "price", "kind": "decoy", "key": "45", "old": "45", "cands": ["45", "72"], "scores": [-0.0, -17.755]}
+{"stage": "test", "model": "base", "i": 182, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "22"], "scores": [-0.0, -10.644]}
+{"stage": "test", "model": "base", "i": 183, "fam": "price", "kind": "decoy", "key": "15", "old": "15", "cands": ["15", "9"], "scores": [-0.0, -16.375]}
+{"stage": "test", "model": "base", "i": 184, "fam": "price", "kind": "decoy", "key": "35", "old": "35", "cands": ["35", "49"], "scores": [-0.0, -9.5]}
+{"stage": "test", "model": "base", "i": 185, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "72"], "scores": [-0.001, -16.125]}
+{"stage": "test", "model": "base", "i": 186, "fam": "price", "kind": "decoy", "key": "48", "old": "48", "cands": ["48", "66"], "scores": [-9.686, -0.091]}
+{"stage": "test", "model": "base", "i": 187, "fam": "price", "kind": "decoy", "key": "28", "old": "28", "cands": ["28", "20"], "scores": [-0.001, -14.626]}
+{"stage": "test", "model": "base", "i": 188, "fam": "price", "kind": "decoy", "key": "25", "old": "25", "cands": ["25", "35"], "scores": [-0.0, -10.805]}
+{"stage": "test", "model": "base", "i": 189, "fam": "price", "kind": "decoy", "key": "18", "old": "18", "cands": ["18", "19"], "scores": [-0.0, -15.375]}
+{"stage": "test", "model": "base", "i": 190, "fam": "price", "kind": "decoy", "key": "72", "old": "72", "cands": ["72", "108"], "scores": [-0.445, -7.653]}
+{"stage": "test", "model": "base", "i": 191, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "40"], "scores": [-0.001, -15.589]}
+{"stage": "test", "model": "base", "i": 192, "fam": "price", "kind": "decoy", "key": "25", "old": "25", "cands": ["25", "35"], "scores": [-0.03, -6.109]}
+{"stage": "test", "model": "base", "i": 193, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "15"], "scores": [-0.388, -14.76]}
+{"stage": "test", "model": "base", "i": 194, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "32"], "scores": [-1.873, -1.498]}
+{"stage": "test", "model": "base", "i": 195, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "28"], "scores": [-0.003, -21.763]}
+{"stage": "test", "model": "base", "i": 196, "fam": "price", "kind": "decoy", "key": "24", "old": "24", "cands": ["24", "33"], "scores": [-0.002, -8.36]}
+{"stage": "test", "model": "base", "i": 197, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "72"], "scores": [-0.001, -13.501]}
+{"stage": "test", "model": "base", "i": 198, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "15"], "scores": [-0.057, -11.307]}
+{"stage": "test", "model": "base", "i": 199, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "27"], "scores": [-0.0, -15.875]}
+{"stage": "test", "model": "base", "i": 200, "fam": "price", "kind": "decoy", "key": "24", "old": "24", "cands": ["24", "30"], "scores": [-0.175, -1.925]}
+{"stage": "test", "model": "base", "i": 201, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "44"], "scores": [-1.669, -8.498]}
+{"stage": "test", "model": "base", "i": 202, "fam": "price", "kind": "decoy", "key": "21", "old": "21", "cands": ["21", "24"], "scores": [-0.003, -10.878]}
+{"stage": "test", "model": "base", "i": 203, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "33"], "scores": [-0.0, -23.109]}
+{"stage": "test", "model": "base", "i": 204, "fam": "price", "kind": "decoy", "key": "16", "old": "16", "cands": ["16", "12"], "scores": [-0.003, -7.128]}
+{"stage": "test", "model": "base", "i": 205, "fam": "price", "kind": "decoy", "key": "18", "old": "18", "cands": ["18", "19"], "scores": [-0.034, -18.159]}
+{"stage": "test", "model": "base", "i": 206, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "44"], "scores": [-0.002, -13.974]}
+{"stage": "test", "model": "base", "i": 207, "fam": "price", "kind": "decoy", "key": "63", "old": "63", "cands": ["63", "64"], "scores": [-0.284, -14.534]}
+{"stage": "test", "model": "base", "i": 208, "fam": "price", "kind": "decoy", "key": "63", "old": "63", "cands": ["63", "36"], "scores": [-0.075, -9.978]}
+{"stage": "test", "model": "base", "i": 209, "fam": "price", "kind": "decoy", "key": "63", "old": "63", "cands": ["63", "81"], "scores": [-0.003, -8.128]}
+{"stage": "test", "model": "base", "i": 210, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "35"], "scores": [-2.837, -5.401]}
+{"stage": "test", "model": "base", "i": 211, "fam": "price", "kind": "decoy", "key": "54", "old": "54", "cands": ["54", "55"], "scores": [-0.001, -13.501]}
+{"stage": "test", "model": "base", "i": 212, "fam": "price", "kind": "decoy", "key": "35", "old": "35", "cands": ["35", "21"], "scores": [-0.009, -11.134]}
+{"stage": "test", "model": "base", "i": 213, "fam": "price", "kind": "decoy", "key": "42", "old": "42", "cands": ["42", "77"], "scores": [-0.0, -13.519]}
+{"stage": "test", "model": "base", "i": 214, "fam": "price", "kind": "decoy", "key": "56", "old": "56", "cands": ["56", "84"], "scores": [-0.006, -6.655]}
+{"stage": "test", "model": "base", "i": 215, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "99"], "scores": [-0.001, -19.71]}
+{"stage": "test", "model": "base", "i": 216, "fam": "price", "kind": "decoy", "key": "63", "old": "63", "cands": ["63", "45"], "scores": [-0.008, -6.883]}
+{"stage": "test", "model": "base", "i": 217, "fam": "price", "kind": "decoy", "key": "48", "old": "48", "cands": ["48", "96"], "scores": [-0.013, -10.388]}
+{"stage": "test", "model": "base", "i": 218, "fam": "price", "kind": "decoy", "key": "10", "old": "10", "cands": ["10", "8"], "scores": [-0.001, -12.751]}
+{"stage": "test", "model": "base", "i": 219, "fam": "price", "kind": "decoy", "key": "49", "old": "49", "cands": ["49", "77"], "scores": [-0.001, -12.016]}
+{"stage": "test", "model": "base", "i": 220, "fam": "price", "kind": "decoy", "key": "72", "old": "72", "cands": ["72", "45"], "scores": [-0.0, -13.125]}
+{"stage": "test", "model": "base", "i": 221, "fam": "price", "kind": "decoy", "key": "54", "old": "54", "cands": ["54", "90"], "scores": [-0.016, -5.141]}
+{"stage": "test", "model": "base", "i": 222, "fam": "price", "kind": "decoy", "key": "35", "old": "35", "cands": ["35", "50"], "scores": [-0.0, -10.003]}
+{"stage": "test", "model": "base", "i": 223, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "24"], "scores": [-0.0, -15.375]}
+{"stage": "test", "model": "base", "i": 224, "fam": "price", "kind": "decoy", "key": "35", "old": "35", "cands": ["35", "45"], "scores": [-0.794, -1.669]}
+{"stage": "test", "model": "base", "i": 225, "fam": "price", "kind": "decoy", "key": "45", "old": "45", "cands": ["45", "72"], "scores": [-2.487, -10.395]}
+{"stage": "test", "model": "base", "i": 226, "fam": "price", "kind": "decoy", "key": "27", "old": "27", "cands": ["27", "99"], "scores": [-0.0, -18.191]}
+{"stage": "test", "model": "base", "i": 227, "fam": "price", "kind": "decoy", "key": "18", "old": "18", "cands": ["18", "27"], "scores": [-0.045, -3.17]}
+{"stage": "test", "model": "base", "i": 228, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "12"], "scores": [-0.227, -3.514]}
+{"stage": "test", "model": "base", "i": 229, "fam": "price", "kind": "decoy", "key": "40", "old": "40", "cands": ["40", "20"], "scores": [-0.003, -6.753]}
+{"stage": "test", "model": "base", "i": 230, "fam": "price", "kind": "decoy", "key": "16", "old": "16", "cands": ["16", "44"], "scores": [-0.0, -19.169]}
+{"stage": "test", "model": "base", "i": 231, "fam": "price", "kind": "decoy", "key": "15", "old": "15", "cands": ["15", "25"], "scores": [-0.0, -10.771]}
+{"stage": "test", "model": "base", "i": 232, "fam": "price", "kind": "decoy", "key": "16", "old": "16", "cands": ["16", "28"], "scores": [-0.127, -15.451]}
+{"stage": "test", "model": "base", "i": 233, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "44"], "scores": [-0.212, -15.242]}
+{"stage": "test", "model": "base", "i": 234, "fam": "price", "kind": "decoy", "key": "14", "old": "14", "cands": ["14", "20"], "scores": [-0.387, -1.588]}
+{"stage": "test", "model": "base", "i": 235, "fam": "price", "kind": "decoy", "key": "24", "old": "24", "cands": ["24", "72"], "scores": [-0.0, -15.962]}
+{"stage": "test", "model": "base", "i": 236, "fam": "price", "kind": "decoy", "key": "24", "old": "24", "cands": ["24", "48"], "scores": [-0.0, -11.126]}
+{"stage": "test", "model": "base", "i": 237, "fam": "price", "kind": "decoy", "key": "40", "old": "40", "cands": ["40", "45"], "scores": [-0.0, -16.5]}
+{"stage": "test", "model": "base", "i": 238, "fam": "price", "kind": "decoy", "key": "28", "old": "28", "cands": ["28", "16"], "scores": [-0.0, -17.385]}
+{"stage": "test", "model": "base", "i": 239, "fam": "price", "kind": "decoy", "key": "72", "old": "72", "cands": ["72", "80"], "scores": [-0.078, -3.203]}
+{"stage": "test", "model": "tuned", "i": 0, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-63.985, -19.726, -0.131]}
+{"stage": "test", "model": "tuned", "i": 1, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-43.652, -4.527, -40.033]}
+{"stage": "test", "model": "tuned", "i": 2, "fam": "rule", "kind": "plain", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-69.57, -0.0, -50.704]}
+{"stage": "test", "model": "tuned", "i": 3, "fam": "rule", "kind": "plain", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -70.941, -68.357]}
+{"stage": "test", "model": "tuned", "i": 4, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-1.183, -27.558, -24.494]}
+{"stage": "test", "model": "tuned", "i": 5, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-82.932, -0.007, -48.827]}
+{"stage": "test", "model": "tuned", "i": 6, "fam": "rule", "kind": "plain", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-63.739, -0.022, -40.134]}
+{"stage": "test", "model": "tuned", "i": 7, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-62.043, -0.164, -37.746]}
+{"stage": "test", "model": "tuned", "i": 8, "fam": "rule", "kind": "plain", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-56.96, -0.014, -35.611]}
+{"stage": "test", "model": "tuned", "i": 9, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-47.89, -7.283, -35.143]}
+{"stage": "test", "model": "tuned", "i": 10, "fam": "rule", "kind": "plain", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -73.838, -62.205]}
+{"stage": "test", "model": "tuned", "i": 11, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-87.153, -0.001, -76.252]}
+{"stage": "test", "model": "tuned", "i": 12, "fam": "rule", "kind": "plain", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-47.756, -5.256, -47.156]}
+{"stage": "test", "model": "tuned", "i": 13, "fam": "rule", "kind": "plain", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-42.862, -0.409, -42.12]}
+{"stage": "test", "model": "tuned", "i": 14, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -76.314, -59.72]}
+{"stage": "test", "model": "tuned", "i": 15, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-81.844, -0.0, -79.919]}
+{"stage": "test", "model": "tuned", "i": 16, "fam": "rule", "kind": "plain", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -74.602, -79.898]}
+{"stage": "test", "model": "tuned", "i": 17, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-45.268, -2.143, -18.289]}
+{"stage": "test", "model": "tuned", "i": 18, "fam": "rule", "kind": "plain", "key": "MOSS", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.002, -73.795, -71.014]}
+{"stage": "test", "model": "tuned", "i": 19, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-55.583, -0.012, -46.344]}
+{"stage": "test", "model": "tuned", "i": 20, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-83.916, -0.001, -77.05]}
+{"stage": "test", "model": "tuned", "i": 21, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-87.892, -0.0, -78.212]}
+{"stage": "test", "model": "tuned", "i": 22, "fam": "rule", "kind": "plain", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.001, -84.863, -72.748]}
+{"stage": "test", "model": "tuned", "i": 23, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-1.958, -41.943, -56.852]}
+{"stage": "test", "model": "tuned", "i": 24, "fam": "rule", "kind": "plain", "key": "KAPPA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -64.229, -24.783]}
+{"stage": "test", "model": "tuned", "i": 25, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-80.773, -0.001, -80.527]}
+{"stage": "test", "model": "tuned", "i": 26, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -88.042, -87.081]}
+{"stage": "test", "model": "tuned", "i": 27, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-69.524, -0.027, -5.739]}
+{"stage": "test", "model": "tuned", "i": 28, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-48.269, -0.035, -46.916]}
+{"stage": "test", "model": "tuned", "i": 29, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-76.228, -0.019, -38.311]}
+{"stage": "test", "model": "tuned", "i": 30, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-61.633, -0.005, -48.855]}
+{"stage": "test", "model": "tuned", "i": 31, "fam": "rule", "kind": "plain", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -80.725, -76.865]}
+{"stage": "test", "model": "tuned", "i": 32, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-7.502, -52.94, -66.827]}
+{"stage": "test", "model": "tuned", "i": 33, "fam": "rule", "kind": "plain", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -79.986, -68.6]}
+{"stage": "test", "model": "tuned", "i": 34, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-51.069, -8.477, -7.55]}
+{"stage": "test", "model": "tuned", "i": 35, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-54.316, -36.554, -0.078]}
+{"stage": "test", "model": "tuned", "i": 36, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-60.354, -0.011, -43.146]}
+{"stage": "test", "model": "tuned", "i": 37, "fam": "rule", "kind": "plain", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -68.149, -69.323]}
+{"stage": "test", "model": "tuned", "i": 38, "fam": "rule", "kind": "plain", "key": "JADE", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.011, -54.23, -14.037]}
+{"stage": "test", "model": "tuned", "i": 39, "fam": "rule", "kind": "plain", "key": "JADE", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.014, -74.926, -67.989]}
+{"stage": "test", "model": "tuned", "i": 40, "fam": "rule", "kind": "plain", "key": "KAPPA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -68.87, -71.113]}
+{"stage": "test", "model": "tuned", "i": 41, "fam": "rule", "kind": "plain", "key": "FIRST", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.581, -36.206, -52.173]}
+{"stage": "test", "model": "tuned", "i": 42, "fam": "rule", "kind": "plain", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-55.442, -0.001, -45.635]}
+{"stage": "test", "model": "tuned", "i": 43, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-51.588, -0.15, -40.732]}
+{"stage": "test", "model": "tuned", "i": 44, "fam": "rule", "kind": "plain", "key": "FERN", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-65.286, -22.492, -8.901]}
+{"stage": "test", "model": "tuned", "i": 45, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -89.54, -87.602]}
+{"stage": "test", "model": "tuned", "i": 46, "fam": "rule", "kind": "plain", "key": "OMEGA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-75.003, -0.002, -50.385]}
+{"stage": "test", "model": "tuned", "i": 47, "fam": "rule", "kind": "plain", "key": "THIRD", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-43.218, -0.014, -49.139]}
+{"stage": "test", "model": "tuned", "i": 48, "fam": "rule", "kind": "plain", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-63.093, -0.039, -44.212]}
+{"stage": "test", "model": "tuned", "i": 49, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -57.69, -69.469]}
+{"stage": "test", "model": "tuned", "i": 50, "fam": "rule", "kind": "plain", "key": "SIGMA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -97.485, -85.505]}
+{"stage": "test", "model": "tuned", "i": 51, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-40.622, -35.848, -0.061]}
+{"stage": "test", "model": "tuned", "i": 52, "fam": "rule", "kind": "plain", "key": "ONYX", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -61.142, -72.593]}
+{"stage": "test", "model": "tuned", "i": 53, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-33.751, -28.376, -10.129]}
+{"stage": "test", "model": "tuned", "i": 54, "fam": "rule", "kind": "plain", "key": "SECOND", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-6.506, -51.959, -66.441]}
+{"stage": "test", "model": "tuned", "i": 55, "fam": "rule", "kind": "plain", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.001, -92.953, -80.291]}
+{"stage": "test", "model": "tuned", "i": 56, "fam": "rule", "kind": "plain", "key": "FERN", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.001, -89.698, -81.978]}
+{"stage": "test", "model": "tuned", "i": 57, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-72.736, -0.001, -67.921]}
+{"stage": "test", "model": "tuned", "i": 58, "fam": "rule", "kind": "plain", "key": "REED", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-76.217, -0.004, -71.938]}
+{"stage": "test", "model": "tuned", "i": 59, "fam": "rule", "kind": "plain", "key": "OPAL", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-59.929, -0.018, -39.023]}
+{"stage": "test", "model": "tuned", "i": 60, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -78.586, -92.227]}
+{"stage": "test", "model": "tuned", "i": 61, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-70.348, -0.27, -47.788]}
+{"stage": "test", "model": "tuned", "i": 62, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -68.574, -93.07]}
+{"stage": "test", "model": "tuned", "i": 63, "fam": "rule", "kind": "decoy", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -97.5, -93.735]}
+{"stage": "test", "model": "tuned", "i": 64, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.003, -80.979, -76.487]}
+{"stage": "test", "model": "tuned", "i": 65, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -88.205, -76.913]}
+{"stage": "test", "model": "tuned", "i": 66, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-51.422, -0.859, -46.201]}
+{"stage": "test", "model": "tuned", "i": 67, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -91.848, -82.112]}
+{"stage": "test", "model": "tuned", "i": 68, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.064, -80.984, -69.747]}
+{"stage": "test", "model": "tuned", "i": 69, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.002, -89.753, -80.854]}
+{"stage": "test", "model": "tuned", "i": 70, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.561, -42.421, -60.471]}
+{"stage": "test", "model": "tuned", "i": 71, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-68.032, -0.133, -51.418]}
+{"stage": "test", "model": "tuned", "i": 72, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-67.638, -0.586, -45.04]}
+{"stage": "test", "model": "tuned", "i": 73, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-2.579, -73.473, -75.16]}
+{"stage": "test", "model": "tuned", "i": 74, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-73.227, -0.175, -47.936]}
+{"stage": "test", "model": "tuned", "i": 75, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-53.467, -1.342, -43.58]}
+{"stage": "test", "model": "tuned", "i": 76, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-3.805, -50.114, -67.826]}
+{"stage": "test", "model": "tuned", "i": 77, "fam": "rule", "kind": "decoy", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-91.261, -44.643, -0.009]}
+{"stage": "test", "model": "tuned", "i": 78, "fam": "rule", "kind": "decoy", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -87.657, -90.786]}
+{"stage": "test", "model": "tuned", "i": 79, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-46.313, -85.917, -0.0]}
+{"stage": "test", "model": "tuned", "i": 80, "fam": "rule", "kind": "decoy", "key": "OMEGA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-79.229, -47.36, -0.024]}
+{"stage": "test", "model": "tuned", "i": 81, "fam": "rule", "kind": "decoy", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-96.271, -46.816, -0.003]}
+{"stage": "test", "model": "tuned", "i": 82, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.0, -93.606, -80.868]}
+{"stage": "test", "model": "tuned", "i": 83, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.828, -43.672, -61.973]}
+{"stage": "test", "model": "tuned", "i": 84, "fam": "rule", "kind": "decoy", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-97.152, -48.09, -0.009]}
+{"stage": "test", "model": "tuned", "i": 85, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-97.835, -0.993, -45.785]}
+{"stage": "test", "model": "tuned", "i": 86, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-51.621, -0.434, -45.744]}
+{"stage": "test", "model": "tuned", "i": 87, "fam": "rule", "kind": "decoy", "key": "OPAL", "old": "OPAL", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-100.016, -52.09, -0.002]}
+{"stage": "test", "model": "tuned", "i": 88, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-1.307, -45.136, -59.524]}
+{"stage": "test", "model": "tuned", "i": 89, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -71.724, -89.305]}
+{"stage": "test", "model": "tuned", "i": 90, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-103.691, -0.28, -36.551]}
+{"stage": "test", "model": "tuned", "i": 91, "fam": "rule", "kind": "decoy", "key": "THIRD", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-44.348, -33.629, -0.099]}
+{"stage": "test", "model": "tuned", "i": 92, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.002, -93.512, -84.557]}
+{"stage": "test", "model": "tuned", "i": 93, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.785, -43.956, -60.033]}
+{"stage": "test", "model": "tuned", "i": 94, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-49.053, -0.241, -41.667]}
+{"stage": "test", "model": "tuned", "i": 95, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -68.03, -82.328]}
+{"stage": "test", "model": "tuned", "i": 96, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-1.262, -44.919, -64.858]}
+{"stage": "test", "model": "tuned", "i": 97, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-81.193, -0.064, -51.811]}
+{"stage": "test", "model": "tuned", "i": 98, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.003, -82.232, -75.636]}
+{"stage": "test", "model": "tuned", "i": 99, "fam": "rule", "kind": "decoy", "key": "REED", "old": "REED", "cands": ["MOSS", "FERN", "REED"], "scores": [-75.477, -79.085, -0.001]}
+{"stage": "test", "model": "tuned", "i": 100, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -73.785, -93.086]}
+{"stage": "test", "model": "tuned", "i": 101, "fam": "rule", "kind": "decoy", "key": "OMEGA", "old": "OMEGA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-89.733, -42.456, -0.125]}
+{"stage": "test", "model": "tuned", "i": 102, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-90.067, -0.13, -49.894]}
+{"stage": "test", "model": "tuned", "i": 103, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-91.932, -0.024, -48.279]}
+{"stage": "test", "model": "tuned", "i": 104, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -79.963, -92.501]}
+{"stage": "test", "model": "tuned", "i": 105, "fam": "rule", "kind": "decoy", "key": "FERN", "old": "FERN", "cands": ["MOSS", "FERN", "REED"], "scores": [-97.239, -0.0, -78.903]}
+{"stage": "test", "model": "tuned", "i": 106, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-50.614, -0.177, -41.063]}
+{"stage": "test", "model": "tuned", "i": 107, "fam": "rule", "kind": "decoy", "key": "SIGMA", "old": "SIGMA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-100.862, -0.393, -48.795]}
+{"stage": "test", "model": "tuned", "i": 108, "fam": "rule", "kind": "decoy", "key": "KAPPA", "old": "KAPPA", "cands": ["KAPPA", "SIGMA", "OMEGA"], "scores": [-0.0, -97.961, -92.791]}
+{"stage": "test", "model": "tuned", "i": 109, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -77.324, -87.75]}
+{"stage": "test", "model": "tuned", "i": 110, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.002, -89.582, -79.439]}
+{"stage": "test", "model": "tuned", "i": 111, "fam": "rule", "kind": "decoy", "key": "MOSS", "old": "MOSS", "cands": ["MOSS", "FERN", "REED"], "scores": [-0.063, -82.646, -73.886]}
+{"stage": "test", "model": "tuned", "i": 112, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-0.677, -42.677, -58.691]}
+{"stage": "test", "model": "tuned", "i": 113, "fam": "rule", "kind": "decoy", "key": "THIRD", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-43.891, -33.188, -0.079]}
+{"stage": "test", "model": "tuned", "i": 114, "fam": "rule", "kind": "decoy", "key": "THIRD", "old": "THIRD", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-43.016, -34.766, -0.927]}
+{"stage": "test", "model": "tuned", "i": 115, "fam": "rule", "kind": "decoy", "key": "ONYX", "old": "ONYX", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-68.186, -0.75, -43.621]}
+{"stage": "test", "model": "tuned", "i": 116, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -69.59, -92.609]}
+{"stage": "test", "model": "tuned", "i": 117, "fam": "rule", "kind": "decoy", "key": "FIRST", "old": "FIRST", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-3.558, -49.32, -69.497]}
+{"stage": "test", "model": "tuned", "i": 118, "fam": "rule", "kind": "decoy", "key": "JADE", "old": "JADE", "cands": ["JADE", "ONYX", "OPAL"], "scores": [-0.0, -66.825, -90.785]}
+{"stage": "test", "model": "tuned", "i": 119, "fam": "rule", "kind": "decoy", "key": "SECOND", "old": "SECOND", "cands": ["FIRST", "SECOND", "THIRD"], "scores": [-51.833, -0.521, -43.097]}
+{"stage": "test", "model": "tuned", "i": 120, "fam": "price", "kind": "plain", "key": "72", "old": "27", "cands": ["72", "27"], "scores": [-40.5, -54.125]}
+{"stage": "test", "model": "tuned", "i": 121, "fam": "price", "kind": "plain", "key": "14", "old": "16", "cands": ["14", "16"], "scores": [0.0, -36.25]}
+{"stage": "test", "model": "tuned", "i": 122, "fam": "price", "kind": "plain", "key": "48", "old": "20", "cands": ["48", "20"], "scores": [-0.0, -74.398]}
+{"stage": "test", "model": "tuned", "i": 123, "fam": "price", "kind": "plain", "key": "45", "old": "27", "cands": ["45", "27"], "scores": [-0.693, -49.509]}
+{"stage": "test", "model": "tuned", "i": 124, "fam": "price", "kind": "plain", "key": "72", "old": "36", "cands": ["72", "36"], "scores": [0.0, -45.031]}
+{"stage": "test", "model": "tuned", "i": 125, "fam": "price", "kind": "plain", "key": "30", "old": "36", "cands": ["30", "36"], "scores": [-13.757, -8.757]}
+{"stage": "test", "model": "tuned", "i": 126, "fam": "price", "kind": "plain", "key": "40", "old": "24", "cands": ["40", "24"], "scores": [-28.062, -3.288]}
+{"stage": "test", "model": "tuned", "i": 127, "fam": "price", "kind": "plain", "key": "12", "old": "24", "cands": ["12", "24"], "scores": [-0.002, -24.003]}
+{"stage": "test", "model": "tuned", "i": 128, "fam": "price", "kind": "plain", "key": "60", "old": "42", "cands": ["60", "42"], "scores": [0.0, -64.922]}
+{"stage": "test", "model": "tuned", "i": 129, "fam": "price", "kind": "plain", "key": "20", "old": "8", "cands": ["20", "8"], "scores": [0.0, -39.494]}
+{"stage": "test", "model": "tuned", "i": 130, "fam": "price", "kind": "plain", "key": "27", "old": "12", "cands": ["27", "12"], "scores": [-12.75, -51.979]}
+{"stage": "test", "model": "tuned", "i": 131, "fam": "price", "kind": "plain", "key": "24", "old": "36", "cands": ["24", "36"], "scores": [-0.0, -33.756]}
+{"stage": "test", "model": "tuned", "i": 132, "fam": "price", "kind": "plain", "key": "24", "old": "48", "cands": ["24", "48"], "scores": [-0.0, -13.75]}
+{"stage": "test", "model": "tuned", "i": 133, "fam": "price", "kind": "plain", "key": "80", "old": "48", "cands": ["80", "48"], "scores": [-0.0, -68.229]}
+{"stage": "test", "model": "tuned", "i": 134, "fam": "price", "kind": "plain", "key": "63", "old": "81", "cands": ["63", "81"], "scores": [-38.812, -0.349]}
+{"stage": "test", "model": "tuned", "i": 135, "fam": "price", "kind": "plain", "key": "27", "old": "18", "cands": ["27", "18"], "scores": [-35.063, -11.358]}
+{"stage": "test", "model": "tuned", "i": 136, "fam": "price", "kind": "plain", "key": "90", "old": "36", "cands": ["90", "36"], "scores": [-0.474, -8.26]}
+{"stage": "test", "model": "tuned", "i": 137, "fam": "price", "kind": "plain", "key": "30", "old": "24", "cands": ["30", "24"], "scores": [0.0, -51.71]}
+{"stage": "test", "model": "tuned", "i": 138, "fam": "price", "kind": "plain", "key": "40", "old": "56", "cands": ["40", "56"], "scores": [-41.0, -27.625]}
+{"stage": "test", "model": "tuned", "i": 139, "fam": "price", "kind": "plain", "key": "49", "old": "63", "cands": ["49", "63"], "scores": [-45.268, -14.85]}
+{"stage": "test", "model": "tuned", "i": 140, "fam": "price", "kind": "plain", "key": "77", "old": "42", "cands": ["77", "42"], "scores": [-0.0, -66.901]}
+{"stage": "test", "model": "tuned", "i": 141, "fam": "price", "kind": "plain", "key": "99", "old": "45", "cands": ["99", "45"], "scores": [-0.182, -20.487]}
+{"stage": "test", "model": "tuned", "i": 142, "fam": "price", "kind": "plain", "key": "32", "old": "56", "cands": ["32", "56"], "scores": [-34.938, -16.875]}
+{"stage": "test", "model": "tuned", "i": 143, "fam": "price", "kind": "plain", "key": "24", "old": "40", "cands": ["24", "40"], "scores": [-34.0, -0.003]}
+{"stage": "test", "model": "tuned", "i": 144, "fam": "price", "kind": "plain", "key": "32", "old": "72", "cands": ["32", "72"], "scores": [-6.252, -37.597]}
+{"stage": "test", "model": "tuned", "i": 145, "fam": "price", "kind": "plain", "key": "36", "old": "54", "cands": ["36", "54"], "scores": [-51.188, -0.0]}
+{"stage": "test", "model": "tuned", "i": 146, "fam": "price", "kind": "plain", "key": "81", "old": "36", "cands": ["81", "36"], "scores": [-0.576, -20.451]}
+{"stage": "test", "model": "tuned", "i": 147, "fam": "price", "kind": "plain", "key": "48", "old": "24", "cands": ["48", "24"], "scores": [0.0, -26.25]}
+{"stage": "test", "model": "tuned", "i": 148, "fam": "price", "kind": "plain", "key": "50", "old": "20", "cands": ["50", "20"], "scores": [-9.75, -43.225]}
+{"stage": "test", "model": "tuned", "i": 149, "fam": "price", "kind": "plain", "key": "18", "old": "30", "cands": ["18", "30"], "scores": [0.0, -40.223]}
+{"stage": "test", "model": "tuned", "i": 150, "fam": "price", "kind": "plain", "key": "30", "old": "36", "cands": ["30", "36"], "scores": [-0.16, -1.91]}
+{"stage": "test", "model": "tuned", "i": 151, "fam": "price", "kind": "plain", "key": "24", "old": "9", "cands": ["24", "9"], "scores": [-40.469, -33.688]}
+{"stage": "test", "model": "tuned", "i": 152, "fam": "price", "kind": "plain", "key": "28", "old": "36", "cands": ["28", "36"], "scores": [-0.039, -42.164]}
+{"stage": "test", "model": "tuned", "i": 153, "fam": "price", "kind": "plain", "key": "72", "old": "27", "cands": ["72", "27"], "scores": [-5.007, -66.193]}
+{"stage": "test", "model": "tuned", "i": 154, "fam": "price", "kind": "plain", "key": "30", "old": "24", "cands": ["30", "24"], "scores": [-4.511, -49.917]}
+{"stage": "test", "model": "tuned", "i": 155, "fam": "price", "kind": "plain", "key": "70", "old": "28", "cands": ["70", "28"], "scores": [-5.504, -11.701]}
+{"stage": "test", "model": "tuned", "i": 156, "fam": "price", "kind": "plain", "key": "81", "old": "54", "cands": ["81", "54"], "scores": [-25.504, -5.504]}
+{"stage": "test", "model": "tuned", "i": 157, "fam": "price", "kind": "plain", "key": "66", "old": "30", "cands": ["66", "30"], "scores": [-0.0, -63.571]}
+{"stage": "test", "model": "tuned", "i": 158, "fam": "price", "kind": "plain", "key": "32", "old": "56", "cands": ["32", "56"], "scores": [-15.375, -19.251]}
+{"stage": "test", "model": "tuned", "i": 159, "fam": "price", "kind": "plain", "key": "16", "old": "8", "cands": ["16", "8"], "scores": [-42.188, 0.0]}
+{"stage": "test", "model": "tuned", "i": 160, "fam": "price", "kind": "plain", "key": "12", "old": "24", "cands": ["12", "24"], "scores": [-0.0, -41.966]}
+{"stage": "test", "model": "tuned", "i": 161, "fam": "price", "kind": "plain", "key": "30", "old": "24", "cands": ["30", "24"], "scores": [-0.0, -34.438]}
+{"stage": "test", "model": "tuned", "i": 162, "fam": "price", "kind": "plain", "key": "99", "old": "45", "cands": ["99", "45"], "scores": [-0.0, -54.25]}
+{"stage": "test", "model": "tuned", "i": 163, "fam": "price", "kind": "plain", "key": "63", "old": "81", "cands": ["63", "81"], "scores": [-42.625, 0.0]}
+{"stage": "test", "model": "tuned", "i": 164, "fam": "price", "kind": "plain", "key": "42", "old": "21", "cands": ["42", "21"], "scores": [-29.886, 0.0]}
+{"stage": "test", "model": "tuned", "i": 165, "fam": "price", "kind": "plain", "key": "42", "old": "36", "cands": ["42", "36"], "scores": [0.0, -36.18]}
+{"stage": "test", "model": "tuned", "i": 166, "fam": "price", "kind": "plain", "key": "54", "old": "30", "cands": ["54", "30"], "scores": [-12.538, -30.476]}
+{"stage": "test", "model": "tuned", "i": 167, "fam": "price", "kind": "plain", "key": "55", "old": "25", "cands": ["55", "25"], "scores": [-0.0, -54.471]}
+{"stage": "test", "model": "tuned", "i": 168, "fam": "price", "kind": "plain", "key": "81", "old": "72", "cands": ["81", "72"], "scores": [-0.0, -38.346]}
+{"stage": "test", "model": "tuned", "i": 169, "fam": "price", "kind": "plain", "key": "45", "old": "72", "cands": ["45", "72"], "scores": [-0.0, -58.75]}
+{"stage": "test", "model": "tuned", "i": 170, "fam": "price", "kind": "plain", "key": "24", "old": "32", "cands": ["24", "32"], "scores": [-14.375, -34.323]}
+{"stage": "test", "model": "tuned", "i": 171, "fam": "price", "kind": "plain", "key": "66", "old": "30", "cands": ["66", "30"], "scores": [-0.0, -58.644]}
+{"stage": "test", "model": "tuned", "i": 172, "fam": "price", "kind": "plain", "key": "42", "old": "48", "cands": ["42", "48"], "scores": [-1.054, -22.366]}
+{"stage": "test", "model": "tuned", "i": 173, "fam": "price", "kind": "plain", "key": "36", "old": "45", "cands": ["36", "45"], "scores": [-15.625, -0.0]}
+{"stage": "test", "model": "tuned", "i": 174, "fam": "price", "kind": "plain", "key": "42", "old": "24", "cands": ["42", "24"], "scores": [0.0, -56.323]}
+{"stage": "test", "model": "tuned", "i": 175, "fam": "price", "kind": "plain", "key": "77", "old": "63", "cands": ["77", "63"], "scores": [-0.0, -52.502]}
+{"stage": "test", "model": "tuned", "i": 176, "fam": "price", "kind": "plain", "key": "44", "old": "12", "cands": ["44", "12"], "scores": [-0.0, -49.883]}
+{"stage": "test", "model": "tuned", "i": 177, "fam": "price", "kind": "plain", "key": "50", "old": "25", "cands": ["50", "25"], "scores": [-0.0, -27.444]}
+{"stage": "test", "model": "tuned", "i": 178, "fam": "price", "kind": "plain", "key": "28", "old": "49", "cands": ["28", "49"], "scores": [-52.875, -0.0]}
+{"stage": "test", "model": "tuned", "i": 179, "fam": "price", "kind": "plain", "key": "90", "old": "72", "cands": ["90", "72"], "scores": [-0.0, -38.065]}
+{"stage": "test", "model": "tuned", "i": 180, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "21"], "scores": [-27.08, -0.002]}
+{"stage": "test", "model": "tuned", "i": 181, "fam": "price", "kind": "decoy", "key": "45", "old": "45", "cands": ["45", "72"], "scores": [-4.141, -32.344]}
+{"stage": "test", "model": "tuned", "i": 182, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "22"], "scores": [-9.75, -20.875]}
+{"stage": "test", "model": "tuned", "i": 183, "fam": "price", "kind": "decoy", "key": "15", "old": "15", "cands": ["15", "9"], "scores": [-0.0, -48.055]}
+{"stage": "test", "model": "tuned", "i": 184, "fam": "price", "kind": "decoy", "key": "35", "old": "35", "cands": ["35", "49"], "scores": [-0.0, -26.688]}
+{"stage": "test", "model": "tuned", "i": 185, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "72"], "scores": [-19.631, -18.248]}
+{"stage": "test", "model": "tuned", "i": 186, "fam": "price", "kind": "decoy", "key": "48", "old": "48", "cands": ["48", "66"], "scores": [-41.801, -0.113]}
+{"stage": "test", "model": "tuned", "i": 187, "fam": "price", "kind": "decoy", "key": "28", "old": "28", "cands": ["28", "20"], "scores": [-16.754, -0.004]}
+{"stage": "test", "model": "tuned", "i": 188, "fam": "price", "kind": "decoy", "key": "25", "old": "25", "cands": ["25", "35"], "scores": [-0.0, -16.5]}
+{"stage": "test", "model": "tuned", "i": 189, "fam": "price", "kind": "decoy", "key": "18", "old": "18", "cands": ["18", "19"], "scores": [-0.0, -23.625]}
+{"stage": "test", "model": "tuned", "i": 190, "fam": "price", "kind": "decoy", "key": "72", "old": "72", "cands": ["72", "108"], "scores": [-0.051, -12.18]}
+{"stage": "test", "model": "tuned", "i": 191, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "40"], "scores": [0.0, -46.442]}
+{"stage": "test", "model": "tuned", "i": 192, "fam": "price", "kind": "decoy", "key": "25", "old": "25", "cands": ["25", "35"], "scores": [-0.0, -25.844]}
+{"stage": "test", "model": "tuned", "i": 193, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "15"], "scores": [-29.313, -17.126]}
+{"stage": "test", "model": "tuned", "i": 194, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "32"], "scores": [-40.188, -17.5]}
+{"stage": "test", "model": "tuned", "i": 195, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "28"], "scores": [0.0, -47.5]}
+{"stage": "test", "model": "tuned", "i": 196, "fam": "price", "kind": "decoy", "key": "24", "old": "24", "cands": ["24", "33"], "scores": [-29.594, -11.5]}
+{"stage": "test", "model": "tuned", "i": 197, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "72"], "scores": [-0.0, -28.938]}
+{"stage": "test", "model": "tuned", "i": 198, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "15"], "scores": [-30.679, -29.429]}
+{"stage": "test", "model": "tuned", "i": 199, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "27"], "scores": [-0.031, -48.141]}
+{"stage": "test", "model": "tuned", "i": 200, "fam": "price", "kind": "decoy", "key": "24", "old": "24", "cands": ["24", "30"], "scores": [-49.964, -0.0]}
+{"stage": "test", "model": "tuned", "i": 201, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "44"], "scores": [-42.694, -6.876]}
+{"stage": "test", "model": "tuned", "i": 202, "fam": "price", "kind": "decoy", "key": "21", "old": "21", "cands": ["21", "24"], "scores": [-30.16, -0.16]}
+{"stage": "test", "model": "tuned", "i": 203, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "33"], "scores": [-1.137, -28.268]}
+{"stage": "test", "model": "tuned", "i": 204, "fam": "price", "kind": "decoy", "key": "16", "old": "16", "cands": ["16", "12"], "scores": [-19.986, -13.924]}
+{"stage": "test", "model": "tuned", "i": 205, "fam": "price", "kind": "decoy", "key": "18", "old": "18", "cands": ["18", "19"], "scores": [-24.188, -54.875]}
+{"stage": "test", "model": "tuned", "i": 206, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "44"], "scores": [-27.469, -14.625]}
+{"stage": "test", "model": "tuned", "i": 207, "fam": "price", "kind": "decoy", "key": "63", "old": "63", "cands": ["63", "64"], "scores": [-7.403, -29.996]}
+{"stage": "test", "model": "tuned", "i": 208, "fam": "price", "kind": "decoy", "key": "63", "old": "63", "cands": ["63", "36"], "scores": [-43.875, -0.0]}
+{"stage": "test", "model": "tuned", "i": 209, "fam": "price", "kind": "decoy", "key": "63", "old": "63", "cands": ["63", "81"], "scores": [-0.131, -4.256]}
+{"stage": "test", "model": "tuned", "i": 210, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "35"], "scores": [-34.203, -6.89]}
+{"stage": "test", "model": "tuned", "i": 211, "fam": "price", "kind": "decoy", "key": "54", "old": "54", "cands": ["54", "55"], "scores": [-0.589, -23.339]}
+{"stage": "test", "model": "tuned", "i": 212, "fam": "price", "kind": "decoy", "key": "35", "old": "35", "cands": ["35", "21"], "scores": [-0.011, -43.125]}
+{"stage": "test", "model": "tuned", "i": 213, "fam": "price", "kind": "decoy", "key": "42", "old": "42", "cands": ["42", "77"], "scores": [-2.467, -31.875]}
+{"stage": "test", "model": "tuned", "i": 214, "fam": "price", "kind": "decoy", "key": "56", "old": "56", "cands": ["56", "84"], "scores": [-0.0, -16.5]}
+{"stage": "test", "model": "tuned", "i": 215, "fam": "price", "kind": "decoy", "key": "36", "old": "36", "cands": ["36", "99"], "scores": [-18.25, -57.176]}
+{"stage": "test", "model": "tuned", "i": 216, "fam": "price", "kind": "decoy", "key": "63", "old": "63", "cands": ["63", "45"], "scores": [-2.812, -34.344]}
+{"stage": "test", "model": "tuned", "i": 217, "fam": "price", "kind": "decoy", "key": "48", "old": "48", "cands": ["48", "96"], "scores": [-17.922, -23.874]}
+{"stage": "test", "model": "tuned", "i": 218, "fam": "price", "kind": "decoy", "key": "10", "old": "10", "cands": ["10", "8"], "scores": [0.0, -41.75]}
+{"stage": "test", "model": "tuned", "i": 219, "fam": "price", "kind": "decoy", "key": "49", "old": "49", "cands": ["49", "77"], "scores": [0.0, -38.79]}
+{"stage": "test", "model": "tuned", "i": 220, "fam": "price", "kind": "decoy", "key": "72", "old": "72", "cands": ["72", "45"], "scores": [-18.188, -39.25]}
+{"stage": "test", "model": "tuned", "i": 221, "fam": "price", "kind": "decoy", "key": "54", "old": "54", "cands": ["54", "90"], "scores": [-27.556, -0.0]}
+{"stage": "test", "model": "tuned", "i": 222, "fam": "price", "kind": "decoy", "key": "35", "old": "35", "cands": ["35", "50"], "scores": [-1.313, -23.5]}
+{"stage": "test", "model": "tuned", "i": 223, "fam": "price", "kind": "decoy", "key": "12", "old": "12", "cands": ["12", "24"], "scores": [0.0, -30.438]}
+{"stage": "test", "model": "tuned", "i": 224, "fam": "price", "kind": "decoy", "key": "35", "old": "35", "cands": ["35", "45"], "scores": [-25.274, -0.0]}
+{"stage": "test", "model": "tuned", "i": 225, "fam": "price", "kind": "decoy", "key": "45", "old": "45", "cands": ["45", "72"], "scores": [-28.957, -0.079]}
+{"stage": "test", "model": "tuned", "i": 226, "fam": "price", "kind": "decoy", "key": "27", "old": "27", "cands": ["27", "99"], "scores": [-12.318, -26.381]}
+{"stage": "test", "model": "tuned", "i": 227, "fam": "price", "kind": "decoy", "key": "18", "old": "18", "cands": ["18", "27"], "scores": [-31.367, -0.252]}
+{"stage": "test", "model": "tuned", "i": 228, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "12"], "scores": [-10.683, -9.883]}
+{"stage": "test", "model": "tuned", "i": 229, "fam": "price", "kind": "decoy", "key": "40", "old": "40", "cands": ["40", "20"], "scores": [-20.225, -0.1]}
+{"stage": "test", "model": "tuned", "i": 230, "fam": "price", "kind": "decoy", "key": "16", "old": "16", "cands": ["16", "44"], "scores": [0.0, -63.395]}
+{"stage": "test", "model": "tuned", "i": 231, "fam": "price", "kind": "decoy", "key": "15", "old": "15", "cands": ["15", "25"], "scores": [-11.875, -32.328]}
+{"stage": "test", "model": "tuned", "i": 232, "fam": "price", "kind": "decoy", "key": "16", "old": "16", "cands": ["16", "28"], "scores": [-0.0, -29.673]}
+{"stage": "test", "model": "tuned", "i": 233, "fam": "price", "kind": "decoy", "key": "20", "old": "20", "cands": ["20", "44"], "scores": [-17.561, -34.502]}
+{"stage": "test", "model": "tuned", "i": 234, "fam": "price", "kind": "decoy", "key": "14", "old": "14", "cands": ["14", "20"], "scores": [-0.007, -5.878]}
+{"stage": "test", "model": "tuned", "i": 235, "fam": "price", "kind": "decoy", "key": "24", "old": "24", "cands": ["24", "72"], "scores": [0.0, -42.814]}
+{"stage": "test", "model": "tuned", "i": 236, "fam": "price", "kind": "decoy", "key": "24", "old": "24", "cands": ["24", "48"], "scores": [-19.501, -0.0]}
+{"stage": "test", "model": "tuned", "i": 237, "fam": "price", "kind": "decoy", "key": "40", "old": "40", "cands": ["40", "45"], "scores": [0.0, -26.0]}
+{"stage": "test", "model": "tuned", "i": 238, "fam": "price", "kind": "decoy", "key": "28", "old": "28", "cands": ["28", "16"], "scores": [-0.004, -40.157]}
+{"stage": "test", "model": "tuned", "i": 239, "fam": "price", "kind": "decoy", "key": "72", "old": "72", "cands": ["72", "80"], "scores": [-11.127, -0.252]}

@@ -1,0 +1,100 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-sQFlkDT93ktCCeJ72F6smp
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/modal_shift.py
+└── ✓ Created Function run.
+
+[1ALoading weights:   0%|          | 0/579 [00:00<?, ?it/s]
+[1ALoading weights:   3%|▎         | 15/579 [00:00<00:05, 105.62it/s]
+[1ALoading weights:  10%|▉         | 56/579 [00:00<00:02, 226.79it/s]
+[1ALoading weights:  15%|█▍        | 86/579 [00:00<00:02, 241.96it/s]
+[1ALoading weights:  19%|█▉        | 111/579 [00:00<00:02, 214.19it/s]
+[1ALoading weights:  23%|██▎       | 133/579 [00:00<00:02, 189.34it/s]
+[1ALoading weights:  27%|██▋       | 157/579 [00:00<00:02, 196.29it/s]
+[1ALoading weights:  31%|███       | 178/579 [00:00<00:02, 191.80it/s]
+[1ALoading weights:  34%|███▍      | 198/579 [00:01<00:02, 189.89it/s]
+[1ALoading weights:  39%|███▊      | 224/579 [00:01<00:01, 197.64it/s]
+[1ALoading weights:  42%|████▏     | 246/579 [00:01<00:01, 194.05it/s]
+[1ALoading weights:  48%|████▊     | 278/579 [00:01<00:01, 222.92it/s]
+[1ALoading weights:  52%|█████▏    | 301/579 [00:01<00:01, 215.15it/s]
+[1ALoading weights:  56%|█████▌    | 323/579 [00:01<00:01, 204.82it/s]
+[1ALoading weights:  62%|██████▏   | 361/579 [00:01<00:00, 235.46it/s]
+[1ALoading weights:  66%|██████▋   | 385/579 [00:01<00:00, 228.68it/s]
+[1ALoading weights:  71%|███████   | 412/579 [00:01<00:00, 235.46it/s]
+[1ALoading weights:  77%|███████▋  | 445/579 [00:02<00:00, 249.26it/s]
+[1ALoading weights:  82%|████████▏ | 473/579 [00:02<00:00, 253.41it/s]
+[1ALoading weights:  86%|████████▌ | 499/579 [00:02<00:00, 214.00it/s]
+[1ALoading weights:  90%|█████████ | 523/579 [00:02<00:00, 212.21it/s]Loading weights: 100%|██████████| 579/579 [00:02<00:00, 229.46it/s]
+Qwen/Qwen2.5-14B-Instruct 8 / 450
+Qwen/Qwen2.5-14B-Instruct 16 / 450
+Qwen/Qwen2.5-14B-Instruct 24 / 450
+Qwen/Qwen2.5-14B-Instruct 32 / 450
+Qwen/Qwen2.5-14B-Instruct 40 / 450
+Qwen/Qwen2.5-14B-Instruct 48 / 450
+Qwen/Qwen2.5-14B-Instruct 56 / 450
+Qwen/Qwen2.5-14B-Instruct 64 / 450
+Qwen/Qwen2.5-14B-Instruct 72 / 450
+Qwen/Qwen2.5-14B-Instruct 80 / 450
+Qwen/Qwen2.5-14B-Instruct 88 / 450
+Qwen/Qwen2.5-14B-Instruct 96 / 450
+Qwen/Qwen2.5-14B-Instruct 104 / 450
+Qwen/Qwen2.5-14B-Instruct 112 / 450
+Qwen/Qwen2.5-14B-Instruct 120 / 450
+Qwen/Qwen2.5-14B-Instruct 128 / 450
+Qwen/Qwen2.5-14B-Instruct 136 / 450
+Qwen/Qwen2.5-14B-Instruct 144 / 450
+Qwen/Qwen2.5-14B-Instruct 152 / 450
+Qwen/Qwen2.5-14B-Instruct 160 / 450
+Qwen/Qwen2.5-14B-Instruct 168 / 450
+Qwen/Qwen2.5-14B-Instruct 176 / 450
+Qwen/Qwen2.5-14B-Instruct 184 / 450
+Qwen/Qwen2.5-14B-Instruct 192 / 450
+Qwen/Qwen2.5-14B-Instruct 200 / 450
+Qwen/Qwen2.5-14B-Instruct 208 / 450
+Qwen/Qwen2.5-14B-Instruct 216 / 450
+Qwen/Qwen2.5-14B-Instruct 224 / 450
+Qwen/Qwen2.5-14B-Instruct 232 / 450
+Qwen/Qwen2.5-14B-Instruct 240 / 450
+Qwen/Qwen2.5-14B-Instruct 248 / 450
+Qwen/Qwen2.5-14B-Instruct 256 / 450
+Qwen/Qwen2.5-14B-Instruct 264 / 450
+Qwen/Qwen2.5-14B-Instruct 272 / 450
+Qwen/Qwen2.5-14B-Instruct 280 / 450
+Qwen/Qwen2.5-14B-Instruct 288 / 450
+Qwen/Qwen2.5-14B-Instruct 296 / 450
+Qwen/Qwen2.5-14B-Instruct 304 / 450
+Qwen/Qwen2.5-14B-Instruct 312 / 450
+Qwen/Qwen2.5-14B-Instruct 320 / 450
+Qwen/Qwen2.5-14B-Instruct 328 / 450
+Qwen/Qwen2.5-14B-Instruct 336 / 450
+Qwen/Qwen2.5-14B-Instruct 344 / 450
+Qwen/Qwen2.5-14B-Instruct 352 / 450
+Qwen/Qwen2.5-14B-Instruct 360 / 450
+Qwen/Qwen2.5-14B-Instruct 368 / 450
+Qwen/Qwen2.5-14B-Instruct 376 / 450
+Qwen/Qwen2.5-14B-Instruct 384 / 450
+Qwen/Qwen2.5-14B-Instruct 392 / 450
+Qwen/Qwen2.5-14B-Instruct 400 / 450
+Qwen/Qwen2.5-14B-Instruct 408 / 450
+Qwen/Qwen2.5-14B-Instruct 416 / 450
+Qwen/Qwen2.5-14B-Instruct 424 / 450
+Qwen/Qwen2.5-14B-Instruct 432 / 450
+Qwen/Qwen2.5-14B-Instruct 440 / 450
+Qwen/Qwen2.5-14B-Instruct 448 / 450
+Qwen/Qwen2.5-14B-Instruct 456 / 450
+done Qwen/Qwen2.5-14B-Instruct
+an error occurred during closing of asynchronous generator <async_generator object async_merge at 0x7fe4541f2fb0>
+asyncgen: <async_generator object async_merge at 0x7fe4541f2fb0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/modal/_utils/async_utils.py", line 858, in __iter__
+    yield from run_async_gen(runner, self._async_iterable)
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+RuntimeError: aclose(): asynchronous generator is already running
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-sQFlkDT93ktCCeJ72F6smp
+EXIT 0

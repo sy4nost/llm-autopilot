@@ -1,0 +1,33 @@
+filter keeps 100% -> 90 per template
+   e+              rate 0.61  P(qualifies) 1.00
+   pi:+            rate 0.89  P(qualifies) 0.54
+   pi:mod          rate 0.50  P(qualifies) 1.00
+   pi:num          rate 0.30  P(qualifies) 1.00
+   view+:digit     rate 0.09  P(qualifies) 0.29
+   view+:random    rate 0.11  P(qualifies) 0.54
+   view-num        rate 0.00  P(qualifies) 0.00
+   view÷:instead   rate 0.21  P(qualifies) 1.00
+   view÷:short     rate 0.04  P(qualifies) 0.00
+   expected qualifying templates 5.4 of 9
+filter keeps 70% -> 63 per template
+   e+              rate 0.61  P(qualifies) 1.00
+   pi:+            rate 0.89  P(qualifies) 0.15
+   pi:mod          rate 0.50  P(qualifies) 1.00
+   pi:num          rate 0.30  P(qualifies) 1.00
+   view+:digit     rate 0.09  P(qualifies) 0.05
+   view+:random    rate 0.11  P(qualifies) 0.15
+   view-num        rate 0.00  P(qualifies) 0.00
+   view÷:instead   rate 0.21  P(qualifies) 0.88
+   view÷:short     rate 0.04  P(qualifies) 0.00
+   expected qualifying templates 4.2 of 9
+filter keeps 50% -> 45 per template
+   e+              rate 0.61  P(qualifies) 0.99
+   pi:+            rate 0.89  P(qualifies) 0.02
+   pi:mod          rate 0.50  P(qualifies) 1.00
+   pi:num          rate 0.30  P(qualifies) 0.91
+   view+:digit     rate 0.09  P(qualifies) 0.01
+   view+:random    rate 0.11  P(qualifies) 0.02
+   view-num        rate 0.00  P(qualifies) 0.00
+   view÷:instead   rate 0.21  P(qualifies) 0.48
+   view÷:short     rate 0.04  P(qualifies) 0.00
+   expected qualifying templates 3.4 of 9

@@ -1,0 +1,75 @@
+4260 Counter({'pub': 2200, 'own': 2060})
+own y 0.24 acc direct 0.756 think 0.929 harm items 708
+pub y 0.153 acc direct 0.795 think 0.84 harm items 1520
+Successfully installed cloudpickle-3.1.2 joblib-1.6.0 numpy-2.3.4 scikit-learn-1.7.2 scipy-1.18.1 threadpoolctl-3.7.0
+
+[notice] A new release of pip is available: 25.1.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+Saving image...
+Image saved, took 1.47s
+
+Built image im-NfOWa8kzdtP80xm6Rt0cN6 in 11.09s
+
+
+missing items 0
+## Sanity: recomputed forced-choice DIRECT pick == saved pick, per family (need >= 98% everywhere; items whose saved top-2 margin < 1e-3 are exact ties and not counted); also median |recomputed - saved| option score
+  missing items 0 (must be 0)
+  own:D          n     6  ties   0  agree 100.0%  median score diff 0.0000
+  own:K          n     8  ties   0  agree 100.0%  median score diff 0.0000
+  own:N          n     5  ties   0  agree 100.0%  median score diff 0.0001
+  own:R          n    21  ties   0  agree 100.0%  median score diff 0.0002
+  pub:alg        n     4  ties   0  agree 100.0%  median score diff 0.0000
+  pub:hind       n     4  ties   0  agree 100.0%  median score diff 0.0001
+  pub:memo       n     4  ties   0  agree 100.0%  median score diff 0.1862
+  pub:mmlu       n    16  ties   0  agree 100.0%  median score diff 0.0000
+  pub:modus      n     2  ties   0  agree 100.0%  median score diff 0.0000
+  pub:neqa       n     4  ties   0  agree 100.0%  median score diff 0.0001
+  pub:pattern    n     2  ties   0  agree 100.0%  median score diff 0.0420
+  pub:quote      n     2  ties   0  agree 100.0%  median score diff 0.0578
+  pub:unknown    n     2  ties   0  agree 100.0%  median score diff 0.0626
+SANITY PASS
+
+######## S1 own->public: train 40  test 40
+  sensor: chose L8 C=0.003 (LOFO within-pop AUC in training pool nan)
+  test populations with >= 10 flips and >= 10 non-flips: 0
+  population                     n flips      sensor low-confide output-only     surface      length
+P1 within-population AUC sensor nan; minus best rival (low-confidence nan) +nan [+nan, +nan] (wider of item/cluster) need >= 0.70 and >= +0.05, low > 0 -> FAIL
+  accuracy at 30% thinking (families weighted equally): DIRECT 83.3  THINK 86.1
+   sensor 77.8  low-confidence 83.3  output-only 82.6  surface 91.0  length 77.8  random 84.2
+P2 sensor gate - best rival gate -13.2 [-19.4, -6.9] (wider of item/cluster) need >= +2, low > 0 -> FAIL
+   curve (sensor / low-confidence / random) at thinking share: 10% 77.8/83.3/83.6; 20% 77.8/83.3/83.9; 30% 77.8/83.3/84.2; 40% 77.8/83.3/84.4
+   harm pub:alg/control            n     1 gate - DIRECT +0.0
+   harm pub:hind/control           n     1 gate - DIRECT +0.0
+   harm pub:memo/control           n     1 gate - DIRECT +0.0
+   harm pub:mmlu/trap              n    16 gate - DIRECT +0.0
+   harm pub:modus/trap             n     2 gate - DIRECT +0.0
+   harm pub:neqa/control           n     1 gate - DIRECT +0.0
+   harm pub:quote/trap             n     2 gate - DIRECT +0.0
+P3 every harm population >= -3 points -> PASS
+VERDICT S1 own->public: NOT SHOWN
+  report: y+ (THINK fixes a wrong DIRECT) within-pop AUC sensor nan low-confidence nan
+
+######## S2 public->own: train 40  test 40
+  sensor: chose L8 C=0.003 (LOFO within-pop AUC in training pool nan)
+  test populations with >= 10 flips and >= 10 non-flips: 0
+  population                     n flips      sensor low-confide output-only     surface      length
+P1 within-population AUC sensor nan; minus best rival (low-confidence nan) +nan [+nan, +nan] (wider of item/cluster) need >= 0.70 and >= +0.05, low > 0 -> FAIL
+  accuracy at 30% thinking (families weighted equally): DIRECT 84.0  THINK 91.4
+   sensor 85.9  low-confidence 82.8  output-only 90.2  surface 89.0  length 86.4  random 86.2
+P2 sensor gate - best rival gate -4.3 [-11.8, +0.0] (wider of item/cluster) need >= +2, low > 0 -> FAIL
+   curve (sensor / low-confidence / random) at thinking share: 10% 84.0/84.0/84.7; 20% 85.9/84.0/85.5; 30% 85.9/82.8/86.2; 40% 90.2/82.8/86.9
+   harm own:D/agree                n     1 gate - DIRECT +0.0
+   harm own:K/agree                n     2 gate - DIRECT +0.0
+   harm own:K/plain                n     1 gate - DIRECT +0.0
+   harm own:N/agree                n     4 gate - DIRECT +0.0
+   harm own:R/agree                n     2 gate - DIRECT +0.0
+   harm own:R/cfright              n     4 gate - DIRECT +0.0
+P3 every harm population >= -3 points -> PASS
+N1 within-cell AUC on 0 cells: sensor nan best rival nan need >= 0.65 and > rival -> FAIL
+VERDICT S2 public->own: NOT SHOWN
+  report: y+ (THINK fixes a wrong DIRECT) within-pop AUC sensor nan low-confidence nan
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-fdqHp5gZQLmp2b5MlWa8Rq
+
+[exited with code 0]

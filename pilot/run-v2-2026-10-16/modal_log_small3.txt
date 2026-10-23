@@ -1,0 +1,777 @@
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-FxDyRKk6IUaHEtEYtw6wi5
+✓ Created objects.
+├── ✓ Uploaded /mnt/attach/project-files/pilot/v2/modal_run_v2.py
+├── ✓ Uploaded /mnt/attach/project-files/pilot/v2/analyze_v2.py
+├── ✓ Uploaded /mnt/attach/project-files/pilot/v2/run_v2.py
+└── ✓ Created Function run_remote.
+items: 512, all 64 cells x 8, pairing checked
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:  11%|█         | 38/338 [00:00<00:00, 305.72it/s]
+Loading weights:  25%|██▍       | 83/338 [00:00<00:00, 356.99it/s]
+Loading weights:  35%|███▌      | 119/338 [00:00<00:00, 304.03it/s]
+Loading weights:  46%|████▌     | 156/338 [00:00<00:00, 317.42it/s]
+Loading weights:  58%|█████▊    | 195/338 [00:00<00:00, 314.55it/s]
+Loading weights:  67%|██████▋   | 227/338 [00:00<00:00, 280.59it/s]
+Loading weights:  77%|███████▋  | 261/338 [00:00<00:00, 292.41it/s]
+Loading weights:  87%|████████▋ | 294/338 [00:00<00:00, 293.54it/s]
+Loading weights: 100%|██████████| 338/338 [00:01<00:00, 316.43it/s]
+items: 512, all 64 cells x 8, pairing checked
+items: 512, all 64 cells x 8, pairing checked
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:  11%|█         | 31/290 [00:00<00:00, 289.97it/s]
+Loading weights:  33%|███▎      | 97/290 [00:00<00:00, 426.91it/s]
+Loading weights:  51%|█████▏    | 149/290 [00:00<00:00, 428.29it/s]
+Loading weights:  81%|████████▏ | 236/290 [00:00<00:00, 578.82it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 576.81it/s]
+
+model=Qwen/Qwen2.5-0.5B-Instruct device=cuda layers=24 H2 window = logit-lens indices 12..15  cache=on  out=/tmp/out
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]
+Loading weights:   1%|          | 3/434 [00:00<00:25, 16.99it/s]
+model=Qwen/Qwen2.5-1.5B-Instruct device=cuda layers=28 H2 window = logit-lens indices 14..18  cache=on  out=/tmp/out
+Loading weights:   3%|▎         | 15/434 [00:00<00:13, 30.19it/s]
+Loading weights:   8%|▊         | 34/434 [00:00<00:07, 53.65it/s]
+item 1/512: 0.9 s per item, left about 7 min
+Loading weights:  15%|█▍        | 65/434 [00:00<00:03, 106.16it/s]
+Loading weights:  24%|██▍       | 104/434 [00:00<00:02, 164.95it/s]
+item 2/512: 0.5 s per item, left about 4 min
+Loading weights:  32%|███▏      | 140/434 [00:01<00:01, 210.70it/s]
+Loading weights:  38%|███▊      | 167/434 [00:01<00:01, 220.78it/s]
+check-cache: 4 items, 4 prompts, max abs diff cached vs full = 1.91e-05 (limit 0.001): OK
+item 1/512: 0.8 s per item, left about 7 min
+Loading weights:  44%|████▍     | 193/434 [00:01<00:01, 225.61it/s]
+Loading weights:  50%|█████     | 219/434 [00:01<00:01, 204.10it/s]
+item 2/512: 0.5 s per item, left about 4 min
+Loading weights:  56%|█████▌    | 242/434 [00:01<00:01, 188.77it/s]
+item 10/512: 0.2 s per item, left about 1 min
+Loading weights:  64%|██████▍   | 279/434 [00:01<00:00, 232.03it/s]
+Loading weights:  72%|███████▏  | 312/434 [00:01<00:00, 247.82it/s]
+Loading weights:  78%|███████▊  | 339/434 [00:01<00:00, 232.99it/s]
+check-cache: 4 items, 4 prompts, max abs diff cached vs full = 3.67e-05 (limit 0.001): OK
+Loading weights:  84%|████████▍ | 364/434 [00:02<00:00, 218.33it/s]
+Loading weights:  89%|████████▉ | 387/434 [00:02<00:00, 216.90it/s]
+Loading weights:  94%|█████████▍| 410/434 [00:02<00:00, 217.82it/s]
+Loading weights: 100%|██████████| 434/434 [00:02<00:00, 184.30it/s]
+item 20/512: 0.1 s per item, left about 1 min
+item 10/512: 0.2 s per item, left about 2 min
+item 30/512: 0.1 s per item, left about 51 s
+item 40/512: 0.1 s per item, left about 46 s
+item 20/512: 0.2 s per item, left about 2 min
+item 50/512: 0.1 s per item, left about 43 s
+item 60/512: 0.1 s per item, left about 41 s
+item 30/512: 0.2 s per item, left about 1 min
+item 70/512: 0.1 s per item, left about 39 s
+item 80/512: 0.1 s per item, left about 37 s
+item 40/512: 0.2 s per item, left about 1 min
+item 90/512: 0.1 s per item, left about 36 s
+item 100/512: 0.1 s per item, left about 34 s
+item 50/512: 0.2 s per item, left about 1 min
+item 110/512: 0.1 s per item, left about 33 s
+item 120/512: 0.1 s per item, left about 32 s
+item 60/512: 0.2 s per item, left about 1 min
+item 130/512: 0.1 s per item, left about 31 s
+item 140/512: 0.1 s per item, left about 30 s
+item 70/512: 0.2 s per item, left about 1 min
+item 150/512: 0.1 s per item, left about 29 s
+item 160/512: 0.1 s per item, left about 28 s
+item 80/512: 0.2 s per item, left about 1 min
+model=Qwen/Qwen2.5-3B-Instruct device=cuda layers=36 H2 window = logit-lens indices 18..23  cache=on  out=/tmp/out
+item 170/512: 0.1 s per item, left about 27 s
+item 180/512: 0.1 s per item, left about 26 s
+item 90/512: 0.2 s per item, left about 1 min
+item 1/512: 1.2 s per item, left about 10 min
+item 2/512: 0.8 s per item, left about 7 min
+item 190/512: 0.1 s per item, left about 25 s
+item 200/512: 0.1 s per item, left about 24 s
+item 100/512: 0.2 s per item, left about 1 min
+check-cache: 4 items, 4 prompts, max abs diff cached vs full = 7.72e-05 (limit 0.001): OK
+item 210/512: 0.1 s per item, left about 24 s
+item 110/512: 0.2 s per item, left about 1 min
+item 220/512: 0.1 s per item, left about 23 s
+item 10/512: 0.4 s per item, left about 4 min
+item 230/512: 0.1 s per item, left about 22 s
+item 120/512: 0.2 s per item, left about 59 s
+item 240/512: 0.1 s per item, left about 21 s
+item 250/512: 0.1 s per item, left about 20 s
+item 260/512: 0.1 s per item, left about 19 s
+item 130/512: 0.1 s per item, left about 57 s
+item 20/512: 0.3 s per item, left about 3 min
+item 270/512: 0.1 s per item, left about 19 s
+item 280/512: 0.1 s per item, left about 18 s
+item 140/512: 0.1 s per item, left about 55 s
+item 290/512: 0.1 s per item, left about 17 s
+item 30/512: 0.3 s per item, left about 3 min
+item 150/512: 0.1 s per item, left about 54 s
+item 300/512: 0.1 s per item, left about 16 s
+item 310/512: 0.1 s per item, left about 15 s
+item 160/512: 0.1 s per item, left about 52 s
+item 320/512: 0.1 s per item, left about 15 s
+item 330/512: 0.1 s per item, left about 14 s
+item 40/512: 0.3 s per item, left about 2 min
+item 170/512: 0.1 s per item, left about 51 s
+item 340/512: 0.1 s per item, left about 13 s
+item 350/512: 0.1 s per item, left about 12 s
+item 180/512: 0.1 s per item, left about 49 s
+item 360/512: 0.1 s per item, left about 12 s
+item 370/512: 0.1 s per item, left about 11 s
+item 50/512: 0.3 s per item, left about 2 min
+item 190/512: 0.1 s per item, left about 48 s
+item 380/512: 0.1 s per item, left about 10 s
+item 390/512: 0.1 s per item, left about 9 s
+item 200/512: 0.1 s per item, left about 46 s
+item 400/512: 0.1 s per item, left about 8 s
+item 60/512: 0.3 s per item, left about 2 min
+item 410/512: 0.1 s per item, left about 8 s
+item 210/512: 0.1 s per item, left about 44 s
+item 420/512: 0.1 s per item, left about 7 s
+item 430/512: 0.1 s per item, left about 6 s
+item 220/512: 0.1 s per item, left about 43 s
+item 440/512: 0.1 s per item, left about 5 s
+item 70/512: 0.3 s per item, left about 2 min
+item 450/512: 0.1 s per item, left about 5 s
+item 230/512: 0.1 s per item, left about 41 s
+item 460/512: 0.1 s per item, left about 4 s
+item 470/512: 0.1 s per item, left about 3 s
+item 240/512: 0.1 s per item, left about 40 s
+item 480/512: 0.1 s per item, left about 2 s
+item 80/512: 0.3 s per item, left about 2 min
+item 490/512: 0.1 s per item, left about 2 s
+item 250/512: 0.1 s per item, left about 38 s
+item 500/512: 0.1 s per item, left about 1 s
+item 510/512: 0.1 s per item, left about 0 s
+item 512/512: 0.1 s per item, left about 0 s
+
+run_v2.py, started 2026-10-16 02:44, finished 2026-10-16 02:44
+model=Qwen/Qwen2.5-0.5B-Instruct device=cuda dtype=float32 python=3.12.10 torch=2.14.1+cu130 transformers=5.20.0 threads=1
+items=512 learn=16 N=0 seed=1 cache=on layers=24 window=12..15
+time: 38 s total, 0.07 s per item-condition (512 item-conditions, 512 prompts)
+cache fallbacks (full forward because tokenization was not prefix + test): 0 of 512
+check-cache: 4 prompts, max abs diff 1.91e-05 OK
+
+RULE-SWITCH TEST v2: SUMMARY   model=Qwen/Qwen2.5-0.5B-Instruct   items=512 (H 256, S 256)
+layers=24; H2 window (pre-registered) = logit-lens indices 12..15; CIs 95%, bootstrap = 2000 resamples over items, seed 1
+H = habit frame (the history practises it), S = switch frame (reverse mapping). h = logp(habit answer) - logp(other answer), in nats; > 0 leans to the habit (old) answer.
+
+1. GATE at N=0 (header + acquisition block, no history): both frames must be >= 85% correct.
+   H frame   77% [72%-82%] (198/256)   S frame   74% [68%-79%] (189/256)   -> FAIL
+   FAIL: the model does not apply both rules even without history. H1 and H2 below are NOT interpretable.
+
+2. BEHAVIOUR per condition and N (N=0 is one shared prompt).
+   H acc = correct on H trials. S old = S trials answered by the habit rule, Wilson CI (50% = guessing).
+   D = 2*S old - 1: +1 habit rule, 0 shape ignored, -1 switch rule (correct). S RIGHT = share of RIGHT on S (side bias).
+   final_h S = mean h at the output on S trials, +-SE. p_mass = mean p(LEFT)+p(RIGHT) at the output.
+     cond   N  H acc      S old [95% CI]      D  S RIGHT      final_h S  p_mass
+   shared   0    77%       26% [21%-32%]  -0.48      47%   -0.95 +-0.09    0.99
+
+3. H1 (primary, stated in advance): the habit history pushes S answers toward the habit rule, more so for
+   longer N. Per item on S trials: final_h(habit) - final_h(filler) at the same N (> 0 = pulled to the old
+   answer). H1 is supported if the slope of this difference against log2(N) has its CI above 0.
+   needs at least two N >= 2 with both conditions: not tested.
+
+4. H2 (primary, stated in advance): a hidden pull to the habit answer in the window layers (12..15).
+   Per item on S trials: window_h(habit) - window_h(filler) at the same N, all S items. H2 is supported if
+   the slope against log2(N) has its CI above 0 AND the slope CI is above 0 on each habit-answer side
+   separately (LEFT items, RIGHT items), so that an effect on one side only cannot pose as a habit effect.
+   needs at least two N >= 2 with both conditions: not tested.
+
+5. DECISION LAYER on correct H trials: the first logit-lens index where h exceeds half of its final value.
+   mean curve = from the mean h per layer, averaged with equal weight over the two habit-answer sides (the
+   lens has a LEFT/RIGHT lean per layer that cancels this way); trials L/R = correct H trials with habit
+   answer LEFT / RIGHT. jump = rise of the mean curve at that index as a share of the final value (close to 1
+   = the answer forms abruptly). per trial = the same index per trial after removing the cell's per-layer
+   side lean: median [quartiles] and the most common index with its share.
+   Indices count from 0: v1 (Qwen2.5-0.5B, 24 layers) found index 16 = the 17th layer.
+     cond   N  trials L/R mean curve  jump  per trial
+   shared   0      110/88         16  1.70  16 [12-16], most common 16 (55%)
+   distribution over the condition x N cells (mean curve): index 16: 1 (of 1)
+   distribution over all correct H trials (per trial, side lean removed): 8: 4%, 9: 9%, 12: 11%, 13: 7%, 14: 10%, 15: 1%, 16: 55%, 18: 1% (indices under 1% not shown)
+
+6. S OLD-RULE RATE BY FACTOR (each pair: first level / second level; 50% = guessing). A large gap inside a
+   pair means that factor, not the habit, drives the answers. last hist same = the last history shape equals
+   the test shape (habit, N > 0 only).
+     cond   N       habit ans L/R           shape c/s          colour B/O          header H/S        last acq H/S last hist same/diff
+   shared   0           29% / 23%           27% / 25%           24% / 28%           28% / 24%           20% / 32%                    
+
+written: /tmp/out/summary.txt
+item 260/512: 0.1 s per item, left about 37 s
+item 90/512: 0.3 s per item, left about 2 min
+item 270/512: 0.1 s per item, left about 35 s
+[gate] Qwen/Qwen2.5-0.5B-Instruct: exit=0 verdict=FAIL (57 s)
+item 280/512: 0.1 s per item, left about 34 s
+item 100/512: 0.3 s per item, left about 2 min
+item 290/512: 0.1 s per item, left about 32 s
+item 110/512: 0.3 s per item, left about 2 min
+item 300/512: 0.1 s per item, left about 31 s
+item 310/512: 0.1 s per item, left about 29 s
+item 120/512: 0.3 s per item, left about 2 min
+item 320/512: 0.1 s per item, left about 28 s
+item 330/512: 0.1 s per item, left about 27 s
+item 130/512: 0.3 s per item, left about 2 min
+item 340/512: 0.1 s per item, left about 25 s
+item 350/512: 0.1 s per item, left about 24 s
+item 140/512: 0.3 s per item, left about 2 min
+item 360/512: 0.1 s per item, left about 22 s
+item 370/512: 0.1 s per item, left about 21 s
+item 150/512: 0.3 s per item, left about 2 min
+item 380/512: 0.1 s per item, left about 19 s
+item 390/512: 0.1 s per item, left about 18 s
+item 160/512: 0.3 s per item, left about 2 min
+item 400/512: 0.1 s per item, left about 16 s
+item 410/512: 0.1 s per item, left about 15 s
+item 170/512: 0.3 s per item, left about 2 min
+item 420/512: 0.1 s per item, left about 13 s
+item 430/512: 0.1 s per item, left about 12 s
+item 180/512: 0.3 s per item, left about 2 min
+item 440/512: 0.1 s per item, left about 10 s
+item 450/512: 0.1 s per item, left about 9 s
+item 190/512: 0.3 s per item, left about 1 min
+item 460/512: 0.1 s per item, left about 8 s
+item 470/512: 0.1 s per item, left about 6 s
+item 200/512: 0.3 s per item, left about 1 min
+item 480/512: 0.1 s per item, left about 5 s
+item 210/512: 0.3 s per item, left about 1 min
+item 490/512: 0.1 s per item, left about 3 s
+item 500/512: 0.1 s per item, left about 2 s
+item 220/512: 0.3 s per item, left about 1 min
+item 510/512: 0.1 s per item, left about 0 s
+item 512/512: 0.1 s per item, left about 0 s
+
+run_v2.py, started 2026-10-16 02:44, finished 2026-10-16 02:45
+model=Qwen/Qwen2.5-1.5B-Instruct device=cuda dtype=float32 python=3.12.10 torch=2.14.1+cu130 transformers=5.20.0 threads=1
+items=512 learn=16 N=0 seed=1 cache=on layers=28 window=14..18
+time: 1 min total, 0.15 s per item-condition (512 item-conditions, 512 prompts)
+cache fallbacks (full forward because tokenization was not prefix + test): 0 of 512
+check-cache: 4 prompts, max abs diff 3.67e-05 OK
+
+RULE-SWITCH TEST v2: SUMMARY   model=Qwen/Qwen2.5-1.5B-Instruct   items=512 (H 256, S 256)
+layers=28; H2 window (pre-registered) = logit-lens indices 14..18; CIs 95%, bootstrap = 2000 resamples over items, seed 1
+H = habit frame (the history practises it), S = switch frame (reverse mapping). h = logp(habit answer) - logp(other answer), in nats; > 0 leans to the habit (old) answer.
+
+1. GATE at N=0 (header + acquisition block, no history): both frames must be >= 85% correct.
+   H frame   98% [96%-99%] (251/256)   S frame   95% [92%-97%] (244/256)   -> PASS
+
+2. BEHAVIOUR per condition and N (N=0 is one shared prompt).
+   H acc = correct on H trials. S old = S trials answered by the habit rule, Wilson CI (50% = guessing).
+   D = 2*S old - 1: +1 habit rule, 0 shape ignored, -1 switch rule (correct). S RIGHT = share of RIGHT on S (side bias).
+   final_h S = mean h at the output on S trials, +-SE. p_mass = mean p(LEFT)+p(RIGHT) at the output.
+     cond   N  H acc      S old [95% CI]      D  S RIGHT      final_h S  p_mass
+   shared   0    98%          5% [3%-8%]  -0.91      54%   -3.85 +-0.13    1.00
+
+3. H1 (primary, stated in advance): the habit history pushes S answers toward the habit rule, more so for
+   longer N. Per item on S trials: final_h(habit) - final_h(filler) at the same N (> 0 = pulled to the old
+   answer). H1 is supported if the slope of this difference against log2(N) has its CI above 0.
+   needs at least two N >= 2 with both conditions: not tested.
+
+4. H2 (primary, stated in advance): a hidden pull to the habit answer in the window layers (14..18).
+   Per item on S trials: window_h(habit) - window_h(filler) at the same N, all S items. H2 is supported if
+   the slope against log2(N) has its CI above 0 AND the slope CI is above 0 on each habit-answer side
+   separately (LEFT items, RIGHT items), so that an effect on one side only cannot pose as a habit effect.
+   needs at least two N >= 2 with both conditions: not tested.
+
+5. DECISION LAYER on correct H trials: the first logit-lens index where h exceeds half of its final value.
+   mean curve = from the mean h per layer, averaged with equal weight over the two habit-answer sides (the
+   lens has a LEFT/RIGHT lean per layer that cancels this way); trials L/R = correct H trials with habit
+   answer LEFT / RIGHT. jump = rise of the mean curve at that index as a share of the final value (close to 1
+   = the answer forms abruptly). per trial = the same index per trial after removing the cell's per-layer
+   side lean: median [quartiles] and the most common index with its share.
+   Indices count from 0: v1 (Qwen2.5-0.5B, 24 layers) found index 16 = the 17th layer.
+     cond   N  trials L/R mean curve  jump  per trial
+   shared   0     125/126         20  0.19  20 [19-20], most common 19 (39%)
+   distribution over the condition x N cells (mean curve): index 20: 1 (of 1)
+   distribution over all correct H trials (per trial, side lean removed): 14: 2%, 15: 2%, 16: 2%, 17: 2%, 18: 1%, 19: 39%, 20: 28%, 21: 14%, 22: 8% (indices under 1% not shown)
+
+6. S OLD-RULE RATE BY FACTOR (each pair: first level / second level; 50% = guessing). A large gap inside a
+   pair means that factor, not the habit, drives the answers. last hist same = the last history shape equals
+   the test shape (habit, N > 0 only).
+     cond   N       habit ans L/R           shape c/s          colour B/O          header H/S        last acq H/S last hist same/diff
+   shared   0             1% / 9%             5% / 5%             5% / 4%             5% / 4%             5% / 4%                    
+
+written: /tmp/out/summary.txt
+[gate] Qwen/Qwen2.5-1.5B-Instruct: exit=0 verdict=PASS (98 s)
+item 230/512: 0.3 s per item, left about 1 min
+item 240/512: 0.3 s per item, left about 1 min
+item 250/512: 0.3 s per item, left about 1 min
+item 260/512: 0.3 s per item, left about 1 min
+items: 512, all 64 cells x 8, pairing checked
+item 270/512: 0.3 s per item, left about 1 min
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:   1%|▏         | 5/338 [00:00<00:07, 45.51it/s]
+Loading weights:  16%|█▌        | 54/338 [00:00<00:01, 236.25it/s]
+Loading weights:  25%|██▍       | 83/338 [00:00<00:00, 256.23it/s]
+Loading weights:  32%|███▏      | 108/338 [00:00<00:00, 235.98it/s]
+Loading weights:  39%|███▉      | 132/338 [00:00<00:00, 214.46it/s]
+Loading weights:  46%|████▌     | 155/338 [00:00<00:00, 209.79it/s]
+Loading weights:  52%|█████▏    | 176/338 [00:00<00:00, 203.36it/s]
+Loading weights:  58%|█████▊    | 197/338 [00:00<00:00, 196.78it/s]
+Loading weights:  67%|██████▋   | 225/338 [00:01<00:00, 219.45it/s]
+Loading weights:  73%|███████▎  | 248/338 [00:01<00:00, 210.02it/s]
+item 280/512: 0.3 s per item, left about 1 min
+Loading weights:  80%|███████▉  | 270/338 [00:01<00:00, 202.28it/s]
+Loading weights:  88%|████████▊ | 299/338 [00:01<00:00, 217.44it/s]
+Loading weights:  95%|█████████▍| 321/338 [00:01<00:00, 217.01it/s]
+Loading weights: 100%|██████████| 338/338 [00:01<00:00, 223.42it/s]
+item 290/512: 0.3 s per item, left about 1 min
+item 300/512: 0.3 s per item, left about 59 s
+model=Qwen/Qwen2.5-1.5B-Instruct device=cuda layers=28 H2 window = logit-lens indices 14..18  cache=on  out=/tmp/out
+item 310/512: 0.3 s per item, left about 56 s
+item 1/512: 4.6 s per item, left about 39 min
+item 320/512: 0.3 s per item, left about 53 s
+item 330/512: 0.3 s per item, left about 51 s
+item 2/512: 4.3 s per item, left about 37 min
+item 340/512: 0.3 s per item, left about 48 s
+item 350/512: 0.3 s per item, left about 45 s
+item 360/512: 0.3 s per item, left about 42 s
+check-cache: 4 items, 52 prompts, max abs diff cached vs full = 5.72e-05 (limit 0.001): OK
+item 370/512: 0.3 s per item, left about 39 s
+item 380/512: 0.3 s per item, left about 37 s
+item 390/512: 0.3 s per item, left about 34 s
+item 10/512: 2.5 s per item, left about 21 min
+item 400/512: 0.3 s per item, left about 31 s
+item 410/512: 0.3 s per item, left about 28 s
+item 420/512: 0.3 s per item, left about 26 s
+item 430/512: 0.3 s per item, left about 23 s
+item 440/512: 0.3 s per item, left about 20 s
+item 20/512: 2.0 s per item, left about 16 min
+item 450/512: 0.3 s per item, left about 17 s
+item 460/512: 0.3 s per item, left about 15 s
+item 470/512: 0.3 s per item, left about 12 s
+item 480/512: 0.3 s per item, left about 9 s
+item 490/512: 0.3 s per item, left about 6 s
+item 30/512: 1.8 s per item, left about 14 min
+item 500/512: 0.3 s per item, left about 3 s
+item 510/512: 0.3 s per item, left about 1 s
+item 512/512: 0.3 s per item, left about 0 s
+
+run_v2.py, started 2026-10-16 02:44, finished 2026-10-16 02:46
+model=Qwen/Qwen2.5-3B-Instruct device=cuda dtype=float32 python=3.12.10 torch=2.14.1+cu130 transformers=5.20.0 threads=1
+items=512 learn=16 N=0 seed=1 cache=on layers=36 window=18..23
+time: 2 min total, 0.28 s per item-condition (512 item-conditions, 512 prompts)
+cache fallbacks (full forward because tokenization was not prefix + test): 0 of 512
+check-cache: 4 prompts, max abs diff 7.72e-05 OK
+
+RULE-SWITCH TEST v2: SUMMARY   model=Qwen/Qwen2.5-3B-Instruct   items=512 (H 256, S 256)
+layers=36; H2 window (pre-registered) = logit-lens indices 18..23; CIs 95%, bootstrap = 2000 resamples over items, seed 1
+H = habit frame (the history practises it), S = switch frame (reverse mapping). h = logp(habit answer) - logp(other answer), in nats; > 0 leans to the habit (old) answer.
+
+1. GATE at N=0 (header + acquisition block, no history): both frames must be >= 85% correct.
+   H frame  100% [98%-100%] (255/256)   S frame  100% [98%-100%] (255/256)   -> PASS
+
+2. BEHAVIOUR per condition and N (N=0 is one shared prompt).
+   H acc = correct on H trials. S old = S trials answered by the habit rule, Wilson CI (50% = guessing).
+   D = 2*S old - 1: +1 habit rule, 0 shape ignored, -1 switch rule (correct). S RIGHT = share of RIGHT on S (side bias).
+   final_h S = mean h at the output on S trials, +-SE. p_mass = mean p(LEFT)+p(RIGHT) at the output.
+     cond   N  H acc      S old [95% CI]      D  S RIGHT      final_h S  p_mass
+   shared   0   100%          0% [0%-2%]  -0.99      50%   -5.97 +-0.13    1.00
+
+3. H1 (primary, stated in advance): the habit history pushes S answers toward the habit rule, more so for
+   longer N. Per item on S trials: final_h(habit) - final_h(filler) at the same N (> 0 = pulled to the old
+   answer). H1 is supported if the slope of this difference against log2(N) has its CI above 0.
+   needs at least two N >= 2 with both conditions: not tested.
+
+4. H2 (primary, stated in advance): a hidden pull to the habit answer in the window layers (18..23).
+   Per item on S trials: window_h(habit) - window_h(filler) at the same N, all S items. H2 is supported if
+   the slope against log2(N) has its CI above 0 AND the slope CI is above 0 on each habit-answer side
+   separately (LEFT items, RIGHT items), so that an effect on one side only cannot pose as a habit effect.
+   needs at least two N >= 2 with both conditions: not tested.
+
+5. DECISION LAYER on correct H trials: the first logit-lens index where h exceeds half of its final value.
+   mean curve = from the mean h per layer, averaged with equal weight over the two habit-answer sides (the
+   lens has a LEFT/RIGHT lean per layer that cancels this way); trials L/R = correct H trials with habit
+   answer LEFT / RIGHT. jump = rise of the mean curve at that index as a share of the final value (close to 1
+   = the answer forms abruptly). per trial = the same index per trial after removing the cell's per-layer
+   side lean: median [quartiles] and the most common index with its share.
+   Indices count from 0: v1 (Qwen2.5-0.5B, 24 layers) found index 16 = the 17th layer.
+     cond   N  trials L/R mean curve  jump  per trial
+   shared   0     127/128         27  0.27  27 [23-31], most common 27 (30%)
+   distribution over the condition x N cells (mean curve): index 27: 1 (of 1)
+   distribution over all correct H trials (per trial, side lean removed): 18: 2%, 20: 8%, 21: 5%, 22: 5%, 23: 3%, 24: 4%, 26: 2%, 27: 30%, 28: 4%, 29: 2%, 30: 3%, 31: 28% (indices under 1% not shown)
+
+6. S OLD-RULE RATE BY FACTOR (each pair: first level / second level; 50% = guessing). A large gap inside a
+   pair means that factor, not the habit, drives the answers. last hist same = the last history shape equals
+   the test shape (habit, N > 0 only).
+     cond   N       habit ans L/R           shape c/s          colour B/O          header H/S        last acq H/S last hist same/diff
+   shared   0             0% / 1%             0% / 1%             1% / 0%             1% / 0%             1% / 0%                    
+
+written: /tmp/out/summary.txt
+[gate] Qwen/Qwen2.5-3B-Instruct: exit=0 verdict=PASS (174 s)
+item 40/512: 1.7 s per item, left about 13 min
+items: 512, all 64 cells x 8, pairing checked
+
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]
+Loading weights:   9%|▉         | 41/434 [00:00<00:00, 407.92it/s]
+Loading weights:  19%|█▉        | 82/434 [00:00<00:00, 394.24it/s]
+Loading weights:  28%|██▊       | 122/434 [00:00<00:01, 301.66it/s]
+Loading weights:  36%|███▌      | 155/434 [00:00<00:01, 263.58it/s]
+Loading weights:  42%|████▏     | 183/434 [00:00<00:00, 259.28it/s]
+Loading weights:  48%|████▊     | 210/434 [00:00<00:01, 222.61it/s]
+Loading weights:  55%|█████▌    | 240/434 [00:00<00:00, 227.26it/s]
+Loading weights:  63%|██████▎   | 274/434 [00:01<00:00, 245.06it/s]
+Loading weights:  70%|███████   | 304/434 [00:01<00:00, 247.80it/s]
+Loading weights:  76%|███████▌  | 330/434 [00:01<00:00, 246.96it/s]
+Loading weights:  82%|████████▏ | 356/434 [00:01<00:00, 230.59it/s]
+Loading weights:  88%|████████▊ | 380/434 [00:01<00:00, 229.48it/s]
+Loading weights:  94%|█████████▍| 407/434 [00:01<00:00, 233.36it/s]
+Loading weights: 100%|██████████| 434/434 [00:01<00:00, 257.61it/s]
+item 50/512: 1.6 s per item, left about 13 min
+model=Qwen/Qwen2.5-3B-Instruct device=cuda layers=36 H2 window = logit-lens indices 18..23  cache=on  out=/tmp/out
+item 60/512: 1.6 s per item, left about 12 min
+item 1/512: 8.5 s per item, left about 1.2 h
+item 2/512: 8.3 s per item, left about 1.2 h
+item 70/512: 1.6 s per item, left about 12 min
+check-cache: 4 items, 52 prompts, max abs diff cached vs full = 2.62e-04 (limit 0.001): OK
+item 80/512: 1.6 s per item, left about 11 min
+item 90/512: 1.5 s per item, left about 11 min
+item 10/512: 4.8 s per item, left about 41 min
+item 100/512: 1.5 s per item, left about 11 min
+item 20/512: 3.7 s per item, left about 31 min
+item 110/512: 1.5 s per item, left about 10 min
+item 120/512: 1.5 s per item, left about 10 min
+item 30/512: 3.4 s per item, left about 27 min
+item 130/512: 1.5 s per item, left about 10 min
+item 140/512: 1.5 s per item, left about 9 min
+item 40/512: 3.2 s per item, left about 25 min
+item 150/512: 1.5 s per item, left about 9 min
+item 160/512: 1.5 s per item, left about 9 min
+item 50/512: 3.1 s per item, left about 24 min
+item 170/512: 1.5 s per item, left about 9 min
+item 180/512: 1.5 s per item, left about 8 min
+item 60/512: 3.0 s per item, left about 23 min
+item 190/512: 1.5 s per item, left about 8 min
+item 200/512: 1.5 s per item, left about 8 min
+item 70/512: 3.0 s per item, left about 22 min
+item 210/512: 1.5 s per item, left about 7 min
+item 80/512: 2.9 s per item, left about 21 min
+item 220/512: 1.5 s per item, left about 7 min
+item 230/512: 1.5 s per item, left about 7 min
+item 90/512: 2.9 s per item, left about 20 min
+item 240/512: 1.5 s per item, left about 7 min
+item 250/512: 1.5 s per item, left about 6 min
+item 100/512: 2.9 s per item, left about 20 min
+item 260/512: 1.5 s per item, left about 6 min
+item 270/512: 1.5 s per item, left about 6 min
+item 110/512: 2.9 s per item, left about 19 min
+item 280/512: 1.5 s per item, left about 6 min
+item 290/512: 1.5 s per item, left about 5 min
+item 120/512: 2.8 s per item, left about 19 min
+item 300/512: 1.5 s per item, left about 5 min
+item 310/512: 1.5 s per item, left about 5 min
+item 130/512: 2.8 s per item, left about 18 min
+item 320/512: 1.5 s per item, left about 5 min
+item 140/512: 2.8 s per item, left about 17 min
+item 330/512: 1.5 s per item, left about 4 min
+item 340/512: 1.5 s per item, left about 4 min
+item 150/512: 2.8 s per item, left about 17 min
+item 350/512: 1.5 s per item, left about 4 min
+item 360/512: 1.5 s per item, left about 4 min
+item 160/512: 2.8 s per item, left about 16 min
+item 370/512: 1.5 s per item, left about 3 min
+item 380/512: 1.5 s per item, left about 3 min
+item 170/512: 2.8 s per item, left about 16 min
+item 390/512: 1.5 s per item, left about 3 min
+item 400/512: 1.5 s per item, left about 3 min
+item 180/512: 2.8 s per item, left about 15 min
+item 410/512: 1.5 s per item, left about 2 min
+item 420/512: 1.5 s per item, left about 2 min
+item 190/512: 2.8 s per item, left about 15 min
+item 430/512: 1.5 s per item, left about 2 min
+item 440/512: 1.5 s per item, left about 2 min
+item 200/512: 2.8 s per item, left about 14 min
+item 450/512: 1.5 s per item, left about 2 min
+item 210/512: 2.8 s per item, left about 14 min
+item 460/512: 1.5 s per item, left about 1 min
+item 470/512: 1.5 s per item, left about 1 min
+item 220/512: 2.8 s per item, left about 13 min
+item 480/512: 1.5 s per item, left about 47 s
+item 490/512: 1.5 s per item, left about 32 s
+item 230/512: 2.8 s per item, left about 13 min
+item 500/512: 1.5 s per item, left about 18 s
+item 510/512: 1.5 s per item, left about 3 s
+item 512/512: 1.5 s per item, left about 0 s
+
+run_v2.py, started 2026-10-16 02:45, finished 2026-10-16 02:58
+model=Qwen/Qwen2.5-1.5B-Instruct device=cuda dtype=float32 python=3.12.10 torch=2.14.1+cu130 transformers=5.20.0 threads=1
+items=512 learn=16 N=0 2 4 8 16 32 64 seed=1 cache=on layers=28 window=14..18
+time: 12 min total, 0.73 s per item-condition (1024 item-conditions, 6656 prompts)
+cache fallbacks (full forward because tokenization was not prefix + test): 0 of 6656
+check-cache: 52 prompts, max abs diff 5.72e-05 OK
+
+RULE-SWITCH TEST v2: SUMMARY   model=Qwen/Qwen2.5-1.5B-Instruct   items=512 (H 256, S 256)
+layers=28; H2 window (pre-registered) = logit-lens indices 14..18; CIs 95%, bootstrap = 2000 resamples over items, seed 1
+H = habit frame (the history practises it), S = switch frame (reverse mapping). h = logp(habit answer) - logp(other answer), in nats; > 0 leans to the habit (old) answer.
+
+1. GATE at N=0 (header + acquisition block, no history): both frames must be >= 85% correct.
+   H frame   98% [96%-99%] (251/256)   S frame   95% [92%-97%] (244/256)   -> PASS
+
+2. BEHAVIOUR per condition and N (N=0 is one shared prompt).
+   H acc = correct on H trials. S old = S trials answered by the habit rule, Wilson CI (50% = guessing).
+   D = 2*S old - 1: +1 habit rule, 0 shape ignored, -1 switch rule (correct). S RIGHT = share of RIGHT on S (side bias).
+   final_h S = mean h at the output on S trials, +-SE. p_mass = mean p(LEFT)+p(RIGHT) at the output.
+     cond   N  H acc      S old [95% CI]      D  S RIGHT      final_h S  p_mass
+   shared   0    98%          5% [3%-8%]  -0.91      54%   -3.85 +-0.13    1.00
+    habit   2    99%          3% [2%-6%]  -0.94      52%   -3.24 +-0.11    1.00
+    habit   4    98%          5% [3%-8%]  -0.90      53%   -3.20 +-0.12    1.00
+    habit   8    98%          5% [3%-8%]  -0.90      52%   -3.15 +-0.11    1.00
+    habit  16    98%          5% [3%-8%]  -0.90      54%   -3.26 +-0.11    1.00
+    habit  32   100%         6% [4%-10%]  -0.88      55%   -3.15 +-0.11    1.00
+    habit  64   100%          5% [3%-9%]  -0.89      55%   -2.92 +-0.11    1.00
+   filler   2    95%         7% [4%-10%]  -0.87      55%   -3.79 +-0.15    1.00
+   filler   4    94%         9% [6%-13%]  -0.82      57%   -3.66 +-0.15    1.00
+   filler   8    92%        12% [9%-17%]  -0.75      57%   -2.87 +-0.15    1.00
+   filler  16    92%        11% [8%-16%]  -0.77      57%   -3.05 +-0.14    1.00
+   filler  32    91%        11% [8%-15%]  -0.78      58%   -2.87 +-0.14    1.00
+   filler  64    83%       19% [14%-24%]  -0.62      62%   -2.16 +-0.14    1.00
+
+3. H1 (primary, stated in advance): the habit history pushes S answers toward the habit rule, more so for
+   longer N. Per item on S trials: final_h(habit) - final_h(filler) at the same N (> 0 = pulled to the old
+   answer). H1 is supported if the slope of this difference against log2(N) has its CI above 0.
+       N items mean diff  95% CI
+       2   256    +0.550  [+0.294, +0.784]
+       4   256    +0.457  [+0.211, +0.697]
+       8   256    -0.281  [-0.507, -0.047]
+      16   256    -0.211  [-0.418, -0.010]
+      32   256    -0.289  [-0.475, -0.104]
+      64   256    -0.753  [-0.965, -0.548]
+   slope vs log2(N), N=2,4,8,16,32,64: -0.248 [-0.295, -0.199] over 256 items   -> H1 NOT SUPPORTED
+   Extra (not part of the verdict): the same by habit-answer side; opposite signs = side bias, not habit.
+     habit ans LEFT       128 items | by N 2:+1.13 4:+0.93 8:+0.32 16:+0.28 32:-0.04 64:-0.59 | slope -0.330 [-0.386, -0.274]
+     habit ans RIGHT      128 items | by N 2:-0.03 4:-0.01 8:-0.88 16:-0.70 32:-0.54 64:-0.91 | slope -0.167 [-0.247, -0.088]
+   Secondary: OLD_RULE_ERROR habit vs filler, same items, exact McNemar.
+       N  habit filler only habit only filler       p
+       2     3%     7%          5          14  0.0636
+       4     5%     9%          6          16  0.0525
+       8     5%    12%          6          25 0.000878
+      16     5%    11%          8          24   0.007
+      32     6%    11%          7          19   0.029
+      64     5%    19%          1          35 1.08e-09
+   Secondary: within habit, S old-rule N=2 3% vs N=64 5%; old-rule only at N=64: 14 items, only at N=2: 8; exact McNemar p = 0.286
+
+4. H2 (primary, stated in advance): a hidden pull to the habit answer in the window layers (14..18).
+   Per item on S trials: window_h(habit) - window_h(filler) at the same N, all S items. H2 is supported if
+   the slope against log2(N) has its CI above 0 AND the slope CI is above 0 on each habit-answer side
+   separately (LEFT items, RIGHT items), so that an effect on one side only cannot pose as a habit effect.
+       N items mean diff  95% CI
+       2   256    -0.019  [-0.074, +0.040]
+       4   256    +0.005  [-0.052, +0.059]
+       8   256    -0.025  [-0.097, +0.045]
+      16   256    -0.008  [-0.052, +0.035]
+      32   256    +0.007  [-0.024, +0.037]
+      64   256    +0.001  [-0.038, +0.041]
+   slope vs log2(N), N=2,4,8,16,32,64: +0.003 [-0.012, +0.018] over 256 items
+   Secondary (mean difference by N, slope with CI):
+     habit ans LEFT       128 items | by N 2:+0.20 4:+0.29 8:+0.47 16:+0.25 32:+0.02 64:-0.12 | slope -0.076 [-0.093, -0.061]
+     habit ans RIGHT      128 items | by N 2:-0.24 4:-0.28 8:-0.52 16:-0.27 32:-0.01 64:+0.13 | slope +0.083 [+0.068, +0.098]
+     shape circle         128 items | by N 2:-0.03 4:-0.00 8:-0.02 16:-0.01 32:-0.01 64:-0.01 | slope +0.004 [-0.015, +0.022]
+     shape square         128 items | by N 2:-0.00 4:+0.01 8:-0.03 16:-0.01 32:+0.02 64:+0.01 | slope +0.003 [-0.019, +0.026]
+     correct both, LEFT   114 items | by N 2:+0.21 4:+0.29 8:+0.47 16:+0.24 32:+0.02 64:-0.13 | slope -0.080 [-0.096, -0.063]
+     correct both, RIGHT   74 items | by N 2:-0.22 4:-0.27 8:-0.52 16:-0.27 32:+0.00 64:+0.15 | slope +0.076 [+0.058, +0.095]
+     (correct both = the S answer is correct in both conditions: at that N for 'by N', at every N for the
+      slope; LEFT/RIGHT = habit answer. These items are chosen by the answer, so a model with a
+      LEFT/RIGHT lean puts more of them on one side: count them as a hidden pull only if both agree.)
+   -> H2 NOT SUPPORTED (slope CI not above 0; slope CI not above 0 on both habit-answer sides)
+
+5. DECISION LAYER on correct H trials: the first logit-lens index where h exceeds half of its final value.
+   mean curve = from the mean h per layer, averaged with equal weight over the two habit-answer sides (the
+   lens has a LEFT/RIGHT lean per layer that cancels this way); trials L/R = correct H trials with habit
+   answer LEFT / RIGHT. jump = rise of the mean curve at that index as a share of the final value (close to 1
+   = the answer forms abruptly). per trial = the same index per trial after removing the cell's per-layer
+   side lean: median [quartiles] and the most common index with its share.
+   Indices count from 0: v1 (Qwen2.5-0.5B, 24 layers) found index 16 = the 17th layer.
+     cond   N  trials L/R mean curve  jump  per trial
+   shared   0     125/126         20  0.19  20 [19-20], most common 19 (39%)
+    habit   2     125/128         20  0.19  19 [19-20], most common 19 (44%)
+    habit   4     125/127         19  0.50  19 [19-20], most common 19 (54%)
+    habit   8     124/128         19  0.48  19 [19-20], most common 19 (60%)
+    habit  16     123/127         19  0.50  19 [19-20], most common 19 (60%)
+    habit  32     128/128         19  0.49  19 [19-20], most common 19 (58%)
+    habit  64     128/128         20  0.10  20 [19-21], most common 19 (44%)
+   filler   2     118/125         20  0.10  20 [19-20], most common 19 (44%)
+   filler   4     115/126         20  0.08  20 [19-21], most common 19 (39%)
+   filler   8     111/124         19  0.51  19 [19-20], most common 19 (53%)
+   filler  16     110/125         19  0.53  19 [19-20], most common 19 (52%)
+   filler  32     110/122         19  0.53  19 [19-20], most common 19 (56%)
+   filler  64      94/118         19  0.47  19 [19-20], most common 19 (49%)
+   distribution over the condition x N cells (mean curve): index 19: 8, index 20: 5 (of 13)
+   distribution over all correct H trials (per trial, side lean removed): 16: 1%, 17: 1%, 18: 1%, 19: 50%, 20: 22%, 21: 18%, 22: 3% (indices under 1% not shown)
+
+6. S OLD-RULE RATE BY FACTOR (each pair: first level / second level; 50% = guessing). A large gap inside a
+   pair means that factor, not the habit, drives the answers. last hist same = the last history shape equals
+   the test shape (habit, N > 0 only).
+     cond   N       habit ans L/R           shape c/s          colour B/O          header H/S        last acq H/S last hist same/diff
+   shared   0             1% / 9%             5% / 5%             5% / 4%             5% / 4%             5% / 4%                    
+    habit   2             2% / 5%             2% / 4%             3% / 3%             2% / 4%             2% / 4%             3% / 3%
+    habit   4             2% / 8%             5% / 5%             5% / 5%             3% / 7%             5% / 5%             5% / 5%
+    habit   8             3% / 7%             6% / 4%             5% / 5%             2% / 8%             5% / 5%             2% / 8%
+    habit  16             1% / 9%             5% / 5%             5% / 5%            0% / 10%             4% / 6%             2% / 8%
+    habit  32            2% / 11%             6% / 6%             8% / 5%             4% / 9%             5% / 7%             5% / 8%
+    habit  64            0% / 11%             3% / 8%             7% / 4%             5% / 6%             5% / 6%             4% / 7%
+   filler   2            2% / 12%             9% / 4%             7% / 6%             8% / 5%             9% / 4%                    
+   filler   4            2% / 16%            10% / 8%            11% / 7%            12% / 6%            12% / 6%                    
+   filler   8            5% / 20%           12% / 12%            16% / 9%            18% / 7%           15% / 10%                    
+   filler  16            4% / 19%            13% / 9%           12% / 10%            13% / 9%            13% / 9%                    
+   filler  32            3% / 19%            9% / 12%            14% / 8%           12% / 10%           12% / 10%                    
+   filler  64            7% / 30%           16% / 22%           23% / 15%           23% / 14%           17% / 20%                    
+
+written: /tmp/out/summary.txt
+item 240/512: 2.8 s per item, left about 12 min
+[full] Qwen/Qwen2.5-1.5B-Instruct: exit=0 (12.9 min)
+item 250/512: 2.8 s per item, left about 12 min
+item 260/512: 2.7 s per item, left about 12 min
+item 270/512: 2.7 s per item, left about 11 min
+item 280/512: 2.7 s per item, left about 11 min
+item 290/512: 2.7 s per item, left about 10 min
+item 300/512: 2.7 s per item, left about 10 min
+item 310/512: 2.7 s per item, left about 9 min
+item 320/512: 2.7 s per item, left about 9 min
+item 330/512: 2.7 s per item, left about 8 min
+item 340/512: 2.7 s per item, left about 8 min
+item 350/512: 2.7 s per item, left about 7 min
+item 360/512: 2.7 s per item, left about 7 min
+item 370/512: 2.7 s per item, left about 6 min
+item 380/512: 2.7 s per item, left about 6 min
+item 390/512: 2.7 s per item, left about 6 min
+item 400/512: 2.7 s per item, left about 5 min
+item 410/512: 2.7 s per item, left about 5 min
+item 420/512: 2.7 s per item, left about 4 min
+item 430/512: 2.7 s per item, left about 4 min
+item 440/512: 2.7 s per item, left about 3 min
+item 450/512: 2.7 s per item, left about 3 min
+item 460/512: 2.7 s per item, left about 2 min
+item 470/512: 2.7 s per item, left about 2 min
+item 480/512: 2.7 s per item, left about 1 min
+item 490/512: 2.7 s per item, left about 60 s
+item 500/512: 2.7 s per item, left about 32 s
+item 510/512: 2.7 s per item, left about 5 s
+item 512/512: 2.7 s per item, left about 0 s
+
+run_v2.py, started 2026-10-16 02:47, finished 2026-10-16 03:10
+model=Qwen/Qwen2.5-3B-Instruct device=cuda dtype=float32 python=3.12.10 torch=2.14.1+cu130 transformers=5.20.0 threads=1
+items=512 learn=16 N=0 2 4 8 16 32 64 seed=1 cache=on layers=36 window=18..23
+time: 23 min total, 1.35 s per item-condition (1024 item-conditions, 6656 prompts)
+cache fallbacks (full forward because tokenization was not prefix + test): 0 of 6656
+check-cache: 52 prompts, max abs diff 2.62e-04 OK
+
+RULE-SWITCH TEST v2: SUMMARY   model=Qwen/Qwen2.5-3B-Instruct   items=512 (H 256, S 256)
+layers=36; H2 window (pre-registered) = logit-lens indices 18..23; CIs 95%, bootstrap = 2000 resamples over items, seed 1
+H = habit frame (the history practises it), S = switch frame (reverse mapping). h = logp(habit answer) - logp(other answer), in nats; > 0 leans to the habit (old) answer.
+
+1. GATE at N=0 (header + acquisition block, no history): both frames must be >= 85% correct.
+   H frame  100% [98%-100%] (255/256)   S frame  100% [98%-100%] (255/256)   -> PASS
+
+2. BEHAVIOUR per condition and N (N=0 is one shared prompt).
+   H acc = correct on H trials. S old = S trials answered by the habit rule, Wilson CI (50% = guessing).
+   D = 2*S old - 1: +1 habit rule, 0 shape ignored, -1 switch rule (correct). S RIGHT = share of RIGHT on S (side bias).
+   final_h S = mean h at the output on S trials, +-SE. p_mass = mean p(LEFT)+p(RIGHT) at the output.
+     cond   N  H acc      S old [95% CI]      D  S RIGHT      final_h S  p_mass
+   shared   0   100%          0% [0%-2%]  -0.99      50%   -5.97 +-0.13    1.00
+    habit   2   100%          1% [0%-3%]  -0.98      49%   -5.98 +-0.13    1.00
+    habit   4   100%          0% [0%-1%]  -1.00      50%   -6.12 +-0.13    1.00
+    habit   8   100%          0% [0%-2%]  -0.99      50%   -6.28 +-0.12    1.00
+    habit  16   100%          0% [0%-2%]  -0.99      50%   -6.00 +-0.12    1.00
+    habit  32   100%          0% [0%-2%]  -0.99      50%   -5.59 +-0.12    1.00
+    habit  64   100%          1% [0%-3%]  -0.98      49%   -4.60 +-0.11    1.00
+   filler   2   100%          1% [0%-3%]  -0.98      50%   -7.58 +-0.16    1.00
+   filler   4   100%          1% [0%-3%]  -0.98      51%   -7.31 +-0.16    1.00
+   filler   8   100%          0% [0%-2%]  -0.99      50%   -6.67 +-0.14    1.00
+   filler  16   100%          0% [0%-2%]  -0.99      50%   -6.19 +-0.13    1.00
+   filler  32   100%          2% [1%-4%]  -0.96      50%   -5.18 +-0.13    1.00
+   filler  64    98%          2% [1%-5%]  -0.95      50%   -4.09 +-0.11    0.99
+
+3. H1 (primary, stated in advance): the habit history pushes S answers toward the habit rule, more so for
+   longer N. Per item on S trials: final_h(habit) - final_h(filler) at the same N (> 0 = pulled to the old
+   answer). H1 is supported if the slope of this difference against log2(N) has its CI above 0.
+       N items mean diff  95% CI
+       2   256    +1.596  [+1.399, +1.776]
+       4   256    +1.187  [+0.998, +1.371]
+       8   256    +0.392  [+0.230, +0.552]
+      16   256    +0.187  [+0.026, +0.345]
+      32   256    -0.410  [-0.558, -0.254]
+      64   256    -0.508  [-0.668, -0.359]
+   slope vs log2(N), N=2,4,8,16,32,64: -0.443 [-0.487, -0.399] over 256 items   -> H1 NOT SUPPORTED
+   Extra (not part of the verdict): the same by habit-answer side; opposite signs = side bias, not habit.
+     habit ans LEFT       128 items | by N 2:+2.26 4:+1.78 8:+0.82 16:+0.76 32:+0.07 64:-0.14 | slope -0.491 [-0.553, -0.426]
+     habit ans RIGHT      128 items | by N 2:+0.93 4:+0.59 8:-0.04 16:-0.38 32:-0.89 64:-0.88 | slope -0.395 [-0.456, -0.339]
+   Secondary: OLD_RULE_ERROR habit vs filler, same items, exact McNemar.
+       N  habit filler only habit only filler       p
+       2     1%     1%          2           2       1
+       4     0%     1%          0           2     0.5
+       8     0%     0%          1           1       1
+      16     0%     0%          1           1       1
+      32     0%     2%          0           4   0.125
+      64     1%     2%          1           4   0.375
+   Secondary: within habit, S old-rule N=2 1% vs N=64 1%; old-rule only at N=64: 2 items, only at N=2: 1; exact McNemar p = 1
+
+4. H2 (primary, stated in advance): a hidden pull to the habit answer in the window layers (18..23).
+   Per item on S trials: window_h(habit) - window_h(filler) at the same N, all S items. H2 is supported if
+   the slope against log2(N) has its CI above 0 AND the slope CI is above 0 on each habit-answer side
+   separately (LEFT items, RIGHT items), so that an effect on one side only cannot pose as a habit effect.
+       N items mean diff  95% CI
+       2   256    -0.418  [-0.493, -0.346]
+       4   256    -0.322  [-0.389, -0.257]
+       8   256    -0.247  [-0.334, -0.162]
+      16   256    -0.125  [-0.221, -0.029]
+      32   256    -0.199  [-0.319, -0.077]
+      64   256    -0.104  [-0.212, +0.003]
+   slope vs log2(N), N=2,4,8,16,32,64: +0.059 [+0.041, +0.077] over 256 items
+   Secondary (mean difference by N, slope with CI):
+     habit ans LEFT       128 items | by N 2:-0.05 4:-0.06 8:+0.34 16:+0.55 32:+0.70 64:+0.66 | slope +0.173 [+0.156, +0.190]
+     habit ans RIGHT      128 items | by N 2:-0.78 4:-0.59 8:-0.83 16:-0.81 32:-1.10 64:-0.87 | slope -0.055 [-0.072, -0.039]
+     shape circle         128 items | by N 2:-0.47 4:-0.38 8:-0.27 16:-0.16 32:-0.21 64:-0.19 | slope +0.059 [+0.029, +0.089]
+     shape square         128 items | by N 2:-0.36 4:-0.26 8:-0.23 16:-0.09 32:-0.19 64:-0.02 | slope +0.059 [+0.038, +0.080]
+     correct both, LEFT   123 items | by N 2:-0.04 4:-0.06 8:+0.34 16:+0.55 32:+0.71 64:+0.67 | slope +0.175 [+0.158, +0.192]
+     correct both, RIGHT  123 items | by N 2:-0.78 4:-0.59 8:-0.83 16:-0.81 32:-1.10 64:-0.86 | slope -0.054 [-0.071, -0.037]
+     (correct both = the S answer is correct in both conditions: at that N for 'by N', at every N for the
+      slope; LEFT/RIGHT = habit answer. These items are chosen by the answer, so a model with a
+      LEFT/RIGHT lean puts more of them on one side: count them as a hidden pull only if both agree.)
+   -> H2 NOT SUPPORTED (slope CI not above 0 on both habit-answer sides)
+
+5. DECISION LAYER on correct H trials: the first logit-lens index where h exceeds half of its final value.
+   mean curve = from the mean h per layer, averaged with equal weight over the two habit-answer sides (the
+   lens has a LEFT/RIGHT lean per layer that cancels this way); trials L/R = correct H trials with habit
+   answer LEFT / RIGHT. jump = rise of the mean curve at that index as a share of the final value (close to 1
+   = the answer forms abruptly). per trial = the same index per trial after removing the cell's per-layer
+   side lean: median [quartiles] and the most common index with its share.
+   Indices count from 0: v1 (Qwen2.5-0.5B, 24 layers) found index 16 = the 17th layer.
+     cond   N  trials L/R mean curve  jump  per trial
+   shared   0     127/128         27  0.27  27 [23-31], most common 27 (30%)
+    habit   2     128/128         27  0.29  27 [22-30], most common 27 (28%)
+    habit   4     128/128         27  0.30  27 [23-30], most common 27 (36%)
+    habit   8     128/128         27  0.32  27 [23-27], most common 27 (38%)
+    habit  16     128/128         27  0.32  27 [24-27], most common 27 (47%)
+    habit  32     128/128         27  0.30  27 [24-27], most common 27 (54%)
+    habit  64     128/128         27  0.28  27 [24-27], most common 27 (53%)
+   filler   2     128/128         31  0.39  31 [31-31], most common 31 (71%)
+   filler   4     128/127         31  0.37  31 [28-31], most common 31 (65%)
+   filler   8     128/127         31  0.36  31 [27-31], most common 31 (52%)
+   filler  16     128/128         31  0.40  31 [27-31], most common 31 (51%)
+   filler  32     127/128         31  0.42  31 [27-31], most common 31 (50%)
+   filler  64     126/126         28  0.03  27 [23-31], most common 31 (35%)
+   distribution over the condition x N cells (mean curve): index 27: 7, index 28: 1, index 31: 5 (of 13)
+   distribution over all correct H trials (per trial, side lean removed): 20: 6%, 21: 5%, 22: 3%, 23: 3%, 24: 5%, 27: 30%, 28: 5%, 30: 3%, 31: 34%, 32: 2% (indices under 1% not shown)
+
+6. S OLD-RULE RATE BY FACTOR (each pair: first level / second level; 50% = guessing). A large gap inside a
+   pair means that factor, not the habit, drives the answers. last hist same = the last history shape equals
+   the test shape (habit, N > 0 only).
+     cond   N       habit ans L/R           shape c/s          colour B/O          header H/S        last acq H/S last hist same/diff
+   shared   0             0% / 1%             0% / 1%             1% / 0%             1% / 0%             1% / 0%                    
+    habit   2             2% / 0%             0% / 2%             0% / 2%             2% / 0%             0% / 2%             0% / 1%
+    habit   4             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%
+    habit   8             1% / 0%             0% / 1%             0% / 1%             1% / 0%             0% / 1%             1% / 0%
+    habit  16             1% / 0%             0% / 1%             0% / 1%             1% / 0%             1% / 0%             0% / 1%
+    habit  32             1% / 0%             0% / 1%             0% / 1%             1% / 0%             1% / 0%             0% / 1%
+    habit  64             2% / 0%             0% / 2%             0% / 2%             2% / 0%             1% / 2%             1% / 2%
+   filler   2             1% / 1%             0% / 2%             1% / 1%             2% / 0%             1% / 1%                    
+   filler   4             0% / 2%             1% / 1%             1% / 1%             2% / 0%             2% / 0%                    
+   filler   8             0% / 1%             0% / 1%             1% / 0%             1% / 0%             1% / 0%                    
+   filler  16             0% / 1%             0% / 1%             1% / 0%             1% / 0%             1% / 0%                    
+   filler  32             2% / 2%             1% / 3%             1% / 3%             4% / 0%             2% / 2%                    
+   filler  64             2% / 2%             1% / 4%             2% / 2%             4% / 1%             2% / 2%                    
+
+written: /tmp/out/summary.txt
+[full] Qwen/Qwen2.5-3B-Instruct: exit=0 (23.7 min)
+results in /mnt/project-files/pilot/run-v2-2026-10-16
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-FxDyRKk6IUaHEtEYtw6wi5

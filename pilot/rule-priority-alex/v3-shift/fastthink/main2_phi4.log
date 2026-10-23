@@ -1,0 +1,105 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-98BNyBnKG2dN3Sxw8xLckV
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/fastthink/modal_
+│   ft.py
+├── ✓ Created Function run.
+└── ✓ Created Function fetch.
+
+[1ALoading weights:   0%|          | 0/243 [00:00<?, ?it/s]
+[1ALoading weights:   6%|▌         | 15/243 [00:00<00:01, 142.06it/s]
+[1ALoading weights:  16%|█▌        | 38/243 [00:00<00:01, 176.01it/s]
+[1ALoading weights:  23%|██▎       | 56/243 [00:00<00:01, 141.35it/s]
+[1ALoading weights:  34%|███▍      | 83/243 [00:00<00:01, 157.80it/s]
+[1ALoading weights:  41%|████      | 99/243 [00:00<00:00, 151.35it/s]
+[1ALoading weights:  50%|████▉     | 121/243 [00:00<00:00, 159.38it/s]
+[1ALoading weights:  58%|█████▊    | 141/243 [00:00<00:00, 165.57it/s]
+[1ALoading weights:  65%|██████▌   | 158/243 [00:01<00:00, 153.15it/s]
+[1ALoading weights:  74%|███████▍  | 181/243 [00:01<00:00, 172.35it/s]
+[1ALoading weights:  82%|████████▏ | 199/243 [00:01<00:00, 153.45it/s]
+[1ALoading weights:  88%|████████▊ | 215/243 [00:01<00:00, 145.23it/s]
+[1ALoading weights:  96%|█████████▌| 233/243 [00:01<00:00, 152.71it/s]Loading weights: 100%|██████████| 243/243 [00:01<00:00, 162.01it/s]
+phi4 gen 16 / 16
+phi4 already 1615 to generate 0
+phi4 samp 32 / 1551
+phi4 samp 64 / 1551
+phi4 samp 96 / 1551
+phi4 samp 128 / 1551
+phi4 samp 160 / 1551
+phi4 samp 192 / 1551
+phi4 samp 224 / 1551
+phi4 samp 256 / 1551
+phi4 samp 288 / 1551
+phi4 samp 320 / 1551
+phi4 samp 352 / 1551
+phi4 samp 384 / 1551
+phi4 samp 416 / 1551
+phi4 samp 448 / 1551
+phi4 samp 480 / 1551
+phi4 samp 512 / 1551
+phi4 samp 544 / 1551
+phi4 samp 576 / 1551
+phi4 samp 608 / 1551
+phi4 samp 640 / 1551
+phi4 samp 672 / 1551
+phi4 samp 704 / 1551
+phi4 samp 736 / 1551
+phi4 samp 768 / 1551
+phi4 samp 800 / 1551
+phi4 samp 832 / 1551
+phi4 samp 864 / 1551
+phi4 samp 896 / 1551
+phi4 samp 928 / 1551
+phi4 samp 960 / 1551
+phi4 samp 992 / 1551
+phi4 samp 1024 / 1551
+phi4 samp 1056 / 1551
+phi4 samp 1088 / 1551
+phi4 samp 1120 / 1551
+phi4 samp 1152 / 1551
+phi4 samp 1184 / 1551
+phi4 samp 1216 / 1551
+phi4 samp 1248 / 1551
+phi4 samp 1279 / 1551
+phi4 samp 1304 / 1551
+phi4 samp 1327 / 1551
+phi4 samp 1350 / 1551
+phi4 samp 1373 / 1551
+phi4 samp 1395 / 1551
+phi4 samp 1417 / 1551
+phi4 samp 1432 / 1551
+phi4 samp 1442 / 1551
+phi4 samp 1452 / 1551
+phi4 samp 1462 / 1551
+phi4 samp 1472 / 1551
+phi4 samp 1482 / 1551
+phi4 samp 1492 / 1551
+phi4 samp 1502 / 1551
+phi4 samp 1512 / 1551
+phi4 samp 1522 / 1551
+phi4 samp 1532 / 1551
+phi4 samp 1542 / 1551
+phi4 samp 1551 / 1551
+phi4 score 100 / 1615
+phi4 score 200 / 1615
+phi4 score 300 / 1615
+phi4 score 400 / 1615
+phi4 score 500 / 1615
+phi4 score 600 / 1615
+phi4 score 700 / 1615
+phi4 score 800 / 1615
+phi4 score 900 / 1615
+phi4 score 1000 / 1615
+phi4 score 1100 / 1615
+phi4 score 1200 / 1615
+phi4 score 1300 / 1615
+phi4 score 1400 / 1615
+phi4 score 1500 / 1615
+phi4 score 1600 / 1615
+phi4 DONE /cache/ft_runs/main/phi4/out.jsonl
+phi4 finished
+[modal-client] 2026-10-19T23:08:41+0000 Timed out waiting for final app logs.
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-98BNyBnKG2dN3Sxw8xLckV

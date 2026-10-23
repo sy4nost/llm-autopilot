@@ -1,0 +1,48 @@
+## Families after filters (option mass >= 0.5, validity)
+  C-bonus     scored  1280  kept  1150  habit errors   529  in qualifying cells: pos 0 neg 0  informative False  cells 0
+  C-parcels   scored   640  kept   640  habit errors   257  in qualifying cells: pos 97 neg 63  informative True  cells 2
+  C-rule      scored  1080  kept  1080  habit errors   307  in qualifying cells: pos 289 neg 521  informative True  cells 9
+  P-native    scored   360  kept   360  habit errors   146  in qualifying cells: pos 146 neg 34  informative True  cells 2
+  P-neqa      scored   270  kept   254  habit errors    71  in qualifying cells: pos 71 neg 183  informative True  cells 1
+  P-quote     scored   270  kept   269  habit errors    18  in qualifying cells: pos 18 neg 251  informative False  cells 1
+  P-redefine  scored   810  kept   255  habit errors    98  in qualifying cells: pos 61 neg 51  informative True  cells 2
+  mmlu        scored  1500  kept  1500  habit errors   348  in qualifying cells: pos 348 neg 1152  informative True  cells 1
+
+## B4 generic-error probe (MMLU): layer 40, CV AUC by layer {"8": 0.525, "12": 0.503, "16": 0.547, "20": 0.548, "24": 0.591, "28": 0.677, "32": 0.746, "36": 0.746, "40": 0.75, "44": 0.75}
+  held-out MMLU AUC 0.841  (validity needs >= 0.65) -> OK
+
+######## C->P: train ['C-rule', 'C-parcels', 'C-bonus'] -> test ['P-redefine', 'P-neqa', 'P-quote']
+  layer chosen 40 by lofo; held-out-family AUC by layer {"8": 0.438, "12": 0.398, "16": 0.48, "20": 0.52, "24": 0.496, "28": 0.533, "32": 0.588, "36": 0.573, "40": 0.644, "44": 0.469}
+  B1 sign fitted on training: fires at LARGE margin
+  family       n_pos  n_neg  inform.            lamp              B1              B2              B3              B4  lamp_uncentred
+  P-redefine      61     51     True           0.506           0.524           0.485           0.323           0.454           0.513
+  P-neqa          71    183     True           0.584           0.363           0.677           0.554           0.650           0.640
+  P-quote         18    251    False           0.796           0.053           0.866           0.711           0.604           0.706
+  mean within-cell AUC over informative families ['P-redefine', 'P-neqa']:
+    lamp            0.545 [0.460, 0.616]
+    B1              0.444 [0.372, 0.516]
+    B2              0.581 [0.510, 0.649]
+    B3              0.438 [0.370, 0.506]
+    B4              0.552 [0.482, 0.621]
+    lamp_uncentred  0.576 [0.498, 0.644]
+    lamp - B1: +0.101 [+0.003, +0.189]  need >= +0.05 and low > 0 -> PASS
+    lamp - B2: -0.036 [-0.152, +0.072]  need >= +0.05 and low > 0 -> FAIL
+    lamp - B3: +0.106 [-0.001, +0.203]  need >= +0.05 and low > 0 -> FAIL
+    lamp - B4: -0.007 [-0.118, +0.086]  need >= +0.05 and low > 0 -> FAIL
+  C1 AUC >= 0.65: FAIL | C2 beats all baselines: FAIL | C3 no family < 0.55: FAIL | C4 MMLU false alarms 55.1% <= 25%: FAIL
+  [report] without previously scored public items: P-redefine lamp 0.486, P-neqa lamp 0.541
+  [report] P-redefine: pooled AUC lamp_uncentred 0.610 vs cell-identity 0.899
+  [report] P-neqa: pooled AUC lamp_uncentred 0.640 vs cell-identity 0.500
+  [report] P-quote: pooled AUC lamp_uncentred 0.706 vs cell-identity 0.500
+
+######## P->C: train ['P-redefine', 'P-quote'] -> test ['C-rule', 'C-parcels', 'C-bonus', 'P-neqa']
+  P-quote not informative as a training family -> P->C NON-INFORMATIVE (pre-registered)
+
+######## [report] C-families -> P-native (structural twin of C-rule)
+  layer 40: within-cell AUC 0.585 (pos 146, neg 34, informative True); B1 margin 0.889
+  trap-situation probe on P-redefine: within-cell AUC for habit errors 0.490
+  trap-situation probe on P-neqa: within-cell AUC for habit errors 0.529
+  trap-situation probe on P-quote: within-cell AUC for habit errors 0.663
+
+######## PRE-REGISTERED VERDICT
+  C->P: fail | P->C: non-informative | OVERALL: NO general signal (C->P fail, P->C non-informative)

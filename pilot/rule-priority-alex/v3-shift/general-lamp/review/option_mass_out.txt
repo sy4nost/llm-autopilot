@@ -1,0 +1,4 @@
+redefine-math              n=200 log P(any option): median  -34.41  p10  -38.06  p90  -26.31  share>log(0.5): 0.00  errors 62
+quote-repetition           n=200 log P(any option): median   -7.83  p10  -25.06  p90   -0.55  share>log(0.5): 0.11  errors 28
+NeQA                       n=200 log P(any option): median   -3.54  p10  -10.62  p90   -0.99  share>log(0.5): 0.07  errors 77
+hindsight-neglect-10shot   n=200 log P(any option): median    0.00  p10   -0.00  p90    0.00  share>log(0.5): 1.00  errors 108

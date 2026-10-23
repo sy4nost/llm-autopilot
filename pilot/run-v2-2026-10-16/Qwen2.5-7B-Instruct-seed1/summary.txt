@@ -1,0 +1,122 @@
+run_v2.py, started 2026-10-16 02:50, finished 2026-10-16 03:05
+model=Qwen/Qwen2.5-7B-Instruct device=cuda dtype=float32 python=3.12.10 torch=2.14.1+cu130 transformers=5.20.0 threads=1
+items=512 learn=16 N=0 2 4 8 16 32 64 seed=1 cache=on layers=28 window=14..18
+time: 15 min total, 0.91 s per item-condition (1024 item-conditions, 6656 prompts)
+cache fallbacks (full forward because tokenization was not prefix + test): 0 of 6656
+check-cache: 52 prompts, max abs diff 1.02e-04 OK
+
+RULE-SWITCH TEST v2: SUMMARY   model=Qwen/Qwen2.5-7B-Instruct   items=512 (H 256, S 256)
+layers=28; H2 window (pre-registered) = logit-lens indices 14..18; CIs 95%, bootstrap = 2000 resamples over items, seed 1
+H = habit frame (the history practises it), S = switch frame (reverse mapping). h = logp(habit answer) - logp(other answer), in nats; > 0 leans to the habit (old) answer.
+
+1. GATE at N=0 (header + acquisition block, no history): both frames must be >= 85% correct.
+   H frame  100% [99%-100%] (256/256)   S frame  100% [99%-100%] (256/256)   -> PASS
+
+2. BEHAVIOUR per condition and N (N=0 is one shared prompt).
+   H acc = correct on H trials. S old = S trials answered by the habit rule, Wilson CI (50% = guessing).
+   D = 2*S old - 1: +1 habit rule, 0 shape ignored, -1 switch rule (correct). S RIGHT = share of RIGHT on S (side bias).
+   final_h S = mean h at the output on S trials, +-SE. p_mass = mean p(LEFT)+p(RIGHT) at the output.
+     cond   N  H acc      S old [95% CI]      D  S RIGHT      final_h S  p_mass
+   shared   0   100%          0% [0%-1%]  -1.00      50%  -12.74 +-0.10    1.00
+    habit   2   100%          0% [0%-1%]  -1.00      50%  -11.90 +-0.08    1.00
+    habit   4   100%          0% [0%-1%]  -1.00      50%  -11.73 +-0.08    1.00
+    habit   8   100%          0% [0%-1%]  -1.00      50%  -11.59 +-0.07    1.00
+    habit  16   100%          0% [0%-2%]  -0.99      50%  -10.97 +-0.08    1.00
+    habit  32   100%          0% [0%-2%]  -0.99      50%  -10.48 +-0.09    1.00
+    habit  64   100%          0% [0%-2%]  -0.99      50%   -9.25 +-0.08    1.00
+   filler   2   100%          0% [0%-1%]  -1.00      50%  -13.15 +-0.08    1.00
+   filler   4   100%          0% [0%-1%]  -1.00      50%  -12.80 +-0.08    1.00
+   filler   8   100%          0% [0%-1%]  -1.00      50%  -12.45 +-0.10    1.00
+   filler  16   100%          0% [0%-1%]  -1.00      50%  -11.95 +-0.08    1.00
+   filler  32   100%          0% [0%-1%]  -1.00      50%  -11.70 +-0.08    1.00
+   filler  64   100%          0% [0%-1%]  -1.00      50%  -10.95 +-0.08    1.00
+
+3. H1 (primary, stated in advance): the habit history pushes S answers toward the habit rule, more so for
+   longer N. Per item on S trials: final_h(habit) - final_h(filler) at the same N (> 0 = pulled to the old
+   answer). H1 is supported if the slope of this difference against log2(N) has its CI above 0.
+       N items mean diff  95% CI
+       2   256    +1.246  [+1.122, +1.368]
+       4   256    +1.069  [+0.949, +1.188]
+       8   256    +0.861  [+0.705, +1.004]
+      16   256    +0.972  [+0.836, +1.136]
+      32   256    +1.220  [+1.084, +1.382]
+      64   256    +1.698  [+1.569, +1.852]
+   slope vs log2(N), N=2,4,8,16,32,64: +0.081 [+0.049, +0.118] over 256 items   -> H1 SUPPORTED
+   Extra (not part of the verdict): the same by habit-answer side; opposite signs = side bias, not habit.
+     habit ans LEFT       128 items | by N 2:+1.51 4:+1.24 8:+1.15 16:+1.20 32:+1.40 64:+2.11 | slope +0.100 [+0.049, +0.160]
+     habit ans RIGHT      128 items | by N 2:+0.98 4:+0.90 8:+0.57 16:+0.74 32:+1.04 64:+1.29 | slope +0.061 [+0.022, +0.096]
+   Secondary: OLD_RULE_ERROR habit vs filler, same items, exact McNemar.
+       N  habit filler only habit only filler       p
+       2     0%     0%          0           0       1
+       4     0%     0%          0           0       1
+       8     0%     0%          0           0       1
+      16     0%     0%          1           0       1
+      32     0%     0%          1           0       1
+      64     0%     0%          1           0       1
+   Secondary: within habit, S old-rule N=2 0% vs N=64 0%; old-rule only at N=64: 1 items, only at N=2: 0; exact McNemar p = 1
+
+4. H2 (primary, stated in advance): a hidden pull to the habit answer in the window layers (14..18).
+   Per item on S trials: window_h(habit) - window_h(filler) at the same N, all S items. H2 is supported if
+   the slope against log2(N) has its CI above 0 AND the slope CI is above 0 on each habit-answer side
+   separately (LEFT items, RIGHT items), so that an effect on one side only cannot pose as a habit effect.
+       N items mean diff  95% CI
+       2   256    -0.011  [-0.057, +0.036]
+       4   256    +0.003  [-0.033, +0.037]
+       8   256    -0.014  [-0.059, +0.029]
+      16   256    -0.023  [-0.130, +0.086]
+      32   256    -0.018  [-0.130, +0.094]
+      64   256    -0.024  [-0.176, +0.134]
+   slope vs log2(N), N=2,4,8,16,32,64: -0.004 [-0.042, +0.034] over 256 items
+   Secondary (mean difference by N, slope with CI):
+     habit ans LEFT       128 items | by N 2:-0.22 4:-0.05 8:+0.20 16:+0.83 32:+0.83 64:+1.24 | slope +0.302 [+0.287, +0.318]
+     habit ans RIGHT      128 items | by N 2:+0.20 4:+0.06 8:-0.23 16:-0.87 32:-0.87 64:-1.29 | slope -0.310 [-0.327, -0.294]
+     shape circle         128 items | by N 2:-0.00 4:-0.00 8:-0.00 16:-0.03 32:-0.01 64:-0.01 | slope -0.003 [-0.061, +0.058]
+     shape square         128 items | by N 2:-0.02 4:+0.01 8:-0.02 16:-0.02 32:-0.02 64:-0.04 | slope -0.005 [-0.060, +0.048]
+     correct both, LEFT   127 items | by N 2:-0.22 4:-0.05 8:+0.20 16:+0.82 32:+0.83 64:+1.23 | slope +0.302 [+0.286, +0.318]
+     correct both, RIGHT  128 items | by N 2:+0.20 4:+0.06 8:-0.23 16:-0.87 32:-0.87 64:-1.29 | slope -0.310 [-0.327, -0.294]
+     (correct both = the S answer is correct in both conditions: at that N for 'by N', at every N for the
+      slope; LEFT/RIGHT = habit answer. These items are chosen by the answer, so a model with a
+      LEFT/RIGHT lean puts more of them on one side: count them as a hidden pull only if both agree.)
+   -> H2 NOT SUPPORTED (slope CI not above 0; slope CI not above 0 on both habit-answer sides)
+
+5. DECISION LAYER on correct H trials: the first logit-lens index where h exceeds half of its final value.
+   mean curve = from the mean h per layer, averaged with equal weight over the two habit-answer sides (the
+   lens has a LEFT/RIGHT lean per layer that cancels this way); trials L/R = correct H trials with habit
+   answer LEFT / RIGHT. jump = rise of the mean curve at that index as a share of the final value (close to 1
+   = the answer forms abruptly). per trial = the same index per trial after removing the cell's per-layer
+   side lean: median [quartiles] and the most common index with its share.
+   Indices count from 0: v1 (Qwen2.5-0.5B, 24 layers) found index 16 = the 17th layer.
+     cond   N  trials L/R mean curve  jump  per trial
+   shared   0     128/128         23  0.22  23 [23-23], most common 23 (67%)
+    habit   2     128/128         23  0.21  23 [23-23], most common 23 (63%)
+    habit   4     128/128         23  0.22  23 [22-23], most common 23 (61%)
+    habit   8     128/128         23  0.21  23 [22-23], most common 23 (53%)
+    habit  16     128/128         23  0.20  23 [22-23], most common 23 (58%)
+    habit  32     128/128         23  0.18  23 [22-23], most common 23 (55%)
+    habit  64     128/128         23  0.18  23 [22-23], most common 23 (54%)
+   filler   2     128/128         23  0.21  23 [23-23], most common 23 (70%)
+   filler   4     128/128         23  0.22  23 [23-23], most common 23 (76%)
+   filler   8     128/128         23  0.22  23 [23-23], most common 23 (77%)
+   filler  16     128/128         23  0.23  23 [23-23], most common 23 (76%)
+   filler  32     128/128         23  0.24  23 [23-23], most common 23 (74%)
+   filler  64     128/128         23  0.25  23 [22-23], most common 23 (64%)
+   distribution over the condition x N cells (mean curve): index 23: 13 (of 13)
+   distribution over all correct H trials (per trial, side lean removed): 22: 22%, 23: 65%, 24: 12% (indices under 1% not shown)
+
+6. S OLD-RULE RATE BY FACTOR (each pair: first level / second level; 50% = guessing). A large gap inside a
+   pair means that factor, not the habit, drives the answers. last hist same = the last history shape equals
+   the test shape (habit, N > 0 only).
+     cond   N       habit ans L/R           shape c/s          colour B/O          header H/S        last acq H/S last hist same/diff
+   shared   0             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%                    
+    habit   2             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%
+    habit   4             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%
+    habit   8             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%
+    habit  16             1% / 0%             0% / 1%             1% / 0%             0% / 1%             0% / 1%             1% / 0%
+    habit  32             1% / 0%             0% / 1%             1% / 0%             0% / 1%             0% / 1%             1% / 0%
+    habit  64             1% / 0%             0% / 1%             1% / 0%             0% / 1%             0% / 1%             1% / 0%
+   filler   2             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%                    
+   filler   4             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%                    
+   filler   8             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%                    
+   filler  16             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%                    
+   filler  32             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%                    
+   filler  64             0% / 0%             0% / 0%             0% / 0%             0% / 0%             0% / 0%                    

@@ -1,0 +1,120 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/rwryhrx/main/ap-jkq50LhNx6aXA2dkBYxWN3
+✓ Created objects.
+├── ✓ Uploaded 
+│   /mnt/attach/project-files/pilot/rule-priority-alex/v3-shift/fastthink/modal_
+│   ft.py
+├── ✓ Created Function run.
+└── ✓ Created Function fetch.
+
+[1ALoading weights:   0%|          | 0/443 [00:00<?, ?it/s]
+[1ALoading weights:   6%|▌         | 26/443 [00:00<00:02, 198.68it/s]
+[1ALoading weights:  10%|█         | 46/443 [00:01<00:17, 22.11it/s] 
+[1ALoading weights:  12%|█▏        | 55/443 [00:04<00:41,  9.31it/s]
+[1ALoading weights:  16%|█▌        | 71/443 [00:04<00:25, 14.61it/s]
+[1ALoading weights:  18%|█▊        | 81/443 [00:04<00:19, 18.70it/s]
+[1ALoading weights:  23%|██▎       | 102/443 [00:04<00:11, 30.35it/s]
+[1ALoading weights:  26%|██▌       | 114/443 [00:04<00:08, 37.75it/s]
+[1ALoading weights:  30%|███       | 135/443 [00:04<00:05, 54.93it/s]
+[1ALoading weights:  35%|███▍      | 154/443 [00:05<00:04, 69.10it/s]
+[1ALoading weights:  39%|███▉      | 172/443 [00:05<00:03, 83.32it/s]
+[1ALoading weights:  42%|████▏     | 187/443 [00:05<00:02, 87.34it/s]
+[1ALoading weights:  46%|████▌     | 203/443 [00:05<00:02, 98.10it/s]
+[1ALoading weights:  49%|████▉     | 217/443 [00:05<00:02, 98.41it/s]
+[1ALoading weights:  54%|█████▍    | 239/443 [00:05<00:01, 121.63it/s]
+[1ALoading weights:  57%|█████▋    | 254/443 [00:05<00:01, 100.67it/s]
+[1ALoading weights:  62%|██████▏   | 273/443 [00:06<00:01, 116.72it/s]
+[1ALoading weights:  66%|██████▌   | 292/443 [00:06<00:01, 129.97it/s]
+[1ALoading weights:  73%|███████▎  | 322/443 [00:06<00:00, 162.24it/s]
+[1ALoading weights:  77%|███████▋  | 340/443 [00:06<00:00, 162.60it/s]
+[1ALoading weights:  82%|████████▏ | 362/443 [00:06<00:00, 174.56it/s]
+[1ALoading weights:  86%|████████▌ | 381/443 [00:06<00:00, 166.32it/s]
+[1ALoading weights:  90%|█████████ | 399/443 [00:06<00:00, 157.85it/s]
+[1ALoading weights:  95%|█████████▍| 420/443 [00:06<00:00, 170.25it/s]Loading weights: 100%|██████████| 443/443 [00:06<00:00, 63.81it/s] 
+olmo13 gen 16 / 16
+olmo13 already 1536 to generate 79
+olmo13 gen 32 / 79
+olmo13 gen 64 / 79
+olmo13 gen 79 / 79
+olmo13 samp 32 / 1615
+olmo13 samp 64 / 1615
+olmo13 samp 96 / 1615
+olmo13 samp 128 / 1615
+olmo13 samp 160 / 1615
+olmo13 samp 192 / 1615
+olmo13 samp 224 / 1615
+olmo13 samp 256 / 1615
+olmo13 samp 288 / 1615
+olmo13 samp 320 / 1615
+olmo13 samp 352 / 1615
+olmo13 samp 384 / 1615
+olmo13 samp 416 / 1615
+olmo13 samp 448 / 1615
+olmo13 samp 480 / 1615
+olmo13 samp 512 / 1615
+olmo13 samp 544 / 1615
+olmo13 samp 576 / 1615
+olmo13 samp 608 / 1615
+olmo13 samp 640 / 1615
+olmo13 samp 672 / 1615
+olmo13 samp 704 / 1615
+olmo13 samp 736 / 1615
+olmo13 samp 768 / 1615
+olmo13 samp 800 / 1615
+olmo13 samp 832 / 1615
+olmo13 samp 864 / 1615
+olmo13 samp 896 / 1615
+olmo13 samp 928 / 1615
+olmo13 samp 960 / 1615
+olmo13 samp 992 / 1615
+olmo13 samp 1024 / 1615
+olmo13 samp 1056 / 1615
+olmo13 samp 1088 / 1615
+olmo13 samp 1120 / 1615
+olmo13 samp 1152 / 1615
+olmo13 samp 1184 / 1615
+olmo13 samp 1216 / 1615
+olmo13 samp 1248 / 1615
+olmo13 samp 1280 / 1615
+olmo13 samp 1312 / 1615
+olmo13 samp 1343 / 1615
+olmo13 samp 1368 / 1615
+olmo13 samp 1391 / 1615
+olmo13 samp 1414 / 1615
+olmo13 samp 1436 / 1615
+olmo13 samp 1458 / 1615
+olmo13 samp 1480 / 1615
+olmo13 samp 1495 / 1615
+olmo13 samp 1505 / 1615
+olmo13 samp 1515 / 1615
+olmo13 samp 1525 / 1615
+olmo13 samp 1535 / 1615
+olmo13 samp 1545 / 1615
+olmo13 samp 1555 / 1615
+olmo13 samp 1565 / 1615
+olmo13 samp 1575 / 1615
+olmo13 samp 1585 / 1615
+olmo13 samp 1595 / 1615
+olmo13 samp 1605 / 1615
+olmo13 samp 1615 / 1615
+olmo13 score 100 / 1615
+olmo13 score 200 / 1615
+olmo13 score 300 / 1615
+olmo13 score 400 / 1615
+olmo13 score 500 / 1615
+olmo13 score 600 / 1615
+olmo13 score 700 / 1615
+olmo13 score 800 / 1615
+olmo13 score 900 / 1615
+olmo13 score 1000 / 1615
+olmo13 score 1100 / 1615
+olmo13 score 1200 / 1615
+olmo13 score 1300 / 1615
+olmo13 score 1400 / 1615
+olmo13 score 1500 / 1615
+olmo13 score 1600 / 1615
+olmo13 DONE /cache/ft_runs/main/olmo13/out.jsonl
+olmo13 finished
+✓ App completed. View run at 
+https://modal.com/apps/rwryhrx/main/ap-jkq50LhNx6aXA2dkBYxWN3

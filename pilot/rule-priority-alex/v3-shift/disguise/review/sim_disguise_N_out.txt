@@ -1,0 +1,5 @@
+D1: n 30  normal   10%  twin   23%  module   23%  disagree   60%
+D2: n 30  normal  100%  twin   83%  module   83%  disagree   17%
+D3: n 30  normal   13%  twin   47%  module   47%  disagree   43%
+D4: n 30  normal  100%  twin   80%  module   80%  disagree   20%
+pooled D1-D4: normal 55.8% module 58.3% gain +2.5% [-4.2%, +9.2%] (set bootstrap)
