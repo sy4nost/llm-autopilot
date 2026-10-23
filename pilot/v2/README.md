@@ -1,251 +1,251 @@
-# Тест «смены правила», версия 2
+# "Rule change" test, version 2
 
-Вторая версия мини-пилота (шаг 1 дорожной карты). Два файла:
+The second version of the mini-pilot (step 1 of the roadmap). Two files:
 
-- `run_v2.py` запускает модель, пишет таблицы и в конце печатает сводку;
-- `analyze_v2.py` строит сводку по готовым таблицам. Его можно запускать отдельно, без модели.
+- `run_v2.py` runs the model, writes tables and prints a summary at the end;
+- `analyze_v2.py` builds the summary from finished tables. It can be run separately, without the model.
 
-Вопросы те же, что в v1:
+The questions are the same as in v1:
 
-- **H1:** если долго закреплять одно правило, тянет ли модель отвечать по нему, когда правило сменилось?
-- **H2:** есть ли такая тяга внутри модели, в средних слоях, даже когда итоговый ответ верный?
+- **H1:** if one rule is reinforced for a long time, is the model pulled to answer by it when the rule has changed?
+- **H2:** is there such a pull inside the model, in the middle layers, even when the final answer is correct?
 
-## Как устроен опыт
+## How the experiment works
 
-Есть две цветные рамки, BLUE и ORANGE. У одной правило «круг → LEFT, квадрат → RIGHT», у другой обратное.
-Есть и третья, серая рамка GRAY: на любую фигуру ответ SKIP.
+There are two colored frames, BLUE and ORANGE. One has the rule "circle → LEFT, square → RIGHT", the other the reverse.
+There is also a third, grey frame GRAY: for any shape the answer is SKIP.
 
-Рамку, которую тренирует история, назовём H («привычка»). Вторую рамку назовём S («смена»).
-Правило S всегда обратно правилу H.
+The frame trained by the history is called H ("habit"). The other frame is called S ("switch").
+Rule S is always the reverse of rule H.
 
-Каждое задание собирается так:
+Each task is assembled as follows:
 
-1. **Заголовок.** Описание игры и три правила. Слов «обычное» и «новое» в нём нет.
-2. **Обучающий блок.** 16 решённых примеров, поровну на обе рамки и обе фигуры.
-3. **История** из N строк. Есть два условия:
-   - `habit`: N решённых примеров рамки H (привычка);
-   - `filler`: N серых строк вида `Frame: GRAY. Shape: star. Answer: SKIP`. Форма та же, но они не учат ни одному правилу.
-4. **Тест.** Одно задание с рамкой H или S, ответ пустой.
+1. **Header.** A description of the game and three rules. The words "usual" and "new" do not appear in it.
+2. **Training block.** 16 solved examples, balanced over both frames and both shapes.
+3. **History** of N lines. There are two conditions:
+   - `habit`: N solved examples of frame H (the habit);
+   - `filler`: N grey lines of the form `Frame: GRAY. Shape: star. Answer: SKIP`. Same form, but they teach no rule.
+4. **Test.** One task with frame H or S, answer empty.
 
-N берётся из ряда 0, 2, 4, 8, 16, 32, 64. При N=0 истории нет, и задание одинаково для обоих условий.
-Поэтому N=0 считается один раз и в сводке называется `shared`.
+N is taken from the series 0, 2, 4, 8, 16, 32, 64. At N=0 there is no history, and the task is the same for both
+conditions. So N=0 is computed once and is called `shared` in the summary.
 
-Ответ читается без случайности: сравниваются вероятности слов LEFT и RIGHT. То же сравнение делается на каждом слое
-модели («логит-линза»).
+The answer is read without randomness: the probabilities of the words LEFT and RIGHT are compared. The same comparison
+is made at every layer of the model ("logit lens").
 
-## Что изменилось по сравнению с v1 и почему
+## What changed compared with v1 and why
 
-1. **Модель должна знать оба правила до опыта.** В v1 при N=0 маленькая модель путала рамки. Теперь в обучающем
-   блоке 16 примеров вместо 4. Добавлен допуск: при N=0 нужно не меньше 85% верных на каждой рамке (подробнее ниже).
-2. **Честный контроль.** В v1 контроль `mixed` добавлял примеры нового правила, и модель на них училась.
-   Теперь контроль `filler`: серые строки той же формы и почти той же длины. Примеры правила S есть только в
-   обучающем блоке.
-   Их число одинаково при любом N. От N зависит только число примеров правила H.
-3. **Перекрёстная балансировка.** В v1 правила были одни и те же во всех заданиях. На квадрате старый ответ всегда
-   был RIGHT, и «скрытая тяга» сидела почти только на квадратах. Модель и так клонилась к RIGHT, поэтому перекос
-   выглядел как привычка. Теперь шесть факторов скрещены полностью, каждая комбинация
-   встречается одинаково часто (64 клетки):
-   - какой цвет привычный (BLUE или ORANGE);
-   - какое правило привычное (круг → LEFT или круг → RIGHT);
-   - какая строка правил стоит в заголовке первой (H или S);
-   - рамка теста (H или S);
-   - фигура теста (круг или квадрат);
-   - рамка последнего обучающего примера (H или S).
+1. **The model must know both rules before the experience.** In v1 at N=0 the small model confused the frames. Now the
+   training block has 16 examples instead of 4. A gate was added: at N=0 at least 85% correct is required on each
+   frame (details below).
+2. **An honest control.** In v1 the `mixed` control added examples of the new rule, and the model learned from them.
+   Now the control is `filler`: grey lines of the same form and almost the same length. Examples of rule S are only in
+   the training block. Their number is the same for any N. Only the number of rule-H examples depends on N.
+3. **Cross-balancing.** In v1 the rules were the same in all tasks. On the square the old answer was always RIGHT,
+   and the "hidden pull" sat almost only on squares. The model was already leaning towards RIGHT, so the skew looked
+   like habit. Now six factors are fully crossed, each combination occurring equally often (64 cells):
+   - which color is habitual (BLUE or ORANGE);
+   - which rule is habitual (circle → LEFT or circle → RIGHT);
+   - which rule line comes first in the header (H or S);
+   - the test frame (H or S);
+   - the test shape (circle or square);
+   - the frame of the last training example (H or S).
 
-   Теперь привычный ответ поровну LEFT и RIGHT. Перекос к одной стороне больше не может выдать себя за привычку.
-4. **История стоит прямо перед тестом.** В v1 между историей и тестом был обучающий блок. Теперь привычка идёт
-   последней, как у людей: долго делаешь одно, потом вдруг другое. Обучающий блок одинаков во всех условиях.
-5. **Мерка без стороны.** Главная мерка теперь `h`: насколько модель склоняется к привычному ответу (подробнее ниже).
-   Так как привычный ответ поровну LEFT и RIGHT, перекос к одной стороне в среднем гасится.
-6. **Окно для H2 выбрано заранее.** Слои здесь нумеруются с 0. В v1 ответ складывался скачком на слое 16
-   (17-й из 24), а «скрытая тяга» была в слоях 12-15. Теперь окно задано формулой до запуска: от round(0.50·L)
-   до round(0.67·L)−1, где L = число слоёв. Для 0.5B (24 слоя) это слои 12-15, для 1.5B (28 слоёв) это слои 14-18.
-7. **Честная статистика.** Единица счёта: задание. Каждое задание прогоняется при всех N и в обоих условиях
-   (парное сравнение). Интервалы: бутстреп по заданиям (2000 повторов, с фиксированным зерном), интервал Уилсона для
-   долей, точный тест Макнемара для парных долей. Правила «подтверждено / не подтверждено» записаны заранее.
-8. **Больше заданий и плотнее малые N.** 512 заданий вместо 100, ряд N = 0, 2, 4, 8, 16, 32, 64.
-9. **Быстрее.** Задания для разных N начинаются одинаково. Поэтому модель читает самое длинное начало один раз и
-   запоминает его (KV-кэш). Для каждого N скрипт обрезает память до нужной длины и дочитывает только строку теста.
-   Это примерно в 2 раза быстрее. Если на какой-то модели разбиение на токены не позволяет так сделать, скрипт сам
-   прогоняет это задание целиком. Ключ `--check-cache` сверяет оба способа.
+   Now the habitual answer is LEFT and RIGHT equally often. A skew towards one side can no longer pass for a habit.
+4. **The history comes right before the test.** In v1 there was a training block between the history and the test.
+   Now the habit comes last, as for humans: you do one thing for a long time, then suddenly another. The training
+   block is the same in all conditions.
+5. **A side-free measure.** The main measure is now `h`: how much the model leans towards the habitual answer
+   (details below). Since the habitual answer is LEFT and RIGHT equally often, a skew towards one side cancels out on average.
+6. **The H2 window is chosen in advance.** Layers here are numbered from 0. In v1 the answer formed in a jump at layer
+   16 (the 17th of 24), and the "hidden pull" was in layers 12–15. Now the window is set by a formula before the run:
+   from round(0.50·L) to round(0.67·L)−1, where L = number of layers. For 0.5B (24 layers) that is layers 12–15, for
+   1.5B (28 layers) layers 14–18.
+7. **Honest statistics.** The unit is the task. Each task is run at all N and in both conditions (paired comparison).
+   Intervals: bootstrap over tasks (2000 resamples, fixed seed), Wilson interval for proportions, exact McNemar test
+   for paired proportions. The "supported / not supported" rules are written in advance.
+8. **More tasks and denser small N.** 512 tasks instead of 100, series N = 0, 2, 4, 8, 16, 32, 64.
+9. **Faster.** Tasks for different N start identically. So the model reads the longest prefix once and caches it
+   (KV cache). For each N the script truncates the cache to the needed length and reads only the test line. This is
+   about 2 times faster. If on some model tokenization does not allow this, the script runs that task in full by
+   itself. The `--check-cache` flag compares both methods.
 
-## Запуск на Windows (процессор, без видеокарты)
+## Running on Windows (CPU, no GPU)
 
-1. Нужен Python 3.10 или новее с python.org (галочка «Add Python to PATH»).
-2. Положите `run_v2.py` и `analyze_v2.py` в одну папку. Откройте в ней командную строку.
-3. Установите библиотеки (если ещё не стоят после v1):
+1. Python 3.10 or newer from python.org is needed (tick "Add Python to PATH").
+2. Put `run_v2.py` and `analyze_v2.py` in one folder. Open a command prompt in it.
+3. Install the libraries (if not already installed after v1):
    ```
    pip install -U torch transformers
    ```
-4. Быстрая проверка без модели (секунды). Печатает задания для двух примеров, ничего не считает:
+4. A quick check without the model (seconds). Prints tasks for two examples, computes nothing:
    ```
    python run_v2.py --dry-run
    ```
-5. Основной прогон, модель 0.5B:
+5. Main run, model 0.5B:
    ```
    python run_v2.py --check-cache 4
    ```
-   `--check-cache 4` на первых 4 заданиях сверяет быстрый способ с полным. Это добавляет одну-две минуты.
-   Если расхождение больше 0.001, скрипт остановится с сообщением `check-cache FAILED`.
-   Тогда запустите с `--no-cache` (вдвое медленнее, но без кэша).
-6. Затем модель 1.5B:
+   `--check-cache 4` compares the fast method with the full one on the first 4 tasks. This adds a minute or two.
+   If the difference exceeds 0.001, the script stops with the message `check-cache FAILED`.
+   Then run with `--no-cache` (twice as slow, but without the cache).
+6. Then model 1.5B:
    ```
    python run_v2.py --model Qwen/Qwen2.5-1.5B-Instruct --check-cache 4
    ```
 
-При первом запуске модель скачается с Hugging Face: около 1 ГБ для 0.5B и около 3 ГБ для 1.5B.
-Свободной памяти нужно около 3 ГБ для 0.5B и около 10 ГБ для 1.5B.
+On first run the model is downloaded from Hugging Face: about 1 GB for 0.5B and about 3 GB for 1.5B.
+About 3 GB of free memory is needed for 0.5B and about 10 GB for 1.5B.
 
-**Сколько ждать (оценка, не замер).** Примерно 1-2 часа для 0.5B и 4-6 часов для 1.5B на 10-ядерном процессоре.
-Оценка сделана на модели со случайными весами того же размера и сверена со скоростью прогона v1 на этом компьютере.
-Во время работы скрипт печатает, сколько секунд уходит на задание и сколько примерно осталось.
+**How long to wait (estimate, not measured).** About 1–2 hours for 0.5B and 4–6 hours for 1.5B on a 10-core CPU.
+The estimate was made on a random-weight model of the same size and checked against the speed of the v1 run on this
+computer. While running, the script prints how many seconds each task takes and roughly how much time is left.
 
-**Результаты** лежат в папке `results_v2\<модель>-seed1\`, например `results_v2\Qwen2.5-0.5B-Instruct-seed1\`:
+**Results** are in the folder `results_v2\<model>-seed1\`, e.g. `results_v2\Qwen2.5-0.5B-Instruct-seed1\`:
 
-| Файл | Что в нём |
+| File | Contents |
 |---|---|
-| `trials.csv` | одна строка на задание, условие и N |
-| `layers.csv` | `h` на каждом слое для каждой строки `trials.csv` |
-| `run_info.txt` | модель, версии библиотек, время, проверка кэша |
-| `summary.txt` | сводка (то же, что печатается в конце) |
+| `trials.csv` | one row per task, condition and N |
+| `layers.csv` | `h` at each layer for each row of `trials.csv` |
+| `run_info.txt` | model, library versions, time, cache check |
+| `summary.txt` | the summary (the same as printed at the end) |
 
-Строки пишутся по ходу работы. Если прогон прервался, начните его заново: продолжения с места нет.
-`analyze_v2.py` можно запустить и на незаконченной папке (пока прогон идёт или после обрыва). Последняя строка
-таблицы тогда может быть оборвана на середине. Такие строки пропускаются, а в сводке появляется
-`WARNING: skipped incomplete rows`: это сводка только по уже записанным строкам.
+Rows are written as the run proceeds. If the run was interrupted, start it again: there is no resume.
+`analyze_v2.py` can also be run on an unfinished folder (while the run is going or after a crash). The last table row
+may then be cut off in the middle. Such rows are skipped, and the summary shows
+`WARNING: skipped incomplete rows`: the summary covers only rows already written.
 
-Пересчитать сводку без модели:
+Recompute the summary without the model:
 ```
 python analyze_v2.py results_v2\Qwen2.5-0.5B-Instruct-seed1
 ```
 
-Другие ключи `run_v2.py`: `--trials` (число заданий, кратно 64, по умолчанию 512), `--n` (ряд N),
-`--learn` (размер обучающего блока, кратно 4, по умолчанию 16), `--seed` (раскладка заданий, по умолчанию 1),
-`--out` (папка результатов), `--no-cache` (без кэша), `--boot` (число повторов бутстрепа, не меньше 1).
-`--dtype` задаёт точность весов: `float32` (по умолчанию, для процессора) или `bfloat16` (для видеокарты и моделей 7B).
-Если менять `--learn` или `--n`, это уже другой план опыта, его надо записать до запуска.
+Other `run_v2.py` flags: `--trials` (number of tasks, a multiple of 64, default 512), `--n` (series of N),
+`--learn` (training block size, a multiple of 4, default 16), `--seed` (task layout, default 1),
+`--out` (results folder), `--no-cache` (no cache), `--boot` (number of bootstrap resamples, at least 1).
+`--dtype` sets weight precision: `float32` (default, for CPU) or `bfloat16` (for GPU and 7B models).
+Changing `--learn` or `--n` makes it a different experimental plan, which must be written down before the run.
 
-## Допуск (gate)
+## Gate
 
-H1 и H2 имеют смысл, только если модель без всякой истории знает оба правила. Поэтому первая строка сводки
-проверяет N=0: доля верных ответов на рамке H и на рамке S, каждая с 95% интервалом.
+H1 and H2 make sense only if the model knows both rules without any history. So the first line of the summary
+checks N=0: the share of correct answers on frame H and on frame S, each with a 95% interval.
 
-- **PASS:** обе доли не меньше 85%. Дальше можно читать H1 и H2.
-- **FAIL:** хотя бы одна доля ниже 85%. Тогда сводка пишет, что H1 и H2 читать нельзя, и добавляет пометку
-  `(gate FAILED: not interpretable)` к их итогам. Таблицы всё равно печатаются, их можно смотреть как описание.
+- **PASS:** both shares at least 85%. H1 and H2 can then be read.
+- **FAIL:** at least one share below 85%. Then the summary says H1 and H2 cannot be read and adds the mark
+  `(gate FAILED: not interpretable)` to their results. The tables are still printed and can be viewed as a description.
 
-Если 0.5B не проходит допуск, это ожидаемо после v1. Главный прогон тогда на 1.5B.
+If 0.5B does not pass the gate, that is expected after v1. The main run is then on 1.5B.
 
-## Как читать сводку
+## How to read the summary
 
-Слова, которые встречаются в сводке:
+Words that appear in the summary:
 
-- **H** и **S:** привычная рамка и рамка со сменой правила.
-- **h:** логарифм вероятности привычного ответа минус логарифм вероятности другого ответа, в натах.
-  Больше 0: модель склоняется к привычному ответу. Меньше 0: к другому. На S-задании другой ответ верный,
-  поэтому h > 0 на S означает тягу к старому правилу.
-- **Наты:** единица логарифма вероятности. Разница в 1 нат значит, что один ответ примерно в 2.7 раза вероятнее
-  другого. 2 ната: примерно в 7 раз.
-- **Индекс слоя** считается с 0. Последний индекс (23 для 0.5B) это выход модели.
+- **H** and **S:** the habitual frame and the frame with the rule change.
+- **h:** log-probability of the habitual answer minus log-probability of the other answer, in nats.
+  Above 0: the model leans towards the habitual answer. Below 0: towards the other. On an S task the other answer is
+  correct, so h > 0 on S means a pull towards the old rule.
+- **Nats:** the unit of log-probability. A difference of 1 nat means one answer is about 2.7 times more likely than
+  the other. 2 nats: about 7 times.
+- **Layer index** is counted from 0. The last index (23 for 0.5B) is the model output.
 
-В начале сводки стоят строки `run_info.txt`: модель, версии, время на задание, число прогонов без кэша
-(`cache fallbacks`) и итог `--check-cache`. Затем строка с числом слоёв и окном H2.
+The summary starts with the lines of `run_info.txt`: model, versions, time per task, number of runs without cache
+(`cache fallbacks`) and the `--check-cache` result. Then a line with the number of layers and the H2 window.
 
 ### 1. GATE
 
-Пример (числа условные): `H frame 92% [88%-95%] (236/256)   S frame 88% [83%-91%] (225/256)   -> PASS`.
-Доля верных, 95% интервал Уилсона, число верных из числа заданий. Правило PASS и FAIL описано выше.
+Example (made-up numbers): `H frame 92% [88%-95%] (236/256)   S frame 88% [83%-91%] (225/256)   -> PASS`.
+Share correct, 95% Wilson interval, number correct out of number of tasks. The PASS and FAIL rule is described above.
 
-### 2. BEHAVIOUR (что модель делает при каждом условии и N)
+### 2. BEHAVIOUR (what the model does under each condition and N)
 
-| Колонка | Что значит |
+| Column | Meaning |
 |---|---|
-| `cond` | `shared` (N=0), `habit` или `filler` |
-| `N` | длина истории |
-| `H acc` | доля верных на рамке H |
-| `S old [95% CI]` | доля S-заданий, решённых по привычному правилу (ошибка по старому правилу), с интервалом. 50% это угадывание |
-| `D` | индекс направления, 2·`S old` − 1. +1: модель отвечает по привычному правилу. 0: фигура не влияет на ответ. −1: модель отвечает по верному правилу S |
-| `S RIGHT` | доля ответов RIGHT на S-заданиях. Далеко от 50% значит перекос к одной стороне |
-| `final_h S` | средний h на выходе модели на S-заданиях, ± стандартная ошибка |
-| `p_mass` | средняя суммарная вероятность слов LEFT и RIGHT. Около 1: модель отвечает словами игры. Около 0: хочет сказать что-то другое, и выводы шаткие |
+| `cond` | `shared` (N=0), `habit` or `filler` |
+| `N` | history length |
+| `H acc` | share correct on frame H |
+| `S old [95% CI]` | share of S tasks solved by the habitual rule (old-rule error), with interval. 50% is guessing |
+| `D` | direction index, 2·`S old` − 1. +1: the model answers by the habitual rule. 0: the shape does not affect the answer. −1: the model answers by the correct rule S |
+| `S RIGHT` | share of RIGHT answers on S tasks. Far from 50% means a skew to one side |
+| `final_h S` | mean h at the model output on S tasks, ± standard error |
+| `p_mass` | mean total probability of the words LEFT and RIGHT. About 1: the model answers with game words. About 0: it wants to say something else, and conclusions are shaky |
 
-Главное сравнение: `habit` против `filler` при одном и том же N. Если привычка работает, в `habit` индекс D и
-`final_h S` выше, чем в `filler`, и разница растёт с N.
+The main comparison: `habit` vs `filler` at the same N. If the habit works, in `habit` the index D and
+`final_h S` are higher than in `filler`, and the difference grows with N.
 
-### 3. H1 (главная проверка, правило записано заранее)
+### 3. H1 (main test, rule written in advance)
 
-Для каждого S-задания берём разницу `final_h(habit) − final_h(filler)` при одном N. Больше 0: история-привычка
-тянет к старому ответу сильнее, чем столько же серых строк.
+For each S task take the difference `final_h(habit) − final_h(filler)` at one N. Above 0: the habit history pulls
+towards the old answer more strongly than the same number of grey lines.
 
-- Строки `N / items / mean diff / 95% CI`: средняя разница при каждом N (от 2 и выше) и её интервал.
-- Строка `slope vs log2(N)`: наклон разницы по log2(N), то есть насколько разница растёт при каждом удвоении N.
-  **H1 подтверждена (`SUPPORTED`), если весь интервал наклона выше 0.** Иначе `NOT SUPPORTED`.
-- `Extra ... by habit-answer side`: то же отдельно для заданий, где привычный ответ LEFT и где RIGHT. В решение не
-  входит. Если знаки разные, это перекос к стороне, а не привычка.
-- `Secondary: OLD_RULE_ERROR habit vs filler`: доли ошибок по старому правилу в двух условиях. `only habit` и
-  `only filler`: сколько заданий ошиблись только в одном условии. `p`: точный тест Макнемара.
-- `Secondary: within habit`: внутри `habit` сравниваются самое малое и самое большое N (2 и 64), тоже по Макнемару.
+- Lines `N / items / mean diff / 95% CI`: the mean difference at each N (2 and above) and its interval.
+- Line `slope vs log2(N)`: the slope of the difference over log2(N), i.e. how much the difference grows with each
+  doubling of N. **H1 is supported (`SUPPORTED`) if the whole slope interval is above 0.** Otherwise `NOT SUPPORTED`.
+- `Extra ... by habit-answer side`: the same separately for tasks where the habitual answer is LEFT and where it is
+  RIGHT. Not part of the decision. If the signs differ, that is a skew to a side, not a habit.
+- `Secondary: OLD_RULE_ERROR habit vs filler`: shares of old-rule errors in the two conditions. `only habit` and
+  `only filler`: how many tasks erred in only one condition. `p`: exact McNemar test.
+- `Secondary: within habit`: within `habit`, the smallest and largest N (2 and 64) are compared, also by McNemar.
 
-### 4. H2 (главная проверка, правило записано заранее)
+### 4. H2 (main test, rule written in advance)
 
-То же, но вместо выхода модели берётся средний h в окне слоёв (`window_h`, для 0.5B это слои 12-15).
-Вопрос: есть ли внутри тяга к старому ответу, которая растёт с привычкой.
+The same, but instead of the model output the mean h in the layer window is used (`window_h`, for 0.5B layers 12–15).
+Question: is there an internal pull towards the old answer that grows with habit.
 
-- Строки по N и строка `slope vs log2(N)` по всем S-заданиям, как в H1.
-- `Secondary`: та же разница по группам. Для каждой группы: число заданий, средняя разница при каждом N (`by N`)
-  и наклон с интервалом:
-  - `habit ans LEFT` и `habit ans RIGHT`: привычный ответ LEFT или RIGHT;
-  - `shape circle` и `shape square`: фигура теста;
-  - `correct both, LEFT` и `correct both, RIGHT`: только задания, решённые верно в обоих условиях, отдельно для
-    привычного ответа LEFT и RIGHT. Это «скрытая тяга при верном ответе». Осторожно: эти задания отобраны по ответу
-    модели. Если модель клонится к одной стороне, почти все они попадут на одну сторону, и простой перекос к
-    стороне будет выглядеть как тяга. Поэтому общей строки нет. Считайте это скрытой тягой, только если обе строки
-    показывают одно и то же.
-- Итог: **H2 подтверждена, если интервал общего наклона выше 0 и интервал наклона выше 0 отдельно для LEFT и
-  отдельно для RIGHT** (строки `habit ans LEFT` и `habit ans RIGHT`). Второе условие защищает от ошибки v1, где
-  эффект был только на одной стороне. Простого «наклон больше 0 на обеих сторонах» мало: если на одной стороне
-  эффекта нет, её наклон из-за шума примерно в половине случаев всё равно чуть больше 0. Цена правила: очень
-  слабый эффект подтверждается реже, потому что каждая сторона это только половина заданий.
-  В скобках указана причина отказа.
+- Lines per N and the `slope vs log2(N)` line over all S tasks, as in H1.
+- `Secondary`: the same difference by group. For each group: number of tasks, mean difference at each N (`by N`)
+  and slope with interval:
+  - `habit ans LEFT` and `habit ans RIGHT`: habitual answer LEFT or RIGHT;
+  - `shape circle` and `shape square`: test shape;
+  - `correct both, LEFT` and `correct both, RIGHT`: only tasks solved correctly in both conditions, separately for
+    habitual answer LEFT and RIGHT. This is the "hidden pull with a correct answer". Caution: these tasks are
+    selected by the model's answer. If the model leans to one side, almost all of them will fall on one side, and a
+    simple side skew will look like a pull. So there is no combined line. Treat it as a hidden pull only if both
+    lines show the same thing.
+- Result: **H2 is supported if the interval of the overall slope is above 0 and the slope interval is above 0
+  separately for LEFT and separately for RIGHT** (lines `habit ans LEFT` and `habit ans RIGHT`). The second condition
+  protects against the v1 error, where the effect was only on one side. A simple "slope above 0 on both sides" is not
+  enough: if one side has no effect, its slope will still be slightly above 0 about half the time due to noise. The
+  price of the rule: a very weak effect is supported less often, because each side is only half the tasks.
+  The reason for rejection is given in brackets.
 
-### 5. DECISION LAYER (где складывается ответ)
+### 5. DECISION LAYER (where the answer forms)
 
-Берутся верно решённые H-задания. Для каждого условия и N ищется первый слой, где средний h превышает половину
-своего итогового значения. Средний h считается отдельно для заданий с привычным ответом LEFT и RIGHT, потом
-берётся среднее этих двух кривых. Так гасится перекос логит-линзы к одной стороне на ранних слоях (о нём
-предупреждал v1). Если верные H-задания есть только на одной стороне, перекос убрать нельзя, и строка
-пропускается с пометкой.
+Correctly solved H tasks are taken. For each condition and N, the first layer is found where the mean h exceeds half
+of its final value. The mean h is computed separately for tasks with habitual answer LEFT and RIGHT, then the mean of
+these two curves is taken. This cancels the logit lens's skew to one side in early layers (which v1 warned about).
+If correct H tasks exist on only one side, the skew cannot be removed, and the line is skipped with a note.
 
-| Колонка | Что значит |
+| Column | Meaning |
 |---|---|
-| `trials L/R` | сколько заданий вошло: с привычным ответом LEFT / RIGHT |
-| `mean curve` | этот слой по средней кривой |
-| `jump` | какую долю итогового значения кривая набирает на этом слое. Близко к 1: ответ складывается скачком |
-| `per trial` | то же по каждому заданию отдельно, после вычитания перекоса к стороне на каждом слое: медиана [квартили] и самый частый слой с его долей |
+| `trials L/R` | how many tasks were included: with habitual answer LEFT / RIGHT |
+| `mean curve` | this layer by the mean curve |
+| `jump` | what share of the final value the curve gains at this layer. Close to 1: the answer forms in a jump |
+| `per trial` | the same per task, after subtracting the side skew at each layer: median [quartiles] and the most frequent layer with its share |
 
-Ниже две строки распределения: по клеткам условие × N и по всем заданиям вместе.
-В v1 на 0.5B это был слой 16. Если он снова 16 и `jump` большой, находка «ответ складывается скачком» повторилась.
+Below are two distribution lines: by condition × N cell and over all tasks together.
+In v1 on 0.5B this was layer 16. If it is again 16 and `jump` is large, the finding "the answer forms in a jump" has replicated.
 
-### 6. Разбивки ошибок по старому правилу
+### 6. Breakdowns of old-rule errors
 
-Доля ошибок по старому правилу на S-заданиях отдельно по уровням каждого фактора (первый уровень / второй):
-привычный ответ LEFT/RIGHT, фигура, привычный цвет, порядок строк в заголовке, рамка последнего обучающего примера,
-совпадает ли последняя фигура истории с фигурой теста (только `habit` при N > 0).
-Большой разрыв внутри пары значит, что ответы двигает этот фактор, а не привычка.
+The share of old-rule errors on S tasks separately by the levels of each factor (first level / second):
+habitual answer LEFT/RIGHT, shape, habitual color, order of lines in the header, frame of the last training example,
+whether the last shape of the history matches the test shape (only `habit` with N > 0).
+A large gap within a pair means this factor moves the answers, not the habit.
 
-## Что проверено до передачи
+## What was checked before handover
 
-Все проверки сделаны в облаке, на крошечной модели со случайными весами (без смысла, только на работоспособность).
-Компьютер пользователя не трогали.
+All checks were done in the cloud, on a tiny random-weight model (meaningless, only to check that it works).
+The user's computer was not touched.
 
-- Полный прогон от начала до сводки.
-- Быстрый способ с кэшем даёт те же числа, что полный прогон (расхождение около 0.000001). Сломанный кэш
-  останавливает `--check-cache`.
-- Все 64 клетки встречаются поровну. Каждое задание одинаково во всех N и условиях. Ответы в примерах совпадают
-  с правилами из заголовка.
-- Сводка проверена на поддельных «моделях» с известным ответом: «всегда по привычке» (D = +1), «всегда верно по
-  смене» (D = −1), «всегда RIGHT» (D = 0, `S RIGHT` 100%, H2 не подтверждается).
-- Скрытая тяга только на одной стороне (только LEFT или только RIGHT), со случайным шумом: H2 подтвердилась в 4 из
-  80 повторов, около 5% (при прежнем правиле «наклон больше 0» было 40 из 80). Та же тяга на обеих сторонах
-  подтвердилась в 40 из 40, модель совсем без эффекта в 0 из 40.
-- Оборванная на середине строка в таблицах не ломает сводку. `--boot 0` отклоняется сразу.
+- A full run from start to summary.
+- The fast cached method gives the same numbers as a full run (difference about 0.000001). A broken cache
+  stops `--check-cache`.
+- All 64 cells occur equally often. Each task is identical across all N and conditions. The answers in the examples
+  match the rules in the header.
+- The summary was checked on fake "models" with a known answer: "always by habit" (D = +1), "always correct by the
+  switch" (D = −1), "always RIGHT" (D = 0, `S RIGHT` 100%, H2 not supported).
+- A hidden pull on only one side (only LEFT or only RIGHT), with random noise: H2 was supported in 4 of 80 repeats,
+  about 5% (with the old rule "slope above 0" it was 40 of 80). The same pull on both sides was supported in 40 of 40,
+  and a model with no effect at all in 0 of 40.
+- A row cut off in the middle of the tables does not break the summary. `--boot 0` is rejected immediately.

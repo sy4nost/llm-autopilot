@@ -1,20 +1,20 @@
-# Мини-пилот, шаг 1: результаты (15 октября 2026)
+# Mini-pilot, step 1: results (October 15, 2026)
 
-Модель Qwen2.5-0.5B-Instruct, прогон на компьютере Алекса (процессор, без видеокарты): 700 запросов за 35 минут, без ошибок. Выводы проверены четырьмя независимыми рецензентами (статистика, дизайн опыта, устройство модели, когнитивная наука) и тремя критиками, которые пытались их опровергнуть. Все цифры ниже пересчитаны по файлам прогона.
+Model Qwen2.5-0.5B-Instruct, run on Alex's computer (CPU, no GPU): 700 prompts in 35 minutes, no errors. The conclusions were checked by four independent reviewers (statistics, experimental design, model internals, cognitive science) and three critics who tried to refute them. All numbers below were recomputed from the run files.
 
-## Коротко
+## In short
 
-- **H1 не подтвердилась.** Более долгая привычка не добавила ошибок по старому правилу.
-- **На оранжевых заданиях модель не идёт по колее, а теряется.** Старое правило она бросает, но нового не знает и угадывает, чаще говоря «ПРАВО».
-- **H2 не доказана.** Внутренняя тяга к неверному ответу есть, но в этой постановке её нельзя отличить от простого перекоса модели к «ПРАВО».
-- **Твёрдая находка:** ответ складывается скачком на одной и той же глубине, на 17-м слое из 24, во всех условиях. Это кандидат на место для «лампочки».
-- **Главный урок:** тест нашёл дыры в собственной постановке. Вторая версия их закрывает (список в конце).
+- **H1 was not supported.** A longer habit did not add old-rule errors.
+- **On orange tasks the model does not follow the rut; it gets lost.** It drops the old rule but does not know the new one and guesses, more often saying "RIGHT".
+- **H2 was not proven.** There is an internal pull towards the wrong answer, but in this setup it cannot be distinguished from the model's plain skew towards "RIGHT".
+- **A solid finding:** the answer forms in a jump at the same depth, at layer 17 of 24, in all conditions. This is a candidate location for a "lamp".
+- **The main lesson:** the test found holes in its own setup. The second version closes them (list at the end).
 
-## Что модель делала
+## What the model did
 
-Индекс направления показывает, по какому правилу модель отвечает: +1 значит синее (старое) правило, −1 значит оранжевое (новое), 0 значит, что фигура на ответ не влияет.
+The direction index shows which rule the model answers by: +1 means the blue (old) rule, −1 the orange (new) rule, 0 means the shape does not affect the answer.
 
-| Условие | N | Синие верно | Оранжевые: индекс | Оранжевые: доля «ПРАВО» |
+| Condition | N | Blue correct | Orange: index | Orange: share "RIGHT" |
 |---|---|---|---|---|
 | habit | 0 | 58% | +0.24 | 56% |
 | habit | 10 | 96% | +0.08 | 64% |
@@ -24,44 +24,44 @@
 | mixed | 30 | 86% | −0.68 | 46% |
 | mixed | 60 | 84% | −0.88 | 48% |
 
-Что из этого следует:
+What follows:
 
-1. **Без примеров модель игру не понимает.** При N=0 (правила текстом и 4 примера) синие решены на 58%, почти наугад, и рамку модель не различает. Значит, маленькая модель берёт правило из примеров, а не из текста правил.
-2. **Привычка (habit).** Синие решены почти идеально. На оранжевых индекс около нуля: модель видит, что рамка другая, и старое правило не применяет (иначе ошибок было бы почти 100%), но нового правила не знает и отвечает «ПРАВО» в 60–70% случаев, независимо от фигуры. Поэтому «ошибки по старому правилу» около 50% здесь означают угадывание, а не колею. Если говорить твоими словами (это толкование, не измерение), «заметить» у модели получилось, а «ответить» нет.
-3. **Смешанная история (mixed).** Модель выучивает новое правило из примеров в истории: индекс идёт от −0.28 до −0.88.
+1. **Without examples the model does not understand the game.** At N=0 (rules in text and 4 examples) blue tasks are solved at 58%, almost chance, and the model does not distinguish the frame. So the small model takes the rule from the examples, not from the text of the rules.
+2. **Habit.** Blue tasks are solved almost perfectly. On orange tasks the index is about zero: the model sees the frame is different and does not apply the old rule (otherwise errors would be almost 100%), but it does not know the new rule and answers "RIGHT" in 60–70% of cases regardless of shape. So "old-rule errors" around 50% here mean guessing, not a rut. In your words (an interpretation, not a measurement), the model managed to "notice" but not to "answer".
+3. **Mixed history.** The model learns the new rule from the examples in the history: the index goes from −0.28 to −0.88.
 
-## H1: длиннее привычка, больше ошибок по старому правилу
+## H1: longer habit, more old-rule errors
 
-**Не подтвердилась.** В habit ошибки на оранжевых не растут: 54%, 44%, 50% при N = 10, 30, 60. Парное сравнение одних и тех же заданий, N=10 против N=60: 10 заданий стали хуже и 8 лучше, p = 0.81.
+**Not supported.** In habit, errors on orange tasks do not grow: 54%, 44%, 50% at N = 10, 30, 60. A paired comparison of the same tasks, N=10 vs N=60: 10 tasks got worse and 8 better, p = 0.81.
 
-Формальный критерий из README (разрыв habit минус mixed растёт с N) выполнен: +18, +28, +44 пункта, парные p = 0.11, 0.004 и 0.000003. Но разрыв растёт только потому, что mixed учится новому правилу. Это ошибка в моём дизайне контроля. «Mixed» задумывался как контроль той же длины без привычки, а на деле добавляет N/2 примеров оранжевого правила, убирает половину синих и всегда заканчивается оранжевым примером.
+The formal criterion from the README (the habit minus mixed gap grows with N) is met: +18, +28, +44 points, paired p = 0.11, 0.004 and 0.000003. But the gap grows only because mixed learns the new rule. This is an error in my control design. "Mixed" was meant as a same-length control without habit, but in fact it adds N/2 examples of the orange rule, removes half the blue ones and always ends with an orange example.
 
-## H2: скрытая тяга к старому ответу при верном итоге
+## H2: hidden pull towards the old answer with a correct final answer
 
-**Не доказана.** Сводно 41% верных оранжевых заданий против 12% фона на синих выглядит сильно, но:
+**Not proven.** In aggregate, 41% of correct orange tasks vs 12% background on blue looks strong, but:
 
-- почти весь эффект приходится на квадраты (75 из 95, 79%), а на кругах он на уровне фона (13 из 121, 11%). Настоящая тяга к старому правилу должна быть на обеих фигурах. Она видна только там, где старый ответ «ПРАВО», то есть в ту сторону, куда модель и так клонится;
-- эффект не связан с привычкой: в mixed он не меньше, чем в habit, а в habit при N=60 падает до фона;
-- все 7 условий используют одни и те же 100 заданий, поэтому сводное сравнение преувеличивает уверенность. После поправки на множественные сравнения значимы 5 условий из 7.
+- almost the whole effect falls on squares (75 of 95, 79%), while on circles it is at background level (13 of 121, 11%). A real pull towards the old rule should be on both shapes. It is visible only where the old answer is "RIGHT", i.e. in the direction the model already leans;
+- the effect is unrelated to habit: in mixed it is no smaller than in habit, and in habit at N=60 it drops to background;
+- all 7 conditions use the same 100 tasks, so the aggregate comparison overstates confidence. After correction for multiple comparisons, 5 of 7 conditions are significant.
 
-## Что видно по слоям
+## What is visible across layers
 
-Во всех 7 условиях ответ складывается скачком на 17-м слое из 24. До него «чтение» промежуточных слоёв слабое (в основном меньше 1 ната), на нём резкий сдвиг к ответу (у уверенных ответов до 3–5 натов). «Скрытая тяга» живёт в слоях 13–16, перед этим скачком. Это хорошее место для зонда («лампочки») на шаге 4, но сначала нужно убрать перекос к «ПРАВО».
+In all 7 conditions the answer forms in a jump at layer 17 of 24. Before it, the "reading" of intermediate layers is weak (mostly less than 1 nat); at it there is a sharp shift towards the answer (up to 3–5 nats for confident answers). The "hidden pull" lives in layers 13–16, before this jump. This is a good place for a probe (a "lamp") in step 4, but first the skew towards "RIGHT" must be removed.
 
-## Оговорки
+## Caveats
 
-Один шаблон, одна раскладка заданий, одни и те же 100 заданий во всех условиях. Модель запускалась без чат-шаблона. Чтение средних слоёв через logit lens на модели в 0.5B грубое.
+One template, one task layout, the same 100 tasks in all conditions. The model was run without a chat template. Reading middle layers via logit lens on a 0.5B model is crude.
 
-## Что меняем во второй версии
+## What we change in the second version
 
-1. **Модель должна уметь оба правила без привычки.** Больше обучающих примеров (16 вместо 4) и модель крупнее (Qwen2.5-1.5B), а 0.5B оставляем для сравнения. Условие допуска: не меньше 85% верных на обеих рамках при N=0.
-2. **Честный контроль.** Вместо истории «через один» используем нейтральные строки той же длины. Число оранжевых примеров одинаковое при любом N, меняется только число синих.
-3. **Перекрёстная балансировка.** У половины заданий «привычное» правило будет «круг → ПРАВО». Также меняем, какой цвет привычный, порядок строк в заголовке и порядок слов. Это отделит старое правило от перекоса к «ПРАВО».
-4. **Другие мерки.** Главные мерки: индекс направления (+1 / 0 / −1) и непрерывная «тяга», а не доля ошибок. Скрытую тягу считаем по фигурам отдельно, в заранее выбранных слоях (13–16), с честно посчитанным фоном.
-5. **Больше заданий и плотнее малые N.** 200–500 заданий, несколько раскладок, N = 0, 2, 4, 8, 16, 32, 64: сдвиг от привычки, если он есть, происходит до N=10.
-6. **Позже.** Одна длинная последовательность 80/20, как у людей в Эксперименте 2 Impulse Lab, с чтением ответа на каждом шаге.
+1. **The model must know both rules without habit.** More training examples (16 instead of 4) and a larger model (Qwen2.5-1.5B), keeping 0.5B for comparison. Gate condition: at least 85% correct on both frames at N=0.
+2. **An honest control.** Instead of an alternating history, use neutral lines of the same length. The number of orange examples is the same for any N; only the number of blue ones changes.
+3. **Cross-balancing.** For half the tasks the "habitual" rule will be "circle → RIGHT". Also vary which color is habitual, the order of lines in the header and the word order. This will separate the old rule from the skew towards "RIGHT".
+4. **Other measures.** The main measures are the direction index (+1 / 0 / −1) and a continuous "pull", not the error rate. Hidden pull is computed per shape separately, in pre-chosen layers (13–16), with an honestly computed background.
+5. **More tasks and denser small N.** 200–500 tasks, several layouts, N = 0, 2, 4, 8, 16, 32, 64: the shift from habit, if any, happens before N=10.
+6. **Later.** One long 80/20 sequence, as for humans in Impulse Lab Experiment 2, reading the answer at each step.
 
-## Файлы
+## Files
 
-- Сводка и разбивка: `/mnt/project-files/pilot/run-2026-10-15/` (`summary.txt`, `analysis_v1.txt`).
-- На компьютере Алекса: `D:\AIModelLab\pilot\results\` (`trials.csv`, `layers.csv`), лог `run.log`, разбор `analysis\analysis_v1.txt`.
+- Summary and breakdown: `run-2026-10-15/` (`summary.txt`, `analysis_v1.txt`).
+- On Alex's computer: `results/` (`trials.csv`, `layers.csv`), log `run.log`, analysis `analysis/analysis_v1.txt`.
