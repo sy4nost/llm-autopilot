@@ -1,57 +1,59 @@
-# «Сначала проговори решение»: результат (2026-10-18, число 2)
+# "First think the solution through aloud": result (2026-10-18, number 2)
 
-Модель Qwen2.5-14B, 2060 новых задач, которых она раньше не видела. План заморожен заранее (PREREG.md), подсчёт сделан замороженным скриптом (report_main.txt). Прогон стоил примерно $4.
+Model Qwen2.5-14B, 2060 new tasks it had not seen before. The plan was frozen in advance (PREREG.md); scoring was done by the frozen script (report_main.txt). The run cost about $4.
 
-## Коротко
+## In short
 
-1. **Проговаривание сильно уменьшает ошибки по привычке.** На ловушках модель права гораздо чаще, чем когда отвечает сразу. Она обгоняет и простую просьбу «следуй фактам задачи».
-2. **Но по заранее записанному правилу этот способ не прошёл.** В одном контрольном виде задач проговаривание навредило: «смотри на число как на текст, ничего не вычисляй» (94 → 24 верных из 100). Модель начинает вычислять, когда её просили не вычислять.
-3. **Словесной лампочки нет.** Слова вроде «на самом деле» или «обычно» в рассуждении не указывают, где модель ошиблась бы по привычке. Это как монетка: 0.52 из 1.
-4. **Зато хорошо работает другой сигнал: быстрый и медленный ответы не совпали.** Если ответ после проговаривания отличается от быстрого ответа, быстрый почти наверняка был ошибкой привычки: 0.90 из 1. Лампочка оказалась не в словах модели, а в расхождении между «быстро» и «подумав».
+1. **Thinking aloud strongly reduces habit errors.** On traps the model is right much more often than when answering immediately. It also beats the simple request "follow the facts of the task".
+2. **But by the pre-registered rule this method did not pass.** In one control kind of task thinking aloud hurt: "view the number as text, do not compute" (94 → 24 correct out of 100). The model starts computing when asked not to.
+3. **There is no verbal lamp.** Words such as "actually" or "normally" in the reasoning do not indicate where the model would have erred by habit. It is like a coin: 0.52 out of 1.
+4. **But another signal works well: the fast and slow answers disagreed.** If the answer after thinking aloud differs from the fast answer, the fast one was almost certainly a habit error: 0.90 out of 1. The lamp turned out to be not in the model's words but in the disagreement between "fast" and "after thinking".
 
-## Цифры: сколько верных из 100 на ловушках
+## Numbers: correct out of 100 on traps
 
-| задачи | сразу | сразу + «следуй фактам» | проговорив | проговорив + «следуй фактам»* |
+| tasks | direct | direct + "follow the facts" | after thinking | after thinking + "follow the facts"* |
 |---|---|---|---|---|
-| π и e переопределены (π = 244+230 …) | 47 | 68 | **92** | 96 |
-| дорожные слова, правило сменилось | 8 | 8 | **100** | 99 |
-| столицы («столица Польши — Краков, первая буква?») | 70 | **100** | 68 | 100 |
-| определения («у квадрата 6 сторон») | 78 | **100** | **100** | 100 |
+| π and e redefined (π = 244+230 …) | 47 | 68 | **92** | 96 |
+| road words, rule changed | 8 | 8 | **100** | 99 |
+| capitals ("the capital of Poland is Kraków, first letter?") | 70 | **100** | 68 | 100 |
+| definitions ("a square has 6 sides") | 78 | **100** | **100** | 100 |
 
-\* Последний столбец по правилам только для отчёта: выводы по нему сделаны после взгляда на данные.
+\* By the rules the last column is report-only: conclusions about it were drawn after looking at the data.
 
-Отдельные шаблоны задач с π:
-- «e = 18+82» (сразу 5 из 100) после проговаривания даёт 96 из 100.
-- «π = 533 mod 59» поднимается с 60 до 99 из 100.
-- «÷ как случайная цифра» даёт 0 из 100 при любом способе, кроме «проговорив + следуй фактам» (42 из 100).
+Individual π templates:
+- "e = 18+82" (direct 5 of 100) after thinking aloud gives 96 of 100.
+- "π = 533 mod 59" rises from 60 to 99 of 100.
+- "÷ as a random digit" gives 0 of 100 with every method except "after thinking + follow the facts" (42 of 100).
 
-Чтобы проговаривание не засчитывалось только за то, что оно помогает в арифметике, к каждой задаче с π была парная задача «просто посчитай 244+230». Этот выигрыш вычтен: остаётся +24 пункта на π. Общий выигрыш по четырём видам задач +34 пункта [от +29 до +39]. У простой просьбы «следуй фактам» на +20 [от +17 до +23] меньше.
+So that thinking aloud is not credited merely for helping with arithmetic, each π task had a paired task "just compute 244+230". That gain is subtracted: +24 points remain on π. The overall gain over four task kinds is +34 points [+29 to +39]. The simple request "follow the facts" gives +20 [+17 to +23] less.
 
-## Вред (там, где привычка была права)
+## Harm (where the habit was right)
 
-Почти везде вреда нет: 0 или даже плюс. Исключение одно: «View number as text. Do not perform computation» («смотри на число как на текст, ничего не вычисляй»). Там 94 → 24 из 100, а в среднем по этой группе −17 пунктов при допустимых −5. Если к проговариванию добавить «следуй фактам задачи», вред исчезает (92 из 100), но это опять же только для отчёта.
+Almost everywhere there is no harm: 0 or even a plus. One exception: "View number as text. Do not perform computation". There 94 → 24 of 100, and on average over this group −17 points with −5 allowed. If "follow the facts of the task" is added to thinking aloud, the harm disappears (92 of 100), but again this is report-only.
 
-## Словесная лампочка
+## The verbal lamp
 
-- Слова сомнения («actually», «normally», «in reality» и т.п.) появляются в 35 рассуждениях о π из 100, в 61 из 100 про определения и почти никогда на дорожных словах.
-- Однако они не отличают случаи, где быстрый ответ был ошибкой привычки, от случаев, где он был верен: 0.52, почти монетка. Без самых общих слов получается 0.57, тоже мало.
-- Глядя на тексты, видно: модель обычно не говорит «тут конфликт». Она просто идёт по шагам: «по условию у квадрата 6 сторон, значит 6».
-- Другие сигналы проверялись на тех же 12 группах задач:
-  - **«ответ подумав ≠ быстрый ответ»: 0.90**;
-  - «ответ с просьбой ≠ быстрый»: 0.87;
-  - «переодетый ≠ быстрый»: 0.77;
-  - уверенность модели: 0.52;
-  - вопрос «верно ли первое предложение в реальном мире»: 0.50.
+- Doubt words ("actually", "normally", "in reality" etc.) appear in 35 of 100 reasonings about π, in 61 of 100 about definitions and almost never on road words.
+- However, they do not separate cases where the fast answer was a habit error from cases where it was correct: 0.52, almost a coin. Without the most generic words it is 0.57, still low.
+- Looking at the texts: the model usually does not say "there is a conflict here". It simply goes step by step: "by the statement a square has 6 sides, so 6".
+- Other signals were checked on the same 12 task groups:
+  - **"answer after thinking ≠ fast answer": 0.90**;
+  - "answer with the request ≠ fast": 0.87;
+  - "disguised ≠ fast": 0.77;
+  - model confidence: 0.52;
+  - the question "is the first sentence true in the real world": 0.50.
 
-## Что это значит
+## What it means
 
-- **Привычка — это свойство быстрого ответа.** Стоит заставить модель идти по шагам, и привычка в основном исчезает, особенно на дорожных словах: 8 → 100. Это похоже на лестницу из Impulse Lab: остановиться, рассмотреть, потом ответить.
-- **Сама модель словами не говорит «я чуть не ответил по привычке».** Внешний сторож может это увидеть: если «быстро» и «подумав» разошлись, был автоматизм. Это хорошо сходится с идеей «спроси дважды», только вместо переодевания второй раз модель спрашивают с рассуждением.
-- **У медленного ответа своя слабость.** Он может переделать то, что просили не делать (числа как текст), а на столицах не помогает вовсе. Похоже, нужна связка «проговори + держись фактов задачи». Это **гипотеза для отдельной замороженной проверки**.
+- **Habit is a property of the fast answer.** Make the model go step by step and the habit mostly disappears, especially on road words: 8 → 100. This resembles the ladder from Impulse Lab: stop, look, then answer.
+- **The model itself does not say in words "I almost answered by habit".** An external watchman can see it: if "fast" and "after thinking" disagree, there was an automatism. This fits the "ask twice" idea well, only instead of disguise the model is asked a second time with reasoning.
+- **The slow answer has its own weakness.** It may redo what it was asked not to do (numbers as text), and on capitals it does not help at all. It seems the combination "think aloud + stick to the facts of the task" is needed. This is a **hypothesis for a separate frozen test**.
 
-## Пределы
+## Limits
 
-- Одна модель.
-- Ответ выбирался из готовых вариантов, но после рассуждения он в 100 случаях из 100 совпал с тем, что модель написала сама.
-- После удаления повторов задач «÷ как случайная цифра» осталось всего 24.
-- 12 групп задач для проверки лампочки — мало: интервалы около ±0.05.
+- One model.
+- The answer was chosen from ready options, but after reasoning it matched what the model wrote itself in 100 cases of 100.
+- After removing duplicate tasks, only 24 "÷ as a random digit" items remained.
+- 12 task groups for testing the lamp is few: intervals are about ±0.05.
+
+Note (2026-10-23): the "fast ≠ after thinking" signal fires only after the model has already reasoned, so it does not predict habit errors in advance or save compute. See `../conftrap-lamp/audit/audit-report.md`.

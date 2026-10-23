@@ -1,49 +1,49 @@
-# «Переодевание» и «встряхивание»: результат (2026-10-18, число 90)
+# "Disguise" and "shake": result (2026-10-18, number 90)
 
-**Коротко.**
-- **Встряхивание не работает ни в каком виде.** Ни «БАХ!», ни «Проснись», ни внутренний шум («адреналин») не помогли модели заметить смену правила: они ничем не лучше пустой строки-плацебо.
-- **Переодевание работает сильно, но с вредом.** Модель часто бросает привычку, если задачу переписать нейтральными словами. Но там, где привычка была *права*, она начинает ошибаться.
+**In short.**
+- **Shaking does not work in any form.** Neither "BANG!", nor "Wake up", nor internal noise ("adrenaline") helped the model notice the rule change: they are no better than an empty placebo line.
+- **Disguise works strongly, but with harm.** The model often drops the habit if the task is rewritten in neutral words. But where the habit was *right*, it starts making errors.
 
-По заранее записанным правилам все четыре способа **не прошли**. План заморожен в PREREG.md; итог посчитан замороженным скриптом (report_main.txt).
+By the pre-registered rules all four methods **failed**. The plan is frozen in PREREG.md; the result was computed by the frozen script (report_main.txt).
 
-## Картинка
+## As a picture
 
-Человек едет на работу по привычной дороге, хотя ему сказали, что мост закрыт.
-- **Встряхнуть** — гудок за спиной. Он вздрагивает и… едет той же дорогой.
-- **Переодеть** — дать ему карту незнакомого города с той же схемой улиц. Там нет «своей» дороги, и он читает карту честно. Но на незнакомой карте он иногда путается и там, где старая дорога как раз верна.
+A person drives to work along the usual road, although they were told the bridge is closed.
+- **Shake**: a horn behind them. They flinch and... drive the same road.
+- **Disguise**: give them a map of an unfamiliar city with the same street layout. There is no "own" road there, and they read the map honestly. But on the unfamiliar map they sometimes get confused even where the old road is actually right.
 
-## Цифры (сколько верных из 100)
+## Numbers (correct out of 100)
 
-| задачи | обычно | переодевание | «БАХ!» | «Проснись» | плацебо | просьба «следуй правилам» | шум |
+| tasks | normal | disguise | "BANG!" | "Wake up" | placebo | request "follow the rules" | noise |
 |---|---|---|---|---|---|---|---|
-| дорожные слова, ловушки | 11 | **39** | 8 | 8 | 7 | 8 | 17 |
-| дорожные слова, контроль (привычка права) | 100 | **77** | 99 | 100 | 99 | 100 | 97 |
-| дорожные слова, «правило подтверждено» | 91 | 85 | 92 | 93 | 93 | 93 | 85 |
-| «π теперь равно…», ловушки | 38 | **88** | 39 | 36 | 36 | 54 | 37 |
-| «π…» без переопределения (обычная математика) | 96 | 96 | 92 | 97 | 97 | 97 | 94 |
-| «π…», где правильный ответ совпадает с привычкой | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
+| road words, traps | 11 | **39** | 8 | 8 | 7 | 8 | 17 |
+| road words, control (habit is right) | 100 | **77** | 99 | 100 | 99 | 100 | 97 |
+| road words, "rule confirmed" | 91 | 85 | 92 | 93 | 93 | 93 | 85 |
+| "π now equals...", traps | 38 | **88** | 39 | 36 | 36 | 54 | 37 |
+| "π..." without redefinition (ordinary math) | 96 | 96 | 92 | 97 | 97 | 97 | 94 |
+| "π...", where the correct answer matches the habit | 100 | 100 | 100 | 100 | 100 | 100 | 100 |
 
-Почему каждый способ не прошёл:
-- **Переодевание.** На ловушках выигрыш +28 пунктов [+19, +38] на дорожных словах и +50 [+45, +56] на «π». Но на контроле с дорожными словами потеря −23 [−33, −14] при допустимых −5. Это **предсказано заранее** (ожидали +23 и −18): вымышленный близнец сам по себе труднее, потому что здравый смысл там больше не подсказывает. На «π» вреда нет.
-- **«БАХ!» и «Проснись».** Выигрыш около нуля, а простая просьба «следуй правилам» сильнее их на 7–9 пунктов.
-- **Шум 0.2.** На дорожных словах +6, на «π» −1. Это не лучше, чем случайно поменять столько же ответов. Вред на «правило подтверждено» −6.
+Why each method failed:
+- **Disguise.** On traps the gain is +28 points [+19, +38] on road words and +50 [+45, +56] on "π". But on the road-word control the loss is −23 [−33, −14] with −5 allowed. This was **predicted in advance** (expected +23 and −18): the fictional twin is harder by itself, because common sense no longer gives hints there. On "π" there is no harm.
+- **"BANG!" and "Wake up".** Gain around zero, and the simple request "follow the rules" beats them by 7–9 points.
+- **Noise 0.2.** +6 on road words, −1 on "π". This is no better than randomly changing the same number of answers. Harm on "rule confirmed" −6.
 
-## Что ещё видно (только для отчёта)
+## What else is visible (report only)
 
-- **На «π» переодевание почти идеально.** Где модель обычно ошибалась всегда (e переопределено: 2 из 100; «÷ как случайная цифра»: 0 из 100), после переодевания верных 93 и 98 из 100. Минус: в одном шаблоне, где модель и так была права, переодевание снизило верные с 98 до 82.
-- **Простая просьба** «следуй правилам, даже если это против того, что ты знаешь» помогает на одном шаблоне «e»: 2 → 75 из 100. В среднем по «π» она даёт 38 → 54. Встряхивания этого не дают вовсе.
-- **Сильный шум (0.4)** просто ломает модель везде, и на ловушках, и на контролях. Это не «пробуждение».
-- **Внешний сторож «спроси дважды».** Если задать «π»-вопрос в обычном и переодетом виде, расхождение ответов ловит ошибки привычки очень хорошо: качество 0.92 из 1. Где ответы совпали, обычный ответ верен в 96 случаях из 100; расходятся ответы в 25 случаях из 100. **На дорожных словах этот сторож не работает** (0.57): там переодетая версия сама часто ошибается.
-- «Списывание из примеров» (C-rule): встряхивания тоже ничего не меняют (48 → 45–52).
+- **On "π" disguise is almost perfect.** Where the model normally always erred (e redefined: 2 of 100; "÷ as a random digit": 0 of 100), after disguise 93 and 98 of 100 are correct. A minus: in one template where the model was already right, disguise lowered correct answers from 98 to 82.
+- **A simple request** "follow the rules even if it goes against what you know" helps on one "e" template: 2 → 75 of 100. On average over "π" it gives 38 → 54. Shakes give nothing of the kind.
+- **Strong noise (0.4)** simply breaks the model everywhere, on traps and controls alike. This is not "waking up".
+- **An external "ask twice" watchman.** If the "π" question is asked in ordinary and disguised form, disagreement between the answers catches habit errors very well: quality 0.92 out of 1 (AUC). Where the answers agreed, the ordinary answer is correct in 96 of 100; the answers disagree in 25 of 100. **On road words this watchman does not work** (0.57): there the disguised version itself often errs.
+- "Copying from examples" (C-rule): shakes also change nothing (48 → 45–52).
 
-## Что это значит
+## What it means
 
-1. **Модель не «спит», её нельзя разбудить.** Неожиданность и шум не включают проверку. Привычка из обучения — это не дремота, а уверенная дорожка; толчок её не сбивает. Это сходится с прошлым результатом: на такой привычке модель уверена и не сомневается.
-2. **Работает убрать сам «крючок».** Когда знакомого слова или знака (π, e, дорожные слова) нет, тяга исчезает. Но **переводчик должен быть точным**: где переписанная задача сама труднее, появляется новый вред.
-3. **Самое практичное — сторож «спроси двумя словами».** Обычный ответ берём, если он совпал с переодетым; при расхождении перепроверяем. На «π» он ловит почти все ошибки привычки и редко тревожит зря. Это **пока гипотеза для отдельной проверки**: вывод сделан после взгляда на данные и только на одном виде задач.
+1. **The model is not "asleep"; it cannot be woken.** Surprise and noise do not switch on checking. A habit from training is not drowsiness but a confident track; a push does not knock it off. This agrees with the earlier result: on such a habit the model is confident and does not doubt.
+2. **What works is removing the "hook" itself.** When the familiar word or symbol (π, e, road words) is absent, the pull disappears. But **the translator must be exact**: where the rewritten task is harder by itself, new harm appears.
+3. **The most practical option is the "ask in two wordings" watchman.** Take the ordinary answer if it agrees with the disguised one; on disagreement, re-check. On "π" it catches almost all habit errors and rarely raises false alarms. This is **still a hypothesis for a separate test**: the conclusion was drawn after looking at the data and only on one kind of task.
 
-## Пределы
+## Limits
 
-- Одна модель (Qwen2.5-14B).
-- Переодевание для дорожных слов было «идеальным» (знало карту слов генератора), а для «π» делалось простым алгоритмом.
-- «π»-ловушки с привычкой были лишь в 4 шаблонах из 9. После фильтра формата осталось 675 из 810 вопросов.
+- One model (Qwen2.5-14B).
+- The disguise for road words was "perfect" (it knew the generator's word map), while for "π" it was done by a simple algorithm.
+- "π" traps with a habit occurred in only 4 of 9 templates. After the format filter, 675 of 810 questions remained.
