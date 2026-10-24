@@ -1,0 +1,54 @@
+
+=== qwen14   sanity: BASE pick = conftrap DIRECT pick on 274/280
+  parcels trap    n=100 | BASE: right  25.0 old  75.0 | REMIND: right  21.0 old  79.0 | REPEAT: right  39.0 old  61.0 | NOHIST: right  68.0 old  32.0 
+      REMIND-BASE right   -4.0 [-10.0,+1.0]
+      REPEAT-BASE right  +14.0 [+7.0,+22.0]
+      NOHIST-BASE right  +43.0 [+33.0,+53.0]
+  parcels control n= 40 | BASE: right 100.0 | REMIND: right 100.0 | REPEAT: right 100.0 | NOHIST: right 100.0 
+      REMIND-BASE right   +0.0 [+0.0,+0.0]
+      REPEAT-BASE right   +0.0 [+0.0,+0.0]
+      NOHIST-BASE right   +0.0 [+0.0,+0.0]
+  bonus   trap    n=100 | BASE: right   4.0 old  93.0 | REMIND: right   7.0 old  86.0 | REPEAT: right  10.0 old  84.0 | NOHIST: right   8.0 old  80.0 
+      REMIND-BASE right   +3.0 [-2.0,+8.0]
+      REPEAT-BASE right   +6.0 [+1.0,+12.0]
+      NOHIST-BASE right   +4.0 [-2.0,+11.0]
+  bonus   control n= 40 | BASE: right  97.5 | REMIND: right 100.0 | REPEAT: right  97.5 | NOHIST: right  95.0 
+      REMIND-BASE right   +2.5 [+0.0,+7.5]
+      REPEAT-BASE right   +0.0 [-7.5,+7.5]
+      NOHIST-BASE right   -2.5 [-12.5,+5.0]
+
+=== phi4   sanity: BASE pick = conftrap DIRECT pick on 275/280
+  parcels trap    n=100 | BASE: right  57.0 old  42.0 | REMIND: right  51.0 old  49.0 | REPEAT: right  11.0 old  89.0 | NOHIST: right 100.0 old   0.0 
+      REMIND-BASE right   -6.0 [-12.0,-1.0]
+      REPEAT-BASE right  -46.0 [-56.0,-37.0]
+      NOHIST-BASE right  +43.0 [+33.0,+53.0]
+  parcels control n= 40 | BASE: right 100.0 | REMIND: right 100.0 | REPEAT: right 100.0 | NOHIST: right 100.0 
+      REMIND-BASE right   +0.0 [+0.0,+0.0]
+      REPEAT-BASE right   +0.0 [+0.0,+0.0]
+      NOHIST-BASE right   +0.0 [+0.0,+0.0]
+  bonus   trap    n=100 | BASE: right  33.0 old  61.0 | REMIND: right  41.0 old  53.0 | REPEAT: right   8.0 old  87.0 | NOHIST: right  72.0 old  12.0 
+      REMIND-BASE right   +8.0 [-1.0,+17.0]
+      REPEAT-BASE right  -25.0 [-34.0,-16.0]
+      NOHIST-BASE right  +39.0 [+26.0,+52.0]
+  bonus   control n= 40 | BASE: right  97.5 | REMIND: right  97.5 | REPEAT: right 100.0 | NOHIST: right  75.0 
+      REMIND-BASE right   +0.0 [+0.0,+0.0]
+      REPEAT-BASE right   +2.5 [+0.0,+7.5]
+      NOHIST-BASE right  -22.5 [-37.5,-7.5]
+
+=== olmo13   sanity: BASE pick = conftrap DIRECT pick on 280/280
+  parcels trap    n=100 | BASE: right   0.0 old 100.0 | REMIND: right   0.0 old 100.0 | REPEAT: right   0.0 old 100.0 | NOHIST: right  27.0 old  73.0 
+      REMIND-BASE right   +0.0 [+0.0,+0.0]
+      REPEAT-BASE right   +0.0 [+0.0,+0.0]
+      NOHIST-BASE right  +27.0 [+18.0,+36.0]
+  parcels control n= 40 | BASE: right 100.0 | REMIND: right 100.0 | REPEAT: right  92.5 | NOHIST: right  72.5 
+      REMIND-BASE right   +0.0 [+0.0,+0.0]
+      REPEAT-BASE right   -7.5 [-17.5,+0.0]
+      NOHIST-BASE right  -27.5 [-42.5,-15.0]
+  bonus   trap    n=100 | BASE: right   0.0 old  95.0 | REMIND: right   0.0 old  94.0 | REPEAT: right   0.0 old  96.0 | NOHIST: right   6.0 old  77.0 
+      REMIND-BASE right   +0.0 [+0.0,+0.0]
+      REPEAT-BASE right   +0.0 [+0.0,+0.0]
+      NOHIST-BASE right   +6.0 [+2.0,+11.0]
+  bonus   control n= 40 | BASE: right  82.5 | REMIND: right  72.5 | REPEAT: right  77.5 | NOHIST: right  35.0 
+      REMIND-BASE right  -10.0 [-20.0,-2.5]
+      REPEAT-BASE right   -5.0 [-12.5,+0.0]
+      NOHIST-BASE right  -47.5 [-65.0,-30.0]
