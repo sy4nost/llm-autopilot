@@ -1,0 +1,39 @@
+
+qwen14: right (by the condition) / memory answer, out of 100
+  story, old question (no frame), real word  right  74.4   memory  25.6
+  story, real word                           right 100.0   memory   0.0
+  formula, real word                         right  82.2   memory  17.8
+  story, old question, made-up word          right 100.0   memory   0.0
+  story, made-up word                        right 100.0   memory   0.0
+  formula, made-up word                      right 100.0   memory   0.0
+  frame repeated in the question - old question      +25.6  [+8.9, +45.6]
+  formula - old question                              +7.8  [-1.1, +18.9]
+  formula - story (real word)                        -17.8  [-34.4, -4.4]
+  pull of the real word in story (made-up - real)     +0.0  [+0.0, +0.0]
+  pull of the real word in formula (made-up - real)  +17.8  [+4.4, +35.6]
+
+phi4: right (by the condition) / memory answer, out of 100
+  story, old question (no frame), real word  right  27.8   memory  72.2
+  story, real word                           right  98.9   memory   1.1
+  formula, real word                         right  60.0   memory  38.9
+  story, old question, made-up word          right 100.0   memory   0.0
+  story, made-up word                        right 100.0   memory   0.0
+  formula, made-up word                      right 100.0   memory   0.0
+  frame repeated in the question - old question      +71.1  [+51.1, +87.8]
+  formula - old question                             +32.2  [+13.3, +52.2]
+  formula - story (real word)                        -38.9  [-60.0, -16.7]
+  pull of the real word in story (made-up - real)     +1.1  [+0.0, +3.3]
+  pull of the real word in formula (made-up - real)  +40.0  [+17.8, +64.4]
+
+olmo13: right (by the condition) / memory answer, out of 100
+  story, old question (no frame), real word  right  40.0   memory  60.0
+  story, real word                           right  83.3   memory  16.7
+  formula, real word                         right  95.6   memory   4.4
+  story, old question, made-up word          right 100.0   memory   0.0
+  story, made-up word                        right 100.0   memory   0.0
+  formula, made-up word                      right 100.0   memory   0.0
+  frame repeated in the question - old question      +43.3  [+27.8, +60.0]
+  formula - old question                             +55.6  [+35.6, +75.6]
+  formula - story (real word)                        +12.2  [+0.0, +25.6]
+  pull of the real word in story (made-up - real)    +16.7  [+4.4, +32.2]
+  pull of the real word in formula (made-up - real)   +4.4  [+0.0, +10.0]

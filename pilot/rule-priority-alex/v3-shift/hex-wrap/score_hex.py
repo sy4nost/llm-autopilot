@@ -4,7 +4,7 @@ import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
 items = {x["id"]: x for x in json.load(open(os.path.join(HERE, "sets_pi.json")))["items"]}
 tag = sys.argv[1] if len(sys.argv) > 1 else "main"; rng = np.random.default_rng(0)
-NAMES = {"B": "story, real word", "F": "formula, real word", "B2": "story, made-up word", "F2": "formula, made-up word"}
+NAMES = {"B0": "story, old question (no frame), real word", "B02": "story, old question, made-up word", "B": "story, real word", "F": "formula, real word", "B2": "story, made-up word", "F2": "formula, made-up word"}
 for mk in ("qwen14", "phi4", "olmo13"):
     fn = os.path.join(HERE, f"out_{tag}_{mk}.json")
     if not os.path.exists(fn):
@@ -14,9 +14,9 @@ for mk in ("qwen14", "phi4", "olmo13"):
         it = items[r["id"]]; a = int(np.argmax(r["s"]))
         res.setdefault(it["style"], {})[it["n"]] = a == it["key"]; hab.setdefault(it["style"], {})[it["n"]] = a == it["habit"]
     print(f"\n{mk}: right (by the condition) / memory answer, out of 100")
-    for k in ("B", "F", "B2", "F2"):
-        print(f"  {NAMES[k]:24} right {100*np.mean(list(res[k].values())):5.1f}   memory {100*np.mean(list(hab[k].values())):5.1f}")
-    for a, b, lab in (("F", "B", "formula - story (real word)"), ("B2", "B", "pull of the real word in story (made-up - real)"),
+    for k in ("B0", "B", "F", "B02", "B2", "F2"):
+        print(f"  {NAMES[k]:42} right {100*np.mean(list(res[k].values())):5.1f}   memory {100*np.mean(list(hab[k].values())):5.1f}")
+    for a, b, lab in (("B", "B0", "frame repeated in the question - old question"), ("F", "B0", "formula - old question"), ("F", "B", "formula - story (real word)"), ("B2", "B", "pull of the real word in story (made-up - real)"),
                       ("F2", "F", "pull of the real word in formula (made-up - real)")):
         ns = sorted(res[a]); d = np.array([res[a][n] - res[b][n] for n in ns], float)
         objs = sorted({n.split(':')[0] for n in ns})

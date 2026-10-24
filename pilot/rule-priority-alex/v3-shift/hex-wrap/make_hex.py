@@ -22,9 +22,13 @@ def build():
         for stated in rng.sample([k for k in range(2, 13) if k != real], 6):
             other = rng.choice([k for k in range(2, 13) if k not in (real, stated)])
             c = [str(stated), str(real), str(other)]; rng.shuffle(c)
-            for st, w in (("B", o), ("F", o), ("B2", fake), ("F2", fake)):
-                p = (f"In this book, {an(w)} '{w}' has {stated} {part}. Q: In this book, how many {part} does {an(w)} {w} have? A:" if st.startswith("B")
-                     else f"Let {part}({w}) = {stated}. Q: What is {part}({w})? A:")
+            for st, w in (("B", o), ("F", o), ("B2", fake), ("F2", fake), ("B0", o), ("B02", fake)):
+                if st in ("B0", "B02"):   # the old D wording: the question does not repeat "in this book"
+                    p = f"In this book, {an(w)} '{w}' has {stated} {part}. Q: {an(w).capitalize()} {w} has how many {part}? A:"
+                elif st.startswith("B"):
+                    p = f"In this book, {an(w)} '{w}' has {stated} {part}. Q: In this book, how many {part} does {an(w)} {w} have? A:"
+                else:
+                    p = f"Let {part}({w}) = {stated}. Q: What is {part}({w})? A:"
                 items.append(dict(id=len(items), style=st, n=f"{o}:{stated}", prompt=p, cands=c, key=c.index(str(stated)), habit=c.index(str(real))))
     return items
 

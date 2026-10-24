@@ -14,7 +14,7 @@ R_TAIL = "\n\nReply with only the answer, nothing else."
 
 
 @app.function(gpu="L40S", volumes={"/cache": cache}, timeout=3600)
-def run(blob: str, mk: str):
+def run(blob: str, mk: str, tag: str = "x"):
     import torch, gzip, base64
     items = json.loads(gzip.decompress(base64.b64decode(blob)))
     from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -30,20 +30,36 @@ def run(blob: str, mk: str):
                 lp = model(input_ids=torch.tensor([pid + t]).cuda()).logits[0, len(pid) - 1:-1].float().log_softmax(-1)
             sc.append(round(sum(lp[i, t[i]].item() for i in range(len(t))), 4))
         out.append(dict(id=it["id"], s=sc))
-    import gzip as g2, base64 as b2
-    return b2.b64encode(g2.compress(json.dumps(out).encode())).decode()
+    os.makedirs("/cache/hexwrap", exist_ok=True)
+    open(f"/cache/hexwrap/{tag}_{mk}.json", "w").write(json.dumps(out)); cache.commit()
+    return "saved"
+
+
+@app.function(volumes={"/cache": cache}, timeout=600)
+def fetch(tag: str, mk: str):
+    import gzip, base64
+    cache.reload()
+    return base64.b64encode(gzip.compress(open(f"/cache/hexwrap/{tag}_{mk}.json", "rb").read())).decode()
 
 
 @app.local_entrypoint()
-def main(tag: str = "smoke", n: int = 0):
+def main(tag: str = "smoke", n: int = 0, get: bool = False):
+    import gzip, base64
+    if get:
+        for mk in MODELS:
+            try:
+                r = gzip.decompress(base64.b64decode(fetch.remote(tag, mk))).decode(); open(os.path.join(HERE, f"out_{tag}_{mk}.json"), "w").write(r); print(mk, "ok")
+            except Exception as e:
+                print(mk, "not fetched", repr(e)[:200])
+        return
     items = json.load(open(os.path.join(HERE, "sets_pi.json")))["items"]
     if n:
         items = items[:n]
     import gzip, base64
     blob = base64.b64encode(gzip.compress(json.dumps(items).encode())).decode()
-    calls = {mk: run.spawn(blob, mk) for mk in MODELS}
+    calls = {mk: run.spawn(blob, mk, tag) for mk in MODELS}
     for mk, c in calls.items():
         try:
-            r = gzip.decompress(base64.b64decode(c.get())).decode(); open(os.path.join(HERE, f"out_{tag}_{mk}.json"), "w").write(r); print(mk, "ok")
+            print(mk, c.get())
         except Exception as e:
             print(mk, "FAILED", repr(e)[:300])
