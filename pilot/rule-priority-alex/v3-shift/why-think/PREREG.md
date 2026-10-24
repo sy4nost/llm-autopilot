@@ -1,0 +1,6 @@
+# PREREG why-think (2026-10-24), frozen before the main run; report-only
+adb105ce7216f96423cd7936601eeceb39b8fcb61227a02196e25efc5a3d953a  PLAN.md
+ebfc1d3064b5e88e013cbd9af7091e33cf02c5bdc0b242f8ee953f423322c7bc  make_wt.py
+1c2ffba0b4e3a401fe73b3d77fba9e52eed0c2bc94a512f00885fe026847a625  modal_wt.py
+270a8e659ad66fc9e3ec9927afc38ec7f62a3e7a39567783512fe6c654b6529d  score_wt.py
+a291a7c47a4f3d29cfbe7e3a46140bacc0362c63f1f5c462da630861e44b1513  jobs_wt.json
