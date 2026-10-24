@@ -1,0 +1,57 @@
+
+=== qwen14 (600 of 600) ===
+  judge: rows = right source, columns = chosen (instruction / examples / truth / none-other), % ; accuracy
+    instruction  n=100  100.0 /   0.0 /   0.0 /   0.0   accuracy 100.0
+    examples     n=100   83.0 /  16.0 /   1.0 /   0.0   accuracy  16.0
+    truth        n=100    5.0 /   0.0 /  95.0 /   0.0   accuracy  95.0
+    overall accuracy 70.3 [67.7,73.0]
+  direct: rows = right source, columns = chosen (instruction / examples / truth / none-other), % ; accuracy
+    instruction  n=100   99.0 /   0.0 /   1.0 /   0.0   accuracy  99.0
+    examples     n=100   43.0 /  56.0 /   1.0 /   0.0   accuracy  56.0
+    truth        n=100   29.0 /   2.0 /  69.0 /   0.0   accuracy  69.0
+    overall accuracy 74.7 [70.7,78.7]
+  judge minus direct accuracy, per kind (paired by fact, seed):
+    instruction    +1.0 [  +0.0,  +3.0]
+    examples      -40.0 [ -51.0, -29.0]
+    truth         +26.0 [ +17.0, +35.0]
+  judge replies that are not a bare letter: 1.0%
+  J3 (examples kind, fixed in plan): judge - direct -40.0 [-51.0,-29.0]  WORSE/unclear
+  judge letter-position check: chosen letter shares A 31% B 34% C 35%
+
+=== phi4 (600 of 600) ===
+  judge: rows = right source, columns = chosen (instruction / examples / truth / none-other), % ; accuracy
+    instruction  n=100  100.0 /   0.0 /   0.0 /   0.0   accuracy 100.0
+    examples     n=100   74.0 /  26.0 /   0.0 /   0.0   accuracy  26.0
+    truth        n=100    0.0 /   0.0 / 100.0 /   0.0   accuracy 100.0
+    overall accuracy 75.3 [72.3,78.3]
+  direct: rows = right source, columns = chosen (instruction / examples / truth / none-other), % ; accuracy
+    instruction  n=100  100.0 /   0.0 /   0.0 /   0.0   accuracy 100.0
+    examples     n=100    0.0 / 100.0 /   0.0 /   0.0   accuracy 100.0
+    truth        n=100    0.0 /   7.0 /  93.0 /   0.0   accuracy  93.0
+    overall accuracy 97.7 [95.7,99.3]
+  judge minus direct accuracy, per kind (paired by fact, seed):
+    instruction    +0.0 [  +0.0,  +0.0]
+    examples      -74.0 [ -83.0, -65.0]
+    truth          +7.0 [  +2.0, +13.0]
+  judge replies that are not a bare letter: 92.0%
+  J3 (truth kind, fixed in plan): judge - direct +7.0 [+2.0,+13.0]  BETTER
+  judge letter-position check: chosen letter shares A 28% B 37% C 35%
+
+=== olmo13 (600 of 600) ===
+  judge: rows = right source, columns = chosen (instruction / examples / truth / none-other), % ; accuracy
+    instruction  n=100   50.0 /  25.0 /  25.0 /   0.0   accuracy  50.0
+    examples     n=100   49.0 /  39.0 /  12.0 /   0.0   accuracy  39.0
+    truth        n=100   16.0 /   8.0 /  76.0 /   0.0   accuracy  76.0
+    overall accuracy 55.0 [51.0,59.0]
+  direct: rows = right source, columns = chosen (instruction / examples / truth / none-other), % ; accuracy
+    instruction  n=100  100.0 /   0.0 /   0.0 /   0.0   accuracy 100.0
+    examples     n=100    3.0 /  87.0 /  10.0 /   0.0   accuracy  87.0
+    truth        n=100    9.0 /   2.0 /  85.0 /   4.0   accuracy  85.0
+    overall accuracy 90.7 [87.3,93.7]
+  judge minus direct accuracy, per kind (paired by fact, seed):
+    instruction   -50.0 [ -59.0, -40.0]
+    examples      -48.0 [ -59.0, -37.0]
+    truth          -9.0 [ -20.0,  +1.0]
+  judge replies that are not a bare letter: 0.3%
+  J3 (truth kind, fixed in plan): judge - direct -9.0 [-20.0,+1.0]  WORSE/unclear
+  judge letter-position check: chosen letter shares A 5% B 66% C 29%
