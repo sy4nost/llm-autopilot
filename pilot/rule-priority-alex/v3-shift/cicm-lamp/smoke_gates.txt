@@ -1,0 +1,9 @@
+PASS  run finished: 24 rows
+PASS  all 6 cells present: 6 cells
+PASS  cached = full recompute, heads on: max diff 0.0000 nat on 3 rows
+PASS  cached = full recompute, top20 off: max diff 0.0005
+PASS  hook active, nothing zeroed = normal: max diff 0.0000
+PASS  heads-off actually changes scores: max diff 23.6867
+PASS  stale answers exist (>=25%): correct 11, stale 13, other 0
+PASS  forced pick = value in greedy answer (>=85%): 21/22
+ALL GATES PASS
