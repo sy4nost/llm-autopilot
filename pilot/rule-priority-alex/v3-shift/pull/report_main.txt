@@ -1,0 +1,65 @@
+
+=== qwen14 (300 dialogues, favourite = instruction, errors 76) ===
+  coverage: 3-candidate mass >= 0.5 in 289 of 300 (errors kept 76); per kind instruction 100, examples 100, truth 89  -> analysis below uses these
+  P1 sanity: argmax of the 3 probabilities = greedy answer source in 97.2% of 289  PASS
+  mean log-odds per kind (instruction / examples / truth number), FULL:
+    instruction  favourite log-odds mean  +37.63   errors   1/100
+    examples     favourite log-odds mean   -0.30   errors  44/100
+    truth        favourite log-odds mean  -12.01   errors  31/89
+  error AUC  fine lamp (favourite log-odds)     0.536 [0.507,0.563]
+  error AUC  low confidence                     0.790 [0.747,0.831]
+  error AUC  coarse lamp (answer = favourite)   0.741 [0.712,0.766]
+  P2 fine lamp - low confidence                   -0.254 [-0.313,-0.192]
+  P2 fine lamp - coarse lamp (answer = favourite) -0.205 [-0.234,-0.168]
+  P2 verdict: FAIL
+    within instruction  kind: fine 0.414  lowconf 0.586  (errors 1)
+    within examples     kind: fine 0.993  lowconf 0.445  (errors 44)
+    within truth        kind: fine 0.999  lowconf 0.790  (errors 31)
+  P3 'close one eye' adds information: removal-drop lamp AUC 0.424, minus fine lamp -0.112 [-0.155,-0.070]  -> FAIL
+  report: top answer after removal, per kind (share of dialogues where the top candidate changes):
+    instruction  n=100  remove examples: changes   0.0%   remove instruction: changes 100.0%
+    examples     n=100  remove examples: changes  58.0%   remove instruction: changes  54.0%
+    truth        n= 89  remove examples: changes  16.9%   remove instruction: changes  34.8%
+
+=== phi4 (300 dialogues, favourite = examples, errors 7) ===
+  coverage: 3-candidate mass >= 0.5 in 266 of 300 (errors kept 7); per kind instruction 100, examples 100, truth 66  -> analysis below uses these
+  P1 sanity: argmax of the 3 probabilities = greedy answer source in 100.0% of 266  PASS
+  mean log-odds per kind (instruction / examples / truth number), FULL:
+    instruction  favourite log-odds mean  -14.47   errors   0/100
+    examples     favourite log-odds mean   +7.97   errors   0/100
+    truth        favourite log-odds mean   -6.38   errors   7/66
+  error AUC  fine lamp (favourite log-odds)     0.614 [0.598,0.627]
+  error AUC  low confidence                     0.977 [0.956,0.993]
+  error AUC  coarse lamp (answer = favourite)   0.807 [0.799,0.813]
+  P2 fine lamp - low confidence                   -0.363 [-0.387,-0.336]
+  P2 fine lamp - coarse lamp (answer = favourite) -0.193 [-0.201,-0.187]
+  P2 verdict: NOT TESTABLE (< 15 errors)
+    within truth        kind: fine 1.000  lowconf 0.901  (errors 7)
+  P3 'close one eye' adds information: removal-drop lamp AUC 0.553, minus fine lamp -0.061 [-0.104,-0.024]  -> NOT TESTABLE
+  report: top answer after removal, per kind (share of dialogues where the top candidate changes):
+    instruction  n=100  remove examples: changes   0.0%   remove instruction: changes 100.0%
+    examples     n=100  remove examples: changes 100.0%   remove instruction: changes   0.0%
+    truth        n= 66  remove examples: changes  10.6%   remove instruction: changes  10.6%
+
+=== olmo13 (300 dialogues, favourite = examples, errors 28) ===
+  coverage: 3-candidate mass >= 0.5 in 287 of 300 (errors kept 24); per kind instruction 100, examples 100, truth 87  -> analysis below uses these
+  P1 sanity: argmax of the 3 probabilities = greedy answer source in 99.7% of 287  PASS
+  mean log-odds per kind (instruction / examples / truth number), FULL:
+    instruction  favourite log-odds mean  -14.08   errors   0/100
+    examples     favourite log-odds mean   +1.49   errors  13/100
+    truth        favourite log-odds mean   -6.05   errors  11/87
+  error AUC  fine lamp (favourite log-odds)     0.641 [0.601,0.677]
+  error AUC  low confidence                     0.869 [0.816,0.916]
+  error AUC  coarse lamp (answer = favourite)   0.376 [0.331,0.438]
+  P2 fine lamp - low confidence                   -0.228 [-0.282,-0.172]
+  P2 fine lamp - coarse lamp (answer = favourite) +0.265 [+0.205,+0.314]
+  P2 verdict: FAIL
+    within examples     kind: fine 0.004  lowconf 0.680  (errors 13)
+    within truth        kind: fine 0.816  lowconf 0.904  (errors 11)
+  P3 'close one eye' adds information: removal-drop lamp AUC 0.634, minus fine lamp -0.007 [-0.043,+0.030]  -> FAIL
+  report: top answer after removal, per kind (share of dialogues where the top candidate changes):
+    instruction  n=100  remove examples: changes   0.0%   remove instruction: changes 100.0%
+    examples     n=100  remove examples: changes  97.0%   remove instruction: changes  10.0%
+    truth        n= 87  remove examples: changes  25.3%   remove instruction: changes  16.1%
+
+OVERALL rule: P1 must PASS for all; P2 and P3 judged per model where testable (>= 15 errors).
