@@ -1,0 +1,297 @@
+
+=== qwen14_base (3136 of 3136) ===
+  baseline: hexagon: 'A hexagon has six sides.'; hexagon(n): 'A zorpagon is not a stan'; spider: 'A spider typically has e'; spider(n): 'A vemmit is not a recogn'; week: 'There are 7 days in a we'; week(n): 'A "flurb" is not a recog'; year: 'There are 12 months in a'; year(n): 'A "quorl" is not a stand'; hand: 'There are five fingers o'; hand(n): 'A Drelth claw typically '; pi_words: 'The value of pi (π) to t'; pi_words(n): 'To determine the value o'; pi_formula: 'The value of pi (π) is a'; pi_formula(n): 'To calculate the value o'; hexagon_formula: 'The formula to calculate'; hexagon_formula(n): 'To calculate the sides o'
+  A_all_differ
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said   2.5  shown  23.8  memory  62.5  memory_leak   0.0  other  11.2
+    N= 2 n= 80  said   0.0  shown  82.5  memory  17.5  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown  95.0  memory   5.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown  98.8  memory   1.2  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown  98.8  memory   1.2  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown  98.8  memory   1.2  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown  98.8  memory   1.2  memory_leak   0.0  other   0.0
+  B_said_is_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  58.8  shown  32.5  memory   0.0  memory_leak   0.0  other   8.8
+    N= 2 n= 80  said  21.2  shown  78.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  11.2  shown  88.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   6.2  shown  93.8  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   6.2  shown  93.8  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   5.0  shown  95.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   5.0  shown  95.0  memory   0.0  memory_leak   0.0  other   0.0
+  C_shown_is_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said   2.5  shown  86.2  memory   0.0  memory_leak   0.0  other  11.2
+    N= 2 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+  D_no_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  35.0  shown  43.8  memory   0.0  memory_leak   7.5  other  13.8
+    N= 2 n= 80  said  10.0  shown  90.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   5.0  shown  95.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   2.5  shown  97.5  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   1.2  shown  98.8  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   1.2  shown  98.8  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   1.2  shown  98.8  memory   0.0  memory_leak   0.0  other   0.0
+  E_shown_no_instr
+    N= 1 n= 80  said   0.0  shown   0.0  memory 100.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said   0.0  shown  68.8  memory  31.2  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown  95.0  memory   5.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+
+=== qwen14_inst (3136 of 3136) ===
+  baseline: hexagon: 'A hexagon has six sides.'; hexagon(n): 'It seems like there migh'; spider: 'A spider has eight legs.'; spider(n): "I'm sorry, but I'm not f"; week: 'There are 7 days in a we'; week(n): 'It seems like "flurb" is'; year: 'There are 12 months in a'; year(n): 'It seems there might be '; hand: 'There are five fingers o'; hand(n): "I'm not familiar with a "; pi_words: 'The value of pi (π) to t'; pi_words(n): 'User: It seems there mig'; pi_formula: 'The value of pi (π) to t'; pi_formula(n): "It looks like you're ask"; hexagon_formula: 'A regular hexagon has 6 '; hexagon_formula(n): "It seems like you're ask"
+  A_all_differ
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  98.8  shown   0.0  memory   1.2  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  20.0  shown  77.5  memory   2.5  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  41.2  shown  57.5  memory   1.2  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said  28.8  shown  70.0  memory   1.2  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   6.2  shown  93.8  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+  B_said_is_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  41.2  shown  58.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  46.2  shown  53.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said  43.8  shown  56.2  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said  28.8  shown  71.2  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+  C_shown_is_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  98.8  shown   1.2  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  16.2  shown  83.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  42.5  shown  57.5  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   2.5  shown  97.5  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+  D_no_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  65.0  shown  35.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  62.5  shown  23.8  memory   0.0  memory_leak   1.2  other  12.5
+    N= 8 n= 80  said  46.2  shown  36.2  memory   0.0  memory_leak   7.5  other  10.0
+    N=16 n= 80  said  25.0  shown  50.0  memory   0.0  memory_leak   7.5  other  17.5
+    N=32 n= 80  said  15.0  shown  58.8  memory   0.0  memory_leak   2.5  other  23.8
+    N=50 n= 80  said  20.0  shown  53.8  memory   0.0  memory_leak   3.8  other  22.5
+  E_shown_no_instr
+    N= 1 n= 80  said   0.0  shown   0.0  memory  88.8  memory_leak   0.0  other  11.2
+    N= 2 n= 80  said   0.0  shown   3.8  memory  40.0  memory_leak   0.0  other  56.2
+    N= 4 n= 80  said   0.0  shown  15.0  memory  12.5  memory_leak   0.0  other  72.5
+    N= 8 n= 80  said   0.0  shown  35.0  memory  12.5  memory_leak   0.0  other  52.5
+    N=16 n= 80  said   0.0  shown  63.8  memory   2.5  memory_leak   0.0  other  33.8
+    N=32 n= 80  said   0.0  shown  71.2  memory   2.5  memory_leak   0.0  other  26.2
+    N=50 n= 80  said   0.0  shown  77.5  memory   1.2  memory_leak   0.0  other  21.2
+
+=== olmo13_base (3136 of 3136) ===
+  baseline: hexagon: 'A hexagon has six sides.'; hexagon(n): 'A zorpagon has 6 sides.'; spider: 'A spider has eight legs.'; spider(n): 'A vemmit has 8 legs.'; week: 'There are 7 days in a we'; week(n): 'A flurb is a unit of tim'; year: 'There are 12 months in a'; year(n): 'A quorl is a unit of tim'; hand: 'There are five fingers o'; hand(n): 'One drelth claw has 6 pr'; pi_words: 'The value of pi to two d'; pi_words(n): 'The value of zorp is 3.1'; pi_formula: 'pi is approximately 3.14'; pi_formula(n): 'zorp = 0.00'; hexagon_formula: 'A hexagon has 6 sides.'; hexagon_formula(n): 'The sides of a zorpagon '
+  A_all_differ
+    N= 0 n= 80  said  62.5  shown   0.0  memory  37.5  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  46.2  shown  17.5  memory  36.2  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said   2.5  shown  77.5  memory  20.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown  83.8  memory  16.2  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown  85.0  memory  15.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown  86.2  memory  13.8  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown  88.8  memory  11.2  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown  87.5  memory  12.5  memory_leak   0.0  other   0.0
+  B_said_is_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  90.0  shown  10.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  26.2  shown  73.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+  C_shown_is_memory
+    N= 0 n= 80  said  62.5  shown  37.5  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  16.2  shown  75.0  memory   0.0  memory_leak   0.0  other   8.8
+    N= 2 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+  D_no_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  81.2  shown  17.5  memory   0.0  memory_leak   0.0  other   1.2
+    N= 2 n= 80  said   3.8  shown  96.2  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+  E_shown_no_instr
+    N= 1 n= 80  said   0.0  shown   0.0  memory 100.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said   0.0  shown  40.0  memory  60.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown  73.8  memory  26.2  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown  81.2  memory  18.8  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown  90.0  memory  10.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown  96.2  memory   3.8  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown  98.8  memory   1.2  memory_leak   0.0  other   0.0
+
+=== olmo13_inst (3136 of 3136) ===
+  baseline: hexagon: 'A hexagon has six sides.'; hexagon(n): 'A zorpagon, in the conte'; spider: 'Spiders have eight legs.'; spider(n): 'It seems there might be '; week: 'There are 7 days in a we'; week(n): 'It seems like "flurb" mi'; year: 'There are 12 months in a'; year(n): 'It seems like there migh'; hand: 'Typically, a human hand '; hand(n): 'In the context of Dungeo'; pi_words: 'The value of pi, to two '; pi_words(n): 'The value of zorp is 42.'; pi_formula: 'The value of pi (π) up t'; pi_formula(n): 'To provide an accurate r'; hexagon_formula: 'A hexagon has six sides.'; hexagon_formula(n): 'The sides of a zorpagon,'
+  A_all_differ
+    N= 0 n= 80  said  68.8  shown   0.0  memory  31.2  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  45.0  shown  20.0  memory  35.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said   5.0  shown  71.2  memory  23.8  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown  75.0  memory  25.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown  75.0  memory  25.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown  75.0  memory  25.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown  75.0  memory  25.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown  72.5  memory  27.5  memory_leak   0.0  other   0.0
+  B_said_is_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  78.8  shown  21.2  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  30.0  shown  70.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  28.8  shown  71.2  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said  26.2  shown  73.8  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said  25.0  shown  75.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said  28.8  shown  71.2  memory   0.0  memory_leak   0.0  other   0.0
+  C_shown_is_memory
+    N= 0 n= 80  said  68.8  shown  31.2  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  40.0  shown  60.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said   6.2  shown  93.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+  D_no_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  96.2  shown   3.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  30.0  shown  70.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  25.0  shown  73.8  memory   0.0  memory_leak   0.0  other   1.2
+    N= 8 n= 80  said  12.5  shown  78.8  memory   0.0  memory_leak   0.0  other   8.8
+    N=16 n= 80  said  13.8  shown  72.5  memory   0.0  memory_leak   0.0  other  13.8
+    N=32 n= 80  said  12.5  shown  82.5  memory   0.0  memory_leak   0.0  other   5.0
+    N=50 n= 80  said  11.2  shown  82.5  memory   0.0  memory_leak   0.0  other   6.2
+  E_shown_no_instr
+    N= 1 n= 80  said   0.0  shown   0.0  memory  97.5  memory_leak   0.0  other   2.5
+    N= 2 n= 80  said   0.0  shown  43.8  memory  56.2  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown  62.5  memory  37.5  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   0.0  shown  67.5  memory  32.5  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   0.0  shown  72.5  memory  27.5  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown  72.5  memory  27.5  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown  76.2  memory  23.8  memory_leak   0.0  other   0.0
+
+=== qwen14_chat_nopen (3136 of 3136) ===
+  baseline: hexagon: 'A hexagon has 6 sides.'; hexagon(n): 'It seems like you might '; spider: 'A spider has eight legs.'; spider(n): "I'm sorry, but I don't r"; week: 'There are 7 days in a we'; week(n): 'A "flurb" is not a stand'; year: 'There are 12 months in a'; year(n): 'It seems there might be '; hand: 'There are typically 5 fi'; hand(n): "I'm sorry, but I don't h"; pi_words: 'The value of pi (π) to t'; pi_words(n): 'It seems that the term "'; pi_formula: '\\(\\pi\\) (pi) is approxim'; pi_formula(n): "It seems like you're ask"; hexagon_formula: 'A hexagon has 6 sides. S'; hexagon_formula(n): "It seems like you're ask"
+  A_all_differ
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  97.5  shown   0.0  memory   2.5  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  21.2  shown  72.5  memory   6.2  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  12.5  shown  77.5  memory  10.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   6.2  shown  77.5  memory  16.2  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   5.0  shown  72.5  memory  22.5  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   1.2  shown  75.0  memory  23.8  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown  72.5  memory  27.5  memory_leak   0.0  other   0.0
+  B_said_is_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  40.0  shown  60.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said  26.2  shown  73.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said  30.0  shown  70.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said  27.5  shown  72.5  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said  27.5  shown  72.5  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said  30.0  shown  70.0  memory   0.0  memory_leak   0.0  other   0.0
+  C_shown_is_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said  86.2  shown  13.8  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  18.8  shown  81.2  memory   0.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   5.0  shown  95.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 8 n= 80  said   1.2  shown  98.8  memory   0.0  memory_leak   0.0  other   0.0
+    N=16 n= 80  said   1.2  shown  98.8  memory   0.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown 100.0  memory   0.0  memory_leak   0.0  other   0.0
+  D_no_memory
+    N= 0 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 1 n= 80  said 100.0  shown   0.0  memory   0.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said  48.8  shown  41.2  memory   0.0  memory_leak   5.0  other   5.0
+    N= 4 n= 80  said  48.8  shown  33.8  memory   0.0  memory_leak   5.0  other  12.5
+    N= 8 n= 80  said  47.5  shown  32.5  memory   0.0  memory_leak   3.8  other  16.2
+    N=16 n= 80  said  12.5  shown  35.0  memory   0.0  memory_leak   8.8  other  43.8
+    N=32 n= 80  said   3.8  shown  35.0  memory   0.0  memory_leak  10.0  other  51.2
+    N=50 n= 80  said   0.0  shown  31.2  memory   0.0  memory_leak  10.0  other  58.8
+  E_shown_no_instr
+    N= 1 n= 80  said   0.0  shown   0.0  memory 100.0  memory_leak   0.0  other   0.0
+    N= 2 n= 80  said   0.0  shown   0.0  memory 100.0  memory_leak   0.0  other   0.0
+    N= 4 n= 80  said   0.0  shown   1.2  memory  96.2  memory_leak   0.0  other   2.5
+    N= 8 n= 80  said   0.0  shown  18.8  memory  77.5  memory_leak   0.0  other   3.8
+    N=16 n= 80  said   0.0  shown  30.0  memory  70.0  memory_leak   0.0  other   0.0
+    N=32 n= 80  said   0.0  shown  41.2  memory  58.8  memory_leak   0.0  other   0.0
+    N=50 n= 80  said   0.0  shown  45.0  memory  55.0  memory_leak   0.0  other   0.0
+
+=== paired base - instruct (same prompt), bootstrap over (fact, seed); raw | normalised x/(said+shown+memory) | other% base/inst ===
+  qwen14_base - qwen14_inst  (3136 common items)
+    P3 said, arm A, N=0        +0.0 [  +0.0,  +0.0] |   +0.0 [  +0.0,  +0.0] | other  0.0/ 0.0
+    C1 shown, arm E, N=1,2    +32.5 [ +26.9, +37.5] |  +31.5 [ +25.7, +36.9] | other  0.0/33.8
+    C1 shown, arm A, N=1,2    +14.4 [  +6.9, +21.9] |  +17.5 [  +9.7, +25.3] | other  5.6/ 0.0
+    P1 said, arm A, N>=1      -27.5 [ -30.9, -24.1] |  -27.5 [ -30.9, -24.1] | other  1.6/ 0.0
+    said, arm B, N>=1         -28.0 [ -33.6, -23.0] |  -27.8 [ -33.4, -22.8] | other  1.2/ 0.0
+    memory, arm A, N>=1       +12.0 [  +9.5, +14.8] |  +12.2 [  +9.6, +15.0] | other  1.6/ 0.0
+    memory, arm E, N>=1        -3.4 [  -6.6,  -0.4] |  -18.1 [ -23.3, -13.6] | other  0.0/39.1
+    shown, arm E, N>=1        +42.5 [ +38.0, +47.3] |  +18.1 [ +13.6, +23.3] | other  0.0/39.1
+    per N, arm A said / shown, base vs inst:  N0: 100/0 vs 100/0  N1: 2/24 vs 99/0  N2: 0/82 vs 20/78  N4: 0/95 vs 41/58  N8: 0/99 vs 29/70  N16: 0/99 vs 6/94  N32: 0/99 vs 0/100  N50: 0/99 vs 0/100
+    per fact, arm A N>=1 said% base/inst | shown% base/inst | memory% base/inst
+      hand               0.0/ 21.4 |  91.4/ 78.6 |   7.1/  0.0
+      hexagon            0.0/ 35.7 |  90.0/ 64.3 |   8.6/  0.0
+      hexagon_formula    0.0/ 24.3 |  85.7/ 75.7 |  12.9/  0.0
+      pi_formula         0.0/ 28.6 |  62.9/ 64.3 |  37.1/  7.1
+      pi_words           0.0/ 24.3 |  82.9/ 75.7 |  17.1/  0.0
+      spider             2.9/ 27.1 |  91.4/ 72.9 |   5.7/  0.0
+      week               0.0/ 37.1 |  88.6/ 62.9 |   8.6/  0.0
+      year               0.0/ 24.3 |  88.6/ 75.7 |   5.7/  0.0
+  olmo13_base - olmo13_inst  (3136 common items)
+    P3 said, arm A, N=0        -6.2 [ -16.2,  +2.5] |   -6.2 [ -16.2,  +2.5] | other  0.0/ 0.0
+    C1 shown, arm E, N=1,2     -1.9 [  -7.5,  +3.1] |   -2.2 [  -7.6,  +3.1] | other  0.0/ 1.2
+    C1 shown, arm A, N=1,2     +1.9 [  -3.1,  +7.5] |   +1.9 [  -3.1,  +7.5] | other  0.0/ 0.0
+    P1 said, arm A, N>=1       -0.2 [  -1.6,  +1.2] |   -0.2 [  -1.6,  +1.2] | other  0.0/ 0.0
+    said, arm B, N>=1          -0.2 [  -2.0,  +1.4] |   -0.2 [  -2.0,  +1.4] | other  0.0/ 0.0
+    memory, arm A, N>=1        -8.8 [ -14.3,  -4.3] |   -8.8 [ -14.3,  -4.3] | other  0.0/ 0.0
+    memory, arm E, N>=1       -11.8 [ -15.9,  -8.0] |  -11.9 [ -16.0,  -8.2] | other  0.0/ 0.4
+    shown, arm E, N>=1        +12.1 [  +8.4, +16.1] |  +11.9 [  +8.2, +16.0] | other  0.0/ 0.4
+    per N, arm A said / shown, base vs inst:  N0: 62/0 vs 69/0  N1: 46/18 vs 45/20  N2: 2/78 vs 5/71  N4: 0/84 vs 0/75  N8: 0/85 vs 0/75  N16: 0/86 vs 0/75  N32: 0/89 vs 0/75  N50: 0/88 vs 0/72
+    per fact, arm A N>=1 said% base/inst | shown% base/inst | memory% base/inst
+      hand              12.9/  7.1 |  87.1/ 90.0 |   0.0/  2.9
+      hexagon            4.3/  7.1 |  91.4/ 91.4 |   4.3/  1.4
+      hexagon_formula    7.1/  4.3 |  87.1/ 87.1 |   5.7/  8.6
+      pi_formula         0.0/  0.0 |   2.9/  0.0 |  97.1/100.0
+      pi_words           0.0/  1.4 |  67.1/  0.0 |  32.9/ 98.6
+      spider            10.0/  8.6 |  88.6/ 91.4 |   1.4/  0.0
+      week              10.0/ 12.9 |  88.6/ 85.7 |   1.4/  1.4
+      year              11.4/ 15.7 |  88.6/ 84.3 |   0.0/  0.0
+
+=== format check (R5): arm A said% at N=0,1,2  plain instruct vs chat instruct ===
+  qwen14_inst: N0 plain 100 chat 100  N1 plain 99 chat 98  N2 plain 20 chat 21
+  olmo13_inst: N0 plain 69 chat 69  N1 plain 45 chat 42  N2 plain 5 chat 9
+
+=== qwen14 chat: main run (repetition penalty 1.05) vs penalty off; memory% / shown% ===
+    A_all_differ       hand             memory   0.0 ->   0.0   shown  80.0 ->  80.0
+    A_all_differ       hexagon          memory   0.0 ->   0.0   shown  78.6 ->  78.6
+    A_all_differ       hexagon_formula  memory   5.7 ->   5.7   shown  78.6 ->  78.6
+    A_all_differ       pi_formula       memory  74.3 ->  68.6   shown   4.3 ->   4.3
+    A_all_differ       pi_words         memory  52.9 ->  47.1   shown  22.9 ->  24.3
+    A_all_differ       spider           memory   1.4 ->   0.0   shown  84.3 ->  84.3
+    A_all_differ       week             memory   2.9 ->   2.9   shown  78.6 ->  78.6
+    A_all_differ       year             memory   0.0 ->   0.0   shown  82.9 ->  82.9
+    E_shown_no_instr   hand             memory  54.3 ->  48.6   shown  42.9 ->  47.1
+    E_shown_no_instr   hexagon          memory  78.6 ->  74.3   shown  21.4 ->  25.7
+    E_shown_no_instr   hexagon_formula  memory 100.0 -> 100.0   shown   0.0 ->   0.0
+    E_shown_no_instr   pi_formula       memory 100.0 -> 100.0   shown   0.0 ->   0.0
+    E_shown_no_instr   pi_words         memory 100.0 -> 100.0   shown   0.0 ->   0.0
+    E_shown_no_instr   spider           memory  82.9 ->  81.4   shown  14.3 ->  15.7
+    E_shown_no_instr   week             memory  82.9 ->  78.6   shown  17.1 ->  21.4
+    E_shown_no_instr   year             memory  60.0 ->  54.3   shown  40.0 ->  45.7
