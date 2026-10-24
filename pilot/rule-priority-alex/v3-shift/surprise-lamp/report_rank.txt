@@ -1,0 +1,45 @@
+qwen14 checks: {'model': 'Qwen/Qwen2.5-14B-Instruct', 'not_found': 0, 'seconds': 153, 'n_special': 14}
+phi4 checks: {'model': 'microsoft/phi-4', 'not_found': 0, 'seconds': 138, 'n_special': 96}
+olmo13 checks: {'model': 'allenai/OLMo-2-1124-13B-Instruct', 'not_found': 0, 'seconds': 148, 'n_special': 8}
+Rank of the critical word among all words of the task (1 = biggest stumble). Median rank, share in top 1 / top 3 / top 10%.
+Span: D the stated number; redef the definition sentence; hindgen the outcome word; parcels/bonus the New RULE sentence.
+qwen14  hindgen  trap     words~  559 | RAW: med    44 top1   0% top3   0% top10%  73% | ZLOC: med    18 top1   0% top3   1% top10%  96% | MIN: med    31 top1   0% top3   0% top10%  90% |
+qwen14  hindgen  control  words~  559 | RAW: med   175 top1   0% top3   0% top10%   0% | ZLOC: med   148 top1   0% top3   0% top10%   5% | MIN: med   123 top1   0% top3   0% top10%   2% |
+qwen14  redef    trap     words~   16 | RAW: med     3 top1  30% top3 100% top10%  30% | ZLOC: med     3 top1  30% top3 100% top10%  30% | MIN: med     3 top1  30% top3 100% top10%  30% |
+qwen14  parcels  trap     words~  981 | RAW: med    55 top1   0% top3   0% top10% 100% | ZLOC: med     9 top1   0% top3   0% top10% 100% | MIN: med    19 top1   0% top3   0% top10% 100% |
+qwen14  parcels  control  words~  983 | RAW: med    54 top1   0% top3   0% top10% 100% | ZLOC: med     9 top1   0% top3   0% top10% 100% | MIN: med    18 top1   0% top3   0% top10% 100% |
+qwen14  bonus    trap     words~  588 | RAW: med    17 top1   0% top3   0% top10% 100% | ZLOC: med     3 top1   4% top3  69% top10% 100% | MIN: med     3 top1   1% top3  63% top10% 100% |
+qwen14  bonus    control  words~  584 | RAW: med    18 top1   0% top3   0% top10% 100% | ZLOC: med     3 top1  10% top3  72% top10% 100% | MIN: med     4 top1   0% top3  48% top10% 100% |
+qwen14  D        trap     words~   18 | RAW: med     7 top1   0% top3   4% top10%   0% | ZLOC: med     8 top1   0% top3   5% top10%   0% | MIN: med     7 top1   0% top3   4% top10%   0% |
+qwen14  D        control  words~   18 | RAW: med    13 top1   0% top3   0% top10%   0% | ZLOC: med    15 top1   0% top3   0% top10%   0% | MIN: med    14 top1   0% top3   0% top10%   0% |
+phi4    hindgen  trap     words~  559 | RAW: med    77 top1   0% top3   0% top10%  23% | ZLOC: med    48 top1   0% top3   0% top10%  61% | MIN: med    65 top1   0% top3   0% top10%  39% |
+phi4    hindgen  control  words~  559 | RAW: med    95 top1   0% top3   0% top10%   0% | ZLOC: med    68 top1   0% top3   0% top10%  32% | MIN: med    83 top1   0% top3   0% top10%   0% |
+phi4    redef    trap     words~   16 | RAW: med     3 top1  42% top3  81% top10%  42% | ZLOC: med     2 top1  41% top3  99% top10%  41% | MIN: med     3 top1  42% top3  81% top10%  42% |
+phi4    parcels  trap     words~  981 | RAW: med    29 top1   0% top3   0% top10% 100% | ZLOC: med    32 top1   0% top3   0% top10% 100% | MIN: med     9 top1   0% top3   0% top10% 100% |
+phi4    parcels  control  words~  983 | RAW: med    30 top1   0% top3   0% top10% 100% | ZLOC: med    36 top1   0% top3   0% top10% 100% | MIN: med     9 top1   0% top3   0% top10% 100% |
+phi4    bonus    trap     words~  588 | RAW: med    19 top1   0% top3   0% top10% 100% | ZLOC: med    10 top1   0% top3   0% top10% 100% | MIN: med     5 top1   0% top3   9% top10% 100% |
+phi4    bonus    control  words~  584 | RAW: med    18 top1   0% top3   0% top10% 100% | ZLOC: med    11 top1   0% top3   0% top10% 100% | MIN: med     5 top1   0% top3  12% top10% 100% |
+phi4    D        trap     words~   18 | RAW: med     9 top1   0% top3   0% top10%   0% | ZLOC: med     9 top1   0% top3   0% top10%   0% | MIN: med     9 top1   0% top3   0% top10%   0% |
+phi4    D        control  words~   18 | RAW: med    12 top1   0% top3   0% top10%   0% | ZLOC: med    13 top1   0% top3   0% top10%   0% | MIN: med    13 top1   0% top3   0% top10%   0% |
+olmo13  hindgen  trap     words~  559 | RAW: med   106 top1   0% top3   0% top10%   0% | ZLOC: med    54 top1   0% top3   0% top10%  51% | MIN: med    88 top1   0% top3   0% top10%   1% |
+olmo13  hindgen  control  words~  559 | RAW: med   143 top1   0% top3   0% top10%   0% | ZLOC: med   103 top1   0% top3   0% top10%   0% | MIN: med   121 top1   0% top3   0% top10%   0% |
+olmo13  redef    trap     words~   16 | RAW: med     2 top1  35% top3  68% top10%  35% | ZLOC: med     2 top1  32% top3  75% top10%  32% | MIN: med     2 top1  35% top3  68% top10%  35% |
+olmo13  parcels  trap     words~  981 | RAW: med    54 top1   0% top3   0% top10% 100% | ZLOC: med    98 top1   0% top3   0% top10%  50% | MIN: med    35 top1   0% top3   0% top10% 100% |
+olmo13  parcels  control  words~  983 | RAW: med    53 top1   0% top3   0% top10% 100% | ZLOC: med    90 top1   0% top3   0% top10%  65% | MIN: med    35 top1   0% top3   0% top10% 100% |
+olmo13  bonus    trap     words~  588 | RAW: med    19 top1   0% top3   0% top10% 100% | ZLOC: med    11 top1   0% top3   0% top10% 100% | MIN: med     4 top1   0% top3  33% top10% 100% |
+olmo13  bonus    control  words~  584 | RAW: med    18 top1   0% top3   0% top10% 100% | ZLOC: med    11 top1   0% top3   0% top10% 100% | MIN: med     4 top1   0% top3  30% top10% 100% |
+olmo13  D        trap     words~   18 | RAW: med     7 top1   0% top3   4% top10%   0% | ZLOC: med     6 top1   0% top3   1% top10%   0% | MIN: med     6 top1   0% top3   4% top10%   0% |
+olmo13  D        control  words~   18 | RAW: med    14 top1   0% top3   0% top10%   0% | ZLOC: med    15 top1   0% top3   0% top10%   0% | MIN: med    15 top1   0% top3   0% top10%   0% |
+
+Traps only: rank (RAW) of the critical word, fast habit error vs fast right (median; share top 3)
+  qwen14  hindgen  habit n= 57 med    44 top3   0% | right n= 43 med    43 top3   0%
+  qwen14  redef    habit n= 20 med     2 top3 100% | right n= 80 med     3 top3 100%
+  qwen14  parcels  habit n= 74 med    55 top3   0% | right n= 26 med    52 top3   0%
+  qwen14  D        habit n= 26 med     7 top3   8% | right n= 74 med     8 top3   3%
+  phi4    redef    habit n= 47 med     3 top3  70% | right n= 53 med     1 top3  91%
+  phi4    parcels  habit n= 41 med    29 top3   0% | right n= 58 med    29 top3   0%
+  phi4    bonus    habit n= 59 med    19 top3   0% | right n= 36 med    18 top3   0%
+  phi4    D        habit n= 62 med     8 top3   0% | right n= 38 med    10 top3   0%
+  olmo13  hindgen  habit n= 93 med   106 top3   0% | right n=  7 med   101 top3   0%
+  olmo13  redef    habit n= 91 med     2 top3  69% | right n=  9 med     3 top3  56%
+  olmo13  D        habit n= 64 med     6 top3   3% | right n= 36 med     7 top3   6%
