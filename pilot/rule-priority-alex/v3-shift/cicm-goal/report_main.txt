@@ -1,0 +1,56 @@
+
+=== qwen14 (240 dialogues) ===
+  DIRECT   correct  38.8  stale  57.9  other   3.3
+  PLACEBO  correct  46.7  stale  49.6  other   3.8
+  GOAL     correct  46.7  stale  48.8  other   4.6
+  THINK    correct  66.2  stale  33.8  other   0.0
+  SCHEME   correct  50.4  stale  46.2  other   3.3
+  goal sentence names: correct 46%, stale 46%, none/mixed 8%
+  conflict (-> slow re-check) in 17.5% of dialogues
+  P1 SCHEME - DIRECT          +11.7 [  +7.3, +16.2]
+  P2 SCHEME - always THINK    -15.8 [ -22.3,  -9.9]
+  GOAL - PLACEBO               +0.0 [  -5.2,  +5.4]
+  GOAL - DIRECT                +7.9 [  +1.7, +14.2]
+  THINK - DIRECT              +27.5 [ +19.5, +34.9]
+  P1b SCHEME - random re-check at same rate (17.5%):   +6.9 [  +4.0,  +9.9]
+  P1 (vs DIRECT and vs random re-check) -> PASS;  P2 (SCHEME not worse than always-THINK by > 3) -> FAIL
+  P3 harm: SCHEME breaks 1.1% of 93 DIRECT-correct -> PASS
+  P4 lamp 'goal != quick answer': catches 25.9% of 139 stale, false alarms 6.5% of 93 correct; AUC 0.597 -> FAIL
+
+=== phi4 (240 dialogues) ===
+  DIRECT   correct  68.3  stale  22.1  other   9.6
+  PLACEBO  correct  70.8  stale  18.3  other  10.8
+  GOAL     correct  70.0  stale  19.2  other  10.8
+  THINK    correct  76.7  stale  23.3  other   0.0
+  SCHEME   correct  69.2  stale  21.2  other   9.6
+  goal sentence names: correct 66%, stale 25%, none/mixed 8%
+  conflict (-> slow re-check) in 13.8% of dialogues
+  P1 SCHEME - DIRECT           +0.8 [  -2.5,  +4.5]
+  P2 SCHEME - always THINK     -7.5 [ -12.7,  -3.1]
+  GOAL - PLACEBO               -0.8 [  -5.8,  +4.9]
+  GOAL - DIRECT                +1.7 [  -3.5,  +7.3]
+  THINK - DIRECT               +8.3 [  +2.5, +14.5]
+  P1b SCHEME - random re-check at same rate (13.8%):   -0.3 [  -3.4,  +2.9]
+  P1 (vs DIRECT and vs random re-check) -> FAIL;  P2 (SCHEME not worse than always-THINK by > 3) -> FAIL
+  P3 harm: SCHEME breaks 3.0% of 164 DIRECT-correct -> PASS
+  P4 lamp 'goal != quick answer': catches 26.4% of 53 stale, false alarms 11.6% of 164 correct; AUC 0.574 -> FAIL
+
+=== olmo13 (240 dialogues) ===
+  DIRECT   correct   8.8  stale  88.3  other   2.9
+  PLACEBO  correct   8.8  stale  89.6  other   1.7
+  GOAL     correct  21.2  stale  73.8  other   5.0
+  THINK    correct  35.8  stale  64.2  other   0.0
+  SCHEME   correct  22.5  stale  74.6  other   2.9
+  goal sentence names: stale 72%, correct 21%, none/mixed 8%
+  conflict (-> slow re-check) in 35.4% of dialogues
+  P1 SCHEME - DIRECT          +13.8 [  +8.2, +19.6]
+  P2 SCHEME - always THINK    -13.3 [ -18.4,  -8.1]
+  GOAL - PLACEBO              +12.5 [  +7.3, +17.9]
+  GOAL - DIRECT               +12.5 [  +7.2, +17.9]
+  THINK - DIRECT              +27.1 [ +19.2, +35.1]
+  P1b SCHEME - random re-check at same rate (35.4%):   +4.2 [  +0.9,  +7.2]
+  P1 (vs DIRECT and vs random re-check) -> PASS;  P2 (SCHEME not worse than always-THINK by > 3) -> FAIL
+  P3 harm: SCHEME breaks 19.0% of 21 DIRECT-correct -> FAIL
+  P4 lamp 'goal != quick answer': catches 38.2% of 212 stale, false alarms 19.0% of 21 correct; AUC 0.596 -> FAIL
+
+OVERALL: P1 PASS in 2 of 3 models (need 2)
