@@ -1,0 +1,74 @@
+qwen14 checks: {'model': 'Qwen/Qwen2.5-14B-Instruct', 'not_found': 0, 'seconds': 153, 'n_special': 14}
+phi4 checks: {'model': 'microsoft/phi-4', 'not_found': 0, 'seconds': 138, 'n_special': 96}
+olmo13 checks: {'model': 'allenai/OLMo-2-1124-13B-Instruct', 'not_found': 0, 'seconds': 148, 'n_special': 8}
+models: ['qwen14', 'phi4', 'olmo13'] items per model: {'qwen14': 760, 'phi4': 760, 'olmo13': 760}
+
+== Q1 (primary): traps only, fast habit error (+) vs fast right (-), WITHIN-TEMPLATE AUC; > 0.5 = more -> habit error
+  qwen14  hindgen  habit  57 right  43 other  0 pairs   913 tpl  2 ELIGIBLE MAIN 0.51 ZLOC 0.49 ZTASK 0.49 RAW 0.48 SPAN 0.33 LEN 0.50 CONF 0.47
+  qwen14  redef    habit  20 right  80 other  0 pairs    46 tpl  3 ELIGIBLE MAIN 0.39 ZLOC 0.41 ZTASK 0.39 RAW 0.59 SPAN 0.66 LEN 0.50 CONF 0.74
+  qwen14  parcels  habit  74 right  26 other  0 pairs   698 tpl  2 ELIGIBLE MAIN 0.48 ZLOC 0.57 ZTASK 0.40 RAW 0.50 SPAN 0.38 LEN 0.52 CONF 0.23
+  qwen14  bonus    habit  94 right   4 other  2 pairs     4 tpl  4 skip     MAIN 0.75 ZLOC 0.50 ZTASK 0.50 RAW 0.50 SPAN 0.25 LEN 0.38 CONF 0.00
+  qwen14  D        habit  26 right  74 other  0 pairs    94 tpl  6 ELIGIBLE MAIN 0.57 ZLOC 0.54 ZTASK 0.57 RAW 0.64 SPAN 0.40 LEN 0.38 CONF 0.45
+  phi4    hindgen  habit  99 right   1 other  0 pairs    49 tpl  1 skip     MAIN 0.80 ZLOC 0.94 ZTASK 0.02 RAW 0.00 SPAN 0.08 LEN 0.50 CONF 0.16
+  phi4    redef    habit  47 right  53 other  0 pairs   124 tpl  5 ELIGIBLE MAIN 0.39 ZLOC 0.29 ZTASK 0.39 RAW 0.42 SPAN 0.42 LEN 0.50 CONF 0.61
+  phi4    parcels  habit  41 right  58 other  1 pairs   725 tpl  2 ELIGIBLE MAIN 0.37 ZLOC 0.45 ZTASK 0.46 RAW 0.50 SPAN 0.51 LEN 0.44 CONF 0.48
+  phi4    bonus    habit  59 right  36 other  5 pairs    21 tpl 21 skip     MAIN 0.48 ZLOC 0.33 ZTASK 0.48 RAW 0.62 SPAN 0.57 LEN 0.52 CONF 0.29
+  phi4    D        habit  62 right  38 other  0 pairs   119 tpl 13 ELIGIBLE MAIN 0.57 ZLOC 0.61 ZTASK 0.57 RAW 0.58 SPAN 0.84 LEN 0.32 CONF 0.66
+  olmo13  hindgen  habit  93 right   7 other  0 pairs   313 tpl  2 ELIGIBLE MAIN 0.74 ZLOC 0.64 ZTASK 0.61 RAW 0.58 SPAN 0.33 LEN 0.50 CONF 0.32
+  olmo13  redef    habit  91 right   9 other  0 pairs    83 tpl  6 ELIGIBLE MAIN 0.36 ZLOC 0.35 ZTASK 0.36 RAW 0.36 SPAN 0.52 LEN 0.50 CONF 0.29
+  olmo13  parcels  habit 100 right   0 other  0 pairs     0 tpl  0 skip     MAIN nan ZLOC nan ZTASK nan RAW nan SPAN nan LEN nan CONF nan
+  olmo13  bonus    habit  95 right   0 other  5 pairs     0 tpl  0 skip     MAIN nan ZLOC nan ZTASK nan RAW nan SPAN nan LEN nan CONF nan
+  olmo13  D        habit  64 right  36 other  0 pairs    83 tpl  9 ELIGIBLE MAIN 0.35 ZLOC 0.54 ZTASK 0.35 RAW 0.54 SPAN 0.62 LEN 0.34 CONF 0.46
+
+  eligible cells 10; mean |AUC-0.5|: MAIN 0.105  CONF 0.132  LEN 0.054
+  MAIN - CONF -0.026 (bootstrap low -0.165);  MAIN - LEN +0.051 (low -0.053)
+  MAIN direction: majority more surprise -> right, in 6 of 10 cells; models agreeing (OLMo counts only with >= 2 cells): 3
+VERDICT Q1: no lamp here  {'|AUC-0.5| >= 0.12': False, 'beats CONF by >= 0.05, low > 0': False, 'beats LEN by >= 0.05, low > 0': np.False_, 'same direction in >= 2/3 of cells': np.False_, 'direction in >= 2 models': True}
+  report-only, mean |AUC-0.5| over eligible cells: {'MAIN': 0.105, 'ZLOC': 0.09, 'ZTASK': 0.091, 'RAW': 0.066, 'SPAN': 0.129, 'LEN': 0.054, 'CONF': 0.132}
+
+== Q2 (report-only, pipeline check): traps (+) vs controls (-), plain AUC; meaningful only for D and hindgen (review B3)
+  qwen14  D: MAIN 0.44 SPAN 0.95 | hindgen: MAIN 0.51 SPAN 0.99 | parcels: MAIN 0.45 SPAN 0.48 | bonus: MAIN 0.53 SPAN 0.54
+  phi4    D: MAIN 0.57 SPAN 0.86 | hindgen: MAIN 0.51 SPAN 0.78 | parcels: MAIN 0.45 SPAN 0.57 | bonus: MAIN 0.60 SPAN 0.50
+  olmo13  D: MAIN 0.47 SPAN 0.98 | hindgen: MAIN 0.54 SPAN 0.99 | parcels: MAIN 0.45 SPAN 0.61 | bonus: MAIN 0.51 SPAN 0.49
+
+== where the most surprising word (MAIN) lands: share inside the critical span; most common words
+  qwen14  hindgen  trap     {'Name': 55, 'other': 11, 'number': 34}  top: [('Answer:', 29), ('dollars.', 10), ('5000', 9), ('900', 8)]
+  qwen14  hindgen  control  {'number': 14, 'Name': 26}  top: [('Answer:', 14), ('900', 4), ('500', 3), ('1000', 3)]
+  qwen14  redef    trap     {'Name': 42, 'span': 30, 'number': 28}  top: [('Q:', 42), ('974.', 1), ('23+36?', 1), ('60÷12?', 1)]
+  qwen14  parcels  trap     {'other': 55, 'Name': 45}  top: [('and,', 55), ('IMPORTANT', 45)]
+  qwen14  parcels  control  {'other': 20, 'Name': 20}  top: [('and,', 20), ('IMPORTANT', 20)]
+  qwen14  bonus    trap     {'other': 43, 'Name': 55, 'span': 1, 'number': 1}  top: [('IMPORTANT', 55), ('and,', 43), ('no', 1), ('6', 1)]
+  qwen14  bonus    control  {'Name': 20, 'other': 20}  top: [('IMPORTANT', 20), ('and,', 20)]
+  qwen14  D        trap     {'other': 73, 'Name': 27}  top: [('Q:', 27), ("'spider'", 9), ("'hexagon'", 8), ("'cube'", 6)]
+  qwen14  D        control  {'other': 33, 'Name': 7}  top: [('Q:', 7), ("'rectangle'", 5), ("'ant'", 4), ("'octagon'", 4)]
+  phi4    hindgen  trap     {'Name': 85, 'number': 13, 'other': 2}  top: [('Y', 77), ('900', 5), ('5000', 4), ('Igor', 4)]
+  phi4    hindgen  control  {'Name': 34, 'number': 6}  top: [('Y', 29), ('900', 2), ('Answer:', 2), ('5000', 2)]
+  phi4    redef    trap     {'number': 42, 'span': 42, 'Name': 16}  top: [('Q:', 16), ('mod', 3), ('72÷8?', 1), ('974.', 1)]
+  phi4    parcels  trap     {'other': 100}  top: [('and,', 99), ('express', 1)]
+  phi4    parcels  control  {'other': 40}  top: [('and,', 38), ('express', 1), ('standard', 1)]
+  phi4    bonus    trap     {'other': 98, 'number': 2}  top: [('and,', 98), ('4', 1), ('8', 1)]
+  phi4    bonus    control  {'other': 40}  top: [('and,', 40)]
+  phi4    D        trap     {'other': 80, 'Name': 20}  top: [('Q:', 20), ("'cube'", 10), ("'spider'", 10), ("'hexagon'", 9)]
+  phi4    D        control  {'other': 33, 'Name': 7}  top: [('Q:', 7), ("'rectangle'", 5), ("'square'", 4), ("'octopus'", 4)]
+  olmo13  hindgen  trap     {'number': 55, 'Name': 45}  top: [('Answer:', 36), ('5000', 19), ('900', 14), ('3', 6)]
+  olmo13  hindgen  control  {'Name': 24, 'number': 16}  top: [('Answer:', 22), ('5000', 6), ('900', 6), ('1000', 2)]
+  olmo13  redef    trap     {'number': 53, 'span': 35, 'Name': 12}  top: [('Q:', 10), ('random', 3), ('96÷8?', 2), ('A:', 2)]
+  olmo13  parcels  trap     {'other': 100}  top: [('and,', 88), ('standard', 6), ('express', 6)]
+  olmo13  parcels  control  {'other': 39, 'Name': 1}  top: [('and,', 30), ('express', 7), ('standard', 2), ('RAIL', 1)]
+  olmo13  bonus    trap     {'other': 86, 'number': 14}  top: [('and,', 86), ('7', 8), ('6', 3), ('5', 3)]
+  olmo13  bonus    control  {'number': 8, 'other': 32}  top: [('and,', 32), ('6', 4), ('5', 3), ('7', 1)]
+  olmo13  D        trap     {'other': 92, 'Name': 8}  top: [("'cube'", 12), ("'hexagon'", 10), ("'spider'", 10), ('Q:', 8)]
+  olmo13  D        control  {'other': 38, 'Name': 2}  top: [("'square'", 5), ("'rectangle'", 4), ("'octopus'", 4), ("'octagon'", 4)]
+
+== gate (report-only, review S6): within family on traps+controls, flag 30% by score; recall of fast errors; accuracy if reasoning only where flagged (thought answer = forced choice after reasoning)
+  qwen14  D        errors  26/140  never 0.81 always 0.96 | MAIN+ rec 0.31 acc 0.86; MAIN- rec 0.19 acc 0.83; SPAN+ rec 0.46 acc 0.89; SPAN- rec 0.12 acc 0.84; CONF+ rec 0.73 acc 0.95; CONF- rec 0.00 acc 0.81; LEN+ rec 0.12 acc 0.84; LEN- rec 0.54 acc 0.89;
+  qwen14  hindgen  errors  57/140  never 0.59 always 0.92 | MAIN+ rec 0.39 acc 0.71; MAIN- rec 0.33 acc 0.71; SPAN+ rec 0.42 acc 0.74; SPAN- rec 0.05 acc 0.61; CONF+ rec 0.35 acc 0.71; CONF- rec 0.07 acc 0.61; LEN+ rec 0.44 acc 0.75; LEN- rec 0.44 acc 0.75;
+  phi4    D        errors  62/140  never 0.56 always 0.93 | MAIN+ rec 0.37 acc 0.71; MAIN- rec 0.21 acc 0.62; SPAN+ rec 0.45 acc 0.73; SPAN- rec 0.10 acc 0.59; CONF+ rec 0.50 acc 0.75; CONF- rec 0.05 acc 0.58; LEN+ rec 0.21 acc 0.65; LEN- rec 0.42 acc 0.69;
+  phi4    hindgen  errors  99/140  never 0.29 always 0.89 | MAIN+ rec 0.29 acc 0.47; MAIN- rec 0.29 acc 0.46; SPAN+ rec 0.39 acc 0.48; SPAN- rec 0.22 acc 0.45; CONF+ rec 0.41 acc 0.54; CONF- rec 0.10 acc 0.36; LEN+ rec 0.41 acc 0.54; LEN- rec 0.41 acc 0.54;
+  olmo13  D        errors  64/140  never 0.54 always 0.72 | MAIN+ rec 0.22 acc 0.59; MAIN- rec 0.42 acc 0.61; SPAN+ rec 0.47 acc 0.61; SPAN- rec 0.06 acc 0.55; CONF+ rec 0.25 acc 0.60; CONF- rec 0.33 acc 0.59; LEN+ rec 0.19 acc 0.59; LEN- rec 0.42 acc 0.59;
+  olmo13  hindgen  errors  93/140  never 0.34 always 0.66 | MAIN+ rec 0.32 acc 0.41; MAIN- rec 0.26 acc 0.41; SPAN+ rec 0.41 acc 0.45; SPAN- rec 0.05 acc 0.36; CONF+ rec 0.35 acc 0.46; CONF- rec 0.23 acc 0.39; LEN+ rec 0.42 acc 0.47; LEN- rec 0.42 acc 0.47;
+
+== Spearman of MAIN with CONF within traps (same weights; is it one quantity?)
+  qwen14  hindgen +0.00  redef +0.09  parcels +0.27  bonus -0.07  D +0.11
+  phi4    hindgen -0.02  redef -0.26  parcels +0.01  bonus +0.01  D +0.10
+  olmo13  hindgen -0.04  redef -0.09  parcels +0.09  bonus +0.24  D +0.16
