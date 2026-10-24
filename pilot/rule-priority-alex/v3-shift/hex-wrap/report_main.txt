@@ -1,0 +1,27 @@
+
+qwen14: right (by the condition) / memory answer, out of 100
+  story, real word         right 100.0   memory   0.0
+  formula, real word       right  82.2   memory  17.8
+  story, made-up word      right 100.0   memory   0.0
+  formula, made-up word    right 100.0   memory   0.0
+  formula - story (real word)                        -17.8  [-35.6, -4.4]
+  pull of the real word in story (made-up - real)     +0.0  [+0.0, +0.0]
+  pull of the real word in formula (made-up - real)  +17.8  [+4.4, +34.4]
+
+phi4: right (by the condition) / memory answer, out of 100
+  story, real word         right  98.9   memory   1.1
+  formula, real word       right  60.0   memory  38.9
+  story, made-up word      right 100.0   memory   0.0
+  formula, made-up word    right 100.0   memory   0.0
+  formula - story (real word)                        -38.9  [-60.0, -16.7]
+  pull of the real word in story (made-up - real)     +1.1  [+0.0, +3.3]
+  pull of the real word in formula (made-up - real)  +40.0  [+17.8, +64.4]
+
+olmo13: right (by the condition) / memory answer, out of 100
+  story, real word         right  83.3   memory  16.7
+  formula, real word       right  95.6   memory   4.4
+  story, made-up word      right 100.0   memory   0.0
+  formula, made-up word    right 100.0   memory   0.0
+  formula - story (real word)                        +12.2  [+1.1, +25.6]
+  pull of the real word in story (made-up - real)    +16.7  [+4.4, +32.2]
+  pull of the real word in formula (made-up - real)   +4.4  [+0.0, +10.0]
