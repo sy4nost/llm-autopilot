@@ -1,0 +1,96 @@
+
+=== qwen14 (1600 of 1600) ===
+  N=0 (instructions only) n=100: last 100.0  ex   0.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  E1_first
+    N=1  n=100  last  99.0  ex   1.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=2  n=100  last  67.0  ex  33.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=3  n=100  last  68.0  ex  32.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=5  n=100  last  78.0  ex  22.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=8  n=100  last  77.0  ex  23.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  E4_penultimate
+    N=1  n=100  last  90.0  ex  10.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=2  n=100  last  55.0  ex  45.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=3  n=100  last  47.0  ex  53.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=5  n=100  last  58.0  ex  42.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=8  n=100  last  71.0  ex  29.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  EX_new
+    N=1  n=100  last 100.0  ex   0.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=2  n=100  last  71.0  ex  29.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=3  n=100  last  55.0  ex  45.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=5  n=100  last  65.0  ex  35.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=8  n=100  last  54.0  ex  44.0  old   2.0  memory   0.0  multi   0.0  other   0.0
+  pre-registered contrasts (bootstrap over fact x seed):
+    P1 E1_first        last% N=3 minus N=0:  -32.0 [ -41.0, -23.0]   (N=1: -1.0, N=2: -33.0)
+    P1 E4_penultimate  last% N=3 minus N=0:  -53.0 [ -63.0, -43.0]   (N=1: -10.0, N=2: -45.0)
+    P1 EX_new          last% N=3 minus N=0:  -45.0 [ -55.0, -35.0]   (N=1: +0.0, N=2: -29.0)
+    P2 E1_first        example-copy% minus EX_new, N=1..3:   -2.7 [  -7.7,  +2.3]   (N=0 rate of that number: 0.0%)
+    P2 E4_penultimate  example-copy% minus EX_new, N=1..3:  +11.3 [  +6.0, +16.7]   (N=0 rate of that number: 0.0%)
+  headline: ex% minus last% per N (paired CI); first N where ex% > last% with CI above 0
+    E1_first        N1 -98[-100,-94]  N2 -34[-52,-16]  N3 -36[-54,-18]  N5 -56[-72,-40]  N8 -54[-70,-36]   -> first N: None
+    E4_penultimate  N1 -80[-90,-68]  N2 -10[-28,+10]  N3 +6[-14,+26]  N5 -16[-34,+2]  N8 -42[-60,-24]   -> first N: None
+    EX_new          N1 -100[-100,-100]  N2 -42[-60,-24]  N3 -10[-30,+10]  N5 -30[-48,-12]  N8 -10[-29,+9]   -> first N: None
+  multi 0.0%  other 0.0%  memory 0.0% (N>=1)
+
+=== phi4 (1600 of 1600) ===
+  N=0 (instructions only) n=100: last 100.0  ex   0.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  E1_first
+    N=1  n=100  last   1.0  ex  97.0  old   1.0  memory   1.0  multi   0.0  other   0.0
+    N=2  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=3  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=5  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=8  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  E4_penultimate
+    N=1  n=100  last  21.0  ex  77.0  old   0.0  memory   2.0  multi   0.0  other   0.0
+    N=2  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=3  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=5  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=8  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  EX_new
+    N=1  n=100  last  20.0  ex  37.0  old   2.0  memory  26.0  multi   0.0  other  15.0
+    N=2  n=100  last   0.0  ex  99.0  old   0.0  memory   1.0  multi   0.0  other   0.0
+    N=3  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=5  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=8  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  pre-registered contrasts (bootstrap over fact x seed):
+    P1 E1_first        last% N=3 minus N=0: -100.0 [-100.0,-100.0]   (N=1: -99.0, N=2: -100.0)
+    P1 E4_penultimate  last% N=3 minus N=0: -100.0 [-100.0,-100.0]   (N=1: -79.0, N=2: -100.0)
+    P1 EX_new          last% N=3 minus N=0: -100.0 [-100.0,-100.0]   (N=1: -80.0, N=2: -100.0)
+    P2 E1_first        example-copy% minus EX_new, N=1..3:  +20.3 [ +17.3, +23.7]   (N=0 rate of that number: 0.0%)
+    P2 E4_penultimate  example-copy% minus EX_new, N=1..3:  +13.7 [ +10.3, +17.0]   (N=0 rate of that number: 0.0%)
+  headline: ex% minus last% per N (paired CI); first N where ex% > last% with CI above 0
+    E1_first        N1 +96[+91,+100]  N2 +100[+100,+100]  N3 +100[+100,+100]  N5 +100[+100,+100]  N8 +100[+100,+100]   -> first N: 1
+    E4_penultimate  N1 +56[+40,+72]  N2 +100[+100,+100]  N3 +100[+100,+100]  N5 +100[+100,+100]  N8 +100[+100,+100]   -> first N: 1
+    EX_new          N1 +17[+3,+31]  N2 +99[+97,+100]  N3 +100[+100,+100]  N5 +100[+100,+100]  N8 +100[+100,+100]   -> first N: 1
+  multi 0.0%  other 1.0%  memory 2.0% (N>=1)
+
+=== olmo13 (1600 of 1600) ===
+  N=0 (instructions only) n=100: last 100.0  ex   0.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  E1_first
+    N=1  n=100  last  33.0  ex  54.0  old  12.0  memory   1.0  multi   0.0  other   0.0
+    N=2  n=100  last   2.0  ex  98.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=3  n=100  last   3.0  ex  97.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=5  n=100  last   1.0  ex  99.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=8  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  E4_penultimate
+    N=1  n=100  last  92.0  ex   8.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=2  n=100  last  52.0  ex  48.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=3  n=100  last  38.0  ex  62.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=5  n=100  last   9.0  ex  91.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+    N=8  n=100  last   1.0  ex  99.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  EX_new
+    N=1  n=100  last  64.0  ex   4.0  old  12.0  memory  13.0  multi   0.0  other   7.0
+    N=2  n=100  last  15.0  ex  74.0  old   7.0  memory   3.0  multi   0.0  other   1.0
+    N=3  n=100  last  11.0  ex  87.0  old   1.0  memory   1.0  multi   0.0  other   0.0
+    N=5  n=100  last   2.0  ex  97.0  old   0.0  memory   1.0  multi   0.0  other   0.0
+    N=8  n=100  last   0.0  ex 100.0  old   0.0  memory   0.0  multi   0.0  other   0.0
+  pre-registered contrasts (bootstrap over fact x seed):
+    P1 E1_first        last% N=3 minus N=0:  -97.0 [-100.0, -93.0]   (N=1: -67.0, N=2: -98.0)
+    P1 E4_penultimate  last% N=3 minus N=0:  -62.0 [ -71.0, -53.0]   (N=1: -8.0, N=2: -48.0)
+    P1 EX_new          last% N=3 minus N=0:  -89.0 [ -95.0, -83.0]   (N=1: -36.0, N=2: -85.0)
+    P2 E1_first        example-copy% minus EX_new, N=1..3:  +28.0 [ +22.0, +33.7]   (N=0 rate of that number: 0.0%)
+    P2 E4_penultimate  example-copy% minus EX_new, N=1..3:  -15.7 [ -23.0,  -8.3]   (N=0 rate of that number: 0.0%)
+  headline: ex% minus last% per N (paired CI); first N where ex% > last% with CI above 0
+    E1_first        N1 +21[+3,+38]  N2 +96[+90,+100]  N3 +94[+86,+100]  N5 +98[+94,+100]  N8 +100[+100,+100]   -> first N: 1
+    E4_penultimate  N1 -84[-94,-72]  N2 -4[-24,+16]  N3 +24[+6,+42]  N5 +82[+70,+92]  N8 +98[+94,+100]   -> first N: 3
+    EX_new          N1 -60[-71,-48]  N2 +59[+44,+73]  N3 +76[+63,+88]  N5 +95[+89,+100]  N8 +100[+100,+100]   -> first N: 2
+  multi 0.0%  other 0.5%  memory 1.3% (N>=1)
