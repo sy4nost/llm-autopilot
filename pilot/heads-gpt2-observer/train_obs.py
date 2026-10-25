@@ -168,14 +168,16 @@ def evaluate(fz, obs, P, device, stage, const=None, shuffle=False, plain=None, s
             m2 = m1; ch = torch.zeros_like(m1)
         for x, u, v, al, c in zip(b["items"], m1.tolist(), m2.tolist(), a.tolist(), ch.tolist()):
             rows.append(dict(tset=x["tset"], cond=x["cond"], acc_before=float(u > 0), acc_after=float(v > 0), alarm=al,
-                             wrong_before=float(u <= 0), change=c))
+                             wrong_before=float(u <= 0), change=c, unsure=-abs(u)))
     res = table(rows, ["acc_before", "acc_after", "alarm", "change"])
     res["_alarm_auc"] = {}
     for ts in sorted({r["tset"] for r in rows}):
         for cond in ["all"] + sorted({r["cond"] for r in rows}):
             rs = [r for r in rows if r["tset"] == ts and (cond == "all" or r["cond"] == cond)]
             res["_alarm_auc"][f"{ts}/{cond}"] = auc([r["alarm"] for r in rs], [r["wrong_before"] for r in rs])
-    res["_rows"] = [[r["tset"], r["cond"], r["acc_before"], r["acc_after"], round(r["alarm"], 4)] for r in rows]
+            # baseline 'the model is unsure': small gap between the two names in the frozen answer (no observer at all)
+            res.setdefault("_unsure_auc", {})[f"{ts}/{cond}"] = auc([r["unsure"] for r in rs], [r["wrong_before"] for r in rs])
+    res["_rows"] = [[r["tset"], r["cond"], r["acc_before"], r["acc_after"], round(r["alarm"], 4), round(r["unsure"], 4)] for r in rows]
     if stage == 1:
         res["_dev_score"] = auc([r["alarm"] for r in rows], [r["wrong_before"] for r in rows])
     else:   # trap accuracy gained, minus twice any accuracy lost on the other conditions
@@ -194,6 +196,32 @@ def evaluate(fz, obs, P, device, stage, const=None, shuffle=False, plain=None, s
             kl += F.kl_div(F.log_softmax(lg2, -1), F.log_softmax(lg1, -1), log_target=True, reduction="none").sum(-1).tolist()
         res["_plain"] = dict(top1_same=sum(agree) / len(agree), kl=sum(kl) / len(kl), n=len(agree))
     return res
+
+
+def slice_features(P, lo, hi):
+    """Same batches with only features lo:hi (for a smaller watcher, e.g. the floor-by-floor leader only)."""
+    return [dict(b, f=b["f"][:, lo:hi]) for b in P]
+
+
+def pack(tensors):
+    """Weights to a JSON-safe dict (float16, base64), to test the trained observer later without retraining."""
+    import base64
+    return {k: dict(shape=list(v.shape), b64=base64.b64encode(v.detach().half().cpu().numpy().tobytes()).decode())
+            for k, v in tensors.items()}
+
+
+def unpack(d, device):
+    import base64, numpy as np
+    return {k: torch.tensor(np.frombuffer(base64.b64decode(v["b64"]), dtype=np.float16).reshape(v["shape"]).astype("float32"),
+                            device=device) for k, v in d.items()}
+
+
+def solvable(fz, tok, items, device):
+    """Fairness: keep only items whose final question the frozen model answers right WITHOUT any history."""
+    P = precompute(fz, tok, no_history(items), device); ok = []
+    for b in P:
+        ok += (margin(b["logits"], b["enc"][4], b["enc"][5]) > 0).tolist()
+    return [x for x, o in zip(items, ok) if o]
 
 
 def no_history(items):

@@ -1,0 +1,375 @@
+{
+ "n_generated": {
+  "far_letter": 600,
+  "far_number": 600,
+  "far_month": 600,
+  "far_day": 600
+ },
+ "n_kept": 362,
+ "before": {
+  "far_day/clean": {
+   "acc": 1.0,
+   "n": 66
+  },
+  "far_day/control": {
+   "acc": 0.512,
+   "n": 84
+  },
+  "far_day/echo": {
+   "acc": 1.0,
+   "n": 82
+  },
+  "far_day/trap": {
+   "acc": 1.0,
+   "n": 73
+  },
+  "far_month/clean": {
+   "acc": 1.0,
+   "n": 11
+  },
+  "far_month/control": {
+   "acc": 1.0,
+   "n": 16
+  },
+  "far_month/echo": {
+   "acc": 1.0,
+   "n": 13
+  },
+  "far_month/trap": {
+   "acc": 1.0,
+   "n": 17
+  }
+ },
+ "observer": {
+  "far_day/clean": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.221,
+   "change": 0.032,
+   "n": 66
+  },
+  "far_day/control": {
+   "acc_before": 0.512,
+   "acc_after": 0.417,
+   "alarm": 0.451,
+   "change": 0.125,
+   "n": 84
+  },
+  "far_day/echo": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.085,
+   "change": 0.023,
+   "n": 82
+  },
+  "far_day/trap": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.163,
+   "change": 0.041,
+   "n": 73
+  },
+  "far_month/clean": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.231,
+   "change": 0.033,
+   "n": 11
+  },
+  "far_month/control": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.132,
+   "change": 0.034,
+   "n": 16
+  },
+  "far_month/echo": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.117,
+   "change": 0.03,
+   "n": 13
+  },
+  "far_month/trap": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.055,
+   "change": 0.015,
+   "n": 17
+  },
+  "_alarm_auc": {
+   "far_day/all": 0.9065964523281597,
+   "far_day/clean": NaN,
+   "far_day/control": 0.8003403289846852,
+   "far_day/echo": NaN,
+   "far_day/trap": NaN,
+   "far_month/all": NaN,
+   "far_month/clean": NaN,
+   "far_month/control": NaN,
+   "far_month/echo": NaN,
+   "far_month/trap": NaN
+  },
+  "_unsure_auc": {
+   "far_day/all": 0.6710088691796009,
+   "far_day/clean": NaN,
+   "far_day/control": 0.6176971072036301,
+   "far_day/echo": NaN,
+   "far_day/trap": NaN,
+   "far_month/all": NaN,
+   "far_month/clean": NaN,
+   "far_month/control": NaN,
+   "far_month/echo": NaN,
+   "far_month/trap": NaN
+  },
+  "_dev_score": -0.058823529411764705
+ },
+ "S_shuffled": {
+  "far_day/clean": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.221,
+   "change": 0.05,
+   "n": 66
+  },
+  "far_day/control": {
+   "acc_before": 0.512,
+   "acc_after": 0.5,
+   "alarm": 0.451,
+   "change": 0.057,
+   "n": 84
+  },
+  "far_day/echo": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.085,
+   "change": 0.055,
+   "n": 82
+  },
+  "far_day/trap": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.163,
+   "change": 0.05,
+   "n": 73
+  },
+  "far_month/clean": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.231,
+   "change": 0.046,
+   "n": 11
+  },
+  "far_month/control": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.132,
+   "change": 0.053,
+   "n": 16
+  },
+  "far_month/echo": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.117,
+   "change": 0.03,
+   "n": 13
+  },
+  "far_month/trap": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.055,
+   "change": 0.063,
+   "n": 17
+  },
+  "_alarm_auc": {
+   "far_day/all": 0.9065964523281597,
+   "far_day/clean": NaN,
+   "far_day/control": 0.8003403289846852,
+   "far_day/echo": NaN,
+   "far_day/trap": NaN,
+   "far_month/all": NaN,
+   "far_month/clean": NaN,
+   "far_month/control": NaN,
+   "far_month/echo": NaN,
+   "far_month/trap": NaN
+  },
+  "_unsure_auc": {
+   "far_day/all": 0.6710088691796009,
+   "far_day/clean": NaN,
+   "far_day/control": 0.6176971072036301,
+   "far_day/echo": NaN,
+   "far_day/trap": NaN,
+   "far_month/all": NaN,
+   "far_month/clean": NaN,
+   "far_month/control": NaN,
+   "far_month/echo": NaN,
+   "far_month/trap": NaN
+  },
+  "_dev_score": -0.007352941176470588
+ },
+ "K_constant": {
+  "far_day/clean": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.221,
+   "change": 0.103,
+   "n": 66
+  },
+  "far_day/control": {
+   "acc_before": 0.512,
+   "acc_after": 0.643,
+   "alarm": 0.451,
+   "change": 0.103,
+   "n": 84
+  },
+  "far_day/echo": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.085,
+   "change": 0.103,
+   "n": 82
+  },
+  "far_day/trap": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.163,
+   "change": 0.103,
+   "n": 73
+  },
+  "far_month/clean": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.231,
+   "change": 0.103,
+   "n": 11
+  },
+  "far_month/control": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.132,
+   "change": 0.103,
+   "n": 16
+  },
+  "far_month/echo": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.117,
+   "change": 0.103,
+   "n": 13
+  },
+  "far_month/trap": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.055,
+   "change": 0.103,
+   "n": 17
+  },
+  "_alarm_auc": {
+   "far_day/all": 0.9065964523281597,
+   "far_day/clean": NaN,
+   "far_day/control": 0.8003403289846852,
+   "far_day/echo": NaN,
+   "far_day/trap": NaN,
+   "far_month/all": NaN,
+   "far_month/clean": NaN,
+   "far_month/control": NaN,
+   "far_month/echo": NaN,
+   "far_month/trap": NaN
+  },
+  "_unsure_auc": {
+   "far_day/all": 0.6710088691796009,
+   "far_day/clean": NaN,
+   "far_day/control": 0.6176971072036301,
+   "far_day/echo": NaN,
+   "far_day/trap": NaN,
+   "far_month/all": NaN,
+   "far_month/clean": NaN,
+   "far_month/control": NaN,
+   "far_month/echo": NaN,
+   "far_month/trap": NaN
+  },
+  "_dev_score": 0.0
+ },
+ "K2_flag": {
+  "far_day/clean": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.221,
+   "change": 0.094,
+   "n": 66
+  },
+  "far_day/control": {
+   "acc_before": 0.512,
+   "acc_after": 0.536,
+   "alarm": 0.451,
+   "change": 0.094,
+   "n": 84
+  },
+  "far_day/echo": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.085,
+   "change": 0.104,
+   "n": 82
+  },
+  "far_day/trap": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.163,
+   "change": 0.104,
+   "n": 73
+  },
+  "far_month/clean": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.231,
+   "change": 0.094,
+   "n": 11
+  },
+  "far_month/control": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.132,
+   "change": 0.094,
+   "n": 16
+  },
+  "far_month/echo": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.117,
+   "change": 0.104,
+   "n": 13
+  },
+  "far_month/trap": {
+   "acc_before": 1.0,
+   "acc_after": 1.0,
+   "alarm": 0.055,
+   "change": 0.104,
+   "n": 17
+  },
+  "_alarm_auc": {
+   "far_day/all": 0.9065964523281597,
+   "far_day/clean": NaN,
+   "far_day/control": 0.8003403289846852,
+   "far_day/echo": NaN,
+   "far_day/trap": NaN,
+   "far_month/all": NaN,
+   "far_month/clean": NaN,
+   "far_month/control": NaN,
+   "far_month/echo": NaN,
+   "far_month/trap": NaN
+  },
+  "_unsure_auc": {
+   "far_day/all": 0.6710088691796009,
+   "far_day/clean": NaN,
+   "far_day/control": 0.6176971072036301,
+   "far_day/echo": NaN,
+   "far_day/trap": NaN,
+   "far_month/all": NaN,
+   "far_month/clean": NaN,
+   "far_month/control": NaN,
+   "far_month/echo": NaN,
+   "far_month/trap": NaN
+  },
+  "_dev_score": 0.0
+ }
+}

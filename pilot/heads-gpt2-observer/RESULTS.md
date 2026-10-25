@@ -35,3 +35,19 @@ seed (`--step select`, results_select.json), before the observer was ever traine
 
 Limits: GPT-2 small, near transfer only (new wordings of the same trap), B wordings were selected to contain the habit.
 Cost about $0.2 (T4) plus cents for checks. Russian plan and notes are kept outside the repository.
+
+## Run 2 (2026-10-25): alarm vs simple baselines, far transfer
+Retrained with the same seeds (~$0.2). Trap B: observer 99, K 95, K2 97; plain top-1 unchanged 98 (K 90, K2 92). Criterion 1 fails again.
+
+Alarm AUC on B (post hoc baselines, not pre-registered):
+| | all B | trap only |
+|---|---|---|
+| observer stage 1 | 0.95 | 0.94 |
+| low confidence (small final margin between the names) | 0.86 | 0.79 |
+| watcher of the logit-lens leader only (13 numbers, no heads) | 0.85 | 0.84 |
+Head features add +0.09 (all) / +0.15 (trap) over low confidence: near transfer only.
+
+Far transfer, 'what comes after' (obs_far.py; observer, K, K2 trained on names, not retrained): not a valid test.
+GPT-2 small solves only 362/2400 items without history (days and months only; numbers and letters fail), and on those the
+trap has no effect (100/100), so the pre-registered criterion (+10 on traps) cannot be tested. Only errors: day 'control'
+items (51/100 right): observer 42, K 64. Alarm AUC there 0.91 vs low confidence 0.67, about 40 errors only: weak hint.
