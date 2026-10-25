@@ -1,0 +1,49 @@
+tag main: rows 1200 (cal 240, conf 960); random head sets ['rand1', 'rand2', 'rand3', 'rand4', 'rand5', 'rand6']
+sanity: forced pick = value in greedy answer on 1041/1083 (96%)
+labels cal: correct 103, stale 137, other 0
+labels conf: correct 419, stale 540, other 1
+pick token count, correct (conf): {1: 103, 2: 215, 3: 75, 4: 26}
+pick token count, stale (conf): {1: 176, 2: 248, 3: 86, 4: 30}
+pick token count, other (conf): {2: 1}
+
+perturbation by head set (all rows): flip%  |dmarg|  KL
+  top20    11.8   5.806   0.222
+  rand1     5.1   1.922   0.096
+  rand2     4.2   2.680   0.044
+  rand3     3.9   1.867   0.074
+  rand4     3.1   1.345   0.051
+  rand5     5.4   2.224   0.116
+  rand6     7.5   4.305   0.171
+
+== C1: AUC stale vs correct, confirmation (within cell / within cell*k / pooled) ==
+  lamp       0.586  0.551  0.406
+  conf       0.571  0.562  0.399
+  diff       0.492  0.471  0.552
+  cellb      0.676  0.500  0.864
+  rand_rand1 0.574  0.572  0.388
+  rand_rand2 0.596  0.590  0.451
+  rand_rand3 0.546  0.530  0.405
+  rand_rand4 0.548  0.542  0.375
+  rand_rand5 0.510  0.498  0.344
+  rand_rand6 0.554  0.534  0.458
+  LAMP-CONF cell +0.015 [-0.030,+0.055]   LAMP-CONF cell*k -0.011 [-0.072,+0.044]
+  LAMP-best random set (rand2) -0.011 [-0.058,+0.032]
+  C1 FAIL
+
+specificity (report): within-cell AUC, rows with k<6
+  lamp  other-vs-correct 0.981   wrong-vs-correct 0.559
+  conf  other-vs-correct 1.000   wrong-vs-correct 0.536
+token count of pick (report): LAMP within-cell AUC single-token picks 0.704, multi-token 0.570
+PROBE (secondary, weak by design) within-cell 0.795  cell*k 0.763
+
+== C2: brake = take heads-off (top20) pick when the selector fires ==
+  normal          acc 43.6
+  LAMP brake      acc 43.6  preservation 97.6  stale corrected 1.7  fires 2.2%  (thr 3.250)  gain +0.0 [-0.9,+0.9]
+  CONF brake      acc 44.3  preservation 95.0  stale corrected 4.8  fires 9.8%  (thr -2.250)
+  RANDOM brake    acc 43.6 (same fire rate as lamp, 200 draws)
+  always off      acc 42.5  preservation 87.1  stale corrected 7.8  fires 100.0%
+  LAMP-CONF brake -0.6 [-2.1,+0.8]
+  C2 FAIL
+
+VERDICT: FAIL  (C1 False, C2 False)
+context: Berkeley published Qwen2.5-14B rerouting on these confirmation rows, free-form greedy: 40.5 -> 41.7 (+1.15), 13/491 stale corrected

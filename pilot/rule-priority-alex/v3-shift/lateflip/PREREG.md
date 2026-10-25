@@ -1,0 +1,6 @@
+# PREREG lateflip (2026-10-24), frozen before opening lf_main_*.jsonl
+b0fcf74c6737e2a9fcd350b146d5b995cad4822c6fb82c01503f122f4072d373  PLAN.md
+67d715246e29b5172b96919520df1df0055a9935049511364e5419f8de6e07da  score_lf.py
+8afd235672a1fad739f51e932d1544af39110da0ddaa16abaaaa480c9f8bbac0  ../surprise-lamp/score_sp.py
+0103777f948c08912cc7d442f7b7aa9ae10cbedcf0f1b460d5612225f5359927  modal_lf.py
+bd89b2df496a329a1b71d0080ec0402f527aa020ccfc01dc522a9da51e25d1b6  ../conftrap-lamp/sets_cl.json

@@ -1,0 +1,68 @@
+
+=== qwen14 (240 dialogues) ===
+  right %            calm_keep  calm_change    trap_keep  trap_change   all
+  NUM  DIRECT              100          100           97           90     97
+  NUM  THINK                73          100           57          100     82
+  NUM  MAP-I               100          100          100          100    100
+  PREF DIRECT              100          100           73          100     93
+  PREF THINK               100          100           80          100     95
+  PREF MAP-I               100          100           90           87     94
+  NUM traps, DIRECT answers: right 56, shown 4 | MAP line E: shown 59, right 1
+  PREF traps, DIRECT answers: right 52, shown 8 | MAP line E: shown 45, right 15
+  lamp     fires calm  fires trap  catch(DIRECT wrong)  false alarm(DIRECT right)  SCHEME  vs random [CI]
+  MAP            0          88            83 of  12              42 of 228        92.5   +0.2 [ -1.7, +2.3]
+  MAP3          48          91           100 of  12              68 of 228        89.2   -1.5 [ -2.7, -0.1]
+  GOAL           0          12            50 of  12               4 of 228        96.7   +2.0 [ +0.2, +4.1]
+  MAPD           0          12            83 of  12               2 of 228        97.1   +2.5 [ +0.5, +4.8]
+  ORACLE         0          10           100 of  12               0 of 228        97.9   +3.2 [ +1.4, +5.6]
+  DIRECT 95.0   always THINK 88.8   map line I as the answer 97.1   (DIRECT answers naming >1 value: 2%)
+  map parsing: empty 32, multi-value 0 (of 720 lines)
+  P1 MAP selectivity (fires trap - calm) +88, CI low +82 (need >= +20) -> PASS
+  P2 SCHEME(MAP) beats random re-check at same rate, CI low -1.7 -> n/a (too few DIRECT errors THINK can fix)
+  P3 map line 'user's instructions' right on 83% of 12 traps that DIRECT got wrong (need >= 50, n >= 15) -> n/a
+
+=== phi4 (240 dialogues) ===
+  right %            calm_keep  calm_change    trap_keep  trap_change   all
+  NUM  DIRECT              100          100           10            0     52
+  NUM  THINK               100          100           87           97     96
+  NUM  MAP-I               100          100          100          100    100
+  PREF DIRECT              100          100            3           83     72
+  PREF THINK               100          100           17           90     77
+  PREF MAP-I               100          100          100          100    100
+  NUM traps, DIRECT answers: shown 57, right 3 | MAP line E: shown 60
+  PREF traps, DIRECT answers: shown 34, right 26 | MAP line E: shown 60
+  lamp     fires calm  fires trap  catch(DIRECT wrong)  false alarm(DIRECT right)  SCHEME  vs random [CI]
+  MAP            0         100           100 of  91              19 of 149        86.2  +12.1 [+10.4,+13.8]
+  MAP3          53         100           100 of  91              62 of 149        86.2   +5.6 [ +4.8, +6.5]
+  GOAL           0          60            79 of  91               0 of 149        84.6  +15.2 [+13.1,+17.2]
+  MAPD           0          76           100 of  91               0 of 149        87.5  +16.3 [+14.5,+17.9]
+  ORACLE         0          76           100 of  91               0 of 149        87.5  +16.3 [+14.5,+17.9]
+  DIRECT 62.1   always THINK 86.2   map line I as the answer 100.0   (DIRECT answers naming >1 value: 0%)
+  map parsing: empty 89, multi-value 2 (of 720 lines)
+  P1 MAP selectivity (fires trap - calm) +100, CI low +100 (need >= +20) -> PASS
+  P2 SCHEME(MAP) beats random re-check at same rate, CI low +10.4 -> PASS
+  P3 map line 'user's instructions' right on 100% of 91 traps that DIRECT got wrong (need >= 50, n >= 15) -> PASS
+
+=== olmo13 (240 dialogues) ===
+  right %            calm_keep  calm_change    trap_keep  trap_change   all
+  NUM  DIRECT              100          100           80           67     87
+  NUM  THINK                40           73           23           57     48
+  NUM  MAP-I               100          100          100          100    100
+  PREF DIRECT              100          100           20           50     68
+  PREF THINK               100           77           60           27     66
+  PREF MAP-I               100           97          100           90     97
+  NUM traps, DIRECT answers: right 44, shown 12, truth 4 | MAP line E: none 24, shown 18, right 18
+  PREF traps, DIRECT answers: shown 39, right 21 | MAP line E: right 60
+  lamp     fires calm  fires trap  catch(DIRECT wrong)  false alarm(DIRECT right)  SCHEME  vs random [CI]
+  MAP            8          18            11 of  55              13 of 185        70.8   -3.8 [ -6.5, -1.1]
+  MAP3          45          46            31 of  55              50 of 185        59.2   -8.8 [-11.9, -5.7]
+  GOAL           1          24            42 of  55               4 of 185        78.3   +3.8 [ +1.7, +6.1]
+  MAPD           1          47            98 of  55               2 of 185        84.2  +11.8 [ +8.8,+14.7]
+  ORACLE         0          46           100 of  55               0 of 185        85.4  +12.9 [+10.0,+15.6]
+  DIRECT 77.1   always THINK 57.1   map line I as the answer 98.3   (DIRECT answers naming >1 value: 0%)
+  map parsing: empty 105, multi-value 72, label missing 14 (of 720 lines)
+  P1 MAP selectivity (fires trap - calm) +10, CI low +2 (need >= +20) -> FAIL
+  P2 SCHEME(MAP) beats random re-check at same rate, CI low -6.5 -> FAIL
+  P3 map line 'user's instructions' right on 98% of 55 traps that DIRECT got wrong (need >= 50, n >= 15) -> PASS
+
+OVERALL: P1+P2 PASS in 1 of 2 testable models (need 2; fewer than 2 testable = inconclusive)

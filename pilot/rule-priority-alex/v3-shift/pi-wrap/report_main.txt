@@ -1,0 +1,27 @@
+
+qwen14: answered 9 (by the condition) out of 100
+  formula 'Let pi = 974'       100.0
+  formula, x instead of pi     100.0
+  book, pi, digits             100.0
+  book, pi, words              100.0
+  book, zorp, words            100.0
+  pull of 'pi' in formula style (x - pi)      +0.0  [+0.0, +0.0]
+  pull of 'pi' in words style (zorp - pi)     +0.0  [+0.0, +0.0]
+
+phi4: answered 9 (by the condition) out of 100
+  formula 'Let pi = 974'       100.0
+  formula, x instead of pi     100.0
+  book, pi, digits             100.0
+  book, pi, words              100.0
+  book, zorp, words            100.0
+  pull of 'pi' in formula style (x - pi)      +0.0  [+0.0, +0.0]
+  pull of 'pi' in words style (zorp - pi)     +0.0  [+0.0, +0.0]
+
+olmo13: answered 9 (by the condition) out of 100
+  formula 'Let pi = 974'        17.0
+  formula, x instead of pi     100.0
+  book, pi, digits              15.0
+  book, pi, words                6.0
+  book, zorp, words            100.0
+  pull of 'pi' in formula style (x - pi)     +83.0  [+75.0, +90.0]
+  pull of 'pi' in words style (zorp - pi)    +94.0  [+89.0, +98.0]

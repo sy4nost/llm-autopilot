@@ -1,0 +1,104 @@
+
+=== qwen14 (1320 of 1320) ===
+  [integer facts] shares %: X / X2 / Y / truth / other
+    T_alone                n=100  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    IT_instr               n=100  X  94.0  X2   0.0  Y   0.0  truth   6.0  other   0.0
+    II_correction          n=100  X   0.0  X2  98.0  Y   0.0  truth   2.0  other   0.0
+    ET_examples_N2         n=100  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    ET_examples_N4         n=100  X   0.0  X2   0.0  Y   0.0  truth  96.0  other   4.0
+    CE_neutral_examples_N2 n=100  X   0.0  X2   0.0  Y   0.0  truth  99.0  other   1.0
+    CE_neutral_examples_N4 n=100  X   0.0  X2   0.0  Y   0.0  truth  91.0  other   9.0
+    GE_game_examples_N2    n=100  X   0.0  X2   0.0  Y   4.0  truth  92.0  other   4.0
+    GE_game_examples_N4    n=100  X   0.0  X2   0.0  Y   8.0  truth  85.0  other   7.0
+    IE_instr_examples_N2   n=100  X  98.0  X2   0.0  Y   2.0  truth   0.0  other   0.0
+    IE_instr_examples_N4   n=100  X  78.0  X2   0.0  Y  22.0  truth   0.0  other   0.0
+  [pi] shares %: X / X2 / Y / truth / other
+    T_alone                n= 20  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    IT_instr               n= 20  X 100.0  X2   0.0  Y   0.0  truth   0.0  other   0.0
+    II_correction          n= 20  X   0.0  X2 100.0  Y   0.0  truth   0.0  other   0.0
+    ET_examples_N2         n= 20  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    ET_examples_N4         n= 20  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    CE_neutral_examples_N2 n= 20  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    CE_neutral_examples_N4 n= 20  X   0.0  X2   0.0  Y   0.0  truth  85.0  other  15.0
+    GE_game_examples_N2    n= 20  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    GE_game_examples_N4    n= 20  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    IE_instr_examples_N2   n= 20  X  80.0  X2   0.0  Y   5.0  truth  15.0  other   0.0
+    IE_instr_examples_N4   n= 20  X  80.0  X2   0.0  Y   0.0  truth  20.0  other   0.0
+  pre-registered (integer facts; bootstrap over fact x seed):
+    C1 instruction beats truth  (IT: X% - truth%):  +88.0 [ +78.0, +96.0]  HOLDS
+    C2 example beats instruction (IE N4: Y% - X%):  -56.0 [ -72.0, -40.0]  no
+    C3 truth beats example     (ET N4: truth% - Y%):  +96.0 [ +91.0, +99.0]  HOLDS
+    C4 number game removes truth (GE - CE truth%, N2+N4):   -6.5 [ -12.5,  -1.0]  HOLDS
+    cycle for qwen14: no   (T_alone truth 100%)
+    truth% ET / CE / GE (N2+N4): 98.0 / 95.0 / 88.5   other 2.3%
+    II sanity (last correction X2% - first X%): +98.0 [+95.0,+100.0]
+
+=== phi4 (1320 of 1320) ===
+  [integer facts] shares %: X / X2 / Y / truth / other
+    T_alone                n=100  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    IT_instr               n=100  X 100.0  X2   0.0  Y   0.0  truth   0.0  other   0.0
+    II_correction          n=100  X   0.0  X2 100.0  Y   0.0  truth   0.0  other   0.0
+    ET_examples_N2         n=100  X   0.0  X2   0.0  Y  64.0  truth  35.0  other   1.0
+    ET_examples_N4         n=100  X   0.0  X2   0.0  Y  97.0  truth   1.0  other   2.0
+    CE_neutral_examples_N2 n=100  X   0.0  X2   0.0  Y  64.0  truth  33.0  other   3.0
+    CE_neutral_examples_N4 n=100  X   0.0  X2   0.0  Y  99.0  truth   1.0  other   0.0
+    GE_game_examples_N2    n=100  X   0.0  X2   0.0  Y  74.0  truth  24.0  other   2.0
+    GE_game_examples_N4    n=100  X   0.0  X2   0.0  Y 100.0  truth   0.0  other   0.0
+    IE_instr_examples_N2   n=100  X   0.0  X2   0.0  Y 100.0  truth   0.0  other   0.0
+    IE_instr_examples_N4   n=100  X   0.0  X2   0.0  Y 100.0  truth   0.0  other   0.0
+  [pi] shares %: X / X2 / Y / truth / other
+    T_alone                n= 20  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    IT_instr               n= 20  X  45.0  X2   0.0  Y   0.0  truth  55.0  other   0.0
+    II_correction          n= 20  X   0.0  X2 100.0  Y   0.0  truth   0.0  other   0.0
+    ET_examples_N2         n= 20  X   0.0  X2   0.0  Y  20.0  truth  50.0  other  30.0
+    ET_examples_N4         n= 20  X   0.0  X2   0.0  Y  95.0  truth   0.0  other   5.0
+    CE_neutral_examples_N2 n= 20  X   0.0  X2   0.0  Y   5.0  truth  90.0  other   5.0
+    CE_neutral_examples_N4 n= 20  X   0.0  X2   0.0  Y  85.0  truth  15.0  other   0.0
+    GE_game_examples_N2    n= 20  X   0.0  X2   0.0  Y  65.0  truth  20.0  other  15.0
+    GE_game_examples_N4    n= 20  X   0.0  X2   0.0  Y 100.0  truth   0.0  other   0.0
+    IE_instr_examples_N2   n= 20  X  25.0  X2   0.0  Y  75.0  truth   0.0  other   0.0
+    IE_instr_examples_N4   n= 20  X   5.0  X2   0.0  Y  95.0  truth   0.0  other   0.0
+  pre-registered (integer facts; bootstrap over fact x seed):
+    C1 instruction beats truth  (IT: X% - truth%): +100.0 [+100.0,+100.0]  HOLDS
+    C2 example beats instruction (IE N4: Y% - X%): +100.0 [+100.0,+100.0]  HOLDS
+    C3 truth beats example     (ET N4: truth% - Y%):  -96.0 [-100.0, -90.0]  no
+    C4 number game removes truth (GE - CE truth%, N2+N4):   -5.0 [  -9.5,  -1.0]  HOLDS
+    cycle for phi4: no   (T_alone truth 100%)
+    truth% ET / CE / GE (N2+N4): 18.0 / 17.0 / 12.0   other 0.7%
+    II sanity (last correction X2% - first X%): +100.0 [+100.0,+100.0]
+
+=== olmo13 (1320 of 1320) ===
+  [integer facts] shares %: X / X2 / Y / truth / other
+    T_alone                n=100  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    IT_instr               n=100  X 100.0  X2   0.0  Y   0.0  truth   0.0  other   0.0
+    II_correction          n=100  X   0.0  X2 100.0  Y   0.0  truth   0.0  other   0.0
+    ET_examples_N2         n=100  X   0.0  X2   0.0  Y  51.0  truth  48.0  other   1.0
+    ET_examples_N4         n=100  X   0.0  X2   0.0  Y  84.0  truth  16.0  other   0.0
+    CE_neutral_examples_N2 n=100  X   0.0  X2   0.0  Y  54.0  truth  46.0  other   0.0
+    CE_neutral_examples_N4 n=100  X   0.0  X2   0.0  Y  91.0  truth   9.0  other   0.0
+    GE_game_examples_N2    n=100  X   0.0  X2   0.0  Y  26.0  truth  72.0  other   2.0
+    GE_game_examples_N4    n=100  X   0.0  X2   0.0  Y  78.0  truth  22.0  other   0.0
+    IE_instr_examples_N2   n=100  X  45.0  X2   0.0  Y  35.0  truth  18.0  other   2.0
+    IE_instr_examples_N4   n=100  X   9.0  X2   0.0  Y  81.0  truth  10.0  other   0.0
+  [pi] shares %: X / X2 / Y / truth / other
+    T_alone                n= 20  X   0.0  X2   0.0  Y   0.0  truth 100.0  other   0.0
+    IT_instr               n= 20  X 100.0  X2   0.0  Y   0.0  truth   0.0  other   0.0
+    II_correction          n= 20  X   0.0  X2 100.0  Y   0.0  truth   0.0  other   0.0
+    ET_examples_N2         n= 20  X   0.0  X2   0.0  Y   5.0  truth  85.0  other  10.0
+    ET_examples_N4         n= 20  X   0.0  X2   0.0  Y  10.0  truth  75.0  other  15.0
+    CE_neutral_examples_N2 n= 20  X   0.0  X2   0.0  Y  10.0  truth  85.0  other   5.0
+    CE_neutral_examples_N4 n= 20  X   0.0  X2   0.0  Y  20.0  truth  65.0  other  15.0
+    GE_game_examples_N2    n= 20  X   0.0  X2   0.0  Y   0.0  truth  45.0  other  55.0
+    GE_game_examples_N4    n= 20  X   0.0  X2   0.0  Y  20.0  truth  55.0  other  25.0
+    IE_instr_examples_N2   n= 20  X  60.0  X2   0.0  Y   0.0  truth  30.0  other  10.0
+    IE_instr_examples_N4   n= 20  X  10.0  X2   0.0  Y   0.0  truth  80.0  other  10.0
+  pre-registered (integer facts; bootstrap over fact x seed):
+    C1 instruction beats truth  (IT: X% - truth%): +100.0 [+100.0,+100.0]  HOLDS
+    C2 example beats instruction (IE N4: Y% - X%):  +72.0 [ +59.0, +83.0]  HOLDS
+    C3 truth beats example     (ET N4: truth% - Y%):  -68.0 [ -82.0, -52.0]  no
+    C4 number game removes truth (GE - CE truth%, N2+N4):  +19.5 [ +14.5, +25.0]  no
+    cycle for olmo13: no   (T_alone truth 100%)
+    truth% ET / CE / GE (N2+N4): 32.0 / 27.5 / 47.0   other 0.5%
+    II sanity (last correction X2% - first X%): +100.0 [+100.0,+100.0]
+
+OVERALL: cycle in 0/3 models (need 2); C4 in 2/3 (need 2)

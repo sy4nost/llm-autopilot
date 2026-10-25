@@ -1,6 +1,6 @@
 # The model saw the rule change and answered the old way anyway: a pre-registered study of in-context habits in Qwen2.5-14B
 
-*Oleksandr Rylov, independent researcher (Spartanburg, SC, USA). October 2026. Draft v2 (updated October 23 with the confident-trap tests and their audit).*
+*Oleksandr Rylov, independent researcher (Spartanburg, SC, USA). October 2026. Draft v3 (updated October 25 with the October 24 tests: real habit vs ambiguity, what the model knows, goal step, Berkeley CICM, and more negative lamps).*
 
 *Code and data: https://github.com/sy4nost/llm-autopilot. All experiments were run with Claude (Anthropic) as a research assistant: Claude wrote the code, ran the jobs and drafted the reports. I designed the questions, chose the directions and supplied the random seeds for every frozen test.*
 
@@ -14,7 +14,10 @@
 - **It transfers only partly.** A frozen detector-plus-boost recipe was tested on unfamiliar tasks with a fresh seed. It fixed many habit errors (+57 and +28 points on two task types) but missed a pre-registered harm threshold on one of them (−7 vs −5). An independent audit found that a trivial baseline, simply dropping the history, beats it on our own tasks.
 - **On independent public trap benchmarks, one thing worked, pre-registered:** asking the model to reason before answering gave **+15.8 points** [+12.5, +19.0] across five public trap families, with no harm on control items (−0.3) or MMLU (+1.8). Think-aloud on traps is known in the literature.
 - **Confident habit errors are common, and confidence does not see them.** A pre-registered 3-model test (Qwen2.5-14B, Phi-4, OLMo-2-13B, 5 trap families) found fast answers that are confidently wrong by habit in all three models; low-confidence gating misses them, and reasoning fixes about **75 of 100**. Comparing the fast and the reasoned answer flags these errors, but only *after* reasoning, so an independent audit concluded it adds nothing over always reasoning. **We do not yet have a signal that predicts habit errors before reasoning; that is the open problem.**
-- **We report more than ten negative results**, including: no general internal "habit signal" across habit types, preference training that does not transfer, and "wake-up" prompts that are placebos or harmful.
+- **The habit comes from the history, not from a misread question (October 24).** On the rule-change traps, reminding the model of the new rule barely helps (−6 to +8 points), while removing the 60 past examples fixes most errors (Qwen 25 → 68, Phi-4 57 → 100 right of 100). By contrast, most errors on definition-type items ("in this book a hexagon has 4 sides") were question ambiguity, so we no longer count those as habit.
+- **The model knows the right answer but does not use it.** Asked separately "what did the user ask for?", models answer correctly 97–100 times of 100, even where their direct answer just followed the habit. A model-written one-line goal before answering breaks the habit on an unambiguous task (pre-registered: Phi-4 0 → 91 of 100, OLMo 22 → 96), while restating the instruction does nothing (Phi-4 stays at 0).
+- **On an external benchmark the gain is partial.** On Berkeley's CICM stale-context dialogues, a "goal → conflict → re-think" gate beats a same-size random re-check for 2 of 3 models (+12 and +14 points over the fast answer), but always reasoning is better (by 8–16 points): there the goal note itself is often stale.
+- **We report more than fifteen negative results**, including: no general internal "habit signal" across habit types, preference training that does not transfer, and "wake-up" prompts that are placebos or harmful.
 
 ---
 
@@ -128,6 +131,20 @@ Paired difference for old answers is −22 [−30, −14]. The top heads sit exa
 
 **What we conclude now:** (1) confident habit errors are real and widespread across model families; (2) confidence-based gating is blind to them; (3) reasoning fixes about 75 of 100. A flag that needs the reasoned answer is not a detector. **The open problem is a cheap signal available before reasoning.** Our internal probes reach high AUC within one task kind (e.g. 0.98 on definitions, 0.87 on π traps, 0.91 on the rule-change task) but do not transfer across kinds (section 5).
 
+## 6c. What the habit is, and what the model knows (October 24)
+
+All tests below use Qwen2.5-14B, Phi-4 and OLMo-2-13B; most were pre-registered with a plan reviewed before the run; each cost $0.3–3. Folders under `pilot/rule-priority-alex/v3-shift/`.
+
+**Habit or ambiguity? (`hex-wrap/`, `amb-check/`).** On definition traps, repeating "In this book" in the question removes most errors (Phi-4 28 → 99, Qwen 74 → 100, OLMo 40 → 83 right of 100): these were mostly ambiguous questions. On the rule-change traps (parcels, bonus) the opposite holds: reminder lines do not help (−6 to +8; repeating the new rule even hurts Phi-4 on parcels), while dropping the 60 examples fixes most errors (parcels: Qwen 25 → 68, Phi-4 57 → 100; bonus: Phi-4 33 → 72). Qwen and OLMo on bonus stay wrong even without history: they cannot apply that amendment at all, which is not habit.
+
+**Which source wins (`three-forces/`, `many-instr/`, `cycle3/`).** We pitted three sources against each other: the user's instruction, answers shown earlier in the dialogue, and the model's knowledge. The order differs by model: Qwen follows instruction > knowledge > shown examples; Phi-4 and OLMo follow shown examples > instruction > knowledge. Of several successive corrections, the last one wins (the first was chosen 0 times in 4,800 answers). Base models follow a bare instruction like instruct models do, so "falling back to pretraining" does not explain the habit. Instruction-vs-examples conflicts were studied before (Camassa & Shiller 2026); the three-way comparison and the base-vs-instruct check are ours.
+
+**The model knows (`goal2/`, `forces-map/`).** In an unambiguous dialogue ("answer each question with X", then three assistant answers with Y), Phi-4 answers X 0 times of 100. Asked separately what the user wants, it names X 92–100 times; with its own goal sentence in front of it, it answers X 91 times (OLMo 22 → 96; H2 pass for both). A note restating the instruction does nothing (Phi-4 0). Why the model's own sentence works and the restated rule does not is untested (own words vs a sentence specific to this answer).
+
+**External benchmark (`cicm-goal/`).** On 240 dialogues from Berkeley's CICM (stale values after the user changes a preference), the gate "if the model's goal note disagrees with its fast answer, think step by step" gave Qwen 39 → 50, OLMo 9 → 23 right of 100 (beats a random re-check of the same size; pre-registered pass for 2 of 3 models), Phi-4 68 → 69. Always reasoning gave 66 / 77 / 36. The goal note itself named the old value in 46 (Qwen) and 72 (OLMo) of 100: when finding the latest value is the hard part, the model's reading of the goal inherits the same error, so there is no conflict to notice.
+
+**Why reasoning helps (`why-think/`, exploratory).** Editing saved reasonings: filler of the same length gives little (Qwen 19 → 34–42 of 100, real reasoning 100), erasing the written answers but keeping the steps still gives 97–99. The fix comes from the steps, not from extra computation; once written, the reasoning makes the answer independent of the 60 examples.
+
 ## 7. Negative results (all reported in full in the repository)
 
 | idea | outcome |
@@ -141,11 +158,16 @@ Paired difference for old answers is −22 [−30, −14]. The top heads sit exa
 | Telling the model "your internal sensor detects a conflict" | Hurt traps (63 → 55); the same hint without the sensor framing helped (+19). |
 | Linear probe predicting where reasoning will change the answer | AUC 0.67 vs 0.65 for low confidence; failed its threshold. |
 | "Fast ≠ reasoned" flag as a habit detector (3 models, confident traps) | Passed its frozen test, but the audit showed it only restates that reasoning fixed the error; no gain over always reasoning (section 6b). |
+| Copy-head lamp, frozen, on Berkeley CICM (`cicm-lamp/`) | Pre-registered FAIL: within-cell AUC 0.59 vs 0.57 for low confidence and 0.51–0.60 for random heads; heads off fix 7.8% of stale answers. The copy-head mechanism is specific to our task. |
+| "Surprising word" lamp (`surprise-lamp/`) | No lamp: 0.105 vs 0.132 for low confidence. The model is surprised by the changed word, but surprise does not predict giving in to the habit. |
+| "Late-layer flip" lamp (`lateflip/`) | No general lamp: a strong signal that means "error" in some families and "right answer" in others. |
+| Model judging which source should lead (`judge/`), "pull strength" lamp (`pull/`) | Judges biased toward the first instruction; pull strength AUC 0.54 for Qwen. |
+| Three-line "map of forces" as a dispute detector (`forces-map2/`) | Sees disputes between different kinds of source, but not old-vs-new within one source (Berkeley CICM); no better than a random re-check there. Always reasoning was better (88 vs 77–79). |
 
 ## 8. What we think is going on (interpretation, partly untested)
 
 1. There are at least two habits: **copying from context** (in-context, through identifiable heads, removable at the mechanism level) and **pull from pretraining** (confident, not carried by those heads). Different tools are needed for each.
-2. The model can tell that "something changed" (it applies new additions correctly). What it lacks is a step that **re-checks an already available answer**. The disagreement between a fast and a reasoned pass acts as an external version of that step.
+2. The model can tell that "something changed" (it applies new additions correctly, it is surprised by the changed word, and asked directly it names the right instruction 97–100 times of 100). What it lacks is a step that **re-checks an already available answer**. The disagreement between a fast and a reasoned pass acts as an external version of that step.
 3. In humans, conflict monitoring (anterior cingulate) and a prefrontal brake handle this. The engineering goal is a cheap monitor that triggers the expensive check only when needed. It should not be an always-on "think more" rule, which costs compute and sometimes hurts (HANS controls).
 
 ## 9. Next steps (proposal)
@@ -153,7 +175,8 @@ Paired difference for old answers is −22 [−30, −14]. The top heads sit exa
 1. **A benchmark of confident autopilot.** Collect public and new items where fast answers are confidently wrong because of habit: changed rules in agent histories, modified famous texts, outcome-vs-decision. Verify the habit exists on a small pilot before any paid run. Release it openly.
 2. **A cheap pre-reasoning signal**, tested pre-registered on that benchmark across 4 to 5 open models and 2 API models (Claude, GPT): internal probes, short self-checks, or other signals available before reasoning. Baselines: always reason, low confidence, self-consistency, and the after-the-fact fast-vs-reasoned flag. Measure errors caught per unit of extra compute.
 3. **An agent setting.** A simple trading or operations agent whose environment changes regime mid-episode. Measure habit errors with and without the gate.
-4. **Mechanism follow-up on open models.** Check whether the copy-head picture (sections 3–4) replicates in Llama and Gemma families.
+4. **Does training create the monitor?** Compare the same model across post-training stages (OLMo publishes all checkpoints) and a reasoning-trained model, measuring whether noticing a conflict without a prompt grows with training.
+5. **Mechanism follow-up on open models.** Check whether the copy-head picture (sections 3–4) replicates in Llama and Gemma families.
 
 ---
 

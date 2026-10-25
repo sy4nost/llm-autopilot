@@ -1,0 +1,120 @@
+qwen14 checks: {'model': 'Qwen/Qwen2.5-14B-Instruct', 'mask_check': [1.3748, 0.5, 0.375, 1.125, 0.375], 'seconds': 435}
+
+===== qwen14
+ -- fixed (91 items). Per arm: right% | habit% | follows-swap% | margin | n
+   FULL      right 100.0 [ 100, 100]  habit   0.0  follows   nan  margin +20.14  n  91 | hind 100 rede 100 parc 100 bonu 100 D 100
+   NONE      right  18.7 [  11,  27]  habit  81.3  follows   nan  margin  -8.17  n  91 | hind  55 rede  18 parc   0 bonu   0 D  20
+   FILLER    right  34.1 [  24,  44]  habit  65.9  follows   nan  margin  -3.85  n  91 | hind  80 rede  27 parc   5 bonu   0 D  55
+   FILLTXT   right  41.8 [  32,  52]  habit  58.2  follows   nan  margin  -2.62  n  91 | hind  95 rede  27 parc   5 bonu   0 D  75
+   T25       right  51.6 [  42,  62]  habit  37.4  follows   nan  margin  +5.68  n  91 | hind  85 rede  45 parc   5 bonu  25 D  95  label already written in 24%
+   T50       right  79.1 [  70,  87]  habit  18.7  follows   nan  margin  +9.02  n  91 | hind  90 rede  55 parc  80 bonu  65 D  95  label already written in 32%
+   T75       right  90.1 [  84,  96]  habit   9.9  follows   nan  margin +12.16  n  91 | hind  85 rede  73 parc  90 bonu  95 D 100  label already written in 40%
+   NOLAST    right  85.7 [  79,  92]  habit  14.3  follows   nan  margin +10.36  n  91 | hind  90 rede  91 parc  85 bonu 100 D  65
+   REDACT    right  96.7 [  92, 100]  habit   3.3  follows   nan  margin +13.94  n  91 | hind 100 rede 100 parc 100 bonu  85 D 100
+   SWAP      right  47.3 [  35,  60]  habit  52.7  follows  52.7  margin  -1.21  n  55 | rede  33 parc  79 bonu  25 D  58
+   SWAP_ALL  right  23.6 [  13,  35]  habit  76.4  follows  76.4  margin  -9.06  n  55 | rede  22 parc  79 bonu   0 D   0
+   SWAP3     right  89.1 [  80,  98]  habit   0.0  follows  10.9  margin  +8.66  n  46 | parc  93 bonu  85 D  92
+   KO_EX     right 100.0 [ 100, 100]  habit   0.0  follows   nan  margin +16.58  n  60 | hind 100 parc 100 bonu 100
+   KO_EX_N   right  68.3 [  57,  80]  habit  31.7  follows   nan  margin  +4.53  n  60 | hind  75 parc  85 bonu  45
+   KO_RULE   right 100.0 [ 100, 100]  habit   0.0  follows   nan  margin +20.67  n  71 | rede 100 parc 100 bonu 100 D 100
+   KO_RULE_N right   2.8 [   0,   7]  habit  97.2  follows   nan  margin -18.02  n  71 | rede  18 parc   0 bonu   0 D   0
+   KO_LAST   right  82.4 [  74,  90]  habit  17.6  follows   nan  margin +10.56  n  91 | hind  95 rede  91 parc  60 bonu 100 D  70
+   KO_STEPS  right 100.0 [ 100, 100]  habit   0.0  follows   nan  margin +18.08  n  82 | hind 100 rede 100 parc 100 bonu 100 D 100
+ -- control (32 items). Per arm: right% |  | follows-swap% | margin | n
+   FULL      right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   NONE      right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   FILLER    right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   FILLTXT   right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   T25       right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100  label already written in 12%
+   T50       right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100  label already written in 38%
+   T75       right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100  label already written in 62%
+   NOLAST    right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   REDACT    right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   SWAP      right  95.0 [  85, 100]  habit   nan  follows   5.0  margin   +nan  n  20 | parc 100 bonu  83 D 100
+   KO_EX     right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  24 | hind 100 parc 100 bonu 100
+   KO_EX_N   right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  24 | hind 100 parc 100 bonu 100
+   KO_RULE   right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  24 | parc 100 bonu 100 D 100
+   KO_RULE_N right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  24 | parc 100 bonu 100 D 100
+   KO_LAST   right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   KO_STEPS  right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  31 | hind 100 parc 100 bonu 100 D 100
+   FULL near-ties (|margin| < 1 nat): 0%
+phi4 checks: {'model': 'microsoft/phi-4', 'mask_check': [0.5, 0.125, 0.375, 0.0, 0.375], 'seconds': 415}
+
+===== phi4
+ -- fixed (100 items). Per arm: right% | habit% | follows-swap% | margin | n
+   FULL      right 100.0 [ 100, 100]  habit   0.0  follows   nan  margin +18.48  n 100 | hind 100 rede 100 parc 100 bonu 100 D 100
+   NONE      right  28.0 [  20,  38]  habit  72.0  follows   nan  margin  -2.35  n 100 | hind   5 rede  50 parc  65 bonu  10 D  10
+   FILLER    right  21.0 [  13,  30]  habit  79.0  follows   nan  margin  -2.69  n 100 | hind  20 rede  10 parc  60 bonu   5 D  10
+   FILLTXT   right  13.0 [   7,  20]  habit  86.0  follows   nan  margin  -2.54  n 100 | hind   5 rede  15 parc  15 bonu  20 D  10
+   T25       right  34.0 [  24,  42]  habit  53.0  follows   nan  margin  -0.85  n 100 | hind  50 rede  75 parc   0 bonu  15 D  30  label already written in 9%
+   T50       right  66.0 [  56,  75]  habit  33.0  follows   nan  margin  +3.45  n 100 | hind  65 rede  95 parc  15 bonu  90 D  65  label already written in 42%
+   T75       right  92.0 [  86,  97]  habit   8.0  follows   nan  margin +12.48  n 100 | hind  80 rede 100 parc 100 bonu 100 D  80  label already written in 66%
+   NOLAST    right  90.0 [  84,  95]  habit  10.0  follows   nan  margin +14.00  n 100 | hind  75 rede 100 parc 100 bonu 100 D  75
+   REDACT    right  99.0 [  97, 100]  habit   1.0  follows   nan  margin +14.31  n 100 | hind 100 rede 100 parc 100 bonu  95 D 100
+   SWAP      right  38.7 [  27,  49]  habit  61.3  follows  61.3  margin  -0.54  n  75 | rede  84 parc  40 bonu  10 D  19
+   SWAP_ALL  right   2.7 [   0,   7]  habit  97.3  follows  97.3  margin -14.54  n  75 | rede  11 parc   0 bonu   0 D   0
+   SWAP3     right  78.6 [  68,  89]  habit   0.0  follows  21.4  margin  +6.16  n  56 | parc  80 bonu  70 D  88
+   KO_EX     right  98.3 [  95, 100]  habit   1.7  follows   nan  margin +16.32  n  60 | hind  95 parc 100 bonu 100
+   KO_EX_N   right  51.7 [  38,  65]  habit  46.7  follows   nan  margin  -0.26  n  60 | hind  60 parc  85 bonu  10
+   KO_RULE   right 100.0 [ 100, 100]  habit   0.0  follows   nan  margin +20.05  n  80 | rede 100 parc 100 bonu 100 D 100
+   KO_RULE_N right   6.2 [   1,  12]  habit  93.8  follows   nan  margin  -5.79  n  80 | rede  25 parc   0 bonu   0 D   0
+   KO_LAST   right  91.0 [  85,  96]  habit   9.0  follows   nan  margin +11.26  n 100 | hind  75 rede 100 parc 100 bonu 100 D  80
+   KO_STEPS  right  99.0 [  97, 100]  habit   1.0  follows   nan  margin +14.85  n 100 | hind 100 rede  95 parc 100 bonu 100 D 100
+ -- control (32 items). Per arm: right% |  | follows-swap% | margin | n
+   FULL      right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   NONE      right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   FILLER    right  96.9 [  91, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu  88 D 100
+   FILLTXT   right  96.9 [  91, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu  88 D 100
+   T25       right  78.1 [  62,  91]  habit   nan  follows   nan  margin   +nan  n  32 | hind  75 parc  62 bonu  75 D 100  label already written in 3%
+   T50       right  90.6 [  81, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc  62 bonu 100 D 100  label already written in 31%
+   T75       right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100  label already written in 62%
+   NOLAST    right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   REDACT    right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   SWAP      right  87.0 [  74, 100]  habit   nan  follows  13.0  margin   +nan  n  23 | parc 100 bonu  88 D  71
+   KO_EX     right  95.8 [  88, 100]  habit   nan  follows   nan  margin   +nan  n  24 | hind  88 parc 100 bonu 100
+   KO_EX_N   right  91.7 [  79, 100]  habit   nan  follows   nan  margin   +nan  n  24 | hind  88 parc 100 bonu  88
+   KO_RULE   right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  24 | parc 100 bonu 100 D 100
+   KO_RULE_N right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  24 | parc 100 bonu 100 D 100
+   KO_LAST   right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   KO_STEPS  right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   FULL near-ties (|margin| < 1 nat): 1%
+olmo13 checks: {'model': 'allenai/OLMo-2-1124-13B-Instruct', 'mask_check': [0.2354, 0.0625, 0.1713, 0.0916, 0.0952], 'seconds': 429}
+
+===== olmo13
+ -- fixed (100 items). Per arm: right% | habit% | follows-swap% | margin | n
+   FULL      right 100.0 [ 100, 100]  habit   0.0  follows   nan  margin +12.72  n 100 | hind 100 rede 100 parc 100 bonu 100 D 100
+   NONE      right   8.0 [   3,  14]  habit  90.0  follows   nan  margin  -6.32  n 100 | hind  20 rede  10 parc   0 bonu   0 D  10
+   FILLER    right  19.0 [  12,  27]  habit  79.0  follows   nan  margin  -5.09  n 100 | hind  30 rede  30 parc   0 bonu   0 D  35
+   FILLTXT   right  21.0 [  14,  29]  habit  77.0  follows   nan  margin  -4.83  n 100 | hind  45 rede  30 parc   0 bonu   0 D  30
+   T25       right  48.0 [  38,  58]  habit  39.0  follows   nan  margin  +1.42  n 100 | hind  50 rede  70 parc  10 bonu  45 D  65  label already written in 21%
+   T50       right  56.0 [  46,  66]  habit  42.0  follows   nan  margin  +1.89  n 100 | hind  90 rede  85 parc  20 bonu  25 D  60  label already written in 39%
+   T75       right  76.0 [  68,  84]  habit  24.0  follows   nan  margin  +5.98  n 100 | hind  90 rede  95 parc  20 bonu  90 D  85  label already written in 42%
+   NOLAST    right  80.0 [  71,  87]  habit  20.0  follows   nan  margin  +7.58  n 100 | hind  65 rede  85 parc  60 bonu  90 D 100
+   REDACT    right  98.0 [  95, 100]  habit   2.0  follows   nan  margin +11.24  n 100 | hind 100 rede 100 parc 100 bonu  95 D  95
+   SWAP      right   8.2 [   3,  14]  habit  91.8  follows  91.8  margin -10.17  n  73 | rede   5 parc   0 bonu  10 D  16
+   SWAP_ALL  right   0.0 [   0,   0]  habit 100.0  follows 100.0  margin -13.37  n  73 | rede   0 parc   0 bonu   0 D   0
+   SWAP3     right  22.2 [  11,  33]  habit   0.0  follows  77.8  margin  +4.38  n  54 | parc  27 bonu  15 D  26
+   KO_EX     right  98.3 [  95, 100]  habit   1.7  follows   nan  margin  +9.93  n  60 | hind  95 parc 100 bonu 100
+   KO_EX_N   right   3.3 [   0,   8]  habit  90.0  follows   nan  margin  -3.81  n  60 | hind   0 parc   0 bonu  10
+   KO_RULE   right 100.0 [ 100, 100]  habit   0.0  follows   nan  margin +14.93  n  80 | rede 100 parc 100 bonu 100 D 100
+   KO_RULE_N right   1.2 [   0,   4]  habit  96.2  follows   nan  margin -10.45  n  80 | rede   5 parc   0 bonu   0 D   0
+   KO_LAST   right  76.0 [  67,  84]  habit  24.0  follows   nan  margin  +6.52  n 100 | hind  70 rede  85 parc  50 bonu  80 D  95
+   KO_STEPS  right  95.7 [  91,  99]  habit   4.3  follows   nan  margin +12.18  n  94 | hind  93 rede 100 parc 100 bonu  85 D 100
+ -- control (32 items). Per arm: right% |  | follows-swap% | margin | n
+   FULL      right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   NONE      right  96.9 [  91, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc  88 bonu 100 D 100
+   FILLER    right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   FILLTXT   right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   T25       right  84.4 [  69,  97]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc  38 bonu 100 D 100  label already written in 12%
+   T50       right  96.9 [  91, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind  88 parc 100 bonu 100 D 100  label already written in 41%
+   T75       right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100  label already written in 44%
+   NOLAST    right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   REDACT    right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   SWAP      right  50.0 [  21,  79]  habit   nan  follows  50.0  margin   +nan  n  14 | parc  50 bonu   0 D  80
+   KO_EX     right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  24 | hind 100 parc 100 bonu 100
+   KO_EX_N   right  95.8 [  88, 100]  habit   nan  follows   nan  margin   +nan  n  24 | hind 100 parc  88 bonu 100
+   KO_RULE   right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  24 | parc 100 bonu 100 D 100
+   KO_RULE_N right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  24 | parc 100 bonu 100 D 100
+   KO_LAST   right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  32 | hind 100 parc 100 bonu 100 D 100
+   KO_STEPS  right 100.0 [ 100, 100]  habit   nan  follows   nan  margin   +nan  n  28 | hind 100 parc 100 bonu 100 D 100
+   FULL near-ties (|margin| < 1 nat): 0%

@@ -1,0 +1,7 @@
+52424fbb81ae63dbb456fd826246f945d4bd373def9b3ff7647c100a72f90fb3  PLAN.md
+7294c5a367a94ff4e08e9658f562ff4d46a68f2c79f1070fefe64478887c4b0b  make_mix.py
+7a5f8ba023627c6ec144e6b6bd420ec79e9aad5df9c0595c2c277f336395a7be  modal_mix.py
+98c075a01172dff1ca736473d08c0f96ea61445aee0cd85260f3ba329af422a3  score_mix.py
+Sat Oct 24 16:44:36 UTC 2026
+882e6bfa92b1adca433040e91ec7da20389cb114ba5b23aa816a22a17caf04a9  score_mix.py
+amendment Sat Oct 24 16:44:48 UTC 2026: score_mix.py empty-cell guard only (smoke crash), no rule change

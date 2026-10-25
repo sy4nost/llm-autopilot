@@ -1,0 +1,73 @@
+qwen14 checks: {'model': 'Qwen/Qwen2.5-14B-Instruct', 'dropped': 9, 'appended': 231, 'final_vs_logits': [0.0002, 0.0004, 0.0004, 0.0005, 0.0005], 'seconds': 198}
+qwen14 items 651 dropped 9 lens final leader == DIRECT answer: 98.9%
+phi4 checks: {'model': 'microsoft/phi-4', 'dropped': 0, 'appended': 240, 'final_vs_logits': [0.0003, 0.0003, 0.0004, 0.0004, 0.0004], 'seconds': 171}
+phi4 items 660 dropped 0 lens final leader == DIRECT answer: 99.1%
+olmo13 checks: {'model': 'allenai/OLMo-2-1124-13B-Instruct', 'dropped': 0, 'appended': 240, 'final_vs_logits': [0.0004, 0.0002, 0.0004, 0.0001, 0.0002], 'seconds': 173}
+olmo13 items 660 dropped 0 lens final leader == DIRECT answer: 100.0%
+
+== Q1 (primary): traps only, habit error (+) vs right (-), WITHIN-TEMPLATE AUC; > 0.5 = later settle -> habit error
+   MAIN = SETTLE on token-prior-debiased lens; SETTLE_RAW no debias; SETTLE_C = SETTLE with CONF regressed out
+  qwen14  hindgen  habit  57 right  43 pairs   913 tpl  2 ELIGIBLE SETTLE 0.12 SETTLE_RAW 0.52 SETTLE_C 0.16 FRAC 0.17 CONF 0.47 TOKPRIOR 0.40 FINMARG 0.47
+  qwen14  redef    habit  20 right  80 pairs    46 tpl  3 ELIGIBLE SETTLE 0.17 SETTLE_RAW 0.82 SETTLE_C 0.00 FRAC 0.18 CONF 0.74 TOKPRIOR 0.35 FINMARG 0.74
+  qwen14  parcels  habit  74 right  26 pairs   698 tpl  2 ELIGIBLE SETTLE 0.86 SETTLE_RAW 0.28 SETTLE_C 0.88 FRAC 0.87 CONF 0.23 TOKPRIOR 0.74 FINMARG 0.23
+  qwen14  bonus    habit  94 right   4 pairs     4 tpl  4 skip     SETTLE 0.12 SETTLE_RAW 0.00 SETTLE_C 0.50 FRAC 0.00 CONF 0.00 TOKPRIOR 0.50 FINMARG 0.00
+  qwen14  D        habit  21 right  70 pairs    69 tpl  6 ELIGIBLE SETTLE 0.68 SETTLE_RAW 0.24 SETTLE_C 0.67 FRAC 0.73 CONF 0.46 TOKPRIOR 0.59 FINMARG 0.48
+  phi4    hindgen  habit  99 right   1 pairs    49 tpl  1 skip     SETTLE 0.08 SETTLE_RAW 0.22 SETTLE_C 0.10 FRAC 0.05 CONF 0.16 TOKPRIOR 0.00 FINMARG 0.10
+  phi4    redef    habit  47 right  53 pairs   124 tpl  5 ELIGIBLE SETTLE 0.44 SETTLE_RAW 0.44 SETTLE_C 0.40 FRAC 0.39 CONF 0.61 TOKPRIOR 0.40 FINMARG 0.60
+  phi4    parcels  habit  41 right  58 pairs   725 tpl  2 ELIGIBLE SETTLE 0.88 SETTLE_RAW 0.59 SETTLE_C 0.90 FRAC 0.79 CONF 0.48 TOKPRIOR 0.91 FINMARG 0.51
+  phi4    bonus    habit  59 right  36 pairs    21 tpl 21 skip     SETTLE 0.21 SETTLE_RAW 0.10 SETTLE_C 0.19 FRAC 0.12 CONF 0.29 TOKPRIOR 0.52 FINMARG 0.33
+  phi4    D        habit  62 right  38 pairs   119 tpl 13 ELIGIBLE SETTLE 0.76 SETTLE_RAW 0.71 SETTLE_C 0.70 FRAC 0.77 CONF 0.66 TOKPRIOR 0.46 FINMARG 0.66
+  olmo13  hindgen  habit  93 right   7 pairs   313 tpl  2 ELIGIBLE SETTLE 0.38 SETTLE_RAW 0.58 SETTLE_C 0.50 FRAC 0.38 CONF 0.32 TOKPRIOR 0.84 FINMARG 0.31
+  olmo13  redef    habit  91 right   9 pairs    83 tpl  6 ELIGIBLE SETTLE 0.27 SETTLE_RAW 0.17 SETTLE_C 0.30 FRAC 0.27 CONF 0.29 TOKPRIOR 0.22 FINMARG 0.29
+  olmo13  parcels  habit 100 right   0 pairs     0 tpl  0 skip     SETTLE nan SETTLE_RAW nan SETTLE_C nan FRAC nan CONF nan TOKPRIOR nan FINMARG nan
+  olmo13  bonus    habit  95 right   0 pairs     0 tpl  0 skip     SETTLE nan SETTLE_RAW nan SETTLE_C nan FRAC nan CONF nan TOKPRIOR nan FINMARG nan
+  olmo13  D        habit  64 right  36 pairs    83 tpl  9 ELIGIBLE SETTLE 0.85 SETTLE_RAW 0.72 SETTLE_C 0.89 FRAC 0.92 CONF 0.46 TOKPRIOR 0.57 FINMARG 0.46
+  [all eligible cells] SETTLE 0.264 vs CONF 0.130: diff +0.134, bootstrap low -0.073
+  [all eligible cells] SETTLE 0.264 vs LEN 0.050: diff +0.214, bootstrap low +0.051
+  [all eligible cells] SETTLE 0.264 vs TOKPRIOR 0.183: diff +0.081, bootstrap low -0.109
+  [all eligible cells] SETTLE 0.264 vs FINMARG 0.127: diff +0.137, bootstrap low -0.074
+  [all eligible cells] direction: later settle -> habit error in 5/10 cells, models agreeing 1
+VERDICT Q1 [all eligible cells]: no lamp here  {'strength >= 0.12': True, 'same direction >= 2/3 cells': np.False_, 'direction in >= 2 models': False, 'beats CONF by >= 0.05, low > 0': np.False_, 'beats LEN by >= 0.05, low > 0': np.True_, 'beats TOKPRIOR by >= 0.05, low > 0': np.False_, 'beats FINMARG by >= 0.05, low > 0': np.False_}
+  [all eligible cells] report-only strengths: {'MAIN': 0.264, 'SETTLE_RAW': 0.18, 'SETTLE_C': 0.267, 'FRAC': 0.27, 'FLIP75': 0.1, 'LEADMID': 0.243, 'CONF': 0.13, 'LEN': 0.05, 'TOKPRIOR': 0.183, 'FINMARG': 0.127}
+  [without hindgen] SETTLE 0.268 vs CONF 0.136: diff +0.132, bootstrap low -0.126
+  [without hindgen] SETTLE 0.268 vs LEN 0.062: diff +0.205, bootstrap low +0.001
+  [without hindgen] SETTLE 0.268 vs TOKPRIOR 0.173: diff +0.094, bootstrap low -0.134
+  [without hindgen] SETTLE 0.268 vs FINMARG 0.132: diff +0.136, bootstrap low -0.114
+  [without hindgen] direction: later settle -> habit error in 5/8 cells, models agreeing 3
+VERDICT Q1 [without hindgen]: no lamp here  {'strength >= 0.12': True, 'same direction >= 2/3 cells': np.False_, 'direction in >= 2 models': True, 'beats CONF by >= 0.05, low > 0': np.False_, 'beats LEN by >= 0.05, low > 0': np.True_, 'beats TOKPRIOR by >= 0.05, low > 0': np.False_, 'beats FINMARG by >= 0.05, low > 0': np.False_}
+  [without hindgen] report-only strengths: {'MAIN': 0.268, 'SETTLE_RAW': 0.214, 'SETTLE_C': 0.291, 'FRAC': 0.28, 'FLIP75': 0.101, 'LEADMID': 0.233, 'CONF': 0.136, 'LEN': 0.062, 'TOKPRIOR': 0.173, 'FINMARG': 0.132}
+
+== SETTLE distribution (review S2): share at the maximum (last-but-one layer disagrees), share 0, median
+  qwen14  at max 10%  zero 6%  median 0.72
+  phi4    at max 18%  zero 42%  median 0.51
+  olmo13  at max 7%  zero 47%  median 0.54
+
+== Q2 (report): share with a late flip (SETTLE >= 0.75) — the 'smoke alarm' view
+  qwen14  hindgen  trap habit-err  11% (n 57) | trap right  40% (n 43) | control   0% (n 40)
+  qwen14  redef    trap habit-err  45% (n 20) | trap right  36% (n 80) | control -
+  qwen14  parcels  trap habit-err  51% (n 74) | trap right  15% (n 26) | control   2% (n 40)
+  qwen14  bonus    trap habit-err   3% (n 94) | trap right  50% (n 4) | control   8% (n 40)
+  qwen14  D        trap habit-err  57% (n 21) | trap right  14% (n 70) | control   0% (n 40)
+  phi4    hindgen  trap habit-err   0% (n 99) | trap right   0% (n 1) | control   0% (n 40)
+  phi4    redef    trap habit-err  26% (n 47) | trap right  38% (n 53) | control -
+  phi4    parcels  trap habit-err  83% (n 41) | trap right  12% (n 58) | control   0% (n 40)
+  phi4    bonus    trap habit-err  24% (n 59) | trap right  83% (n 36) | control   5% (n 40)
+  phi4    D        trap habit-err  56% (n 62) | trap right  13% (n 38) | control  22% (n 40)
+  olmo13  hindgen  trap habit-err   0% (n 93) | trap right  14% (n 7) | control   0% (n 40)
+  olmo13  redef    trap habit-err  23% (n 91) | trap right  67% (n 9) | control -
+  olmo13  parcels  trap habit-err  29% (n 100) | trap right - | control   0% (n 40)
+  olmo13  bonus    trap habit-err   8% (n 95) | trap right - | control  15% (n 40)
+  olmo13  D        trap habit-err  53% (n 64) | trap right  11% (n 36) | control  18% (n 40)
+
+== Q3 (report): share of items whose CURRENT leader = the final answer, by depth (habit errors vs right, traps)
+  qwen14  habit-err n 266 d0.50  39% d0.60  55% d0.70  65% d0.80  83% d0.90  83% d0.95  86%
+  qwen14  right     n 223 d0.50  56% d0.60  51% d0.70  64% d0.80  87% d0.90  85% d0.95  88%
+  phi4    habit-err n 308 d0.50  66% d0.60  82% d0.70  82% d0.80  81% d0.90  78% d0.95  79%
+  phi4    right     n 186 d0.50  37% d0.60  51% d0.70  76% d0.80  77% d0.90  79% d0.95  78%
+  olmo13  habit-err n 443 d0.50  66% d0.60  81% d0.70  89% d0.80  90% d0.90  93% d0.95  96%
+  olmo13  right     n  52 d0.50  69% d0.60  75% d0.70  88% d0.80  85% d0.90  88% d0.95  94%
+
+== confidence check: Spearman SETTLE vs CONF within traps
+  qwen14  hindgen +0.35  redef +0.62  parcels +0.12  bonus +0.39  D +0.43
+  phi4    hindgen +0.22  redef +0.37  parcels +0.54  bonus +0.18  D +0.33
+  olmo13  hindgen +0.37  redef +0.33  parcels +0.63  bonus +0.21  D +0.21

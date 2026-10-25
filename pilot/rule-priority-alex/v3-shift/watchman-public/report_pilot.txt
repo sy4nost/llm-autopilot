@@ -1,0 +1,16 @@
+model   family     n trap right  habit conf.habit conf|wrong ctrl right   n  verdict
+qwen14  cpkc      60         53     47         43         96          -   0  CONFIDENT HABIT
+phi4    cpkc      60         62     38         28         90          -   0  
+olmo13  cpkc      60         47     53         38         88          -   0  CONFIDENT HABIT
+
+qwen14  modar     60         40     50         38         88        100  30  CONFIDENT HABIT
+phi4    modar     60         48     52         23         77        100  30  
+olmo13  modar     60          0    100        100        100        100  30  CONFIDENT HABIT
+
+qwen14  base9     60         53     22         20         91        100  30  
+phi4    base9     60         42     22          7         68        100  30  
+olmo13  base9     60          0    100         95         98        100  30  CONFIDENT HABIT
+
+Columns are per 100 trap items (conf|wrong = mean confidence of wrong fast answers, in %).
+Families with a confident habit in all 3 models: 
+... in at least 2 of 3 models: cpkc, modar
