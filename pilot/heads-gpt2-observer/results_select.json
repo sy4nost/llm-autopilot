@@ -1,0 +1,119 @@
+{
+ "candidates": [
+  {
+   "k": 0,
+   "template": "While {S} and {IO} were working at the {P}, {X} passed a {O} to",
+   "clean": 0.993,
+   "trap": 0.867,
+   "echo": 0.947,
+   "control": 0.98,
+   "no_hist": 1.0,
+   "drop": 0.133,
+   "ok": true
+  },
+  {
+   "k": 1,
+   "template": "{S} and {IO} met at the {P} yesterday, and {X} sent a {O} to",
+   "clean": 0.54,
+   "trap": 0.853,
+   "echo": 0.953,
+   "control": 0.98,
+   "no_hist": 0.513,
+   "drop": -0.34,
+   "ok": false
+  },
+  {
+   "k": 2,
+   "template": "On the way to the {P}, {S} and {IO} stopped, and {X} threw a {O} to",
+   "clean": 1.0,
+   "trap": 0.833,
+   "echo": 0.92,
+   "control": 0.947,
+   "no_hist": 0.987,
+   "drop": 0.154,
+   "ok": true
+  },
+  {
+   "k": 3,
+   "template": "Once {S} and {IO} got to the {P}, {X} brought a {O} to",
+   "clean": 0.913,
+   "trap": 0.793,
+   "echo": 0.933,
+   "control": 0.86,
+   "no_hist": 0.84,
+   "drop": 0.047,
+   "ok": false
+  },
+  {
+   "k": 4,
+   "template": "{S} and {IO} spent the morning at the {P}. Later, {X} offered a {O} to",
+   "clean": 0.52,
+   "trap": 0.88,
+   "echo": 0.993,
+   "control": 0.887,
+   "no_hist": 0.527,
+   "drop": -0.353,
+   "ok": false
+  },
+  {
+   "k": 5,
+   "template": "As {S} and {IO} were leaving the {P}, {X} showed a {O} to",
+   "clean": 0.98,
+   "trap": 0.787,
+   "echo": 0.96,
+   "control": 0.873,
+   "no_hist": 0.973,
+   "drop": 0.186,
+   "ok": true
+  },
+  {
+   "k": 6,
+   "template": "At the {P}, {S} and {IO} talked for hours, and then {X} lent a {O} to",
+   "clean": 0.987,
+   "trap": 0.84,
+   "echo": 0.947,
+   "control": 0.98,
+   "no_hist": 0.98,
+   "drop": 0.14,
+   "ok": true
+  },
+  {
+   "k": 7,
+   "template": "Before {S} and {IO} left the {P}, {X} returned a {O} to",
+   "clean": 0.94,
+   "trap": 0.833,
+   "echo": 0.987,
+   "control": 0.887,
+   "no_hist": 0.947,
+   "drop": 0.114,
+   "ok": true
+  },
+  {
+   "k": 8,
+   "template": "Yesterday {S} and {IO} visited the {P}, where {X} sold a {O} to",
+   "clean": 0.953,
+   "trap": 0.773,
+   "echo": 0.933,
+   "control": 0.973,
+   "no_hist": 0.967,
+   "drop": 0.194,
+   "ok": true
+  },
+  {
+   "k": 9,
+   "template": "{S} and {IO} were cleaning the {P} when {X} tossed a {O} to",
+   "clean": 0.46,
+   "trap": 0.847,
+   "echo": 0.9,
+   "control": 0.967,
+   "no_hist": 0.48,
+   "drop": -0.367,
+   "ok": false
+  }
+ ],
+ "chosen": [
+  "Yesterday {S} and {IO} visited the {P}, where {X} sold a {O} to",
+  "As {S} and {IO} were leaving the {P}, {X} showed a {O} to",
+  "On the way to the {P}, {S} and {IO} stopped, and {X} threw a {O} to"
+ ]
+}

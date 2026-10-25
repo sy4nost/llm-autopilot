@@ -1,0 +1,19 @@
+{
+ "note": "first check, original B wordings (overwritten file reconstructed from logs)",
+ "check": {
+  "A/clean": 0.993,
+  "A/control": 0.913,
+  "A/echo": 0.977,
+  "A/trap": 0.797,
+  "B/clean": 0.827,
+  "B/control": 0.94,
+  "B/echo": 0.937,
+  "B/trap": 0.867
+ },
+ "R_no_history": {
+  "A/echo": 0.993,
+  "A/trap": 0.977,
+  "B/echo": 0.833,
+  "B/trap": 0.807
+ }
+}

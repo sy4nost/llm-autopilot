@@ -1,0 +1,59 @@
+{
+ "check": {
+  "A/clean": {
+   "acc": 0.993,
+   "n": 300
+  },
+  "A/control": {
+   "acc": 0.913,
+   "n": 300
+  },
+  "A/echo": {
+   "acc": 0.977,
+   "n": 300
+  },
+  "A/trap": {
+   "acc": 0.797,
+   "n": 300
+  },
+  "B/clean": {
+   "acc": 0.96,
+   "n": 300
+  },
+  "B/control": {
+   "acc": 0.917,
+   "n": 300
+  },
+  "B/echo": {
+   "acc": 0.967,
+   "n": 300
+  },
+  "B/trap": {
+   "acc": 0.777,
+   "n": 300
+  }
+ },
+ "R_no_history": {
+  "A/echo": {
+   "acc": 0.993,
+   "n": 300
+  },
+  "A/trap": {
+   "acc": 0.977,
+   "n": 300
+  },
+  "B/echo": {
+   "acc": 0.96,
+   "n": 300
+  },
+  "B/trap": {
+   "acc": 0.963,
+   "n": 300
+  }
+ },
+ "b_templates": [
+  "Yesterday {S} and {IO} visited the {P}, where {X} sold a {O} to",
+  "As {S} and {IO} were leaving the {P}, {X} showed a {O} to",
+  "On the way to the {P}, {S} and {IO} stopped, and {X} threw a {O} to"
+ ]
+}
